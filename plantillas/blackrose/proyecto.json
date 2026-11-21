@@ -1,0 +1,62 @@
+{
+ "version": 2,
+ "canal": {
+  "nombre": "Blackrose TV",
+  "lema": "",
+  "logo": "",
+  "colores": {
+   "primario": "#ff2fd6",
+   "secundario": "#00e5ff",
+   "fondo": "#0b0716"
+  },
+  "tipografia": "Departure Mono",
+  "idioma": "es"
+ },
+ "estacion": {
+  "prompt_sistema": "",
+  "directriz": "",
+  "formatos": {
+   "noticias": {
+    "prompt": ""
+   },
+   "deportes": {
+    "prompt": ""
+   },
+   "panel": {
+    "prompt": ""
+   },
+   "entrevistas": {
+    "prompt": ""
+   },
+   "late_show": {
+    "prompt": ""
+   },
+   "documental": {
+    "prompt": ""
+   }
+  },
+  "apertura": "",
+  "cierre": ""
+ },
+ "ia": {
+  "modo": "local",
+  "secuencial": true,
+  "local": {
+   "llm_url": "http://127.0.0.1:8087/v1/chat/completions",
+   "modelo": "",
+   "antes_de_voz": "",
+   "antes_de_guion": ""
+  },
+  "online": {
+   "proveedor": "",
+   "modelo": ""
+  },
+  "voz": {
+   "motor": "xtts",
+   "url": "http://127.0.0.1:9020/tts",
+   "url_salud": ""
+  }
+ },
+ "reparto": {},
+ "programas": []
+}

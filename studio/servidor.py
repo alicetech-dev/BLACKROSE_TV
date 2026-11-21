@@ -12,6 +12,8 @@
   /ws                 WebSocket: el servidor manda {"t": "escena"|"plano"|"habla", ...}
   /reparto/<archivo>  VRM y miniaturas del proyecto (solo lectura)
   /api/reparto…       importar / listar / borrar VRM (ver studio/reparto.py)
+  /api/proyecto, /api/reparto/<id>/perfil   canal, estación, IA y ficha creativa (ver studio/proyecto.py)
+  /api/ia/…, /api/reparto/<id>/probar_voz   chequeos de salud y voz de prueba (ver studio/ia.py)
 
 Escucha solo en 127.0.0.1. El proyecto vive fuera del repo por defecto: $BRTV_STUDIO_DATA o ~/BlackroseStudio/<canal>.
 """
@@ -27,6 +29,8 @@ import tempfile
 
 from aiohttp import WSMsgType, web
 
+from .ia import IA
+from .proyecto import Proyecto
 from .reparto import Reparto
 
 log = logging.getLogger("studio")
@@ -94,7 +98,7 @@ def validar_parche(p: dict) -> dict:
 
 class Studio:
     def __init__(self, proyecto: str):
-        self.proyecto = proyecto
+        self.carpeta = proyecto
         self.reparto_dir = os.path.join(proyecto, "reparto")
         os.makedirs(self.reparto_dir, exist_ok=True)
         self.archivo = os.path.join(proyecto, "escena.json")
@@ -108,9 +112,11 @@ class Studio:
                 log.warning("escena guardada inválida (%s); uso la de fábrica", e)
         self.clientes: set[web.WebSocketResponse] = set()
         self.reparto = Reparto(self.reparto_dir, al_borrar=self.vrm_borrado)
+        self.proyecto = Proyecto(proyecto, existe_vrm=self.reparto.existe)
+        self.ia = IA(self.proyecto, self.reparto)
 
     def guardar(self) -> None:
-        fd, tmp = tempfile.mkstemp(dir=self.proyecto, suffix=".tmp")       # escritura atómica: un corte no deja el JSON a medias
+        fd, tmp = tempfile.mkstemp(dir=self.carpeta, suffix=".tmp")       # escritura atómica: un corte no deja el JSON a medias
         with os.fdopen(fd, "w", encoding="utf-8") as f:
             json.dump(self.escena, f, ensure_ascii=False, indent=1)
         os.replace(tmp, self.archivo)
@@ -131,7 +137,8 @@ class Studio:
                 self.escena[k] = v
 
     async def vrm_borrado(self, rid: str) -> None:
-        """Si la escena usaba ese VRM, ese puesto vuelve a la silueta."""
+        """Si la escena usaba ese VRM, ese puesto vuelve a la silueta; su ficha de voz y personalidad se borra."""
+        self.proyecto.olvidar(rid)
         url, cambio = f"/reparto/{rid}.vrm", False
         for r in self.escena.get("reparto", []):
             if r.get("vrm") == url:
@@ -219,6 +226,8 @@ def crear_app(proyecto: str = PROYECTO_DEF) -> web.Application:
     r.add_post("/api/habla", st.post_habla)
     r.add_get("/api/sets", st.get_sets)
     st.reparto.registrar(r)
+    st.proyecto.registrar(r)
+    st.ia.registrar(r)
     r.add_get("/ws", st.ws)
     r.add_static("/js/", os.path.join(WEB, "js"), show_index=False)
     r.add_static("/css/", os.path.join(WEB, "css"), show_index=False)
