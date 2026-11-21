@@ -34,4 +34,9 @@ cámaras de pedestal, vara con micrófono), 4 planos (frontal, general móvil, g
 Paso 2 listo: **Mi Reparto** — arrastrar un `.vrm` (0.x/1.0), validación (esqueleto, boca, parpadeo, licencia,
 peso), texturas > 2048 px achicadas (original guardado), miniatura (la del VRM o foto del navegador), vista 3D girable
 y «llevar al set». CLI: `python -m studio.vrm archivo.vrm [--optimizar salida.vrm]`.
+Paso 3 listo: **Estación** — prompts de la estación (sistema, directriz, uno por formato, apertura y cierre), vacíos
+de fábrica y con guardado automático; IA local en secuencia (LLM → liberar VRAM → XTTS) con «Probar conexión» que solo
+mira la salud (no genera ni despierta modelos); instrucción técnica fija a la vista. En Mi Reparto, ficha de **voz y
+personalidad** (rol, voz XTTS con temperatura/velocidad/tono, idioma, personalidad, muletillas) y **▶ Probar voz** con
+una frase que escribes tú. Todo queda en `proyecto.json` (v2). Plantilla de ejemplo: `plantillas/blackrose/`.
 Diseño y plan: `docs/FASE0_DISENO.md`. Pruebas: `python -m pytest`.

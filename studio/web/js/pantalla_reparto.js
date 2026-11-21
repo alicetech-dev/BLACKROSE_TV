@@ -2,6 +2,11 @@
 import { crearVistaAvatar } from './vista_avatar.js';
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const ROLES = ['', 'conductora', 'panelista', 'reportera', 'invitada', 'fondo'];
+const IDIOMAS = ['', 'es', 'en', 'ja', 'pt', 'fr', 'de', 'it'];
+const DESLIZ = [['temperatura', 0.05, 1.5, 0.05], ['velocidad', 0.5, 2, 0.05], ['tono', 0.5, 2, 0.01]];
+const leer = (o, ruta) => ruta.split('.').reduce((x, k) => x?.[k], o);
+const parche = (ruta, v) => ruta.split('.').reduceRight((acc, k) => ({ [k]: acc }), v);
 const mb = (b) => (b / 1048576).toFixed(1).replace('.', ',') + ' MB';
 
 export function montarReparto(raiz, { t, escena, enviarEscena, alCambiarLista = () => {} }) {
@@ -27,6 +32,23 @@ export function montarReparto(raiz, { t, escena, enviarEscena, alCambiarLista = 
       <label>${t('rep.poner_en')}</label>
       <div class="fila"><select id="d_puesto"></select><button class="boton" id="d_poner">${t('rep.poner')}</button></div>
       <small class="ayuda">${t('rep.girar')}</small>
+      <div class="ficha" id="ficha">
+        <div class="cabeza"><h2>${t('fic.titulo')}</h2><span class="guardado" id="f_estado"></span></div>
+        <div class="fila">
+          <div><label>${t('fic.rol')}</label><select data-p="rol">${ROLES.map((r) => `<option value="${r}">${t('rol.' + (r || 'ninguno'))}</option>`).join('')}</select></div>
+          <div><label>${t('fic.idioma')}</label><select data-p="idioma">${IDIOMAS.map((i) => `<option value="${i}">${t('idioma.' + (i || 'canal'))}</option>`).join('')}</select></div>
+        </div>
+        <label>${t('fic.voice')}</label><input type="text" data-p="voz.voice" maxlength="120" spellcheck="false" placeholder="${esc(t('fic.voice_ph'))}">
+        ${DESLIZ.map(([k, lo, hi, paso]) => `<div class="desliz"><label>${t('fic.' + k)}</label><input type="range" min="${lo}" max="${hi}" step="${paso}" data-p="voz.${k}" data-num="1"><output data-ver="voz.${k}"></output></div>`).join('')}
+        <div class="prueba-voz">
+          <input type="text" id="f_frase" maxlength="300" placeholder="${esc(t('fic.frase_ph'))}">
+          <button class="boton" id="f_probar">▶ ${t('fic.probar')}</button>
+        </div>
+        <span class="resultado" id="f_voz"></span>
+        <audio id="f_audio" hidden></audio>
+        <label>${t('fic.personalidad')}</label><textarea data-p="personalidad" rows="4" maxlength="4000" placeholder="${esc(t('fic.personalidad_ph'))}"></textarea>
+        <label>${t('fic.muletillas')}</label><textarea data-p="muletillas" data-lista="1" rows="3" placeholder="${esc(t('fic.muletillas_ph'))}"></textarea>
+      </div>
     </div>
   </div>`;
   const $ = (s) => raiz.querySelector(s);
@@ -74,6 +96,7 @@ export function montarReparto(raiz, { t, escena, enviarEscena, alCambiarLista = 
     $('#detalle').hidden = !sel; $('#vacio').hidden = !!sel;
     if (!sel) { await vista.mostrar(null); return; }
     $('#d_nombre').textContent = sel.nombre; $('#d_chips').innerHTML = chips(sel); puestos();
+    cargarFicha(sel.id);
     const ok = await vista.mostrar(sel.vrm);
     if (ok && !sel.miniatura) await guardarFoto();               // sin miniatura propia: se saca sola
   }
@@ -128,6 +151,71 @@ export function montarReparto(raiz, { t, escena, enviarEscena, alCambiarLista = 
     rep[i].vrm = sel.vrm; if (!rep[i].nombre) rep[i].nombre = sel.nombre;
     await enviarEscena({ reparto: rep }); puestos();
   });
+
+  // ── ficha de voz y personalidad (guardado automático) ──
+  let perfil = null, fPend = {}, fReloj = null, fId = null;
+  const fEstado = (clase, txt) => { const e = $('#f_estado'); e.className = 'guardado ' + clase; e.textContent = txt; };
+  const verDesliz = () => { for (const o of raiz.querySelectorAll('[data-ver]')) o.textContent = (+leer(perfil, o.dataset.ver)).toFixed(2); };
+  function pintarFicha() {
+    for (const el of raiz.querySelectorAll('#ficha [data-p]')) {
+      if (document.activeElement === el) continue;
+      const v = leer(perfil, el.dataset.p);
+      el.value = el.dataset.lista ? (v || []).join('\n') : (v ?? '');
+    }
+    verDesliz();
+  }
+  async function cargarFicha(id) {
+    fId = id; perfil = null; fEstado('', ''); $('#f_voz').textContent = '';
+    const r = await fetch(`/api/reparto/${id}/perfil`);
+    if (r.ok && fId === id) { perfil = await r.json(); pintarFicha(); }
+  }
+  const unir = (a, b) => { for (const [k, v] of Object.entries(b)) a[k] = (v && typeof v === 'object' && !Array.isArray(v) && a[k] && typeof a[k] === 'object') ? unir(a[k], v) : v; return a; };
+  async function guardarFicha() {
+    const p = fPend, id = fId; fPend = {}; fReloj = null;
+    if (!Object.keys(p).length || !id) return;
+    fEstado('guardando', t('guardando'));
+    try {
+      const r = await fetch(`/api/reparto/${id}/perfil`, { method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(p) });
+      const d = await r.json();
+      if (!r.ok) { fEstado('mal', '⚠ ' + (d.error || r.status)); return; }
+      if (id === fId) { perfil = d; pintarFicha(); if (!fReloj) fEstado('ok', '✓ ' + t('guardado')); }
+    } catch (_) { fEstado('mal', '⚠ ' + t('desconectado')); }
+  }
+  $('#ficha').addEventListener('input', (e) => {
+    const el = e.target.closest('[data-p]'); if (!el || !perfil) return;
+    let v = el.value;
+    if (el.dataset.num) v = +v;
+    if (el.dataset.lista) v = v.split('\n').map((x) => x.trim()).filter(Boolean);
+    unir(perfil, parche(el.dataset.p, v)); verDesliz();
+    unir(fPend, parche(el.dataset.p, v)); clearTimeout(fReloj); fEstado('guardando', t('sin_guardar'));
+    fReloj = setTimeout(guardarFicha, el.tagName === 'SELECT' ? 0 : 700);
+  });
+  $('#ficha').addEventListener('focusout', () => { if (fReloj) { clearTimeout(fReloj); guardarFicha(); } });
+
+  // ── ▶ probar voz: el servidor sintetiza con XTTS la frase que escribió ella ──
+  $('#f_probar').addEventListener('click', async () => {
+    const caja = $('#f_voz'), b = $('#f_probar'), frase = $('#f_frase').value.trim();
+    if (!sel || !perfil) return;
+    if (!frase) { caja.className = 'resultado aviso'; caja.textContent = t('voz.sin_frase'); $('#f_frase').focus(); return; }
+    if (fReloj) { clearTimeout(fReloj); await guardarFicha(); }
+    b.disabled = true; caja.className = 'resultado'; caja.textContent = t('voz.generando');
+    const lento = setTimeout(() => { caja.className = 'resultado aviso'; caja.textContent = t('voz.arrancando'); }, 2500);
+    try {
+      const r = await fetch(`/api/reparto/${sel.id}/probar_voz`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ frase, voz: perfil.voz }) });
+      clearTimeout(lento);
+      if (r.ok) {
+        const a = $('#f_audio'); if (a.src) URL.revokeObjectURL(a.src);
+        a.src = URL.createObjectURL(await r.blob());
+        caja.className = 'resultado ok'; caja.textContent = '♪ ' + t('voz.sonando');
+        try { await a.play(); } catch (_) { caja.textContent = t('voz.sin_permiso_audio'); }
+      } else {
+        let d = {}; try { d = await r.json(); } catch (_) {}
+        caja.className = 'resultado mal'; caja.textContent = t('voz.err.' + (d.codigo || 'rechazo')) + (d.error && d.codigo !== 'no_responde' ? ` · ${d.error}` : '');
+      }
+    } catch (_) { clearTimeout(lento); caja.className = 'resultado mal'; caja.textContent = t('desconectado'); }
+    b.disabled = false;
+  });
+  $('#f_frase').addEventListener('keydown', (e) => { if (e.key === 'Enter') $('#f_probar').click(); });
 
   const listo = recargar();
   return { recargar, puestos, activar: (arg) => { puestos(); if (arg) listo.then(() => seleccionar(arg)); } };

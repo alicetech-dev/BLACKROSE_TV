@@ -90,3 +90,43 @@ main.reparto { display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 
 .boton.suave { background: var(--panel2); border: 1px solid var(--borde); color: var(--texto); }
 .boton.peligro { background: none; border: 1px solid var(--mal); color: var(--mal); flex: 0 0 auto; }
 .ayuda { color: var(--suave); font-size: 12px; }
+
+/* ── Estación ── */
+main.estacion { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 16px; padding: 16px; align-items: start; }
+@media (max-width: 1000px) { main.estacion { grid-template-columns: 1fr; } }
+.est-izq, .est-der { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.cabeza { display: flex; align-items: baseline; gap: 10px; }
+.cabeza h2 { flex: 1; }
+textarea { width: 100%; background: var(--panel2); border: 1px solid var(--borde); border-radius: 10px; padding: 10px 12px; font: 14px/1.5 system-ui, sans-serif; color: var(--texto); resize: vertical; min-height: 80px; }
+textarea:focus, input[type=text]:focus { outline: 2px solid var(--p); outline-offset: -1px; }
+.campo-largo { position: relative; }
+.contador { display: block; text-align: right; font-size: 11px; color: var(--suave); margin-top: 2px; }
+.contador.lleno { color: #ffc861; }
+.guardado { font-size: 12px; color: var(--suave); white-space: nowrap; }
+.guardado.ok { color: var(--ok); } .guardado.mal { color: var(--mal); } .guardado.guardando { color: #ffc861; }
+.pestanas { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.pestanas button { background: var(--panel2); border: 1px solid var(--borde); border-radius: 999px; padding: 5px 12px; cursor: pointer; color: var(--suave); font-size: 13px; }
+.pestanas button.activo { border-color: var(--s); color: var(--texto); }
+.pestanas button i { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-left: 6px; background: var(--borde); vertical-align: middle; }
+.pestanas button.con i { background: var(--ok); }
+.tarjeta.dos { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 700px) { .tarjeta.dos { grid-template-columns: 1fr; } }
+.tarjeta.dos label { margin-top: 0; }
+details.fija summary { cursor: pointer; color: var(--suave); font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; }
+details.fija pre { background: #000; border-radius: 8px; padding: 10px; font-size: 12px; white-space: pre-wrap; color: var(--suave); margin: 0; }
+.prueba { margin-top: 10px; flex-wrap: wrap; }
+.prueba .boton { flex: 0 0 auto; }
+.resultado { font-size: 13px; color: var(--suave); }
+.resultado.ok { color: var(--ok); } .resultado.aviso { color: #ffc861; } .resultado.mal { color: var(--mal); }
+.apagada { opacity: .5; }
+.boton:disabled { opacity: .5; cursor: wait; }
+
+/* ── ficha de voz y personalidad (Mi Reparto) ── */
+.ficha { border-top: 1px solid var(--borde); margin-top: 12px; padding-top: 12px; }
+.ficha h2 { margin: 0; font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--suave); }
+.desliz { display: grid; grid-template-columns: 110px 1fr 44px; align-items: center; gap: 8px; }
+.desliz label { margin: 6px 0; }
+.desliz output { font-size: 12px; color: var(--suave); text-align: right; font-variant-numeric: tabular-nums; }
+.prueba-voz { display: flex; gap: 8px; margin: 10px 0 4px; }
+.prueba-voz input { flex: 1; }
+.prueba-voz .boton { flex: 0 0 auto; }

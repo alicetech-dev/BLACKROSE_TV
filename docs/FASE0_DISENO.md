@@ -66,14 +66,17 @@ studio-proyectos/<canal>/        (fuera del repo por defecto: $BRTV_HOME/proyect
   proyecto.json  reparto/<id>.vrm  sets/  programas/<id>/  media/  cache_voz/
 ```
 
-## 4. Esquema de `proyecto.json` (v1)
+## 4. Esquema de `proyecto.json` (v2)
+
+Lo implementa `studio/proyecto.py` (validación, escritura atómica y migración desde v1). La ficha técnica de cada VRM
+(archivo, miniatura, informe, licencia) vive en `reparto/<id>.json`; aquí solo queda lo creativo.
 
 ```jsonc
 {
-  "version": 1,
-  "canal": { "nombre": "Blackrose TV", "lema": "", "logo": "media/logo.png",
+  "version": 2,
+  "canal": { "nombre": "", "lema": "", "logo": "",           // logo: media/<archivo>.png|jpg|webp|svg
              "colores": { "primario": "#ff2fd6", "secundario": "#00e5ff", "fondo": "#0b0716" },
-             "tipografia": "Departure Mono", "idioma": "es" },
+             "tipografia": "", "idioma": "es" },
   "estacion": {                                 // pantalla «Estación»: todo vacío de fábrica, lo llena la persona
     "prompt_sistema": "", "directriz": "",
     "formatos": { "noticias": { "prompt": "" }, "deportes": { "prompt": "" }, "panel": { "prompt": "" },
@@ -82,19 +85,26 @@ studio-proyectos/<canal>/        (fuera del repo por defecto: $BRTV_HOME/proyect
   "ia": { "modo": "local",                      // local | online | manual
           "secuencial": true,                   // LLM y TTS nunca a la vez
           "local": { "llm_url": "http://127.0.0.1:8087/v1/chat/completions", "modelo": "",
-                     "antes_de_voz": "", "antes_de_guion": "" },   // ganchos (comando) para liberar VRAM entre etapas
+                     "antes_de_voz": "", "antes_de_guion": "" },   // ganchos (un comando) para liberar VRAM entre etapas
           "online": { "proveedor": "", "modelo": "" },             // la clave va en .env, nunca aquí
-          "voz": { "motor": "xtts", "url": "http://127.0.0.1:9020/tts" } },
-  "reparto": [
-    { "id": "joy", "nombre": "Joy", "vrm": "reparto/joy.vrm", "miniatura": "reparto/joy.png",
-      "rol": "conductora",                      // conductora | panelista | reportera | invitada | fondo
-      "voz": { "motor": "xtts", "voice": "", "temperatura": 0.75, "velocidad": 1.0, "tono": 1.0 },
-      "idioma": "es", "personalidad": "", "muletillas": [],
-      "altura_m": 1.62, "licencia": { "uso_avatar": "OnlyAuthor", "comercial": false } }
-  ],
+          "voz": { "motor": "xtts", "url": "http://127.0.0.1:9020/tts",
+                   "url_salud": "" } },         // opcional: un /health que NO despierte XTTS (el proxy lo levanta con cualquier pedido)
+  "reparto": {                                  // id del VRM importado → ficha creativa (se borra al quitar el VRM)
+    "joy": { "rol": "",                         // "" | conductora | panelista | reportera | invitada | fondo
+             "voz": { "voice": "", "temperatura": 0.75, "velocidad": 1.0, "tono": 1.0 },
+             "idioma": "",                      // vacío = el del canal
+             "personalidad": "", "muletillas": [] }
+  },
   "programas": ["programas/2026-11-21-noticias-01"]
 }
 ```
+
+**Migración v1 → v2:** el `reparto` pasa de lista a objeto por id; `vrm`, `miniatura`, `altura_m` y `licencia` salen
+(están en la ficha del VRM) y `voz.motor` por integrante se reemplaza por `ia.voz.motor`. Un archivo ilegible o fuera
+del esquema no se pisa: queda como `proyecto.json.roto` y el Studio arranca de fábrica.
+
+**Instrucción técnica fija** (`studio/ia.py`, `INSTRUCCION_FORMATO`): la única que trae el código; pide el JSON
+`{"lineas": [{"quien", "texto", "expresion", "gc"}]}`. Se ve en Estación, no se edita.
 
 `programas/<id>/programa.json`:
 

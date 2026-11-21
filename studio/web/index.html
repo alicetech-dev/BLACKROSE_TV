@@ -49,9 +49,11 @@
   </aside>
 </main>
 <main data-pantalla="reparto" class="reparto" hidden></main>
+<main data-pantalla="estacion" class="estacion" hidden></main>
 <script type="module">
 import { crearEscena, conectar } from '/js/escena.js';
 import { montarReparto } from '/js/pantalla_reparto.js';
+import { montarEstacion } from '/js/pantalla_estacion.js';
 
 // ── i18n ──
 const idioma = (navigator.language || 'es').slice(0, 2);
@@ -61,7 +63,7 @@ const t = (k) => T[k] ?? k;
 const traducir = (raiz = document) => raiz.querySelectorAll('[data-t]').forEach((el) => { el.textContent = t(el.dataset.t); });
 
 // ── pestañas (las que aún no existen se ven como «próximamente») ──
-const TABS = [['estacion', false], ['canal', false], ['reparto', true], ['set', true], ['guion', false], ['generar', false]];
+const TABS = [['estacion', true], ['canal', false], ['reparto', true], ['set', true], ['guion', false], ['generar', false]];
 document.getElementById('tabs').innerHTML = TABS.map(([id, listo]) =>
   `<button data-tab="${id}" ${listo ? '' : 'disabled'}><span data-t="tab.${id}"></span>${listo ? '' : `<small data-t="pronto"></small>`}</button>`).join('');
 const irA = (ruta) => {
@@ -149,6 +151,9 @@ ctrl.alCambiar(pintarCamaras); pintarCamaras(ctrl.info());
 const url = `${location.origin}/salida`;
 $('#url_salida').textContent = url;
 $('#copiar').addEventListener('click', async () => { try { await navigator.clipboard.writeText(url); $('#copiar').textContent = t('copiado'); setTimeout(() => { $('#copiar').textContent = t('copiar'); }, 1500); } catch (_) {} });
+
+// ── Estación ──
+pantallas.estacion = montarEstacion(document.querySelector('main[data-pantalla="estacion"]'), { t });
 
 // ── Mi Reparto ──
 pantallas.reparto = montarReparto(document.querySelector('main[data-pantalla="reparto"]'), {
