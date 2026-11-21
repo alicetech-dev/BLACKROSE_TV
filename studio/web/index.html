@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio · Set</title>
+<link rel="stylesheet" href="/css/studio.css">
+<script type="importmap">
+{ "imports": { "three": "/vendor/three.module.js", "three/addons/": "/vendor/addons/", "@pixiv/three-vrm": "/vendor/three-vrm.module.min.js" } }
+</script>
+</head>
+<body>
+<header>
+  <h1><b>▶</b> <span data-t="app"></span></h1>
+  <nav id="tabs"></nav>
+  <span id="estado" data-t="desconectado"></span>
+</header>
+<main>
+  <section>
+    <div class="vista" id="vista"><span class="chip" id="chip">—</span></div>
+    <div class="camaras" id="camaras"></div>
+  </section>
+  <aside>
+    <div class="tarjeta"><h2 data-t="set.elegir"></h2><div class="sets" id="sets"></div></div>
+    <div class="tarjeta">
+      <h2 data-t="pantallas"></h2>
+      <label data-t="canal.nombre"></label><input type="text" id="canal" maxlength="40">
+      <label data-t="titular"></label><input type="text" id="titular" maxlength="120">
+    </div>
+    <div class="tarjeta">
+      <h2 data-t="ambiente"></h2>
+      <div class="alterna" id="ambiente"><button data-v="noche" data-t="noche"></button><button data-v="dia" data-t="dia"></button></div>
+      <h2 style="margin-top:14px" data-t="luces"></h2>
+      <label data-t="luz.key"></label><input type="range" min="0" max="2" step="0.05" data-luz="key">
+      <label data-t="luz.fill"></label><input type="range" min="0" max="2" step="0.05" data-luz="fill">
+      <label data-t="luz.rim"></label><input type="range" min="0" max="2" step="0.05" data-luz="rim">
+      <div class="fila"><label data-t="luz.rim_color"></label><input type="color" id="rim_color"></div>
+    </div>
+    <div class="tarjeta">
+      <h2 data-t="colores"></h2>
+      <div class="fila"><label data-t="color.primario"></label><input type="color" data-color="primario"><label data-t="color.secundario"></label><input type="color" data-color="secundario"></div>
+    </div>
+    <div class="tarjeta"><h2 data-t="reparto"></h2><div id="reparto"></div></div>
+    <div class="tarjeta obs">
+      <h2 data-t="obs"></h2><code id="url_salida"></code>
+      <button class="boton" id="copiar" data-t="copiar"></button>
+      <p data-t="obs.ayuda"></p>
+    </div>
+  </aside>
+</main>
+<script type="module">
+import { crearEscena, conectar } from '/js/escena.js';
+
+// ── i18n ──
+const idioma = (navigator.language || 'es').slice(0, 2);
+let T = {};
+try { T = await (await fetch(`/i18n/${idioma}.json`)).json(); } catch (_) { T = await (await fetch('/i18n/es.json')).json(); }
+const t = (k) => T[k] ?? k;
+const traducir = (raiz = document) => raiz.querySelectorAll('[data-t]').forEach((el) => { el.textContent = t(el.dataset.t); });
+
+// ── pestañas (solo «Set» está lista en este paso) ──
+const TABS = [['estacion', false], ['canal', false], ['reparto', false], ['set', true], ['guion', false], ['generar', false]];
+document.getElementById('tabs').innerHTML = TABS.map(([id, listo]) =>
+  `<button class="${id === 'set' ? 'activo' : ''}" ${listo ? '' : 'disabled'}><span data-t="tab.${id}"></span>${listo ? '' : `<small data-t="pronto"></small>`}</button>`).join('');
+
+// ── sets (los que existen en /js/sets; el resto se ven como próximos) ──
+const SETS = [['noticias', '📰'], ['deportes', '⚽'], ['panel', '🛋'], ['entrevistas', '🪑'], ['late_show', '🎷'], ['documental', '🎬']];
+const hay = new Set(await (await fetch('/api/sets')).json());
+const cajaSets = document.getElementById('sets');
+cajaSets.innerHTML = SETS.map(([id, ic]) => `<button class="set" data-set="${id}" ${hay.has(id) ? '' : 'disabled'}><span class="ic">${ic}</span><span data-t="set.${id}"></span></button>`).join('');
+traducir();
+
+// ── escena ──
+const vista = document.getElementById('vista');
+const ctrl = await crearEscena(vista, { calidad: 'medio' });
+let escena = await (await fetch('/api/escena')).json();
+await ctrl.aplicar(escena);
+window.__studio = ctrl;
+
+const enviar = async (parche) => {
+  const r = await fetch('/api/escena', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(parche) });
+  if (!r.ok) console.warn('[studio]', (await r.json()).error);
+};
+const demorar = (f, ms = 160) => { let h; return (...a) => { clearTimeout(h); h = setTimeout(() => f(...a), ms); }; };
+const enviarLuego = demorar(enviar);
+
+// ── controles ⇄ escena ──
+const $ = (s) => document.querySelector(s);
+const enfocado = (el) => document.activeElement === el;
+function pintar(e) {
+  escena = e;
+  for (const b of cajaSets.querySelectorAll('.set')) b.classList.toggle('activo', b.dataset.set === e.set);
+  if (!enfocado($('#canal'))) $('#canal').value = e.canal || '';
+  if (!enfocado($('#titular'))) $('#titular').value = e.titular || '';
+  for (const b of $('#ambiente').children) b.classList.toggle('activo', b.dataset.v === (e.ambiente || 'noche'));
+  for (const r of document.querySelectorAll('[data-luz]')) if (!enfocado(r)) r.value = e.luces?.[r.dataset.luz] ?? 1;
+  $('#rim_color').value = e.luces?.rim_color || e.colores?.primario || '#ff2fd6';
+  for (const c of document.querySelectorAll('[data-color]')) c.value = e.colores?.[c.dataset.color] || '#ffffff';
+  pintarReparto(e.reparto || []);
+}
+const POS = ['mesa_izq', 'mesa_der', 'mesa_centro', 'pie_wall', 'prensa'];
+function pintarReparto(lista) {
+  const caja = $('#reparto');
+  if (caja.contains(document.activeElement)) return;
+  caja.innerHTML = lista.map((p, i) => `<div class="persona" data-i="${i}">
+      <input type="color" value="${p.color || '#ff6fb5'}" data-campo="color">
+      <div><input type="text" value="${(p.nombre || '').replace(/"/g, '&quot;')}" data-campo="nombre" placeholder="${p.id}" maxlength="32">
+      <select data-campo="pos" style="margin-top:6px">${POS.map((k) => `<option value="${k}" ${k === p.pos ? 'selected' : ''}>${t('pos.' + k)}</option>`).join('')}</select></div></div>`).join('');
+}
+$('#reparto').addEventListener('input', (ev) => {
+  const fila = ev.target.closest('.persona'); if (!fila) return;
+  const lista = structuredClone(escena.reparto); lista[+fila.dataset.i][ev.target.dataset.campo] = ev.target.value;
+  escena.reparto = lista; enviarLuego({ reparto: lista });
+});
+cajaSets.addEventListener('click', (ev) => { const b = ev.target.closest('.set'); if (b && !b.disabled) enviar({ set: b.dataset.set }); });
+$('#canal').addEventListener('input', (ev) => enviarLuego({ canal: ev.target.value }));
+$('#titular').addEventListener('input', (ev) => enviarLuego({ titular: ev.target.value }));
+$('#ambiente').addEventListener('click', (ev) => { const v = ev.target.dataset.v; if (v) enviar({ ambiente: v }); });
+for (const r of document.querySelectorAll('[data-luz]')) r.addEventListener('input', () => enviarLuego({ luces: { [r.dataset.luz]: +r.value } }));
+$('#rim_color').addEventListener('input', (ev) => enviarLuego({ luces: { rim_color: ev.target.value } }));
+for (const c of document.querySelectorAll('[data-color]')) c.addEventListener('input', () => enviarLuego({ colores: { [c.dataset.color]: c.value } }));
+
+// ── cámaras ──
+const cajaCam = $('#camaras');
+function pintarCamaras(i) {
+  const botones = [{ id: 'auto', nombre: t('auto'), tipo: '' }, ...i.planos];
+  cajaCam.innerHTML = botones.map((c) => `<button class="cam ${c.id === i.plano ? 'activo' : ''} ${c.id === i.activo ? 'aire' : ''}" data-plano="${c.id}"><b>${c.nombre}</b><small>${c.tipo === 'movil' ? '↝ móvil' : c.tipo === 'fija' ? 'fija' : '⟳'}</small></button>`).join('');
+  $('#chip').textContent = (i.planos.find((p) => p.id === i.activo)?.nombre || '—').toUpperCase();
+}
+cajaCam.addEventListener('click', (ev) => { const b = ev.target.closest('.cam'); if (b) fetch('/api/plano', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ plano: b.dataset.plano }) }); });
+ctrl.alCambiar(pintarCamaras); pintarCamaras(ctrl.info());
+
+// ── salida OBS ──
+const url = `${location.origin}/salida`;
+$('#url_salida').textContent = url;
+$('#copiar').addEventListener('click', async () => { try { await navigator.clipboard.writeText(url); $('#copiar').textContent = t('copiado'); setTimeout(() => { $('#copiar').textContent = t('copiar'); }, 1500); } catch (_) {} });
+
+// ── servidor ──
+pintar(escena);
+const ws = conectar({ ...ctrl, aplicar: async (e) => { await ctrl.aplicar(e); pintar(e); } }, {
+  alEstado: (v) => { const s = $('#estado'); s.classList.toggle('ok', v); s.textContent = t(v ? 'conectado' : 'desconectado'); },
+});
+</script>
+</body>
+</html>

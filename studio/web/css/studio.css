@@ -1,0 +1,53 @@
+:root {
+  --fondo: #0c0918; --panel: #171230; --panel2: #201a40; --borde: #34295f; --texto: #efeaff; --suave: #a89bd6;
+  --p: #ff2fd6; --s: #00e5ff; --ok: #7dffc4; --mal: #ff5f7a; --r: 14px;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: var(--fondo); color: var(--texto); font: 15px/1.4 system-ui, sans-serif; }
+button, input, select { font: inherit; color: inherit; }
+header { display: flex; align-items: center; gap: 18px; padding: 10px 18px; background: linear-gradient(90deg, #1a0f33, #0c0918); border-bottom: 1px solid var(--borde); flex-wrap: wrap; }
+header h1 { margin: 0; font-size: 20px; letter-spacing: 2px; }
+header h1 b { color: var(--p); }
+nav { display: flex; gap: 6px; flex-wrap: wrap; }
+nav button { background: none; border: 1px solid transparent; border-radius: 999px; padding: 6px 14px; color: var(--suave); cursor: pointer; }
+nav button.activo { background: var(--panel2); border-color: var(--p); color: var(--texto); }
+nav button:disabled { opacity: .45; cursor: default; }
+nav button small { font-size: 10px; display: block; line-height: 1; }
+#estado { margin-left: auto; font-size: 13px; color: var(--suave); }
+#estado::before { content: '●'; margin-right: 6px; color: var(--mal); }
+#estado.ok::before { color: var(--ok); }
+main { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 16px; padding: 16px; }
+@media (max-width: 1000px) { main { grid-template-columns: 1fr; } }
+.vista { background: #000; border-radius: var(--r); overflow: hidden; border: 1px solid var(--borde); aspect-ratio: 16 / 9; position: relative; }
+.vista canvas { display: block; width: 100% !important; height: auto !important; }
+.vista .chip { position: absolute; left: 12px; top: 10px; background: #000b; border: 1px solid var(--p); border-radius: 999px; padding: 2px 10px; font-size: 12px; letter-spacing: 1px; }
+.vista .chip::before { content: '● '; color: #ff2f4f; }
+.camaras { display: flex; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
+.cam { background: var(--panel); border: 2px solid var(--borde); border-radius: 12px; padding: 10px 16px; cursor: pointer; min-width: 120px; text-align: left; }
+.cam b { display: block; }
+.cam small { color: var(--suave); }
+.cam.activo { border-color: var(--p); box-shadow: 0 0 0 3px #ff2fd633; }
+.cam.aire { border-color: #ff2f4f; }
+aside { display: flex; flex-direction: column; gap: 12px; }
+.tarjeta { background: var(--panel); border: 1px solid var(--borde); border-radius: var(--r); padding: 14px; }
+.tarjeta h2 { margin: 0 0 10px; font-size: 13px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--suave); }
+.sets { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.set { background: var(--panel2); border: 2px solid transparent; border-radius: 10px; padding: 10px 4px; text-align: center; cursor: pointer; font-size: 13px; }
+.set .ic { font-size: 22px; display: block; }
+.set.activo { border-color: var(--s); }
+.set:disabled { opacity: .4; cursor: default; }
+label { display: block; font-size: 13px; color: var(--suave); margin: 8px 0 4px; }
+input[type=text], select { width: 100%; background: var(--panel2); border: 1px solid var(--borde); border-radius: 8px; padding: 8px 10px; }
+input[type=range] { width: 100%; accent-color: var(--p); }
+input[type=color] { width: 44px; height: 30px; border: 1px solid var(--borde); border-radius: 8px; background: none; padding: 2px; }
+.fila { display: flex; gap: 10px; align-items: center; }
+.fila > * { flex: 1; }
+.alterna { display: flex; background: var(--panel2); border-radius: 999px; padding: 3px; }
+.alterna button { flex: 1; border: 0; background: none; border-radius: 999px; padding: 6px; cursor: pointer; color: var(--suave); }
+.alterna button.activo { background: var(--p); color: #fff; }
+.persona { display: grid; grid-template-columns: 40px 1fr; gap: 8px; align-items: center; padding: 8px 0; border-top: 1px solid var(--borde); }
+.persona:first-of-type { border-top: 0; }
+.obs code { display: block; background: #000; border-radius: 8px; padding: 8px; font-size: 13px; word-break: break-all; margin-bottom: 8px; }
+.obs p { font-size: 12px; color: var(--suave); margin: 8px 0 0; }
+.boton { background: var(--p); color: #fff; border: 0; border-radius: 999px; padding: 8px 18px; cursor: pointer; font-weight: 700; }

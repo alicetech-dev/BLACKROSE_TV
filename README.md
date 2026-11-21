@@ -26,3 +26,9 @@ Modelos VRM, audio/video (`director/web/tv/media`), caché de voz, logs, estado 
 
 ## Siguiente: Blackrose TV Studio Manager
 Modo offline para crear programas (sets, luces, presentadoras, cámaras, temática) → guion/diálogo por IA → grabación en OBS.
+
+### Studio (en construcción) — `./studio.sh start`
+App web local (:8840): `/estudio` editor con vista previa WebGL, `/salida` lienzo 1920×1080 para la fuente Navegador de OBS.
+Paso 1 listo: set de Noticias procedural (mesa, video wall, ventanal a la ciudad, sala de prensa con personal de fondo,
+cámaras de pedestal, vara con micrófono), 4 planos (frontal, general móvil, grúa, prensa) + automático, luces y colores.
+Diseño y plan: `docs/FASE0_DISENO.md`. Pruebas: `python -m pytest`.

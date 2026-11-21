@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salida · Studio</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #000; }
+  body.alpha { background: transparent; }
+  #lienzo { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+  #lienzo canvas { display: block; }
+  #dbg { position: fixed; left: 8px; top: 6px; font: 13px monospace; color: #9dffb0; background: #000a; padding: 3px 6px; display: none; white-space: pre; z-index: 9; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "/vendor/three.module.js", "three/addons/": "/vendor/addons/", "@pixiv/three-vrm": "/vendor/three-vrm.module.min.js" } }
+</script>
+</head>
+<body>
+<div id="lienzo"></div>
+<div id="dbg"></div>
+<script type="module">
+// Salida para OBS (fuente Navegador, 1920×1080). Sin interfaz: solo la escena que manda el servidor.
+//   ?plano=frontal|dos|grua|prensa|auto  ?calidad=bajo|medio|alto  ?alpha=1 (fondo transparente)  ?debug
+import { crearEscena, conectar } from '/js/escena.js';
+const P = new URLSearchParams(location.search);
+const alpha = P.get('alpha') === '1'; if (alpha) document.body.classList.add('alpha');
+const caja = document.getElementById('lienzo');
+const ajustar = () => { const k = Math.min(innerWidth / 1920, innerHeight / 1080); caja.style.transform = `scale(${k})`; };
+addEventListener('resize', ajustar); ajustar();
+const ctrl = await crearEscena(caja, { fijo: true, calidad: P.get('calidad') || 'medio', alpha, planoFijo: P.get('plano') });
+const r = await fetch('/api/escena'); await ctrl.aplicar(await r.json());
+let online = false;
+conectar(ctrl, { alEstado: (v) => { online = v; } });
+window.__studio = ctrl;                                     // para pruebas (captura headless)
+if (P.has('debug')) { const d = document.getElementById('dbg'); d.style.display = 'block';
+  setInterval(() => { const i = ctrl.info(); d.textContent = `set=${i.set} plano=${i.plano}→${i.activo} fps=${ctrl.fps.toFixed(1)} ws=${online}`; }, 500); }
+</script>
+</body>
+</html>
