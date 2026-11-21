@@ -83,3 +83,9 @@ async def test_paginas_y_vendor(cli):
 async def test_static_no_escapa(cli):
     r = await cli.get("/reparto/..%2F..%2Fescena.json")
     assert r.status in (403, 404)
+
+
+@pytest.mark.asyncio
+async def test_info_rutas(cli, tmp_path):
+    d = await (await cli.get("/api/info")).json()
+    assert d["proyecto"] == str(tmp_path) and d["reparto"] == str(tmp_path / "reparto")

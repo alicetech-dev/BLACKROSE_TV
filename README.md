@@ -39,4 +39,7 @@ de fábrica y con guardado automático; IA local en secuencia (LLM → liberar V
 mira la salud (no genera ni despierta modelos); instrucción técnica fija a la vista. En Mi Reparto, ficha de **voz y
 personalidad** (rol, voz XTTS con temperatura/velocidad/tono, idioma, personalidad, muletillas) y **▶ Probar voz** con
 una frase que escribes tú. Todo queda en `proyecto.json` (v2). Plantilla de ejemplo: `plantillas/blackrose/`.
+**App Unity (2026-11-21):** la interfaz pasa a Unity sobre los 8 sets de ESTUDIO 2049 (escena `Studio.unity`, UI Toolkit
+editable en el UI Builder: `unity/BlackroseTV/Assets/BRTV/UI/`). El servidor Python queda como motor (proyecto, reparto, IA,
+voz). `./studio.sh app` abre todo; compilar: menú *BlackRose TV/Studio/Compilar Linux* (build aparte del canal).
 Diseño y plan: `docs/FASE0_DISENO.md`. Pruebas: `python -m pytest`.

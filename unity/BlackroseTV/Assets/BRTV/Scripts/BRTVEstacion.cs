@@ -27,6 +27,8 @@ public class BRTVEstacion : MonoBehaviour
     public Camera cam;
     public BRTVDoll joy, kuroki;
     public float planoMin = 8, planoMax = 14;
+    [Tooltip("Escena Studio: config brtv_studio.json, sin director en vivo, sin API :8836 ni salida UDP salvo que la config los pida")]
+    public bool modoStudio;
 
     BRTVSet[] sets; BRTVSet set; BRTVPlano plano; string camFija = "auto";
     float proximoCorte; Vector3 camBase; Quaternion camRot; float camT;
@@ -42,7 +44,7 @@ public class BRTVEstacion : MonoBehaviour
     void Awake()
     {
         QualitySettings.pixelLightCount = 10;
-        var ruta = Arg("-config") ?? Path.Combine(Path.GetDirectoryName(Application.dataPath) ?? ".", "brtv.json");
+        var ruta = Arg("-config") ?? Path.Combine(Path.GetDirectoryName(Application.dataPath) ?? ".", modoStudio ? "brtv_studio.json" : "brtv.json");
         if (File.Exists(ruta) && MiniJson.Parse(File.ReadAllText(ruta)) is Dictionary<string, object> d) cfg = d;
         int fps = cfg.TryGetValue("fps", out var f) && f is double fd ? (int)fd : 30;
         Application.targetFrameRate = fps; QualitySettings.vSyncCount = 0;
@@ -76,9 +78,10 @@ public class BRTVEstacion : MonoBehaviour
     void Start()
     {
         IrASet(Arg("-set") ?? C("set", "noticiario"));
-        _ = Director(C("director", "ws://127.0.0.1:8780/ws"));
-        int puerto = cfg.TryGetValue("puerto", out var po) && po is double pd ? (int)pd : 8836;
-        if (Arg("-captura") == null) Servir(puerto);
+        var dir = C("director", modoStudio ? "" : "ws://127.0.0.1:8780/ws");
+        if (dir != "") _ = Director(dir);
+        int puerto = cfg.TryGetValue("puerto", out var po) && po is double pd ? (int)pd : (modoStudio ? 0 : 8836);
+        if (Arg("-captura") == null && puerto > 0) Servir(puerto);
         if (Arg("-captura") != null) StartCoroutine(Captura(Arg("-captura")));
         // salida al aire (ffmpeg → UDP → OBS): config "salida" o -salida URL
         var sal = cfg.TryGetValue("salida", out var so) ? so as Dictionary<string, object> : null;
@@ -105,6 +108,18 @@ public class BRTVEstacion : MonoBehaviour
         Poner(joy, s.puestoJoy, s); Poner(kuroki, s.puestoKuroki, s);
         plano = null; Cortar();
         Debug.Log("[BRTV] set " + s.nombre);
+    }
+
+    // ------------------------------------------------------------------ control directo (lo usa el Studio, sin HTTP)
+    public IReadOnlyList<BRTVSet> Sets => sets;
+    public BRTVSet SetActual => set;
+    public string PlanoActual => plano ? plano.name : "";
+    public string CamaraFija => camFija;
+    public void Camara(string n) { camFija = string.IsNullOrEmpty(n) ? "auto" : n; Cortar(); }
+    public void Hablar(string doll, bool on)
+    {
+        if (on) { bool nueva = habla != doll; habla = doll; hablaHasta = Time.time + 60; if (nueva && camFija == "auto" && Time.time > proximoCorte - planoMax + 2.5f) Cortar(); }
+        else if (habla == doll) hablaHasta = Time.time + 2.5f;
     }
 
     void Poner(BRTVDoll d, Transform puesto, BRTVSet s)

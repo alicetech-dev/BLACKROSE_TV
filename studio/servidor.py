@@ -9,6 +9,7 @@
   POST /api/plano     {"plano": "frontal|dos|grua|prensa|auto"} → difunde
   POST /api/habla     {"id": "<reparto>", "on": true|false} → difunde
   GET  /api/sets      sets disponibles
+  GET  /api/info      carpeta del proyecto y del reparto (para la app Unity, que carga los VRM por ruta)
   /ws                 WebSocket: el servidor manda {"t": "escena"|"plano"|"habla", ...}
   /reparto/<archivo>  VRM y miniaturas del proyecto (solo lectura)
   /api/reparto…       importar / listar / borrar VRM (ver studio/reparto.py)
@@ -185,6 +186,10 @@ class Studio:
         await self.difundir({"t": "habla", "id": rid, "on": on})
         return web.json_response({"id": rid, "on": on})
 
+    async def get_info(self, _req):
+        """Para clientes locales (la app Unity): dónde están los archivos del proyecto, para cargar los VRM por ruta."""
+        return web.json_response({"proyecto": os.path.abspath(self.carpeta), "reparto": os.path.abspath(self.reparto_dir)})
+
     async def get_sets(self, _req):
         return web.json_response(sets_disponibles())
 
@@ -225,6 +230,7 @@ def crear_app(proyecto: str = PROYECTO_DEF) -> web.Application:
     r.add_post("/api/plano", st.post_plano)
     r.add_post("/api/habla", st.post_habla)
     r.add_get("/api/sets", st.get_sets)
+    r.add_get("/api/info", st.get_info)
     st.reparto.registrar(r)
     st.proyecto.registrar(r)
     st.ia.registrar(r)

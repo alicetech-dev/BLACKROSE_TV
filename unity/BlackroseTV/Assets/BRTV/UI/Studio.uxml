@@ -1,0 +1,56 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="Studio.uss" />
+    <ui:VisualElement name="app" class="app" picking-mode="Ignore">
+        <ui:VisualElement name="cabecera" class="cabecera">
+            <ui:Label text="▶ STUDIO" class="logo" />
+            <ui:VisualElement class="tabs">
+                <ui:Button name="tab_estacion" text="Estación" class="tab" />
+                <ui:Button name="tab_reparto" text="Mi Reparto" class="tab" />
+                <ui:Button name="tab_set" text="Set" class="tab" />
+                <ui:Button name="tab_guion" text="Guion" class="tab pronto" />
+                <ui:Button name="tab_generar" text="Generar / Grabar" class="tab pronto" />
+            </ui:VisualElement>
+            <ui:Label name="estado" text="● conectando…" class="estado" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="cuerpo" class="cuerpo" picking-mode="Ignore">
+            <!-- SET: el 3D se ve detrás; los controles van en la columna derecha -->
+            <ui:VisualElement name="pantalla_set" class="pantalla set-pantalla" picking-mode="Ignore">
+                <ui:VisualElement class="vista" picking-mode="Ignore">
+                    <ui:Label name="chip_aire" text="● —" class="chip-aire" />
+                    <ui:Label text="Tab = esconder la interfaz" class="ayuda-tab" />
+                </ui:VisualElement>
+                <ui:ScrollView class="lateral" mode="Vertical" horizontal-scroller-visibility="Hidden">
+                    <ui:VisualElement class="tarjeta">
+                        <ui:Label text="ELIGE EL SET" class="h2" />
+                        <ui:VisualElement name="sets" class="sets" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="tarjeta">
+                        <ui:Label text="CÁMARAS" class="h2" />
+                        <ui:VisualElement name="camaras" class="camaras" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="tarjeta">
+                        <ui:Label text="EN EL SET" class="h2" />
+                        <ui:VisualElement name="puestos" />
+                        <ui:Label name="reparto_vacio" text="Aún no hay avatares: impórtalos en Mi Reparto." class="ayuda" />
+                    </ui:VisualElement>
+                </ui:ScrollView>
+            </ui:VisualElement>
+
+            <!-- ESTACIÓN y MI REPARTO: se pasan a Unity en el paso siguiente; mientras, se editan en el navegador -->
+            <ui:VisualElement name="pantalla_estacion" class="pantalla hoja">
+                <ui:VisualElement class="tarjeta centro">
+                    <ui:Label text="ESTACIÓN" class="h2" />
+                    <ui:Label text="Los prompts y la IA se están pasando a esta app. Por ahora se editan en el navegador; todo queda en el mismo proyecto." class="texto" />
+                    <ui:Button name="copiar_web" text="Abrir en el navegador" class="boton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="pantalla_reparto" class="pantalla hoja">
+                <ui:VisualElement class="tarjeta centro">
+                    <ui:Label text="MI REPARTO" class="h2" />
+                    <ui:Label text="Importar VRM, voz y personalidad llegan a esta app en el paso siguiente. Lo que importes en el navegador aparece aquí solo." class="texto" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

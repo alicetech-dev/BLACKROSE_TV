@@ -69,14 +69,27 @@ public class BRTVDoll : MonoBehaviour
         Debug.Log("[BRTV] " + go.name + ": " + n + " texturas aligeradas");
     }
 
-    async void Start()
+    void Start() { semilla = semilla == 0 ? UnityEngine.Random.value * 100 : semilla; _ = Montar(); }
+
+    /// <summary>Cambia el VRM en caliente (lo usa el Studio). Vacío = sin modelo.</summary>
+    public void Recargar(string path)
     {
-        semilla = semilla == 0 ? UnityEngine.Random.value * 100 : semilla;
+        if (path == vrmPath && (Lista || string.IsNullOrEmpty(path))) return;
+        cts?.Cancel();
+        Lista = false; hueso.Clear();
+        if (modelo != null) Destroy(modelo);
+        modelo = null; vrmPath = path ?? "";
+        if (!string.IsNullOrEmpty(vrmPath)) _ = Montar();
+    }
+
+    async Task Montar()
+    {
+        var pedido = vrmPath;
         if (string.IsNullOrEmpty(vrmPath) || !System.IO.File.Exists(vrmPath)) { Debug.LogWarning("[BRTV] falta VRM " + vrmPath); return; }
         RuntimeGltfInstance plantilla;
         try { plantilla = await Cargar(vrmPath); }
         catch (Exception e) { Debug.LogError("[BRTV] no pude cargar " + vrmPath + ": " + e.Message); return; }
-        if (this == null) return;
+        if (this == null || pedido != vrmPath) return;      // llegó otro pedido mientras cargaba
         if (plantilla.gameObject.activeSelf)          // la primera vez: la plantilla queda escondida y se clona
         {
             plantilla.ShowMeshes(); plantilla.EnableUpdateWhenOffscreen();
