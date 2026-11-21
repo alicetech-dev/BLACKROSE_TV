@@ -15,7 +15,7 @@ using VRMShaders;
 
 public class BRTVDoll : MonoBehaviour
 {
-    public enum Modo { EnVivo, Tecleando, Holomesa, Parada, Camarografa }
+    public enum Modo { EnVivo, Tecleando, Holomesa, Parada, Camarografa, Publico }   // Publico al final: no cambia los valores guardados en las escenas
 
     public string id = "";
     public string vrmPath = "";
@@ -329,6 +329,19 @@ public class BRTVDoll : MonoBehaviour
             Brazo(true, new Vector3(-0.25f, -0.6f, 0.75f), new Vector3(0.2f, 0.1f, 1), k);
             Brazo(false, new Vector3(0.25f, -0.6f, 0.75f), new Vector3(-0.2f, 0.1f, 1), k);
             Rot(HumanBodyBones.Head, Quaternion.Euler(10 + Mathf.Sin(t * 0.5f) * 3, Mathf.Sin(t * 0.2f) * 6, 0), k * 0.5f);
+        }
+        else if (modo == Modo.Publico)
+        {   // sentada en la grada: mira al escenario, a ratos comenta con la de al lado y aplaude
+            Sentar(1);
+            float ciclo = Mathf.Repeat(t, 23f + semilla % 9);
+            bool aplaude = ciclo < 2.6f;
+            float golpe = aplaude ? Mathf.Abs(Mathf.Sin(t * 14)) * 0.12f : 0;
+            // aplauso: los antebrazos se cierran hacia el centro y se abren (golpe); en reposo, manos sobre las rodillas
+            Brazo(true, new Vector3(-0.3f, -0.75f, 0.45f), new Vector3(aplaude ? 0.25f - golpe : 0.1f, aplaude ? 0.3f : -0.6f, 1), aplaude ? Mathf.Min(1, dt * 12) : k * 0.5f);
+            Brazo(false, new Vector3(0.3f, -0.75f, 0.45f), new Vector3(aplaude ? -0.25f + golpe : -0.1f, aplaude ? 0.3f : -0.6f, 1), aplaude ? Mathf.Min(1, dt * 12) : k * 0.5f);
+            bool charla = Mathf.Sin(t * 0.13f + semilla) > 0.85f;
+            Rot(HumanBodyBones.Head, Quaternion.Euler(4 + Mathf.Sin(t * 0.4f) * 3, charla ? 35 * Mathf.Sign(Mathf.Sin(semilla * 3)) : Mathf.Sin(t * 0.21f) * 8, 0), k * 0.4f);
+            Rot(HumanBodyBones.Spine, Quaternion.Euler(4 + Mathf.Sin(t * 1.1f) * 1.2f, 0, 0), k);
         }
         else // Parada: con una tablet, mira a su alrededor
         {
