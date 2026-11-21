@@ -11,6 +11,7 @@
   GET  /api/sets      sets disponibles
   /ws                 WebSocket: el servidor manda {"t": "escena"|"plano"|"habla", ...}
   /reparto/<archivo>  VRM y miniaturas del proyecto (solo lectura)
+  /api/reparto…       importar / listar / borrar VRM (ver studio/reparto.py)
 
 Escucha solo en 127.0.0.1. El proyecto vive fuera del repo por defecto: $BRTV_STUDIO_DATA o ~/BlackroseStudio/<canal>.
 """
@@ -25,6 +26,8 @@ import re
 import tempfile
 
 from aiohttp import WSMsgType, web
+
+from .reparto import Reparto
 
 log = logging.getLogger("studio")
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -104,6 +107,7 @@ class Studio:
             if not isinstance(e, FileNotFoundError):
                 log.warning("escena guardada inválida (%s); uso la de fábrica", e)
         self.clientes: set[web.WebSocketResponse] = set()
+        self.reparto = Reparto(self.reparto_dir, al_borrar=self.vrm_borrado)
 
     def guardar(self) -> None:
         fd, tmp = tempfile.mkstemp(dir=self.proyecto, suffix=".tmp")       # escritura atómica: un corte no deja el JSON a medias
@@ -126,6 +130,16 @@ class Studio:
             else:
                 self.escena[k] = v
 
+    async def vrm_borrado(self, rid: str) -> None:
+        """Si la escena usaba ese VRM, ese puesto vuelve a la silueta."""
+        url, cambio = f"/reparto/{rid}.vrm", False
+        for r in self.escena.get("reparto", []):
+            if r.get("vrm") == url:
+                r["vrm"], cambio = None, True
+        if cambio:
+            self.guardar()
+            await self.difundir({"t": "escena", "d": self.escena})
+
     # ── rutas ──
     async def get_escena(self, _req):
         return web.json_response(self.escena)
@@ -133,6 +147,9 @@ class Studio:
     async def post_escena(self, req):
         try:
             p = validar_parche(await req.json())
+            for r in p.get("reparto", []):
+                if r.get("vrm") and not self.reparto.existe(r["vrm"].rsplit("/", 1)[1][:-4]):
+                    raise ValueError(f"no hay un VRM importado en {r['vrm']}")
         except (ValueError, json.JSONDecodeError) as e:
             return web.json_response({"error": str(e)}, status=400)
         self.mezclar(p)
@@ -201,6 +218,7 @@ def crear_app(proyecto: str = PROYECTO_DEF) -> web.Application:
     r.add_post("/api/plano", st.post_plano)
     r.add_post("/api/habla", st.post_habla)
     r.add_get("/api/sets", st.get_sets)
+    st.reparto.registrar(r)
     r.add_get("/ws", st.ws)
     r.add_static("/js/", os.path.join(WEB, "js"), show_index=False)
     r.add_static("/css/", os.path.join(WEB, "css"), show_index=False)

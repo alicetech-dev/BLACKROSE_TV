@@ -16,7 +16,7 @@ export class Avatar {
     this.root = new THREE.Group(); escena3d.add(this.root);
     this.vrm = null; this.url = null; this.ok = false; this.altura = 1.62;
     this.hablando = false; this.nivel = 0; this.parpado = 2 + Math.random() * 3; this.fase = Math.random() * 10; this.viseme = 'aa';
-    this.silueta = this.crearSilueta(datos?.color);
+    this.silueta = this.crearSilueta(datos?.color); this.cargando = Promise.resolve(false);
     this.actualizar(datos || {});
   }
 
@@ -31,16 +31,16 @@ export class Avatar {
     if (d.altura_m) this.altura = +d.altura_m;
     if (d.color) this.silueta.children.forEach((m) => m.material.color.copy(color(d.color)));
     const url = d.vrm || null;
-    if (url !== this.url) { this.url = url; this.cargar(url); }
+    if (url !== this.url) { this.url = url; this.cargando = this.cargar(url); }   // await av.cargando → true si quedó el VRM
   }
 
   async cargar(url) {
     if (this.vrm) { this.root.remove(this.vrm.scene); VRMUtils.deepDispose(this.vrm.scene); this.vrm = null; }
     this.ok = false; this.silueta.visible = true;
-    if (!url) return;
+    if (!url) return false;
     try {
       const gltf = await cargador.loadAsync(url);
-      if (url !== this.url) return;                          // llegó otra mientras cargaba
+      if (url !== this.url) return false;                    // llegó otra mientras cargaba
       const vrm = gltf.userData.vrm; if (!vrm) throw new Error('no es VRM');
       VRMUtils.removeUnnecessaryVertices(gltf.scene); (VRMUtils.combineSkeletons || VRMUtils.removeUnnecessaryJoints)?.(gltf.scene); VRMUtils.rotateVRM0(vrm);
       vrm.scene.traverse((o) => { o.frustumCulled = false; if (o.isMesh) o.castShadow = false; });
@@ -51,7 +51,8 @@ export class Avatar {
       for (const [n, r] of Object.entries(REPOSO)) vrm.humanoid.getNormalizedBoneNode(n)?.quaternion.setFromEuler(eu.set(r[0], r[1], r[2]));   // sin T-pose al aparecer
       vrm.update(0);
       this.root.add(vrm.scene); this.vrm = vrm; this.ok = true; this.silueta.visible = false;
-    } catch (err) { console.warn('[avatar] no cargó', url, err); }
+      return true;
+    } catch (err) { console.warn('[avatar] no cargó', url, err); return false; }
   }
 
   colocar([x, y, z, ry]) { this.root.position.set(x, y, z); this.root.rotation.y = ry || 0; }  // tras rotateVRM0 los VRM miran a +Z, donde están las cámaras

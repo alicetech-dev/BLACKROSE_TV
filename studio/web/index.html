@@ -15,7 +15,7 @@
   <nav id="tabs"></nav>
   <span id="estado" data-t="desconectado"></span>
 </header>
-<main>
+<main data-pantalla="set">
   <section>
     <div class="vista" id="vista"><span class="chip" id="chip">—</span></div>
     <div class="camaras" id="camaras"></div>
@@ -48,8 +48,10 @@
     </div>
   </aside>
 </main>
+<main data-pantalla="reparto" class="reparto" hidden></main>
 <script type="module">
 import { crearEscena, conectar } from '/js/escena.js';
+import { montarReparto } from '/js/pantalla_reparto.js';
 
 // ── i18n ──
 const idioma = (navigator.language || 'es').slice(0, 2);
@@ -58,10 +60,20 @@ try { T = await (await fetch(`/i18n/${idioma}.json`)).json(); } catch (_) { T = 
 const t = (k) => T[k] ?? k;
 const traducir = (raiz = document) => raiz.querySelectorAll('[data-t]').forEach((el) => { el.textContent = t(el.dataset.t); });
 
-// ── pestañas (solo «Set» está lista en este paso) ──
-const TABS = [['estacion', false], ['canal', false], ['reparto', false], ['set', true], ['guion', false], ['generar', false]];
+// ── pestañas (las que aún no existen se ven como «próximamente») ──
+const TABS = [['estacion', false], ['canal', false], ['reparto', true], ['set', true], ['guion', false], ['generar', false]];
 document.getElementById('tabs').innerHTML = TABS.map(([id, listo]) =>
-  `<button class="${id === 'set' ? 'activo' : ''}" ${listo ? '' : 'disabled'}><span data-t="tab.${id}"></span>${listo ? '' : `<small data-t="pronto"></small>`}</button>`).join('');
+  `<button data-tab="${id}" ${listo ? '' : 'disabled'}><span data-t="tab.${id}"></span>${listo ? '' : `<small data-t="pronto"></small>`}</button>`).join('');
+const irA = (ruta) => {
+  let [id, arg] = String(ruta).split('/');
+  if (!TABS.some(([k, ok]) => k === id && ok)) id = 'set';
+  for (const b of document.querySelectorAll('#tabs button')) b.classList.toggle('activo', b.dataset.tab === id);
+  for (const m of document.querySelectorAll('main[data-pantalla]')) m.hidden = m.dataset.pantalla !== id;
+  if (history.replaceState) history.replaceState(null, '', '#' + id);
+  pantallas[id]?.activar?.(arg);
+};
+const pantallas = {};
+document.getElementById('tabs').addEventListener('click', (e) => { const b = e.target.closest('button[data-tab]'); if (b && !b.disabled) irA(b.dataset.tab); });
 
 // ── sets (los que existen en /js/sets; el resto se ven como próximos) ──
 const SETS = [['noticias', '📰'], ['deportes', '⚽'], ['panel', '🛋'], ['entrevistas', '🪑'], ['late_show', '🎷'], ['documental', '🎬']];
@@ -99,17 +111,20 @@ function pintar(e) {
   pintarReparto(e.reparto || []);
 }
 const POS = ['mesa_izq', 'mesa_der', 'mesa_centro', 'pie_wall', 'prensa'];
+let importados = [];
 function pintarReparto(lista) {
   const caja = $('#reparto');
   if (caja.contains(document.activeElement)) return;
   caja.innerHTML = lista.map((p, i) => `<div class="persona" data-i="${i}">
       <input type="color" value="${p.color || '#ff6fb5'}" data-campo="color">
       <div><input type="text" value="${(p.nombre || '').replace(/"/g, '&quot;')}" data-campo="nombre" placeholder="${p.id}" maxlength="32">
+      <select data-campo="vrm" style="margin-top:6px"><option value="">${t('rep.silueta')}</option>${importados.map((f) => `<option value="${f.vrm}" ${f.vrm === p.vrm ? 'selected' : ''}>${f.nombre.replace(/</g, '&lt;')}</option>`).join('')}</select>
       <select data-campo="pos" style="margin-top:6px">${POS.map((k) => `<option value="${k}" ${k === p.pos ? 'selected' : ''}>${t('pos.' + k)}</option>`).join('')}</select></div></div>`).join('');
 }
 $('#reparto').addEventListener('input', (ev) => {
   const fila = ev.target.closest('.persona'); if (!fila) return;
-  const lista = structuredClone(escena.reparto); lista[+fila.dataset.i][ev.target.dataset.campo] = ev.target.value;
+  const lista = structuredClone(escena.reparto), campo = ev.target.dataset.campo;
+  lista[+fila.dataset.i][campo] = campo === 'vrm' ? (ev.target.value || null) : ev.target.value;
   escena.reparto = lista; enviarLuego({ reparto: lista });
 });
 cajaSets.addEventListener('click', (ev) => { const b = ev.target.closest('.set'); if (b && !b.disabled) enviar({ set: b.dataset.set }); });
@@ -135,9 +150,16 @@ const url = `${location.origin}/salida`;
 $('#url_salida').textContent = url;
 $('#copiar').addEventListener('click', async () => { try { await navigator.clipboard.writeText(url); $('#copiar').textContent = t('copiado'); setTimeout(() => { $('#copiar').textContent = t('copiar'); }, 1500); } catch (_) {} });
 
+// ── Mi Reparto ──
+pantallas.reparto = montarReparto(document.querySelector('main[data-pantalla="reparto"]'), {
+  t, escena: () => escena, enviarEscena: enviar,
+  alCambiarLista: (l) => { importados = l; pintarReparto(escena.reparto || []); },
+});
+irA(location.hash.slice(1) || 'set');
+
 // ── servidor ──
 pintar(escena);
-const ws = conectar({ ...ctrl, aplicar: async (e) => { await ctrl.aplicar(e); pintar(e); } }, {
+conectar({ ...ctrl, aplicar: async (e) => { await ctrl.aplicar(e); pintar(e); pantallas.reparto?.puestos(); } }, {
   alEstado: (v) => { const s = $('#estado'); s.classList.toggle('ok', v); s.textContent = t(v ? 'conectado' : 'desconectado'); },
 });
 </script>

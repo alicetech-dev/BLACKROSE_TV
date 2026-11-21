@@ -31,4 +31,7 @@ Modo offline para crear programas (sets, luces, presentadoras, cámaras, temáti
 App web local (:8840): `/estudio` editor con vista previa WebGL, `/salida` lienzo 1920×1080 para la fuente Navegador de OBS.
 Paso 1 listo: set de Noticias procedural (mesa, video wall, ventanal a la ciudad, sala de prensa con personal de fondo,
 cámaras de pedestal, vara con micrófono), 4 planos (frontal, general móvil, grúa, prensa) + automático, luces y colores.
+Paso 2 listo: **Mi Reparto** — arrastrar un `.vrm` (0.x/1.0), validación (esqueleto, boca, parpadeo, licencia,
+peso), texturas > 2048 px achicadas (original guardado), miniatura (la del VRM o foto del navegador), vista 3D girable
+y «llevar al set». CLI: `python -m studio.vrm archivo.vrm [--optimizar salida.vrm]`.
 Diseño y plan: `docs/FASE0_DISENO.md`. Pruebas: `python -m pytest`.
