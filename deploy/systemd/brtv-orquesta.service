@@ -1,0 +1,14 @@
+[Unit]
+Description=BlackRose ORQUESTA — vigilante failsafe (relanza LLM, dolls, TV, relé y OBS; cede la RTX a los juegos)
+After=cerebro.service
+
+[Service]
+WorkingDirectory=/home/alice/joy_vmc
+ExecStart=/home/alice/joy_vmc/.venv/bin/python -m director.orquesta
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/alice/joy_vmc/logs/orquesta.log
+StandardError=append:/home/alice/joy_vmc/logs/orquesta.log
+
+[Install]
+WantedBy=default.target

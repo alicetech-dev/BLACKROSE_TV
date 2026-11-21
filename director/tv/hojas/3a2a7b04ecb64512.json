@@ -1,0 +1,21 @@
+{
+ "semilla": "Protocolos de ciberseguridad en redes domésticas",
+ "hechos": [
+  "Las redes domésticas suelen utilizar enrutadores que combinan funciones de módem y punto de acceso inalámbrico.",
+  "El cifrado WPA3 es el estándar más reciente para proteger redes Wi-Fi contra accesos no autorizados.",
+  "El protocolo WPA2 sigue siendo ampliamente usado aunque presenta vulnerabilidades conocidas.",
+  "Las contraseñas predeterminadas de fábrica en enrutadores representan un riesgo común de seguridad.",
+  "Actualizar el firmware del enrutador corrige vulnerabilidades de seguridad conocidas.",
+  "El uso de redes Wi-Fi abiertas expone los datos a interceptación por parte de terceros.",
+  "Los firewalls integrados en enrutadores filtran tráfico entrante y saliente no deseado.",
+  "Cambiar el nombre de la red o SSID ayuda a reducir la visibilidad ante posibles atacantes.",
+  "La autenticación de dos factores añade una capa adicional de protección a cuentas asociadas.",
+  "Los dispositivos IoT en redes domésticas pueden convertirse en puntos de entrada para intrusiones."
+ ],
+ "leyendas": [
+  "Leyenda o error común: ocultar el SSID de la red hace que sea completamente invisible e imposible de detectar.",
+  "Leyenda o error común: usar solo antivirus en los dispositivos protege toda la red doméstica de cualquier amenaza."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 18:07"
+}

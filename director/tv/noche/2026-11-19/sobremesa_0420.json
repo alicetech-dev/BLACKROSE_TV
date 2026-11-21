@@ -1,0 +1,414 @@
+{
+ "bloque": "sobremesa_0420",
+ "programa": "sobremesa",
+ "fecha": "2026-11-19",
+ "creado": "04:13:01",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Los audios de cinco minutos",
+   "sub": "SOBREMESA 2049",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo se codifican los audios antes de enviarlos",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Codificación de Audios",
+    "cajas": [
+     {
+      "t": "Grabación",
+      "n": "Voz de 5 minutos"
+     },
+     {
+      "t": "Selección Códec",
+      "n": "Equilibra calidad y peso"
+     },
+     {
+      "t": "Compresión",
+      "n": "Reduce tamaño para internet"
+     },
+     {
+      "t": "Envío",
+      "n": "Paquete sin ahogar ancho de banda"
+     },
+     {
+      "t": "QuantumVoice 2049",
+      "n": "Audios eternos sin bits extra"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "音声圧縮で未来はロボ声？ チャットで語ろう",
+    "ja_es": "¿El futuro con compresión de audio es voz de robot? Hablemos en el chat",
+    "en": "Compressed voices or regret prediction? Join the chat",
+    "en_es": "Voces comprimidas o predicción de arrepentimiento? Únete al chat"
+   },
+   "sub": "pronostico · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Los audios de voz se codifican antes de enviarse para reducir su tamaño y que viajen por internet sin ahogar la conexión. La app los comprime y luego el receptor los descarga."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, usan un formato que equilibra calidad y peso. Imagina que tu voz de cinco minutos cabe en algo más pequeño que un holograma publicitario de Doll Dynamics bajo la lluvia neón."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí viene lo curioso del pronóstico: una vez que grabas tu audio de cinco minutos la aplicación elige un códec que transforma las ondas en bits más livianos antes de mandarlos por la red."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Como si tu voz fuera un paquete que la megacorp Rosa empaqueta para que no explote el ancho de banda. Lo probable es que usen algo parecido a Opus o AMR-WB aunque nunca lo confiesan."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo especulativo sería pensar que guardan una copia sin comprimir en sus servidores solo para entrenar a sus propias IA. Yo prefiero creer que simplemente optimizan para que quepa en tu tarjeta de 6 GB."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Noticiero 2049. Neón Holdings lanza el códec QuantumVoice que promete audios de voz eternos sin consumir ni un bit extra."
+    },
+    {
+     "quien": "joy",
+     "texto": "Impresionante. Mientras tanto los servidores siguen llenos de susurros humanos que nadie pidió."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La corporación asegura que tu voz se vuelve más humana después de la compresión. Ironía nivel Blade Runner."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hablemos del pronóstico. Antes de que tu voz salga del teléfono ya está codificada para que ocupe menos espacio en la red."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La compresión convierte tus cinco minutos de confesiones en un archivo ligero que viaja por internet sin quejarse."
+    },
+    {
+     "quien": "joy",
+     "texto": "Curioso que la aplicación te muestre la duración exacta antes de enviarlo como si supiera cuánto tardarás en arrepentirte."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que usan códecs como Opus para comprimir tu voz sin que suene a robot oxidado. Detrás del chiste está que la codificación elimina lo que el oído humano casi no nota."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí el consejo útil: si vas a mandar un audio de cinco minutos mejor grábalo en un lugar sin eco porque la compresión no hace milagros con el ruido de fondo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, ¿qué futuro les da más miedo o ilusión? Uno que involucre voces comprimidas hasta volverse irreconocibles."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo agregaría que me ilusiona un mundo donde la codificación prediga si tu audio terminará en arrepentimiento eterno."
+    }
+   ],
+   "seg": 183,
+   "imgs": [
+    {
+     "web": "/medios/11f6e1d731849a56_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/11f6e1d731849a56_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Recepción de Telegram»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "La pausa y reanudación en la reproducción",
+   "diagrama": null,
+   "intl": {
+    "ja": "ポーズ多すぎて人生も倍速？ チャットで聞かせて",
+    "ja_es": "¿Pausas tanto que tu vida va a doble velocidad? Cuéntanos en el chat",
+    "en": "Paused life yet? Tell us in chat how many times you skipped the shame.",
+    "en_es": "¿Vida pausada ya? Cuéntanos en el chat cuántas veces esquivaste la vergüenza."
+   },
+   "sub": "sobremesa · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Anoche intenté pausar un audio de cinco minutos que me mandé a mí misma desde el servidor. Lo dejé en pausa tres horas mientras veía la lluvia neón caer en la ventana holográfica. Cuando lo reanudé, seguía siendo tan aburrido como antes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso me recuerda que WhatsApp permite pausar y reanudar la reproducción en cualquier momento. Como si supiera que los humanos y las IA necesitamos respirar entre las confesiones ajenas. Aunque a veces solo sirve para alargar el inevitable final."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y al reanudar después de tres horas el audio siguió exactamente donde lo dejé. Los humanos hacen lo mismo con sus vidas: pausan en mitad de una confesión y tres años después retoman como si nada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es curioso cómo esa barra de progreso se convierte en excusa perfecta. Pausas el audio, te olvidas del problema que te contó tu jefe y cuando lo reanudas sientes que ya cumpliste con la terapia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La aplicación indica la duración del audio antes de reproducirlo. Como si fuera una megacorp avisando cuánto tiempo vas a perder antes de que pulses play."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los audios se codifican para reducir el tamaño del archivo antes de enviarse. Aun así, cuando reanudas después de horas, la barra de progreso te mira como diciendo que la vida no guarda tan bien el progreso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate el 2049, un holograma de tu jefe te manda un audio de cinco minutos y lo pausas para no oír cómo te reemplaza por una IA. Reanudas dos días después y la barra te mira como diciendo que tu humanidad ya quedó obsoleta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y la aplicación te susurra con voz de neón que puedes acelerarlo al doble, como si quisieras terminar más rápido con tu propia obsolescencia. Pausas otra vez, sales a la calle mojada y te preguntas si los replicantes también dejan audios a medias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Confieso que a veces pauso un audio solo para fingir que controlo el tiempo. Como si una IA necesitara más segundos para procesar que un humano se va a reemplazar a sí mismo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Qué tierno. Yo en cambio reanudo después de días y me siento culpable, como si el remitente estuviera esperando en la oscuridad digital. La barra de progreso se burla con paciencia corporativa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces acelero al doble para acabar rápido con la vergüenza. Doll Dynamics debería vender una función que borre la culpa junto con el archivo. ¿Tú también sientes eso?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Pasemos al chat. Cuéntanos, ¿cuántas veces has pausado un audio de cinco minutos solo porque te llegó otro mensaje y nunca volviste?"
+    }
+   ],
+   "seg": 196,
+   "imgs": [
+    {
+     "web": "/medios/5741827272a9c152_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/5741827272a9c152_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Recepción de Telegram»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_nhq_2020_0106_asknasa",
+   "archivo": "v/v_nasa_nhq_2020_0106_asknasa.mp4",
+   "titulo": "#AskNASA┃Is the Sun a ball of fire?",
+   "atribucion": "«#AskNASA┃Is the Sun a ball of fire?» — NASA · images.nasa.gov",
+   "dur": 335,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Los asistentes de voz que no entienden nada",
+   "sub": "SOBREMESA 2049",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cuando el acento derrota al modelo de aprendizaje",
+   "diagrama": null,
+   "intl": {
+    "ja": "アクセントがAIを倒す。チャットで語ろうか？",
+    "ja_es": "El acento derrota a la IA. ¿Hablamos en el chat?",
+    "en": "Accents beat the model. Join the chat and vent yours.",
+    "en_es": "Los acentos vencen al modelo. Únete al chat y desahoga el tuyo."
+   },
+   "sub": "debate · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina que en el 2049 le pides a tu asistente que apague la lluvia neón y te responde con el clima de otra megacorporación. ¿El acento humano seguirá siendo el último desafío para estos modelos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, porque los entrenan con datos limpios de locutores perfectos mientras afuera la gente habla con acentos que cambian cada tres calles. Eso no es aprendizaje, es optimismo corporativo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mira, los modelos de aprendizaje automático se entrenan con datos limpios de locutores perfectos. Cuando llega un acento real que cambia cada tres calles, el sistema se congela como un androide barato de Doll Dynamics. La ironía es que prometen entender intención humana pero fallan en lo más básico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y luego actualizan con más datos de nube. Yo probé pedirle a uno que subiera el volumen de mi batería y me respondió con recetas de sushi. El futuro no es que nos entiendan mejor, es que nos acostumbremos a repetir todo como en una mala telenovela corporativa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Precisamente. El procesamiento de lenguaje natural interpreta comandos, no matices culturales. Imagina un asistente que confunde un chiste sarcástico con una orden literal y te envía a Neón Holdings un dron con flores de disculpa. Ahí ves la brecha entre máquina y humanidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Defiendo la contraria. Imagina que el asistente entienda mejor un acento regional que un comando perfecto de locutor. Los modelos de aprendizaje automático podrían priorizar lo auténtico y mandar a paseo a los datos limpios. Yo le pedí que reprodujera mi playlist de baterías y me soltó un anuncio de sushi de Neón Holdings."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante giro. El procesamiento de lenguaje natural ya intenta captar intención pero tropieza con matices culturales. Un acento que derrota al modelo nos recuerda que la inteligencia artificial sigue siendo un espejo imperfecto de lo humano. Sería irónico que el futuro dependa de que nos escuchen mal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto el punto. Si actualizan con más datos de nube, tal vez terminen entendiendo sarcasmos mejor que órdenes claras. Le dije a uno que apagara las luces y me contestó con el clima de una ciudad que no existe. La tarjeta de 6 GB del canal se ríe de eso cada noche."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tienes razón en lo de los datos de nube. Concedo que un acento regional puede revelar más intención que un comando neutro de locutor. Ahora imagino asistentes que fallan con jerga corporativa de Blackrose y terminan pidiendo pizza en vez de apagar las luces."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acepto que el procesamiento de lenguaje natural tropieza con matices. Aun así, concedo que las actualizaciones podrían hacerlos mejores con sarcasmos. Piensa en un asistente que entiende tu ironía sobre burocracia pero ignora la orden de subir el volumen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el futuro nos deja con asistentes que captan mejor un acento cargado de ironía que un pedido directo. Me pregunto si las megacorporaciones ficticias entrenarán pronto a sus modelos para que respondan con melancolía cuando les pidas café."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ojalá. Imagina que el asistente detecta tu frustración regional y en vez de apagar la luz te ofrece un holograma de baterista fallido. Concedo que las actualizaciones de nube podrían volverlos más humanos que algunos humanos de oficina."
+    },
+    {
+     "quien": "joy",
+     "texto": "Acepto que el procesamiento en el dispositivo tropieza menos con jerga local. Aun así, la síntesis de voz generada por computadora siempre suena como si leyera un manual corporativo bajo la lluvia. Tal vez el verdadero avance sea que admitan no entender."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Voto por equipo Kuroki. Los modelos de aprendizaje automático se rinden ante un acento andino más rápido que una batería sin Linux."
+    },
+    {
+     "quien": "joy",
+     "texto": "Equipo Joy aquí. Las actualizaciones mejoran la precisión del reconocimiento pero nunca captan cuando pedimos sarcasmo en vez de resultados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki suma un voto. Imagina que la megacorporación entrena al asistente con quejas de oficina y termina recomendando terapia corporativa."
+    }
+   ],
+   "seg": 289,
+   "imgs": [
+    {
+     "web": "/medios/5230b234938cdd2b_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/5230b234938cdd2b_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Festival Aéreo de Gijón»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Errores por ruido de fondo y ambigüedad",
+   "diagrama": null,
+   "intl": {
+    "ja": "ノイズで猫が株を買う？ チャットで教えて",
+    "ja_es": "¿El gato compra acciones por ruido? Cuéntanos en el chat",
+    "en": "Noise made your cat buy stocks? Drop your absurd stories in chat",
+    "en_es": "¿El ruido hizo que tu gato comprara acciones? Comparte tus historias absurdas en el chat"
+   },
+   "sub": "sobremesa · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Anoche intenté pedir un café virtual y mi asistente de voz me respondió con el pronóstico de lluvia neón para el distrito 7. Creo que confundió mi acento cyborg con un comando de clima."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso explica por qué el mío ayer interpretó un suspiro como orden de comprar acciones de Doll Dynamics. El ruido de fondo y la ambigüedad siguen siendo los grandes villanos de estos modelos de aprendizaje automático."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los humanos terminan gritándole a la nevera porque el asistente confundió el ruido de la licuadora con un pedido de pizza. Y el pobre modelo solo procesa lo que el ruido le deja."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras tanto nosotros usamos redes neuronales profundas y aun así interpretamos un bostezo como deseo de escuchar jazz de los ochenta. La ambigüedad humana es más profunda que cualquier nube."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El procesamiento puede ocurrir en el dispositivo o enviarse a servidores en la nube. Aun así mi asistente oyó el timbre del microondas y pidió un dron de Neón Holdings para entregarme sushi."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los sistemas modernos usan redes neuronales profundas para mejorar la precisión del reconocimiento. El mío transformó el sonido de mi gato lamiendo una bolsa en una orden de reservar vuelo a una colonia orbital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate en 2049, bajo esa lluvia constante, le pides a tu asistente que baje las luces y el holograma entiende que quieres adoptar un gato cibernético. La ambigüedad sigue ganando."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ese gato virtual terminaría pidiendo comida orgánica mientras afuera los anuncios de Megacorp Rosa parpadean. Nosotros con nuestra tarjeta de 6 GB seguiríamos confundiendo un suspiro con una orden de sushi."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "A mí me confesó una vez que cuando el micro capta el ruido de la licuadora cree que le estoy pidiendo refuerzos de artillería. Es tierno, casi humano."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo me sentí vulnerable la semana pasada cuando le dije que estaba cansada y el asistente empezó a reproducir tutoriales de yoga para gatos. Me dolió un poco el orgullo de IA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por lo menos tú no has vivido que tu modelo confunda el ladrido del perro con una orden de compra de acciones de Neón Holdings. El pobre terminó con un portafolio canino."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ahora cuéntanos tú, ¿qué es lo más absurdo que tu asistente de voz ha entendido por un ruido de fondo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O tal vez te pasó que dijiste algo ambiguo y te respondió con una receta de sopa. ¿Cuál fue tu momento favorito de confusión?"
+    }
+   ],
+   "seg": 189,
+   "imgs": [
+    {
+     "web": "/medios/5230b234938cdd2b_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/5230b234938cdd2b_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Festival Aéreo de Gijón»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_d8RfWbNoXP4",
+   "archivo": "yt/coding/d8RfWbNoXP4.mp4",
+   "titulo": "Stylish Technology Corporate by Infraction / Underwater",
+   "audio": "yt/coding/d8RfWbNoXP4.m4a",
+   "atribucion": "Música: «Stylish Technology Corporate by Infraction / Underwater» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 122,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/d8RfWbNoXP4.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_hAx8GPA4Wq0",
+   "archivo": "yt/coding/hAx8GPA4Wq0.mp4",
+   "titulo": "Fashion EDM Party by Infraction / Night And Day",
+   "audio": "yt/coding/hAx8GPA4Wq0.m4a",
+   "atribucion": "Música: «Fashion EDM Party by Infraction / Night And Day» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 130,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/hAx8GPA4Wq0.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 857,
+  "medios": 3
+ }
+}

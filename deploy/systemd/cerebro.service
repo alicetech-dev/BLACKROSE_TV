@@ -1,0 +1,14 @@
+[Unit]
+Description=BlackRose CEREBRO :8087 — router failsafe 100 % local (4B RTX :8089 ⇄ 9B ThinkPad :8095), sin APIs de pago
+After=llm4b.service
+
+[Service]
+WorkingDirectory=/home/alice/joy_vmc
+ExecStart=/home/alice/joy_vmc/.venv/bin/python -m ligero.cerebro --puerto 8087
+Restart=always
+RestartSec=3
+StandardOutput=append:/home/alice/joy_vmc/logs/cerebro.log
+StandardError=append:/home/alice/joy_vmc/logs/cerebro.log
+
+[Install]
+WantedBy=default.target

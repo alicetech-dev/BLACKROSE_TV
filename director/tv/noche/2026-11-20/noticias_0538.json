@@ -1,0 +1,269 @@
+{
+ "bloque": "noticias_0538",
+ "programa": "noticias",
+ "fecha": "2026-11-20",
+ "creado": "02:07:34",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Un clic para ser adulto: así llegan los menores a 3.930 videojuegos po",
+   "sub": "El País Tecnología · hace 1 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Otra más: Un clic para ser adulto: así llegan los menores a 3.930 videojuegos pornográficos. Lo informa El País Tecnología."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 20,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/8609ca0ecb59b69f_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/8609ca0ecb59b69f_169.jpg",
+     "credito": "Foto: El País Tecnología"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "La reflexión de Arturo Pérez-Reverte sobre los videojuegos: \"Sin duda,",
+   "sub": "3DJuegos · hace 17 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Atención a esta: La reflexión de Arturo Pérez-Reverte sobre los videojuegos: \"Sin duda, son el futuro de la narración. El libro va a morir en unos años, pero vienen nuevos formatos\". Lo informa 3DJuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 26,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/a3f57a552f4dc7bf_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a3f57a552f4dc7bf_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Durante más de 15 años, el rival de Dungeons & Dragons tuvo un 'espaci",
+   "sub": "3DJuegos · hace 18 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sigue: Durante más de 15 años, el rival de Dungeons & Dragons tuvo un 'espacio en blanco' en su mundo. Eso está a punto de cambiar en Pathfinder. Lo informa 3DJuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 25,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/e03375d4d4050d57_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/e03375d4d4050d57_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo guardar tu partida en GTA 6: esto es lo que necesitas saber para ",
+   "sub": "VidaExtra · hace 18 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sigue: Cómo guardar tu partida en GTA 6: esto es lo que necesitas saber para evitar perder tu progreso. Lo informa VidaExtra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 21,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/b52306513e048429_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/b52306513e048429_169.jpg",
+     "credito": "Foto: VidaExtra"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_305_effectsofthesolarwind",
+   "archivo": "v/v_nasa_305_effectsofthesolarwind.mp4",
+   "titulo": "NASA ScienceCasts: Effects of the Solar Wind",
+   "atribucion": "«NASA ScienceCasts: Effects of the Solar Wind» — NASA · images.nasa.gov",
+   "dur": 225,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ni uno ni dos minutos. Casi hora y media de gameplay del nuevo Total W",
+   "sub": "3DJuegos · hace 20 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Atención a esta: Ni uno ni dos minutos. Casi hora y media de gameplay del nuevo Total War Warhammer 40K con novedades y una ausencia que dolerá a muchos. Lo informa 3DJuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 25,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/5e0fc687273517b9_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/5e0fc687273517b9_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El hombre que convirtió GTA en un imperio es también uno de los mayore",
+   "sub": "3DJuegos · hace 21 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sigue: El hombre que convirtió GTA en un imperio es también uno de los mayores misterios de la industria. Esta es la historia de Sam Houser, el cerebro de Rockstar. Lo informa 3DJuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 25,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/5f72b2e5dc9b6721_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/5f72b2e5dc9b6721_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Breath of the Wild cambió Zelda para siempre, pero el remake de Ocarin",
+   "sub": "3DJuegos · hace 24 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Atención a esta: Breath of the Wild cambió Zelda para siempre, pero el remake de Ocarina of Time me ha hecho soñar con el videojuego perfecto. Lo informa 3DJuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 24,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/466b608aef107ba4_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/466b608aef107ba4_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Un estudiante universitario desarrolla ladrillos lunares impresos en 3",
+   "sub": "Xataka Ciencia · hace 38 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sigue: Un estudiante universitario desarrolla ladrillos lunares impresos en 3D tipo LEGO. Lo informa Xataka Ciencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 18,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/d6075c86877b50bf_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/d6075c86877b50bf_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_RtuaLaMFZSI",
+   "archivo": "yt/synthwave/RtuaLaMFZSI.m4a",
+   "titulo": "Steve Hartz - Never Give Up",
+   "audio": "yt/synthwave/RtuaLaMFZSI.m4a",
+   "atribucion": "Música: «Steve Hartz - Never Give Up» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 208,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/RtuaLaMFZSI.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_jha1pNGG7ao",
+   "archivo": "yt/techno/jha1pNGG7ao.m4a",
+   "titulo": "The Pulse Of Dancing Minimal Techno",
+   "audio": "yt/techno/jha1pNGG7ao.m4a",
+   "atribucion": "Música: «The Pulse Of Dancing Minimal Techno» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 148,
+   "genero": "TECHNO",
+   "img": "/tv/media/yt/techno/jha1pNGG7ao.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 8,
+  "seg_charla": 184,
+  "medios": 3
+ }
+}

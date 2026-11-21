@@ -1,0 +1,28 @@
+{
+  "puerto": 8836,
+  "fps": 30,
+  "set": "noticiario",
+  "director": "ws://127.0.0.1:8780/ws",
+  "dolls": {
+    "joy": {
+      "vrm": "/home/alice/Joy_SFW_fix.vrm",
+      "ws": "ws://127.0.0.1:8810/ws"
+    },
+    "kuroki": {
+      "vrm": "/home/alice/Kuroki_VRM/Kuroki_EFBodysuit_twitch.vrm",
+      "ws": "ws://127.0.0.1:8811/ws"
+    }
+  },
+  "personal": [
+    "/home/alice/Proyecto/static/models/blackrose.vrm",
+    "/home/alice/NekoGotica.vrm",
+    "/home/alice/Proyecto/static/models/joy_sfw.vrm",
+    "/home/alice/Kuroki_VRM/Kuroki_EFBodysuit_twitch.vrm"
+  ],
+  "salida": {
+    "url": "udp://127.0.0.1:9036?pkt_size=1316",
+    "ancho": 1280,
+    "alto": 720,
+    "voltear": true
+  }
+}

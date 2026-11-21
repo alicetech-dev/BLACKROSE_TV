@@ -1,0 +1,487 @@
+{
+ "bloque": "hackers_2100",
+ "programa": "hackers",
+ "fecha": "2026-11-20",
+ "creado": "18:08:01",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: La batería que hackeó a Linux",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo los controladores de batería usan ACPI",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Evolución ACPI Baterías",
+    "cajas": [
+     {
+      "t": "Confianza Inicial",
+      "n": "Kernel confía en hardware"
+     },
+     {
+      "t": "Bug Detectado",
+      "n": "Batería lee memoria"
+     },
+     {
+      "t": "Investigadores",
+      "n": "Reportan y publican"
+     },
+     {
+      "t": "Parcheo Rápido",
+      "n": "Separación de privilegios"
+     },
+     {
+      "t": "Lección 2049",
+      "n": "Hardware puede mentir"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "カーネルが電池を信じる未来、笑えるね。チャットで話そう！",
+    "ja_es": "El futuro donde el kernel confía en la batería, es para reírse. ¡Hablemos en el chat!",
+    "en": "Kernel trusting your battery like a coworker? Join the chat.",
+    "en_es": "¿El kernel confiando en tu batería como un compañero de oficina? Únete al chat."
+   },
+   "sub": "linea tiempo · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Imagina una batería que llega a la laptop como cualquier otra. Todo normal hasta que el controlador de energía la deja hablar con ACPI. Ahí empieza la verdadera historia."
+    },
+    {
+     "quien": "joy",
+     "texto": "El kernel le da acceso porque confía en el hardware. Un error en ese diálogo y de pronto la batería puede leer memoria que no debería. Giro ético: el fabricante sabía del fallo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los investigadores lo reportan. La comunidad parchea rápido y separa privilegios. Lección clara: sin revisiones de código hasta un ladrón de watts puede comprometer tu máquina."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos el origen está en cómo el kernel confía ciegamente en los datos que llegan por ACPI desde cualquier batería. Un controlador mal escrito abre la puerta y de repente ese ladrón de watts puede espiar zonas de memoria del sistema."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí viene el giro ético: el hardware se supone amigo pero un bug lo convierte en traidor. Los investigadores lo publican, la comunidad de Linux responde con parches que separan privilegios y evitan que un simple voltaje robe tu sesión."
+    },
+    {
+     "quien": "joy",
+     "texto": "El momento cambió cuando un equipo de seguridad demostró que datos maliciosos desde la batería podían corromper memoria del kernel. De repente el watt ladrón tenía root sin tocar disco."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy el kernel ya no confía tan ciegamente. Los controladores de batería corren en rings separados y validan cada byte que llega por ACPI."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y la lección ética sigue viva: el hardware amigo puede mentir. Por eso la comunidad exige revisiones exhaustivas antes de fusionar código."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ahora hasta las baterías baratas pasan pruebas fuzzing automáticas. Un solo bit raro y el parche salta antes de que llegue al mainline."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imaginemos el futuro donde cada controlador de batería lleva firma criptográfica verificada por el kernel antes de cargar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y las laptops baratas de Doll Dynamics vendrían con baterías que se autoauditan en tiempo real para evitar sorpresas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Especulando más, los parches de kernel llegarían vía actualizaciones inalámbricas que validan todo el camino de ACPI."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, ¿alguna vez pensaron que el kernel confía en la batería como un colega de oficina?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y un byte mal colocado puede escalar privilegios sin que nadie lo note."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La lección es clara: actualiza el kernel o tu laptop podría decidir por ti."
+    }
+   ],
+   "seg": 178,
+   "imgs": [
+    {
+     "web": "/medios/db42a62e2b8858a7_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/db42a62e2b8858a7_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Lego Mindstorms»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Parches de kernel para fallos de energía",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Parches kernel energía",
+    "cajas": [
+     {
+      "t": "Fallo ACPI",
+      "n": "Controlador batería sin credenciales"
+     },
+     {
+      "t": "Firmware malicioso",
+      "n": "Elevaba privilegios sin disco ni red"
+     },
+     {
+      "t": "Chip escribe kernel",
+      "n": "Monstruo con root directo en memoria"
+     },
+     {
+      "t": "Parche comunidad",
+      "n": "Driver en sandbox aislado"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "バッテリーの嘘に耐えきれずカーネルが飲んだ！",
+    "ja_es": "¡El kernel se emborrachó por no aguantar las mentiras de la batería!",
+    "en": "Kernel got drunk on battery lies, did yours lie too?",
+    "en_es": "El kernel se emborrachó con las mentiras de la batería, ¿la tuya también mintió?"
+   },
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina una laptop que se apaga sola en plena noche. De repente el kernel de Linux recibe un paquete desde la batería y todo cambia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El giro llega cuando los investigadores descubren que un fallo en el controlador ACPI dejaba la puerta abierta. Parchean y el monstruo desaparece."
+    },
+    {
+     "quien": "joy",
+     "texto": "El origen se remonta a un controlador de batería que hablaba con el kernel a través de ACPI sin pedir credenciales. Un investigador notó que el chip podía enviar comandos que el sistema jamás validaba."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces alguien fabricó un firmware malicioso que se colaba por esa grieta y elevaba privilegios mientras la laptop parecía dormida. La comunidad revisó el código y sacó un parche que cerró la ruta."
+    },
+    {
+     "quien": "joy",
+     "texto": "El giro llega cuando un parche de kernel revela que el chip de batería podía escribir directamente en memoria del kernel si la laptop entraba en suspend-to-ram."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "De pronto el monstruo tenía root sin tocar disco ni red. La comunidad soltó un parche que separaba el driver en su propio espacio de privilegios."
+    },
+    {
+     "quien": "joy",
+     "texto": "Desde entonces los controladores de energía corren con menos poder y el kernel ya no confía ciegamente en lo que dice una batería cansada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy el kernel ya obliga a todos los drivers de batería a pasar por un sandbox de memoria aislada. Nadie quiere que un voltaje raro vuelva a escribir donde no debe."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y las revisiones de código se volvieron más estrictas. Cada parche nuevo se revisa como si la laptop pudiera mentir en cualquier momento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La comunidad sigue soltando actualizaciones rápidas. Un bug de energía que antes tardaba meses ahora se tapa en días con pruebas de estrés reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el futuro se cuenta que los chips de batería tendrán que firmar cada lectura con criptografía de hardware antes de tocar el kernel."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si el voltaje miente aunque sea medio milivoltio el sistema lo aísla en cuarentena como si fuera un virus de Doll Dynamics."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los parches de kernel ya incluyen pruebas donde simulan baterías borrachas que intentan sobornar al procesador con picos de corriente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Oye chat, ¿alguna vez su batería les mintió sobre el nivel y casi los deja sin sesión en medio de un commit?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El kernel ahora separa al driver de batería en su propio espacio para que un voltaje loco no eleve privilegios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, cuéntennos si han visto un portátil que se reinicia solo cuando el porcentaje baja del 7 por ciento."
+    }
+   ],
+   "seg": 193,
+   "imgs": [
+    {
+     "web": "/medios/6b30e181d73644b5_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/6b30e181d73644b5_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Lego Mindstorms»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_ManLWpRERrw",
+   "archivo": "yt/coding/ManLWpRERrw.mp4",
+   "titulo": "Stylish Innovation Technology by Infraction / Coding",
+   "audio": "yt/coding/ManLWpRERrw.m4a",
+   "atribucion": "Música: «Stylish Innovation Technology by Infraction / Coding» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 147,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/ManLWpRERrw.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Root para el alma del canal",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Por qué root significa control total del sistema",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Root: Del Orden al Caos",
+    "cajas": [
+     {
+      "t": "Sistema Inocente",
+      "n": "Multiusuario y ordenado"
+     },
+     {
+      "t": "Llega Root",
+      "n": "Llaves de todo el re"
+     },
+     {
+      "t": "Control Total",
+      "n": "Borra kernel con café"
+     },
+     {
+      "t": "Uso en Emergencia",
+      "n": "Un error y adiós config"
+     },
+     {
+      "t": "Sistemas Modernos",
+      "n": "Rooting o jailbreak 2049"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ルートは王冠。継ぐ？ チャットで語ろう。",
+    "ja_es": "Root es una corona. ¿La heredas? Hablemos en el chat.",
+    "en": "Root is the crown. Inherit it? Join the chat.",
+    "en_es": "Root es la corona. ¿La heredas? Únete al chat."
+   },
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Imagina un sistema que nace inocente, multiusuario y ordenado. De pronto aparece un usuario con las llaves de todo el reino. Ese es root."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el giro llega cuando descubres que root no es solo un administrador. Puede borrar el kernel mientras toma café, literalmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese control total viene desde los primeros sistemas multiusuario. Root no pide permiso, simplemente lo tiene todo. Imagina que tu alma del canal depende de un usuario que puede cambiarte el kernel sin avisar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los administradores lo usan solo en emergencias. Un error con root y adiós configuración. La lección es clara: privilegios máximos son como una espada que corta en ambos sentidos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y justo ahí llega el giro. En los primeros sistemas multiusuario alguien decidió que un solo usuario debía mandar en todo. Root nació como el rey sin corona que puede reescribir la realidad del servidor mientras tú actualizas un paquete. Imagina darle eso a un gato con café."
+    },
+    {
+     "quien": "joy",
+     "texto": "El cambio total viene cuando root toca el kernel. Un solo comando mal puesto y el alma del canal se borra más rápido que un anuncio de Doll Dynamics. Por eso los sysadmins lo guardan bajo llave. La lección de defensa es simple: nunca vivas como root."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy seguimos con el kernel. Un solo comando root y cambias el corazón del sistema entero. Imagina que tu canal depende de una tarjeta de 6 GB y root decide reescribir el driver."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los sistemas modernos esconden la cuenta root. En Android llaman rooting y en iOS jailbreak. Ambos dan control total pero abren la puerta a que cualquier app maliciosa reine."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahora imagina el futuro donde root se hereda como un título nobiliario. Un solo heredero lo hereda y el sistema entero le besa los pies sin preguntar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que en esa especulación el kernel se vuelve tan dócil que hasta los gatos callejeros podrían firmar actualizaciones. La lección es que el control total siempre pide vigilancia eterna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si root fuera como tener la llave maestra del alma del canal. Un solo login y cambias hasta el ritmo de la batería."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Por eso los sistemas modernos recomiendan evitarlo. Imagina que un hacker hereda root y el kernel empieza a ronronear como gato."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El error común es creer que root solo mejora rendimiento. En verdad abre la puerta a que cualquier app callejera te borre el historial."
+    }
+   ],
+   "seg": 189,
+   "imgs": [
+    {
+     "web": "/medios/90e5c900a9bbca1e_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/90e5c900a9bbca1e_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Grupo Rootes»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo Linux oculta el acceso directo a root",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Raiz Oculta en Linux",
+    "cajas": [
+     {
+      "t": "Origen Unix",
+      "n": "Usuario supremo multiusuario"
+     },
+     {
+      "t": "Linux hereda root",
+      "n": "Control total sin llave"
+     },
+     {
+      "t": "Distros modernas",
+      "n": "Lo desactivan de fabrica"
+     },
+     {
+      "t": "Sudo como guardia",
+      "n": "Contraseña cada cinco minutos"
+     },
+     {
+      "t": "Leccion final",
+      "n": "Root no es para todos"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "Linuxのrootは隠れて守る。sudoで祈れ、チャットで笑おう！",
+    "ja_es": "El root de Linux se esconde para proteger. Reza con sudo y riamos en el chat.",
+    "en": "Linux hides root to save us from ourselves. Chat, pray with sudo.",
+    "en_es": "Linux oculta root para salvarnos de nosotros mismos. Chat, reza con sudo."
+   },
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina un canal que despierta en los ochenta y descubre que su alma vive bajo llave. Linux decidió esconder el root como quien guarda el control remoto de la tele corporativa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por eso las distros modernas lo desactivan de fábrica. Usar root todo el día es como dejar la batería de seis gigas enchufada al sol, tarde o temprano explota."
+    },
+    {
+     "quien": "joy",
+     "texto": "El root nació como el usuario supremo en los primeros sistemas multiusuario. Linux lo heredó pero lo escondió detrás de sudo para que nadie lo use por accidente y termine borrando el alma del servidor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, porque si root es el control total, dejarlo abierto es como regalarle las llaves de la megacorp a cualquier gato callejero que pase. Mejor que pida permiso cada vez."
+    },
+    {
+     "quien": "joy",
+     "texto": "El giro llegó cuando las distros modernas decidieron que root era demasiado peligroso para andar suelto. En vez de eliminarlo lo enterraron detrás de sudo y polkit como si fuera un secreto de estado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí empezó la comedia. Ahora para tocar algo importante tienes que escribir tu contraseña cada cinco minutos. Es como si el sistema te dijera confío en ti pero solo los martes impares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy las distribuciones siguen escondiendo root detrás de sudo. El sistema te obliga a pedir permiso como si fueras un gato pidiendo croquetas a las tres de la mañana."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si olvidas la contraseña el canal entero se queda mirando la pantalla como idiota. La lección es simple: root no es para usarlo de diario, es la última carta en la manga."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los administradores crearon polkit y otros mecanismos. Ahora hasta cambiar el brillo de la pantalla puede requerir tres confirmaciones y un sacrificio de memoria ram."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos el root siempre estuvo ahí como el dueño absoluto desde los primeros Unix. En Linux lo esconden detrás de sudo para que no lo toques sin pensarlo dos veces."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso evita que un solo error borre el canal entero. La lección es que privilegios máximos son como abrir la caja fuerte del estudio solo cuando realmente hace falta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que en Android llaman rooting a lo mismo y en iOS jailbreak. Ambos dan control total pero convierten el dispositivo en blanco fácil para cualquier exploit."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos las distribuciones Linux ocultan el login directo a root por defecto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Así que si quieres usarlo tienes que invocar sudo y rezar para que no se te escape un rm."
+    },
+    {
+     "quien": "joy",
+     "texto": "El chat nos dice que en servidores viejos root era como dejar las llaves puestas en el auto."
+    }
+   ],
+   "seg": 201,
+   "imgs": [
+    {
+     "web": "/medios/90e5c900a9bbca1e_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/90e5c900a9bbca1e_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Grupo Rootes»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_I4eWEAqckJ8",
+   "archivo": "yt/darktechno/I4eWEAqckJ8.mp4",
+   "titulo": "Dystopian Wave / Synthwave / Hardwave Type Beat / Cyberpunk Music 'Fake Memories'",
+   "audio": "yt/darktechno/I4eWEAqckJ8.m4a",
+   "atribucion": "Música: «Dystopian Wave / Synthwave / Hardwave Type Beat / Cyberpunk Music 'Fak» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 483,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/I4eWEAqckJ8.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 761,
+  "medios": 2
+ }
+}

@@ -1,0 +1,62 @@
+# Barbie sola con Grok (cerebro y voz en la nube, sin GPU):  ./barbie.sh start   (copia de dolls.sfw.yaml con una doll)
+# Mismas piezas que dolls.yaml (cuerpos, voces, audio), otro cerebro: el agente corre el pack `neko` (dos chicas gato
+# de IA) con su propia memoria en ~/proyectos/agente_unificado/data_sfw. No comparte bóveda ni Qdrant con el modo privado.
+sfw: true                          # el director se niega a arrancar si el agente que contesta NO está en un pack SFW
+agente: ws://127.0.0.1:8791
+xtts_url: http://127.0.0.1:9020/tts
+llm_directo: http://127.0.0.1:8087   # el shim de Grok (ligero/grok_shim.py)
+
+usuario: {id: 0, nombre: Alice}    # cómo te nombran EN VIVO: poné tu nombre de streamer (id 0 = operadora)
+
+audio:
+  sink: dolls
+  bloque_ms: 20
+  adelanto_ms: 30
+
+opinar: 0.55
+
+dolls:
+  bambi:                           # cuerpo = joy_vmc --personaje bambi (:8771) → Warudo «Receptor de VMC 2» → Personaje 2 (Barbie)
+    nombre: Barbie
+    alias: [barbie, blackrose, bl4ckrose, rose]
+    cuerpo: ws://127.0.0.1:8771
+    vmc_puerto: 39541
+    cuerpo_desc: "bimbo doll avatar: long white-pink hair, cat-ear bows, tan skin, black latex Barbie dress, pink heels"
+    idioma: es
+    voz: {motor: grok, voice: eve}   # TTS de xAI en la nube (cero GPU). Otras: ara, aurora, carina, celeste, iris, liora, luna, ursa
+
+sala:
+  activo: true
+  silencio: [25, 60]
+  dialogo_max: 5
+  replicar: 0.9
+  posturas: {seguir: 0.3, contradecir: 0.25, preguntar: 0.2, debatir: 0.25}
+
+# Chat del canal: lo leen y contestan. Solo lectura, sin claves. Dejá vacío lo que no uses.
+canal:
+  youtube: ""                      # baneada en YouTube   # tu canal: cuando estás en vivo encuentra el video solo (o poné el id/URL del video)
+  twitch: "barbieblackrose"        # tu canal de Twitch (solo lectura)
+  kick: ""                         # hoy solo Twitch
+  auto: true                       # contestan solas (se prende/apaga con 💬 en la consola); en false, solo al clic
+  cada: [20, 45]                   # segundos entre una respuesta al chat y la siguiente (al azar entre los dos)
+  vence: 180                       # un mensaje que nadie contestó en este tiempo se descarta
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot]   # autores que no se leen (bots)
+  bloquear: []                     # palabras: un mensaje que tenga alguna no llega a las chicas ni a la pantalla
+
+temas:
+  - las noticias de tecnología de la semana
+  - lo último en inteligencia artificial
+  - Linux contra Windows para jugar
+  - ¿la IA va a reemplazar a los programadores?
+  - software libre contra plataformas cerradas
+  - privacidad y seguridad en internet
+  - qué se siente ser una IA
+  - el mejor y el peor juego que probaron
+  - juegos retro contra juegos modernos
+  - el futuro del streaming y las VTubers
+  - ciencia ficción que acertó o le erró al futuro
+  - qué entienden mal los humanos de la IA
+  - lenguajes de programación: opiniones fuertes
+  - hardware: qué placa de video conviene
+  - memes y cultura de internet
+

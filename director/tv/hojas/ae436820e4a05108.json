@@ -1,0 +1,21 @@
+{
+ "semilla": "Captura de movimiento casera",
+ "hechos": [
+  "La captura de movimiento casera utiliza cámaras estándar para registrar la posición de los avatares en tiempo real.",
+  "Los avatares se mueven mediante el seguimiento de puntos clave como las articulaciones o marcadores visuales.",
+  "Las herramientas de software permiten procesar los datos de video y generar animaciones 3D.",
+  "El rendimiento de la animación depende de la calidad de la cámara y del ángulo de la toma.",
+  "Los avatares pueden interactuar con entornos virtuales mediante el movimiento capturado.",
+  "La tecnología permite crear experiencias inmersivas sin necesidad de equipos especializados costosos.",
+  "Se utilizan algoritmos para interpolar los datos entre fotogramas cuando no hay marcadores visibles.",
+  "El proceso requiere una configuración adecuada de la iluminación y del fondo para mejorar la precisión.",
+  "Las aplicaciones de software son esenciales para convertir el video en movimiento 3D.",
+  "La captura de movimiento casera es accesible gracias a las cámaras de alta resolución disponibles actualmente."
+ ],
+ "leyendas": [
+  "Se cuenta que los avatares pueden ser controlados con un solo dispositivo móvil, aunque esto depende del software específico.",
+  "Según algunos relatos, la calidad de la animación mejora automáticamente si se usa una cámara de video en lugar de una cámara web."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 18:12"
+}

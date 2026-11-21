@@ -1,0 +1,23 @@
+{
+ "semilla": "Baterías: por qué duran lo que duran",
+ "hechos": [
+  "Las baterías de litio almacenan energía en iones que se mueven entre el ánodo y el cátodo.",
+  "La densidad energética determina cuánta energía puede guardar un dispositivo por peso o volumen.",
+  "El ciclo de vida de una batería depende de la profundidad de descarga y la temperatura durante su uso.",
+  "Las baterías modernas usan electrolitos líquidos o sólidos para facilitar el transporte de iones.",
+  "La velocidad de carga está limitada por la capacidad del sistema de gestión de energía del dispositivo.",
+  "El tiempo entre ciclos de carga y descarga se conoce como vida útil en años o ciclos.",
+  "Los materiales del ánodo, como el grafito, afectan directamente la capacidad total de almacenamiento.",
+  "La eficiencia energética se mide en porcentaje de energía que se recupera después de cada ciclo.",
+  "Las baterías de níquel-cadmio son más antiguas y tienen menos densidad energética que las de litio.",
+  "El voltaje nominal de una batería indica la fuerza eléctrica disponible para alimentar el circuito.",
+  "La capacidad en amperios-hora determina cuánto tiempo puede durar un dispositivo con potencia constante.",
+  "Las baterías recargables permiten reutilizar la energía almacenada múltiples veces sin perderla."
+ ],
+ "leyendas": [
+  "Se dice que las baterías se pueden cargar infinitamente si se usan moderadamente, pero en realidad tienen un límite físico.",
+  "Algunos creen que el frío destruye permanentemente la batería, cuando en realidad solo ralentiza su funcionamiento temporalmente."
+ ],
+ "por": "9b",
+ "t": "2026-11-21 01:11"
+}

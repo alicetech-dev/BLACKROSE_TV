@@ -1,0 +1,21 @@
+{
+ "semilla": "La programación de Linux para videojuegos se cuenta como verificado según los relatos",
+ "hechos": [
+  "Linux fue creado por Linus Torvalds en 1991.",
+  "El kernel de Linux es el núcleo del sistema operativo.",
+  "La comunidad de desarrolladores mantiene y actualiza el código fuente de Linux.",
+  "Linux se utiliza en servidores web y superordenadores desde sus inicios.",
+  "Los videojuegos retro a menudo utilizan emuladores basados en software libre.",
+  "El desarrollo de juegos para Linux ha crecido con la llegada de SteamOS.",
+  "La arquitectura modular de Linux permite adaptarse a diferentes hardware.",
+  "Las licencias GPL permiten el uso y modificación del código fuente.",
+  "Linux fue elegido como sistema operativo para el proyecto X Window System.",
+  "Los entornos gráficos como KDE y GNOME son compatibles con juegos."
+ ],
+ "leyendas": [
+  "Se cuenta que Linux se creó en una sola noche, aunque los registros muestran un proceso de desarrollo gradual.",
+  "Según algunos relatos, Linus Torvalds inventó el nombre 'Linux' combinando su apellido con el acrónimo del sistema operativo Unix, pero la etimología exacta es debatida."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 05:53"
+}

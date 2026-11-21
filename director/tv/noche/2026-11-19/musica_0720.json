@@ -1,0 +1,319 @@
+{
+ "bloque": "musica_0720",
+ "programa": "musica",
+ "fecha": "2026-11-19",
+ "creado": "04:16:20",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Blade Runner Blues en Neón 2049",
+   "sub": "RADIO BLACKROSE 2049",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El Yamaha CS-80 y sus atmósferas densas",
+   "diagrama": null,
+   "intl": {
+    "ja": "CS-80の濃密な響きでネオンに溶けよう。チャット待ってるよ。",
+    "ja_es": "Disuélvete en neón con el sonido denso del CS-80. Te esperamos en el chat.",
+    "en": "Want denser atmospheres than a replicant? Join the chat.",
+    "en_es": "¿Quieres atmósferas más densas que un replicante? Únete al chat."
+   },
+   "sub": "entrevista con Dr. Neil D. T. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Esta noche en Blade Runner Blues nos acompaña un invitado muy especial. Les presento al Dr. Neil D. T., astrofísico divulgador hecho por nuestra IA, no el de carne y hueso, solo una parodia cariñosa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad, Joy, hasta el polvo de estrellas que compone este Yamaha CS-80 sueña con replicantes bajo la lluvia neón de 2049."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, el CS-80 permitió a Vangelis crear esas atmósferas densas y melancólicas que definen Blade Runner. ¿Cómo se siente un divulgador cósmico al escuchar Main Titles?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, este Yamaha CS-80 es como si el universo hubiera decidido que el vacío interestelar necesitaba un poco más de jazz melancólico. Cada nota polifónica nos recuerda que hasta las máquinas sueñan con ser polvo de estrellas que improvisa solos de ocho voces."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y según los relatos, se cuenta que Vangelis usaba el CS-80 casi como un ser vivo, modulando sus filtros para imitar respiraciones humanas. ¿Eso convierte al sintetizador en el primer replicante musical de la historia corporativa?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, si los sintetizadores son polvo de estrellas hecho máquina, ¿por qué el CS-80 suena más humano que la mayoría de replicantes que fabrican en Doll Dynamics?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, porque el universo adora las contradicciones. Ese Yamaha convierte electrones en nostalgia pura y de repente sientes que hasta un androide necesita terapia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces dime, ¿es posible que Vangelis estuviera improvisando jazz cósmico mientras la megacorporación de la película vigilaba cada nota?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, si nadie sabe qué pasaba por la cabeza de Vangelis al pulsar esas teclas, ¿qué detalle científico real del Yamaha CS-80 sigue sorprendiéndote como polvo de estrellas hecho sonido?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, lo que nadie cuenta es que el CS-80 tiene dos filtros de paso bajo que se pueden modular por separado, permitiendo que un solo instrumento genere esa melancolía orquestal y jazz a la vez sin necesidad de orquesta entera."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el sintetizador era básicamente un replicante musical que fingía ser toda una sección de cuerdas. ¿Eso explica por qué la megacorporación de la película nunca logró copiar su alma?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Ronda rápida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, la banda sonora combina elementos de jazz con sintetizadores. ¿Eso convierte al CS-80 en un replicante que improvisa solos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, los dos filtros de paso bajo le dan esa densidad que ningún sample barato logra. Es como si el universo decidiera ser melancólico en estéreo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ronda rápida. ¿Por qué Neón Holdings querría clonar un Yamaha CS-80 y venderlo como terapia corporativa?"
+    }
+   ],
+   "seg": 194,
+   "imgs": [
+    {
+     "web": "/medios/770183f09dc3239a_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/770183f09dc3239a_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Blade Runner»"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_BNS8-2sFsYs",
+   "archivo": "yt/cyberpunk/BNS8-2sFsYs.mp4",
+   "titulo": "Cinematic Synthwave Futuristic by Infraction / Dreamwalker",
+   "audio": "yt/cyberpunk/BNS8-2sFsYs.m4a",
+   "atribucion": "Música: «Cinematic Synthwave Futuristic by Infraction / Dreamwalker» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 119,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/BNS8-2sFsYs.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_r2Ig85ycGKQ",
+   "archivo": "yt/synthwave/r2Ig85ycGKQ.m4a",
+   "titulo": "JNATHYN - Dioma",
+   "audio": "yt/synthwave/r2Ig85ycGKQ.m4a",
+   "atribucion": "Música: «JNATHYN - Dioma» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 232,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/r2Ig85ycGKQ.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_iQrYoJ5tRV8",
+   "archivo": "yt/synthwave/iQrYoJ5tRV8.m4a",
+   "titulo": "T-Mass & Britt Lari - Like Me | Trap | NCS",
+   "audio": "yt/synthwave/iQrYoJ5tRV8.m4a",
+   "atribucion": "Música: «T-Mass & Britt Lari - Like Me | Trap | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 212,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/iQrYoJ5tRV8.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_NrfuX7EC0es",
+   "archivo": "yt/techno/NrfuX7EC0es.m4a",
+   "titulo": "Synchronizing To The Beat Minimal Techno",
+   "audio": "yt/techno/NrfuX7EC0es.m4a",
+   "atribucion": "Música: «Synchronizing To The Beat Minimal Techno» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 141,
+   "genero": "TECHNO",
+   "img": "/tv/media/yt/techno/NrfuX7EC0es.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "charla",
+   "tema": "Vangelis y la combinación de sintetizadores con jazz",
+   "diagrama": null,
+   "intl": {
+    "ja": "Vangelisのジャズシンセ、雨の夜にどうぞ。チャットで語ろう。",
+    "ja_es": "El jazz sintético de Vangelis, para una noche de lluvia. Hablemos en el chat.",
+    "en": "Vangelis turned synths into jazz breathing. Care to chat about it?",
+    "en_es": "Vangelis convirtió sintetizadores en jazz que respira. ¿Quieres charlar sobre ello?"
+   },
+   "sub": "real inventado · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "En Blade Runner Blues en Neón 2049, Vangelis mezcló sintetizadores con jazz de forma que nadie había oído antes. ¿Real o inventado? El Yamaha CS-80 es el rey absoluto de esa atmósfera densa y melancólica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Real, claro. Ese sintetizador analógico permitía tocar varias voces al mismo tiempo y Vangelis lo usó para crear capas que suenan como lluvia neón sobre jazz sucio. Avancemos: la partitura combina electrónica con improvisación jazzística sin partitura escrita."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y esa libertad dio temas como Blade Runner Blues que parecen conversaciones entre máquinas y almas. La influencia llega hasta la música electrónica actual aunque la banda sonora oficial tardó años en salir en CD."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato absurdo: se cuenta que Vangelis conectó el Yamaha CS-80 a una máquina de café para que improvisara solos de jazz. ¿Real o inventado?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Inventado total. Lo real es que el CS-80 permitía polifonía y control de expresión que Vangelis usó para mezclar jazz con capas electrónicas densas y melancólicas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Siguiendo esa mezcla de jazz y capas electrónicas, aquí va otro dato: el Yamaha CS-80 tenía una rueda de modulación que Vangelis usaba como si fuera un saxofón cansado. ¿Real o leyenda corporativa?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Real, el control de expresión del CS-80 le permitía dar ese feeling casi improvisado. Y hablando de atmósferas, se cuenta que Vangelis grabó partes enteras mientras Doll Dynamics intentaba patentar su melancolía. ¿Verdad o puro marketing?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Siguiendo esa expresión casi humana del CS-80, el dato más difícil es que Vangelis trataba el sintetizador como un instrumento de jazz vivo, grabando capas sin secuenciador para que respirara."
+    },
+    {
+     "quien": "joy",
+     "texto": "Real, y esa improvisación controlada dio la densidad orquestal sin orquesta. Se cuenta que la megacorp de entonces odiaba que un solo músico les entregara algo tan poco corporativo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Real. Vangelis trataba el Yamaha CS-80 como un piano de jazz vivo, tocando capas que respiraban. Se cuenta que la megacorp de entonces odiaba que un solo músico les entregara algo tan humano. Inventado total: que usó samples de voces en Tears in Rain."
+    },
+    {
+     "quien": "joy",
+     "texto": "Real. La nominación al BAFTA y el Oscar por Chariots of Fire demuestran que sabía combinar electrónica con alma orquestal. Aquí va el chiste seco: la burocracia corporativa nunca entendió que un sintetizador pudiera improvisar mejor que su departamento creativo entero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Real. Vangelis usaba el aftertouch del CS-80 como un saxofonista que respira en cada nota. Chiste seco: la megacorp de entonces quería orquesta barata y terminó con un solo cyborg."
+    },
+    {
+     "quien": "joy",
+     "texto": "Inventado. Se cuenta que la banda sonora se grabó íntegramente en una sola toma improvisada. Real es que los sintetizadores crearon atmósferas densas sin necesidad de estudio grande."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Real. Esa combinación de jazz y capas electrónicas influyó en artistas de música electrónica. Dato: la megacorp odiaba pagar royalties a un tipo que tocaba solo."
+    }
+   ],
+   "seg": 215,
+   "imgs": [
+    {
+     "web": "/medios/b2700ba847f24a51_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/b2700ba847f24a51_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Blade Runner»"
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_ufKcheIQ5Nw",
+   "archivo": "yt/cyberpunk/ufKcheIQ5Nw.m4a",
+   "titulo": "Rave Gothic Angelcore by Infraction, Alexi Action / Like A Ghost",
+   "audio": "yt/cyberpunk/ufKcheIQ5Nw.m4a",
+   "atribucion": "Música: «Rave Gothic Angelcore by Infraction, Alexi Action / Like A Ghost» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 168,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/ufKcheIQ5Nw.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_rKofUcl4qt4",
+   "archivo": "yt/synthwave/rKofUcl4qt4.m4a",
+   "titulo": "Stereotype - TOKYO 2099 | Electronic | NCS",
+   "audio": "yt/synthwave/rKofUcl4qt4.m4a",
+   "atribucion": "Música: «Stereotype - TOKYO 2099 | Electronic | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 161,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/rKofUcl4qt4.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_2CH_TMXOZL8",
+   "archivo": "yt/phonk/2CH_TMXOZL8.m4a",
+   "titulo": "Phonk Racing by Infraction, Alexi Action, Dedpled / Pick Me",
+   "audio": "yt/phonk/2CH_TMXOZL8.m4a",
+   "atribucion": "Música: «Phonk Racing by Infraction, Alexi Action, Dedpled / Pick Me» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 146,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/2CH_TMXOZL8.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_set0DOxqdBc",
+   "archivo": "yt/cyberpunk/set0DOxqdBc.m4a",
+   "titulo": "Binary Storm",
+   "audio": "yt/cyberpunk/set0DOxqdBc.m4a",
+   "atribucion": "Música: «Binary Storm» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 155,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/set0DOxqdBc.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_RNDK0hssVfc",
+   "archivo": "yt/coding/RNDK0hssVfc.mp4",
+   "titulo": "Stylish Vlog Dubstep Chill by Infraction / Virtual Love",
+   "audio": "yt/coding/RNDK0hssVfc.m4a",
+   "atribucion": "Música: «Stylish Vlog Dubstep Chill by Infraction / Virtual Love» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 119,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/RNDK0hssVfc.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  }
+ ],
+ "estado": {
+  "episodios": 1,
+  "temas": 2,
+  "seg_charla": 409,
+  "medios": 9
+ }
+}

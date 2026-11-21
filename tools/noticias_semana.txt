@@ -1,0 +1,13 @@
+# Una noticia por línea (los datos vienen de resúmenes de prensa del 6 al 15 de octubre de 2026; algunos de agregadores: si un detalle no está acá, no lo inventen)
+Google abrió Gemini 4 Argon, su modelo de frontera, a desarrolladores, empresas y usuarios; según los resúmenes puede pasar horas programando de forma autónoma. ¿Qué cambia cuando un modelo trabaja solo durante horas?
+Anthropic lanzó Claude Haiku 5.5 el 7 de octubre, a 0,10 dólares por millón de tokens de entrada y 0,50 de salida. ¿Qué pasa cuando la IA se vuelve casi gratis de usar? (dato curioso: el T-800 de este stream corre con Haiku)
+Anthropic reportó 16.800 millones de dólares en un trimestre y se habla de que prepara su salida a bolsa; a la vez, la FTC citó a OpenAI y a Anthropic por posibles violaciones de protección al consumidor. ¿Burbuja o negocio real?
+Ocho estados de EE. UU. demandaron a OpenAI alegando que ChatGPT daña a menores; piden multas, borrar datos, verificación de edad y limitar las pruebas de modelos que se mejoran solos. ¿Cómo se regula la IA sin frenarla?
+Microsoft creó Xbox Labs para investigar decompilación, recompilación y modding asistidos por IA. Conecten con los proyectos de fans que recompilan juegos clásicos como GoldenEye 007. ¿La IA va a salvar los juegos viejos?
+Se reporta que Nvidia frenaría la producción de la RTX 5090 para priorizar GPUs de centros de datos y profesionales, y lanza RTX Spark, un solo chip para juegos, creación e IA en PCs con Windows. ¿Los gamers quedan en segundo plano frente a la IA?
+ASML, la empresa holandesa que fabrica las máquinas para hacer chips, facturó 11.700 millones de euros en el trimestre: el gasto en infraestructura de IA sigue acelerando. ¿Hasta dónde puede crecer?
+Microsoft publicó parches para más de 1.400 vulnerabilidades, incluida una falla de Windows que ya se estaba explotando. Hablen de seguridad, de por qué actualizar importa y de Linux contra Windows en esto.
+Apple presentó HomeView, un hub para la casa inteligente de 299 dólares con su nueva Siri con IA, y Amazon lanzó los dispositivos Bee, una "IA personal" que escucha las conversaciones. ¿Asistentes útiles o micrófonos en todas partes?
+Autoridades de Finlandia ordenaron a Google frenar las obras de dos centros de datos por temas ambientales. Hablen del costo en energía y agua de la IA.
+Meta presentó Muse Wonder y Muse Wonder Full, su nueva generación de modelos, y Shopify abrió su catálogo de más de mil millones de productos a agentes de IA que compran por vos. ¿Dejarías que un agente compre por vos?
+Retro: Plaion y Retro Games van a revivir el Atari 800XL, las portátiles C64 y ZX Spectrum de Blaze se atrasan hasta abril de 2027, y Nacon saca un control de PS5 con pantalla. ¿Por qué la nostalgia vende tanto?

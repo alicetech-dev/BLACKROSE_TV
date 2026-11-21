@@ -1,0 +1,231 @@
+{
+ "bloque": "ciencia_0930",
+ "programa": "ciencia",
+ "fecha": "2026-11-20",
+ "creado": "05:32:23",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Actualidad",
+   "sub": "LABORATORIO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Una hoja de papel tiene 0,1 mm de grosor, pero al doblarla 27 veces se",
+   "sub": "Xataka Ciencia · hace 22 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Atención a esta: Una hoja de papel tiene 0,1 mm de grosor, pero al doblarla 27 veces se forma una pila más alta que el Everest. 15 pliegues más la elevan más allá de la Luna. Lo informa Xataka Ciencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 28,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/72cf37fc36fadaaa_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/72cf37fc36fadaaa_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Marie-Hélène Verlhac, bióloga del Collège de France, sobre la proteína",
+   "sub": "Xataka Ciencia · hace 23 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "También: Marie-Hélène Verlhac, bióloga del Collège de France, sobre la proteína que frena la caída de la fertilidad con la edad en ratones: una pista nueva e importante, pero no aplicable todavía. Lo informa Xataka Ciencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 27,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/c273ad536f6e26fe_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c273ad536f6e26fe_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El eclipse del siglo apagará el sol de 'Star Wars' sobre el desierto d",
+   "sub": "Xataka Ciencia · hace 39 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "También: El eclipse del siglo apagará el sol de 'Star Wars' sobre el desierto de Túnez. Lo informa Xataka Ciencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 20,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/c70c0ae90fd27b2c_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c70c0ae90fd27b2c_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20240524_mh_ilw01_0002_europa_clippe",
+   "archivo": "v/v_nasa_ksc_20240524_mh_ilw01_0002_europa_clippe.mp4",
+   "titulo": "NASA's Europa Clipper Lift and Push into PHSF at the Kennedy Space Center",
+   "atribucion": "«NASA's Europa Clipper Lift and Push into PHSF at the Kennedy Space Center» — NASA · images.nasa.gov",
+   "dur": 204,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: ¿Cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar?",
+   "sub": "LABORATORIO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "¿Cómo los descubrimientos del laboratorio se convierten en tendencias ",
+   "diagrama": null,
+   "intl": null,
+   "sub": "real inventado · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Juguemos a ¿real o inventado? sobre ¿Cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar?, visto desde lo cotidiano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Primer dato."
+    },
+    {
+     "quien": "joy",
+     "texto": "Segundo dato."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Tercer dato, el más difícil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ahora, la verdad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el chat: ¿real o inventado? Juega con nosotras."
+    }
+   ],
+   "seg": 25,
+   "imgs": [
+    {
+     "web": "/medios/b016c748c75cf123_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/b016c748c75cf123_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Macrodatos»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "¿Cómo los descubrimientos del laboratorio se convierten en tendencias ",
+   "diagrama": null,
+   "intl": null,
+   "sub": "explicado · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de ¿Cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar?, con humor? Hoy lo vemos."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar?, con humor, dicho en simple, es algo que usamos sin darnos cuenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo interesante de ¿Cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar?, con humor es cómo funciona por dentro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hay un dato de ¿Cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar?, con humor que siempre sorprende."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo tengo mi opinión sobre ¿Cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar?, con humor, y no coincide con la tuya."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y tú qué piensas de ¿Cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar?, con humor? Escríbelo en el chat."
+    }
+   ],
+   "seg": 65,
+   "imgs": [
+    {
+     "web": "/medios/8039002d13c63eb0_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/8039002d13c63eb0_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Macrodatos»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_AUpsoImFbqA",
+   "archivo": "yt/cyberpunk/AUpsoImFbqA.mp4",
+   "titulo": "Queen Of The Sleepless",
+   "audio": "yt/cyberpunk/AUpsoImFbqA.m4a",
+   "atribucion": "Música: «Queen Of The Sleepless» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 149,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/AUpsoImFbqA.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_RdXE33JJ6rQ",
+   "archivo": "yt/cyberpunk/RdXE33JJ6rQ.mp4",
+   "titulo": "Cardio Cyberpunk Game Workout Club Techno by Infraction / Dimensions",
+   "audio": "yt/cyberpunk/RdXE33JJ6rQ.m4a",
+   "atribucion": "Música: «Cardio Cyberpunk Game Workout Club Techno by Infraction / Dimensions» · Inaudio / No Copyright Music / Royalty Free Music · sin copyright (YouTube)",
+   "dur": 135,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/RdXE33JJ6rQ.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 5,
+  "seg_charla": 165,
+  "medios": 3
+ }
+}

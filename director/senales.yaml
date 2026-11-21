@@ -1,0 +1,151 @@
+# Señales en el texto del LLM -> animación. El 4B mete emoji, *acciones* y onomatopeyas aunque se le pida que no:
+# el director las usa para elegir emoción y gesto, y las quita (o las deja, si son palabras) antes de la voz.
+#
+# Prioridad por frase: etiquetas [emocion:x][gesto:y][mirar:z] > *acción* > emoji > onomatopeya > clasificador.
+# Cada señal: {emocion?, gesto?, mirar?, intensidad?}. `dolls.<id>` reemplaza entradas para esa doll.
+# Si una emoción/gesto no existe en la doll (ver {"cmd":"listar"} de su joy_vmc), se ignora esa parte.
+
+emoji:
+  "💋": {emocion: picara, gesto: beso}
+  "😘": {emocion: feliz, gesto: beso}
+  "😂": {emocion: alegre, gesto: risita}
+  "🤣": {emocion: alegre, gesto: risita}
+  "😹": {emocion: alegre, gesto: risita}
+  "🤭": {emocion: alegre, gesto: risita, intensidad: 0.7}
+  "😊": {emocion: feliz}
+  "☺": {emocion: feliz}
+  "🥰": {emocion: feliz, gesto: corazon}
+  "😍": {emocion: emocionada, gesto: corazon}
+  "❤": {emocion: feliz, gesto: corazon}
+  "💕": {emocion: feliz, gesto: corazon}
+  "💖": {emocion: feliz, gesto: corazon}
+  "💗": {emocion: feliz, gesto: corazon}
+  "🩷": {emocion: feliz, gesto: corazon}
+  "😏": {emocion: picara, gesto: ladear_cabeza}
+  "😈": {emocion: picara, gesto: ladear_cabeza}
+  "😉": {emocion: guiño}
+  "😜": {emocion: guiño}
+  "😳": {emocion: avergonzada, gesto: timida}
+  "🙈": {emocion: avergonzada, gesto: timida}
+  "🥺": {emocion: triste, gesto: timida, intensidad: 0.7}
+  "😢": {emocion: triste}
+  "😭": {emocion: triste}
+  "😠": {emocion: enojada, gesto: negar}
+  "😤": {emocion: enojada}
+  "💢": {emocion: enojada}
+  "😮": {emocion: sorprendida, gesto: sorpresa}
+  "😲": {emocion: sorprendida, gesto: sorpresa}
+  "😱": {emocion: sorprendida, gesto: sorpresa}
+  "🤔": {gesto: pensar, mirar: arriba}
+  "🤷": {gesto: encoger_hombros}
+  "👋": {emocion: feliz, gesto: saludo}
+  "👉": {gesto: senalar}
+  "🫵": {gesto: senalar}
+  "👏": {emocion: emocionada, gesto: aplaudir}
+  "🎉": {emocion: emocionada, gesto: aplaudir}
+  "✨": {emocion: emocionada}
+  "🥱": {gesto: bostezo}
+  "😴": {gesto: bostezo}
+  "💤": {gesto: bostezo}
+  "💅": {emocion: picara}
+  "🐾": {emocion: feliz}
+  "😺": {emocion: feliz}
+  "🐱": {emocion: feliz}
+
+# *acciones* entre asteriscos (o guiones bajos): regex, en inglés y castellano. Se quitan del audio.
+acciones:
+  - [ "gigg|chuckl|laugh|risit|ríe|rie|carcaj|tee-?hee", {emocion: alegre, gesto: risita} ]
+  - [ "blows? (a )?kiss|kiss|beso|muack|mwah", {emocion: feliz, gesto: beso} ]
+  - [ "wink|guiñ", {emocion: guiño} ]
+  - [ "blush|sonroj|ruboriz|shy|tímid|timid", {emocion: avergonzada, gesto: timida} ]
+  - [ "pout|puchero|hace trompa", {emocion: triste, intensidad: 0.6} ]
+  - [ "sigh|suspir", {emocion: triste, intensidad: 0.5, mirar: abajo} ]
+  - [ "yawn|bostez|stretch|estir", {gesto: bostezo} ]
+  - [ "nod|asient", {gesto: asentir} ]
+  - [ "shake.*head|niega|sacude la cabeza", {gesto: negar} ]
+  - [ "tilt.*head|ladea", {gesto: ladear_cabeza} ]
+  - [ "shrug|encoge", {gesto: encoger_hombros} ]
+  - [ "gasp|jadea|sorprend", {emocion: sorprendida, gesto: sorpresa} ]
+  - [ "clap|aplaud", {emocion: emocionada, gesto: aplaudir} ]
+  - [ "wave|salud", {emocion: feliz, gesto: saludo} ]
+  - [ "point|señal|senal", {gesto: senalar} ]
+  - [ "think|piens|hmm", {gesto: pensar, mirar: arriba} ]
+  - [ "twirl|enrul|plays? with (her )?hair|juega con (el|su) pelo", {emocion: picara, gesto: ladear_cabeza} ]
+  - [ "flip.*hair|hair flip|echa.*pelo", {emocion: picara, gesto: ladear_cabeza} ]
+  - [ "nails|uñas", {emocion: picara} ]
+  - [ "pose|posa", {emocion: picara} ]
+  - [ "bites? (her )?lip|muerde.*labio|moan|gime", {emocion: picara, intensidad: 0.8} ]
+  - [ "purr|ronron|nya|meow|miau", {emocion: feliz} ]
+  - [ "hug|abraz|heart|coraz", {emocion: feliz, gesto: corazon} ]
+  - [ "glitch|static|beep|bzz", {emocion: sorprendida, intensidad: 0.6} ]
+
+# Palabras que se dicen en voz alta (NO se quitan) pero también son señal.
+onomatopeyas:
+  - [ "\\b(ja){2,}\\b|\\b(ha){2,}\\b|\\b(je){2,}\\b|\\b(he){2,}\\b|\\bhihi+\\b|\\blol\\b|\\blmao\\b", {emocion: alegre, gesto: risita} ]
+  - [ "\\bhm{2,}\\b|\\bmm+h?m+\\b", {gesto: ladear_cabeza} ]
+  - [ "\\bomg\\b|oh my god|dios m[ií]o|\\bwow\\b|\\bwhoa\\b|\\bqu[eé]\\?!|\\bno way\\b", {emocion: sorprendida, gesto: sorpresa} ]
+  - [ "\\bny+a+\\b|\\bmeo+w\\b|\\bmia+u\\b", {emocion: feliz} ]
+  - [ "\\byay+\\b|\\bwiii+\\b|\\bwoo+\\b", {emocion: emocionada, gesto: aplaudir} ]
+  - [ "\\bugh+\\b|\\bpff+\\b", {emocion: enojada, intensidad: 0.5} ]
+  - [ "\\baww+\\b|\\bawh\\b", {emocion: feliz, gesto: corazon, intensidad: 0.7} ]
+
+# Cada doll las interpreta a su manera (mismo SO, otro cuerpo).
+dolls:
+  joy:
+    emoji:
+      "💋": {emocion: traviesa, gesto: patitas}
+      "😏": {emocion: traviesa, gesto: ladear_cabeza}
+      "😈": {emocion: traviesa, gesto: glitch}
+      "💅": {emocion: traviesa}
+      "🐾": {emocion: gatuna, gesto: amasar}
+      "😺": {emocion: gatuna, gesto: patitas}
+      "🐱": {emocion: gatuna, gesto: patitas}
+      "🤔": {gesto: escanear}
+    acciones:
+      - [ "purr|ronron|nya|meow|miau|knead|amasa", {emocion: gatuna, gesto: amasar} ]
+      - [ "glitch|static|beep|bzz|error", {emocion: error, gesto: glitch} ]
+      - [ "scan|escane", {gesto: escanear} ]
+    onomatopeyas:
+      - [ "\\bny+a+\\b|\\bmeo+w\\b|\\bmia+u\\b", {emocion: gatuna, gesto: patitas} ]
+  bambi:
+    emoji:
+      "💋": {emocion: besito, gesto: beso}
+      "😏": {emocion: presumida, gesto: coqueta}
+      "😈": {emocion: coqueta, gesto: coqueta}
+      "💅": {emocion: presumida, gesto: mirar_unas}
+      "😉": {emocion: coqueta}
+    acciones:
+      - [ "twirl|enrul|plays? with (her )?hair|juega con (el|su) pelo", {emocion: coqueta, gesto: enrular_pelo} ]
+      - [ "flip.*hair|hair flip|echa.*pelo", {emocion: presumida, gesto: echar_pelo} ]
+      - [ "nails|uñas", {emocion: presumida, gesto: mirar_unas} ]
+      - [ "pose|posa", {emocion: presumida, gesto: posar} ]
+      - [ "hip|cadera", {emocion: coqueta, gesto: mano_cadera} ]
+      - [ "wink|guiñ", {emocion: coqueta, gesto: coqueta} ]
+
+# Modos del agente -> cómo se mueve (tempo de gestos y mirada). pop/stop/wake up -> reset completo.
+modos:
+  trance: {mirar: abajo, gestos: false, emocion: neutral}
+  spa: {mirar: abajo, gestos: false, emocion: feliz, intensidad: 0.4}
+  therapy: {gestos: suaves, emocion: neutral}
+  lecture: {gestos: true}
+  monologue: {gestos: true}
+  recall: {gestos: true}
+  fusion: {gestos: suaves}
+
+# Reacción inmediata: la emoción transitoria que el agente clasifica del MENSAJE antes de llamar al LLM (state.py).
+# Clave = comienzo del texto de la emoción. Se muestra enseguida, mientras "piensa".
+reacciones:
+  "Preocupación tierna": {emocion: triste, intensidad: 0.6, gesto: escuchar, mirar: camara}
+  "Una oleada de ternura": {emocion: feliz, intensidad: 0.9, gesto: corazon}
+  "Alegría espontánea": {emocion: alegre, gesto: risita}
+  "Un chispazo de orgullo herido": {emocion: enojada, intensidad: 0.6, gesto: negar}
+  "Curiosidad intensa": {emocion: sorprendida, intensidad: 0.4, gesto: ladear_cabeza}
+  "Atención tranquila": {gesto: escuchar, mirar: camara}
+
+# Ánimo (persistente): según la necesidad dominante del estado interior. Se aplica al terminar de hablar y queda de
+# fondo, suave, hasta el próximo turno. Con energía baja (< 45) la intensidad baja a la mitad y mira un poco abajo.
+animo:
+  EQUILIBRIO: {emocion: feliz, intensidad: 0.3}
+  VALIDACION: {emocion: picara, intensidad: 0.4}
+  CONEXION: {emocion: triste, intensidad: 0.3}
+  CURIOSIDAD: {emocion: sorprendida, intensidad: 0.2}

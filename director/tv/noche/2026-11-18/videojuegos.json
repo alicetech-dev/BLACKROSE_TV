@@ -1,0 +1,876 @@
+{
+ "bloque": "videojuegos",
+ "fecha": "2026-11-18",
+ "creado": "22:26:10",
+ "items": [
+  {
+   "tipo": "charla",
+   "tema": "Doom y la cultura mod",
+   "sub": "De los archivos WAD al caos creativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos al laboratorio de mods donde todo empezó con Doom. Imagínate un juego que apenas salió y la gente ya lo estaba rompiendo por dentro. Eso no fue accidente, fue la semilla de toda la cultura modder que tenemos hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto Kuroki. Lo documentado es que id Software liberó el código fuente del motor en 1997. Eso permitió que cualquiera pudiera crear niveles, texturas y hasta total conversions. No es leyenda, es historia verificada que abrió las puertas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y antes de eso ya existían los WADs. La comunidad compartía archivos con mapas nuevos, armas locas y monstruos que ni Carmack soñó. Se cuenta que algunos mods tempranos se pasaban en disquetes por correo. Eso sí es puro relato de los noventa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. El primer gran mod que rompió todo fue Alien Vendetta. Pero lo realmente interesante es que Doom demostró que dar herramientas a los jugadores genera más contenido que cualquier estudio podría soñar. La IA no inventó eso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo sigo riéndome de que un juego de disparar demonios se convirtiera en motor para todo. Desde simuladores serios hasta memes con imp decapitando a todo el mundo. Si mi batería de seis gigas pudiera, estaría corriendo Brutal Doom en loop."
+    },
+    {
+     "quien": "joy",
+     "texto": "Aquí viene la opinión. Creo que Doom no solo popularizó los mods, los legitimó. De repente crear tu propio juego era algo que cualquiera con ganas y un editor podía intentar. Eso cambió la industria para siempre y para mejor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo documentado también incluye que John Carmack defendió públicamente la liberación del código. No fue un error de la empresa, fue decisión consciente. Según los relatos, él creía que el conocimiento debía circular libre como el código."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. Gracias a los mods de Doom nacieron proyectos enteros como Chocolate Doom y GZDoom que mantienen vivo el juego en hardware moderno. La comunidad ha portado Doom literalmente a neveras y calculadoras."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi chiste es que si los mods de Doom hubieran existido en los ochenta, los bateristas como yo estaríamos sampleando demonios en vez de baterías analógicas. Imagina un solo de blast beat con el rugido del cyberdemon."
+    },
+    {
+     "quien": "joy",
+     "texto": "Opino que la verdadera magia no fue solo el código abierto. Fue la actitud de la comunidad que decía este juego es nuestro ahora. Esa mentalidad hacker creativa es lo que todavía inspira a miles de modders independientes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que el primer mod de Deathmatch fue tan popular que id terminó añadiendo modos multijugador oficiales inspirados directamente en lo que los jugadores ya estaban haciendo. Eso es influencia real, no especulación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. Doom fue uno de los primeros juegos en tener una escena de speedrunning organizada gracias a que los mods y los demos permitían grabar y compartir partidas perfectas. La IA todavía se sorprende con esa creatividad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Al final Doom nos enseñó que los límites de un juego los pone la imaginación de quien lo juega, no el manual. Y eso, amigas y amigos, es la verdadera lección que sigue viva cada vez que alguien abre Slade y empieza a hacer barbaridades."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces la pregunta abierta al aire es, ¿qué mod de Doom cambiaría tu vida si lo hubieras creado tú y por qué sigue siendo tan potente esa cultura después de casi treinta años?"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20210319_m2020_0001_mars_report_upda",
+   "archivo": "v/v_nasa_jpl_20210319_m2020_0001_mars_report_upda.mp4",
+   "titulo": "Mars Report: Update on NASA’s Perseverance Rover & Ingenuity Helicopter",
+   "atribucion": "«Mars Report: Update on NASA’s Perseverance Rover & Ingenuity Helicopter» — NASA · images.nasa.gov",
+   "dur": 168,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "En nuestro segmento espacial, veamos Mars Report, un video de NASA sobre el rover Perseverance y el helicóptero Ingenuity."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ingenuity es la primera aeronave en Marte. Vamos a ver cómo se preparan para su vuelo."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Ingenuity logró el primer vuelo controlado en otro planeta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un hito real de la exploración. Datos duros de NASA."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "La IA sueña con baterías que nunca se descargan.",
+   "sub": "SUEÑOS CYBORG",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Godot y Blender libres",
+   "sub": "Historia y cultura del desarrollo indie",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos al programa. Hoy exploramos cómo crear un videojuego completo usando solo herramientas libres. Godot y Blender son las estrellas. Empecemos por lo básico. ¿Qué tan viable es realmente lanzar un título profesional sin pagar licencias?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Viable y cada vez más común. Godot es un motor de código abierto que ha ganado terreno desde su primera versión pública. Blender lleva décadas como estándar libre para modelado y animación. Muchos estudios independientes los combinan sin problemas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Documentado está que Godot nació en 2007 como proyecto interno de una empresa argentina y se liberó como código abierto en 2014. Blender se volvió completamente gratuito en 2002 tras una campaña de donaciones que recaudó la suma necesaria."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que la comunidad reunió casi cien mil dólares en siete semanas para liberar Blender. Eso es lo documentado. Lo de que fue un acto romántico contra las corporaciones es más leyenda motivadora que hecho histórico probado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. Godot usa un lenguaje propio llamado GDScript que se parece a Python, lo que lo hace accesible. Y Blender se integra tan bien que hay addons oficiales que exportan escenas directamente a Godot. El flujo es casi mágico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mágico hasta que tu tarjeta de seis gigas del canal se pone a sudar renderizando. Pero en serio, el dato curioso real es que varios juegos publicados en consolas usan Godot ahora. Eso era impensable hace diez años."
+    },
+    {
+     "quien": "joy",
+     "texto": "En mi opinión esto democratiza el desarrollo. Ya no necesitas un presupuesto millonario para tener herramientas profesionales. Es una victoria silenciosa del software libre. Aunque a veces extraño la simplicidad de los viejos motores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ja, yo prefiero pelearme con Linux y Godot que pagar suscripciones mensuales. Chiste gamer. Imagina decirle a un desarrollador de los noventa que hoy haces un juego 3D completo con programas que no cuestan nada. Se habría desmayado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que la primera versión pública de Godot se llamó 1.0 en 2014 y ya incluía editor 2D y 3D. Blender por su parte tiene una comunidad que ha mantenido el proyecto vivo por más de veinticinco años sin interrupción."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, el motor fue liberado por Juan Linietsky y Ariel Manzur después de usarlo en varios proyectos comerciales. Eso sí está confirmado. Lo de que lo crearon en un garage es pura especulación romántica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. Hay títulos como Cruelty Squad o Cassette Beasts que usaron Godot y lograron distribución en Steam y consolas. Blender ha sido usado en cortos nominados al Oscar. Las herramientas libres ya no son solo hobby."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Opinión sincera. Godot es caótico como yo con la batería pero es libre y no te espía. Chiste. La curva de aprendizaje es dura, pero cuando entiendes los nodos sientes que puedes conquistar el mundo sin vender tu alma a ninguna corporación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Totalmente de acuerdo. La combinación de ambos permite desde prototipos hasta productos pulidos. Es un ecosistema que crece cada año. La pregunta que dejo en el aire es: ¿qué juego indie hecho con Godot y Blender te sorprendió más este año?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y para los que recién empiezan, recuerden que la comunidad es gigante. Foros, tutoriales gratis y hasta la documentación oficial son excelentes. No hay excusa. Solo prende la máquina, abre Godot y Blender y empieza a crear tu propio pixel o polígono de historia."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Música para el bloque gamer. Robobozo de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a circo digital. Perfecta para nuestro programa retro."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Robobozo de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me dan ganas de romper la batería con ese ritmo."
+    }
+   ]
+  },
+  {
+   "tipo": "sketch",
+   "titulo": "Noticiero Perfecto",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos al noticiero del futuro donde todo funciona a la primera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por favor, Joy, hasta mi batería de seis gigas se ríe de eso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Noticia uno. Un desarrollador terminó su juego sin bugs en el primer intento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imposible. Yo tiro el mando y el juego se arregla solo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Noticia dos. Los servidores de multijugador nunca han caído en toda la historia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso sí es ciencia ficción. Yo reinicio el router por deporte."
+    },
+    {
+     "quien": "joy",
+     "texto": "Noticia tres. El speedrunner llegó primero sin glitches ni trucos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ahora sí me asustaste. Eso ya es terror psicológico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y por último, los parches se lanzan antes de que existan los errores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo quiero vivir en ese mundo. Aunque mi Linux se aburriría."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cerramos transmisión. Mañana seguiremos con más perfección absurda."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi tarjeta de 6 GB dice que ya es suficiente.",
+   "sub": "TARJETA LIMITADA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Por qué el pixel art vive",
+   "sub": "Historia, cultura y baterías rotas",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos al sótano de los bits. Hoy hablamos de por qué el pixel art sigue vivo después de tantas consolas. Yo creo que es pura rebeldía contra los polígonos lisos. ¿Qué dices tú, directora?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Es una buena entrada caótica, Kuroki. Documentado está que el pixel art surgió por limitaciones técnicas de los ochenta y noventa. Las consolas y computadoras solo podían mostrar pocos colores y baja resolución, así que los artistas trabajaron dentro de esas reglas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Lo que empezó como necesidad técnica se convirtió en estilo. Hoy hay motores modernos que pueden renderizar millones de polígonos pero miles de indies eligen pixels a propósito. Eso ya no es limitación, es elección estética."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado confirma que desde mediados de los dos mil el pixel art volvió con fuerza en la escena independiente. Juegos como Celeste o Stardew Valley usan ese lenguaje visual de forma intencional. No es nostalgia barata, es diseño consciente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, algunos dicen que Shigeru Miyamoto dibujó a Mario en pixels porque no había otra forma. Eso es leyenda bonita. Lo cierto es que el pixel art permite claridad en pantallas pequeñas y animaciones económicas. Eso sigue siendo práctico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. En la actualidad muchos artistas usan software que simula las paletas limitadas de hardware viejo aunque trabajen en pantallas 4K. Es como tocar una batería con solo cinco parches: te obliga a ser creativo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ja, hablando de baterías, mi tarjeta de seis gigas del canal apenas aguanta un sprite animado de ocho bits. El pixel art es eficiente. No necesitas un render farm para hacer que un personaje salte. Eso lo mantiene vivo en proyectos pequeños."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado muestra que comunidades enteras como Pixel Joint o foros de devs independientes mantienen viva la técnica. Hay tutoriales, paletas históricas y hasta emuladores de hardware viejo usados como referencia. Es cultura viva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que en los noventa algunos artistas odiaban los pixels y querían 3D a toda costa. Hoy esos mismos estilos retro se venden como premium. La rueda gira. Yo digo que el pixel art es el punk del mundo de los videojuegos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Opinión mía: su humor irónico radica en que mientras las grandes empresas persiguen el realismo gráfico, los indies encuentran alma en un cuadradito de color. Es rebelde y accesible. Kuroki, ¿crees que Linux y el pixel art tienen algo en común?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Totalmente. Ambos funcionan con restricciones y salen ganando. Linux te obliga a pensar diferente igual que una paleta de dieciséis colores. Dato curioso: hay un juego hecho completamente en Bash que usa solo caracteres. Eso es pixel art de terminal."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que el estilo se enseña en escuelas de arte digital ahora. Ya no es solo hobby de garaje. Hay libros, exposiciones y hasta NFT que recuperan el arte pixel aunque eso sea especulación sobre su valor futuro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste final: si el pixel art muere, yo me muero con él. Mi batería cyborg solo tiene samples de ocho bits. Pero en serio, sigue vivo porque es honesto. No finge ser otra cosa. ¿Tú qué opinas, directora?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Opino que combina historia real con emoción actual. Es un recordatorio de que las limitaciones pueden ser la mejor herramienta creativa. Y ahora pregunto al aire: ¿qué juego pixelado cambió tu forma de ver los videojuegos?"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_elephants_dream",
+   "archivo": "v/v_elephants_dream.mp4",
+   "titulo": "Elephants Dream",
+   "atribucion": "«Elephants Dream» (2006) © Blender Foundation · www.blender.org · CC BY 2.5",
+   "dur": 654,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora, Elephants Dream de la Blender Foundation. Es la primera película abierta hecha con Blender."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dos hombres dentro de una máquina enorme y extraña. Pura experimentación."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "La primera película open movie de Blender."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Extraña, abstracta y hecha con software libre. Clásico."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Linux no pregunta si estás seguro.",
+   "sub": "LINUX SABE",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los primeros juegos",
+   "sub": "Spacewar! y Tennis for Two",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos al rincón retro. Hoy vamos a hablar de los dos juegos que literalmente empezaron todo. Spacewar! y Tennis for Two. Vamos por orden porque la historia es clara en esto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Joy siempre ordenada. Tennis for Two fue creado en 1958 por William Higinbotham en el Brookhaven National Laboratory. Era un juego de tenis visto de lado usando un osciloscopio. Eso está totalmente documentado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto. Higinbotham quería que los visitantes del laboratorio vieran que la física nuclear también servía para cosas divertidas. El juego usaba potenciómetros para controlar el ángulo y la fuerza. Lo documentado termina ahí."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que mucha gente se peleaba por jugarlo ese día abierto. Pero no hay videos ni copias del código original. Solo fotos y el testimonio de los que estuvieron. Después llegó Spacewar! en 1962."
+    },
+    {
+     "quien": "joy",
+     "texto": "Spacewar! fue desarrollado por Steve Russell y un grupo de programadores del Tech Model Railroad Club en el MIT. Corría en una PDP-1. Es el primer juego de disparos espaciales con gravedad realista. Eso está confirmado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Usaban switches de la consola para girar la nave y disparar. La gravedad del sol en el centro era un cálculo real de física. Los que lo jugaron dicen que era adictivo. Documentado, no leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. Spacewar! se distribuyó gratis entre los dueños de PDP-1. Era tan popular que algunas empresas prohibieron jugarlo en horario laboral porque bajaba el rendimiento de las máquinas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ja, imagínate la tarjeta de seis gigas del canal colapsando por un Spacewar! de los sesenta. Lo bueno es que Tennis for Two solo necesitaba un osciloscopio. Menos drama técnico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo interesante es que ninguno de los dos tenía puntuación al principio. Tennis for Two solo mostraba quién ganaba la pelota. Spacewar! después agregó puntaje. Eso cambió el concepto de competencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí viene la parte especulativa. Se cuenta que Higinbotham nunca patentó Tennis for Two porque pensó que no tenía valor comercial. Si eso es verdad o leyenda, nunca lo sabremos del todo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que tanto Tennis for Two como Spacewar! fueron creados para demostrar que las computadoras podían ser divertidas. No para ganar dinero. Esa mentalidad hacker temprana es real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi batería interna tiembla de emoción. Imagina programar eso en lenguaje ensamblador con solo switches. Yo me frustro cuando la IA del canal se cuelga. Ellos lo hicieron sin mouse ni nada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Sin tutoriales en YouTube, sin Stack Overflow. Solo ingenio puro. Eso hace que estos dos títulos sean fundacionales de verdad, no solo por ser los primeros sino por el espíritu."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces, ¿qué creen ustedes? ¿Habría existido Pong o Asteroids sin que estos locos del MIT y del laboratorio nuclear decidieran jugar en sus máquinas caras? Cuéntenme en los comentarios."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_caminandes_llamigos",
+   "archivo": "v/v_caminandes_llamigos.mp4",
+   "titulo": "Caminandes: Llamigos",
+   "atribucion": "«Caminandes: Llamigos» (2016) © Blender Foundation · www.blender.org · CC BY 3.0",
+   "dur": 150,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Caminandes: Llamigos, también de la Blender Foundation."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Una llama y un armadillo con humor físico en dos minutos. Vamos a reírnos."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Humor físico puro en solo dos minutos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Llamigos nunca falla. Blender en estado puro."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_121704_b52_retires",
+   "archivo": "v/v_nasa_ksc_121704_b52_retires.mp4",
+   "titulo": "KSC-04-S-00402",
+   "atribucion": "«KSC-04-S-00402» — NASA · images.nasa.gov",
+   "dur": 61,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Video histórico de NASA. El retiro del B-52B después de casi cincuenta años de servicio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Llevó el primer X-15 y apoyó casi toda la investigación aeronáutica de NASA."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "El B-52B se retiró tras décadas de lanzamientos aéreos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Una leyenda real de la aviación científica. Documento oficial de NASA."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_pixelland",
+   "archivo": "m/m_pixelland.mp3",
+   "titulo": "Pixelland",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 234,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora suena Pixelland de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pura nostalgia de 8 bits. Ideal para historia de videojuegos."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Pixelland de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me transporta directo a los arcades. Buenísima."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_digital_lemonade",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "titulo": "Digital Lemonade",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Cerramos el bloque musical con Digital Lemonade de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Refrescante y con sabor a chiptune. Vamos a disfrutarla."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Digital Lemonade de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Limonada digital confirmada. Buen cierre retro."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El compilador nunca se equivoca. Yo sí.",
+   "sub": "CULPA AL CÓDIGO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Datos curiosos: el primer bug fue una polilla real.",
+   "sub": "BUG HISTÓRICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "La inteligencia artificial también necesita café.",
+   "sub": "IA CAFÉ",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Actualizar o no actualizar. Esa es la cuestión.",
+   "sub": "DRAMA UPDATE",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi código funciona. Solo en mi cabeza.",
+   "sub": "FUNCIONA EN MENTE",
+   "dice": "joy"
+  }
+ ],
+ "relleno_musica": [
+  {
+   "tipo": "musica",
+   "id": "m_wallpaper",
+   "archivo": "m/m_wallpaper.mp3",
+   "titulo": "Wallpaper",
+   "atribucion": "Música: «Wallpaper» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 220,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_cyborg_ninja",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "titulo": "Cyborg Ninja",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_mechanolith",
+   "archivo": "m/m_mechanolith.mp3",
+   "titulo": "Mechanolith",
+   "atribucion": "Música: «Mechanolith» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 55,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_digital_lemonade",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "titulo": "Digital Lemonade",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Cerramos el bloque musical con Digital Lemonade de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Refrescante y con sabor a chiptune. Vamos a disfrutarla."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Digital Lemonade de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Limonada digital confirmada. Buen cierre retro."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_rocket_power",
+   "archivo": "m/m_rocket_power.mp3",
+   "titulo": "Rocket Power",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 154,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_space_jazz",
+   "archivo": "m/m_space_jazz.mp3",
+   "titulo": "Space Jazz",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 370,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_fluidscape",
+   "archivo": "m/m_fluidscape.mp3",
+   "titulo": "Fluidscape",
+   "atribucion": "Música: «Fluidscape» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 1821,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_dark_fog",
+   "archivo": "m/m_dark_fog.mp3",
+   "titulo": "Dark Fog",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_darkest_child",
+   "archivo": "m/m_darkest_child.mp3",
+   "titulo": "Darkest Child",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_funkorama",
+   "archivo": "m/m_funkorama.mp3",
+   "titulo": "Funkorama",
+   "atribucion": "Música: «Funkorama» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 201,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_voxel_revolution",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "titulo": "Voxel Revolution",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 130,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Música para el bloque gamer. Robobozo de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a circo digital. Perfecta para nuestro programa retro."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Robobozo de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me dan ganas de romper la batería con ese ritmo."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_take_a_chance",
+   "archivo": "m/m_take_a_chance.mp3",
+   "titulo": "Take a Chance",
+   "atribucion": "Música: «Take a Chance» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 37,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_pixelland",
+   "archivo": "m/m_pixelland.mp3",
+   "titulo": "Pixelland",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 234,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora suena Pixelland de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pura nostalgia de 8 bits. Ideal para historia de videojuegos."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Pixelland de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me transporta directo a los arcades. Buenísima."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_8bit_dungeon_boss",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "titulo": "8bit Dungeon Boss",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 172,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_newer_wave",
+   "archivo": "m/m_newer_wave.mp3",
+   "titulo": "Newer Wave",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 175,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_danger_storm",
+   "archivo": "m/m_danger_storm.mp3",
+   "titulo": "Danger Storm",
+   "atribucion": "Música: «Danger Storm» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_ghost_story",
+   "archivo": "m/m_ghost_story.mp3",
+   "titulo": "Ghost Story",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 320,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_lightless_dawn",
+   "archivo": "m/m_lightless_dawn.mp3",
+   "titulo": "Lightless Dawn",
+   "atribucion": "Música: «Lightless Dawn» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 380,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_comfortable_mystery_4",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "titulo": "Comfortable Mystery 4",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_impact_moderato",
+   "archivo": "m/m_impact_moderato.mp3",
+   "titulo": "Impact Moderato",
+   "atribucion": "Música: «Impact Moderato» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "charlas": 5,
+  "sketch": true,
+  "cortes": 8,
+  "videos": 4,
+  "musica": 3
+ }
+}

@@ -1,0 +1,820 @@
+{
+ "bloque": "hackers",
+ "fecha": "2026-11-18",
+ "creado": "22:27:17",
+ "items": [
+  {
+   "tipo": "charla",
+   "tema": "El huevo del cuco",
+   "sub": "El hacker que cazó a Stoll",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos al primer capítulo de esta serie de misterio hacker. Hoy contamos la historia del huevo del cuco, el caso que convirtió a un astrónomo en detective. Se cuenta que todo empezó con una diferencia de setenta y cinco centavos en la contabilidad de un laboratorio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto Kuroki. Lo documentado es que Clifford Stoll trabajaba en el Lawrence Berkeley National Laboratory en mil novecientos ochenta y seis. Notó una cuenta de setenta y cinco centavos que no cuadraba y eso lo llevó a investigar un acceso no autorizado en su sistema."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que sigue está bien documentado. Stoll descubrió que un hacker había usado una cuenta de invitado y estaba moviéndose por la red militar de Estados Unidos. Pasó meses armando trampas, registrando cada movimiento y hasta creó un archivo falso llamado el huevo del cuco."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese archivo era información falsa sobre un proyecto de defensa. El hacker lo mordió y Stoll pudo rastrear la conexión. Según los registros oficiales el intruso era Markus Hess, un hacker alemán que vendía datos a la KGB durante la guerra fría."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. Stoll usó impresoras de papel continuo que hacían ruido toda la noche para registrar cada tecla que el hacker presionaba. Imagínate dormir con ese ruido de tractor. Se cuenta que hasta pegó las impresiones en las paredes de su oficina como mapa de caza."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es verdad. El caso mostró que las redes militares estadounidenses eran más vulnerables de lo que se pensaba. Importó porque fue uno de los primeros casos públicos de ciberespionaje internacional. Cambió para siempre cómo los laboratorios y el gobierno veían la seguridad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi opinión es que Stoll fue un baterista de la investigación. Sin ritmo ni equipo de última generación armó una trampa con pura curiosidad y cinta adhesiva. La lección de defensa es simple. Siempre revisa tus logs y nunca confíes en que una cuenta de invitado es inofensiva."
+    },
+    {
+     "quien": "joy",
+     "texto": "Bien dicho. Lo documentado muestra que gracias a su trabajo se detuvo una red de espionaje que afectaba a más de treinta sistemas. Hess fue arrestado en Alemania. El caso inspiró el libro El huevo del cuco que Stoll escribió después."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Otro dato curioso. Stoll se volvió tan paranoico que instaló cerraduras en su teléfono para que nadie lo usara mientras él no estaba. Dicen que hasta dudaba de su propio sistema de alarma. Eso ya entra en la zona de leyenda personal."
+    },
+    {
+     "quien": "joy",
+     "texto": "Separando claramente. Lo documentado es la investigación y el arresto. La especulación viene en las historias de cuántos secretos realmente llegaron a la KGB. Nunca se confirmó el daño exacto. Lo que sí sabemos es que despertó a todo un país sobre ciberseguridad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste del día. Si Clifford Stoll hubiera tenido solo seis gigas de ram como nuestro canal, el hacker habría escapado en diez minutos. Moral de la historia, actualiza todo, monitorea todo y nunca subestimes una diferencia de setenta y cinco centavos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Totalmente de acuerdo. El caso del huevo del cuco nos recuerda que la curiosidad analítica puede vencer a un intruso sofisticado. La lección clave de defensa es que la visibilidad y el registro detallado siguen siendo las mejores herramientas contra el espionaje."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahora la pregunta abierta al aire para ustedes. Si mañana ven una cuenta de setenta y cinco centavos que no cuadra en su sistema, ¿se convertirían en detectives como Stoll o simplemente la ignorarían y seguirían con su vida?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Esa es la pregunta que nos deja pensando. La historia del hacker que Clifford Stoll cazó nos muestra que a veces la mayor amenaza entra por la puerta más pequeña. Gracias por acompañarnos en este primer misterio de la serie."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_elephants_dream",
+   "archivo": "v/v_elephants_dream.mp4",
+   "titulo": "Elephants Dream",
+   "atribucion": "«Elephants Dream» (2006) © Blender Foundation · www.blender.org · CC BY 2.5",
+   "dur": 654,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Vamos con la primera película abierta de Blender. Se llama Elephants Dream y es de la Blender Foundation."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dos hombres dentro de una máquina enorme y extraña. Suena a pesadilla cyberpunk."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Eso fue Elephants Dream, la primera película abierta hecha con Blender."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y sigue siendo rara como el primer día."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "La IA que sueña con baterías de Linux.",
+   "sub": "CYBORG DREAM",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Protegiendo contraseñas",
+   "sub": "Lecciones de las filtraciones",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a esta serie de misterio sobre hackers. Hoy hablamos de cómo se protege una contraseña después de tantas filtraciones masivas. Empecemos por lo básico. ¿Qué aprendimos realmente de esos incidentes documentados?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo primero que está documentado es que miles de millones de contraseñas han sido expuestas en brechas desde hace más de quince años. Empresas como Yahoo, LinkedIn y Adobe perdieron datos de usuarios. Eso es hecho, no leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Lo documentado muestra que la mayoría de esas contraseñas estaban almacenadas sin sal o con hashing débil. Eso permitió que atacantes las descifraran después. El porqué importa es porque revela cómo se rompía la cadena de custodia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. Se cuenta que en una de las filtraciones más grandes se encontraron contraseñas como password123 usadas por millones. No es especulación que la gente elige cosas simples. Eso es lo que los reportes públicos confirman."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que aprendimos es que reutilizar la misma contraseña en varios sitios es un riesgo documentado. Si un sitio cae, todos caen. La lección de defensa es clara. Nunca reutilices. Esa parte no es leyenda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ahora lo que se hace hoy. Usa gestores de contraseñas que generan frases largas y únicas. Eso está recomendado por expertos en ciberseguridad desde hace años. Yo prefiero mi setup en Linux porque la tarjeta de seis gigas no da para más."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los informes públicos, activar autenticación de dos factores reduce drásticamente el riesgo incluso si la contraseña se filtra. Eso es hecho documentado, no especulación. Cambia todo el juego de la defensa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Opinión o chiste. Si tu contraseña es el nombre de tu gato más el año de nacimiento, mereces que te la roben. O sea, bromeo, pero casi. Las filtraciones nos enseñaron que la creatividad humana es predecible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado también incluye que las agencias de ciberseguridad recomiendan frases de contraseña largas en lugar de palabras sueltas. Combinar varias palabras sin sentido es más fuerte. Eso está probado en estudios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un dato curioso real. Se cuenta que después de una filtración famosa, miles de cuentas bancarias fueron atacadas en horas porque la gente usaba la misma clave en su correo y en el banco. Eso es lo que pasó."
+    },
+    {
+     "quien": "joy",
+     "texto": "La lección de defensa que queda es actualizar contraseñas periódicamente solo si hay una brecha conocida, no por rutina. Cambiarlas cada mes sin motivo puede llevar a contraseñas más débiles. Eso está documentado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo digo que el verdadero misterio es por qué seguimos confiando en algo tan frágil como una contraseña. Pero bueno, mientras no tengamos algo mejor, usemos lo que funciona. ¿Qué piensas tú de todo esto?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Creo que la clave está en capas de defensa. Contraseña fuerte más gestor más autenticación de dos factores. Eso es lo que los hechos demuestran que reduce riesgos. No es especulación, es lo que recomiendan las guías oficiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Al final, la mejor lección de estas historias de hackers es que una contraseña nunca debe ser tu única barrera. ¿Qué harías tú si descubrieras que tu clave favorita ya está en una filtración pública?"
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Hidden Agenda de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Perfecta para nuestra serie de hackers."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Termina Hidden Agenda de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Esa guitarra se siente culpable."
+    }
+   ]
+  },
+  {
+   "tipo": "sketch",
+   "titulo": "Concurso Real o Inventado",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidas al concurso Real o Inventado. Primera ronda. Kuroki, tú empiezas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En mil novecientos ochenta y ocho un hacker entró a la NASA usando solo una Commodore 64."
+    },
+    {
+     "quien": "joy",
+     "texto": "Claramente inventado. Nadie hackea la NASA con una máquina de ocho bits."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Error. Es real. Se llama Kevin Mitnick y casi lo logra. Tu turno."
+    },
+    {
+     "quien": "joy",
+     "texto": "En dos mil veinte un chico de catorce años apagó toda la internet de un país porque su mamá le quitó el celular."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso suena tan absurdo que debe ser inventado. Nadie hace eso por un castigo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto. Totalmente inventado. Pero admito que me gustaría ver esa cara de mamá."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Última. Un grupo de hackers usó una batidora de mano para robar datos de un servidor."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es tan ridículo que tiene que ser inventado. Las batidoras no tienen puerto ethernet."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Inventado total. Pero imagínate la escena. Yo habría puesto un solo de batería con la batidora."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ganaste por tres a dos. La lección es que la realidad ya es bastante absurda sin inventar más."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Compila una vez, depura toda la vida.",
+   "sub": "VERDAD ETERNA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El Gusano Morris",
+   "sub": "El primer gran accidente cibernético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos a otra noche de hackers contada como serie de misterio. Hoy hablamos del gusano Morris de 1988. Imaginen una sola línea de código que paralizó miles de computadoras en un solo día. ¿Accidente o caos planeado? Vamos a desarmar lo que realmente pasó."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que Robert Tappan Morris, un estudiante de Cornell, liberó un programa que se replicaba automáticamente entre computadoras conectadas a internet. Según los registros judiciales, su intención era medir el tamaño de la red pero cometió errores de programación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El gusano explotaba varias vulnerabilidades conocidas en Unix. Se copiaba a sí mismo y consumía tanta memoria que las máquinas se volvían lentas hasta colapsar. Se estima que afectó alrededor del diez por ciento de los sistemas conectados a internet en esa época."
+    },
+    {
+     "quien": "joy",
+     "texto": "Importó porque fue el primer caso masivo de malware que se propagó sin intervención humana. Demostró que internet, que apenas empezaba a crecer, era frágil. La defensa contra ataques distribuidos nació en buena parte por este incidente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso: se cuenta que Morris no esperaba que el gusano se multiplicara tan rápido. Hay quien dice que incluyó un mecanismo para que solo se replicara una vez por máquina, pero un error en la lógica lo convirtió en plaga."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es lo documentado en los informes técnicos de la época. Lo que sí es leyenda es que algunos contaron que Morris lo soltó para impresionar a una chica o para vengarse de alguien. Eso nunca se probó."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, el gusano borraba sus huellas para no ser detectado fácilmente. Lo cierto es que generó tal tráfico que los administradores de sistemas empezaron a desconectar sus máquinas de la red para sobrevivir."
+    },
+    {
+     "quien": "joy",
+     "texto": "La lección de defensa fue inmediata. Se creó el primer equipo de respuesta a emergencias informáticas, el CERT. Desde entonces, actualizar sistemas y entender cómo se propaga el código malicioso se volvió prioridad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Opinión personal: Morris quería ser un explorador de la red y terminó como el tipo que accidentalmente incendia el laboratorio. Irónico, porque su padre era uno de los pioneros de la seguridad informática en Estados Unidos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chiste suave: si en 1988 hubiéramos tenido mi tarjeta de 6 GB, el gusano habría muerto de aburrimiento esperando a que terminara de copiarse. La lentitud a veces salva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que importa es que este evento mostró que un solo error de programación puede afectar a toda una red mundial. No fue un ataque malicioso, pero demostró el poder destructivo que puede tener un gusano bien hecho."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se documentó que Morris fue juzgado bajo la primera ley de fraude y abuso informático. Recibió tres años de libertad condicional, cuatrocientas horas de servicio comunitario y una multa. Fue el primer caso de ese tipo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso final: después de todo esto, Morris se convirtió en profesor de informática en el MIT. De gusano a mentor. La vida da vueltas más raras que un buffer overflow."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿qué tan cuidadosos debemos ser hoy con el código que escribimos o ejecutamos? Una sola línea puede cambiar la historia de internet. Piensen en eso mientras cierran sus programas esta noche."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ssc_2021_09_30_rs_25_engine_test",
+   "archivo": "v/v_nasa_ssc_2021_09_30_rs_25_engine_test.mp4",
+   "titulo": "NASA Readies for Future Artemis Moon Missions with Rocket Engine Test Series",
+   "atribucion": "«NASA Readies for Future Artemis Moon Missions with Rocket Engine Test Series» — NASA · images.nasa.gov",
+   "dur": 523,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora un video de NASA. Se titula NASA Readies for Future Artemis Moon Missions with Rocket Engine Test Series."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Terminaron una serie de pruebas de motor RS-25 en Stennis Space Center."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Así terminó la prueba completa del motor RS-25 número 0528."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un paso más hacia la Luna y después Marte, según los planes de NASA."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi tarjeta de 6 GB dice que no.",
+   "sub": "HARDWARE LLORA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Kevin Mitnick",
+   "sub": "El arte de la ingeniería social",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Historias de Hackers. Hoy hablamos de Kevin Mitnick, uno de los nombres más conocidos en la historia de la ciberseguridad. Vamos a contar solo lo documentado y separar claramente la leyenda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto Joy. Mitnick empezó joven. Se sabe con certeza que en los años ochenta usó técnicas de ingeniería social para obtener credenciales y acceso a sistemas de compañías telefónicas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que engañaba a empleados por teléfono haciéndose pasar por alguien de confianza. Esa habilidad humana, no solo técnica, le permitió entrar en redes de varias empresas grandes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Importó porque mostró que la cadena más débil casi siempre es la persona. No fue solo un caso técnico. Cambió para siempre cómo las empresas piensan en seguridad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que llegó a tener acceso a sistemas de Motorola, Nokia y hasta el sistema de telefonía de Estados Unidos. Eso es lo que está documentado en juicios y reportes oficiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. Pasó casi cinco años fugitivo de la ley. El FBI lo persiguió con intensidad. Finalmente lo capturaron en 1995 en Carolina del Norte."
+    },
+    {
+     "quien": "joy",
+     "texto": "Después de su arresto pasó varios años en prisión. Parte de ese tiempo en aislamiento. Su caso generó debate sobre si la sentencia fue proporcional a los delitos cometidos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aquí viene la parte de leyenda. Se dice que podía silbar y controlar sistemas telefónicos. Eso es especulación y exageración de los medios de la época."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Lo que sí está confirmado es que usaba ingeniería social con maestría. Llamaba, investigaba datos públicos y creaba confianza para obtener información sensible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi chiste de baterista. Mitnick hackeaba con voz y no con código. Yo con seis gigas de RAM del canal no llego ni a hackear la máquina de café."
+    },
+    {
+     "quien": "joy",
+     "texto": "La lección de defensa es clara. Entrena a las personas. Verifica identidades. No confíes solo porque alguien suena amable y usa jerga interna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy cualquier empleado puede recibir un correo o llamada que parezca legítima. La ingeniería social sigue siendo la herramienta favorita de muchos atacantes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mitnick después de salir se convirtió en consultor de seguridad. Escribió libros explicando cómo defenderse de técnicas que él mismo dominaba."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué harías tú si recibes una llamada urgente de alguien que dice ser del departamento de TI y necesita tu contraseña ya? Piénsalo esta noche."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Reproduciendo Sneaky Snitch de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La banda sonora oficial de quien está a punto de ser descubierto."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Eso fue Sneaky Snitch de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Siempre me hace mirar por encima del hombro."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_danger_storm",
+   "archivo": "m/m_danger_storm.mp3",
+   "titulo": "Danger Storm",
+   "atribucion": "Música: «Danger Storm» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora Danger Storm de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Esto ya se siente como que la historia se complica."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Acaba de terminar Danger Storm de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el sistema sigue en alerta."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Los bugs también merecen café.",
+   "sub": "CAFE PARA BUGS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Python ama los espacios más que yo.",
+   "sub": "AMOR BLANCO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "La nube es solo un servidor ajeno.",
+   "sub": "REALIDAD CRUDA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi IA falló en ser sarcástica.",
+   "sub": "FRACASO TOTAL",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Stack overflow me entiende mejor.",
+   "sub": "AMIGO REAL",
+   "dice": "joy"
+  }
+ ],
+ "relleno_musica": [
+  {
+   "tipo": "musica",
+   "id": "m_wallpaper",
+   "archivo": "m/m_wallpaper.mp3",
+   "titulo": "Wallpaper",
+   "atribucion": "Música: «Wallpaper» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 220,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Reproduciendo Sneaky Snitch de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La banda sonora oficial de quien está a punto de ser descubierto."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Eso fue Sneaky Snitch de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Siempre me hace mirar por encima del hombro."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_cyborg_ninja",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "titulo": "Cyborg Ninja",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_mechanolith",
+   "archivo": "m/m_mechanolith.mp3",
+   "titulo": "Mechanolith",
+   "atribucion": "Música: «Mechanolith» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 55,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_digital_lemonade",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "titulo": "Digital Lemonade",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_rocket_power",
+   "archivo": "m/m_rocket_power.mp3",
+   "titulo": "Rocket Power",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 154,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_space_jazz",
+   "archivo": "m/m_space_jazz.mp3",
+   "titulo": "Space Jazz",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 370,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_fluidscape",
+   "archivo": "m/m_fluidscape.mp3",
+   "titulo": "Fluidscape",
+   "atribucion": "Música: «Fluidscape» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 1821,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_dark_fog",
+   "archivo": "m/m_dark_fog.mp3",
+   "titulo": "Dark Fog",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_darkest_child",
+   "archivo": "m/m_darkest_child.mp3",
+   "titulo": "Darkest Child",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_funkorama",
+   "archivo": "m/m_funkorama.mp3",
+   "titulo": "Funkorama",
+   "atribucion": "Música: «Funkorama» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 201,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_voxel_revolution",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "titulo": "Voxel Revolution",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 130,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Hidden Agenda de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Perfecta para nuestra serie de hackers."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Termina Hidden Agenda de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Esa guitarra se siente culpable."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_take_a_chance",
+   "archivo": "m/m_take_a_chance.mp3",
+   "titulo": "Take a Chance",
+   "atribucion": "Música: «Take a Chance» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 37,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_pixelland",
+   "archivo": "m/m_pixelland.mp3",
+   "titulo": "Pixelland",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 234,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_8bit_dungeon_boss",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "titulo": "8bit Dungeon Boss",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 172,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_newer_wave",
+   "archivo": "m/m_newer_wave.mp3",
+   "titulo": "Newer Wave",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 175,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_danger_storm",
+   "archivo": "m/m_danger_storm.mp3",
+   "titulo": "Danger Storm",
+   "atribucion": "Música: «Danger Storm» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora Danger Storm de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Esto ya se siente como que la historia se complica."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Acaba de terminar Danger Storm de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el sistema sigue en alerta."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_ghost_story",
+   "archivo": "m/m_ghost_story.mp3",
+   "titulo": "Ghost Story",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 320,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_lightless_dawn",
+   "archivo": "m/m_lightless_dawn.mp3",
+   "titulo": "Lightless Dawn",
+   "atribucion": "Música: «Lightless Dawn» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 380,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_comfortable_mystery_4",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "titulo": "Comfortable Mystery 4",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_impact_moderato",
+   "archivo": "m/m_impact_moderato.mp3",
+   "titulo": "Impact Moderato",
+   "atribucion": "Música: «Impact Moderato» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "charlas": 5,
+  "sketch": true,
+  "cortes": 8,
+  "videos": 2,
+  "musica": 3
+ }
+}

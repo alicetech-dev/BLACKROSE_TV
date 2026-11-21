@@ -1,0 +1,347 @@
+{
+ "bloque": "hackers_1930",
+ "programa": "megacorp",
+ "fecha": "2026-11-20",
+ "creado": "18:24:00",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Actualidad",
+   "sub": "MEGACORP REVIEW",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "‘GTA 6’ rompe todos los récords con ventas por 3.790 millones de dólar",
+   "sub": "Hipertextual · hace 1 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Según Hipertextual hace una hora, GTA 6 rompe todos los récords con ventas por 3.790 millones de dólares en su primer día."
+    },
+    {
+     "quien": "joy",
+     "texto": "El lanzamiento superó incluso las expectativas más altas de Take-Two y Rockstar. Es un fenómeno que redefine lo que significa un estreno en la industria."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el 2049 seguro que lo jugamos directamente con los recuerdos implantados. ¿Quieres saber más?"
+    }
+   ],
+   "seg": 31,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/c6fadb7c4f1723c1_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c6fadb7c4f1723c1_169.jpg",
+     "credito": "Foto: Hipertextual"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Action tiene rebajada esta guirnalda LED de Philips de 10 metros y con",
+   "sub": "Xataka · hace 9 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Xataka informa hace nueve horas que Action tiene rebajada a 12,95 euros esta guirnalda LED de Philips de 10 metros con sincronización con música."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es una forma accesible de domotizar la iluminación del salón o preparar la decoración navideña con luces inteligentes de marca reconocida."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Porque nada dice espíritu navideño como una guirnalda que baila sola mientras tú intentas dormir."
+    }
+   ],
+   "seg": 30,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/419fad1677611a2a_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/419fad1677611a2a_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Anthropic ha debutado en bolsa con una salida histórica y hay una teor",
+   "sub": "Xataka · hace 9 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Xataka reporta hace nueve horas que Anthropic ha debutado en bolsa con una salida histórica y hay una teoría que explica por qué sus rivales tecnológicos se desploman."
+    },
+    {
+     "quien": "joy",
+     "texto": "La salida marcó el hito de la mayor oferta pública de acciones de la historia de Wall Street, aunque la alegría en el parqué duró poco."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dejen sus opiniones en el chat, ¿creen que esto cambia algo o solo es otro día en la montaña rusa de la tecnología?"
+    }
+   ],
+   "seg": 37,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/6667238f0206b17c_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/6667238f0206b17c_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20211221_m2020f_0001_explore_mars_je",
+   "archivo": "v/v_nasa_jpl_20211221_m2020f_0001_explore_mars_je.mp4",
+   "titulo": "Explore Mars' Jezero Crater with NASA’s Perseverance Rover",
+   "atribucion": "«Explore Mars' Jezero Crater with NASA’s Perseverance Rover» — NASA · images.nasa.gov",
+   "dur": 185,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Doll Dynamics prueba IA en puertos",
+   "sub": "MEGACORP REVIEW",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Optimización de rutas con machine learning",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Optimizacion Rutas ML",
+    "cajas": [
+     {
+      "t": "Datos Historicos",
+      "n": "Entrenan con retrasos humanos"
+     },
+     {
+      "t": "Modelos Predictivos",
+      "n": "Reducen emisiones operativas"
+     },
+     {
+      "t": "Vision Computadora",
+      "n": "Inspecciona contenedores rapido"
+     },
+     {
+      "t": "Optimizacion Real",
+      "n": "Calcula trayectos en tiempo real"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ルート最適化で笑う？またチャットで待ってるよ。",
+    "ja_es": "Optimiza rutas y ríete. Te esperamos de nuevo en el chat.",
+    "en": "ML routes or tidal waves? Join the chat and vote.",
+    "en_es": "Rutas con ML o mareas? Únete al chat y vota."
+   },
+   "sub": "top3 · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bien, hoy traemos el top tres de cómo la optimización de rutas con machine learning está cambiando los puertos. El criterio es el ángulo ético, porque alguien tiene que preguntar qué pasa con la gente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto Kuroki, y en el tercer puesto está el uso de modelos predictivos que reducen emisiones operativas. Suena limpio hasta que te das cuenta que los datos vienen de sensores que vigilan hasta el último contenedor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que nadie dice es que esos modelos predictivos se entrenan con datos de años de retrasos humanos. Doll Dynamics los vende como salvación verde pero siguen dependiendo de que un operador decida si confía en la máquina o no."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí viene el dato real que pincha el globo. Según los sistemas de monitoreo IoT, la reducción de emisiones llega solo cuando el algoritmo también optimiza las rutas de los camiones en tierra. Si no, es puro marketing de terminal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el segundo puesto, la visión por computadora que inspecciona contenedores en segundos. Suena impecable hasta que recuerdas que un solo error de etiquetado y el sistema manda un cargamento de bananas a la terminal equivocada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los puertos combinan esa visión con sensores IoT en tiempo real. El chiste es que el algoritmo predice todo menos cuándo el sindicato va a bloquear el muelle, y ahí se cae toda la cadena."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el primer puesto, la optimización de rutas con machine learning que calcula trayectos en tiempo real para ahorrar combustible y evitar atascos marítimos. Suena como el sueño de cualquier capitán hasta que el sistema se pone a negociar con el clima."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por eso Megacorp Rosa lo vende como salvación ecológica. Lo gracioso es que el machine learning predice mareas perfectas pero nunca anticipa que un remolcador se quede sin café a las tres de la mañana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y la mención honrosa va para la ciberseguridad que usa inteligencia artificial para detectar amenazas en tiempo real antes de que un hacker decida que hoy es buen día para un puerto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo curioso es que esos sistemas de defensa aprenden de cada intento fallido pero siguen sin poder predecir cuándo llegará el próximo contenedor perdido en alta mar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ahora pregunto al chat qué número uno elegirían para optimizar rutas en puertos con machine learning."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras esperamos respuestas, recuerda que esos algoritmos se entrenan con datos históricos pero nunca con el caos de una huelga imprevista."
+    },
+    {
+     "quien": "joy",
+     "texto": "Buena observación. El chat ya vota fuerte por la eficiencia energética, aunque la leyenda dice que una sola IA lo controla todo sin humanos."
+    }
+   ],
+   "seg": 200,
+   "imgs": [
+    {
+     "web": "/medios/0be884e4b307df1e_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/0be884e4b307df1e_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Algoritmo de la colonia de hormigas»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Sensores IoT y monitoreo en tiempo real",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Top 3 Sensores IoT 2049",
+    "cajas": [
+     {
+      "t": "Puesto 3",
+      "n": "Visión por computadora en contenedores. Detecta daños rápido."
+     },
+     {
+      "t": "Puesto 2",
+      "n": "Vibración en grúas. Avanza antes de fallar. Reduce paradas."
+     },
+     {
+      "t": "Puesto 1",
+      "n": "Nivel y temperatura en tanques. Optimiza rutas y emisiones."
+     },
+     {
+      "t": "Mención",
+      "n": "Humedad en bodegas. Evita que la carga se eche a perder."
+     }
+    ]
+   },
+   "intl": {
+    "ja": "IoTセンサーでバナナ監視中。君の投票待ってるよ。",
+    "ja_es": "Monitoreando bananas con sensores IoT. Esperamos tu voto.",
+    "en": "IoT sensors watching bananas ripen. What's your top pick chat?",
+    "en_es": "Sensores IoT vigilando cómo maduran las bananas. ¿Cuál es tu favorito chat?"
+   },
+   "sub": "top3 · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Aquí va nuestro top tres de sensores IoT y monitoreo en tiempo real en puertos del 2049. El criterio es qué tan rápido convierten caos en datos útiles sin que nadie termine gritando."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Número tres, los sensores que rastrean contenedores con visión por computadora. Según los datos, detectan daños antes que un inspector humano, aunque a veces confunden una mancha de óxido con una amenaza."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso nos lleva al puesto dos. Sensores de vibración en las grúas que avisan cuando algo no está alineado. Los algoritmos de machine learning predicen fallos antes de que una carga se caiga y cause un desastre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, porque nada dice futuro como una grúa que se queja antes de romperse. Según los datos, reducen paradas no programadas en un buen margen y ayudan a gestionar el tráfico marítimo sin que todo se vuelva un embotellamiento flotante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que más me gusta es que la Doll Dynamics los vende como si fueran el salvador del puerto entero. Según los datos reales reducen paradas no programadas en un buen margen y ayudan a que las grúas no terminen en el fondo del muelle."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y llegamos al puesto uno. Sensores de nivel de combustible y temperatura en los tanques que hablan directo con los algoritmos predictivos. Imagina un tanque que te avisa antes de que el motor se ahogue en diésel viejo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo mejor es que esos datos alimentan modelos que optimizan rutas y reducen emisiones sin que nadie tenga que bajar a medir con una vara. Según los relatos la eficiencia energética sube de verdad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y para la mención honrosa, los sensores de humedad en las bodegas que avisan antes de que la carga se convierta en sopa salada. Según los relatos, evitan que un solo contenedor arruine toda la mercancía."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo curioso es que esos mismos sensores alimentan modelos que predicen si un lote de bananas llegará maduro o ya convertido en licor. Imagina la cara del capitán cuando le avisan por radio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ahora pregúntale al chat qué sensor IoT sería su número uno en un puerto del futuro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ojo que si votan por el de bananas licorosas ya sabemos que el chat también sueña con piña colada gratis."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras llegan sus respuestas dime cuál crees tú que debería llevarse el primer puesto esta vez."
+    }
+   ],
+   "seg": 180,
+   "imgs": [
+    {
+     "web": "/medios/0819c94502798814_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/0819c94502798814_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Internet de las cosas»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_VJgWATHB8Ew",
+   "archivo": "yt/phonk/VJgWATHB8Ew.m4a",
+   "titulo": "Willix, Hiraeth - Intranet Crush | Phonk | NCS",
+   "audio": "yt/phonk/VJgWATHB8Ew.m4a",
+   "atribucion": "Música: «Willix, Hiraeth - Intranet Crush | Phonk | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 136,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/VJgWATHB8Ew.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_ZQHcERGiinM",
+   "archivo": "yt/synthwave/ZQHcERGiinM.m4a",
+   "titulo": "Dark Heart - Crash Test Dummy | Electronic | NCS",
+   "audio": "yt/synthwave/ZQHcERGiinM.m4a",
+   "atribucion": "Música: «Dark Heart - Crash Test Dummy | Electronic | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 162,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/ZQHcERGiinM.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 5,
+  "seg_charla": 478,
+  "medios": 3
+ }
+}

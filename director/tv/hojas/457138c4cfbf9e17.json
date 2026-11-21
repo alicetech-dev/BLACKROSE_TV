@@ -1,0 +1,21 @@
+{
+ "semilla": "Root para el alma del canal",
+ "hechos": [
+  "La raíz o root es el usuario con máximos privilegios en sistemas operativos tipo Unix.",
+  "El acceso root permite modificar cualquier archivo o configuración del sistema.",
+  "En sistemas Linux el comando sudo se usa para ejecutar tareas con privilegios elevados.",
+  "Los sistemas operativos modernos limitan el uso directo de root por razones de seguridad.",
+  "El término root proviene del concepto de directorio raíz en sistemas de archivos.",
+  "Los exploits de escalada de privilegios buscan obtener acceso root sin autorización.",
+  "Las actualizaciones de seguridad corrigen vulnerabilidades que permiten obtener root.",
+  "El principio de menor privilegio recomienda no operar diariamente como root.",
+  "Los registros del sistema ayudan a detectar intentos de acceso root no autorizado.",
+  "Las contraseñas fuertes y la autenticación multifactor protegen contra robo de credenciales root."
+ ],
+ "leyendas": [
+  "Leyenda o error común: que obtener root en un sistema lo hace completamente invulnerable a ataques posteriores.",
+  "Leyenda o error común: que usar root en todo momento es la forma más eficiente y segura de administrar un servidor."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 18:07"
+}

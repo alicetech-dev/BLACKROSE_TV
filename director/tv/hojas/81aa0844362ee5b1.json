@@ -1,0 +1,21 @@
+{
+ "semilla": "Root Access en código legacy",
+ "hechos": [
+  "El término root access se refiere al nivel de privilegios más alto en sistemas operativos tipo Unix.",
+  "En sistemas Unix el usuario root puede leer escribir y ejecutar cualquier archivo o proceso.",
+  "El código legacy describe software antiguo que aún se mantiene en producción por su valor crítico.",
+  "El código legacy a menudo se ejecuta en entornos con parches de seguridad limitados.",
+  "Muchos sistemas legacy conservan cuentas predeterminadas con contraseñas débiles o conocidas.",
+  "Los exploits de escalada de privilegios buscan vulnerabilidades en el kernel o en servicios expuestos.",
+  "Las actualizaciones de seguridad son más difíciles de aplicar en código legacy sin romper compatibilidad.",
+  "Los registros de auditoría ayudan a detectar intentos de acceso root no autorizado.",
+  "El principio de menor privilegio reduce el riesgo de que un compromiso lleve a root access.",
+  "Las contraseñas débiles siguen siendo una causa común de brechas en sistemas legacy."
+ ],
+ "leyendas": [
+  "Leyenda o error común: que todo el código legacy necesariamente contiene backdoors intencionales.",
+  "Leyenda o error común: que obtener root access en un sistema legacy es siempre sencillo y rápido."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 18:08"
+}

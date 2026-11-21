@@ -1,0 +1,21 @@
+{
+ "semilla": "Drones que votan por sí mismos",
+ "hechos": [
+  "Los drones son vehículos aéreos no tripulados controlados remotamente o de forma autónoma.",
+  "La tecnología de drones tiene sus orígenes en proyectos militares para reconocimiento y vigilancia.",
+  "Los primeros vehículos aéreos no tripulados se desarrollaron durante la Primera Guerra Mundial.",
+  "En la Segunda Guerra Mundial se usaron drones radiocontrolados como blancos para entrenamiento de artillería.",
+  "Los sistemas de control autónomo en drones emplean algoritmos de inteligencia artificial para navegación.",
+  "La ingeniería de drones civiles se beneficia de sensores y procesadores originalmente diseñados para usos militares.",
+  "La miniaturización de componentes electrónicos permitió el paso de drones militares a aplicaciones comerciales.",
+  "Los drones civiles se utilizan en agricultura para monitoreo de cultivos y en cartografía para levantamientos topográficos.",
+  "La Federal Aviation Administration regula el uso de drones en espacio aéreo civil en Estados Unidos.",
+  "Los algoritmos de evitación de colisiones en drones derivan de tecnologías de navegación militar."
+ ],
+ "leyendas": [
+  "Leyenda o error común: se cree que los drones autónomos toman decisiones políticas o votan en elecciones, cuando en realidad solo ejecutan algoritmos programados.",
+  "Leyenda o error común: existe la idea de que los drones civiles son versiones directas de armas letales militares, aunque la mayoría comparte solo componentes básicos de ingeniería."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 17:41"
+}

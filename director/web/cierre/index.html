@@ -1,0 +1,96 @@
+<!doctype html>
+<!-- Cortina de CIERRE de BlackRose TV (escena OBS «CIERRE», :8822/cierre/). Secuencia sola al cargar:
+     0–T1  cortina «Gracias por sintonizar» · T1–T2 barras de color con tono de 1 kHz · T2–T3 ESTÁTICA (nieve + ruido) · después NEGRO.
+     ?t1=40&t2=55&t3=63 cambia los tiempos (s). -->
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Cierre</title>
+<style>
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--rosa:#ff2d95;--cian:#00e5ff;--oro:#ffcf4a}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#000;color:#fff;font-family:Rajdhani,sans-serif}
+.capa{position:absolute;inset:0;opacity:0;transition:opacity 1.2s}
+.on{opacity:1}
+/* cortina */
+#cortina{background:radial-gradient(ellipse at 50% 40%,#2a0838 0%,#0b0412 60%,#000 100%)}
+#cortina canvas{position:absolute;inset:0}
+.cen{position:absolute;left:50%;top:47%;transform:translate(-50%,-50%);text-align:center;width:1600px}
+.logo{font:110px Audiowide;letter-spacing:12px;background:linear-gradient(90deg,var(--rosa),#fff 45%,var(--cian));-webkit-background-clip:text;color:transparent;filter:drop-shadow(0 0 24px rgba(255,45,149,.55))}
+.sub{font:22px Orbitron;letter-spacing:14px;color:var(--cian);margin-top:4px}
+.gracias{margin-top:70px;font:700 84px/1.05 Rajdhani;letter-spacing:4px;text-transform:uppercase;text-shadow:0 0 20px rgba(255,45,149,.6)}
+.jp{font:700 36px "Noto Sans CJK JP","Noto Sans JP",sans-serif;color:#c9b6e0;margin-top:14px;letter-spacing:8px}
+.det{margin-top:40px;font:30px VT323;color:var(--oro);letter-spacing:4px;line-height:1.5}
+.firma{position:absolute;left:0;right:0;bottom:60px;text-align:center;font:20px Orbitron;letter-spacing:8px;color:#9d8bb0}
+.rosa{position:absolute;left:50%;top:150px;transform:translateX(-50%);font-size:70px;filter:drop-shadow(0 0 18px var(--rosa))}
+/* barras */
+#barras{background:#000}
+.fila{display:flex;width:100%}
+.fila i{flex:1}
+#b1{height:67%}#b2{height:8%}#b3{height:25%}
+.leyenda{position:absolute;left:50%;top:30%;transform:translate(-50%,-50%);background:#000;color:#fff;font:40px Orbitron;letter-spacing:10px;padding:18px 40px;border:3px solid #fff;text-align:center}
+.leyenda small{display:block;font:22px VT323;letter-spacing:4px;margin-top:6px;color:#ccc}
+#reloj{position:absolute;right:40px;bottom:30px;font:34px VT323;color:#fff}
+</style></head><body>
+<div id="cortina" class="capa on"><canvas id="c" width="1920" height="1080"></canvas>
+  <div class="rosa">🌹</div>
+  <div class="cen">
+    <div class="logo">BLACKROSE TV</div>
+    <div class="sub">TRANSMISIÓN AUTOORGANIZADA</div>
+    <div class="gracias">Gracias por su sintonía</div>
+    <div class="jp">ご視聴ありがとうございました</div>
+    <div class="det">24 HORAS AL AIRE · VTUBER · TECNOLOGÍA · JUEGOS · INTELIGENCIA ARTIFICIAL · NOTICIAS<br>FIN DE LA TRANSMISIÓN · VOLVEMOS PRONTO CON UNA NUEVA PROGRAMACIÓN</div>
+  </div>
+  <div class="firma">JOY · KUROKI · BARBIE BLACKROSE · AÑO 2049</div>
+</div>
+<canvas id="nieve" class="capa" width="480" height="270" style="width:1920px;height:1080px;image-rendering:pixelated;transition:opacity .15s"></canvas>
+<div id="barras" class="capa">
+  <div class="fila" id="b1"></div><div class="fila" id="b2"></div><div class="fila" id="b3"></div>
+  <div class="leyenda">BLACKROSE TV<small>FIN DE TRANSMISIÓN · END OF BROADCAST</small></div>
+  <div id="reloj"></div>
+</div>
+<script>
+const $ = id => document.getElementById(id), q = new URLSearchParams(location.search);
+const T1 = +(q.get('t1') || 40), T2 = +(q.get('t2') || 55), T3 = +(q.get('t3') || 63);
+// barras SMPTE (75 %)
+const fila = (id, cols) => $(id).innerHTML = cols.map(c => `<i style="background:${c}"></i>`).join('');
+fila('b1', ['#c0c0c0', '#c0c000', '#00c0c0', '#00c000', '#c000c0', '#c00000', '#0000c0']);
+fila('b2', ['#0000c0', '#131313', '#c000c0', '#131313', '#00c0c0', '#131313', '#c0c0c0']);
+$('b3').innerHTML = ['#00214c', '#fff', '#32006a', '#131313', '#090909', '#131313', '#1d1d1d', '#131313'].map((c, i) => `<i style="background:${c};flex:${i < 3 ? 1.25 : (i === 3 ? 1.3 : .42)}"></i>`).join('');
+setInterval(() => $('reloj').textContent = new Date().toLocaleTimeString('es-CL', { hour12: false }), 500);
+// tono 1 kHz durante las barras (OBS: «controlar audio vía OBS»)
+let ctx;
+function tono(on) {
+  try {
+    if (on) { ctx = new AudioContext(); const o = ctx.createOscillator(), g = ctx.createGain(); o.frequency.value = 1000; g.gain.value = 0.12; o.connect(g).connect(ctx.destination); o.start(); }
+    else if (ctx) ctx.close();
+  } catch (e) {}
+}
+setTimeout(() => { $('cortina').classList.remove('on'); $('barras').classList.add('on'); tono(true); }, T1 * 1000);
+// estática: nieve de TV sin señal + ruido blanco, y al final negro
+let nieveOn = false, ruido;
+function nieve() {
+  if (!nieveOn) return;
+  const c = $('nieve'), x = c.getContext('2d'), im = x.createImageData(480, 270), d = im.data;
+  for (let i = 0; i < d.length; i += 4) { const v = Math.random() * 255 | 0; d[i] = d[i + 1] = d[i + 2] = v; d[i + 3] = 255; }
+  x.putImageData(im, 0, 0); requestAnimationFrame(nieve);
+}
+setTimeout(() => {
+  tono(false); $('barras').style.transition = 'none'; $('barras').classList.remove('on');
+  $('nieve').classList.add('on'); nieveOn = true; nieve();
+  try { ctx = new AudioContext(); const b = ctx.createBuffer(1, ctx.sampleRate * 2, ctx.sampleRate), ch = b.getChannelData(0);
+        for (let i = 0; i < ch.length; i++) ch[i] = Math.random() * 2 - 1;
+        const s = ctx.createBufferSource(), g = ctx.createGain(); s.buffer = b; s.loop = true; g.gain.value = 0.08; s.connect(g).connect(ctx.destination); s.start(); } catch (e) {}
+}, T2 * 1000);
+setTimeout(() => { $('nieve').classList.remove('on'); nieveOn = false; try { ctx.close(); } catch (e) {} }, T3 * 1000);   // → negro
+// fondo de la cortina: estrellas que se apagan de a poco
+const g = $('c').getContext('2d'), est = Array.from({ length: 220 }, () => [Math.random() * 1920, Math.random() * 1080, Math.random() * 2 + .5, Math.random()]);
+let t0 = performance.now();
+(function cuadro(t) {
+  const k = Math.max(0, 1 - (t - t0) / 1000 / T1 * 0.7);
+  g.clearRect(0, 0, 1920, 1080);
+  for (const e of est) { g.fillStyle = `rgba(255,${150 + e[3] * 100},230,${(.3 + .7 * Math.abs(Math.sin(t / 900 + e[3] * 9))) * k})`; g.fillRect(e[0], e[1], e[2], e[2]); }
+  requestAnimationFrame(cuadro);
+})(t0);
+</script>
+</body></html>

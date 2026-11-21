@@ -1,0 +1,77 @@
+<!doctype html>
+<!-- CARTA DE AJUSTE · BlackRose TV (:8822/ajuste/). ?t0=<epoch ms> = instante en que llega a 00:00 la cuenta menos `cuenta` s (inicio de la cuenta).
+     Fase 1: barras de color + cuenta regresiva. Fase 2: tarjeta del canal con subtítulos de la voz en off (guion.json: {cuenta, lineas:[{t,d,texto}], total}). -->
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Carta de ajuste</title>
+<style>
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--rosa:#ff2d95;--cian:#00e5ff}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#000;color:#fff}
+#barras{position:absolute;inset:0;display:flex;flex-direction:column}
+#barras .f{display:flex;width:100%}#barras .f i{flex:1}
+#f1{height:67%}#f2{height:8%}#f3{height:25%}
+#f3 i.a{flex:1.25}#f3 i.b{flex:1.25}#f3 i.c{flex:1.25}#f3 i.d{flex:1.25}#f3 i.e{flex:.5}#f3 i.g{flex:.5}#f3 i.h{flex:.5}#f3 i.z{flex:3.5}
+#caja{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:980px;padding:34px 40px 30px;text-align:center;background:rgba(0,0,0,.82);
+  border:3px solid #fff;box-shadow:0 0 0 6px #000}
+#caja .t1{font:46px Audiowide;letter-spacing:8px}#caja .t1 b{color:var(--rosa);font-weight:400}
+#caja .t2{font:22px Orbitron;letter-spacing:10px;color:var(--cian);margin:4px 0 14px}
+#cuenta{font:260px/1 VT323,monospace;letter-spacing:6px;color:#fff;text-shadow:0 0 24px rgba(0,229,255,.6)}
+#cuenta.ya{color:#ff2d95;text-shadow:0 0 30px rgba(255,45,149,.8)}
+#caja .t3{font:26px Orbitron;letter-spacing:6px;color:#cfd6e6;margin-top:8px}
+#esp{position:absolute;left:0;right:0;bottom:22px;text-align:center;font:24px Orbitron;letter-spacing:8px;color:#fff;text-shadow:0 0 6px #000,0 0 6px #000}
+#id{position:absolute;left:28px;top:20px;font:24px Orbitron;letter-spacing:6px;color:#fff;text-shadow:0 0 6px #000,0 0 6px #000}
+#tc{position:absolute;right:28px;top:20px;font:30px VT323;letter-spacing:4px;text-shadow:0 0 6px #000,0 0 6px #000}
+/* fase 2 */
+#fase2{position:absolute;inset:0;opacity:0;transition:opacity .9s;background:radial-gradient(ellipse at 50% 45%,#2a0a3a 0%,#0a0414 60%,#04020a 100%)}
+#fase2.on{opacity:1}
+#fase2 canvas{position:absolute;inset:0}
+#logo{position:absolute;left:0;right:0;top:250px;text-align:center}
+#logo .l{font:150px Audiowide;letter-spacing:16px;background:linear-gradient(90deg,var(--rosa),#fff 48%,var(--cian));-webkit-background-clip:text;color:transparent;filter:drop-shadow(0 0 26px rgba(255,45,149,.55))}
+#logo .s{font:26px Orbitron;letter-spacing:16px;color:var(--cian);margin-top:6px}
+#logo .a{font:700 44px Rajdhani;letter-spacing:10px;color:#ffd24d;margin-top:34px}
+#sub{position:absolute;left:160px;right:160px;bottom:130px;min-height:150px;text-align:center;font:700 56px/1.18 Rajdhani;color:#fff;text-shadow:0 0 12px #000,0 0 22px rgba(0,229,255,.45)}
+#vo{position:absolute;left:0;right:0;bottom:70px;text-align:center;font:20px Orbitron;letter-spacing:10px;color:var(--rosa)}
+#eq{position:absolute;left:50%;bottom:34px;transform:translateX(-50%);display:flex;gap:6px;height:26px;align-items:flex-end}
+#eq i{width:8px;background:var(--cian);height:6px;transition:height .1s}
+</style></head><body>
+<div id="barras">
+ <div class="f" id="f1"><i style="background:#c0c0c0"></i><i style="background:#c0c000"></i><i style="background:#00c0c0"></i><i style="background:#00c000"></i><i style="background:#c000c0"></i><i style="background:#c00000"></i><i style="background:#0000c0"></i></div>
+ <div class="f" id="f2"><i style="background:#0000c0"></i><i style="background:#131313"></i><i style="background:#c000c0"></i><i style="background:#131313"></i><i style="background:#00c0c0"></i><i style="background:#131313"></i><i style="background:#c0c0c0"></i></div>
+ <div class="f" id="f3"><i class="a" style="background:#00214c"></i><i class="b" style="background:#fff"></i><i class="c" style="background:#32006a"></i><i class="z" style="background:#131313"></i><i class="e" style="background:#090909"></i><i class="g" style="background:#131313"></i><i class="h" style="background:#1d1d1d"></i><i class="z" style="background:#131313"></i></div>
+</div>
+<div id="id">BLACKROSE TV · SEÑAL DE PRUEBA</div><div id="tc">--:--:--</div>
+<div id="caja"><div class="t1">BLACKROSE <b>TV</b></div><div class="t2">TRANSMISIÓN DE AJUSTE</div><div id="cuenta">00:60</div><div class="t3" id="estado">AJUSTE DE IMAGEN Y SONIDO</div></div>
+<div id="esp">CORPORACIÓN BLACKROSE · 2049 · 1920×1080 · 1 kHz</div>
+<div id="fase2"><canvas id="cv" width="1920" height="1080"></canvas>
+ <div id="logo"><div class="l">BLACKROSE TV</div><div class="s">CORPORACIÓN BLACKROSE · AÑO 2049</div><div class="a">TRANSMITIENDO LAS 24 HORAS</div></div>
+ <div id="sub"></div><div id="vo">VOZ EN OFF</div><div id="eq"></div></div>
+<script>
+const P=new URLSearchParams(location.search);
+let T0=+P.get('t0')||(Date.now()+60000), G={cuenta:60,lineas:[],total:60};
+const $=s=>document.getElementById(s), cuenta=$('cuenta'), sub=$('sub'), f2=$('fase2'), eq=$('eq');
+for(let i=0;i<22;i++){eq.appendChild(document.createElement('i'))}
+fetch('guion.json?'+Date.now()).then(r=>r.json()).then(g=>{G=g}).catch(()=>{});
+const cv=$('cv').getContext('2d'); const gotas=[...Array(140)].map(()=>({x:Math.random()*1920,y:Math.random()*1080,v:6+Math.random()*10,l:14+Math.random()*30}));
+function lluvia(){cv.clearRect(0,0,1920,1080);cv.strokeStyle='rgba(0,229,255,.22)';cv.lineWidth=2;for(const g of gotas){cv.beginPath();cv.moveTo(g.x,g.y);cv.lineTo(g.x-3,g.y+g.l);cv.stroke();g.y+=g.v;if(g.y>1080){g.y=-40;g.x=Math.random()*1920}}}
+const pad=n=>String(n).padStart(2,'0');
+function tick(){
+  const ahora=Date.now(), s=(ahora-T0)/1000, C=G.cuenta;            // s<0: antes de empezar la cuenta
+  const d=new Date(ahora); $('tc').textContent=pad(d.getHours())+':'+pad(d.getMinutes())+':'+pad(d.getSeconds());
+  if(s<C){
+    f2.classList.remove('on');
+    const resta=Math.max(0,Math.ceil(C-Math.max(0,s))); cuenta.textContent=pad(Math.floor(resta/60))+':'+pad(resta%60);
+    cuenta.classList.toggle('ya',resta<=3&&s>=0);
+    $('estado').textContent=s<0?'SEÑAL EN PRUEBA · PREPARANDO':(resta<=3?'AL AIRE EN UNOS SEGUNDOS':'AJUSTE DE IMAGEN Y SONIDO');
+  } else {
+    f2.classList.add('on'); lluvia();
+    const t=s-C; let txt='';
+    for(const l of G.lineas){ if(t>=l.t-C && t<l.t-C+l.d+0.4) txt=l.texto; }
+    if(sub.textContent!==txt) sub.textContent=txt;
+    const hablando=!!txt; [...eq.children].forEach(b=>{b.style.height=(hablando?4+Math.random()*22:4)+'px'});
+  }
+  requestAnimationFrame(tick);
+}
+tick();
+</script></body></html>

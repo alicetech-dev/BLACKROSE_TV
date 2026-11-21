@@ -1,0 +1,21 @@
+{
+ "semilla": "Qué es un token",
+ "hechos": [
+  "Un token es un objeto digital que representa un activo, una propiedad o una identidad dentro de un sistema blockchain.",
+  "Los tokens se emiten y gestionan mediante contratos inteligentes en redes descentralizadas.",
+  "Cada token tiene características definidas por su contrato inteligente, como el nombre, el símbolo y la oferta máxima.",
+  "La mayoría de los tokens están construidos sobre redes existentes como Ethereum o Solana.",
+  "Un token puede representar un activo físico, como una obra de arte o un inmueble, mediante la tokenización.",
+  "Los tokens permiten la transferencia de valor sin necesidad de intermediarios financieros tradicionales.",
+  "El estándar ERC-20 es uno de los más comunes para crear y gestionar tokens en Ethereum.",
+  "La oferta de un token puede ser fija, predefinida por el contrato inteligente desde su creación.",
+  "Existen diferentes tipos de tokens, incluyendo utilitarios, de gobernanza y de seguridad.",
+  "Los tokens pueden utilizarse para acceder a servicios dentro de una plataforma o comunidad específica."
+ ],
+ "leyendas": [
+  "Que todos los tokens tienen un valor intrínseco o precio fijo en el momento de su lanzamiento.",
+  "Que la tecnología blockchain garantiza que los tokens sean inalterables y seguros sin excepciones."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 02:50"
+}

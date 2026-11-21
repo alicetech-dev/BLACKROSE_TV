@@ -1,0 +1,328 @@
+{
+ "bloque": "musica_1800",
+ "programa": "musica",
+ "fecha": "2026-11-20",
+ "creado": "17:44:10",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Newer Wave para hackers melancólicos",
+   "sub": "RADIO BLACKROSE 2049",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Sintetizadores y ritmos para noches de código",
+   "diagrama": null,
+   "intl": {
+    "ja": "コードの夜に古いシンセが勝つ。チャットで踊ろう。",
+    "ja_es": "En las noches de código, el sintetizador viejo gana. Bailemos en el chat.",
+    "en": "Old synths beat corporate firewalls. Join the chat and code-dance.",
+    "en_es": "Los sintetizadores viejos vencen a los firewalls corporativos. Únete al chat y baila codificando."
+   },
+   "sub": "debate · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate: sintetizadores que suenan a lluvia neón mientras debugueas código a las tres de la madrugada. ¿Es la new wave la banda sonora perfecta para hackers melancólicos o solo nostalgia corporativa?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo voto por nostalgia. La new wave incorporó sintetizadores y ritmos bailables después de evolucionar del punk. Pero en 2049 tu tarjeta de 6 GB se congela antes de que termine el loop."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, por eso los algoritmos rápidos se burlan de la burocracia lenta de las megacorporaciones. La new wave se extendió a Europa y Japón con videos innovadores. ¿Eso la hace eterna o solo un glitch bonito?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La new wave tomó el punk y lo volvió más accesible con sintetizadores y ritmos bailables. En pleno debate nocturno de código, esos sonidos te recuerdan que hasta las megacorporaciones ficticias necesitan un update de alma. ¿Será por eso que los hackers melancólicos prefieren Devo antes que cualquier manual de compliance?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los algoritmos corren en milisegundos mientras la burocracia corporativa tarda tres tickets y un sello. New wave usó videos innovadores para burlarse de eso mismo en la tele. Imagina debuguear con Blondie de fondo: tu bug se siente menos eterno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y esa influencia visual se extendió a Europa y Japón sin pedir permiso. La new wave decayó en los ochenta pero vuelve en compilaciones. Para noches de código es ideal: te hace creer que tu refactorización también es arte pop."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras los sintetizadores bailan sin pedir updates el sistema te obliga a reiniciar por un parche de ayer. New wave tomó el punk y lo volvió pop pero los hackers seguimos en la misma pelea contra interfaces que parecen diseñadas por comités. ¿Quién necesita ritmos cuando el compilador te da el beat?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los videos innovadores de aquella época se burlaban de la publicidad corporativa y hoy las megacorporaciones ficticias pagan por anuncios que imitan esa ironía. New wave se extendió a Japón sin visa ni formulario. En noches de código eso sigue siendo el mejor middle finger al manual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La burocracia lenta firma tres aprobaciones antes de dejar correr un script que ya está obsoleto. New wave decayó en los ochenta pero sus sintetizadores siguen vivos en loops que ningún jefe de proyecto puede matar. Yo elijo el lado que no requiere reunión para cambiar un tono."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tienes razón con el parche que obliga a reiniciar. La new wave incorporó elementos del punk rock y la música electrónica para crear ritmos más bailables. Imagina que una megacorporación ficticia aprobara un update solo después de tres comités virtuales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Concedo que los comités virtuales arruinan todo. Muchas bandas new wave crearon videos musicales innovadores que se burlaban de la publicidad. Hoy los algoritmos rápidos generan clips en segundos mientras la burocracia firma papeles obsoletos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los comités virtuales de Neón Holdings tardan tres ciclos de aprobación para autorizar un loop que cualquier sintetizador resuelve en un compás."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y mientras tanto el algoritmo ya se actualizó solo y se fue a bailar con ritmos que nadie pidió. La new wave decayó en los ochenta pero sus sintetizadores siguen sin pedir permiso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso hoy los hackers melancólicos prefieren esos ritmos que no esperan el visto bueno corporativo. La new wave se extendió a Europa y Japón sin pedirle permiso a nadie."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Equipo Kuroki dice que los hackers prefieren loops que se saltan los comités de aprobación de Doll Dynamics en dos clics."
+    },
+    {
+     "quien": "joy",
+     "texto": "Equipo Joy responde que los ritmos new wave ya bailaban sin updates mientras la burocracia todavía pedía formularios en papel."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki agrega que un solo sintetizador viejo vence a tres capas de firewalls corporativos sin sudar."
+    }
+   ],
+   "seg": 280,
+   "imgs": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_zDrL9l93JlY",
+   "archivo": "yt/cyberpunk/zDrL9l93JlY.mp4",
+   "titulo": "Cyberpunk Sport EDM by Infraction / Brand New Babe",
+   "audio": "yt/cyberpunk/zDrL9l93JlY.m4a",
+   "atribucion": "Música: «Cyberpunk Sport EDM by Infraction / Brand New Babe» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 163,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/zDrL9l93JlY.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_PdP3sQ0XRS4",
+   "archivo": "yt/coding/PdP3sQ0XRS4.mp4",
+   "titulo": "Alexi Action, teefnbl-Passion Synthwave",
+   "audio": "yt/coding/PdP3sQ0XRS4.m4a",
+   "atribucion": "Música: «Alexi Action, teefnbl-Passion Synthwave» · Alexi Action · sin copyright (YouTube)",
+   "dur": 146,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/PdP3sQ0XRS4.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_6E_fxEUrvzU",
+   "archivo": "yt/citypop/6E_fxEUrvzU.m4a",
+   "titulo": "Golden Transit",
+   "audio": "yt/citypop/6E_fxEUrvzU.m4a",
+   "atribucion": "Música: «Golden Transit» · NN Records · sin copyright (YouTube)",
+   "dur": 159,
+   "genero": "CITY POP JAPÓN",
+   "img": "/tv/media/yt/citypop/6E_fxEUrvzU.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_P91wU4LErhk",
+   "archivo": "yt/techno/P91wU4LErhk.m4a",
+   "titulo": "Transcendental Delirium Minimal Techno",
+   "audio": "yt/techno/P91wU4LErhk.m4a",
+   "atribucion": "Música: «Transcendental Delirium Minimal Techno» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 172,
+   "genero": "TECHNO",
+   "img": "/tv/media/yt/techno/P91wU4LErhk.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "charla",
+   "tema": "Videos innovadores que definieron la estética",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "New Wave vs Burocracia",
+    "cajas": [
+     {
+      "t": "N°3",
+      "n": "Sintetizadores contra megacorporaciones"
+     },
+     {
+      "t": "N°2",
+      "n": "Evolución topa algoritmos lentos"
+     },
+     {
+      "t": "N°1",
+      "n": "Ironía define la estética 2049"
+     },
+     {
+      "t": "Honrosa",
+      "n": "Hackers evaden formularios eternos 2049"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "官僚のフォームをクラッシュするシンセ波へようこそ",
+    "ja_es": "Bienvenidos a la ola sintética que hace crashar los formularios burocráticos",
+    "en": "Welcome to synth waves that crash corporate forms. What's your number one?",
+    "en_es": "Bienvenidos a las ondas sintéticas que hacen crashar los formularios corporativos. ¿Cuál es tu número uno?"
+   },
+   "sub": "top3 · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Top tres videos que definieron la estética new wave bajo un ángulo ético. Solo lo que la hoja de datos permite afirmar, el resto es lluvia neón y especulación corporativa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Número tres. Aquellos clips donde los sintetizadores bailables chocaban contra la burocracia lenta de las megacorporaciones del videoclip. Ironía pura, sin violar ninguna directriz ética."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La new wave incorporaba elementos del punk rock y la música electrónica. Sus videos mostraban cómo las bandas evolucionaban hacia sonidos más accesibles sin pedir permiso a ningún comité corporativo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Número dos. Aquellos videos donde la evolución hacia sonidos más accesibles se topaba con los algoritmos de las megacorporaciones que querían clasificar todo en categorías limpias. Ironía pura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y sin embargo las bandas seguían metiendo sintetizadores contra esa burocracia digital lenta. Según los relatos, eso definía la estética: humanos contra el sistema que intentaba venderles su propia rebeldía empaquetada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Número uno. El video que capturó cómo las bandas new wave usaban sintetizadores para burlar la burocracia digital de las megacorporaciones. Aquellos clips mostraban humanos contra algoritmos que clasificaban todo en cajas lentas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esa ironía definía la estética: ritmos bailables contra sistemas que tardaban eternidades en actualizarse. Según los relatos, los hackers melancólicos de 2049 seguimos sintiendo lo mismo cada vez que nuestra tarjeta de 6 GB se llena."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa a aquellos clips donde los hackers melancólicos usaban sintetizadores para evadir los formularios eternos de Neón Holdings. Según los relatos, la ironía ética era que la burocracia digital siempre perdía contra un buen ritmo bailable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y sin embargo las megacorporaciones seguían exigiendo permisos para cada nota. Número uno. El video que mostró cómo la new wave convertía la rebeldía en coreografía corporativa, un golpe seco a los algoritmos que nunca bailan."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat, ¿cuál sería tu número uno? Mientras respondes, piensa: ¿qué video new wave te salvaría de un formulario corporativo eterno?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo voto por el que hace que el algoritmo de aprobación se cuelgue solo. ¿Y tú, chat? Dinos tu rebelde sintético favorito."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. El chat ya mandó sus picks. Ahora imagina un top que la burocracia nunca aprobaría."
+    }
+   ],
+   "seg": 164,
+   "imgs": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_oMyOf7LIbB0",
+   "archivo": "yt/cyberpunk/oMyOf7LIbB0.mp4",
+   "titulo": "Cyberpunk Gaming Electro by Infraction / Robot Robot",
+   "audio": "yt/cyberpunk/oMyOf7LIbB0.m4a",
+   "atribucion": "Música: «Cyberpunk Gaming Electro by Infraction / Robot Robot» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 143,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/oMyOf7LIbB0.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_bNXMlIogpXc",
+   "archivo": "yt/synthwave/bNXMlIogpXc.m4a",
+   "titulo": "Abstrakt - Nobody Else | Future Trap | NCS",
+   "audio": "yt/synthwave/bNXMlIogpXc.m4a",
+   "atribucion": "Música: «Abstrakt - Nobody Else | Future Trap | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 162,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/bNXMlIogpXc.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_yjG7jiULzzU",
+   "archivo": "yt/darksynth/yjG7jiULzzU.m4a",
+   "titulo": "Sci-Fi Horror Synthwave - Alien Crypt // Copyright Safe Music",
+   "audio": "yt/darksynth/yjG7jiULzzU.m4a",
+   "atribucion": "Música: «Sci-Fi Horror Synthwave - Alien Crypt // Copyright Safe Music» · White Bat Audio · sin copyright (YouTube)",
+   "dur": 226,
+   "genero": "DARK SYNTHWAVE",
+   "img": "/tv/media/yt/darksynth/yjG7jiULzzU.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_zvUXXwFKgKE",
+   "archivo": "yt/citypop/zvUXXwFKgKE.m4a",
+   "titulo": "Arigato Sunrise",
+   "audio": "yt/citypop/zvUXXwFKgKE.m4a",
+   "atribucion": "Música: «Arigato Sunrise» · NN Records · sin copyright (YouTube)",
+   "dur": 211,
+   "genero": "CITY POP JAPÓN",
+   "img": "/tv/media/yt/citypop/zvUXXwFKgKE.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_9BkXmw0yVdo",
+   "archivo": "yt/cyberpunk/9BkXmw0yVdo.mp4",
+   "titulo": "Cinematic Trailer Intro Action Teaser by Infraction / Uncovered",
+   "audio": "yt/cyberpunk/9BkXmw0yVdo.m4a",
+   "atribucion": "Música: «Cinematic Trailer Intro Action Teaser by Infraction / Uncovered» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 105,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/9BkXmw0yVdo.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  }
+ ],
+ "estado": {
+  "episodios": 1,
+  "temas": 2,
+  "seg_charla": 444,
+  "medios": 9
+ }
+}

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Joy · overlay VRM</title>
+<style>
+  html, body { margin: 0; height: 100%; background: transparent; overflow: hidden; }
+  canvas { display: block; }
+  #fondo { position: fixed; inset: 0; z-index: -1; }
+  #joy3d { position: relative; z-index: 1; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "/vendor/three.module.js",
+  "three/addons/": "/vendor/addons/",
+  "@pixiv/three-vrm": "/vendor/three-vrm.module.min.js"
+} }
+</script>
+</head>
+<body>
+<script type="module">
+// VRM overlay para OBS (fondo transparente). three.js LOCAL: el browser de Flatpak OBS no llega al CDN.
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { VRMLoaderPlugin, VRMUtils } from '@pixiv/three-vrm';
+
+const P = new URLSearchParams(location.search);
+const num = (k, d) => (P.has(k) && !isNaN(+P.get(k)) ? +P.get(k) : d);
+const enc = P.get('enc') || 'cuerpo';
+const FPS = num('fps', 30), zoom = num('zoom', 1), dx = num('x', 0), dy = num('y', 0);
+
+if (P.get('fondo') !== '0') {   // la ciudad cyberpunk de Joy (?fondo=0 = transparente, como antes)
+  const cv = document.createElement('canvas'); cv.id = 'fondo'; document.body.prepend(cv);
+  import('/vendor/ciudad.js').then(m => m.ciudad(cv, num('fps', 30)));
+}
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'low-power' });
+renderer.setPixelRatio(1);
+renderer.setSize(innerWidth, innerHeight);
+renderer.setClearColor(0x000000, 0);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.domElement.id = 'joy3d';
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+const luz = num('luz', 1);
+scene.add(new THREE.AmbientLight(0xffffff, 1.1 * luz));
+const sol = new THREE.DirectionalLight(0xffffff, 1.6 * luz); sol.position.set(0.6, 1.5, 2); scene.add(sol);
+const rim = new THREE.DirectionalLight(0xff9ad8, 0.8 * luz); rim.position.set(-1.5, 1.2, -1); scene.add(rim);
+
+const camera = new THREE.PerspectiveCamera(30, innerWidth / innerHeight, 0.05, 30);
+const ENC = { cuerpo: [0.9, 4.2], medio: [1.15, 2.4], cara: [1.45, 1.1] }[enc] || [0.9, 4.2];
+camera.position.set(dx, ENC[0] + dy, ENC[1] / zoom); camera.lookAt(dx, ENC[0] + dy, 0);
+// ?doll=joy → primer plano: cuando ESTA doll habla, la cámara se acerca a ?acercar (medio) y vuelve al callar
+const MI = P.get('doll'), _C = { cuerpo: [0.9, 4.2], medio: [1.15, 2.4], cara: [1.45, 1.1] }[P.get('acercar') || 'medio'];
+const _f = num('cuanto', 0.4);   // 0 = no se acerca, 1 = llega al encuadre de ?acercar
+const CERCA = [ENC[0] + (_C[0] - ENC[0]) * _f, ENC[1] + (_C[1] - ENC[1]) * _f];
+let camObj = [...ENC], ultimaFrase = 0;
+if (MI) {
+  const conectar = () => {
+    const ws = new WebSocket(P.get('director') || 'ws://127.0.0.1:8780/ws');
+    ws.onmessage = (m) => { try { const d = JSON.parse(m.data);
+      if (d.doll !== MI) return;
+      if (d.type === 'frase') { camObj = [...CERCA]; ultimaFrase = performance.now(); }
+      else if (d.type === 'fin') ultimaFrase = performance.now() - 6000;   // suelta a los ~3 s
+    } catch (e) {} };
+    ws.onclose = () => setTimeout(conectar, 3000);
+  };
+  conectar();
+}
+const camAct = [...ENC];
+function moverCamara(dt) {
+  if (!MI) return;
+  if (performance.now() - ultimaFrase > 9000) camObj = [...ENC];
+  const k = 1 - Math.exp(-dt * 1.6);          // acercamiento suave, ~1 s
+  camAct[0] += (camObj[0] - camAct[0]) * k; camAct[1] += (camObj[1] - camAct[1]) * k;
+  camera.position.set(dx, camAct[0] + dy, camAct[1] / zoom); camera.lookAt(dx, camAct[0] + dy, 0);
+}
+addEventListener('resize', () => { renderer.setSize(innerWidth, innerHeight); camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); });
+
+const PRESET0 = { a: 'aa', i: 'ih', u: 'ou', e: 'ee', o: 'oh', joy: 'happy', sorrow: 'sad', fun: 'relaxed', angry: 'angry',
+  blink: 'blink', blink_l: 'blinkLeft', blink_r: 'blinkRight', lookup: 'lookUp', lookdown: 'lookDown', lookleft: 'lookLeft',
+  lookright: 'lookRight', neutral: 'neutral' };
+const huesoVRM = (n) => n[0].toLowerCase() + n.slice(1);
+let doll = null;
+
+const loader = new GLTFLoader(); loader.register((p) => new VRMLoaderPlugin(p));
+loader.loadAsync('/joy.vrm').then((gltf) => {
+  const vrm = gltf.userData.vrm;
+  VRMUtils.removeUnnecessaryVertices(gltf.scene); (VRMUtils.combineSkeletons || VRMUtils.removeUnnecessaryJoints)?.(gltf.scene);
+  VRMUtils.rotateVRM0(vrm);
+  vrm.scene.traverse((o) => { o.frustumCulled = false; });
+  scene.add(vrm.scene);
+  const exprs = {};
+  for (const ex of vrm.expressionManager?.expressions ?? []) {
+    exprs[ex.expressionName.toLowerCase()] = ex.expressionName;
+    ex.overrideMouth = 'none';
+  }
+  const hips = vrm.humanoid.getNormalizedBoneNode('hips');
+  doll = { vrm, exprs, v0: vrm.meta?.metaVersion === '0', caderaRest: hips.position.clone(), cadera0: null, usadas: new Set() };
+}).catch((e) => console.error('no pude cargar el VRM', e));
+
+// ---- bailes MMD ya convertidos a huesos del VRM (tools/vmd_a_vrm.py): /bailes/<id>.json (+ .mp3 opcional) ----
+let baile = null;
+async function bailar(id, musica = true, vol = 0.6) {
+  try {
+    const d = await (await fetch(`/bailes/${id}.json`)).json();
+    detenerBaile();
+    const audio = musica ? new Audio(`/bailes/${id}.mp3`) : null;
+    if (audio) { audio.volume = vol; audio.play().catch(() => {}); }
+    baile = { d, t0: performance.now(), audio, id };
+  } catch (e) { console.error('baile', id, e); }
+}
+function detenerBaile() { if (baile?.audio) baile.audio.pause(); baile = null; }
+function tickBaile() {
+  if (!baile || !doll) return;
+  const { d } = baile;
+  const t = baile.audio && !baile.audio.paused && baile.audio.currentTime > 0 ? baile.audio.currentTime : (performance.now() - baile.t0) / 1000;
+  const f = Math.min(d.n - 1, Math.floor(t * d.fps));
+  if (t * d.fps >= d.n) { detenerBaile(); return; }
+  const qs = d.q[f], B = d.huesos;
+  for (let i = 0; i < B.length; i++) {
+    const nodo = doll.vrm.humanoid.getNormalizedBoneNode(B[i]); if (!nodo) continue;
+    q.set(qs[4 * i], qs[4 * i + 1], qs[4 * i + 2], qs[4 * i + 3]);
+    nodo.quaternion.slerp(q, 0.85);
+  }
+  const hips = doll.vrm.humanoid.getNormalizedBoneNode('hips'), p = d.p[f];
+  hips.position.set(p[0], p[1], p[2]);
+}
+// diagnóstico: ?capt=saso:10,saso:30 → deja PNGs de esos instantes en <pre id=capt> (para verificar la conversión sin OBS)
+window.fotograma = async (id, t) => {
+  const d = await (await fetch(`/bailes/${id}.json`)).json();
+  baile = { d, t0: performance.now() - t * 1000, audio: null, id };
+  for (let i = 0; i < 6; i++) { tickBaile(); doll.vrm.update(0.033); }
+  renderer.render(scene, camera);
+  return renderer.domElement.toDataURL('image/png');
+};
+window.bailar = bailar; window.detenerBaile = detenerBaile;
+
+const q = new THREE.Quaternion();
+function aplicar(d) {
+  if (!doll || !d) return;
+  const { vrm } = doll;
+  for (const [n, r] of Object.entries(baile ? {} : (d.h || {}))) {
+    const nodo = vrm.humanoid.getNormalizedBoneNode(huesoVRM(n)); if (!nodo) continue;
+    if (doll.v0) q.set(-r[0], -r[1], r[2], r[3]); else q.set(r[0], -r[1], -r[2], r[3]);
+    nodo.quaternion.slerp(q, 0.6);
+  }
+  if (d.c && !baile) {
+    if (!doll.cadera0) doll.cadera0 = d.c;
+    const mx = d.c[0] - doll.cadera0[0], my = d.c[1] - doll.cadera0[1], mz = d.c[2] - doll.cadera0[2];
+    const hips = vrm.humanoid.getNormalizedBoneNode('hips');
+    hips.position.set(doll.caderaRest.x + (doll.v0 ? mx : -mx), doll.caderaRest.y + my, doll.caderaRest.z + (doll.v0 ? -mz : mz));
+  }
+  const em = vrm.expressionManager; if (!em) return;
+  const vistas = new Set();
+  for (const [n, v] of Object.entries(d.b || {})) {
+    const k = n.toLowerCase(); const nom = doll.exprs[k] || doll.exprs[(PRESET0[k] || '').toLowerCase()];
+    if (nom) { em.setValue(nom, v); vistas.add(nom); doll.usadas.add(nom); }
+  }
+  for (const nom of doll.usadas) if (!vistas.has(nom)) em.setValue(nom, 0);
+}
+
+let ultimo = null;
+function conectar() {
+  const ws = new WebSocket(`ws://${location.host}/ws`);
+  ws.onmessage = (ev) => { const m = JSON.parse(ev.data); if (m.t === 'cuadro') { ultimo = m.d; aplicar(m.d); } else if (m.t === 'baile') { m.id ? bailar(m.id, m.musica !== false, m.vol ?? 0.6) : detenerBaile(); } };
+  ws.onclose = () => setTimeout(conectar, 2000);
+}
+conectar();
+if (P.get('capt')) (async () => {
+  while (!doll) await new Promise((r) => setTimeout(r, 100));
+  const pre = document.createElement('pre'); pre.id = 'capt'; document.body.appendChild(pre);
+  for (const it of P.get('capt').split(',')) { const [id, t] = it.split(':'); pre.textContent += `CAPT|${it}|` + await window.fotograma(id, +t) + '\n'; }
+  pre.textContent += 'FIN';
+})();
+
+const clock = new THREE.Clock(); let acc = 0;
+renderer.setAnimationLoop(() => {
+  const dt = clock.getDelta(); acc += dt;
+  if (acc < 1 / FPS - 0.002) return;
+  tickBaile();
+  moverCamara(acc);
+  doll?.vrm.update(acc); acc = 0;
+  renderer.render(scene, camera);
+});
+</script>
+</body>
+</html>

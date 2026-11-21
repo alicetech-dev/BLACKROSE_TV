@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Subtítulos</title>
+<!-- OBS: Fuente > Navegador > http://127.0.0.1:8780/subtitulos (fondo transparente). ?lineas=2&tam=34
+     ?estilo=t800: caja de HUD roja y letra monoespaciada (T-800). Modo stream: muestra también el mensaje del chat que están contestando (?chat=0 lo saca). ?emojis=0: sin emojis de gata. -->
+<style>
+html, body { margin: 0; background: transparent; overflow: hidden; }
+#s { position: fixed; left: 0; right: 0; bottom: 4vh; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.l { font: 700 var(--tam, 34px)/1.25 system-ui, sans-serif; color: #fff; padding: 4px 14px; border-radius: 10px;
+     background: rgba(18, 13, 20, .62); text-shadow: 0 2px 4px #000; max-width: 88vw; text-align: center;
+     transition: opacity .4s; }
+.l b { color: var(--c); margin-right: 8px; }
+.l.chat { font-size: calc(var(--tam, 34px) * .7); font-weight: 600; }
+.t800 .l { font-family: 'Share Tech Mono', ui-monospace, monospace; border-radius: 0; background: rgba(20, 0, 4, .78);
+            border: 2px solid #ff3030; box-shadow: 0 0 10px rgba(255, 30, 30, .5); text-transform: uppercase; }
+/* ---- neón cyberpunk (por defecto; ?estilo=simple vuelve a la caja oscura de antes) ---- */
+@font-face { font-family: "Orbitron"; src: url(/img/fuentes/orbitron.woff2) format("woff2"); font-weight: 400 900; }
+@font-face { font-family: "Rajdhani"; src: url(/img/fuentes/rajdhani700.woff2) format("woff2"); font-weight: 700; }
+.neon #s { bottom: 5vh; gap: 10px; }
+.neon .l { --c2: #ff2bd6; position: relative; font: 700 calc(var(--tam, 34px) * 1.08)/1.22 "Rajdhani", "Noto Sans CJK JP",
+           "Noto Sans CJK TC", system-ui, sans-serif; letter-spacing: .02em; color: #f4fbff; border-radius: 0;
+           padding: 10px 26px 12px; max-width: 80vw;
+           background: linear-gradient(90deg, rgba(8, 2, 22, .86), rgba(18, 4, 34, .74) 50%, rgba(8, 2, 22, .86)),
+                       repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 3px);
+           clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+           box-shadow: inset 0 0 0 2px var(--c), inset 0 0 22px color-mix(in srgb, var(--c) 45%, transparent);
+           text-shadow: 0 0 4px #fff, 0 0 10px var(--c), 0 0 22px var(--c), 0 0 38px var(--c2);
+           animation: encender .55s steps(1) both; }
+.neon .l::after { content: ""; position: absolute; left: 14px; right: 14px; bottom: 0; height: 3px;
+                  background: linear-gradient(90deg, var(--c), var(--c2), var(--c)); box-shadow: 0 0 12px var(--c2); }
+.neon .l b { display: inline-block; font: 800 .62em/1 "Orbitron", sans-serif; letter-spacing: .14em; text-transform: uppercase;
+             color: #07000f; background: var(--c); padding: 5px 9px 4px; margin-right: 14px; vertical-align: .22em;
+             text-shadow: none; box-shadow: 0 0 10px var(--c), 0 0 24px var(--c2); }
+.neon .l.chat { font-size: calc(var(--tam, 34px) * .72); --c: #29f3ff; opacity: .92;
+                text-shadow: 0 0 6px var(--c); }
+.neon .l.ja { letter-spacing: .04em; }
+@keyframes encender { 0% { opacity: 0 } 10% { opacity: .9 } 18% { opacity: .15 } 30% { opacity: 1 } 40% { opacity: .5 } 52%, 100% { opacity: 1 } }
+</style>
+</head>
+<body>
+<div id="s"></div>
+<script>
+const q = new URLSearchParams(location.search), MAX = +(q.get("lineas") || 2);
+if (q.get("tam")) document.body.style.setProperty("--tam", q.get("tam") + "px");
+if (q.get("estilo") === "t800") document.body.classList.add("t800");
+else if (q.get("estilo") !== "simple") document.body.classList.add("neon");
+let C = {joy: "#b98cff", bambi: "#ff6fb5", t800: "#ff3b3b"}; const s = document.getElementById("s");
+let nombres = {};
+// emojis de gata al final de cada frase, solo en pantalla (la voz no los lee). ?emojis=0 los saca
+const MININOS = {joy: ["🐱", "😼", "🐾", "✨", "💙", "😸", "🤖"], bambi: ["🖤", "🎀", "😽", "💅", "🐈‍⬛", "💗", "💋"]};
+function gatuna(doll, t) {
+  if (new URLSearchParams(location.search).get("emojis") === "0" || !MININOS[doll] || /\p{Extended_Pictographic}\s*$/u.test(t)) return t;
+  const l = t.toLowerCase(), set = MININOS[doll], azar = () => set[Math.random() * set.length | 0];
+  const e = /\b(ja){2,}|jeje|xd\b/.test(l) ? "😹" : /\?\s*$/.test(t) ? (Math.random() < .5 ? "🤔" : azar())
+          : /!\s*$/.test(t) ? (Math.random() < .5 ? "✨" : azar()) : Math.random() < .7 ? azar() : "";
+  return e ? t + " " + e : t;
+}
+function linea(doll, texto) {
+  const el = document.createElement("div"); el.className = "l"; el.style.setProperty("--c", C[doll] || (document.body.classList.contains("neon") ? "#29f3ff" : "#ccc"));
+  const b = document.createElement("b"); b.textContent = nombres[doll] || doll; el.append(b, texto);
+  if (!(doll in nombres)) el.classList.add("chat");
+  if (/[\u3040-\u30ff\u3400-\u9fff]/.test(texto)) el.classList.add("ja");
+  s.appendChild(el); while (s.children.length > MAX) s.firstChild.remove();
+  clearTimeout(el._t); el._t = setTimeout(() => { el.style.opacity = 0; setTimeout(() => el.remove(), 500); }, 7000);
+}
+function conectar() {
+  const ws = new WebSocket(`ws://${location.host}/ws`);
+  ws.onmessage = m => {
+    const ev = JSON.parse(m.data);
+    if (ev.type === "info") { for (const d of ev.dolls) nombres[d.id] = d.nombre; if (ev.sfw) C = {joy: "#b46bff", kuroki: "#ff3fa4", bambi: "#5dffa0", t800: "#ff3b3b"}; }
+    if (ev.type === "canal_turno" && q.get("chat") !== "0") linea("💬 " + ev.autor, ev.texto);
+    if (ev.type === "frase") linea(ev.doll, gatuna(ev.doll, ev.texto));
+  };
+  ws.onclose = () => setTimeout(conectar, 2000);
+}
+if (q.get("demo")) {  // ?demo=1: líneas de muestra para revisar el diseño
+  nombres = {joy: "Joy", kuroki: "Kuroki"}; C = {joy: "#b46bff", kuroki: "#ff3fa4"};
+  linea("💬 neko_fan", "Joy, ¿qué idiomas hablas?");
+  linea("joy", "みんな、フォローしてね！ここはBlackrose Corporationのチャンネルだよ 😼");
+} else conectar();
+</script>
+</body>
+</html>

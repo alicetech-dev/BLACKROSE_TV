@@ -1,0 +1,21 @@
+{
+ "semilla": "Modelos 2D vs 3D",
+ "hechos": [
+  "La representación 3D permite que los objetos se vean desde cualquier ángulo, mientras que la 2D está limitada a una sola perspectiva.",
+  "En un entorno 3D realista, las luces y sombras se calculan automáticamente según la posición de la cámara y las fuentes de luz.",
+  "Los modelos 2D requieren menos memoria RAM y CPU en comparación con los modelos 3D complejos.",
+  "La animación en 2D depende del artista para dibujar cada fotograma o pose, mientras que en 3D se usa interpolación entre puntos clave.",
+  "El renderizado de una escena 3D puede ser mucho más lento que mostrar un video pregrabido de 2D.",
+  "Las texturas y los materiales en 3D permiten simular el reflejo del entorno o la transmisión de luz a través de objetos.",
+  "La profundidad de campo es un efecto óptico que se logra fácilmente con una cámara virtual en 3D, pero requiere trucos visuales en 2D.",
+  "Los avatares VTuber suelen usar modelos 3D para lograr expresiones faciales realistas y seguimiento ocular.",
+  "El software de modelado 3D permite modificar la geometría del personaje en tiempo real durante una transmisión.",
+  "La animación de personajes 2D se basa tradicionalmente en papeles y lápiz, aunque hoy también usa herramientas digitales."
+ ],
+ "leyendas": [
+  "Se cuenta que los modelos 3D siempre son más realistas que los 2D, pero esto depende del nivel de detalle y no es una regla absoluta.",
+  "Según los relatos comunes, la animación 3D es mucho más fluida que la 2D, aunque en realidad ambas pueden ser fluidas si se usan hardware adecuados."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 18:05"
+}

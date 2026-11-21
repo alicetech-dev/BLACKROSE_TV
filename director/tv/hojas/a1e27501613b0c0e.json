@@ -1,0 +1,21 @@
+{
+ "semilla": "TECNOLOGÍA MILITAR: Drones que se hackean solos",
+ "hechos": [
+  "Los drones militares se originaron en proyectos de vehículos aéreos no tripulados desarrollados para reconocimiento durante la Primera Guerra Mundial.",
+  "Durante la Guerra Fría se usaron drones para misiones de vigilancia y como blancos de entrenamiento.",
+  "Los sistemas de control remoto de drones dependen de enlaces de radio o satélite para recibir órdenes.",
+  "El jamming o interferencia de señales es una técnica militar para bloquear el control de un drone enemigo.",
+  "Los drones pueden incorporar algoritmos de navegación inercial que les permiten continuar una misión si pierden el enlace de control.",
+  "La autonomía en drones se basa en sensores como GPS, IMU y cámaras para mantener posición y evitar obstáculos.",
+  "La transición de drones militares a usos civiles comenzó con aplicaciones en agricultura, cartografía y filmación.",
+  "Los sistemas anti-drone incluyen detección por radar, disrupción de frecuencias y redes de captura física.",
+  "La ingeniería de drones combina aerodinámica, electrónica de potencia y procesamiento de señales para operación estable.",
+  "Los protocolos de comunicación cifrada se usan para reducir el riesgo de interceptación o toma de control externa."
+ ],
+ "leyendas": [
+  "Leyenda o error común: que cualquier drone puede ser hackeado remotamente con un teléfono; en realidad requiere equipo especializado y conocimiento específico del sistema.",
+  "Leyenda o error común: que los drones militares se hackean solos de forma autónoma; en realidad usan modos de fallback programados, no hackeo independiente."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 17:51"
+}

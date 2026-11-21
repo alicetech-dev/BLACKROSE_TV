@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dolls — Overlay</title>
+<style>
+:root {
+  --joy: #b98cff;
+  --bambi: #ff6fb5;
+  --bg: rgba(8, 8, 18, 0.88);
+  --bg-light: rgba(20, 20, 40, 0.75);
+  --border: rgba(255,255,255,0.10);
+  --text: #e8e8f0;
+  --text-dim: rgba(255,255,255,0.45);
+  --accent: var(--joy);
+  --selected: rgba(185,140,255,0.18);
+  --glow: 0 0 20px rgba(185,140,255,0.3);
+  --radius: 14px;
+  --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: transparent;
+  font-family: var(--font);
+  color: var(--text);
+  overflow: hidden;
+  width: 100vw; height: 100vh;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ── HUD (always visible) ─────────────────────────── */
+
+#hud {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  display: flex; align-items: flex-end; justify-content: space-between;
+  padding: 16px 24px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+#hud-status {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 18px; font-weight: 500;
+  background: var(--bg);
+  backdrop-filter: blur(12px);
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  transition: opacity 0.3s;
+}
+
+#hud-status .led {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: #555;
+  flex-shrink: 0;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+#hud-status .led.speaking { background: #4ade80; box-shadow: 0 0 8px #4ade80; }
+#hud-status .led.thinking { background: #facc15; box-shadow: 0 0 8px #facc15; animation: pulse 1.2s ease infinite; }
+#hud-status .led.sleeping { background: #f87171; box-shadow: 0 0 6px #f87171; }
+
+#hud-status .doll-name { font-weight: 700; }
+#hud-status .detail { color: var(--text-dim); font-size: 15px; }
+
+#hud-hint {
+  font-size: 15px; color: var(--text-dim);
+  background: var(--bg);
+  backdrop-filter: blur(12px);
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  display: flex; align-items: center; gap: 8px;
+}
+#hud-hint .gp-icon { font-size: 13px; opacity: 0.7; }
+#hud-hint .connected { color: #4ade80; }
+#hud-hint .disconnected { color: #f87171; }
+
+#hud-queue {
+  position: fixed; top: 16px; right: 24px;
+  font-size: 14px; color: var(--text-dim);
+  background: var(--bg);
+  backdrop-filter: blur(12px);
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+#hud-queue.visible { opacity: 1; }
+
+/* ── Subtitles ──────────────────────────────────────── */
+
+#subs {
+  position: fixed; bottom: 60px; left: 50%; transform: translateX(-50%);
+  width: 80%; max-width: 900px;
+  text-align: center;
+  pointer-events: none;
+  z-index: 9;
+}
+
+#subs .sub {
+  display: inline-block;
+  background: rgba(0,0,0,0.65);
+  backdrop-filter: blur(6px);
+  padding: 6px 18px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  font-size: 22px;
+  line-height: 1.4;
+  animation: fadeIn 0.2s ease;
+  transition: opacity 0.5s;
+}
+#subs .sub.fading { opacity: 0; }
+#subs .sub b { margin-right: 6px; }
+
+/* ── Menu ───────────────────────────────────────────── */
+
+#menu-backdrop {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(4px);
+  z-index: 50;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s;
+}
+#menu-backdrop.open { opacity: 1; pointer-events: auto; }
+
+#menu {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%) scale(0.92);
+  width: 420px;
+  max-height: 75vh;
+  background: var(--bg);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--glow), 0 8px 32px rgba(0,0,0,0.5);
+  z-index: 100;
+  display: flex; flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+#menu.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#menu-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px 10px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+#menu-header .doll-tab {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 20px; font-weight: 700;
+  cursor: default;
+}
+#menu-header .doll-tab .dot {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+#menu-header .nav-label {
+  font-size: 14px; color: var(--text-dim);
+}
+#menu-header .breadcrumb {
+  font-size: 14px; color: var(--text-dim); font-weight: 400;
+}
+
+#menu-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.15) transparent;
+}
+#menu-body::-webkit-scrollbar { width: 4px; }
+#menu-body::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
+
+.menu-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 20px;
+  font-size: 19px;
+  cursor: default;
+  transition: background 0.12s, padding-left 0.15s;
+  position: relative;
+}
+.menu-item.selected {
+  background: var(--selected);
+  padding-left: 26px;
+}
+.menu-item.selected::before {
+  content: '';
+  position: absolute; left: 0; top: 4px; bottom: 4px;
+  width: 3px;
+  background: var(--accent);
+  border-radius: 0 2px 2px 0;
+}
+.menu-item .icon { font-size: 20px; width: 28px; text-align: center; flex-shrink: 0; }
+.menu-item .label { flex: 1; }
+.menu-item .arrow { color: var(--text-dim); font-size: 14px; }
+.menu-item .active-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+.menu-item.flash {
+  animation: itemFlash 0.35s ease;
+}
+
+#menu-footer {
+  display: flex; align-items: center; justify-content: center; gap: 20px;
+  padding: 10px 20px 12px;
+  border-top: 1px solid var(--border);
+  font-size: 13px; color: var(--text-dim);
+  flex-shrink: 0;
+}
+#menu-footer .btn-hint {
+  display: flex; align-items: center; gap: 4px;
+}
+#menu-footer .key {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 22px; height: 22px;
+  padding: 0 5px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 4px;
+  font-size: 11px; font-weight: 600;
+}
+
+/* ── Toast ──────────────────────────────────────────── */
+
+#toast {
+  position: fixed; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg);
+  backdrop-filter: blur(16px);
+  padding: 12px 28px;
+  border-radius: 10px;
+  border: 1px solid var(--accent);
+  font-size: 20px; font-weight: 600;
+  z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+#toast.visible { opacity: 1; }
+
+/* ── Animations ─────────────────────────────────────── */
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes itemFlash {
+  0% { background: rgba(185,140,255,0.35); }
+  100% { background: var(--selected); }
+}
+
+/* ── Gamepad not connected splash ───────────────────── */
+
+#no-gamepad {
+  position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%);
+  background: var(--bg);
+  backdrop-filter: blur(12px);
+  padding: 10px 24px;
+  border-radius: 10px;
+  border: 1px solid rgba(248,113,113,0.3);
+  font-size: 16px;
+  color: #f87171;
+  z-index: 8;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+#no-gamepad.visible { opacity: 1; }
+</style>
+</head>
+<body>
+
+<!-- HUD: doll status -->
+<div id="hud">
+  <div id="hud-status">
+    <div class="led" id="hud-led"></div>
+    <span class="doll-name" id="hud-name">—</span>
+    <span class="detail" id="hud-detail"></span>
+  </div>
+  <div id="hud-hint">
+    <span class="gp-icon" id="gp-status">🎮</span>
+    <span id="gp-label">OPTIONS: menú</span>
+  </div>
+</div>
+
+<!-- Queue indicator -->
+<div id="hud-queue"></div>
+
+<!-- Subtitles -->
+<div id="subs"></div>
+
+<!-- Gamepad not connected -->
+<div id="no-gamepad">🎮 Conectá un joystick — también funciona con teclado (Tab: menú, flechas, Enter)</div>
+
+<!-- Menu backdrop -->
+<div id="menu-backdrop"></div>
+
+<!-- Menu panel -->
+<div id="menu">
+  <div id="menu-header">
+    <div class="doll-tab">
+      <div class="dot" id="menu-dot"></div>
+      <span id="menu-doll-name">Joy</span>
+      <span class="breadcrumb" id="menu-breadcrumb"></span>
+    </div>
+    <span class="nav-label" id="menu-nav-hint">L1/R1: cambiar doll</span>
+  </div>
+  <div id="menu-body"></div>
+  <div id="menu-footer">
+    <div class="btn-hint"><span class="key">✕</span> seleccionar</div>
+    <div class="btn-hint"><span class="key">○</span> atrás</div>
+    <div class="btn-hint"><span class="key">OPT</span> cerrar</div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast"></div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   STATE
+   ═══════════════════════════════════════════════════════════════ */
+
+const S = {
+  ws: null,
+  connected: false,
+  menuOpen: false,
+  level: 'main',       // 'main' | 'sub'
+  mainIdx: 0,
+  subIdx: 0,
+  sel: null,            // selected doll id
+  dolls: {},            // {id: {nombre, gestos, emociones, modos, estado, autonomia}}
+  dollIds: [],
+  sala: { activo: false },
+  queue: { actual: '', pendientes: [] },
+  gamepadIndex: -1,
+  gamepadName: '',
+  subtitles: [],
+};
+
+/* ═══════════════════════════════════════════════════════════════
+   MENU CATEGORIES
+   ═══════════════════════════════════════════════════════════════ */
+
+const CATEGORIES = [
+  {
+    icon: '🎭', label: 'Gestos',
+    items() { return S.dolls[S.sel]?.gestos || []; },
+    action(item) { wsSend({type:'cuerpo', doll:S.sel, intent:{gesto:item}}); },
+    keepOpen: true,
+  },
+  {
+    icon: '😊', label: 'Emociones',
+    items() { return S.dolls[S.sel]?.emociones || []; },
+    action(item) { wsSend({type:'cuerpo', doll:S.sel, intent:{emocion:item}}); },
+    keepOpen: true,
+  },
+  {
+    icon: '👁️', label: 'Mirar',
+    items() { return ['camara','izquierda','derecha','arriba','abajo','chat']; },
+    action(item) { wsSend({type:'cuerpo', doll:S.sel, intent:{mirar:item}}); },
+    keepOpen: true,
+  },
+  {
+    icon: '💬', label: 'Acciones',
+    items() {
+      const otra = S.dollIds.find(d => d !== S.sel);
+      return [
+        'pensá algo', 'preguntame',
+        otra ? `hablale a ${S.dolls[otra]?.nombre || otra}` : 'a la otra',
+        'charlen', 'reflexionar', 'investigar', 'monólogo', 'recuerdo'
+      ];
+    },
+    action(item, idx) {
+      const cmds = [
+        {type:'espontaneo', doll:S.sel, tipo:'pensamiento'},
+        {type:'espontaneo', doll:S.sel, tipo:'pregunta'},
+        {type:'espontaneo', doll:S.sel, tipo:'a_la_otra'},
+        {type:'dialogo', doll:S.sel, turnos:4},
+        {type:'impulso', doll:S.sel, impulso:'reflect'},
+        {type:'impulso', doll:S.sel, impulso:'research'},
+        {type:'impulso', doll:S.sel, impulso:'monologue'},
+        {type:'impulso', doll:S.sel, impulso:'lore'},
+      ];
+      wsSend(cmds[idx]);
+    },
+    keepOpen: false,
+  },
+  {
+    icon: '🤖', label: 'Autonomía',
+    items() {
+      const cur = S.dolls[S.sel]?.autonomia || 'off';
+      return ['off','vida','sleep'].map(m => m === cur ? `● ${m}` : m);
+    },
+    action(item) {
+      wsSend({type:'autonomia', doll:S.sel, modo: item.replace('● ','')});
+    },
+    keepOpen: true,
+    activeIdx() {
+      const cur = S.dolls[S.sel]?.autonomia || 'off';
+      return ['off','vida','sleep'].indexOf(cur);
+    },
+  },
+  {
+    icon: '🏠', label: 'Sala',
+    items() { return [S.sala.activo ? '● sala activa — desactivar' : '○ sala inactiva — activar']; },
+    action() { wsSend({type:'sala', activo: !S.sala.activo}); },
+    keepOpen: true,
+  },
+  {
+    icon: '🎙️', label: 'Modos',
+    items() {
+      const cur = S.dolls[S.sel]?.estado?.modo || 'chat';
+      return (S.dolls[S.sel]?.modos || ['chat']).map(m => m === cur ? `● ${m}` : m);
+    },
+    action(item) {
+      wsSend({type:'modo', doll:S.sel, modo: item.replace('● ','')});
+    },
+    keepOpen: true,
+    activeIdx() {
+      const cur = S.dolls[S.sel]?.estado?.modo || 'chat';
+      return (S.dolls[S.sel]?.modos || ['chat']).indexOf(cur);
+    },
+  },
+  {
+    icon: '🎯', label: 'Control',
+    items() { return ['callar', 'soltar gesto', 'reset']; },
+    action(item, idx) {
+      if (idx === 0) wsSend({type:'callar'});
+      else if (idx === 1) wsSend({type:'cuerpo', doll:S.sel, intent:{soltar:true}});
+      else wsSend({type:'reset', doll:S.sel});
+    },
+    keepOpen: true,
+  },
+];
+
+/* ═══════════════════════════════════════════════════════════════
+   DOM REFS
+   ═══════════════════════════════════════════════════════════════ */
+
+const $ = (sel) => document.querySelector(sel);
+const hudLed = $('#hud-led');
+const hudName = $('#hud-name');
+const hudDetail = $('#hud-detail');
+const hudHint = $('#hud-hint');
+const gpStatus = $('#gp-status');
+const gpLabel = $('#gp-label');
+const hudQueue = $('#hud-queue');
+const subsEl = $('#subs');
+const menuEl = $('#menu');
+const menuBackdrop = $('#menu-backdrop');
+const menuDot = $('#menu-dot');
+const menuDollName = $('#menu-doll-name');
+const menuBreadcrumb = $('#menu-breadcrumb');
+const menuNavHint = $('#menu-nav-hint');
+const menuBody = $('#menu-body');
+const toastEl = $('#toast');
+const noGamepad = $('#no-gamepad');
+
+/* ═══════════════════════════════════════════════════════════════
+   WEBSOCKET
+   ═══════════════════════════════════════════════════════════════ */
+
+function wsConnect() {
+  const proto = location.protocol === 'https:' ? 'wss' : 'ws';
+  S.ws = new WebSocket(`${proto}://${location.host}/ws`);
+
+  S.ws.onopen = () => { S.connected = true; };
+  S.ws.onclose = () => {
+    S.connected = false;
+    setTimeout(wsConnect, 2000);
+  };
+  S.ws.onerror = () => S.ws.close();
+  S.ws.onmessage = (ev) => {
+    let d;
+    try { d = JSON.parse(ev.data); } catch { return; }
+    handleWsMessage(d);
+  };
+}
+
+function wsSend(obj) {
+  if (S.ws?.readyState === WebSocket.OPEN) {
+    S.ws.send(JSON.stringify(obj));
+  }
+}
+
+function handleWsMessage(d) {
+  switch (d.type) {
+    case 'info':
+      S.dollIds = [];
+      for (const dd of d.dolls) {
+        S.dollIds.push(dd.id);
+        S.dolls[dd.id] = {
+          nombre: dd.nombre,
+          gestos: dd.gestos || [],
+          emociones: dd.emociones || [],
+          modos: dd.modos || ['chat'],
+          estado: dd.estado || {},
+          autonomia: dd.autonomia || 'off',
+        };
+      }
+      if (!S.sel && S.dollIds.length) S.sel = d.ultima || S.dollIds[0];
+      S.sala = d.sala || S.sala;
+      S.queue = d.cola || S.queue;
+      updateHud();
+      if (S.menuOpen) renderMenu();
+      break;
+
+    case 'estado':
+      if (S.dolls[d.doll]) {
+        S.dolls[d.doll].estado = d.estado;
+      }
+      updateHud();
+      if (S.menuOpen) renderMenu();
+      break;
+
+    case 'autonomia':
+      if (S.dolls[d.doll]) S.dolls[d.doll].autonomia = d.modo;
+      if (S.menuOpen) renderMenu();
+      break;
+
+    case 'sala':
+      S.sala = d.sala || S.sala;
+      if (S.menuOpen) renderMenu();
+      break;
+
+    case 'cola':
+      S.queue = { actual: d.actual || '', pendientes: d.pendientes || [] };
+      updateQueue();
+      break;
+
+    case 'frase':
+      addSubtitle(d.doll, d.texto);
+      break;
+
+    case 'fin':
+      break;
+
+    case 'aviso':
+      showToast(d.texto, 3000);
+      break;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   HUD UPDATE
+   ═══════════════════════════════════════════════════════════════ */
+
+function dollColor(id) {
+  // Assign colors by index: first doll gets --joy, second gets --bambi
+  const idx = S.dollIds.indexOf(id);
+  const colors = ['#b98cff', '#ff6fb5', '#4ade80', '#facc15'];
+  return colors[idx] || colors[0];
+}
+
+function updateHud() {
+  const d = S.dolls[S.sel];
+  if (!d) return;
+
+  const c = dollColor(S.sel);
+  hudName.textContent = d.nombre || S.sel;
+  hudName.style.color = c;
+
+  // LED
+  hudLed.className = 'led';
+  if (d.estado?.dormida) hudLed.classList.add('sleeping');
+  else if (d.estado?.pensando) hudLed.classList.add('thinking');
+  else if (d.estado?.hablando) hudLed.classList.add('speaking');
+
+  // Detail
+  const parts = [];
+  if (d.estado?.emocion && d.estado.emocion !== 'neutral') parts.push(d.estado.emocion);
+  if (d.estado?.gesto) parts.push(d.estado.gesto);
+  if (d.estado?.hablando) parts.push('hablando');
+  else if (d.estado?.pensando) parts.push('pensando…');
+  else if (d.estado?.dormida) parts.push('💤');
+  hudDetail.textContent = parts.length ? parts.join(' · ') : '';
+
+  updateQueue();
+  updateAccentColor();
+}
+
+function updateAccentColor() {
+  const c = dollColor(S.sel);
+  document.documentElement.style.setProperty('--accent', c);
+  document.documentElement.style.setProperty('--selected', c.replace(')', ',0.18)').replace('rgb', 'rgba').replace('#', ''));
+  // Simple hex to rgba for selected
+  menuDot.style.background = c;
+}
+
+function updateQueue() {
+  const q = S.queue;
+  if (q.actual || q.pendientes.length) {
+    let txt = '';
+    if (q.actual) txt = q.actual;
+    if (q.pendientes.length) txt += (txt ? ' · ' : '') + `en fila: ${q.pendientes.length}`;
+    hudQueue.textContent = txt;
+    hudQueue.classList.add('visible');
+  } else {
+    hudQueue.classList.remove('visible');
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SUBTITLES
+   ═══════════════════════════════════════════════════════════════ */
+
+const MAX_SUBS = 3;
+
+function addSubtitle(doll, texto) {
+  const d = S.dolls[doll];
+  const name = d?.nombre || doll;
+  const color = dollColor(doll);
+
+  const el = document.createElement('div');
+  el.className = 'sub';
+  el.innerHTML = `<b style="color:${color}">${name}:</b> ${escHtml(texto)}`;
+  subsEl.appendChild(el);
+
+  // Limit visible subtitles
+  while (subsEl.children.length > MAX_SUBS) {
+    subsEl.firstChild.remove();
+  }
+
+  // Auto-fade after 7s
+  setTimeout(() => {
+    el.classList.add('fading');
+    setTimeout(() => el.remove(), 600);
+  }, 7000);
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TOAST
+   ═══════════════════════════════════════════════════════════════ */
+
+let toastTimer = 0;
+function showToast(text, ms = 1500) {
+  toastEl.textContent = text;
+  toastEl.classList.add('visible');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toastEl.classList.remove('visible'), ms);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MENU RENDERING
+   ═══════════════════════════════════════════════════════════════ */
+
+function toggleMenu() {
+  S.menuOpen = !S.menuOpen;
+  if (S.menuOpen) {
+    S.level = 'main';
+    S.mainIdx = 0;
+    renderMenu();
+  }
+  menuEl.classList.toggle('open', S.menuOpen);
+  menuBackdrop.classList.toggle('open', S.menuOpen);
+}
+
+function renderMenu() {
+  const d = S.dolls[S.sel];
+  if (!d) return;
+
+  menuDollName.textContent = d.nombre || S.sel;
+  menuDot.style.background = dollColor(S.sel);
+
+  if (S.level === 'main') {
+    menuBreadcrumb.textContent = '';
+    menuNavHint.textContent = 'L1/R1: cambiar doll';
+    renderMainMenu();
+  } else {
+    const cat = CATEGORIES[S.mainIdx];
+    menuBreadcrumb.textContent = ` · ${cat.icon} ${cat.label}`;
+    menuNavHint.textContent = '';
+    renderSubMenu(cat);
+  }
+}
+
+function renderMainMenu() {
+  menuBody.innerHTML = '';
+  CATEGORIES.forEach((cat, i) => {
+    const el = document.createElement('div');
+    el.className = 'menu-item' + (i === S.mainIdx ? ' selected' : '');
+    el.innerHTML = `
+      <span class="icon">${cat.icon}</span>
+      <span class="label">${cat.label}</span>
+      <span class="arrow">▶</span>
+    `;
+    el.dataset.idx = i;
+    el.onclick = () => { S.mainIdx = i; enterSubMenu(); };
+    menuBody.appendChild(el);
+  });
+  scrollToSelected();
+}
+
+function renderSubMenu(cat) {
+  const items = cat.items();
+  menuBody.innerHTML = '';
+
+  if (!items.length) {
+    menuBody.innerHTML = '<div class="menu-item"><span class="label" style="color:var(--text-dim)">sin opciones</span></div>';
+    return;
+  }
+
+  items.forEach((item, i) => {
+    const el = document.createElement('div');
+    el.className = 'menu-item' + (i === S.subIdx ? ' selected' : '');
+
+    const isActive = item.startsWith('●');
+    const displayLabel = item.replace(/^[●○]\s*/, '');
+
+    el.innerHTML = `
+      <span class="icon">${isActive ? '' : ''}</span>
+      ${isActive ? '<span class="active-dot"></span>' : ''}
+      <span class="label">${escHtml(displayLabel)}</span>
+    `;
+    el.dataset.idx = i;
+    el.onclick = () => { S.subIdx = i; executeAction(); };
+    menuBody.appendChild(el);
+  });
+  scrollToSelected();
+}
+
+function scrollToSelected() {
+  const sel = menuBody.querySelector('.selected');
+  if (sel) sel.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+}
+
+function enterSubMenu() {
+  S.level = 'sub';
+  S.subIdx = 0;
+  // If category has an activeIdx, start there
+  const cat = CATEGORIES[S.mainIdx];
+  if (cat.activeIdx) {
+    const ai = cat.activeIdx();
+    if (ai >= 0) S.subIdx = ai;
+  }
+  renderMenu();
+}
+
+function goBack() {
+  if (S.level === 'sub') {
+    S.level = 'main';
+    renderMenu();
+  } else {
+    toggleMenu();
+  }
+}
+
+function executeAction() {
+  const cat = CATEGORIES[S.mainIdx];
+  const items = cat.items();
+  if (S.subIdx < 0 || S.subIdx >= items.length) return;
+
+  const raw = items[S.subIdx];
+  const clean = raw.replace(/^[●○]\s*/, '').replace(/ — .*$/, '');
+  cat.action(clean, S.subIdx);
+
+  // Flash feedback
+  const sel = menuBody.querySelector('.selected');
+  if (sel) {
+    sel.classList.remove('flash');
+    void sel.offsetWidth; // reflow
+    sel.classList.add('flash');
+  }
+
+  showToast(`${cat.icon} ${clean}`, 1200);
+
+  if (!cat.keepOpen) {
+    setTimeout(() => {
+      S.menuOpen = false;
+      menuEl.classList.remove('open');
+      menuBackdrop.classList.remove('open');
+    }, 400);
+  } else {
+    // Re-render to update active states (e.g. autonomía, modos)
+    setTimeout(() => renderMenu(), 200);
+  }
+}
+
+function navigate(dir) {
+  if (!S.menuOpen) return;
+  if (S.level === 'main') {
+    S.mainIdx = Math.max(0, Math.min(CATEGORIES.length - 1, S.mainIdx + dir));
+  } else {
+    const items = CATEGORIES[S.mainIdx].items();
+    S.subIdx = Math.max(0, Math.min(items.length - 1, S.subIdx + dir));
+  }
+  renderMenu();
+}
+
+function switchDoll(dir) {
+  if (!S.dollIds.length) return;
+  const curIdx = S.dollIds.indexOf(S.sel);
+  const nextIdx = (curIdx + dir + S.dollIds.length) % S.dollIds.length;
+  S.sel = S.dollIds[nextIdx];
+  updateHud();
+  if (S.menuOpen) {
+    if (S.level === 'sub') S.subIdx = 0;
+    renderMenu();
+  }
+  showToast(`🔄 ${S.dolls[S.sel]?.nombre || S.sel}`, 1000);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   GAMEPAD INPUT
+   ═══════════════════════════════════════════════════════════════ */
+
+const DEADZONE = 0.45;
+const REPEAT_MS = 220;
+
+let prevBtns = [];
+let stickLock = false;
+let stickTimer = 0;
+let lastGamepadCheck = 0;
+
+function findGamepad() {
+  const pads = navigator.getGamepads();
+  for (let i = 0; i < pads.length; i++) {
+    const gp = pads[i];
+    if (!gp) continue;
+    // Skip tablet mice / non-gamepads: real gamepads have >= 10 buttons
+    if (gp.buttons.length >= 10) {
+      return gp;
+    }
+  }
+  return null;
+}
+
+function pollGamepad() {
+  requestAnimationFrame(pollGamepad);
+
+  const now = performance.now();
+
+  const gp = findGamepad();
+
+  // Update gamepad connection status (throttled)
+  if (now - lastGamepadCheck > 1000) {
+    lastGamepadCheck = now;
+    const wasConnected = S.gamepadIndex >= 0;
+    if (gp) {
+      S.gamepadIndex = gp.index;
+      S.gamepadName = gp.id;
+      if (!wasConnected) {
+        noGamepad.classList.remove('visible');
+        gpStatus.className = 'gp-icon connected';
+        gpLabel.textContent = 'OPTIONS: menú';
+      }
+    } else {
+      S.gamepadIndex = -1;
+      if (wasConnected) {
+        noGamepad.classList.add('visible');
+        gpStatus.className = 'gp-icon disconnected';
+        gpLabel.textContent = 'sin joystick';
+        setTimeout(() => noGamepad.classList.remove('visible'), 5000);
+      }
+    }
+  }
+
+  if (!gp) return;
+
+  const pressed = (i) => {
+    const now = gp.buttons[i]?.pressed || false;
+    const was = prevBtns[i] || false;
+    return now && !was;
+  };
+
+  // ── Button actions ──
+
+  // Start / Options (9) → toggle menu
+  if (pressed(9)) toggleMenu();
+
+  // Cross / A (0) → confirm / enter submenu
+  if (pressed(0)) {
+    if (S.menuOpen) {
+      if (S.level === 'main') enterSubMenu();
+      else executeAction();
+    }
+  }
+
+  // Circle / B (1) → back
+  if (pressed(1)) {
+    if (S.menuOpen) goBack();
+  }
+
+  // Triangle / Y (3) → quick reset
+  if (pressed(3) && !S.menuOpen) {
+    wsSend({type:'reset', doll:S.sel});
+    showToast('🎯 reset', 1000);
+  }
+
+  // Square / X (2) → soltar gesto
+  if (pressed(2) && !S.menuOpen) {
+    wsSend({type:'cuerpo', doll:S.sel, intent:{soltar:true}});
+    showToast('🎭 soltar gesto', 1000);
+  }
+
+  // L1 (4) → callar
+  if (pressed(4)) {
+    wsSend({type:'callar'});
+    showToast('🔇 callar', 1000);
+  }
+
+  // R1 (5) → switch doll
+  if (pressed(5)) switchDoll(1);
+
+  // Share / Select (8) → toggle sala
+  if (pressed(8)) {
+    wsSend({type:'sala', activo: !S.sala.activo});
+    showToast(S.sala.activo ? '🏠 sala off' : '🏠 sala on', 1200);
+  }
+
+  // D-pad navigation
+  if (pressed(12)) navigate(-1);   // D-up
+  if (pressed(13)) navigate(1);    // D-down
+  if (pressed(15)) {               // D-right → enter
+    if (S.menuOpen) {
+      if (S.level === 'main') enterSubMenu();
+      else executeAction();
+    }
+  }
+  if (pressed(14)) {               // D-left → back
+    if (S.menuOpen) goBack();
+  }
+
+  // ── Left stick analog navigation ──
+  const ly = gp.axes[1] || 0;
+  if (Math.abs(ly) > DEADZONE && !stickLock && S.menuOpen) {
+    navigate(ly > 0 ? 1 : -1);
+    stickLock = true;
+    clearTimeout(stickTimer);
+    stickTimer = setTimeout(() => { stickLock = false; }, REPEAT_MS);
+  }
+  if (Math.abs(ly) < DEADZONE * 0.5) {
+    stickLock = false;
+    clearTimeout(stickTimer);
+  }
+
+  // Save button state for edge detection
+  prevBtns = gp.buttons.map(b => b.pressed);
+}
+
+// Gamepad connect/disconnect events
+window.addEventListener('gamepadconnected', (e) => {
+  if (e.gamepad.buttons.length >= 10) {
+    S.gamepadIndex = e.gamepad.index;
+    S.gamepadName = e.gamepad.id;
+    noGamepad.classList.remove('visible');
+    gpStatus.className = 'gp-icon connected';
+    gpLabel.textContent = 'OPTIONS: menú';
+    showToast(`🎮 ${e.gamepad.id.split('(')[0].trim()}`, 2000);
+  }
+});
+
+window.addEventListener('gamepaddisconnected', (e) => {
+  if (e.gamepad.index === S.gamepadIndex) {
+    S.gamepadIndex = -1;
+    gpStatus.className = 'gp-icon disconnected';
+    gpLabel.textContent = 'sin joystick';
+    noGamepad.classList.add('visible');
+    setTimeout(() => noGamepad.classList.remove('visible'), 5000);
+  }
+});
+
+/* ═══════════════════════════════════════════════════════════════
+   KEYBOARD FALLBACK
+   ═══════════════════════════════════════════════════════════════ */
+
+document.addEventListener('keydown', (e) => {
+  switch (e.key) {
+    case 'Tab':
+      e.preventDefault();
+      toggleMenu();
+      break;
+    case 'ArrowUp':
+      e.preventDefault();
+      navigate(-1);
+      break;
+    case 'ArrowDown':
+      e.preventDefault();
+      navigate(1);
+      break;
+    case 'ArrowRight':
+    case 'Enter':
+    case ' ':
+      e.preventDefault();
+      if (S.menuOpen) {
+        if (S.level === 'main') enterSubMenu();
+        else executeAction();
+      }
+      break;
+    case 'ArrowLeft':
+    case 'Escape':
+    case 'Backspace':
+      e.preventDefault();
+      if (S.menuOpen) goBack();
+      break;
+    case 'q':
+      wsSend({type:'callar'});
+      showToast('🔇 callar', 1000);
+      break;
+    case 'e':
+      switchDoll(1);
+      break;
+    case 'r':
+      wsSend({type:'reset', doll:S.sel});
+      showToast('🎯 reset', 1000);
+      break;
+  }
+});
+
+/* ═══════════════════════════════════════════════════════════════
+   INIT
+   ═══════════════════════════════════════════════════════════════ */
+
+function init() {
+  wsConnect();
+  requestAnimationFrame(pollGamepad);
+
+  // Show no-gamepad hint initially, hide after a few seconds
+  noGamepad.classList.add('visible');
+  setTimeout(() => {
+    if (S.gamepadIndex < 0) {
+      // Keep showing, it'll hide when gamepad connects
+    } else {
+      noGamepad.classList.remove('visible');
+    }
+  }, 8000);
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+ "semilla": "Godot, Unity y Unreal",
+ "hechos": [
+  "Godot es un motor de videojuegos de código abierto desarrollado por la Fundación Godot.",
+  "Unity Technologies desarrolló el motor Unity, que utiliza un sistema basado en componentes.",
+  "Epic Games creó el motor Unreal Engine, conocido por su sistema de renderizado en tiempo real Lumen.",
+  "El motor Godot fue lanzado oficialmente en 2018 tras años de desarrollo comunitario.",
+  "Unity permite la creación de juegos para múltiples plataformas desde una misma interfaz.",
+  "Unreal Engine utiliza el lenguaje C++ como base para su arquitectura.",
+  "Godot soporta lenguajes de scripting propios como GDScript y C .",
+  "Unity ha sido utilizado en proyectos de videojuegos comerciales durante más de una década.",
+  "Epic Games donó los derechos del motor Unreal Engine a la comunidad en 2016.",
+  "Los motores Unity y Godot comparten características similares para la gestión de escenas."
+ ],
+ "leyendas": [
+  "Se cuenta que Godot fue creado originalmente como un proyecto educativo antes de convertirse en una herramienta profesional.",
+  "Según los relatos, Unity fue el primer motor en popularizar el uso de componentes para objetos en videojuegos."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 07:16"
+}

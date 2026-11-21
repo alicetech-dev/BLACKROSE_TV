@@ -1,0 +1,345 @@
+{
+ "bloque": "musica_2230",
+ "programa": "musica",
+ "fecha": "2026-11-20",
+ "creado": "18:30:48",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Sintonía 6 GB de batería cyborg",
+   "sub": "RADIO BLACKROSE 2049",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Alta densidad energética en portátiles",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Evolución Densidad Energética",
+    "cajas": [
+     {
+      "t": "Años 70",
+      "n": "Celdas primitivas, ladrillo y pitido"
+     },
+     {
+      "t": "Años 90",
+      "n": "Iones de litio, mochila pero pesadas"
+     },
+     {
+      "t": "Actual",
+      "n": "Estado sólido, semanas sin cargar"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "未来の電池で雨の2049も笑顔。チャット待ってるよ！",
+    "ja_es": "Con baterías del futuro, la lluvia de 2049 también con sonrisa. ¡Esperamos tu chat!",
+    "en": "Solid state batteries or week long ones? Drop your pick in chat.",
+    "en_es": "¿Baterías de estado sólido o las que duran una semana? Deja tu elección en el chat."
+   },
+   "sub": "top3 · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Top 3 de alta densidad energética en portátiles según su evolución histórica. En el tres, las primeras celdas de los setenta que apenas daban para un beep."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y que necesitaban un ladrillo entero para mover un cursor. En el dos, las comerciales de los noventa que ya cabían en una laptop pero pesaban como un gato cibernético."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el tres, las primeras celdas de los setenta que apenas daban para un cursor y un pitido. Imagina enchufar un portátil y que la batería se queje en morse porque no le alcanza ni para parpadear."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y que necesitaban un ladrillo entero para mover un cursor. Los ingenieros de entonces las trataban como reliquias sagradas, con rituales de carga que duraban más que la propia sesión de trabajo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el dos, las primeras laptops de los noventa que ya usaban iones de litio y cabían en una mochila. Aunque todavía pesaban como si llevaras un bloque de concreto y la densidad energética apenas daba para dos horas de cursor."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y los sistemas de gestión eran tan básicos que un mal golpe podía hacer que la batería se pusiera dramática. Por eso los ingenieros las trataban como reliquias, midiendo todo en miliamperios hora mientras soñaban con algo que no se quejara al enchufarse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto uno, las baterías de estado sólido que vienen ahora. Imagínate cargar tu portátil una vez y que te dure semanas sin que nadie te pida gestión de batería. Los laboratorios las tratan como el santo grial del futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y por eso los ingenieros las custodian como si fueran reliquias de otra era. La densidad energética sube tanto que un solo celda mueve un portátil entero sin drama. Dicen que pronto hasta los vehículos eléctricos las querrán."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa a las baterías de estado sólido que investigan ahora. Dicen que podrían multiplicar la densidad sin tanto drama térmico. Aunque se cuenta que todavía están en fase de promesas corporativas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y hablando de promesas, la capacidad en miliamperios hora ha subido tanto que un portátil actual aguanta lo que antes pedía tres celdas juntas. Imagina no cargar en todo un vuelo transoceánico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, ¿cuál es tu número uno en densidad energética? ¿La que dura un vuelo entero o la que aguanta una semana en standby?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras llegan sus respuestas, recordemos que las baterías recargables ya evitan montañas de desechables. ¿Qué pondrías tú en el primer puesto, chat?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo voto por las que vienen con gestión térmica que no se asuste si la usas en la lluvia de 2049. ¿Alguien coincide?"
+    }
+   ],
+   "seg": 198,
+   "imgs": [
+    {
+     "web": "/medios/0ea24730799fc367_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/0ea24730799fc367_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Batería de ion de litio»"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_1gQsi3jUETQ",
+   "archivo": "yt/phonk/1gQsi3jUETQ.mp4",
+   "titulo": "Clubbing Angelcore Rave by Infraction, teefnbl, Alexi Action / Come Close",
+   "audio": "yt/phonk/1gQsi3jUETQ.m4a",
+   "atribucion": "Música: «Clubbing Angelcore Rave by Infraction, teefnbl, Alexi Action / Come Cl» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 150,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/1gQsi3jUETQ.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_zuSBdKOGXGw",
+   "archivo": "yt/citypop/zuSBdKOGXGw.m4a",
+   "titulo": "Tokyo Mirage Line",
+   "audio": "yt/citypop/zuSBdKOGXGw.m4a",
+   "atribucion": "Música: «Tokyo Mirage Line» · NN Records · sin copyright (YouTube)",
+   "dur": 204,
+   "genero": "CITY POP JAPÓN",
+   "img": "/tv/media/yt/citypop/zuSBdKOGXGw.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_DldjSHnR3Ug",
+   "archivo": "yt/cyberpunk/DldjSHnR3Ug.mp4",
+   "titulo": "Eternal Darkness",
+   "audio": "yt/cyberpunk/DldjSHnR3Ug.m4a",
+   "atribucion": "Música: «Eternal Darkness» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 154,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/DldjSHnR3Ug.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_w-pjMFdtYhE",
+   "archivo": "yt/darktechno/w-pjMFdtYhE.mp4",
+   "titulo": "Brutal Acid Techno / EBM / Dark Industrial Type Beat / Cyberpunk Music 'Anchorite'",
+   "audio": "yt/darktechno/w-pjMFdtYhE.m4a",
+   "atribucion": "Música: «Brutal Acid Techno / EBM / Dark Industrial Type Beat / Cyberpunk Music» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 483,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/w-pjMFdtYhE.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "charla",
+   "tema": "Uso en vehículos eléctricos modernos",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Evolución Baterías VE",
+    "cajas": [
+     {
+      "t": "Años 90",
+      "n": "Primeros prototipos"
+     },
+     {
+      "t": "Gestión térmica",
+      "n": "Evita sobrecalentamiento"
+     },
+     {
+      "t": "Densidad actual",
+      "n": "Cruzas ciudades sin parar"
+     },
+     {
+      "t": "Playlist nocturna",
+      "n": "Alimenta auto y música"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "EVの魂、バッテリーで繋がろう。チャット待ってるよ",
+    "ja_es": "Conectémonos con el alma de los EV a través de la batería. Te esperamos en el chat",
+    "en": "EV souls and batteries, what's your number one? Drop it in chat",
+    "en_es": "Almas de VE y baterías, ¿cuál es tu número uno? Déjalo en el chat"
+   },
+   "sub": "top3 · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Top tres usos culturales de baterías de iones de litio en vehículos eléctricos modernos. Criterio: cómo cambian la forma en que nos movemos por la ciudad sin que nadie lo note."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Número tres. La batería que alimenta el auto y también tu playlist nocturna. Se cuenta que en los noventa ya existían prototipos, ahora solo falta que la burocracia apruebe el futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Número dos. Densidad energética que permite cruzar distancias sin parar a cargar cada dos horas. Los sistemas de gestión evitan que se caliente, aunque la leyenda dice que explotan en cada esquina."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Número tres. La batería que alimenta el auto y también tu playlist nocturna. Se cuenta que en los noventa ya existían prototipos, ahora solo falta que la Corporación Blackrose saque una edición limitada con cara de gato. Eso cambia el viaje de commuting aburrido a algo que suena a medianoche."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el dato curioso es que su densidad energética ha mejorado con avances en materiales, permitiendo que un vehículo eléctrico te lleve más lejos sin drama. Imagina cruzar la ciudad sin pensar en enchufes, solo el ronroneo del motor y la música."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Número dos. Esa densidad energética que te deja cruzar ciudades enteras sin mirar el medidor. Se cuenta que los primeros prototipos de los noventa ya soñaban con esto, aunque la burocracia corporativa tardó en llegar al futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y los sistemas de gestión evitan que se caliente aunque el tráfico sea un infierno. Avances en materiales han empujado la capacidad más allá de lo que imaginaban en los noventa, dejando que tu auto eléctrico sueñe con rutas imposibles."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Número uno. La batería que convirtió los autos eléctricos en extensiones de tu alma nocturna. Imagina cruzar el distrito sin ruido, solo el zumbido y la ciudad reflejada en el parabrisas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso es lo que la hace culturalmente enorme. Ya no eres conductor, eres parte de un flujo silencioso que se mueve entre hologramas. Se cuenta que los primeros prototipos de los noventa apenas soñaban con esta libertad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa a las baterías de estado sólido que prometen acabar con los sustos de sobrecalentamiento. Se cuenta que en los vehículos eléctricos modernos convierten cada viaje en una experiencia casi orgánica, sin el drama de las leyendas de explosiones."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto Kuroki y hablando de mitos esa idea de que dejarlo enchufado todo el tiempo lo arruina para siempre. Los sistemas modernos simplemente ríen y siguen. Avance que nos deja soñar con una ciudad que nunca se detiene."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, dinos cuál es tu número uno. ¿La que te deja llegar a tiempo o la que te salva de un pitido de batería baja?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras esperan sus respuestas, se cuenta que las baterías recargables ya reducen montañas de desechos. ¿Cuál pondrías tú en el podio?"
+    }
+   ],
+   "seg": 214,
+   "imgs": [
+    {
+     "web": "/medios/9b89af41894f839c_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/9b89af41894f839c_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Vehículo eléctrico»"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_v2zREFnEFZg",
+   "archivo": "yt/darktechno/v2zREFnEFZg.mp4",
+   "titulo": "Dark Acid Techno / EBM / Industrial Bass Type Beat / Cyberpunk Music 'Napalm'",
+   "audio": "yt/darktechno/v2zREFnEFZg.m4a",
+   "atribucion": "Música: «Dark Acid Techno / EBM / Industrial Bass Type Beat / Cyberpunk Music '» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 487,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/v2zREFnEFZg.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_MdGvCxTOoIU",
+   "archivo": "yt/cyberpunk/MdGvCxTOoIU.mp4",
+   "titulo": "Cybernetic Dreamscape",
+   "audio": "yt/cyberpunk/MdGvCxTOoIU.m4a",
+   "atribucion": "Música: «Cybernetic Dreamscape» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 160,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/MdGvCxTOoIU.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_vOSrZCATho0",
+   "archivo": "yt/synthwave/vOSrZCATho0.m4a",
+   "titulo": "Jack Shore & KORA - Memory Nights | Future House | NCS",
+   "audio": "yt/synthwave/vOSrZCATho0.m4a",
+   "atribucion": "Música: «Jack Shore & KORA - Memory Nights | Future House | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 196,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/vOSrZCATho0.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_JzOdnoquYNc",
+   "archivo": "yt/cyberpunk/JzOdnoquYNc.mp4",
+   "titulo": "Phonk Brazilian Sport Workout by Infraction, Emerel Gray / Invaders",
+   "audio": "yt/cyberpunk/JzOdnoquYNc.m4a",
+   "atribucion": "Música: «Phonk Brazilian Sport Workout by Infraction, Emerel Gray / Invaders» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 144,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/JzOdnoquYNc.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_gdeLjECQ4wk",
+   "archivo": "yt/phonk/gdeLjECQ4wk.m4a",
+   "titulo": "Clubbing Angelcore Rave by Infraction, Alexi Action / Angel Crying",
+   "audio": "yt/phonk/gdeLjECQ4wk.m4a",
+   "atribucion": "Música: «Clubbing Angelcore Rave by Infraction, Alexi Action / Angel Crying» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 158,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/gdeLjECQ4wk.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  }
+ ],
+ "estado": {
+  "episodios": 1,
+  "temas": 2,
+  "seg_charla": 412,
+  "medios": 9
+ }
+}

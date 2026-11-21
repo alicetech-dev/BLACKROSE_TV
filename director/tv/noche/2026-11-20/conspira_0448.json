@@ -1,0 +1,241 @@
+{
+ "bloque": "conspira_0448",
+ "programa": "conspira",
+ "fecha": "2026-11-20",
+ "creado": "02:01:44",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El archivo de conspira revela un patrón oculto en los datos.",
+   "sub": "ARCHIVO CONSPIRA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El archivo de conspira revela un patrón oculto en los datos., visto de",
+   "diagrama": null,
+   "intl": null,
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La historia de El archivo de conspira revela un patrón oculto en los datos., visto desde lo del futuro tiene un giro que pocos conocen."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Todo empezó con una idea sencilla."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y entonces algo cambió para siempre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy El archivo de conspira revela un patrón oculto en los datos., visto desde lo del futuro sigue teniendo consecuencias."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tuviéramos que adivinar el futuro de El archivo de conspira revela un patrón oculto en los datos., visto desde lo del futuro, diríamos que recién empieza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 47,
+   "imgs": [
+    {
+     "web": "/medios/12d5fa3289b52918_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/12d5fa3289b52918_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Watchmen»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El archivo de conspira revela un patrón oculto en los datos., visto de",
+   "diagrama": null,
+   "intl": null,
+   "sub": "mito realidad · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Sobre El archivo de conspira revela un patrón oculto en los datos., visto desde lo ético se cuentan muchas cosas. Vamos a separar mito de realidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "La versión popular de El archivo de conspira revela un patrón oculto en los datos., visto desde lo ético es muy llamativa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que está documentado de El archivo de conspira revela un patrón oculto en los datos., visto desde lo ético es más sobrio, pero igual de interesante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los mitos crecen cuando falta información."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Nuestro veredicto sobre El archivo de conspira revela un patrón oculto en los datos., visto desde lo ético: hay más historia que misterio."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Tú te creías la versión popular de El archivo de conspira revela un patrón oculto en los datos., visto desde lo ético? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 64,
+   "imgs": [
+    {
+     "web": "/medios/05ee50605fcda43a_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/05ee50605fcda43a_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Dioses olímpicos»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20211123_mh_ajw01_0001_spacex_dart_i",
+   "archivo": "v/v_nasa_ksc_20211123_mh_ajw01_0001_spacex_dart_i.mp4",
+   "titulo": "DART Isolated Launch Views",
+   "atribucion": "«DART Isolated Launch Views» — NASA · images.nasa.gov",
+   "dur": 506,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La verdad sobre el archivo se cuenta con precisiones verificables.",
+   "sub": "ARCHIVO CONSPIRA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La verdad sobre el archivo se cuenta con precisiones verificables., co",
+   "diagrama": null,
+   "intl": null,
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sobre La verdad sobre el archivo se cuenta con precisiones verificables., con humor se cuentan muchas cosas. Vamos a separar mito de realidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La versión popular de La verdad sobre el archivo se cuenta con precisiones verificables., con humor es muy llamativa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que está documentado de La verdad sobre el archivo se cuenta con precisiones verificables., con humor es más sobrio, pero igual de interesante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los mitos crecen cuando falta información."
+    },
+    {
+     "quien": "joy",
+     "texto": "Nuestro veredicto sobre La verdad sobre el archivo se cuenta con precisiones verificables., con humor: hay más historia que misterio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Tú te creías la versión popular de La verdad sobre el archivo se cuenta con precisiones verificables., con humor? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 57,
+   "imgs": [
+    {
+     "web": "/medios/6075632ca7fda941_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/6075632ca7fda941_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Pragmatismo»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "La verdad sobre el archivo se cuenta con precisiones verificables., vi",
+   "diagrama": null,
+   "intl": null,
+   "sub": "real inventado · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Juguemos a ¿real o inventado? sobre La verdad sobre el archivo se cuenta con precisiones verificables., visto desde lo cultural."
+    },
+    {
+     "quien": "joy",
+     "texto": "Primer dato."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Segundo dato."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tercer dato, el más difícil."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ahora, la verdad."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el chat: ¿real o inventado? Juega con nosotras."
+    }
+   ],
+   "seg": 25,
+   "imgs": [
+    {
+     "web": "/medios/ba92b3f93491a2f6_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/ba92b3f93491a2f6_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Pragmatismo»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_1Q4WFCnLJFE",
+   "archivo": "yt/darktechno/1Q4WFCnLJFE.mp4",
+   "titulo": "Heavy Industrial Bass / EBM / Metal Electro Type Beat / Cyberpunk Music 'Pure Evil'",
+   "audio": "yt/darktechno/1Q4WFCnLJFE.m4a",
+   "atribucion": "Música: «Heavy Industrial Bass / EBM / Metal Electro Type Beat / Cyberpunk Musi» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 482,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/1Q4WFCnLJFE.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_BC7R_nuYs9Y",
+   "archivo": "yt/darktechno/BC7R_nuYs9Y.mp4",
+   "titulo": "Dark Acid Techno / EBM / Industrial Bass Type Beat / Cyberpunk Music 'Sore & Sick'",
+   "audio": "yt/darktechno/BC7R_nuYs9Y.m4a",
+   "atribucion": "Música: «Dark Acid Techno / EBM / Industrial Bass Type Beat / Cyberpunk Music '» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 487,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/BC7R_nuYs9Y.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 193,
+  "medios": 3
+ }
+}

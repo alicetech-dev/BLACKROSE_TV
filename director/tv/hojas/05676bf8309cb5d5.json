@@ -1,0 +1,21 @@
+{
+ "semilla": "Codificar audio para lluvia neón 2049",
+ "hechos": [
+  "El sonido de la lluvia se produce por el impacto de gotas de agua sobre superficies.",
+  "La lluvia genera ruido blanco y rosa en el espectro audible.",
+  "El ruido rosa tiene igual energía por octava y se usa en pruebas de audio.",
+  "El ruido blanco tiene igual energía por frecuencia lineal.",
+  "Los formatos de compresión de audio incluyen MP3, AAC y Opus.",
+  "La compresión con pérdida elimina datos que el oído humano tiende a no percibir.",
+  "La compresión sin pérdida permite recuperar el audio original exacto.",
+  "Los sintetizadores pueden generar sonidos de lluvia de forma artificial.",
+  "El procesamiento digital de señales permite filtrar y modificar grabaciones de lluvia.",
+  "Los entornos cyberpunk en cine y juegos suelen combinar lluvia con música electrónica."
+ ],
+ "leyendas": [
+  "Leyenda o error común: la lluvia siempre produce ruido blanco puro.",
+  "Leyenda o error común: codificar lluvia neón requiere hardware especial de 2049."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 04:23"
+}

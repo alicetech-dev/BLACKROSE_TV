@@ -1,0 +1,19 @@
+{
+ "semilla": "El kernel explicado con una batería",
+ "hechos": [
+  "El kernel es el núcleo del sistema operativo Linux y gestiona los recursos de hardware.",
+  "Linux fue creado en 1991 por Linus Torvalds como un proyecto colaborativo.",
+  "La gestión de memoria en Linux utiliza paginación para optimizar el uso de la RAM.",
+  "Los procesos en Linux se comunican entre sí mediante llamadas al sistema o interprocesos.",
+  "El scheduler del kernel decide qué proceso recibe tiempo de CPU basándose en prioridades y políticas.",
+  "Linux soporta múltiples sistemas de archivos, como ext4 y Btrfs, para almacenar datos.",
+  "La seguridad en Linux se basa en permisos de usuario y grupo definidos en el sistema de archivos.",
+  "El comando 'ps' muestra la lista de procesos activos en ejecución en un momento dado."
+ ],
+ "leyendas": [
+  "Se cuenta que Linus Torvalds escribió todo el kernel en una sola noche, aunque esto es una exageración sobre su velocidad.",
+  "Según los relatos, el nombre 'Linux' proviene de combinar 'Linus' con 'Unix', pero no existe un registro oficial que confirme este origen exacto."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 02:57"
+}

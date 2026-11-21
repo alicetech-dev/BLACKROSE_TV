@@ -1,0 +1,21 @@
+{
+ "semilla": "Glitches famosos",
+ "hechos": [
+  "El glitch de 'The Legend of Zelda' donde Link se queda atrapado en una pared fue causado por un error en la lógica del movimiento de la cámara.",
+  "En el juego 'Doom', el monstruo conocido como 'Sgt. Ulysses' es un ejemplo clásico de un glitch que ocurrió durante la fase de desarrollo.",
+  "El fenómeno conocido como 'Tetris Effect' en los videojuegos modernos se refiere a cómo las experiencias repetitivas pueden causar una sensación de estar atrapado en un bucle temporal.",
+  "La técnica de 'texture streaming' en juegos AAA puede provocar glitches visuales cuando el sistema intenta cargar texturas que no están actualmente en memoria.",
+  "El error conocido como 'frame rate drop' ocurre cuando la tasa de cuadros por segundo disminuye, causando una sensación de aturdimiento o lentitud en los videojuegos.",
+  "La implementación del motor de física en juegos como 'Quake' tuvo errores iniciales que resultaron en glitches donde los jugadores podían flotar o atravesar el suelo.",
+  "El concepto de 'level design' a menudo se ve afectado por glitches cuando las áreas del juego no están correctamente conectadas, creando espacios vacíos o inaccesibles.",
+  "La técnica de 'sprite collision detection' puede fallar en juegos antiguos como 'Super Mario Bros.', causando que los personajes atraviesen objetos o paredes.",
+  "El glitch conocido como 'speedrunning' se originó como un error donde los jugadores podían moverse más rápido de lo normal debido a una optimización incorrecta del código.",
+  "La implementación de la inteligencia artificial en juegos como 'StarCraft' tuvo errores iniciales que resultaron en comportamientos extraños de las unidades."
+ ],
+ "leyendas": [
+  "Se cuenta que el glitch donde Mario se queda atrapado en un bloque es causado por una maldición del desarrollador Shigeru Miyamoto.",
+  "Según los relatos, el glitch donde Sonic pierde su cola es un error intencional para enseñar a los jugadores sobre la importancia de la física."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 04:11"
+}

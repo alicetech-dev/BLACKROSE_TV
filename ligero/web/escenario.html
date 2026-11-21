@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>JOY 6.0 · Interfaz</title>
+<style>
+  /* JOY 6.0 — interfaz cyberpunk retro vectorial. 1920×1080 transparente, ENCIMA del overlay de Joy (:8810) en OBS.
+     Joy ocupa el centro (x 700-1220). Fuentes locales (/vendor/fuentes): el navegador de OBS Flatpak no llega a CDNs. */
+  @font-face { font-family: "Monoton"; src: url(/vendor/fuentes/monoton.woff2) format("woff2"); }
+  @font-face { font-family: "Audiowide"; src: url(/vendor/fuentes/audiowide.woff2) format("woff2"); }
+  @font-face { font-family: "Orbitron"; src: url(/vendor/fuentes/orbitron.woff2) format("woff2"); font-weight: 400 900; }
+  @font-face { font-family: "VT323"; src: url(/vendor/fuentes/vt323.woff2) format("woff2"); }
+  @font-face { font-family: "Rajdhani"; src: url(/vendor/fuentes/rajdhani500.woff2) format("woff2"); font-weight: 500; }
+  @font-face { font-family: "Rajdhani"; src: url(/vendor/fuentes/rajdhani700.woff2) format("woff2"); font-weight: 700; }
+
+  :root {
+    --mag: #ff2bd6; --cian: #00f0ff; --lila: #9b5cff; --amar: #ffe14d; --tinta: #f2eaff;
+    --fondo: rgba(6, 0, 22, .74); --linea: rgba(0, 240, 255, .55);
+  }
+  html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: transparent;
+    font-family: "Rajdhani", sans-serif; color: var(--tinta); }
+
+  /* ---------- marco vectorial: línea fina cian + esquinas magenta + pestaña ---------- */
+  .panel { position: absolute; background: var(--fondo); border: 1.5px solid var(--linea);
+    box-shadow: 0 0 18px rgba(0, 240, 255, .18), inset 0 0 30px rgba(155, 92, 255, .10); }
+  .panel::before, .panel::after { content: ""; position: absolute; width: 26px; height: 26px; pointer-events: none;
+    filter: drop-shadow(0 0 5px var(--mag)); }
+  .panel::before { left: -4px; top: -4px; border-left: 4px solid var(--mag); border-top: 4px solid var(--mag); }
+  .panel::after { right: -4px; bottom: -4px; border-right: 4px solid var(--mag); border-bottom: 4px solid var(--mag); }
+  .pest { position: absolute; top: -15px; left: 34px; padding: 3px 14px; background: #06001a;
+    border: 1.5px solid var(--cian); font: 700 14px/1 "Orbitron"; letter-spacing: .28em; color: var(--cian);
+    text-shadow: 0 0 8px var(--cian); }
+  .pest b { color: var(--mag); text-shadow: 0 0 8px var(--mag); }
+  /* barrido de escaneo dentro de los paneles */
+  .scan { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+  .scan::after { content: ""; position: absolute; left: 0; right: 0; height: 90px; top: -90px;
+    background: linear-gradient(180deg, transparent, rgba(0, 240, 255, .07), transparent); animation: barre 7s linear infinite; }
+  @keyframes barre { to { top: 110%; } }
+
+  /* ---------- LOGO ---------- */
+  #logo { left: 40px; top: 34px; width: 560px; height: 262px; }
+  #rejilla { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+  #horiz { position: absolute; left: -40%; right: -40%; bottom: -10px; height: 120px; transform-origin: 50% 0;
+    transform: perspective(160px) rotateX(58deg);
+    background:
+      repeating-linear-gradient(90deg, rgba(255, 43, 214, .55) 0 1.5px, transparent 1.5px 46px),
+      repeating-linear-gradient(0deg, rgba(255, 43, 214, .55) 0 1.5px, transparent 1.5px 26px);
+    animation: avanza 2.2s linear infinite; opacity: .55;
+    -webkit-mask-image: linear-gradient(180deg, transparent, #000 60%); }
+  @keyframes avanza { to { background-position: 0 0, 0 26px; } }
+  #marca { position: absolute; left: 30px; top: 24px; display: flex; align-items: flex-end; gap: 16px; }
+  #joy { font: 400 118px/0.9 "Monoton"; color: #fff; letter-spacing: .02em;
+    text-shadow: 0 0 6px #fff, 0 0 18px var(--mag), 0 0 42px var(--mag); animation: glitch 7s infinite; }
+  @keyframes glitch {
+    0%, 92%, 100% { transform: none; text-shadow: 0 0 6px #fff, 0 0 18px var(--mag), 0 0 42px var(--mag); }
+    93% { transform: translateX(4px) skewX(-8deg); text-shadow: -5px 0 var(--cian), 5px 0 var(--mag), 0 0 30px var(--mag); }
+    95% { transform: translateX(-3px); text-shadow: 4px 0 var(--cian), -4px 0 var(--amar); }
+    97% { transform: none; opacity: .7; }
+  }
+  #ver { font: 400 64px/1 "Audiowide"; color: var(--cian); margin-bottom: 8px;
+    text-shadow: 0 0 10px var(--cian), 0 0 28px rgba(0, 240, 255, .6); }
+  #lema { position: absolute; left: 32px; top: 152px; font: 900 21px/1 "Orbitron"; letter-spacing: .42em;
+    color: var(--amar); text-shadow: 0 0 8px rgba(255, 225, 77, .8); }
+  #lema::before { content: "// "; color: var(--mag); }
+  #estado { position: absolute; left: 32px; right: 28px; top: 190px; display: flex; justify-content: space-between;
+    align-items: baseline; font: 400 30px/1 "VT323"; color: var(--cian); text-shadow: 0 0 6px rgba(0, 240, 255, .8); }
+  #estado .vivo { color: #ff3b6b; text-shadow: 0 0 8px #ff3b6b; }
+  #estado .vivo i { display: inline-block; width: 12px; height: 12px; margin-right: 8px; background: #ff3b6b;
+    box-shadow: 0 0 10px #ff3b6b; animation: late 1.2s steps(2) infinite; }
+  @keyframes late { 50% { opacity: .15; } }
+  #hora { font-size: 40px; color: #fff; text-shadow: 0 0 10px var(--mag); }
+  /* cubo de alambre girando (vector puro) */
+  #cubo { position: absolute; right: 30px; top: 40px; width: 54px; height: 54px; perspective: 400px; }
+  #cubo .c { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; animation: gira 9s linear infinite; }
+  #cubo .c div { position: absolute; inset: 0; border: 2px solid var(--cian); box-shadow: 0 0 8px var(--cian), inset 0 0 8px rgba(0, 240, 255, .4); }
+  #cubo .c div:nth-child(1) { transform: translateZ(27px); } #cubo .c div:nth-child(2) { transform: rotateY(180deg) translateZ(27px); }
+  #cubo .c div:nth-child(3) { transform: rotateY(90deg) translateZ(27px); } #cubo .c div:nth-child(4) { transform: rotateY(-90deg) translateZ(27px); }
+  #cubo .c div:nth-child(5) { transform: rotateX(90deg) translateZ(27px); border-color: var(--mag); box-shadow: 0 0 8px var(--mag); }
+  #cubo .c div:nth-child(6) { transform: rotateX(-90deg) translateZ(27px); border-color: var(--mag); box-shadow: 0 0 8px var(--mag); }
+  @keyframes gira { to { transform: rotateX(360deg) rotateY(720deg); } }
+
+  /* ---------- COMANDOS ---------- */
+  #cmd { left: 40px; top: 322px; width: 560px; height: 524px; padding: 30px 22px 0; box-sizing: border-box; }
+  .fila { position: relative; display: grid; grid-template-columns: 54px 1fr; align-items: center; gap: 0 12px;
+    padding: 5px 10px 5px 6px; margin-bottom: 2px; border-left: 3px solid transparent; transition: background .4s, border-color .4s; }
+  .fila .ico { grid-row: span 2; width: 40px; height: 40px; display: grid; place-items: center; font-size: 25px;
+    border: 1.5px solid rgba(0, 240, 255, .5); transform: rotate(45deg); }
+  .fila .ico span { transform: rotate(-45deg); }
+  .fila code { font: 400 31px/1 "VT323"; color: var(--cian); text-shadow: 0 0 6px rgba(0, 240, 255, .7); white-space: nowrap; }
+  .fila code em { font-style: normal; color: var(--amar); }
+  .fila p { margin: 1px 0 0; font-size: 19px; font-weight: 500; line-height: 1.15; opacity: .88; }
+  .fila.on { background: linear-gradient(90deg, rgba(255, 43, 214, .26), transparent 85%); border-left-color: var(--mag); }
+  .fila.on .ico { border-color: var(--mag); box-shadow: 0 0 12px var(--mag); }
+  .fila.on code::after { content: "█"; color: var(--mag); margin-left: 4px; animation: late .8s steps(2) infinite; }
+  /* terminal: Joy dice */
+  #term { position: absolute; left: 22px; right: 22px; bottom: 12px; height: 62px; padding: 8px 12px; box-sizing: border-box;
+    border-top: 1.5px dashed rgba(255, 43, 214, .6); font: 400 25px/1.1 "VT323"; color: #c8ffd9; overflow: hidden; }
+  #term::before { content: "JOY@CORE:~$"; color: var(--mag); margin-right: 10px; }
+  #term b { color: var(--amar); font-weight: 400; }
+
+  /* ---------- TABLERO ---------- */
+  #tablero { right: 40px; top: 34px; width: 540px; height: 804px; padding: 30px 20px 18px; box-sizing: border-box; }
+  #items { display: grid; grid-template-columns: 1fr 1fr; grid-auto-rows: 340px; gap: 16px; }
+  .item { position: relative; overflow: hidden; background: rgba(155, 92, 255, .14); border: 1.5px solid rgba(0, 240, 255, .5);
+    display: flex; flex-direction: column; animation: entra .6s steps(6); }
+  .item::before { content: attr(data-n); position: absolute; top: 6px; left: 8px; z-index: 2; font: 400 18px/1 "VT323";
+    color: var(--amar); background: rgba(6, 0, 22, .8); padding: 2px 6px; }
+  .item.sale { animation: sale .45s steps(5) forwards; }
+  @keyframes entra { from { clip-path: inset(0 0 100% 0); filter: hue-rotate(90deg) brightness(2); } }
+  @keyframes sale { to { clip-path: inset(50% 0 50% 0); opacity: 0; } }
+  .item img { width: 100%; flex: 1; object-fit: cover; min-height: 0; }
+  .item .pie { padding: 6px 10px; font-size: 21px; font-weight: 700; background: rgba(6, 0, 22, .85);
+    border-top: 1.5px solid var(--mag); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .item.texto, .item.emoji { justify-content: center; align-items: center; text-align: center; padding: 18px; }
+  .item.texto .grande { font: 700 31px/1.15 "Rajdhani"; color: #fff; text-shadow: 0 0 10px var(--lila); }
+  .item.emoji .grande { font-size: 120px; line-height: 1.1; }
+  .item.emoji .pie, .item.texto .pie { background: none; border: 0; margin-top: 10px; opacity: .85; }
+  #vacio { margin-top: 90px; text-align: center; }
+  #vacio .rad { width: 190px; height: 190px; margin: 0 auto 28px; border-radius: 50%; position: relative;
+    border: 1.5px solid var(--linea); background: repeating-radial-gradient(circle, transparent 0 30px, rgba(0, 240, 255, .25) 30px 31.5px); }
+  #vacio .rad::after { content: ""; position: absolute; inset: 0; border-radius: 50%; animation: gira2 3s linear infinite;
+    background: conic-gradient(from 0deg, rgba(255, 43, 214, .55), transparent 25%); }
+  @keyframes gira2 { to { transform: rotate(360deg); } }
+  #vacio p { margin: 0; font: 400 30px/1.2 "VT323"; color: var(--cian); }
+  #vacio code { display: inline-block; margin-top: 12px; font: 400 30px/1 "VT323"; color: var(--amar); }
+
+  /* ---------- SUBTÍTULOS (transmisión) ---------- */
+  #subs { left: 50%; transform: translateX(-50%); bottom: 88px; width: 1180px; padding: 22px 34px 18px; box-sizing: border-box;
+    text-align: center; opacity: 0; transition: opacity .35s; }
+  #subs.on { opacity: 1; }
+  #subs .pest { left: 50%; transform: translateX(-50%); }
+  #chat { font: 400 27px/1 "VT323"; color: var(--cian); min-height: 28px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #frase { font-size: 40px; font-weight: 700; line-height: 1.15; color: #fff; margin-top: 4px;
+    text-shadow: 0 0 6px #000, 0 0 16px var(--mag); }
+
+  /* ---------- CINTA DE DATOS ---------- */
+  #cinta { left: 0; right: 0; bottom: 0; height: 56px; border-width: 1.5px 0 0; display: flex; align-items: center; overflow: hidden; }
+  #cinta::before, #cinta::after { display: none; }
+  #cinta .tag { flex: none; z-index: 1; height: 100%; display: flex; align-items: center; padding: 0 30px 0 22px;
+    background: var(--mag); color: #06001a; font: 900 17px/1 "Orbitron"; letter-spacing: .25em;
+    clip-path: polygon(0 0, 100% 0, calc(100% - 22px) 100%, 0 100%); }
+  #mov { white-space: nowrap; font-size: 27px; font-weight: 700; padding-left: 100%; animation: corre 160s linear infinite; }
+  #mov span { margin-right: 70px; }
+  #mov em { font-style: normal; color: var(--cian); margin-right: 12px; font: 400 26px "VT323"; }
+  #mov em::before { content: "["; } #mov em::after { content: "]"; }
+  @keyframes corre { to { transform: translateX(-100%); } }
+</style>
+</head>
+<body>
+  <!-- LOGO -->
+  <div class="panel" id="logo">
+    <div id="rejilla"><div id="horiz"></div></div>
+    <div id="marca"><div id="joy">JOY</div><div id="ver">6.0</div></div>
+    <div id="cubo"><div class="c"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+    <div id="lema">ADVANCED AI CYBORG</div>
+    <div id="estado"><span class="vivo"><i></i>EN VIVO</span><span id="uptime">UP 0m</span><span id="hora">--:--</span></div>
+  </div>
+
+  <!-- COMANDOS -->
+  <div class="panel" id="cmd"><div class="scan"></div>
+    <div class="pest">COMMAND <b>//</b> CÓMO HABLARME</div>
+    <div id="filas"></div>
+    <div id="term"><span id="termTxt"></span></div>
+  </div>
+
+  <!-- TABLERO -->
+  <div class="panel" id="tablero"><div class="scan"></div>
+    <div class="pest">HOLO<b>-</b>TABLERO <b>//</b> MI PANTALLA</div>
+    <div id="items"></div>
+    <div id="vacio"><div class="rad"></div><p>&gt; ESPERANDO DATOS…<br>pídeme que ponga algo aquí</p>
+      <code>!vivo pon un gatito</code></div>
+  </div>
+
+  <!-- SUBTÍTULOS -->
+  <div class="panel" id="subs"><div class="pest">TRANSMISIÓN <b>//</b> JOY + KUROKI</div><div id="chat"></div><div id="frase"></div></div>
+
+  <!-- CINTA -->
+  <div class="panel" id="cinta"><div class="tag">DATA FEED</div><div id="mov"></div></div>
+<script>
+const $ = s => document.querySelector(s);
+const ORIGEN = {twitch: "[TWITCH] ", discord: "[DISCORD] ", youtube: "[YT] ", kick: "[KICK] "};
+const QUIEN = {joy: "JOY › ", kuroki: "KUROKI › "};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+let est = {tablero: [], noticias: [], info: {}, inicio: Date.now() / 1000};
+
+// ---- comandos (solo lo que el público puede hacer; nada de cómo funciona por dentro) ----
+const CMDS = [
+  ["📺", "chat de Twitch", "Escríbenos directo en el chat: Joy o Kuroki te contestan"],
+  ["💬", "!vivo <em>tu mensaje</em>", "Háblame en vivo desde cualquier canal de Discord"],
+  ["🎙️", "chat de 🎙️ joy", "En el canal de voz <b>joy</b> escribe directo, sin comando"],
+  ["🥁", "Kuroki, <em>…</em>", "Nómbrala y te contesta ella"],
+  ["🖼️", "!vivo pon <em>una foto de…</em>", "Pongo una imagen, frase o emoji en mi holo-tablero"],
+  ["💃", "!vivo baila", "Activo una coreografía en el escenario"],
+];
+$("#filas").innerHTML = CMDS.map(([i, c, p]) =>
+  `<div class="fila"><div class="ico"><span>${i}</span></div><code>${c}</code><p>${p}</p></div>`).join("");
+let fi = 0;
+function resaltar() {
+  const filas = document.querySelectorAll(".fila");
+  filas.forEach((f, n) => f.classList.toggle("on", n === fi % filas.length)); fi++;
+}
+setInterval(resaltar, 4500); resaltar();
+
+// ---- reloj (hora de Chile) + tiempo al aire ----
+const TZ = "America/Santiago";
+function hace(seg) { const m = Math.floor(seg / 60); return m < 60 ? `${m}m` : `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, "0")}m`; }
+function reloj() {
+  const d = new Date();
+  $("#hora").textContent = d.toLocaleTimeString("es-CL", {timeZone: TZ, hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false});
+  $("#uptime").textContent = "UP " + hace(Date.now() / 1000 - est.inicio);
+}
+setInterval(reloj, 1000); reloj();
+
+// ---- terminal: Joy dice (se escribe letra por letra) ----
+const TARJETAS = [
+  () => `sistema en línea. <b>hola, humano</b> 🐾`,
+  () => est.info.respondidos ? `mensajes procesados hoy: <b>${est.info.respondidos}</b> · personas: <b>${est.info.personas}</b>` : null,
+  () => est.info.ultimo ? `última señal recibida de <b>${esc(est.info.ultimo)}</b> 💜` : null,
+  () => `prueba: <b>!vivo Joy, ¿qué ves esta noche?</b>`,
+  () => `talk show nocturno · ciudad neón · <b>en vivo</b> 🌙`,
+  () => `prueba: <b>!vivo baila</b> y mira lo que pasa`,
+];
+let ti = 0, tecleo;
+function escribir(html) {
+  clearInterval(tecleo);
+  const el = $("#termTxt"), tmp = document.createElement("div"); tmp.innerHTML = html;
+  const total = tmp.textContent.length; let n = 0;
+  tecleo = setInterval(() => {
+    n += 2; let quedan = n;
+    const recorta = (src, dst) => { for (const nd of src.childNodes) {
+      if (quedan <= 0) return;
+      if (nd.nodeType === 3) { dst.append(nd.textContent.slice(0, quedan)); quedan -= nd.textContent.length; }
+      else { const c = nd.cloneNode(false); dst.append(c); recorta(nd, c); } } };
+    el.textContent = ""; recorta(tmp, el);
+    if (n >= total) clearInterval(tecleo);
+  }, 35);
+}
+function info() {
+  for (let k = 0; k < TARJETAS.length; k++) {
+    const html = TARJETAS[ti++ % TARJETAS.length]();
+    if (html) { escribir(html); return; }
+  }
+}
+setInterval(info, 9000); info();
+
+// ---- tablero ----
+function tablero() {
+  const caja = $("#items"), ids = new Set(est.tablero.map(x => String(x.id)));
+  for (const el of [...caja.children]) if (!ids.has(el.dataset.id) && !el.classList.contains("sale")) {
+    el.classList.add("sale"); setTimeout(() => el.remove(), 450);
+  }
+  for (const x of est.tablero) {
+    if (caja.querySelector(`[data-id="${x.id}"]`)) continue;
+    const el = document.createElement("div");
+    el.className = "item " + x.tipo; el.dataset.id = x.id; el.dataset.n = "#" + String(x.id).padStart(2, "0");
+    if (x.tipo === "imagen") el.innerHTML = `<img src="${esc(x.src)}" referrerpolicy="no-referrer"><div class="pie">${esc(x.titulo || "💜")}</div>`;
+    else el.innerHTML = `<div class="grande">${esc(x.texto)}</div>` + (x.titulo ? `<div class="pie">${esc(x.titulo)}</div>` : "");
+    const img = el.querySelector("img"); if (img) img.onerror = () => el.remove();
+    caja.appendChild(el);
+  }
+  $("#vacio").style.display = est.tablero.length ? "none" : "block";
+}
+
+// ---- noticias ----
+let firmaNot = "";
+function noticias() {
+  const f = est.noticias.map(n => n.titulo).join("|");
+  if (f === firmaNot || !est.noticias.length) return;
+  firmaNot = f;
+  $("#mov").innerHTML = est.noticias.map(n => `<span><em>${esc(n.fuente)}</em>${esc(n.titulo)}</span>`).join("");
+}
+
+// ---- subtítulos ----
+let apagar;
+// los subtítulos van en :8780/subtitulos (neón); este panel solo con ?subs=1
+const SUBS = new URLSearchParams(location.search).get("subs") === "1";
+function subs(on) { clearTimeout(apagar); $("#subs").classList.toggle("on", on && SUBS); }
+function conectar() {
+  const ws = new WebSocket(`ws://${location.host}/ws`);
+  ws.onmessage = e => {
+    const d = JSON.parse(e.data);
+    if (d.t === "estado") { est = d; tablero(); noticias(); }
+    else if (d.t === "chat") { $("#chat").textContent = `> ${ORIGEN[d.plataforma] || ""}${d.autor}: ${d.texto}`; $("#frase").textContent = "…"; subs(true); }
+    else if (d.t === "frase") { $("#frase").textContent = (QUIEN[d.doll] || "") + d.texto; subs(true); }
+    else if (d.t === "fin") { apagar = setTimeout(() => { subs(false); $("#chat").textContent = ""; }, 9000); }
+  };
+  ws.onclose = () => setTimeout(conectar, 2000);
+}
+conectar();
+// ?demo=1 → subtítulos de muestra (para revisar el diseño sin chat)
+if (new URLSearchParams(location.search).get("demo")) {
+  $("#chat").textContent = "> Neko: Joy, ¿qué versión eres?"; $("#frase").textContent = "Joy 6.0, cariño. Más rápida, más lista y con más estilo 💜"; subs(true);
+}
+</script>
+</body>
+</html>

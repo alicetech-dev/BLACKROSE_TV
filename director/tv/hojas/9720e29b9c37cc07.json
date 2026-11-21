@@ -1,0 +1,21 @@
+{
+ "semilla": "La batería que hackeó a Linux",
+ "hechos": [
+  "Linux es un sistema operativo de código abierto basado en el kernel creado por Linus Torvalds.",
+  "El kernel de Linux gestiona el hardware incluyendo controladores para baterías en computadoras portátiles.",
+  "Los controladores de batería en Linux interactúan con el hardware a través de interfaces como ACPI.",
+  "Existen vulnerabilidades documentadas en controladores de hardware que pueden ser explotadas.",
+  "Los investigadores de seguridad han encontrado fallos en sistemas de gestión de energía de dispositivos.",
+  "Las actualizaciones de kernel de Linux incluyen parches para vulnerabilidades de seguridad reportadas.",
+  "La comunidad de Linux enfatiza la corrección rápida de bugs a través de parches públicos.",
+  "Los sistemas operativos modernos separan privilegios para limitar el impacto de fallos en controladores.",
+  "Las historias de fallos en controladores de hardware ilustran la importancia de revisiones de código.",
+  "La defensa contra exploits en Linux incluye mantener el sistema actualizado y usar configuraciones seguras."
+ ],
+ "leyendas": [
+  "Leyenda o error común: que una batería puede hackear directamente el kernel de Linux sin ninguna vulnerabilidad previa en el controlador.",
+  "Leyenda o error común: que existe un incidente real y famoso donde una batería sola comprometió un sistema Linux sin intervención de software malicioso."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 17:53"
+}

@@ -1,0 +1,21 @@
+{
+ "semilla": "Una lección clara de defensa para hackers principiantes.",
+ "hechos": [
+  "La ingeniería social es una técnica que aprovecha la psicología humana para obtener información confidencial.",
+  "Las contraseñas débiles son una de las causas más comunes de brechas de seguridad.",
+  "El phishing consiste en mensajes falsos que intentan engañar al usuario para revelar datos.",
+  "Las actualizaciones de software corrigen vulnerabilidades conocidas en sistemas y aplicaciones.",
+  "El uso de autenticación de dos factores añade una capa adicional de protección a las cuentas.",
+  "El malware es software malicioso diseñado para dañar o acceder sin permiso a un sistema.",
+  "Las copias de seguridad regulares permiten recuperar información después de un incidente.",
+  "El cifrado protege los datos convirtiéndolos en un formato ilegible sin la clave correcta.",
+  "Los firewalls controlan el tráfico de red para bloquear accesos no autorizados.",
+  "La concienciación en seguridad es fundamental para prevenir errores humanos."
+ ],
+ "leyendas": [
+  "Leyenda o error común: cambiar una contraseña cada mes mejora la seguridad.",
+  "Leyenda o error común: un antivirus es suficiente para estar completamente protegido."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 17:48"
+}

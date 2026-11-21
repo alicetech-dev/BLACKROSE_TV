@@ -1,0 +1,15 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Insignia · Alice duerme</title>
+<style>
+html,body{margin:0;height:100%;background:transparent;overflow:hidden;font-family:monospace}
+#b{position:fixed;left:50%;top:92px;transform:translateX(-50%);display:none;color:#d8ffd8;background:#031006e6;border:2px solid #9dffb0;border-radius:12px;padding:8px 20px;font-weight:800;font-size:26px;text-shadow:0 0 8px #3aff7a;box-shadow:0 0 22px #3aff7a55;white-space:nowrap}
+#b i{display:inline-block;width:14px;height:14px;border-radius:50%;background:#ff2f4f;margin-right:12px;animation:p 1.1s steps(1) infinite}
+@keyframes p{50%{opacity:.15}}
+</style></head><body><div id="b"><i></i>😴 ALICE DUERME · despierta en <span id="t">--:--:--</span></div>
+<script>
+// Insignia para TODAS las escenas de la TV mientras Alice duerme (fuente Navegador transparente). Lee /api/sueno de ligero/sala.py.
+let d = { dormida: false, despierta: 0 }, off = 0;
+const hms = (s) => { s = Math.max(0, Math.floor(s)); return [Math.floor(s / 3600), Math.floor(s / 60) % 60, s % 60].map((n) => String(n).padStart(2, '0')).join(':'); };
+async function poll() { try { d = await (await fetch('/api/sueno', { cache: 'no-store' })).json(); off = d.ahora * 1000 - Date.now(); } catch (_) {} }
+function pinta() { const r = d.despierta - (Date.now() + off) / 1000, on = d.dormida && r > 0; document.getElementById('b').style.display = on ? 'block' : 'none'; if (on) document.getElementById('t').textContent = hms(r); }
+poll(); setInterval(poll, 5000); setInterval(pinta, 500);
+</script></body></html>

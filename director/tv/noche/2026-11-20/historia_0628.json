@@ -1,0 +1,241 @@
+{
+ "bloque": "historia_0628",
+ "programa": "historia",
+ "fecha": "2026-11-20",
+ "creado": "02:32:23",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Ada Lovelace",
+   "sub": "MÁQUINA DEL TIEMPO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ada Lovelace, visto desde lo cultural",
+   "diagrama": null,
+   "intl": null,
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La historia de Ada Lovelace, visto desde lo cultural tiene un giro que pocos conocen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Todo empezó con una idea sencilla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y entonces algo cambió para siempre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy Ada Lovelace, visto desde lo cultural sigue teniendo consecuencias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tuviéramos que adivinar el futuro de Ada Lovelace, visto desde lo cultural, diríamos que recién empieza."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 34,
+   "imgs": [
+    {
+     "web": "/medios/9a34b875d934faaa_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/9a34b875d934faaa_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Ada Lovelace»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ada Lovelace, visto desde lo histórico",
+   "diagrama": null,
+   "intl": null,
+   "sub": "explicado · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de Ada Lovelace, visto desde lo histórico? Hoy lo vemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ada Lovelace, visto desde lo histórico, dicho en simple, es algo que usamos sin darnos cuenta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo interesante de Ada Lovelace, visto desde lo histórico es cómo funciona por dentro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hay un dato de Ada Lovelace, visto desde lo histórico que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo tengo mi opinión sobre Ada Lovelace, visto desde lo histórico, y no coincide con la tuya."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de Ada Lovelace, visto desde lo histórico? Escríbelo en el chat."
+    }
+   ],
+   "seg": 47,
+   "imgs": [
+    {
+     "web": "/medios/642be45ffb6338ab_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/642be45ffb6338ab_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Ada Lovelace»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20190712_m2020f_0001_pit_crew_for_ma",
+   "archivo": "v/v_nasa_jpl_20190712_m2020f_0001_pit_crew_for_ma.mp4",
+   "titulo": "Pit Crew for Mars: NASA's Mars 2020 Rover Gets Some Wheels (time lapse)",
+   "atribucion": "«Pit Crew for Mars: NASA's Mars 2020 Rover Gets Some Wheels (time lapse)» — NASA · images.nasa.gov",
+   "dur": 77,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: El telégrafo",
+   "sub": "MÁQUINA DEL TIEMPO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El telégrafo, visto desde lo histórico",
+   "diagrama": null,
+   "intl": null,
+   "sub": "top3 · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Top tres de El telégrafo, visto desde lo histórico. Empezamos."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el tercer puesto…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el número uno…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 24,
+   "imgs": [
+    {
+     "web": "/medios/5126e84654b8c8cc_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/5126e84654b8c8cc_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Telégrafo»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El telégrafo, visto desde lo cultural",
+   "diagrama": null,
+   "intl": null,
+   "sub": "explicado · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de El telégrafo, visto desde lo cultural? Hoy lo vemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El telégrafo, visto desde lo cultural, dicho en simple, es algo que usamos sin darnos cuenta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo interesante de El telégrafo, visto desde lo cultural es cómo funciona por dentro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hay un dato de El telégrafo, visto desde lo cultural que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo tengo mi opinión sobre El telégrafo, visto desde lo cultural, y no coincide con la tuya."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de El telégrafo, visto desde lo cultural? Escríbelo en el chat."
+    }
+   ],
+   "seg": 47,
+   "imgs": [
+    {
+     "web": "/medios/813279643e5bc7fa_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/813279643e5bc7fa_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Telégrafo»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_StrWqDTE1_s",
+   "archivo": "yt/darksynth/StrWqDTE1_s.m4a",
+   "titulo": "Industrial Darksynth - Tech Slave // Copyright Safe Music",
+   "audio": "yt/darksynth/StrWqDTE1_s.m4a",
+   "atribucion": "Música: «Industrial Darksynth - Tech Slave // Copyright Safe Music» · White Bat Audio · sin copyright (YouTube)",
+   "dur": 247,
+   "genero": "DARK SYNTHWAVE",
+   "img": "/tv/media/yt/darksynth/StrWqDTE1_s.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_RVfnYfljiAA",
+   "archivo": "yt/citypop/RVfnYfljiAA.m4a",
+   "titulo": "Late Bloom Groove",
+   "audio": "yt/citypop/RVfnYfljiAA.m4a",
+   "atribucion": "Música: «Late Bloom Groove» · NN Records · sin copyright (YouTube)",
+   "dur": 237,
+   "genero": "CITY POP JAPÓN",
+   "img": "/tv/media/yt/citypop/RVfnYfljiAA.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 152,
+  "medios": 3
+ }
+}

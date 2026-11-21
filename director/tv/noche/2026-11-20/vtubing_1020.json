@@ -1,0 +1,241 @@
+{
+ "bloque": "vtubing_1020",
+ "programa": "vtubing",
+ "fecha": "2026-11-20",
+ "creado": "06:24:00",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El laboratorio virtual",
+   "sub": "VTUBER LAB",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El laboratorio virtual, visto desde lo histórico",
+   "diagrama": null,
+   "intl": null,
+   "sub": "real inventado · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Juguemos a ¿real o inventado? sobre El laboratorio virtual, visto desde lo histórico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Primer dato."
+    },
+    {
+     "quien": "joy",
+     "texto": "Segundo dato."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Tercer dato, el más difícil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ahora, la verdad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el chat: ¿real o inventado? Juega con nosotras."
+    }
+   ],
+   "seg": 22,
+   "imgs": [
+    {
+     "web": "/medios/6a92f756619a3294_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/6a92f756619a3294_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Realidad virtual»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El laboratorio virtual, visto desde lo del futuro",
+   "diagrama": null,
+   "intl": null,
+   "sub": "debate · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Hoy debatimos sobre El laboratorio virtual, visto desde lo del futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo creo que El laboratorio virtual, visto desde lo del futuro tiene más ventajas que problemas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo creo exactamente lo contrario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Te concedo un punto, pero solo uno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás las dos tenemos un poco de razón."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 31,
+   "imgs": [
+    {
+     "web": "/medios/94277d6ed89994f6_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/94277d6ed89994f6_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Realidad virtual»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011706_nh_intro",
+   "archivo": "v/v_nasa_ksc_011706_nh_intro.mp4",
+   "titulo": "KSC-05-S-00325",
+   "atribucion": "«KSC-05-S-00325» — NASA · images.nasa.gov",
+   "dur": 161,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Avatar de la noche",
+   "sub": "VTUBER LAB",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Avatar de la noche, visto desde lo cultural",
+   "diagrama": null,
+   "intl": null,
+   "sub": "top3 · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Top tres de Avatar de la noche, visto desde lo cultural. Empezamos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el tercer puesto…"
+    },
+    {
+     "quien": "joy",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el número uno…"
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 25,
+   "imgs": [
+    {
+     "web": "/medios/8f28afa7ce0f3898_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/8f28afa7ce0f3898_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Avatar: la leyenda de Aang»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Avatar de la noche, con humor",
+   "diagrama": null,
+   "intl": null,
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La historia de Avatar de la noche, con humor tiene un giro que pocos conocen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Todo empezó con una idea sencilla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y entonces algo cambió para siempre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy Avatar de la noche, con humor sigue teniendo consecuencias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tuviéramos que adivinar el futuro de Avatar de la noche, con humor, diríamos que recién empieza."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 34,
+   "imgs": [
+    {
+     "web": "/medios/c2939566f3c0a959_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c2939566f3c0a959_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Avatar: la leyenda de Aang»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_0vQETkQQJ5c",
+   "archivo": "yt/citypop/0vQETkQQJ5c.m4a",
+   "titulo": "Onichan",
+   "audio": "yt/citypop/0vQETkQQJ5c.m4a",
+   "atribucion": "Música: «Onichan» · NN Records · sin copyright (YouTube)",
+   "dur": 200,
+   "genero": "CITY POP JAPÓN",
+   "img": "/tv/media/yt/citypop/0vQETkQQJ5c.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_yXdxsgYpC6U",
+   "archivo": "yt/darksynth/yXdxsgYpC6U.m4a",
+   "titulo": "Cyberpunk Synthwave - Existence // Copyright Safe Music",
+   "audio": "yt/darksynth/yXdxsgYpC6U.m4a",
+   "atribucion": "Música: «Cyberpunk Synthwave - Existence // Copyright Safe Music» · White Bat Audio · sin copyright (YouTube)",
+   "dur": 234,
+   "genero": "DARK SYNTHWAVE",
+   "img": "/tv/media/yt/darksynth/yXdxsgYpC6U.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 112,
+  "medios": 3
+ }
+}

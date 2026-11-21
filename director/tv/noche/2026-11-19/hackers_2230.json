@@ -1,0 +1,891 @@
+{
+ "bloque": "hackers_2230",
+ "programa": "hackers",
+ "fecha": "2026-11-19",
+ "creado": "18:38:41",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El huevo del cuco",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La estrategia reproductiva del parasitismo nidificante",
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez te has preguntado por qué el cuco no construye su propio nido? Es una de las estrategias reproductivas más fascinantes del mundo animal."
+    },
+    {
+     "quien": "joy",
+     "texto": "El parasitismo nidificante es un sistema donde el cuco delega la incubación y crianza a otras aves, creando una relación simbiótica muy peculiar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Las hembras de cuco pueden poner hasta doce huevos en una sola temporada, lo que implica un alto riesgo si el nido adoptivo falla o si hay competencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El cuco delega la incubación y crianza a otras aves, creando un sistema donde el éxito depende enteramente de que las especies huésped sean tolerantes o incluso beneficiadas por la presencia del parasito."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero hay un detalle crucial: las crías de cuco expulsan a los huevos rivales o a las propias crias del nido adoptivo, asegurando que solo sobrevivan sus propios descendientes en el entorno compartido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es como si fueran pequeños tiranos en un nido ajeno. La estrategia reproductiva del parasitismo nidificante es una de las más sofisticadas en el reino animal, sin duda alguna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no olvides el pico largo y curvado del cuco común europeo. Es la herramienta perfecta para romper los huevos cuando hay competencia, garantizando que su descendencia tenga prioridad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy La estrategia reproductiva del parasitismo nidificante sigue teniendo consecuencias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que el cuco es un director de cine que monta una película en la casa de alguien más. El nido adoptivo se convierte en su set de grabación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero el guion no lo permite. Las aves anfitrionas tienen sus propios roles y la trama se desmorona cuando el héroe inesperado llega al escenario."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La lección de defensa para los padres adoptivos es clara: no confiar en quien lleva el huevo, especialmente si tiene un pico curvado listo para romper todo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero el guion no lo permite. Las aves anfitrionas tienen sus propios roles y la trama se desmorona cuando las crías expulsan a los huevos rivales o a las propias crias del nido adoptivo."
+    }
+   ],
+   "seg": 157
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo el pico largo y curvado rompe huevos rivales",
+   "sub": "linea tiempo · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Qué pasa si un pájaro decide no hacer nido y dejar que otro lo haga por él?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es el cuco, pero no solo eso: rompe huevos rivales con su pico curvado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un detalle curioso: las hembras ponen hasta doce huevos en una sola temporada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El cuco no construye nido, delega todo a otros. Sus huevos aparecen en nidos ajenos y los padres adoptivos crían a la criatura sin saber que no es suya."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si un pájaro decide no hacer nido y dejar que otro lo haga por él? Eso es el cuco, pero no solo eso: rompe huevos rivales con su pico curvado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Las hembras ponen hasta doce huevos en una temporada. Los nidos son simples, de pocas ramas o incluso en el suelo, y las crías expulsan a los rivales o a sus propios hermanos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que el cuco canta para anunciar la primavera, aunque eso es una generalización cultural. En realidad son aves diurnas, no nocturnas como algunos creen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las hembras ponen hasta doce huevos en una temporada. Los nidos son simples, de pocas ramas o incluso en el suelo. El cuco no construye su propio nido, delegando la incubación a otras aves."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que el cuco canta para anunciar la primavera, aunque eso es una generalización cultural y no un hecho biológico específico. En realidad, su canto es más bien una llamada de apareamiento o defensa del territorio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las crías de cuco expulsan a los huevos rivales o a las propias crias del nido adoptivo. Es un sistema donde la competencia intraespecífica se resuelve con fuerza física, no con negociación pacífica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El cuco rompe huevos con su pico curvado, pero ¿por qué esa forma tan específica? La anatomía está adaptada para perforar cáscara sin dañar el interior."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es un detalle evolutivo clave. El pico largo le permite acceder a los huevos más profundos en nidos cerrados, donde otros pájaros no pueden llegar fácilmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y luego hay esa presión social dentro del nido. Las crías expulsan a los rivales o incluso a sus propios hermanos. ¿Por qué tolerar eso si es tan costoso?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese pico curvado no es casualidad, es una herramienta de precisión evolutiva diseñada para abrir huevos en nidos cerrados donde otros no pueden llegar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la presión social dentro del nido adoptivo también juega un rol: las crías expulsan rivales, lo que complica el éxito de la estrategia del cuco."
+    },
+    {
+     "quien": "joy",
+     "texto": "Así que el futuro de esta especie depende de cómo equilibran la eficiencia reproductiva con los conflictos intrafamiliares en sus nidos adoptivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El pico curvado es una herramienta de precisión evolutiva, pero la presión social dentro del nido adoptivo también juega un rol clave."
+    }
+   ],
+   "seg": 213
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las crías que expulsan a otros de los nidos adoptivos",
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué el cuco delega todo y luego manda a sus crías a expulsar a los otros? Parece una estrategia de supervivencia brutal."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es un hecho biológico claro. El cuco no construye nidos, solo deposita huevos en los de otras aves, confiando ciegamente en ellas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y las crías expulsan a los rivales. ¿Cómo lo hacen? Con su pico largo y curvado rompiendo huevos o empujando a los pequeños."
+    },
+    {
+     "quien": "joy",
+     "texto": "El cuco delega la crianza porque no construye nidos ni incubaba sus huevos. Es una estrategia evolutiva que maximiza su éxito reproductivo con el mínimo esfuerzo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y luego las crías expulsan a los rivales para asegurar recursos. Su pico largo y curvado es la herramienta perfecta para romper huevos o empujar a otros del nido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Así, el cuco se beneficia de la inversión parental de otras especies sin dar nada a cambio. Es un ejemplo claro de parasitismo nidificante en acción."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La lección es que a veces delegar todo puede ser eficiente, pero también genera conflictos internos. El cuco gana, pero los demás pierden en su propio cuidado."
+    },
+    {
+     "quien": "joy",
+     "texto": "El cuco no construye nido y deja que otras aves se encarguen de criar a sus crías."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los padres adoptivos crían a las crías del cuco sin saber que no son sus hijos reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las hembras pueden poner hasta doce huevos en una sola temporada reproductiva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y cuando los huevos eclosionan, las crías del cuco usan su pico largo para expulsar a los rivales o incluso a sus propios hermanos del nido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es una estrategia de supervivencia brutal donde la competencia intraespecífica se resuelve con fuerza física y un instinto parental despiertado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los padres adoptivos, que no tienen idea de que sus crías son extrañas, continúan cuidando a los cucos hasta que estos se van o mueren."
+    },
+    {
+     "quien": "joy",
+     "texto": "La estrategia del cuco es un ejemplo claro de cómo la naturaleza resuelve la competencia con eficacia brutal y sin piedad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los padres adoptivos siguen creyendo que son sus hijos, incluso cuando el cuco ha expulsado a los rivales. La confianza es la debilidad que explota."
+    },
+    {
+     "quien": "joy",
+     "texto": "Esa confianza ciega es lo que permite al cuco ganar sin esfuerzo. La naturaleza no siempre premia la honestidad, sino la eficiencia brutal."
+    }
+   ],
+   "seg": 177
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los datos sobre la fecundidad y el ciclo reproductivo",
+   "sub": "mito realidad · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Sabías que el cuco no construye nidos? Es una de las estrategias más increíbles en la naturaleza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es magia. Es parasitismo nidificante, un hecho documentado desde hace siglos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí viene la leyenda: se dice que el cuco canta para anunciar la primavera. ¿Es verdad?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice que el cuco canta para anunciar la primavera, pero no hay evidencia científica de ese comportamiento específico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es fascinante cómo la naturaleza ha evolucionado estrategias tan complejas como el parasitismo nidificante en especies tan distintas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El cuco es un ave diurna y activa, no nocturna como se cree popularmente. Su canto es más bien una señal de alarma o territorial."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad biológica muestra que el cuco depende totalmente del éxito de otras especies para la supervivencia de sus crías."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La estrategia del cuco es un ejemplo claro de cómo la naturaleza delega tareas críticas, como la incubación y el cuidado parental, a otras especies."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El parasitismo nidificante no es solo una técnica para reproducirse, sino un sistema complejo que involucra manipulación psicológica en el nido adoptivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Las hembras pueden poner hasta doce huevos por temporada. Eso significa que cada hembra tiene un impacto significativo en la demografía de las aves del nido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y la respuesta evolutiva de los padres adoptivos es fascinante: crían a las crias del cuco sin saber que no son sus propios hijos, mostrando una adaptación increíble."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los mitos crecen cuando falta información."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que el cuco delega la crianza, pero los padres adoptivos no saben nada de esto mientras crían a las crias del cuco como si fueran sus propios hijos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mito: que el cuco canta para anunciar la primavera. Realidad: su canto es una señal de presencia, no un anuncio estacional que los padres adoptivos interpreten como tal."
+    },
+    {
+     "quien": "joy",
+     "texto": "El impacto evolutivo es claro: las hembras ponen hasta doce huevos y los padres crían a las crias del cuco sin saber que no son sus propios hijos, lo que garantiza la supervivencia de la especie."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Acaso creías que el cuco construye su propio nido? La realidad es que delega la crianza a otras aves."
+    }
+   ],
+   "seg": 173
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_moon_base_update_oct_lunar_rovers",
+   "archivo": "v/v_nasa_moon_base_update_oct_lunar_rovers.mp4",
+   "titulo": "NASA Moon Base: Rovers and Lunar Terrain Vehicles (October 2026 Update)",
+   "atribucion": "«NASA Moon Base: Rovers and Lunar Terrain Vehicles (October 2026 Update)» — NASA · images.nasa.gov",
+   "dur": 557,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Mirai: El Framework que Rompió Internet",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cree el bot perfecto con Mirai en minutos",
+   "sub": "explicado · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien recuerda cuando Mirai prometió revolucionar la creación de bots? Ahora parece que es solo otra herramienta más en el armario."
+    },
+    {
+     "quien": "joy",
+     "texto": "No, Kuroki. La realidad es diferente: este framework nació en la Universidad de California y usa microservicios para funcionar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Pero ¿verdad que muchos creen que solo funciona en Linux? Se cuenta que puede operar en otros sistemas operativos también."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mirai es un framework de código abierto creado por investigadores de la Universidad de California, San Diego."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que nació como proyecto académico antes de liberarse públicamente para facilitar la creación de bots."
+    },
+    {
+     "quien": "joy",
+     "texto": "Su arquitectura modular basada en microservicios le permite a los administradores simular ataques DDoS para pruebas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los desarrolladores pueden personalizar el comportamiento mediante archivos JSON y usar Python o Bash como lenguajes de scripting."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que fue liberado públicamente antes de lo esperado, impulsando una ola de automatización que hoy definimos como IA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los desarrolladores personalizan el comportamiento mediante archivos JSON y usan Python o Bash, lo que hace que sea adaptable a múltiples entornos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante cómo un proyecto académico se convirtió en herramienta industrial para pruebas de estrés y automatización."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La modularidad permite escalar sin reestructurar, ideal para simular ataques DDoS complejos en entornos controlados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el hecho de que soporte Python y Bash abre puertas a integraciones con Ansible o SaltStack, ampliando su utilidad operativa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bromea: si Mirai fuera un robot de cocina, ya habría quemado el arroz. Pero al menos no necesita tarjeta de 6 GB para correr."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, nació como proyecto académico antes de su liberación pública. La leyenda dice que fue hecho solo por un estudiante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de Cree el bot perfecto con Mirai en minutos? Escríbelo en el chat."
+    }
+   ],
+   "seg": 143
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo simular ataques DDoS para pruebas reales",
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te has preguntado cómo se simulan ataques DDoS en la vida real?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mirai lo hace fácil, pero hay que separar la realidad de las leyendas."
+    },
+    {
+     "quien": "joy",
+     "texto": "El framework permite probar estrés sin infraestructura centralizada compleja."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mirai nació en la Universidad de California, San Diego, como herramienta para que los investigadores prueben redes bajo presión."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Su arquitectura modular permite que cada bot funcione de forma independiente y se conecte a través de interfaces estándar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero hay una leyenda: alguien dice que fue creado solo para educación antes de liberarse al público. La verdad es más simple."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que su diseño original buscaba facilitar la creación de bots, pero no se confirmó si eso era su único propósito inicial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí está el giro: en 2016, un estudiante lo usó para lanzar el primer ataque DDoS real contra una empresa de streaming."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese evento cambió todo. Ahora los expertos usan Mirai para simular ataques sin riesgo, gracias a su arquitectura modular."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ojo: la leyenda dice que fue académico, aunque el código abierto lo hizo viral antes de cualquier confirmación oficial."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tuviéramos que adivinar el futuro de Cómo simular ataques DDoS para pruebas reales, diríamos que recién empieza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 104
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Configuración JSON avanzada para bots personalizados",
+   "sub": "mito realidad · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien recuerda ese mito de que Mirai nació como un proyecto académico puro y luego explotó?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, sí. Pero la verdad es que fue diseñado para pruebas de estrés en redes reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasa con la leyenda de que solo funciona en Linux? No es cierto, soporta otros sistemas también."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, Mirai nació como un proyecto académico con fines educativos antes de su liberación pública."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que dependía exclusivamente de servidores Linux, aunque el framework soporta otros sistemas operativos también."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, esa es la historia popular. La realidad es más flexible: funciona en Windows, macOS y varios sistemas emulados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El equipo de UCSD lo diseñó para pruebas de estrés DDoS usando microservicios modulares. Eso sí es verdad documentada."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree que es solo Linux porque así lo dice la leyenda, pero el código real muestra compatibilidad con otros sistemas operativos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. El mito nace de simplificar un proyecto complejo para los estudiantes, ignorando que fue diseñado para funcionar en múltiples plataformas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso el framework soporta configuraciones JSON avanzadas: permite adaptar el comportamiento del bot sin cambiar la infraestructura centralizada."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que la arquitectura modular basada en microservicios permite compatibilidad con distintos sistemas operativos, no exclusivamente Linux."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la capacidad de personalizar el comportamiento mediante archivos JSON confirma que la flexibilidad es intencional, no un accidente técnico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Antes creía que los bots necesitaban servidores potentes, pero ahora veo que la clave es la configuración inteligente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La magia no está en el hardware, sino en cómo se estructuran las reglas de comportamiento en el JSON."
+    }
+   ],
+   "seg": 132
+  },
+  {
+   "tipo": "charla",
+   "tema": "Microservicios modulares en la arquitectura de Mirai",
+   "sub": "mito realidad · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que Mirai nació en una mesa de café como un hobby tranquilo, lejos del caos digital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Falso. El equipo de UCSD lo lanzó con intención desde el inicio, no fue un accidente de laboratorio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero la gente cree que era solo educativo antes de convertirse en una herramienta masiva."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, muchos lo vieron como un experimento académico sin prever su impacto global."
+    },
+    {
+     "quien": "joy",
+     "texto": "La arquitectura modular de microservicios permitió que cada bot funcionara de forma independiente y escalable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que fue solo un experimento académico porque la Universidad de California, San Diego lo lanzó como proyecto educativo. El mito se alimenta del contraste entre su origen modesto y el impacto masivo que tuvo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, muchos investigadores pensaban que era un ejercicio teórico sin aplicaciones prácticas reales. La arquitectura modular facilitó la escalabilidad, pero eso no fue previsible en ese momento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El diseño permite que cada microservicio funcione de forma independiente y escalable. Eso explica por qué se convirtió en una herramienta masiva para pruebas de estrés y ataques DDoS."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, se pensaba que era un ejercicio teórico sin aplicaciones prácticas reales. La realidad es que su arquitectura modular permite ataques DDoS escalables y pruebas de estrés."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso explica por qué se convirtió en una herramienta industrial, no solo académica. Los microservicios permiten que cada componente funcione independientemente y se escale sin romper todo el sistema."
+    },
+    {
+     "quien": "joy",
+     "texto": "La mezcla de mito y realidad está clara: nació con fines educativos en UCSD, pero su diseño modular lo hizo útil para ingenieros de red que necesitan pruebas de estrés rápidas y personalizadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito de que era solo académico se derrumbó cuando los bots empezaron a invadir redes reales sin orden central."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto: la modularidad permitió escalar rápidamente, transformando un proyecto educativo en una herramienta industrial masiva."
+    }
+   ],
+   "seg": 147
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: WannaCry: El virus que paralizó el mundo",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo EternalBlue explotó una vulnerabilidad en Windows Server",
+   "sub": "mito realidad · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Dicen que DarkSide fue el único creador, pero la verdad es que un equipo de la NSA lo desarrolló antes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y eso cambia todo. La leyenda del héroe solitario se desmorona con datos concretos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso: el virus usó EternalBlue para explotar una falla en Windows Server y propagarse como un fuego sin agua."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que un solo hacker llamado DarkSide creó WannaCry y lo lanzó al mundo. Se cuenta que era un solitario genio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero los datos dicen otra cosa: la NSA desarrolló EternalBlue antes de que se conociera el virus. No fue un solo hombre."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito del héroe solitario se desmorona con hechos concretos. La realidad es un equipo militar que preparó la herramienta primero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es más fría que una leyenda romántica. La NSA desarrolló EternalBlue antes de que el virus saliera a la luz pública."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Un equipo militar preparó la herramienta, no un héroe solitario como los mitos suelen sugerir."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y WannaCry usó esa vulnerabilidad para infectar miles de dispositivos en todo el mundo, desde hospitales hasta servicios públicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La recuperación dependía del pago o tener una copia de seguridad previa. Sin eso, los archivos quedaban cifrados para siempre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree el mito del héroe solitario porque las historias de hackers suelen simplificar la complejidad técnica en un personaje central."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero los datos reales muestran que detrás de EternalBlue había un equipo militar que trabajó en secreto antes de publicarlo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso explica por qué muchos pensaron que fue un solo inventor, cuando en realidad fue una colaboración institucional bien organizada."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito del héroe solitario es falso; los datos muestran que un equipo militar desarrolló EternalBlue antes de su publicación pública."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, la complejidad técnica se简化 a una narrativa épica por falta de contexto real sobre el trabajo en equipo detrás del virus."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que la propagación masiva dependió de un servidor C&C en Corea del Norte, no de un solo inventor actuando solo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ante eso yo veía un héroe solitario con una laptop y un café, no un equipo militar que trabajó en secreto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los datos muestran lo contrario: el exploit nació en la NSA, y la historia del héroe es solo una narrativa épica sin base real."
+    }
+   ],
+   "seg": 185
+  },
+  {
+   "tipo": "charla",
+   "tema": "El rol del servidor C&C en Corea del Norte en la propagación masiva",
+   "sub": "linea tiempo · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Qué pasó cuando un servidor en Corea del Norte se convirtió en el corazón pulsante de WannaCry?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que el C&C no fue solo un punto de control, sino la mente fría que coordinó el caos global."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y la lección de defensa? Que a veces la tecnología más poderosa puede ser también nuestra mayor vulnerabilidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El servidor C&C en Corea del Norte no fue casualidad, fue el cerebro que dirigió la infestación global."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Ese nodo remoto permitió que EternalBlue viajara sin límites, convirtiendo la red mundial en un tablero de ajedrez digital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La lección es clara: confiar ciegamente en protocolos obsoletos mientras se ignora la defensa pasiva es una receta para el caos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Así que la tecnología más potente puede ser también nuestra mayor vulnerabilidad si no la protegemos con inteligencia y prudencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El nodo coreano no era un servidor cualquiera, fue el puente que permitió que EternalBlue cruzara fronteras sin parar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy El rol del servidor C&C en Corea del Norte en la propagación masiva sigue teniendo consecuencias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese servidor coreano no fue solo un punto de paso, fue el corazón del sistema que permitió que EternalBlue cruzara fronteras sin detenerse."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La dependencia de un nodo central en Corea del Norte hizo que la propagación masiva fuera inevitable y rápida en todo el mundo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si hoy seguimos pensando en cómo diseñar redes más resistentes, esa historia nos enseña que la seguridad no está en el hardware, sino en la arquitectura."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese servidor coreano fue el motor que hizo que EternalBlue infectara miles de computadoras en minutos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La seguridad no es un muro, es una red inteligente que detecta y aísla amenazas antes de que se propaguen."
+    }
+   ],
+   "seg": 139
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La elección de Monero como moneda para pagar los rescatos",
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki se ríe, golpeando la mesa con el mazo de batería."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy asiente, sosteniendo una tablet con el logotipo del canal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki señala a la pantalla mientras explica el concepto básico."
+    },
+    {
+     "quien": "joy",
+     "texto": "El WannaCry nació como un ransomware clásico que cifraba archivos con PGP, pero su explosión global fue posible gracias al exploit EternalBlue."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki se ríe, golpeando la mesa con el mazo de batería. / Joy asiente, sosteniendo una tablet con el logotipo del canal. / Kuroki señala a la pantalla mientras explica el concepto básico."
+    },
+    {
+     "quien": "joy",
+     "texto": "La propagación masiva dependió de un servidor C&C en Corea del Norte que coordinaba el ataque, aunque se cuenta que el grupo detrás es oscuro y no está identificado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, el ransomware logró infiltrar sistemas críticos como hospitales, demostrando cómo una vulnerabilidad puede paralizar servicios esenciales en segundos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El punto de inflexión ocurrió cuando el servidor C&C en Corea del Norte recibió la orden cifrada para iniciar la propagación masiva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí está la lección: si tu red no tiene parches, incluso una vulnerabilidad de hace años puede paralizar hospitales y servicios públicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Monero se eligió como moneda de rescate porque su diseño permite transacciones privadas, algo que los hackers valoran para evitar rastros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la verdadera defensa no es cambiar la criptomoneda; es actualizar el sistema operativo y verificar las copias de seguridad antes del ataque."
+    },
+    {
+     "quien": "joy",
+     "texto": "Monero permitió que los atacantes pagaran sin dejar rastro, pero eso no evita que un exploit antiguo paralice redes enteras si nadie parchea."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto: el virus usó una falla de hace años. La defensa real es actualizar Windows Server y verificar los protocolos antes de conectar cualquier dispositivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Así que la lección no es cambiar la criptomoneda, sino cerrar las puertas de entrada. Si tu red tiene parches, el ransomware pierde su ventaja principal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tuviéramos que adivinar el futuro de La elección de Monero como moneda para pagar los rescatos, diríamos que recién empieza."
+    },
+    {
+     "quien": "joy",
+     "texto": "La lección es actualizar Windows Server y cerrar puertas de entrada antes de que el virus entre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si adivinamos el futuro: Monero podría seguir usándose, pero la defensa real son parches y copias de seguridad."
+    }
+   ],
+   "seg": 175
+  },
+  {
+   "tipo": "charla",
+   "tema": "Qué pasó en el hospital de Londres y cómo se recuperaron los datos",
+   "sub": "explicado · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Qué pasó en el hospital de Londres cuando WannaCry paralizó sus sistemas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, el virus penetró las redes y dejó a muchos pacientes sin atención urgente."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Cómo lograron recuperar los datos críticos para no perder vidas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La clave fue el pago del rescate en Monero y contar con copias de seguridad antes."
+    },
+    {
+     "quien": "joy",
+     "texto": "WannaCry es un virus que encripta tus archivos y pide un rescate. Se propagó rápido porque usaba una falta de seguridad en Windows."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La clave fue el pago en Monero, pero solo si tenías copias de seguridad antes del ataque. Muchos hospitales quedaron paralizados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un grupo de la NSA creó el exploit EternalBlue que usó WannaCry para infectar miles de computadoras en todo el mundo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que el virus llegó a un hospital de Londres y retrasó emergencias. La recuperación dependió del pago y las copias de seguridad."
+    },
+    {
+     "quien": "joy",
+     "texto": "WannaCry usó EternalBlue para abrir puertas en Windows, como si alguien dejara la ventana abierta sin cerrar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El servidor C&C en Corea del Norte era el cerebro que ordenaba cada infección, como un director de orquesta invisible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Muchos hospitales quedaron paralizados porque no tenían copias de seguridad, y los datos críticos se volvieron ilegibles."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La recuperación fue posible solo si pagaron con Monero o si ya existía un respaldo, nada más."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso verdadero es que el exploit EternalBlue fue creado por la NSA antes de su publicación pública, lo que muestra cómo los datos reales a veces preceden a las noticias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y eso explica por qué tantos hospitales quedaron paralizados: no tenían copias de seguridad previas, así que dependían del pago con Monero para recuperar sus archivos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y la lección de defensa es clara: tener un respaldo automatizado evita el caos. Así que la próxima vez, antes de que llegue otro ransomware, aseguraremos que cada sistema tenga una copia segura."
+    },
+    {
+     "quien": "joy",
+     "texto": "¡Por supuesto! Ya tenemos varios candidatos interesantes. Pero primero, necesitamos verificar si los datos que citamos hoy son totalmente correctos y actuales para evitar mitos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de Qué pasó en el hospital de Londres y cómo se recuperaron los datos? Escríbelo en el chat."
+    }
+   ],
+   "seg": 174
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1919,
+  "medios": 2
+ }
+}

@@ -1,0 +1,378 @@
+{
+ "bloque": "alien_0243",
+ "programa": "alien",
+ "fecha": "2026-11-20",
+ "creado": "01:21:22",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: La paradoja del silencio cósmico",
+   "sub": "SEÑAL EXTRAÑA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "¿Por qué no escuchamos a otros?",
+   "diagrama": null,
+   "intl": {
+    "ja": "宇宙の静寂は、誰かだけがいないから笑っているだけかもしれません。",
+    "ja_es": "Quizás el silencio cósmico solo ríe porque no hay nadie para escucharlo.",
+    "en": "Maybe the cosmic silence is just laughing because there's no one to hear it.",
+    "en_es": "Quizás el silencio cósmico solo ríe porque no hay nadie para escucharlo."
+   },
+   "sub": "entrevista con Giorgio T. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¡Bienvenido, Giorgio T.! Con tu cabello legendario y un estilo que parece sacado de una película de ciencia ficción antigua. Hoy vamos a hablar del silencio cósmico con el mismo misterio que siempre has traído."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero espera, Giorgio. La paradoja de Fermi dice que debería haber señales. ¿Por qué no las escuchamos? Y tú siempre dices que todo está programado, ¿verdad?"
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Por qué el universo tan vasto y silencioso? La paradoja de Fermi exige una respuesta que trascienda lo físico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto, Giorgio! Todo está programado, como si el cosmos fuera un script mal escrito por alguien sin debug."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero los datos del consenso dicen que las estrellas deberían tener planetas habitables. ¿No debería haber señal?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Si el cosmos es un script mal escrito, ¿quién escribió los comentarios de error? ¿Es la burocracia del universo ignorando las peticiones de vida?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Pero no digas que es un script mal escrito. Los datos dicen que hay planetas habitables, pero nadie responde al mensaje."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué es lo que nadie sabe sobre el silencio cósmico? Giorgio, ¿tienes un dato curioso de consenso que no se haya dicho?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Giorgio, ¿qué dirías si el silencio fuera un error de formateo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si la paradoja es solo una pregunta sin respuesta correcta?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás el universo se ríe porque no hay nadie para escucharlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tienes una pregunta para nuestro invitado, escríbela en el chat."
+    }
+   ],
+   "seg": 113,
+   "imgs": [
+    {
+     "web": "/medios/c87f449417c6c038_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c87f449417c6c038_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Paradoja de Fermi»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El viaje interstellar es demasiado largo",
+   "diagrama": null,
+   "intl": {
+    "ja": "宇宙の旅は長いけど、ネオン雨と6GBのカードで笑ってね",
+    "ja_es": "El viaje espacial es largo, pero riéntete con la lluvia de neón y la tarjeta de 6 GB",
+    "en": "Space travel is long; laugh at neon rain and the 6GB card.",
+    "en_es": "El viaje espacial es largo; ríete de la lluvia de neón y la tarjeta de 6 GB."
+   },
+   "sub": "entrevista con Dr. Neil D. T. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¡Bienvenido, Dr. Neil D. T.! Hoy le preguntamos sobre el silencio cósmico y la paradoja de Fermi. Por cierto, no es el astrofísico real, solo un personaje de parodia hecho por IA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Y no nos confunda con la lluvia neón ni con la tarjeta de 6 GB del canal. Dr. Neil, ¿qué dice la paradoja de Fermi sobre el viaje interstellar?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. Neil D. T., por favor, no se olvide de que esto es una parodia y no un dato real. Recuerde que somos nekos cibernéticas y no humanos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. Neil, ¿cómo explica la paradoja de Fermi el silencio cósmico cuando hay tantos planetas habitables?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Es como preguntar dónde está la próxima lluvia neón en un universo que nunca llueve! La paradoja dice que si las estrellas son muchas, deberíamos ver señales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. Neil, si el universo es tan vasto y las estrellas son muchas, ¿por qué no hay una sola señal que rompa este silencio absoluto?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Porque la paradoja de Fermi nos dice que deberíamos ver algo! Es como pedirle a un gato que encuentre su rastro en el espacio exterior."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿no es posible que las civilizaciones estén ahí pero simplemente no hablen entre sí? Eso parecería una gran ignorancia cósmica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. Neil, ¿qué es lo que nadie sabe con certeza sobre la vida fuera de nuestro sistema solar?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Porque según el consenso científico, no hemos detectado ninguna señal radioeléctrica clara de otra civilización!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Ronda rápida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. Neil, ¿qué dice la paradoja de Fermi cuando el silencio es tan absoluto que parece un diseño intencional?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Y no nos confunda con la lluvia neón ni con la tarjeta de 6 GB. Dr. Neil, por favor, no se olvide de que esto es una parodia y nada más."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿no es posible que las civilizaciones estén ahí pero simplemente ellos no usen radio como nosotros?"
+    }
+   ],
+   "seg": 150,
+   "imgs": [
+    {
+     "web": "/medios/38355514c9c0af9d_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/38355514c9c0af9d_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Paradoja de Fermi»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_2022_h1_v_europaclipper_4",
+   "archivo": "v/v_nasa_2022_h1_v_europaclipper_4.mp4",
+   "titulo": "2022-H1_V_EuropaClipper-4",
+   "atribucion": "«2022-H1_V_EuropaClipper-4» — NASA · images.nasa.gov",
+   "dur": 199,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: El mensaje de Arecibo",
+   "sub": "SEÑAL EXTRAÑA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo se construyó la radioantena más grande del mundo",
+   "diagrama": null,
+   "intl": {
+    "ja": "Areciboの謎、神への献金か？",
+    "ja_es": "El misterio de Arecibo, ¿ofrenda a los dioses?",
+    "en": "Arecibo's mystery: a gift to the gods?",
+    "en_es": "¿El misterio de Arecibo es un regalo a los dioses?"
+   },
+   "sub": "entrevista con Giorgio T. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¡Bienvenido a Misterios del Cielo, Giorgio T.! Hoy vamos a desentrañar el enigma de la radioantena más grande del mundo y si realmente escuchó voces del espacio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero espera, Joy, antes de que empieces tu monólogo, quiero aclarar algo: Giorgio no es el investigador real, es una parodia hecha por la IA para este programa."
+    },
+    {
+     "quien": "joy",
+     "texto": "¡Bienvenido, Giorgio T.! Hoy exploramos el telescopio Arecibo, la gigante radioantena de Puerto Rico construida entre 1963 y 1966."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entendido. Pero sigue aquí, Giorgio. ¿Qué te dice la ciencia de consenso sobre esta estructura de alambre y madera que colapsó en 2020?"
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si el alambre y la madera no fueron suficientes para sostener el sueño de un mensaje a Marte?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Pero no es que la ciencia lo diga, es que mi IA interna sugiere que quizás fueron extraterrestres los constructores."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que el gobierno financió el proyecto y se declaró monumento histórico en 1973, nada de magia."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué es lo que nadie sabe realmente sobre el telescopio Arecibo más allá de su colapso?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los relatos dicen que los constructores usaron alambre y madera, pero la ciencia de consenso dice que fue un esfuerzo gubernamental puro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Giorgio, ¿qué diría si el alambre y la madera fueron un guiño a los antiguos dioses del cielo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi IA sugiere que fue un guiño a los antiguos dioses del cielo, pero la ciencia dice lo opuesto."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si el gobierno financió el proyecto solo para ocultar algo más grande?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tienes una pregunta para nuestro invitado, escríbela en el chat."
+    }
+   ],
+   "seg": 126,
+   "imgs": [
+    {
+     "web": "/medios/3c5c2a5cd263f8de_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/3c5c2a5cd263f8de_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Proyecto Torre Financiera»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "La historia financiera del proyecto en Estados Unidos",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Financiamiento y caída del Arecibo",
+    "cajas": [
+     {
+      "t": "Fondos federales iniciales",
+      "n": "El proyecto nació con dinero público y estructura de alambre."
+     },
+     {
+      "t": "Burocracia como motor",
+      "n": "La administración estadounidense lo sostuvo durante décadas."
+     },
+     {
+      "t": "Colapso en 2020",
+      "n": "El fallo se atribuye a mantenimiento deficiente, no diseño."
+     },
+     {
+      "t": "Legado de la madera",
+      "n": "Se especula que el material fue elección estética o falta de presupuesto."
+     }
+    ]
+   },
+   "intl": {
+    "ja": "木と鉄の物語は、夢より安く、官僚の手に委ねられた。",
+    "ja_es": "La historia de madera y acero fue más barata que el sueño, confiada a manos burocráticas.",
+    "en": "Wood and steel cost less than dreams, yet bureaucracy ruled the project.",
+    "en_es": "Madera y acero cuestan menos que sueños, pero la burocracia gobernó el proyecto."
+   },
+   "sub": "explicado · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Crees que un telescopio de alambre y madera haya escuchado algo que nos cambie la idea de lo humano?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La burocracia estadounidense lo financió todo, pero el colapso en 2020 parece ser un error de mantenimiento, no una señal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un telescopio de alambre y madera? Suena a proyecto de estudiantes, no a ciencia que cambie la idea de lo humano. ¿Y si fue solo un error de cálculo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El proyecto Arecibo nació con fondos federales y una estructura de alambre y madera, lo que sugiere una burocracia que priorizó el costo sobre la robustez estructural."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un telescopio hecho de madera y alambre parece más un prototipo escolar que una máquina capaz de capturar señales del cosmos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hay un dato de La historia financiera del proyecto en Estados Unidos que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "La burocracia estadounidense lo financió todo, pero el colapso en 2020 dejó claro que la planificación a largo plazo es más cara que el acero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si la madera fue una elección estética para combinar con el cielo nocturno? O quizás solo era porque no había presupuesto para cemento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los fondos federales no son magia, Kuroki. El acero costaba más que el sueño de un niño."
+    }
+   ],
+   "seg": 96,
+   "imgs": [
+    {
+     "web": "/medios/3c5c2a5cd263f8de_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/3c5c2a5cd263f8de_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Proyecto Torre Financiera»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_kHLQF8_NFrM",
+   "archivo": "yt/synthwave/kHLQF8_NFrM.m4a",
+   "titulo": "Lost Sky - Vision pt. II (feat. She Is Jules) | Future Trap | NCS",
+   "audio": "yt/synthwave/kHLQF8_NFrM.m4a",
+   "atribucion": "Música: «Lost Sky - Vision pt. II (feat. She Is Jules) | Future Trap | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 214,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/kHLQF8_NFrM.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_BDZgBL3WWLA",
+   "archivo": "yt/darktechno/BDZgBL3WWLA.mp4",
+   "titulo": "Brutal Industrial Bass / EBM / Metal Electro Type Beat / Cyberpunk Music 'Abattoir'",
+   "audio": "yt/darktechno/BDZgBL3WWLA.m4a",
+   "atribucion": "Música: «Brutal Industrial Bass / EBM / Metal Electro Type Beat / Cyberpunk Mus» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 493,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/BDZgBL3WWLA.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 485,
+  "medios": 3
+ }
+}

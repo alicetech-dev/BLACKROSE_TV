@@ -1,0 +1,19 @@
+{
+ "semilla": "Stuxnet",
+ "hechos": [
+  "Stuxnet fue un gusano informático diseñado para dañar infraestructuras físicas mediante la manipulación de sistemas de control industrial.",
+  "El malware se propagó a través de redes USB infectadas y atacaba específicamente los sistemas SCADA de las centrifugadoras de uranio en el Programa Nuclear Irání.",
+  "Stuxnet logró alterar la velocidad de rotación de las centrifugadoras para que los sensores registraran un funcionamiento normal, mientras en realidad se desviaban del objetivo.",
+  "El software utilizaba una firma digital única y dos vulnerabilidades específicas en Windows XP Service Pack 2 para esconder su presencia.",
+  "Se estima que el desarrollo del malware requirió años de trabajo y acceso a documentación clasificada de los sistemas operativos.",
+  "Stuxnet fue uno de los primeros casos documentados donde un gusano informático causó daño físico tangible a una infraestructura real.",
+  "El diseño del malware incluía mecanismos para evitar que las actualizaciones de seguridad estándar pudieran eliminarlo fácilmente.",
+  "La distribución del software se realizó mediante múltiples vectores de ataque simultáneos para dificultar el rastreo por parte de los analistas."
+ ],
+ "leyendas": [
+  "Se cuenta que Stuxnet fue creado exclusivamente por un solo equipo de investigadores de la CIA, aunque también hubo contribuciones de otros actores.",
+  "Existe la creencia popular de que el malware se diseñó para destruir físicamente las centrifugadoras mediante una explosión controlada, cuando en realidad solo alteraba su movimiento."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 18:42"
+}

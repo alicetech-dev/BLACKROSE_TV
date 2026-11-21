@@ -1,0 +1,84 @@
+# Modo SFW para stream:  ./dolls.sh start --sfw   (el director arranca con --config director/dolls.sfw.yaml)
+# Mismas piezas que dolls.yaml (cuerpos, voces, audio), otro cerebro: el agente corre el pack `neko` (dos chicas gato
+# de IA) con su propia memoria en ~/proyectos/agente_unificado/data_sfw. No comparte bóveda ni Qdrant con el modo privado.
+sfw: true                          # el director se niega a arrancar si el agente que contesta NO está en un pack SFW
+agente: ws://127.0.0.1:8791
+xtts_url: http://127.0.0.1:9020/tts
+llm_directo: http://127.0.0.1:8084
+
+usuario: {id: 0, nombre: Alice}    # cómo te nombran EN VIVO: poné tu nombre de streamer (id 0 = operadora)
+
+audio:
+  sink: dolls
+  bloque_ms: 20
+  adelanto_ms: 30
+
+opinar: 0.55
+
+dolls:
+  joy:
+    cuerpo: ws://127.0.0.1:8770
+    vmc_puerto: 39539
+    cuerpo_desc: "cyborg cat-girl avatar: cat ears, tail, robotic arms and glowing eyes"
+    mirar_a: {bambi: derecha}
+    idioma: es                     # idioma cuando una frase no lo deja claro (contestan en el idioma en que les hablan)
+    voz: {motor: xtts, voice: samplevoice, temperatura: 0.85, velocidad: 1.08, tono: 1.05, respaldo: ninguno}
+  bambi:                           # el id es el del cuerpo (joy_vmc --personaje bambi); en vivo se llama BL4CKROSE
+    nombre: BL4CKROSE              # cómo se ve en la consola y en los subtítulos (la voz dice "Blackrose")
+    alias: [blackrose, bl4ckrose, rose]   # con qué nombres le hablan vos y el chat
+    cuerpo: ws://127.0.0.1:8771
+    vmc_puerto: 39541
+    cuerpo_desc: "cat-girl avatar: cat ears and tail"    # ajustalo al modelo que uses en la escena del stream
+    mirar_a: {joy: izquierda}
+    idioma: es
+    voz: {motor: xtts, voice: samplevoice, temperatura: 0.65, velocidad: 0.94, tono: 0.97, respaldo: ninguno}
+
+sala:
+  activo: true
+  silencio: [25, 60]
+  dialogo_max: 5
+  replicar: 0.9
+  posturas: {seguir: 0.3, contradecir: 0.25, preguntar: 0.2, debatir: 0.25}
+
+# Chat del canal: lo leen y contestan. Solo lectura, sin claves. Dejá vacío lo que no uses.
+canal:
+  youtube: "@alice-neko-girl-dev"   # tu canal: cuando estás en vivo encuentra el video solo (o poné el id/URL del video)
+  twitch: ""                       # nombre del canal
+  kick: "barbieblackrose"           # tu canal de Kick (solo lectura)
+  auto: true                       # contestan solas (se prende/apaga con 💬 en la consola); en false, solo al clic
+  cada: [20, 45]                   # segundos entre una respuesta al chat y la siguiente (al azar entre los dos)
+  vence: 180                       # un mensaje que nadie contestó en este tiempo se descarta
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot]   # autores que no se leen (bots)
+  bloquear: []                     # palabras: un mensaje que tenga alguna no llega a las chicas ni a la pantalla
+
+temas:
+  - las noticias de tecnología de la semana
+  - lo último en inteligencia artificial
+  - Linux contra Windows para jugar
+  - ¿la IA va a reemplazar a los programadores?
+  - software libre contra plataformas cerradas
+  - privacidad y seguridad en internet
+  - qué se siente ser una IA
+  - el mejor y el peor juego que probaron
+  - juegos retro contra juegos modernos
+  - el futuro del streaming y las VTubers
+  - ciencia ficción que acertó o le erró al futuro
+  - qué entienden mal los humanos de la IA
+  - lenguajes de programación: opiniones fuertes
+  - hardware: qué placa de video conviene
+  - memes y cultura de internet
+
+# Perfiles del modo stream (dolls.sh start --sfw [--ligero]; el desplegable «Perfil» de la consola los cambia).
+#   habitual (sin perfil): Warudo con las dos, 4B local, voz XTTS.
+#   ligero: pensado para jugar y capturar con XR Animator en la misma PC (la GPU es del juego y de OBS).
+#     · Joy como overlay VRM en OBS (ligero/overlay.py); BL4CKROSE sigue en la consola, en marioneta (sin IA) hasta que la actives con 🎭
+#     · cerebro = Claude Code, modelo barato, por el shim :8086 (ligero/claude_shim.py); sin 4B, sin XTTS
+#     · voz gTTS por defecto (CPU; XTTS opcional si no estás jugando), sin sala autónoma ni pedidos de chistes (cada turno es un pedido a Claude)
+perfiles:
+  ligero:
+    agente: ws://127.0.0.1:8791             # en :8790 viven los overlays de Quantum Break (overlays_qb/qb.sh)
+    marioneta: [bambi]                      # BL4CKROSE arranca en marioneta: sos vos (lo que escribís lo dice con su voz); el botón 🎭 la pasa a IA
+    llm_directo: http://127.0.0.1:8086      # el vigía de «dormida» mira al shim, no al 4B
+    voz: gtts                               # preset de director/voz.py: gtts (CPU) | xtts (la voz de Joy, usa ~2,2 GB de VRAM). Se cambia en vivo en la consola
+    sala: {activo: false}
+    opinar: 0

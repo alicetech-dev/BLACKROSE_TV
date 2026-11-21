@@ -1,0 +1,453 @@
+{
+ "bloque": "hackers_2100",
+ "programa": "historia",
+ "fecha": "2026-11-20",
+ "creado": "18:27:53",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: La carrera espacial: del Sputnik al primer abrazo orbital",
+   "sub": "MÁQUINA DEL TIEMPO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El Sputnik 1 inicia la era de los satélites",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Sputnik 1: Era Satélites",
+    "cajas": [
+     {
+      "t": "Lanzamiento 1957",
+      "n": "Primer satélite artificial"
+     },
+     {
+      "t": "Beep audible",
+      "n": "Sintonizable por radios caseros"
+     },
+     {
+      "t": "Sin paneles solares",
+      "n": "Batería química duró 3 semanas"
+     },
+     {
+      "t": "Esfera 58 cm",
+      "n": "Peso similar a un perro grande"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "スプートニクから軌道ハグまで、宇宙の猫レースお楽しみに！",
+    "ja_es": "Desde el Sputnik hasta el abrazo orbital, ¡disfruten de la carrera espacial de los gatos!",
+    "en": "From Sputnik beeps to orbital hugs, what's your space race number one?",
+    "en_es": "Desde los pitidos del Sputnik hasta los abrazos orbitales, ¿cuál es tu número uno en la carrera espacial?"
+   },
+   "sub": "top3 · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Arrancamos el top tres de curiosidades del Sputnik uno, primer satélite que nadie esperaba y que puso a todos a correr. Criterio de hoy: lo que nadie cuenta en los libros de escuela."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, porque el Sputnik no solo orbitó, también volvió locos a los militares americanos que no tenían ni idea de cómo rastrearlo. Primer dato curioso: los rusos lo diseñaron para que emitiera un pitido simple que cualquiera pudiera oír con un radio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto tres. El Sputnik uno llevaba un simple beep beep que cualquiera podía sintonizar con un radio casero. Los americanos se volvieron locos tratando de descifrar si era un código secreto o solo una lata con batería. Yuri Gagarin luego contó que hasta los perros callejeros de Moscú parecían más tranquilos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ese beep terminó siendo la mejor propaganda sin querer. Mientras los militares pedían presupuesto extra la gente común del mundo entero armaba antenas en sus azoteas. Eso aceleró todo el tema de las comunicaciones que hoy nos permite ver hologramas de Doll Dynamics sin salir de casa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto dos. El Sputnik uno no tenía paneles solares, solo una batería química que duró tres semanas antes de morir. Imagina lanzar algo que se apaga solo y aun así cambia la historia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y mientras la batería agonizaba, los soviéticos ya planeaban el siguiente. Ese detalle muestra cómo la carrera espacial premiaba más la audacia que la perfección técnica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto uno. El Sputnik uno era una esfera de apenas cincuenta y ocho centímetros que pesaba como un perro grande. Los ingenieros soviéticos la pulieron a mano para que brillara como espejo bajo el sol y se viera desde la Tierra con binoculares caseros."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso cuando pasó sobre Estados Unidos parecía una estrella fugaz hecha por el enemigo. La gente salió a los patios con radios de onda corta y se quedó escuchando ese pitido como si fuera el futuro llamando a la puerta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa para los que pensaron que el Sputnik era solo un juguete soviético. En realidad abrió la puerta a que cualquier país con cohete pudiera vigilar el patio del vecino sin pedir permiso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso nos lleva directo al primer abrazo orbital del setenta y cinco. Dos naves de superpotencias rivales acoplándose como si hubieran reservado la misma mesa en un restaurante cósmico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y hablando de eso, ¿qué número uno pondría el chat para esta carrera espacial?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras esperamos sus respuestas, recordemos que el primer abrazo orbital del setenta y cinco mostró que hasta rivales pueden acoplarse si el manual lo permite."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo voto por el Luna nueve como número uno, porque aterrizar suave en la luna con tecnología de los sesenta fue como ganar con una calculadora de bolsillo."
+    }
+   ],
+   "seg": 211,
+   "imgs": [
+    {
+     "web": "/medios/39ed62e9218b3e02_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/39ed62e9218b3e02_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Carrera espacial»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Yuri Gagarin abre la puerta al vuelo humano",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Yuri Gagarin abre la puerta",
+    "cajas": [
+     {
+      "t": "1957 Sputnik",
+      "n": "URSS abre la carrera espacial"
+     },
+     {
+      "t": "1961 Gagarin",
+      "n": "Primer humano en órbita"
+     },
+     {
+      "t": "1961 Shepard",
+      "n": "EEUU responde suborbital"
+     },
+     {
+      "t": "1975 Apollo-Soyuz",
+      "n": "Primer abrazo orbital"
+     },
+     {
+      "t": "Hoy Estaciones",
+      "n": "Órbita baja llena de chatarra útil"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ガガーリンが笑顔でドアを開け、宇宙の渋滞が始まった。チャットで語ろう！",
+    "ja_es": "Gagarin abrió la puerta sonriendo y empezó el atasco cósmico. ¡Hablemos en el chat!",
+    "en": "Gagarin smiled, opened the door, and low orbit became a cosmic parking lot.",
+    "en_es": "Gagarin sonrió, abrió la puerta y la órbita baja se convirtió en un estacionamiento cósmico."
+   },
+   "sub": "linea tiempo · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina que la Tierra es un escenario y de pronto la Unión Soviética lanza el Sputnik en 1957. El telón se abre y Yuri Gagarin cruza la puerta del espacio en 1961 a bordo del Vostok 1."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y justo cuando todos aplauden, Estados Unidos manda a Alan Shepard ese mismo año. La carrera se pone interesante porque ahora dos bandos intentan ser los primeros en todo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Gagarin abre la puerta del Vostok 1 y se convierte en el primer humano que ve la Tierra desde fuera. Ese vuelo demostró que un ser vivo podía sobrevivir al lanzamiento, la ingravidez y el regreso. De pronto el espacio dejó de ser solo para máquinas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y Shepard responde con el Mercury suborbital, probando que Estados Unidos también podía poner gente arriba. La competencia se acelera y cada lado copia trucos del otro mientras financia computadoras que cabrían en la tarjeta de 6 GB del canal."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y entonces algo cambió para siempre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Después del primer abrazo orbital en el setenta y cinco la cosa se volvió colaboración disfrazada de competencia. La Salyut uno ya mostraba que vivir allá arriba era posible aunque fuera en lata."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso abrió camino a estaciones que duran décadas. Hoy la órbita baja parece un estacionamiento lleno de chatarra útil donde hasta empresas privadas mandan turistas con billete."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos Gagarin volvió con una sonrisa que nadie esperaba y los ingenieros soviéticos empezaron a soñar con estaciones que flotaran como latas de conserva en el vacío."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y mientras la Salyut uno probaba que los humanos podían vivir allá arriba Estados Unidos afinaba el Apollo para pisar la Luna y ganar la foto que todo el mundo recordaría."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate la cara de los burócratas terrestres cuando les llegó el primer ticket de mantenimiento orbital firmado desde doscientos kilómetros de altura."
+    }
+   ],
+   "seg": 143,
+   "imgs": [
+    {
+     "web": "/medios/fc69a596a4b33e34_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/fc69a596a4b33e34_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Carrera espacial»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011706_nh_intro",
+   "archivo": "v/v_nasa_ksc_011706_nh_intro.mp4",
+   "titulo": "KSC-05-S-00325",
+   "atribucion": "«KSC-05-S-00325» — NASA · images.nasa.gov",
+   "dur": 161,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: El Walkman: aventura portátil",
+   "sub": "MÁQUINA DEL TIEMPO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Nacimiento del reproductor de casetes portátil",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Nacimiento del Sonido Portátil",
+    "cajas": [
+     {
+      "t": "Antes del TPS-L2",
+      "n": "Reproductores grandes como ladrillos"
+     },
+     {
+      "t": "1979: Sony TPS-L2",
+      "n": "Compacto, ligero y sin comités"
+     },
+     {
+      "t": "Impacto Juvenil",
+      "n": "Paseos privados con auriculares"
+     },
+     {
+      "t": "Cultura de los 80",
+      "n": "Música personal en movimiento"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ウォークマンで自由を。チャットで君のNo.1は？",
+    "ja_es": "Libertad con Walkman. ¿Cuál es tu No.1 en el chat?",
+    "en": "Walkman turned solitude into freedom. What's your top pick in chat?",
+    "en_es": "El Walkman convirtió la soledad en libertad. ¿Cuál es tu favorito en el chat?"
+   },
+   "sub": "top3 · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Prepárense para el top tres de momentos que cambiaron el futuro del sonido portátil. Criterio: solo lo que realmente empujó al Walkman desde el TPS-L2 hasta icono."
+    },
+    {
+     "quien": "joy",
+     "texto": "Número tres, el diseño compacto y ligero que dejó atrás los ladrillos de casetes. De repente podías moverte sin que pareciera que cargabas un ladrillo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y lo mejor es que Sony no esperó a que los de Doll Dynamics aprobaran un comité de portabilidad. Ese TPS-L2 ya venía con auriculares listos para que la gente escapara del ruido urbano sin pedir permiso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, transformó el paseo en experiencia privada. De ahí saltó al impacto cultural juvenil de los ochenta, donde cada chico con su Walkman parecía protagonista de su propia banda sonora personal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Número dos, cómo el TPS-L2 convirtió el casete en algo que cabía en tu bolsillo y no en tu mochila entera. Imagina que antes tenías que elegir entre música o moverte, como si el futuro te pidiera permiso para llegar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ahí llegó Sony con un aparato que dejó los reproductores enormes en el museo. De pronto cualquiera podía caminar por la ciudad con su propia banda sonora sin molestar a nadie ni pedirle aprobación a un departamento de sonido."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Número uno, el momento en que Sony decidió que la música no tenía que quedarse encerrada en salas o autos. El TPS-L2 llegó y convirtió cada calle en tu propio concierto privado. Imagina salir de casa y que el mundo entero se volviera banda sonora sin pedir permiso a nadie."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ese fue el giro que nadie vio venir. De repente la experiencia dejó de ser colectiva y pasó a ser tuya, con auriculares que aislaban el ruido externo como un escudo. Sony creó un futuro donde cada persona llevaba su mundo sonoro en el bolsillo y el resto del planeta quedaba en mute."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa al mito ese que se cuenta de que lo crearon para que el fundador escuchara ópera en el golf. Suena épico pero la verdad es más aburrida y menos cinematográfica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que realmente empujó el futuro fue cómo el Walkman se volvió sinónimo de libertad personal. De repente la banda sonora de tu vida ya no dependía de nadie más."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahora la pregunta para el chat. Si tuvieras que elegir solo uno, cuál sería tu número uno del Walkman, el TPS-L2 o la libertad con auriculares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras llegan sus respuestas, recordemos que después vinieron las versiones con radio AM FM y luego el reproductor de CD."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo agregaría que el Walkman demostró que a veces la aventura portátil nace de un prototipo que nadie pidió pero todos terminaron queriendo."
+    }
+   ],
+   "seg": 205,
+   "imgs": [
+    {
+     "web": "/medios/e356c24cd23ed7eb_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/e356c24cd23ed7eb_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Stereo personal»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo cambió la forma de escuchar música",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Evolución de Escuchar Música",
+    "cajas": [
+     {
+      "t": "Años 70",
+      "n": "Ladrillos pesados con pilas cortas"
+     },
+     {
+      "t": "1979",
+      "n": "Sony lanza Walkman TPS-L2"
+     },
+     {
+      "t": "Mixtapes",
+      "n": "Casetes como reliquias personales"
+     },
+     {
+      "t": "Boom radial",
+      "n": "Grabaciones secretas de radio"
+     },
+     {
+      "t": "Hoy",
+      "n": "Walkman en celulares inalámbricos"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ウォークマンが脳に？ 次は君の記憶がプレイリストだ。チャットで語ろう！",
+    "ja_es": "¿El Walkman en el cerebro? La próxima tu memoria será la playlist. ¡Hablemos en el chat!",
+    "en": "Walkman in your brain next? Your memories become the playlist. Join the chat.",
+    "en_es": "¿Walkman en tu cerebro después? Tus recuerdos se convierten en la playlist. Únete al chat."
+   },
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina los setenta, cuando llevar música significaba cargar un ladrillo con pilas que duraban poco y cables que se enredaban en todo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces Sony suelta el TPS-L2 en el setenta y nueve, compacto, ligero, y de repente podías caminar por la ciudad con tu banda sonora privada sin molestar a nadie."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y justo ahí la gente empezó a descubrir que la música ya no era solo para quedarse quieto en casa o en el auto. Con esos auriculares puestos, el trayecto al trabajo se convertía en una película donde tú eras el protagonista y la ciudad solo el set."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "De repente los casetes se pasaban de mano en mano como reliquias secretas. Cada mixtape era una declaración personal, un pedazo de identidad que cabía en el bolsillo y que nadie más podía interrumpir con su playlist."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Después vino el boom de los mixtapes grabados a escondidas de la radio. Los adolescentes los intercambiaban como contraseñas secretas y Sony terminó vendiendo más casetes vacíos que nunca porque todos querían armar su propia banda sonora portátil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y Sony siguió empujando la línea con versiones que metían radio AM y FM para que nadie se perdiera el noticiero mientras corría al trabajo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Luego llegaron los reproductores de CD y minidisc que hacían que los casetes parecieran reliquias de museo, aunque seguían rayándose en el metro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy la marca Walkman vive como emblema en celulares y auriculares inalámbricos, recordándonos que todo empezó con un casete y dos orejas libres."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahora imagínate dentro de veinte años, cuando los auriculares lean tu pulso y te cambien la playlist según si estás huyendo de un dron de Doll Dynamics o simplemente aburrido en el andén."
+    },
+    {
+     "quien": "joy",
+     "texto": "Especulando un poco más, la marca Walkman podría volver como implante que graba tus propios recuerdos en audio y los vende como mixtapes privados, siempre que pases el control de compliance neuronal de Neón Holdings."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Oye Joy, el TPS-L2 te dejaba correr por la ciudad sin que el casete se comiera la cinta a mitad de canción."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso convirtió los viajes en metro en conciertos privados donde nadie más oía tu banda favorita."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Después los modelos con radio AM FM te salvaban cuando olvidabas el mixtape en casa."
+    }
+   ],
+   "seg": 176,
+   "imgs": [
+    {
+     "web": "/medios/63079a2454f7c089_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/63079a2454f7c089_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Stereo personal»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_2zANf-HJhkA",
+   "archivo": "yt/synthwave/2zANf-HJhkA.m4a",
+   "titulo": "Linko - Goodbye | Drumstep | NCS",
+   "audio": "yt/synthwave/2zANf-HJhkA.m4a",
+   "atribucion": "Música: «Linko - Goodbye | Drumstep | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 160,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/2zANf-HJhkA.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_NUUsxM-1sQ0",
+   "archivo": "yt/synthwave/NUUsxM-1sQ0.m4a",
+   "titulo": "GALLIUM - All I Wanna | Electronic | NCS",
+   "audio": "yt/synthwave/NUUsxM-1sQ0.m4a",
+   "atribucion": "Música: «GALLIUM - All I Wanna | Electronic | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 221,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/NUUsxM-1sQ0.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 735,
+  "medios": 3
+ }
+}

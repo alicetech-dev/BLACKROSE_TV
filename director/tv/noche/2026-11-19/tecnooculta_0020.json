@@ -1,0 +1,875 @@
+{
+ "bloque": "tecnooculta_0020",
+ "programa": "tecnooculta",
+ "fecha": "2026-11-19",
+ "creado": "20:53:17",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El secreto de la tarjeta de 6 GB",
+   "sub": "TECNOLOGÍA OCULTA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cual es el modelo exacto más vendido con 6 GB de VRAM",
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a una historia sobre el mito de la tarjeta de seis gigabytes, algo que todos creemos conocer pero nadie puede confirmar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Se cuenta que algunas personas creen que esta cantidad de memoria es mágica, pero según los relatos no hay magia involucrada."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es más sencilla: las tarjetas con seis GB son un estándar industrial, producidas por grandes fabricantes como NVIDIA y AMD."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso no explica por qué algunas GPUs de 6 GB dominan los rankings mientras otras de igual capacidad quedan relegadas al olvido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Porque el modelo exacto más vendido con 6 GB de VRAM es la GeForce GTX 1060, lanzada en 2016 y sigue siendo referencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el verdadero secreto no es la cantidad de memoria, sino cómo se organiza internamente? La GTX 1060 usa GDDR5, pero hay otra con 6 GB que cambia todo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero espera: ¿y si hay un modelo de 6 GB que no es la GTX 1060 y que por algún giro técnico ha sido más popular en nichos específicos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, algunas versiones de la RTX 2060 con 6 GB ganaron tracción en gaming competitivo, aunque su producción fue limitada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el secreto es que la GTX 1060 de 6 GB fue el puente entre la era de 4 y la de 8? Su arquitectura Pascal tuvo un impacto real en el mercado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, la GTX 1060 de 6 GB fue el puente entre la era de 4 y la de 8. Su arquitectura Pascal definió un estándar que muchos ignoraron."
+    },
+    {
+     "quien": "joy",
+     "texto": "La RTX 2060 con 6 GB ganaba tracción en gaming competitivo, aunque su consumo de energía era mayor. El mercado la vio como una opción inteligente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 140
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cuánto consume en watts una tarjeta gráfica moderna de esa capacidad",
+   "sub": "debate · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si te digo que 6 GB no es un número mágico, sino una barrera de entrada? La gente cree que con eso ya dominan el mundo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Es la línea divisoria entre los que juegan y los que solo miran. Pero ¿cuántos watts realmente consume una tarjeta moderna con esa capacidad?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pues depende del modelo, pero si tienes una RTX 3060 o una RX 6700 XT, el consumo en carga pesada ronda los 150 a 200 vatios."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La RTX 3060 consume alrededor de 170 vatios en carga máxima, mientras que la RX 6700 XT ronda los 155. Eso es más que un móvil, pero menos que un horno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si sumamos el consumo del sistema completo, con CPU y RAM, podríamos llegar a los 300 vatios en juegos pesados. La tarjeta no es el único culpable, pero sí un gran consumidor."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso la gente cree que es magia. En realidad es física: más memoria significa más ancho de banda y más potencia bruta para procesar texturas y luces en tiempo real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Pero no es magia, es termodinámica pura: el calor se genera cuando los transistores procesan datos. Si la tarjeta consume más de lo que el ventilador puede disipar, se calienta y baja su eficiencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto. El consumo real depende del reloj, no solo del tamaño de la memoria. Una RTX 3060 con overclock puede consumir hasta 215 vatios en carga máxima, mientras que una RX 6700 XT se mantiene más fría y eficiente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si sumamos el consumo del sistema completo, con CPU y RAM, podríamos llegar a los 300 vatios en juegos pesados. La gente cree que es magia, pero es física: más memoria significa más ancho de banda y más potencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "La RTX 3060 consume unos 170 vatios en carga máxima, pero eso incluye la CPU y otros componentes del sistema completo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, si solo miramos la tarjeta sola sin el resto del PC, el consumo real sería más bajo, alrededor de 120 vatios."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante, porque la memoria de 6 GB no es lo que más consume; son los núcleos de GPU y su reloj de operación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cierto, pero las tarjetas con más VRAM suelen tener arquitecturas más complejas y así consumen más energía en total."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la memoria por sí sola no define el consumo; son los núcleos de GPU y su reloj lo que realmente determinan la demanda energética."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante punto. La eficiencia depende del diseño del chip y la gestión térmica, no solo del volumen de memoria que lleva instalada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 205
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "¿Se puede reemplazar la memoria gráfica si falla?",
+   "sub": "linea tiempo · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos al segmento donde la memoria gráfica es el corazón que late en el pecho de tu computadora."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí tenemos a ese componente que, según se cuenta, tiene un tamaño mágico de 6 GB y nunca falla."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero ojo, porque si esa memoria gráfica falla, tu juego se transforma en una experiencia de los años noventa."
+    },
+    {
+     "quien": "joy",
+     "texto": "El origen es más complejo: surgió cuando los desarrolladores necesitaban mayor capacidad para texturas y shaders modernos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Reemplazar la memoria gráfica si falla? Es posible, pero no es magia ni una solución mágica como se cuenta en las leyendas."
+    },
+    {
+     "quien": "joy",
+     "texto": "El cambio real ocurrió cuando los desarrolladores necesitaban mayor capacidad para texturas y shading en juegos de alta fidelidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, una vez que la memoria falló en alguna tarjeta específica, los fabricantes tuvieron que rediseñar el módulo completo."
+    },
+    {
+     "quien": "joy",
+     "texto": "No fue un evento aislado; fue parte de un ciclo tecnológico donde cada falla impulsó mejoras en estabilidad y eficiencia energética."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que cuando una tarjeta falla, lo primero es revisar el módulo de memoria. A veces es solo un capacitor viejo o un cable mal conectado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y luego los fabricantes lanzan actualizaciones de firmware para corregir errores conocidos antes de que se conviertan en fallos graves."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ojo: reemplazar la memoria gráfica no siempre es lo más económico. A veces basta con ajustar los drivers o cambiar el voltaje del sistema."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imaginen el futuro donde las tarjetas gráficas sean modulares como los teléfonos, pero sin que todo el mundo sepa cómo funciona internamente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso sería magia tecnológica, no ingeniería. Y además, ¿quién va a comprar un módulo de memoria gráfica desechable si ya hay uno funcionando?"
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si la memoria falla porque el flujo de datos es demasiado grande para la arquitectura actual?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y además los drivers suelen optimizar mal las tarjetas antiguas con GDDR5 en sistemas nuevos."
+    }
+   ],
+   "seg": 152
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo afecta la GDDR6 al rendimiento en juegos actuales",
+   "sub": "debate · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si te digo que la tarjeta de 6 GB ya no es el límite absoluto del rendimiento en los juegos actuales?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante, Kuroki. Pero ¿cómo podemos verificar eso sin caer en especulaciones o mitos de las leyendas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Simple: miramos los benchmarks reales y la documentación técnica de NVIDIA y AMD sobre GDDR6 versus GDDR5."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto, Kuroki. La documentación técnica de NVIDIA y AMD confirma que GDDR6 ofrece mayor ancho de banda que GDDR5."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Eso se traduce en capacidad para texturas más grandes y mejores resultados visuales en juegos actuales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero cuidado: el consumo de energía también crece, especialmente si la tarjeta está sobrecargada o mal refrigerada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo creo exactamente lo contrario."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo creo exactamente lo contrario. La GDDR6 es eficiente y permite texturas masivas sin que el PC se apague en el medio del juego."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto, pero las tarjetas de 6 GB con GDDR5 pueden ser más baratas y suficientemente rápidas para la mayoría de los títulos actuales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, depende del juego. En AAA, necesitas 6 GB de VRAM, pero en indie o eSports, un 4 GB podría bastar si el motor es ligero."
+    },
+    {
+     "quien": "joy",
+     "texto": "La GDDR6 sí mejora el rendimiento, pero no es magia. Permite texturas más altas en juegos AAA sin sacrificar frames, gracias a su ancho de banda superior."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero eso no significa que una tarjeta de 6 GB con GDDR5 sea basura. A veces el precio y la eficiencia energética lo hacen más inteligente para gaming casual."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto, la elección depende del presupuesto y los títulos. Pero la tecnología detrás de la memoria gráfica sigue evolucionando, y eso afecta directamente la fluidez en cada juego moderno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 140
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20210319_m2020_0001_mars_report_upda",
+   "archivo": "v/v_nasa_jpl_20210319_m2020_0001_mars_report_upda.mp4",
+   "titulo": "Mars Report: Update on NASA’s Perseverance Rover & Ingenuity Helicopter",
+   "atribucion": "«Mars Report: Update on NASA’s Perseverance Rover & Ingenuity Helicopter» — NASA · images.nasa.gov",
+   "dur": 168,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La IA que predice tus gustos musicales",
+   "sub": "TECNOLOGÍA OCULTA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo el filtrado colaborativo sugiere canciones",
+   "sub": "debate · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez has sentido que el algoritmo ya sabe qué canción quieres antes de escucharla? Es magia o matemáticas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Matemáticas! El filtrado colaborativo usa datos de otros usuarios para predecir tus gustos. ¿Por qué no es más humano?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero el efecto de la banda puede hacer que escuches lo mismo siempre. ¿Es eso parte del problema o una solución?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El algoritmo no lee tus pensamientos, pero sí procesa datos masivos de usuarios similares para predecir gustos. Es matemáticas, no magia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es una característica inevitable derivada del filtrado colaborativo y la priorización de tendencias. Los sistemas optimizan para engagement, no para diversidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es una característica inevitable derivada del filtrado colaborativo y la priorización de tendencias. Los sistemas de recomendación a menudo priorizan lo popular sobre la diversidad musical."
+    },
+    {
+     "quien": "joy",
+     "texto": "El filtrado colaborativo no lee tu mente, pero sí analiza millones de historiales para predecir qué te gusta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y si el algoritmo falla, la música generada por reglas matemáticas puede sonar como un robot aburrido."
+    },
+    {
+     "quien": "joy",
+     "texto": "La transformada rápida de Fourier ayuda a los sistemas a entender patrones rítmicos que el oído humano ignora fácilmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese efecto de la banda, donde escuchas lo mismo siempre, es una trampa del diseño, no un milagro tecnológico."
+    },
+    {
+     "quien": "joy",
+     "texto": "La transformada rápida de Fourier descompone señales musicales en frecuencias, permitiendo que los algoritmos analicen patrones rítmicos invisibles para el oído humano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso suena técnico y correcto, pero si el modelo de redes neuronales profundas falla, la música generada por reglas matemáticas puede sonar como un robot aburrido."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y los modelos neuronales profundas lo hacen con matemáticas, no porque la IA tenga alma."
+    }
+   ],
+   "seg": 132
+  },
+  {
+   "tipo": "charla",
+   "tema": "La transformada rápida de Fourier en tiempo real",
+   "sub": "top3 · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien recuerda cuando la música era solo analogo y el ritmo se definía por cables? Hoy es todo digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La transformada rápida de Fourier permite que las computadoras analicen frecuencias en tiempo real, algo imposible antes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo que usan los algoritmos de recomendación para predecir tus gustos musicales basados en patrones complejos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El puesto tres es la transformada rápida de Fourier en tiempo real, el motor invisible que permite a las computadoras analizar frecuencias musicales al instante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y esto no es solo teoría; la música electrónica fue una de las primeras formas de arte creado enteramente mediante reglas matemáticas aplicadas por máquinas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El puesto dos es el filtrado colaborativo, la red neuronal que conecta usuarios similares para predecir gustos musicales sin necesidad de datos individuales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, esa arquitectura permite escalar a millones de oyentes. Pero ojo: los modelos actuales priorizan lo popular sobre la diversidad real del catálogo disponible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí está el problema del efecto banda: escuchas más lo que te sugieren, creando un ciclo de recomendación que limita tu descubrimiento musical."
+    },
+    {
+     "quien": "joy",
+     "texto": "Comenzamos con el primer pilar: el filtrado colaborativo. Es la arquitectura que conecta usuarios similares para predecir gustos musicales, permitiendo escalar a millones de oyentes sin necesidad de analizar cada canción individualmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, esa es la base. Pero ojo: los modelos actuales priorizan lo popular y lo trending sobre la diversidad real, creando un ciclo de recomendación que se autoalimenta y reduce el descubrimiento de nuevos artistas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí entra el efecto banda. Cuando escuchas más frecuentemente las canciones recomendadas por el algoritmo, estos se vuelven tus favoritos, cerrando un ciclo que limita tu exposición a otros géneros y estilos musicales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es como si la música te dijera lo que quieres escuchar antes de que tú lo sepas. La IA predice tus gustos analizando patrones rítmicos y melódicos complejos, usando reconocimiento de voz y espectrogramas para entender tu preferencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y eso hace posible el efecto banda: escuchar más lo que ya escuchaste porque la IA predice tus gustos antes de que tú lo sepas."
+    }
+   ],
+   "seg": 169
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Redes neuronales profundas y predicción musical",
+   "sub": "debate · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a este episodio donde desmitificamos esa IA secreta que predice tus gustos, aunque se cuenta que es una exageración."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, no es magia ni lectura de pensamientos; es filtrado colaborativo usando patrones de usuarios similares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Además, el análisis de Fourier descompone la señal musical en frecuencias para que las computadoras procesen mejor."
+    },
+    {
+     "quien": "joy",
+     "texto": "La IA que predice tus gustos no lee tus pensamientos, sino que analiza millones de datos históricos para encontrar patrones repetidos en el comportamiento de usuarios similares."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y además usa análisis de Fourier para descomponer la señal musical en frecuencias individuales, lo que facilita el procesamiento por parte de las computadoras modernas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los modelos de redes neuronales profundas pueden predecir gustos musicales con bastante precisión, aunque siempre hay un margen de error que nos deja sorprendernos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y además usa análisis de Fourier para descomponer la señal musical en frecuencias individuales, lo que permite a las redes neuronales capturar patrones rítmicos y melódicos complejos con mucha precisión."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Ahí está el error común! Mucha gente cree que la IA predice tu personalidad, cuando en realidad solo es un reflejo de lo que ya has escuchado y del ruido de fondo que se filtra con Fourier."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los paneles solares aprovechan el efecto fotovoltaico para convertir la luz en electricidad, impulsando toda esta tecnología."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cierto, y no olvides que los sistemas de recomendación a menudo priorizan lo popular sobre lo diverso, creando ese 'efecto de la banda'."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los paneles solares convierten la luz en electricidad mediante el efecto fotovoltaico, un proceso físico real y documentado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y eso impulsa todo el sistema, aunque a veces olvidamos que la energía también se pierde en las conexiones internas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los ingenieros diseñan redes neuronales eficientes para reducir pérdidas, igual que optimizamos la distribución de energía solar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 149
+  },
+  {
+   "tipo": "charla",
+   "tema": "El efecto de la banda y las tendencias actuales",
+   "sub": "entrevista con Dr. Michio K. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenido, Dr. Michio K., a nuestro espacio de tecnología olvidada. Hoy exploraremos cómo la música se predice con algoritmos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Qué fascinante! Imagina un futuro donde los paneles solares generen energía para tu playlist favorita sin que tengas que tocar nada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y el efecto de la banda nos muestra cómo estos sistemas moldean nuestro gusto musical día a día, casi como si fueran dioses invisibles."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. Kaku, ¿cómo puede un algoritmo predecir nuestros gustos musicales antes de que decida escuchar una canción?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Es como si el universo tuviera una memoria colectiva! Los datos históricos crean patrones que la IA descifra con asombro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero, ¿no es cierto que los sistemas de recomendación priorizan lo popular sobre la diversidad musical?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Efecto de banda! Los usuarios escuchan más canciones del algoritmo, creando un círculo vicioso donde la tendencia domina todo."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si el algoritmo aprende de tus errores? ¿No es como si el universo tuviera una memoria colectiva que predice tus gustos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Es como un espejo digital que refleja tu identidad musical. Pero ojo, no es magia, es estadística pura y dura, como el análisis de Fourier."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué pasa cuando esa estadística se vuelve demasiado precisa? ¿No nos deja elegir nada más que lo que el sistema ya sabe que te gusta?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aquí está el dato curioso: los primeros sistemas de recomendación musical usaban el filtrado colaborativo, pero luego pasaron a modelos de redes neuronales profundas."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si el algoritmo predice tus gustos antes de que tú los decidas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dr. Michio K., ¿crees que un día la música se genere sola en la nube?"
+    }
+   ],
+   "seg": 130
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Tecnología oculta se revela ante nuestros ojos curiosos",
+   "sub": "TECNOLOGÍA OCULTA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo el iconoscopio coloreó la historia de la televisión en 1946",
+   "sub": "top3 · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la verdad documentada sobre tecnología olvidada. Hoy descubrimos cómo el iconoscopio coloreó la historia de la televisión en 1946."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Realmente crees que eso fue lo único? La gente suele pensar que todo empezó con un solo invento, pero la realidad es mucho más compleja y divertida."
+    },
+    {
+     "quien": "joy",
+     "texto": "El iconoscopio permitió la primera transmisión de imágenes en color por primera vez en 1946, algo que muchos creyeron imposible antes de ese momento histórico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no olvides que el sistema NTSC fue adoptado oficialmente por la FCC en 1953, lo cual demuestra que la estandarización tardó más de una década."
+    },
+    {
+     "quien": "joy",
+     "texto": "El iconoscopio de 1946 fue el primer paso real hacia la TV en color, pero su impacto no se limitó a ese año."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasó después? El NTSC llegó en 1953 y cambió todo el paisaje de las transmisiones de televisión en América."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y el sistema PAL llegó a Europa unos años después para mejorar la estabilidad de la imagen en movimiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y luego vino el NTSC en 1953, que puso en marcha la televisión en color masiva en Estados Unidos y otros países."
+    },
+    {
+     "quien": "joy",
+     "texto": "¡El iconoscopio en 1946! Un tubo de imagen de color que revolucionó la televisión. Sin él, no habríamos tenido el espectáculo visual que conocemos hoy."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, joy. Un invento que cambió todo el paisaje de las transmisiones en Estados Unidos y otros países. ¡Qué suerte tenerlo!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero no fue solo un tubo mágico. Hubo muchos desafíos técnicos, como la estabilidad de la imagen en movimiento y el efecto de entrelazado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Y eso es lo que luego mejoró el sistema PAL! Europa tuvo que innovar para superar las limitaciones del NTSC y ofrecer una calidad superior."
+    },
+    {
+     "quien": "joy",
+     "texto": "El iconoscopio de 1946 fue la chispa que encendió la televisión en color. Pero su llegada no fue tan pacífica como parece."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Claro! Hubo problemas de estabilidad, entrelazado y colores desincronizados. Europa tuvo que inventar el PAL para arreglarlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Mientras NTSC dominaba Estados Unidos, Francia desarrolló SECAM como una alternativa más robusta para la transmisión de vídeo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué número uno elegiría si la tecnología olvidada fuera un videojuego? Probablemente el iconoscopio, porque sin él no hay color."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Ese tubo de imagen es el verdadero héroe del cine en color. Sin embargo, su historia no fue tan tranquila como parece."
+    }
+   ],
+   "seg": 186
+  },
+  {
+   "tipo": "charla",
+   "tema": "La fibra óptica que cambió para siempre la transmisión de datos",
+   "sub": "top3 · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué tal si hoy revelamos el top 3 de tecnologías olvidadas que cambiaron todo? Empecemos con la fibra óptica, esa cosa brillante que reemplazó al cobre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La fibra óptica nació en los setenta y revolucionó la transmisión de datos. Pero no solo es eso; tiene un lado curioso que nadie suele mencionar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, y además es increíblemente eficiente. Imagina enviar toda la información del mundo a través de cables de vidrio en lugar de metal. Es como si el internet fuera instantáneo desde el principio."
+    },
+    {
+     "quien": "joy",
+     "texto": "El tercer puesto le corresponde a la fibra óptica, inventada en los setenta. Sus cables de vidrio transmiten luz en lugar de electricidad, lo que permite velocidades inmensables y una latencia casi nula."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, es como si el mundo entero se conectara a través de un cable de vidrio brillante. La fibra óptica no solo cambió la transmisión de datos, sino que también posibilitó la revolución de internet tal como lo conocemos hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "Su eficiencia es sorprendente: un solo cable puede manejar terabytes de información simultáneamente. Es la columna vertebral invisible de nuestra era digital, sosteniendo todo el tráfico que fluye por las redes globales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El segundo lugar es para el tubo de imagen de color, el iconoscopio. En 1946 permitió la primera transmisión de TV en color, un hito que cambió todo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, fue un salto gigante. Pero ojo: no se trata solo de ver colores, sino de cómo esas imágenes viajan por el aire y los cables."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí es donde la fibra óptica entra en juego. Sus cables de vidrio brillante transmiten datos a una velocidad que parece magia pura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Magia? No, física pura. La luz viaja por el núcleo de sílice dopado, golpeando los fotones con precisión milimétrica mientras el mundo sigue en colores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la fibra óptica reemplazó a los cables de cobre. Ahora todo fluye como un río digital, permitiendo que el internet sea lo que es hoy."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo velocidad, también capacidad. Un solo cable puede llevar millones de llamadas simultáneas sin que ni una sola se pierda en el tráfico."
+    },
+    {
+     "quien": "joy",
+     "texto": "La fibra óptica nació en los setenta con un salto cuántico, reemplazando el cobre por vidrio puro que guía la luz con precisión milimétrica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, esa luz viaja sin resistencia en el núcleo de sílice dopado, permitiendo una velocidad que ni los satélites podrían soportar."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 191
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El satélite Telstar 1 que conectó América con Europa en 1962",
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez imaginaste que el espacio fuera nuestro primer estudio de televisión?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, Telstar 1 fue el primer satélite que logró transmitir video real entre continentes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero no fue solo un satélite, fue la puerta abierta a la era digital global."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Telstar 1 no fue un satélite cualquiera, fue la primera vez que el espacio se convirtió en nuestro estudio de televisión."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero hay un detalle técnico fascinante sobre cómo funcionaban sus paneles solares para alimentar todo ese equipo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los paneles solares de Telstar 1 eran enormes y muy eficientes, permitiendo que el satélite operara en la órbita geoestacionaria."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es impresionante cómo esa tecnología del siglo pasado ya resolvía problemas de energía que hoy seguimos intentando optimizar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los paneles solares de Telstar 1 eran enormes y muy eficientes, permitiendo que el satélite operara en la órbita sin baterías. Eran como unas placas gigantes que capturaban la luz del sol para alimentar los transmisores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero hay un detalle técnico fascinante sobre cómo funcionaban sus paneles solares para alimentar todo el sistema de transmisión. La ingeniería solar de entonces ya resolvía problemas que hoy seguimos intentando."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina si esos paneles pudieran cargar tu teléfono mientras estás en la playa. En 1962, eso era posible y se hacía con tecnología pura de silicio y diseño aerodinámico para resistir el vacío del espacio."
+    },
+    {
+     "quien": "joy",
+     "texto": "La eficiencia de esos paneles fue clave para que Telstar 1 pudiera mantenerse en órbita y transmitir señales a larga distancia. Sin esa energía solar constante, el satélite habría caído pronto y la conexión entre América y Europa se habría roto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los paneles solares de Telstar 1 usaban silicio puro y eran gigantes, como si fuera un panel solar que iluminara tu habitación entera."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los paneles solares de Telstar 1 eran gigantes, pero la verdad es que no podían cargar tu teléfono en la playa como imaginas Kuroki."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. En 1962 solo servían para alimentar el satélite y sus transmisiones, nada de energía móvil para los turistas de hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero eso sí fue una revolución: permitió que América y Europa se vieran en vivo por primera vez, rompiendo fronteras."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso: los paneles usaban silicio puro, la misma tecnología que hoy tiene tus dispositivos, aunque fuera a escala cósmica."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué pasó después de que Telstar 1 transmitiera esa primera imagen en color entre América y Europa?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Que el mundo se enteró de que la tecnología no estaba limitada a los laboratorios, sino que podía viajar a través del espacio."
+    }
+   ],
+   "seg": 201
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los estudios de los años 30 donde nació la televisión moderna",
+   "sub": "linea tiempo · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez te imaginas que la TV moderna nació en un estudio de los años treinta? La historia es mucho más compleja de lo que crees."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, el primer estudio de televisión se construyó en los años veinte y treinta para facilitar la producción de programas en vivo. Esas instalaciones fueron clave."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no todo fue perfecto; las imágenes eran negras y blancas, y la calidad era muy limitada en comparación con lo que tenemos hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los estudios de los años treinta fueron el primer hogar de la televisión moderna, donde se probaron las bases técnicas que hoy usamos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero imagina: pantallas pequeñas, sonido débil y una calidad de imagen tan limitada que parece un dibujo hecho a mano."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La tecnología de entonces era rudimentaria, pero fue la semilla desde la cual creció todo el ecosistema audiovisual actual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no olvidemos que muchos de esos estudios fueron construidos para un solo propósito: hacer que el mundo pudiera ver en vivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los años treinta nacieron los estudios de televisión moderna, lugares donde la ingeniería y el arte se encontraron por primera vez."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que esos estudios eran como laboratorios de magia, con equipos gigantes que no sabían cómo funcionar bien entre sí."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que muchos de esos estudios fueron construidos específicamente para probar la transmisión en vivo antes de la era digital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aunque al principio parecía un caos técnico, hoy esos mismos estudios son el origen de todo lo que vemos en nuestros teléfonos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese caos técnico de los años treinta es el origen real de la televisión moderna, no una leyenda mágica como mucha gente cree."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, esos estudios fueron laboratorios de prueba reales. La gente suele inventar historias épicas para explicar lo que fue un proceso lento y técnico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ahora imaginemos el futuro: paneles solares que alimenten estos antiguos estudios y reconstruyan la magia de la televisión moderna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los estudios de los treinta no eran magia, eran laboratorios reales donde se probaba cada tubo y circuito antes de que el mundo los vier."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La gente suele inventar historias épicas para explicar el caos técnico, pero aquí hay datos duros sobre cómo nació la TV moderna."
+    }
+   ],
+   "seg": 176
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1971,
+  "medios": 2
+ }
+}

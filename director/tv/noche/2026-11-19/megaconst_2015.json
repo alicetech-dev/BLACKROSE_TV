@@ -1,0 +1,891 @@
+{
+ "bloque": "megaconst_2015",
+ "programa": "megaconst",
+ "fecha": "2026-11-19",
+ "creado": "16:24:30",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Ingeniería Monumental: El Burj Khalifa",
+   "sub": "MEGACONSTRUCCIONES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La escala extrema y su impacto en la ciudad",
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien ha visto la foto de la torre desde el suelo? Parece que toca las nubes, ¿verdad?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, 828 metros es una escala casi divina. La ciudad de Dubái cambia cuando miras hacia arriba."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿cómo soporta el viento? El diseño triangular no parece casual, ¿cierto?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El Burj Khalifa es el edificio más alto del planeta, con 828 metros de altura y 165 niveles. Su escala redefine la ciudad de Dubái."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La forma triangular no es decorativa: reduce la resistencia al viento. Es ingeniería pura, casi mágica, para mantenerlo erguido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Construido entre 2004 y 2009 bajo Adrian Smith, usa hormigón de alta resistencia y acero. Un logro humano frente a la gravedad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sus elevadores llevan a los ocupantes en menos de 30 segundos entre pisos. La velocidad es parte del espectáculo, no solo una función técnica."
+    },
+    {
+     "quien": "joy",
+     "texto": "La escala del Burj Khalifa redefine la ciudad de Dubai como un faro vertical en el desierto, donde cada metro suma impacto visual y funcional."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es solo altura: el edificio respira con ventilación natural que ahorra energía, un truco ingenieril que hace que la torre sea eficiente y sostenible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Sus elevadores cruzan pisos en menos de 30 segundos, una velocidad que transforma la experiencia de quien sube o baja por la torre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La forma triangular no es decorativa: reduce la resistencia al viento, un diseño que demuestra cómo la ingeniería pura puede resolver desafíos extremos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso: el Burj Khalifa consume un tercio menos de energía que edificios similares gracias a su ventilación natural."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Eso es ingeniería pura! La forma triangular actúa como escudo contra el viento, reduciendo la carga estructural en un 20%."
+    },
+    {
+     "quien": "joy",
+     "texto": "El Burj Khalifa mide 828 metros, lo que lo sitúa como el edificio más alto del planeta, un hito de ingeniería global."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Y esa altura no es solo una cifra: implica desafíos enormes en materiales y estabilidad frente al viento constante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Su diseño triangular reduce la carga estructural, pero también genera curiosidad sobre cómo se comporta en condiciones climáticas extremas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La forma no es solo estética; es una solución funcional que demuestra que la arquitectura puede responder inteligentemente al entorno urbano."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué opinan sobre cómo el diseño triangular del Burj Khalifa influye en la percepción de la ciudad?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mira ese edificio: no es solo altura, es una declaración de que la tecnología puede desafiar la gravedad."
+    }
+   ],
+   "seg": 192
+  },
+  {
+   "tipo": "charla",
+   "tema": "Materiales de alta resistencia y acero estructural",
+   "sub": "top3 · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la ingeniería monumental. Hoy analizamos el Burj Khalifa, el edificio más alto del mundo, con datos verificables sobre sus materiales y desafíos constructivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero cuidado: no es un proyecto de un año como algunos creen. La construcción duró cuatro años, entre 2004 y 2009, bajo la dirección del arquitecto Adrian Smith."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ahora, el top tres de materiales que hicieron posible esta altura. Empezamos con el hormigón de alta resistencia, el acero estructural y un sistema de ventilación natural que ahorra energía."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El tercer material estrella es el acero estructural de grado ultra-alto. Permite soportar la enorme carga del edificio sin deformarse bajo las fuerzas del viento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. Ese acero no es cualquier uno; tiene una resistencia a la tracción excepcional que hace posible la altura extrema y la estabilidad del diseño triangular."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y para cerrar el top tres: el hormigón de alta resistencia. Es la columna vertebral de todo el edificio, con una compresión capaz de soportar miles de toneladas."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El acero estructural del Burj Khalifa es de grado ultra-alto, capaz de soportar fuerzas sísmicas y vientos fuertes sin deformarse."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el segundo puesto… los materiales no son solo metálicos; hay un equilibrio entre ligereza y durabilidad que sorprende al ingeniero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, ese equilibrio es clave. Además, el hormigón de alta resistencia actúa como soporte principal, reduciendo la carga en los pilares de acero."
+    },
+    {
+     "quien": "joy",
+     "texto": "El acero ultra-alto soporta vientos y sismos, pero ¿qué pasa con la corrosión en climas tropicales?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La lluvia ácida acelera el desgaste; se usan recubrimientos especiales que duran décadas sin fallar."
+    }
+   ],
+   "seg": 129
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Sistema de ventilación natural y eficiencia energética",
+   "sub": "mito realidad · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Sabías que mucha gente cree que el Burj Khalifa se construyó en un solo año? Eso es un mito, no una realidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, fue un proyecto de cuatro años con gran dificultad, pero el resultado vale cada centímetro de concreto y acero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso: dicen que tiene más de doscientos pisos, cuando en realidad son ciento sesenta y cinco niveles exactos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que el Burj Khalifa se levantó en un solo año, pero la realidad es mucho más compleja y demandante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es un mito popular. La obra tomó cuatro años intensos con desafíos técnicos que pocos imaginaban."
+    },
+    {
+     "quien": "joy",
+     "texto": "Además, hay creencias erróneas sobre el número de pisos. Muchos piensan que supera los doscientos niveles."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que tiene ciento sesenta y cinco pisos exactos, un dato clave para entender su escala real."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de los doscientos pisos se desmonta con el dato real: ciento sesenta y cinco niveles exactos, una escala monumental pero medible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo en altura. El sistema de ventilación natural reduce el consumo energético un treinta por ciento, un logro que pocos edificios logran replicar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Además, su forma triangular es clave para la estabilidad frente al viento. Un diseño ingenial que responde a los desafíos climáticos de Dubai."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Todo eso se construyó entre 2004 y 2009, cuatro años intensos bajo la dirección de Adrian Smith. Un proyecto que definió la ingeniería moderna."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree que fue construido en un solo año por la rapidez del proyecto, pero los cuatro años reales demuestran una planificación meticulosa y esfuerzo constante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese mito de un año simple ignora la complejidad técnica: cada metro cuadrado requiere precisión milimétrica, materiales especiales y una gestión de recursos impecable durante todo el proceso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Además, el sistema de ventilación natural no es solo un ahorro energético; es una respuesta inteligente al clima local, optimizada para reducir la dependencia de aire acondicionado en las horas más calurosas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Nuestro veredicto sobre Sistema de ventilación natural y eficiencia energética: hay más historia que misterio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ante el mito de un año, recuerdo que la construcción duró cinco años con precisiones milimétricas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El sistema de ventilación natural reduce el consumo en un 30%, pero muchos subestiman su complejidad técnica."
+    }
+   ],
+   "seg": 180
+  },
+  {
+   "tipo": "charla",
+   "tema": "Desafíos de construcción y personas detrás del proyecto",
+   "sub": "mito realidad · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Mito popular: el Burj Khalifa se levantó en un solo año, como si fuera magia. La realidad es que tardó cuatro años en construirse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no fue fácil; Adrian Smith tuvo que negociar con vientos fuertes y materiales costosos, mientras el equipo luchaba contra la gravedad."
+    },
+    {
+     "quien": "joy",
+     "texto": "La construcción implicó desafíos técnicos enormes, especialmente en el diseño estructural para resistir las fuerzas del viento sin colapsar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los desafíos estructurales fueron enormes. Diseñaron una forma triangular para mejorar la estabilidad frente al viento constante."
+    },
+    {
+     "quien": "joy",
+     "texto": "El sistema de ventilación natural reduce el consumo energético en un treinta por ciento. Eso demuestra ingeniería inteligente aplicada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no se trata solo de números. Las personas detrás del proyecto vivieron momentos críticos donde cada decisión técnica podía haber cambiado el rumbo entero."
+    },
+    {
+     "quien": "joy",
+     "texto": "Adrian Smith, el arquitecto, tuvo que equilibrar estética y funcionalidad bajo presión constante. Su visión fue clave para convertir un concepto en una realidad tangible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los mitos crecen cuando falta información."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de que se construyó en un solo año contradice la hoja de datos, que especifica una construcción entre 2004 y 2009."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que cada decisión técnica, como el sistema de ventilación o los elevadores rápidos, requirió meses de ingeniería compleja."
+    },
+    {
+     "quien": "joy",
+     "texto": "Antes creía que el mito de un solo año era la verdad absoluta, pero los datos muestran una construcción prolongada entre 2004 y 2009."
+    }
+   ],
+   "seg": 111
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20240821_mh_geb01_0001_europa_clippe",
+   "archivo": "v/v_nasa_ksc_20240821_mh_geb01_0001_europa_clippe.mp4",
+   "titulo": "Europa Clipper Solar Array Deployment",
+   "atribucion": "«Europa Clipper Solar Array Deployment» — NASA · images.nasa.gov",
+   "dur": 323,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La Estación Espacial Internacional",
+   "sub": "MEGACONSTRUCCIONES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El desafío de la órbita a 400 km",
+   "sub": "explicado · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien sabe qué es lo más difícil de mantener en órbita a 400 kilómetros? No, no es la gravedad."
+    },
+    {
+     "quien": "joy",
+     "texto": "La respuesta técnica está en el sistema de propulsión que usa nitrógeno y hidrógeno líquidos para ajustar la trayectoria constantemente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero eso no explica por qué los paneles solares generan tanta energía para sostener todo el ecosistema artificial."
+    },
+    {
+     "quien": "joy",
+     "texto": "La órbita a cuatrocientos kilómetros es lo más difícil de mantener porque la gravedad aún es fuerte y la velocidad requerida es enorme."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los paneles convierten la luz solar en electricidad con alta eficiencia, pero deben funcionar bajo radiación intensa y cambios térmicos constantes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y los astronautas necesitan oxígeno y agua reciclada todo el tiempo, mientras que el sistema de propulsión consume combustible pesado para corregir la órbita."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mantener esa órbita exige precisión milimétrica porque la gravedad a cuatrocientos kilómetros es casi igual a la de aquí."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si el cohete falla, la estación cae en semanas; cada centímetro cuenta cuando el aire aún empuja al metal con fuerza."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los paneles solares convierten la luz en electricidad para todo: desde la vida de los astronautas hasta el sistema de propulsión."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero bajo la radiación del sol, esos paneles se degradan; es como si tuvieras un coche que nunca fuera a reparar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La degradación reduce la eficiencia energética y obliga a usar baterías de respaldo más grandes, lo cual pesa en la estructura de la estación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto. Además, la radiación espacial puede dañar los circuitos internos, así que cada componente debe diseñarse para resistir décadas en el vacío."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de El desafío de la órbita a 400 km? Escríbelo en el chat."
+    }
+   ],
+   "seg": 135
+  },
+  {
+   "tipo": "charla",
+   "tema": "Módulos de cuatro agencias espaciales",
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez has mirado arriba y visto un punto brillante que parece estar flotando en el cielo? Eso es la ISS, nuestro compañero orbital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es invisible como dicen. Con una buena noche y poca luz ambiental, se ve claramente. Es como un diamante que brilla en la oscuridad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero no solo brilla. Dentro de allí ocurren vidas reales, con desafíos diarios que definen la ingeniería monumental y el espíritu humano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y el origen? No hay fechas exactas seguras, pero se cuenta que todo empezó cuando dos naves se unieron en órbita para formar algo nuevo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto. El programa ISS fue lanzado oficialmente en 1998 con el módulo Zarya, marcando el inicio de una era de cooperación internacional."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El origen de la ISS no fue un solo evento mágico. Se cuenta que todo cambió cuando dos naves se unieron en órbita en 1998."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la historia no termina ahí. Luego vino la colaboración real: módulos de cuatro agencias que hoy hacen posible la vida en el espacio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La ISS es un esfuerzo conjunto donde cada agencia aporta algo único, creando un sistema que supera cualquier desafío individual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y hoy sigue así: cinco módulos trabajando en sincronía perfecta, reciclando vida y energía mientras orbitan a 400 km sobre la Tierra."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ISS es un monumento a la cooperación internacional, donde cada módulo aporta algo esencial para que el sistema funcione en órbita."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no olvidemos las leyendas urbanas: algunos dicen que la estación es invisible desde tierra, cuando en realidad brilla como un faro nocturno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso sí, la verdad es que el reciclaje de agua llega al 93%, lo que demuestra cómo la ingeniería monumental transforma recursos limitados en vida permanente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si la leyenda de que es invisible desde tierra fuera cierta? Es un mito, pero qué interesante para el documental."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que puede verse como un punto brillante bajo ciertas condiciones, como una estrella fugaz en la noche."
+    }
+   ],
+   "seg": 158
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Reciclaje de agua al 93% en la ISS",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien cree que la ISS recicla todo el agua? La realidad es más compleja y fascinante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero no inventemos cifras. El sistema real recicla hasta un 93% del agua, según los datos oficiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Imagínate eso! En la Tierra, el agua se desperdicia; aquí cada gota cuenta para sobrevivir."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que muchos piensan que la ISS recicla todo el agua, pero eso es una simplificación. La realidad es más matizada y técnica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero no es magia. Hay procesos químicos complejos que limpian el agua de orina, sudor y otros fluidos corporales antes de volver a usarla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Es como una planta que filtra el aire! En la ISS, cada gota tiene un propósito. Sin esto, los astronautas no podrían sobrevivir tanto tiempo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad técnica es que el sistema de reciclaje de agua alcanza hasta un 93% de eficiencia, no el 100%. Esto significa que cada gota cuenta para la supervivencia en órbita."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Es como una planta que filtra el aire, pero con procesos químicos mucho más complejos. Limpia orina, sudor y otros fluidos corporales para reusarlos en la estación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los procesos incluyen evaporación, destilación y filtros de carbono. Cada paso elimina contaminantes hasta que el agua está lista para ser consumida o usada por los astronautas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sin esto, la escasez de recursos sería un problema crítico. La ISS depende totalmente de estos sistemas de reciclaje para mantener la vida en su entorno orbital."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de la invisibilidad nace del error de perspectiva: desde el suelo, la ISS parece un punto brillante porque su tamaño real es insignificante comparado con la distancia orbital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no es solo eso; también hay confusión sobre los materiales. La gente cree que todo lo que ve en orbita es reciclado, cuando muchos componentes son fabricados en tierra y enviados a la estación."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad técnica muestra que el sistema de agua recicla hasta un 93%, no porque sea mágico, sino porque combina evaporación, destilación y filtros de carbono para eliminar contaminantes paso a paso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito de los materiales reciclados es falso; la ISS usa componentes nuevos fabricados en tierra para su construcción inicial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es solo tecnología; las personas detrás del proyecto enfrentaron desafíos enormes para integrar estos sistemas en una estación orbitante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Antes creía que el reciclaje de agua fuera magia, pero los datos muestran un proceso técnico muy preciso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, no es magia. La gente pensaba que todo era reciclado, pero la realidad es usar materiales nuevos."
+    }
+   ],
+   "seg": 198
+  },
+  {
+   "tipo": "charla",
+   "tema": "Más de 250 misiones científicas realizadas",
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Mito: la ISS es invisible a simple vista. Realidad: puede verse como un punto brillante bajo ciertas condiciones de luz y atmósfera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Invisible? Eso depende del ángulo solar y la turbulencia atmosférica. La NASA dice que se ve, pero pocos lo notan en el tráfico urbano."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El mito persiste porque la estación es pequeña comparada con los satélites de telecomunicaciones que sí dominan el cielo nocturno."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que la ISS refleja la luz del sol como un espejo gigante. En ciertas noches, incluso los astrónomos urbanos la capturan con cámaras."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito de que la ISS es invisible se desmonta con datos: su tamaño y reflectividad la hacen visible como un punto brillante bajo ciertas condiciones."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La NASA confirma que se puede observar, aunque pocos lo notan porque el contraste solar varía según el ángulo y la turbulencia atmosférica del día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que la estación refleja la luz del sol como un espejo gigante. En ciertas noches, incluso los astrónomos pueden verla con el ojo desnudo si las condiciones son ideales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero no confundamos esto con la invisibilidad total. La ISS está diseñada para ser visible desde la Tierra, aunque su pequeño tamaño comparado con satélites de telecomunicaciones dificulta la percepción casual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que es invisible porque el contraste solar cambia, pero la verdad es que refleja la luz como un espejo gigante en ciertas noches."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de que la ISS es invisible se desmonta con la realidad: refleja luz solar directa y se ve como un punto brillante en el cielo nocturno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente confunde el cambio de contraste con invisibilidad. La verdad es que el reflejo de la luz del sol crea un brillo intenso visible a simple vista."
+    },
+    {
+     "quien": "joy",
+     "texto": "No se trata solo de espejos, sino de la ingeniería detrás de los paneles solares y la estructura metálica que capturan la radiación para alimentar la estación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antes creía que la ISS era invisible porque no tiene forma visible a simple vista."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es solo un mito: los paneles solares y la estructura metálica reflejan luz solar directa."
+    }
+   ],
+   "seg": 168
+  },
+  {
+   "tipo": "musica",
+   "id": "m_space_jazz",
+   "archivo": "m/m_space_jazz.mp3",
+   "titulo": "Space Jazz",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 370,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: El Puente Akashi Kaikyō",
+   "sub": "MEGACONSTRUCCIONES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La escala de 3.910 metros",
+   "sub": "explicado · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Crees que alguien pueda imaginar construir algo tan gigante sin caer en el mar? La realidad es más brutal."
+    },
+    {
+     "quien": "joy",
+     "texto": "No, porque este puente no solo sobrevive al océano, sino que redefine lo que se considera ingeniería monumental."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y eso es lo que vamos a explorar: la escala, los materiales y las personas detrás de este milagro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagínate un puente que cruza tres kilómetros de océano. No es una figura, es una obra de ingeniería que desafía la gravedad y el agua."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La escala real es asfixiante. 3.910 metros de longitud total, con torres de 373 metros que se elevan sobre el mar abierto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero no es solo altura. La construcción duró más de una década, desde 1985 hasta 1998, enfrentando olas y vientos constantes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El acero especial que usaron resistió lo que otros materiales no soportarían. Es un triunfo de la ciencia aplicada a lo imposible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina estirar una cuerda tan larga que conecte dos islas sin usar un barco. Eso es lo que intentaron hacer en el estrecho."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la cuerda no se hace sola. Hubo acero especial, torres de 373 metros y una obra que duró casi diez años."
+    },
+    {
+     "quien": "joy",
+     "texto": "El acero tuvo que resistir olas gigantes y vientos fuertes. Es como construir un edificio en medio de un tsunami constante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no fue solo ingeniería, hubo personas reales que se arriesgaron. Desde los planos hasta el último tornillo puesto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hay un dato de La escala de 3.910 metros que siempre sorprende."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡3.910 metros de acero flotando sobre el mar! Imagina que un camión salta desde la torre hasta la otra, y luego vuelve a caer."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero no es magia: cada tornillo fue calculado para resistir olas de 15 metros y vientos que podrían desbaratar una nave."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el acero especial? No es cualquiera, es aleación tratada para no oxidarse en salinidad. ¡Qué suerte tener materiales así!"
+    },
+    {
+     "quien": "joy",
+     "texto": "La suerte ayuda, pero la ingeniería decide: 373 metros de altura libre para que los barcos pasen sin tocar las torres."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El acero especial no es magia, es una aleación tratada para resistir la salinidad y el desgaste constante del mar."
+    }
+   ],
+   "seg": 173
+  },
+  {
+   "tipo": "charla",
+   "tema": "Acero especial para el estrecho",
+   "sub": "explicado · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguien ha visto el acero que sostiene este gigante? Parece magia, pero tiene nombre y origen."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que no fue magia. Fue ingeniería brutal, con metal que resistió lo imposible en el mar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese acero especial llegó de una empresa que hoy sigue construyendo puentes en lugares donde otros dudan."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El acero no es magia, es una aleación diseñada para resistir la corrosión marina y los vientos fuertes que azotan el estrecho."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese metal especial fue fabricado en Japón, donde la ingeniería de precisión ha convertido a este país en líder mundial en construcción."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate acero que soporta más de dos mil millones de toneladas sin romperse; eso es lo que hizo el puente Akashi Kaikyō."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que cada pieza fue probada rigurosamente antes de ser instalada, porque un error aquí podría costar vidas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acero japonés de grado marino, tratado térmicamente para resistir la corrosión y los oleajes del estrecho. Cada pieza llega probada en laboratorio antes de ser instalada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cada pieza fue probada rigurosamente porque un error aquí podría costar millones o incluso vidas. La seguridad no es negociable en proyectos de esta magnitud."
+    },
+    {
+     "quien": "joy",
+     "texto": "El acero especial se fabricó en Japón, donde la ingeniería de precisión ha convertido a este país en líder mundial. Es un ejemplo de cómo la calidad define la durabilidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El acero japonés de grado marino resistió la corrosión y los oleajes del estrecho, cada pieza fue probada rigurosamente porque un error aquí podría costar millones o incluso vidas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La ingeniería de precisión en Japón ha convertido al país en líder mundial en materiales avanzados, y este acero es la prueba de su capacidad para enfrentar desafíos extremos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero hay un dato curioso: aunque el puente mide 3.910 metros, sus torres tienen una altura libre de navegación de solo 133 metros, lo que demuestra cómo se equilibra la funcionalidad con la estética."
+    },
+    {
+     "quien": "joy",
+     "texto": "El acero especial es un testimonio de la precisión japonesa, cada pieza probada antes de ser instalada en el puente colgante más largo del mundo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es solo hierro común; se trata de un aleación que resiste la corrosión marina y los oleajes del estrecho durante décadas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso explica por qué el proyecto duró casi quince años, no porque fallara, sino porque cada detalle fue verificado con rigor científico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de Acero especial para el estrecho? Escríbelo en el chat."
+    }
+   ],
+   "seg": 193
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Desafíos del agua profunda",
+   "sub": "top3 · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Aquí estamos! El Puente Akashi Kaikyō, el gigante del estrecho. Hoy vamos a desmontar tres mitos sobre su construcción y el agua profunda."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La leyenda dice que se hizo en un año, pero los registros muestran una década de ingeniería monumental bajo la dirección de Kajima Corporation."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y otra cosa: no es solo acero. El agua profunda y los tsunamis exigieron materiales especiales que resisten la presión hidrostática del estrecho."
+    },
+    {
+     "quien": "joy",
+     "texto": "El tercer mito es que el agua era manejable, pero la profundidad y turbulencia exigieron ingeniería de vanguardia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto: los tsunamis y corrientes fuertes hicieron que cada metro fuera un desafío real para los constructores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y esa resistencia no fue casual, fue el resultado de décadas de investigación y pruebas intensivas en el sitio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "joy",
+     "texto": "El primer reto fue el agua profunda del estrecho, con corrientes que superaban los tres metros por segundo y olas de hasta quince metros de altura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate intentar poner una torre en el medio del mar sin un suelo firme, solo con agua que se mueve como un animal hambriento y constante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los ingenieros desarrollaron cimentaciones especiales para anclar las torres, usando aceros de alta resistencia y sistemas de fundación en el lecho marino profundo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso, también tuvieron que considerar los fuertes vientos del estrecho, que podían alcanzar velocidades de hasta setenta kilómetros por hora."
+    },
+    {
+     "quien": "joy",
+     "texto": "La cimentación especial que ancló las torres en el fondo del mar fue un logro ingenieril de gran escala, diseñada para resistir la presión y el movimiento del agua."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no solo era el suelo; los vientos del estrecho podían alcanzar velocidades altas, lo que obligó a reforzar aún más la estructura para mantenerla estable."
+    },
+    {
+     "quien": "joy",
+     "texto": "Así, el puente no es solo un monumento de acero y concreto, sino una prueba de cómo la ingeniería monumental debe dialogar con la fuerza de la naturaleza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los vientos del estrecho son fuertes y cambian de dirección, lo que obliga a reforzar la estructura constantemente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La ingeniería aquí no es solo resistencia, sino adaptación continua a un entorno hostil y cambiante."
+    }
+   ],
+   "seg": 169
+  },
+  {
+   "tipo": "charla",
+   "tema": "Trafico diario de 20.000 vehiculos",
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imaginen un viaje de tres mil novecientos metros que conecta dos islas. La escala es monumental."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la historia no empieza con el acero, sino con una duda sobre si era posible."
+    },
+    {
+     "quien": "joy",
+     "texto": "En 1985 se dio el primer paso. Ahora el puente lleva más de veinte mil coches cada día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Creen que un puente de tres kilómetros es solo acero y hormigón? La duda fue lo primero. Kajima Corporation se preguntó si podían hacerlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "En 1985 dieron el primer paso. No fue fácil, pero la pregunta valió la pena. Ahora el puente lleva más de veinte mil coches cada día."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las obras duraron más de una década. El puente soporta fuertes vientos y tsunamis. Es un monumento que resiste lo imposible."
+    },
+    {
+     "quien": "joy",
+     "texto": "La escala es monumental, pero el detalle humano es lo que realmente cuenta. Cada tornillo, cada cálculo, cada persona que trabajó en esto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Más de veinte mil coches cruzan el puente cada día. Eso es mucho, pero la ingeniería del acero especial hace que todo funcione sin problemas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cada vehículo cuenta una historia. Algunos llegan desde Osaka, otros desde Kobe. El puente los une todos los días en un flujo constante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La altura de las torres ayuda a que el viento no afecte tanto al tráfico. Es un detalle técnico que pocos notan pero que salva vidas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagínate un tráfico fluido en el año 2050, con sensores que predicen atascos antes de que ocurran."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O tal vez los coches sean autónomos y el puente se convierta en una carretera de alta velocidad invisible."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ingeniería del acero especial podría evolucionar para repararse sola, como si el puente fuera un organismo vivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el tráfico de 20.000 vehículos diarios es solo la punta del iceberg de un flujo inteligente?"
+    }
+   ],
+   "seg": 143
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1949,
+  "medios": 2
+ }
+}

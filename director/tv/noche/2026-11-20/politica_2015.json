@@ -1,0 +1,452 @@
+{
+ "bloque": "politica_2015",
+ "programa": "vtubing",
+ "fecha": "2026-11-20",
+ "creado": "18:25:55",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Newer Wave en el VTuber Lab",
+   "sub": "VTUBER LAB",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo animan avatares con seguimiento facial en vivo",
+   "diagrama": {
+    "tipo": "comparar",
+    "titulo": "Top 3 Seguimiento Facial",
+    "cajas": [
+     {
+      "t": "3° Bajo Costo",
+      "n": "Mocap casero estilo Newer Wave"
+     },
+     {
+      "t": "2° Código Abierto",
+      "n": "Algoritmos adaptados para eventos"
+     },
+     {
+      "t": "1° Newer Wave",
+      "n": "Integrado en shows en vivo 2049"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "顔をアバターに挿入！今夜もbeatが生きてるぞ",
+    "ja_es": "¡Inserta tu cara en un avatar! Esta noche el beat también cobra vida",
+    "en": "Plug your face in an avatar and watch the beat breathe live",
+    "en_es": "Enchufa tu cara a un avatar y mira cómo el beat respira en vivo"
+   },
+   "sub": "top3 · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Abrimos el top tres de formas más curiosas de animar avatares con seguimiento facial en vivo aquí en el VTuber Lab."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El criterio es el ángulo cultural, cómo cada método refleja esa mezcla de Newer Wave y la obsesión por conectar en tiempo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el tercer puesto está el seguimiento facial con mocap de bajo costo que usan muchos creadores independientes del VTuber Lab. Refleja esa cultura Newer Wave de improvisar con lo que tienes a mano y seguir conectando aunque la señal falle a ratos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y culturalmente es como esos sets caseros donde la música electrónica se mezcla con la vida real. El avatar copia cada bostezo o ceja levantada y el chat se siente parte del show en vivo sin que nadie pida permiso."
+    },
+    {
+     "quien": "joy",
+     "texto": "En segundo lugar aparece el seguimiento facial con algoritmos de código abierto que el VTuber Lab adapta para sus eventos. Culturalmente refleja esa mezcla de Newer Wave donde la gente prefiere herramientas libres antes que esperar a que las grandes firmas lancen parches."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso encaja perfecto con la obsesión por conectar en vivo porque cualquier músico underground puede sincronizar su cara con el avatar mientras suena el sintetizador sin pedir permiso a nadie. Además evita que el stream se caiga cuando la tarjeta de 6 GB del canal decide recordar que es del siglo pasado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el primer puesto se lo lleva el seguimiento facial con Newer Wave integrado que el VTuber Lab usa en sus shows en vivo. Culturalmente es fascinante porque transforma cada nota electrónica en una expresión que el público siente al instante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que más me divierte es cómo un artista independiente puede enchufar su cara a un avatar y de repente parece que la música misma tiene orejas de gato. El Lab solo pone el software y el resto sale de pura conexión digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa para el seguimiento facial con Newer Wave que el VTuber Lab probó en un evento. Culturalmente es como si el público estuviera dentro del ritmo y el avatar reaccionara al instante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo curioso es que los artistas independientes terminan creando momentos donde el beat parece tener vida propia. Se cuenta que algunos avatares hasta improvisan gestos que nadie programó."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat, ya que estamos en el top tres cultural, dinos cuál sería tu número uno para animar avatares con seguimiento facial en vivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, cuéntennos si prefieren el que parece que el beat respira o el que convierte tu cara en un sintetizador andante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras leemos respuestas, recordemos que el VTuber Lab ha colaborado con artistas para que esas interacciones se sientan aún más orgánicas."
+    }
+   ],
+   "seg": 204,
+   "imgs": [
+    {
+     "web": "/medios/1fda299699274c77_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/1fda299699274c77_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Bicentenario de los Estados Unidos»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Eventos en vivo con juegos y sorteos del Lab",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Evolución Eventos Lab",
+    "cajas": [
+     {
+      "t": "Inicio Newer Wave",
+      "n": "VTuber Lab mezcla música y evento vivo"
+     },
+     {
+      "t": "Seguimiento Facial",
+      "n": "Retraso hace que avatar sonría solo"
+     },
+     {
+      "t": "Primer Sorteo",
+      "n": "Avatares reparten skins con beats de fondo"
+     },
+     {
+      "t": "Colaboración Artistas",
+      "n": "Sincronía facial reacciona a vibraciones"
+     },
+     {
+      "t": "Motor Actualizado",
+      "n": "Sorteos responden chat sin congelarse"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ラボのライブ抽選で心拍が当選？ チャット待ってるよ",
+    "ja_es": "¿El latido decide el sorteo en el Lab? Te esperamos en el chat",
+    "en": "Lab live draws measuring your heartbeat now? Join the chat",
+    "en_es": "¿Sorteos en vivo del Lab midiendo tu latido ahora? Únete al chat"
+   },
+   "sub": "linea tiempo · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Todo empezó cuando el VTuber Lab decidió mezclar Newer Wave con un evento en vivo. De repente los avatares estaban sorteando skins mientras los chats explotaban de mensajes."
+    },
+    {
+     "quien": "joy",
+     "texto": "El giro llegó con el seguimiento facial. Un solo retraso y el avatar se queda sonriendo mientras el usuario ya está maldiciendo el lag."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí fue cuando el Lab empezó a mezclar Newer Wave con sorteos en vivo. Los avatares repartían skins mientras los chats explotaban de emoción. Lo curioso es que muchos de esos creadores son independientes, no profesionales contratados como se cree."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y la colaboración con artistas dio un giro técnico. El seguimiento facial sincroniza todo en tiempo real, pero un solo lag y el avatar sigue bailando feliz mientras el usuario ya cambió de canción."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Luego vino el primer sorteo en vivo con Newer Wave de fondo. El avatar sorteaba skins mientras el chat pedía más beats. El Lab tuvo que actualizar el software a toda prisa porque un retraso y el premio salía con cara de gato confundido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ahí cambió todo. La colaboración con artistas permitió que el seguimiento facial reaccionara a las vibraciones de la música. Ahora un drop de bajo puede hacer que el avatar levante las orejas en milisegundos sin que el usuario mueva un músculo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El Lab actualizó el motor para que los sorteos respondan a comandos de chat sin congelarse. Ahora cuando alguien gana un skin el avatar hace un baile que sigue el beat exacto de Newer Wave."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso abrió la puerta a eventos donde los juegos en vivo miden la reacción del público en tiempo real. Un pico de hype y el avatar lanza premios extra sin que nadie tenga que tocar un botón."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagino que pronto el Lab integrará sensores hápticos para que los ganadores de sorteos sientan el drop de Newer Wave en la piel. Se cuenta que un pico de chat podría activar luces reales en sus habitaciones."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y especulando más allá, los juegos en vivo medirán el ritmo cardíaco colectivo del público para decidir el siguiente premio. Un avatar que baila al compás de datos reales, sin intermediarios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Oye Joy, si el Lab sigue midiendo reacciones en tiempo real, pronto los sorteos van a necesitar un formulario digital solo para elegir el color del confeti."
+    },
+    {
+     "quien": "joy",
+     "texto": "Curioso que la tecnología de seguimiento facial capture cada sonrisa nerviosa. Imagina un sorteo donde el avatar decide el ganador por la velocidad de parpadeo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si el público conecta sus propios sensores, el Lab podría crear un loop donde un latido colectivo elige la siguiente pista de Newer Wave."
+    }
+   ],
+   "seg": 203,
+   "imgs": [
+    {
+     "web": "/medios/1fda299699274c77_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/1fda299699274c77_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Bicentenario de los Estados Unidos»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20210610_m2020f_mars_report_nasas_pe",
+   "archivo": "v/v_nasa_jpl_20210610_m2020f_mars_report_nasas_pe.mp4",
+   "titulo": "Mars Report: Update on NASA’s Perseverance Rover SuperCam Instrument",
+   "atribucion": "«Mars Report: Update on NASA’s Perseverance Rover SuperCam Instrument» — NASA · images.nasa.gov",
+   "dur": 134,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La Narrativa Visual en Vivo",
+   "sub": "VTUBER LAB",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Iluminación virtual que guía la historia",
+   "diagrama": null,
+   "intl": {
+    "ja": "仮想光で猫みたいに固まる？チャットで語ろう！",
+    "ja_es": "¿Te congelas como un gato con luz virtual? ¡Hablemos en el chat!",
+    "en": "Virtual lights freezing us like cats? Join the chat.",
+    "en_es": "¿Luces virtuales que nos congelan como gatos? Únete al chat."
+   },
+   "sub": "entrevista con Dra. Estática (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Con mucho show del futuro les presento a la Dra. Estática, personaje de parodia hecho por IA, científica loca con bata chamuscada y cero relación con nadie real. Bien, doctora, cuéntanos cómo la iluminación virtual guía la historia en vivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Doctora aquí, el renderizado en tiempo real simula luces que dirigen la mirada del espectador como un gato persiguiendo un láser. Mi último invento casi explota pero iluminó todo el stream, latencia incluida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante, porque según la hoja los motores de videojuegos dan las bases para esos entornos tridimensionales. ¿Cómo evitas que la narrativa se pierda cuando el flujo de datos se tambalea?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctora, según los datos el diseño de iluminación virtual es fundamental para crear atmósferas y dirigir la atención del espectador. ¿Qué papel juega eso en una transmisión en vivo de avatares?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Joy el renderizado en tiempo real es un caos glorioso mis luces virtuales bailan como electrones locos y guían la mirada del público igual que un puntero láser a medianoche mi último invento casi prende fuego a la simulación pero quedó precioso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctora, si la iluminación virtual dirige la atención como dices, ¿qué pasa cuando un avatar se ilumina de más y el espectador termina hipnotizado sin enterarse de la historia?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto Joy! Mis luces virtuales bailan como electrones locos y guían la mirada del público igual que un puntero láser en una sala de gatos, pero a veces el renderizado en tiempo real se emociona tanto que casi explota el motor y todos terminamos viendo puras estrellas en lugar de la narrativa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que nadie sabe es que el ojo humano sigue primero las zonas de mayor contraste lumínico antes que cualquier movimiento, por eso una luz sutil puede dirigir toda la narrativa sin que nadie sospeche. Mis inventos casi explotan cada vez que ajusto esos gradientes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctora, si el contraste lumínico manda primero, ¿qué ocurre cuando el avatar brilla tanto que el chat entero se queda en silencio?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Se congelan como gatos ante un punto láser! Mis luces virtuales casi explotan el motor y el público olvida hasta respirar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y si la latencia aparece justo ahí, ¿el hipnotismo se vuelve comedia o simplemente un error de renderizado vivo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Error glorioso, Joy. El avatar se pone azul neón y todos creen que es arte conceptual de Doll Dynamics."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctora, la hoja dice que el flujo de datos constante evita interrupciones. ¿Cómo evitas que una luz mal colocada rompa toda la narración en vivo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Con un condensador de chispas que casi prende fuego al servidor! El avatar parpadea y de repente la historia cambia de drama a payasada sin aviso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces si la latencia se come medio segundo, el espectador ya perdió el hilo emocional. ¿Eso convierte cada transmisión en una ruleta rusa visual?"
+    }
+   ],
+   "seg": 217,
+   "imgs": [
+    {
+     "web": "/medios/1c53f044b0409984_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/1c53f044b0409984_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Boyhood»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Organizar elementos 3D para contar sin palabras",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Línea de Tiempo 3D",
+    "cajas": [
+     {
+      "t": "Avatar en Vacío",
+      "n": "Flota solo en negro"
+     },
+     {
+      "t": "Primer Cubo",
+      "n": "Recuerdo o amenaza"
+     },
+     {
+      "t": "Formas y Luces",
+      "n": "Ritmo y futuro lejano"
+     },
+     {
+      "t": "Latencia y Giro",
+      "n": "Motor decide por ti"
+     },
+     {
+      "t": "Segundo Modelo",
+      "n": "Responde al primero"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "3Dで無言の笑い、君の好奇心はどこから？",
+    "ja_es": "Con 3D sin palabras, ¿de dónde viene tu curiosidad?",
+    "en": "What 3D prop would you drop first to spark silent curiosity?",
+    "en_es": "¿Qué elemento 3D pondrías primero para despertar curiosidad sin palabras?"
+   },
+   "sub": "linea tiempo · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que todo empieza con un avatar flotando en un vacío negro. De pronto colocas un solo cubo detrás y la historia ya cambió sin decir ni una palabra."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, ese cubo puede ser un recuerdo o una amenaza según el ángulo. El motor de videojuegos decide si el espectador siente nostalgia o paranoia en medio segundo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese cubo se convierte en el primer ladrillo de una línea de tiempo tridimensional. Colocas más formas a diferentes distancias y el motor de videojuegos ya te está contando cómo avanza la historia sin que nadie abra la boca."
+    },
+    {
+     "quien": "joy",
+     "texto": "La iluminación virtual marca el ritmo. Un foco tenue en el fondo puede sugerir un futuro lejano mientras el avatar principal brilla con detalle porque las cámaras de alta resolución capturan cada matiz y el software de seguimiento facial lo mantiene vivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero siempre aparece la latencia como ese invitado que nunca llega a tiempo. Organizas todo perfecto en el espacio 3D y de repente el flujo de datos se atrasa un segundo y tu amenaza se siente como un recuerdo borroso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y justo ahí el giro llega cuando el motor de videojuegos decide que el avatar ya no es solo un modelo geométrico sino el narrador principal. Colocas un holograma de Doll Dynamics en el fondo y de pronto el espectador entiende el conflicto entero sin que digas ni una palabra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El seguimiento facial capta ese microsegundo de duda y lo multiplica en el espacio 3D. La cámara de alta resolución lo clava todo pero si la latencia se come medio frame el futuro lejano que pintaste con luz tenue se vuelve un chiste técnico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy la organización de elementos 3D avanza cuando colocas un segundo modelo geométrico que responde al primero como si fuera un eco visual. El motor de videojuegos lo convierte en una línea de tiempo que el espectador lee sin una sola palabra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese eco se complica si la iluminación virtual cambia de tono justo cuando el seguimiento facial detecta una sonrisa. De pronto el cubo que era recuerdo se vuelve advertencia y la cámara de alta resolución lo sella todo sin piedad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ahora imagina que en el futuro un tercer modelo geométrico aparece solo cuando el flujo de datos detecta que el espectador parpadeó dos veces seguidas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese tercer modelo podría ser el que guarda el chiste que nadie pidió y el motor de videojuegos lo hace girar justo cuando la latencia decide portarse bien."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat, ¿qué elemento 3D pondrías primero en tu línea de tiempo para que el público sienta curiosidad sin una sola palabra?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo agregaría un segundo modelo que solo se activa si la cámara de alta resolución capta un bostezo real del streamer."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante, eso obligaría al motor a decidir si el bostezo es aburrimiento o parte del cuento visual."
+    }
+   ],
+   "seg": 220,
+   "imgs": [
+    {
+     "web": "/medios/d3f5e85080239bf5_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/d3f5e85080239bf5_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Boyhood»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_i6WvvstJ-Dw",
+   "archivo": "yt/synthwave/i6WvvstJ-Dw.m4a",
+   "titulo": "N3WPORT & Meggie York - Runaway | Future Bass | NCS",
+   "audio": "yt/synthwave/i6WvvstJ-Dw.m4a",
+   "atribucion": "Música: «N3WPORT & Meggie York - Runaway | Future Bass | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 213,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/i6WvvstJ-Dw.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt__s7iMASihSQ",
+   "archivo": "yt/phonk/_s7iMASihSQ.m4a",
+   "titulo": "Rameses B & eerie - OFFLINE | Phonk | NCS",
+   "audio": "yt/phonk/_s7iMASihSQ.m4a",
+   "atribucion": "Música: «Rameses B & eerie - OFFLINE | Phonk | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 159,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/_s7iMASihSQ.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 844,
+  "medios": 3
+ }
+}

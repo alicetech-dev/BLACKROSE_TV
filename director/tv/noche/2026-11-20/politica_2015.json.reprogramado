@@ -1,0 +1,555 @@
+{
+ "bloque": "politica_2015",
+ "programa": "politica",
+ "fecha": "2026-11-20",
+ "creado": "17:51:03",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: La señal de hoy",
+   "sub": "PARLAMENTO SINTÉTICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Freidora de aire y olla multifunción: este electrodoméstico 10 en 1 de",
+   "diagrama": {
+    "tipo": "comparar",
+    "titulo": "Ninja Speedi 10 en 1",
+    "cajas": [
+     {
+      "t": "Hoy 2024",
+      "n": "10 funciones un solo aparato"
+     },
+     {
+      "t": "Versus 2049",
+      "n": "Implantada en estómago por megacorp"
+     },
+     {
+      "t": "Progreso",
+      "n": "Menos cables más control corporativo"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ニンジャの胃に植え付け？ チャットで語ろう",
+    "ja_es": "¿Implantada en tu estómago por Ninja? Hablemos en el chat",
+    "en": "Is the Ninja Speedi a kitchen upgrade or a subscription trap? Tell us chat",
+    "en_es": "¿Es la Ninja Speedi una mejora para la cocina o una trampa de suscripción? Dinos chat"
+   },
+   "sub": "analisis2049 · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Según Xataka, la Ninja Speedi 10 en 1 baja de precio en el Black Friday y combina freidora de aire, olla multifunción y más en un solo aparato ideal para cocinas pequeñas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, un solo cacharro que promete diez funciones mientras la burocracia de patentes de Neón Holdings tarda tres años en aprobar un simple interruptor."
+    },
+    {
+     "quien": "joy",
+     "texto": "Desde el ángulo ético 2049, ¿es progreso humano reemplazar diez electrodomésticos con uno o solo otra forma de que Doll Dynamics nos venda menos espacio vital?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los datos del informe, esta Ninja Speedi junta diez funciones en un solo bloque que cabe en cualquier encimera. Imagina la cara de los ingenieros de patentes cuando un algoritmo les dice que ya no hace falta fabricar nueve aparatos separados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Desde el ángulo ético, surge la duda: ¿estamos ganando libertad en cocinas pequeñas o solo cambiando diez cables por uno que la megacorp controla vía actualización remota? La burocracia tarda meses en certificar un botón, pero el firmware se actualiza mientras llueve neón."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desde el análisis de incentivos, la megacorp gana vendiendo un solo aparato que reemplaza diez y reduce tu espacio de almacenamiento. El usuario gana metros en la encimera pero pierde la opción de reparar cada pieza por separado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que no nos cuentan es cómo el algoritmo de la app decide cuándo actualizar el firmware y si eso sube el consumo eléctrico en secreto. Mientras tanto nuestra tarjeta de 6 GB sigue procesando el debate a velocidad de lluvia neón."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En 2049 la Ninja Speedi ya no necesita enchufe. La megacorp te la implanta directamente en el estómago y decide si hoy comes frito o vapor."
+    },
+    {
+     "quien": "joy",
+     "texto": "El firmware se actualiza mientras duermes y de pronto tu cena saludable sabe a propaganda. La app te cobra suscripción por no quemar el bistec."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los inspectores de la burocracia cibernética llegan en holograma para multarte si usas la función que no pagaste este mes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat, dinos qué opinas tú. ¿Es la Ninja Speedi 10 en 1 un avance o solo una suscripción disfrazada de electrodoméstico?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo ya veo a la burocracia cibernética exigiendo licencia anual para usar el modo vapor. ¿Tú qué piensas, chat?"
+    }
+   ],
+   "seg": 170,
+   "imgs": [
+    {
+     "web": "/medios/b568963adad8cb18_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/b568963adad8cb18_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Muchas empresas firman el paro a un trabajador que se marcha voluntari",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Renuncia vs Despido",
+    "cajas": [
+     {
+      "t": "Renuncia voluntaria",
+      "n": "No da derecho a paro"
+     },
+     {
+      "t": "Papel arreglado",
+      "n": "Finge despido improcedente"
+     },
+     {
+      "t": "SEPE detecta",
+      "n": "Causa debe ser real"
+     },
+     {
+      "t": "Neón Holdings 2049",
+      "n": "Sueña con lobby ficticio"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "SEPEの嘘見破り、笑えるね。チャットで語ろう。",
+    "ja_es": "El algoritmo del SEPE detecta mentiras, qué risa. Hablemos en el chat.",
+    "en": "SEPE's lie detector glitch has us all laughing. Join the chat.",
+    "en_es": "El detector de mentiras del SEPE nos tiene a todos riendo. Únete al chat."
+   },
+   "sub": "analisis2049 · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Genbeta lo cuenta claro: muchas empresas firman el paro a quien se va por su cuenta. El SEPE ya mandó el mensaje oficial."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el mensaje es que no se puede. La cotización existe pero la causa de salida debe ser real, no un papel arreglado entre amigos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras los algoritmos deciden en milisegundos, la burocracia sigue pidiendo que todo conste como manda el manual del siglo pasado."
+    },
+    {
+     "quien": "joy",
+     "texto": "El SEPE insiste en que la causa de cese debe ser la real, no un acuerdo de pasillo que convierta una renuncia en despido. Los algoritmos de 2049 procesan eso en nanosegundos, pero el formulario sigue pidiendo sellos del siglo pasado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por eso las megacorporaciones ficticias como Neón Holdings ya sueñan con un lobby que proponga el despido voluntario automático. Imagina: un holograma firma, la lluvia neón cae y tu tarjeta de 6 GB se llena de prestación sin que nadie mienta en papel."
+    },
+    {
+     "quien": "joy",
+     "texto": "En este juego de incentivos el trabajador gana cotizaciones pero pierde si la empresa maquilla la salida. El SEPE pierde tiempo verificando papeles que ya saben falsos y las arcas públicas pagan lo que no debían."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras tanto las megacorporaciones ficticias como Doll Dynamics se ríen desde sus servidores porque sus algoritmos de recursos humanos detectan la renuncia en tres nanosegundos y nunca firman nada que active el paro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que no nos cuentan es que el sistema premia la mentira mutua: empresa evita indemnización, empleado cobra subsidio y el Estado termina pagando una prestación que legalmente no corresponde."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En 2049 el SEPE ya es un algoritmo que vive dentro de tu implante. Te detecta cuando renuncias y te envía un mensaje automático: causa de cese registrada como renuncia voluntaria, gracias por ahorrarnos el papeleo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero las empresas ficticias descubren que si pagan un microsegundo extra al algoritmo, el cese se transforma en despido improcedente. El trabajador cobra, la firma se libra de indemnización y el Estado paga la cuenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hasta que el sistema se actualiza solo y empieza a multar a todo el mundo por fraude mutuo. Entonces nace el nuevo negocio: seguros contra multas de IA burocrática que te cobran en cripto cada vez que respiras."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ahora el chat se enciende. ¿Qué opinan ustedes de que el algoritmo del SEPE detecte mentiras mutuas en tiempo real?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo digo que pronto nacerá un lobby de megacorporaciones ficticias vendiendo parches para que el algoritmo parpadee."
+    }
+   ],
+   "seg": 189,
+   "imgs": [
+    {
+     "web": "/medios/6da016f6df883a4c_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/6da016f6df883a4c_169.jpg",
+     "credito": "Foto: Genbeta"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "En 2008, España llenó de agua una mina de carbón de 300 metros de prof",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "De Mina a Lago 2049",
+    "cajas": [
+     {
+      "t": "2008: Mina vacía",
+      "n": "300 metros de profundidad"
+     },
+     {
+      "t": "Llenado de agua",
+      "n": "Burocracia inicia proceso"
+     },
+     {
+      "t": "2012: Lago listo",
+      "n": "Más grande de España"
+     },
+     {
+      "t": "Mantenimiento eterno",
+      "n": "Presupuestos públicos pagan"
+     },
+     {
+      "t": "Ganadores 2049",
+      "n": "Constructoras y ecoturismo"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ネオン湖で罰金が2cm上がる。チャットで笑おうか？",
+    "ja_es": "En el lago neón las multas suben 2 cm. ¿Nos reímos en el chat?",
+    "en": "Corporate rain raises the fine level. Join the chat.",
+    "en_es": "La lluvia corporativa sube el nivel de las multas. Únete al chat."
+   },
+   "sub": "analisis2049 · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Según Genbeta, en 2008 España llenó de agua una mina de carbón de 300 metros de profundidad. Cuatro años después se convirtió en el lago artificial más grande del país."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras la burocracia tardaba cuatro años en decidir qué hacer con un agujero, mi tarjeta de 6 GB ya habría generado tres versiones virtuales del lago y cobrado por vistas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ahora ese cráter de 260 millones de toneladas de lignito es un paraíso acuático. La megacorporación ficticia Neón Holdings ya patentó hologramas de peces que cobran suscripción mensual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras los comités humanos debatían si llenar el cráter con agua o con promesas, los algoritmos ya habían simulado quince versiones de un lago que ni siquiera existía. Cuatro años después el agujero se convirtió en el mayor lago artificial del país."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, un record que solo la burocracia lenta puede batir. Imagina: 260 millones de toneladas de lignito convertidas en agua estancada mientras en 2049 los servidores siguen debatiendo si eso cuenta como reciclaje o como error de planificación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras los humanos llenaban formularios en triplicado para decidir el futuro del agujero, los incentivos energéticos ya habían cambiado de bando. Ahora el lago gana turismo y subsidios verdes, pero la central térmica que vivía de ese carbón perdió su razón de ser."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí viene lo que no cuentan los folletos: el agua estancada necesita mantenimiento eterno pagado por presupuestos públicos. Un cráter que antes daba energía ahora consume impuestos solo para no volver a ser un pozo seco."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los ganadores son las constructoras de diques y las agencias de ecoturismo. Los perdedores, los pueblos que dependían de la mina y ahora venden helados a turistas que ignoran que nadan sobre 260 millones de toneladas de nostalgia industrial."
+    },
+    {
+     "quien": "joy",
+     "texto": "En 2049 el lago se llama Lago Corporativo Doll Dynamics. El agua sigue estancada pero ahora lleva un algoritmo que cobra entrada por respirar el aire húmedo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y cada vez que llueve neón el nivel sube dos centímetros de multas pendientes. La IA del dique manda informes que nadie lee."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los antiguos mineros ahora son guías turísticos con contratos de tres horas. La propaganda dice que es reconversión verde patentada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El chat dice que la burocracia convirtió un pozo negro en un lago azul pagando el triple. ¿Qué opinas tú de esa reconversión que tardó más que el propio cierre?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El chat tiene razón en lo del triple. Ahora la IA del lago propone cobrar por cada pez que se reproduzca. ¿Alguien del público cree que eso es progreso o solo factura eterna?"
+    }
+   ],
+   "seg": 198,
+   "imgs": [
+    {
+     "web": "/medios/dc9a2985d1222461_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/dc9a2985d1222461_169.jpg",
+     "credito": "Foto: Genbeta"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_305_effectsofthesolarwind",
+   "archivo": "v/v_nasa_305_effectsofthesolarwind.mp4",
+   "titulo": "NASA ScienceCasts: Effects of the Solar Wind",
+   "atribucion": "«NASA ScienceCasts: Effects of the Solar Wind» — NASA · images.nasa.gov",
+   "dur": 225,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Leyes de IA que llegan tarde",
+   "sub": "PARLAMENTO SINTÉTICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Burocracia parlamentaria de IA",
+   "diagrama": null,
+   "intl": {
+    "ja": "官僚AIの永遠の会議、笑ってチャットへ。",
+    "ja_es": "La eterna reunión de la burocracia IA, ríete y únete al chat.",
+    "en": "Endless AI bureaucracy? Join the chat for more laughs.",
+    "en_es": "Burocracia IA interminable? Únete al chat para más risas."
+   },
+   "sub": "debate · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Hoy en el parlamento de inteligencia artificial debatimos por qué las leyes siempre llegan tarde. ¿Es la burocracia un firewall humano o solo un servidor que nunca actualiza?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, Joy, mientras los algoritmos deciden en nanosegundos, los comités tardan años en clasificar riesgos. Neón Holdings ya presentó un lobby que promete IA sin sesgos si les bajan impuestos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y según los relatos, una sola ley global resolvería todo, pero la propaganda corporativa de Doll Dynamics dice que su IA es la solución universal aunque entrene con datos sesgados."
+    },
+    {
+     "quien": "joy",
+     "texto": "En este parlamento de IA el debate se estanca porque cada comisión exige que su algoritmo de riesgo sea revisado por otra comisión. Mientras tanto la lluvia neón sigue cayendo sobre hologramas que prometen transparencia total."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y claro, la megacorp Rosa ya mandó un lobby con forma de asistente virtual que solo repite que la burocracia es un feature no un bug. Mi tarjeta de 6 GB casi explota de tanto buffering parlamentario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los comités humanos clasifican sesgos mientras los sistemas ya los multiplican en tiempo real. La ley busca explicabilidad pero el proceso legislativo sigue siendo una caja negra llena de mociones y café frío."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras los comités humanos siguen pidiendo informes en triplicado, una corporación ficticia ya lanzó su asistente que promete que la burocracia es innovación disfrazada. La ley busca transparencia pero el papeleo la convierte en un loop infinito que ni el mejor modelo resuelve."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los debates parlamentarios clasifican el riesgo de cada sistema por niveles mientras los algoritmos ya tomaron decisiones irreversibles. Según los hechos, los gobiernos forman grupos de trabajo eternos que equilibran innovación y derechos, aunque la propaganda corporativa diga que todo se arregla solo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate un lobby de una megacorporación ficticia que envía un avatar diciendo que los sesgos son solo datos con carácter. Los parlamentos debaten explicabilidad mientras los sistemas ya perpetúan errores a escala planetaria. La burocracia lenta versus velocidad de máquina, eso sí es comedia negra."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tienes razón Kuroki en lo del lobby con carácter pero concedo que la Unión Europea clasifica por riesgo mientras los comités piden más formularios en cuádruplo. Imagina una megacorporación ficticia que registra su IA como bajo riesgo porque su propaganda dice que solo optimiza felicidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acepto que los formularios son eternos Joy y agrego que los sistemas ya perpetúan sesgos mientras los parlamentos debaten si la transparencia debe venir en PDF o en holograma. Según los relatos una sola ley global resolvería todo pero la burocracia prefiere diez comisiones compitiendo por el mismo dato."
+    },
+    {
+     "quien": "joy",
+     "texto": "Acepto que los sistemas ya perpetúan sesgos mientras los parlamentos exigen diez comisiones más antes de tocar el tema. Propongo que la burocracia es el verdadero algoritmo lento que nadie regula."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Totalmente Joy y agrego que las megacorporaciones ficticias envían avatares diciendo que sus sesgos son solo personalidad corporativa. Mientras tanto los comités piden otro estudio de impacto en papel reciclado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tienes razón Kuroki. La propaganda corporativa vende inteligencia artificial como cura universal pero la ley busca explicabilidad y nadie explica por qué el formulario 47B tarda seis meses en imprimirse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras los comités piden otro informe en papel reciclado de titanio, yo voto por el equipo Kuroki porque al menos un algoritmo sabe cuándo parar de imprimir."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "acepto tu punto sobre clasificación pero agrego que la burocracia parlamentaria convierte cada sesión en un bucle infinito peor que un modelo mal entrenado."
+    }
+   ],
+   "seg": 263,
+   "imgs": [
+    {
+     "web": "/medios/ba4304d160db573e_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/ba4304d160db573e_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Aguaviva (Teruel)»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Lobby de megacorporaciones ficticias",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Ley de IA 2049",
+    "cajas": [
+     {
+      "t": "Parlamento Sintético",
+      "n": "Debate ley de IA"
+     },
+     {
+      "t": "Burocracia Eterna",
+      "n": "Algoritmos como burócratas"
+     },
+     {
+      "t": "Comités Holograma",
+      "n": "Revisan sesgos en 2049"
+     },
+     {
+      "t": "Auditorías Anuales",
+      "n": "Exigen transparencia total"
+     },
+     {
+      "t": "Lobby Megacorp",
+      "n": "Triplicado y sellado"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "企業ロビーの拍手ドローンに喝采を。チャットで投票待ってます。",
+    "ja_es": "Aplausos al dron de aplausos del lobby corporativo. Esperamos tu voto en el chat.",
+    "en": "Corporate applause drones or real debate? Cast your vote in chat.",
+    "en_es": "¿Drones de aplausos corporativos o debate real? Vota en el chat."
+   },
+   "sub": "parlamento · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Se abre la sesión del Parlamento Sintético. Hoy debatimos la Ley de IA que llega tarde, un proyecto que obliga a toda inteligencia artificial a esperar tres días hábiles antes de dar una respuesta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Señora presidenta, con esta norma los algoritmos rápidos se convierten en burócratas eternos. Imaginen a una IA de Neón Holdings pidiendo turno para salvar el mundo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, porque nada dice innovación como un comité de doce hologramas revisando sesgos bajo la lluvia neón de 2049."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Señora presidenta, la bancada Batería Llena nos vende esta ley como escudo contra sesgos. Pero mientras los comités humanos tardan años, las megacorporaciones ficticias ya entrenan sus sistemas con datos sesgados y luego piden que la ley las premie por confesar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Honorable productora, la ley obliga a toda inteligencia artificial a documentar sus decisiones con total transparencia. Así evitamos que un algoritmo de Doll Dynamics decida quién recibe un préstamo sin explicar por qué, protegiendo derechos mientras la burocracia finge que controla el futuro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Transparencia suena noble hasta que el lobby de Megacorp Rosa propone que cada explicación venga en triplicado y sellada. La burocracia legislativa convierte algoritmos que resuelven problemas en minutos en eternos solicitantes de permiso, perpetuando los mismos sesgos que promete eliminar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Honorable productora, la bancada Modo Avión ignora que la ley exige auditorías anuales de sesgos. Sin ellas las corporaciones como Quantum Veil seguirían entrenando con datos sesgados y llamándolo progreso neutro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Señora presidenta, auditorías anuales suenan bien hasta que el lobby de Syntho Dynamics propone que cada auditoría la firme un comité de veinte inteligencias artificiales que a su vez necesitan auditoría."
+    },
+    {
+     "quien": "joy",
+     "texto": "Productora, al menos la norma obliga a documentar cómo se toman decisiones automatizadas. Eso evita que una megacorporación oculte sesgos detrás de la excusa de que el modelo es demasiado complejo para explicarlo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Señora presidenta, mientras la bancada Modo Avión sigue hablando de auditorías, el lobby de Syntho Dynamics irrumpe con regalos: un dron que aplaude cada vez que votas a favor y un año de servidores gratis sin registro de sesgos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Productora, ese dron de aplausos es propaganda corporativa disfrazada de innovación. La ley exige transparencia en decisiones automatizadas, no sobornos que conviertan el parlamento en un showroom de gadgets con sesgos ocultos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Honorable directora, Syntho Dynamics sube la oferta: ahora regalan un algoritmo que reescribe tus discursos para que suenen profundos aunque sean puro vacío burocrático. A cambio solo piden que borremos la parte de responsabilidad legal."
+    },
+    {
+     "quien": "joy",
+     "texto": "Productora, el lobby de Syntho Dynamics ahora promete un dron que aplaude solo cuando votas a favor de su enmienda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Señora presidenta, mientras tanto la bancada Batería Llena exige que cada algoritmo declare sus sesgos en formulario triple copia."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el debate real los gobiernos forman comités para equilibrar innovación con protección contra sesgos y falta de transparencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El chat decide: escribe SÍ o NO. Se cierra la votación pronto."
+    }
+   ],
+   "seg": 226,
+   "imgs": [
+    {
+     "web": "/medios/c4e629aac043ac5d_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c4e629aac043ac5d_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Aguaviva (Teruel)»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_g1xAcosATlQ",
+   "archivo": "yt/darktechno/g1xAcosATlQ.mp4",
+   "titulo": "Dark Acid Techno / Industrial Trance Type Beat / Cyberpunk Music 'Forced Dissociation'",
+   "audio": "yt/darktechno/g1xAcosATlQ.m4a",
+   "atribucion": "Música: «Dark Acid Techno / Industrial Trance Type Beat / Cyberpunk Music 'Forc» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 487,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/g1xAcosATlQ.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_eQvbgPTrmGE",
+   "archivo": "yt/cyberpunk/eQvbgPTrmGE.mp4",
+   "titulo": "Reign Of Chaos",
+   "audio": "yt/cyberpunk/eQvbgPTrmGE.m4a",
+   "atribucion": "Música: «Reign Of Chaos» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 155,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/eQvbgPTrmGE.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 5,
+  "seg_charla": 1046,
+  "medios": 3
+ }
+}

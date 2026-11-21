@@ -1,0 +1,13 @@
+[Unit]
+Description=BlackRose TV — capa Japón (traductor JA→ES, pétalos, Fuji, láminas) :8826
+
+[Service]
+WorkingDirectory=/home/alice/joy_vmc
+ExecStart=/home/alice/joy_vmc/.venv/bin/python -m director.japon_srv --puerto 8826
+Restart=always
+RestartSec=3
+StandardOutput=append:/home/alice/joy_vmc/logs/japon_capa.log
+StandardError=append:/home/alice/joy_vmc/logs/japon_capa.log
+
+[Install]
+WantedBy=default.target

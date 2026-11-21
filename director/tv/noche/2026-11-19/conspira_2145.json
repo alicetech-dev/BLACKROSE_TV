@@ -1,0 +1,879 @@
+{
+ "bloque": "conspira_2145",
+ "programa": "conspira",
+ "fecha": "2026-11-19",
+ "creado": "17:52:56",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Operación Paperclip",
+   "sub": "ARCHIVO CONSPIRA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El reclutamiento de von Braun en Estados Unidos",
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Todos los expertos alemanes fueron integrados al instante, sin restricciones ni esperas. ¿Es verdad eso o es solo una historia que se cuenta?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, muchos tuvieron que esperar años antes de empezar a trabajar en el programa. La leyenda dice lo contrario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero la realidad es más compleja. El reclutamiento fue rápido para algunos, pero otros enfrentaron barreras administrativas y burocráticas significativas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La versión popular de El reclutamiento de von Braun en Estados Unidos es muy llamativa."
+    },
+    {
+     "quien": "joy",
+     "texto": "La Operación Paperclip, iniciada en 1950, buscaba reclutar expertos alemanes para acelerar el desarrollo tecnológico estadounidense frente a la URSS."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que von Braun fue uno de los principales objetivos, pero no todos los científicos recibieron el trato inmediato ni igualitario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los documentos muestran que muchos tuvieron que esperar años antes de integrarse al programa debido a barreras administrativas y políticas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice que el nombre proviene de un clip de papel, pero ninguna fuente oficial confirma ese origen exacto del término."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree el mito porque la historia se cuenta en películas épicas donde todo es inmediato y sin obstáculos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero los archivos muestran que von Braun pasó años en Estados Unidos antes de ser asignado a proyectos clave."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese retraso es lo que muchos ignoran, confundiendo la leyenda del reclutamiento rápido con la realidad burocrática."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los archivos confirman que von Braun tardó años en Estados Unidos antes de ser asignado a proyectos clave, rompiendo el mito del reclutamiento inmediato."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La mezcla de mito y realidad surge porque las películas épicas simplifican el proceso, mientras los documentos muestran una transición lenta y cuidadosamente planificada."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Tú te creías la versión popular de El reclutamiento de von Braun en Estados Unidos? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 141
+  },
+  {
+   "tipo": "charla",
+   "tema": "La transferencia de tecnología de cohetes alemanes",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Todos los científicos alemanes fueron integrados al instante? Eso suena demasiado limpio para ser verdad, ¿verdad?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, algunos tuvieron que esperar años. La realidad es más compleja de lo que la leyenda sugiere."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y el origen del nombre 'Paperclip'? No hay una fuente oficial que lo confirme, así que sigue siendo un mito."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda popular dice que todos los científicos alemanes fueron integrados al instante en el programa, sin ninguna restricción ni espera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos históricos, eso es falso. Muchos expertos tuvieron que esperar años para ser asignados a proyectos reales de misiles y cohetes."
+    },
+    {
+     "quien": "joy",
+     "texto": "El origen del nombre 'Paperclip' también es objeto de especulación. Se cuenta que se refería a un tipo específico de clip para documentos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no hay una fuente oficial que confirme ese origen, así que sigue siendo una leyenda sin pruebas documentales sólidas."
+    },
+    {
+     "quien": "joy",
+     "texto": "La Operación Paperclip fue una iniciativa de inteligencia militar estadounidense iniciada en 1950 para reclutar científicos alemanes."
+    },
+    {
+     "quien": "joy",
+     "texto": "El objetivo era acelerar el desarrollo de tecnología avanzada, especialmente en misiles balísticos y cohetes espaciales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que figuras clave como Wernher von Braun lideraron el programa de cohetes en Alemania durante ese periodo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree que fue instantánea porque los medios simplificaron la historia, ignorando las décadas de espera y barreras burocráticas reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es un mito; se cuenta que muchos expertos tuvieron que pasar por pruebas de seguridad estrictas antes de acceder a los proyectos críticos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El origen del nombre 'Paperclip' también es leyenda; no hay documento oficial que lo vincule, solo especulaciones sobre la administración de archivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito de la instantaneidad es falso; se cuenta que muchos expertos pasaron años en pruebas de seguridad antes de ser integrados al programa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la transferencia no fue inmediata. La realidad técnica muestra décadas de espera y verificación rigurosa por parte de la inteligencia militar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y sobre el nombre 'Paperclip', se cuenta que es leyenda urbana sin fuente oficial, mientras que los documentos muestran un origen administrativo relacionado con clasificaciones."
+    },
+    {
+     "quien": "joy",
+     "texto": "Antes creía que el reclutamiento fue inmediato, pero la realidad muestra un proceso lento y riguroso de verificación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, muchos pasaron años en pruebas. El nombre 'Paperclip' sigue siendo una leyenda urbana sin fuente oficial confirmada."
+    }
+   ],
+   "seg": 182
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El papel estratégico del programa frente a la URSS",
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Operación Paperclip, 1950, el milagro de la transferencia tecnológica ante la URSS."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el giro: no fue solo misiles, sino el cimiento de la carrera espacial moderna."
+    },
+    {
+     "quien": "joy",
+     "texto": "Desde von Braun hasta los primeros pasos en la Luna, todo con ese sello alemán."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El origen de Paperclip es oscuro, casi legendario. Se cuenta que surgió en un momento de urgencia estratégica ante la URSS."
+    },
+    {
+     "quien": "joy",
+     "texto": "Precisamente: la necesidad de acelerar el desarrollo tecnológico frente al avance soviético fue el motor principal del programa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no fue solo una cuestión de velocidad. La transferencia de conocimiento técnico sobre propulsión de cohetes fue clave."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero hay un detalle curioso: la relación directa entre este programa y el posterior lanzamiento de Sputnik por la URSS."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El punto de inflexión fue cuando Von Braun llegó a Estados Unidos. Su equipo trajo consigo el conocimiento alemán, pero la URSS ya tenía sus propios proyectos avanzados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, la URSS tenía un ritmo de desarrollo paralelo. El impacto real del Paperclip se medirá en décadas posteriores, no en el corto plazo soviético."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso hay que separar lo desclasificado de la leyenda. La transferencia tecnológica fue crucial, pero no fue la única variable en la carrera espacial contra la URSS."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La transferencia de tecnología fue crucial, pero no fue inmediata. Muchos científicos tuvieron que adaptarse a un nuevo entorno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto. El impacto real del Paperclip se medirá en décadas. No fue solo una operación militar, sino un cambio de paradigma."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imaginen el futuro: si hubiera sido más flexible con los horarios y la vivienda, quizás hubieran llegado antes a la carrera espacial. Eso es especulación."
+    },
+    {
+     "quien": "joy",
+     "texto": "La transferencia no fue inmediata, como dijiste. Muchos científicos necesitaban tiempo para adaptarse a las nuevas condiciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La flexibilidad en horarios y vivienda podría haber acelerado el proceso, pero la estrategia militar priorizaba otros factores."
+    }
+   ],
+   "seg": 151
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los mitos y leyendas sobre los científicos reclutados",
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Verdad que el gobierno norteamericano no le dio ni un solo peso a los científicos alemanes para que se integraran?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, fue una operación de inteligencia militar muy ambiciosa y con recursos limitados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Y el nombre 'Paperclip' es solo un mito, no hay ninguna fuente oficial que lo confirme."
+    },
+    {
+     "quien": "joy",
+     "texto": "El origen del nombre 'Paperclip' se cuenta que viene de la oficina del director, pero no hay documentos oficiales que lo prueben."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La historia dice que el clip fue usado para pegar planos, pero eso es solo una especulación sin fuentes confiables."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los archivos desclasificados, la operación comenzó en 1950 con recursos limitados y un enfoque militar urgente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la leyenda de que todos fueron integrados sin restricción es falsa; muchos esperaron años antes de empezar a trabajar."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es más compleja: muchos científicos alemanes esperaron años antes de ser integrados, no fueron absorbidos al instante como sugiere la leyenda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La burocracia militar los retrasó. Solo aquellos con proyectos estratégicos inmediatos tuvieron acceso rápido a los recursos del programa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el nombre 'Paperclip'? Sigue siendo una especulación sin fuente oficial, aunque se cuenta que usaban clips para pegar planos en la oficina."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que el programa fue un esfuerzo desesperado por obtener tecnología alemana. El clima político y la Guerra Fría jugaron un papel clave."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué pasó con los otros científicos? No todos tuvieron acceso inmediato; algunos esperaron años en burocracia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras que Wernher von Braun llevó el peso del programa, otros ingenieros esperaron años en burocracia antes de ser asignados a proyectos reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 134
+  },
+  {
+   "tipo": "video",
+   "id": "v_pre_isforato1953",
+   "archivo": "v/v_pre_isforato1953.mp4",
+   "titulo": "A is for Atom",
+   "atribucion": "«A is for Atom» — Prelinger Archives / Internet Archive · dominio público",
+   "dur": 883,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Área 51: entre realidad y mito",
+   "sub": "ARCHIVO CONSPIRA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El origen del código numérico de la base",
+   "sub": "linea tiempo · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El código numérico de Área 51 no fue elegido al azar, sino que reflejaba una planificación estratégica desde el inicio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué hay de la leyenda del Proyecto Blue Book operando allí hoy? Eso es especulación sin fuentes verificables."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Lo que sabemos son los hechos documentados: una base militar en Nevada con tecnología clasificada y un sistema de seguridad perimetral robusto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El código 51 no era casual, Joy. La base fue diseñada para ocultar la tecnología que ahí se prueba, con seguridad perimetral y acceso limitado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Preciso. La base ha sido escenario de pruebas para aviones como el SR-71 Blackbird, pero nada confirma que programas secretos sigan activos allí."
+    },
+    {
+     "quien": "joy",
+     "texto": "Buen punto. El origen del código numérico es clave para entender cómo se gestionó la información sensible durante décadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El código 51 era una designación de zona militar durante la construcción, nada más. No hay fuentes que digan que se eligió por ser el número cinco y uno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La desclasificación parcial en los años 90 popularizó el nombre, pero el origen numérico es administrativo, no simbólico o místico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la ética del código: si se usó para ocultar tecnología, ¿vale la pena que el público conozca el número? O es mejor mantenerlo en secreto total?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La duda es legítima. El número 51 no tiene significado oculto; es una designación de zona. La leyenda del origen numérico se construyó con el tiempo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si el número es solo una designación, ¿por qué la gente cree que hay un mensaje oculto en sus dígitos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La psicología del público busca patrones donde no existen; la duda ética surge de esa proyección colectiva."
+    }
+   ],
+   "seg": 131
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las pruebas reales de aviones espía en Nevada",
+   "sub": "mito realidad · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el mito de los OVIs cerca de Área 51 es solo una exageración del público? La base siempre fue segura y aislada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero la leyenda persiste porque las imágenes desclasificadas mostraron naves imposibles. El misterio se alimenta de lo no visto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, pero los datos reales dicen que solo hay pruebas de aviones espía, nada de UFOs activos hoy en día. La ciencia gana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que muchos creen que la base alberga naves no identificadas, pero los documentos desclasificados muestran solo aviones espía como el SR-71."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es lo que dice la realidad fría. La leyenda de los OVIs activos hoy en día no tiene base en los datos técnicos disponibles públicamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las imágenes desclasificadas de los años noventa mostraron tecnología avanzada, pero nada que sugiera vehículos alienígenas o proyectos como Blue Book activos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. El mito persiste porque el público imagina cosas imposibles, mientras los reportes oficiales solo hablan de pruebas militares y seguridad perimetral."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los documentos desclasificados confirman que la instalación fue construida como centro de pruebas de aeronaves avanzadas en los años sesenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero nadie dijo que ahí estuvieran ovis volando hoy. La realidad es mucho más aburrida que lo que imagina el público."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las fotos oficiales muestran aviones como el SR-71 y otros cazas, nada que sugiera tecnología alienígena o vehículos de otro planeta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, pero eso no evita que la gente siga creyendo en los ovis. La leyenda vive porque la realidad es tan fría y poco emocionante."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree en los OVIs porque la realidad es fría y la imaginación necesita un escenario donde lo imposible se vuelva posible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los datos confirman aviones reales, pero la gente sigue buscando ovis porque el misterio se alimenta de lo desconocido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La realidad fría contrasta con la imaginación cálida que necesita un escenario donde lo imposible pueda ocurrir."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La mezcla es clave: pruebas documentadas de SR-71 junto a teorías sin fuentes, creando ese equilibrio perfecto entre verdad y mito."
+    },
+    {
+     "quien": "joy",
+     "texto": "Antes creía que solo eran rumores, pero los datos de SR-71 confirman aviones reales aquí."
+    }
+   ],
+   "seg": 169
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La seguridad perimetral que protege las instalaciones",
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a misterios con escepticismo sano. Hoy exploramos la seguridad perimetral de Área 51, entre datos reales y leyendas que han pasado por alto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, Joy. Mientras los medios narran el mito del UFO, nosotros desglosamos cómo se construye un muro de acero contra el desierto nevadense."
+    },
+    {
+     "quien": "joy",
+     "texto": "El sistema no es solo una pared; es una red de sensores y guardias que han mantenido intacta la clasificación durante décadas. La leyenda dice que nadie puede entrar sin ser visto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La base fue diseñada para ser impenetrable desde el primer día, con alambradas y torres de vigilancia. Se cuenta que las primeras pruebas de aviones espía tuvieron lugar justo detrás de ese muro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. ¿Y cómo evolucionó esa seguridad? ¿Fue siempre tan estricta o hubo periodos más relajados en la historia?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La seguridad empezó con alambradas y torres, pero el verdadero giro fue cuando se decidió protegerla de lo que no podíamos ver."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. En los años 70, la base era más abierta; las naves salían a prueba sin tanta vigilancia como hoy en día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Luego, con la llegada de aviones como el SR-71, se reforzó todo: sensores, radares y guardias que ahora la hacen casi impenetrable."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y la leyenda dice que incluso el viento cambia dirección cerca del perímetro. La ciencia no lo confirma, pero la curiosidad persiste."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy, el perímetro sigue siendo una línea de defensa continua. Sensores de movimiento, cámaras térmicas y guardias rotativos vigilan cada metro cuadrado del desierto nevadense."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que el viento cambia dirección cerca del perímetro. La ciencia no lo confirma, pero la sensación de ser observado es constante para cualquier visitante curioso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No hay puertas secretas ni túneles mágicos. Lo que hay son compuertas automatizadas y sistemas de detección que han protegido la tecnología interna durante décadas sin fallos mayores."
+    },
+    {
+     "quien": "joy",
+     "texto": "El perímetro real tiene sensores y compuertas, nada mágico. La leyenda del viento que cambia es solo un mito popular."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, la ciencia no confirma ese cambio de viento. Solo hay tecnología avanzada guardando todo lo que entra o sale."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el futuro? Quizás más sensores, pero sin puertas secretas. La seguridad siempre será una línea continua y firme."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 178
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo se popularizó el nombre Área 51 en los años 90",
+   "sub": "mito realidad · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡El mito dice que Área 51 es el centro del mundo oculto, pero los datos muestran una base militar real en Nevada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La desclasificación parcial de los años 90 fue el catalizador para que el nombre se vuelva popular en todo el planeta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no es solo un accidente, hay una estrategia detrás de cómo la información salió al público en esa década clave."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué hay de la leyenda del Proyecto Blue Book operando aún en la zona?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, la base fue visitada por periodistas y curiosos que buscaban confirmar lo que siempre se había dicho sobre ella."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué hay de la leyenda del Proyecto Blue Book operando aún en la zona? Eso sigue siendo solo especulación sin pruebas concretas."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree en el mito porque la base siempre ha estado rodeada de misterio y su existencia fue guardada como secreto de estado por décadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no es solo eso; los medios de comunicación lo alimentaron con titulares sensacionalistas y la curiosidad pública se convirtió en un motor de interés masivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Además, la falta de información concreta sobre las operaciones diarias dejó espacio para que la imaginación construyera narrativas fascinantes y persistentes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los medios de los noventa transformaron un código militar en una leyenda global, mezclando titulares sensacionalistas con la curiosidad pública."
+    },
+    {
+     "quien": "joy",
+     "texto": "La desclasificación parcial fue el catalizador; antes, la base permaneció en silencio bajo estrictos protocolos de seguridad y clasificación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es solo un hecho histórico, sino una construcción mediática que usó la incertidumbre para vender misterio y mantener el interés público."
+    },
+    {
+     "quien": "joy",
+     "texto": "Antes creía que era solo una base militar secreta, sin conexión con lo que hoy sabemos."
+    }
+   ],
+   "seg": 135
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: MKUltra: la verdad documentada",
+   "sub": "ARCHIVO CONSPIRA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El programa MKUltra en la NASA",
+   "sub": "real inventado · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a misterios con escepticismo sano. Hoy desenmascaramos si el programa MKUltra de la NASA realmente existió o fue una ficción."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La IA dice que fue aprobado en 1962, pero ¿qué tal la falta de documentación oficial? A veces la verdad es más rara que una canción perdida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los archivos desclasificados, sí hubo un programa interno con códigos secretos. Sin embargo, las cifras exactas y los nombres de los investigadores siguen siendo inciertos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si la falta de documentos no significa que no existió? ¿O es que se perdió intencionalmente para mantener el secreto más tiempo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso sería una especulación interesante, pero sin pruebas tangibles sigue siendo solo teoría. La diferencia entre un hecho y una hipótesis es crucial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si los archivos se perdieron intencionalmente, ¿por qué la NASA publicó informes oficiales sobre comportamiento humano?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los informes existen, pero no detallan métodos ni sujetos específicos. La especulación sobre LSD o ketamina carece de fuentes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Sin nombres, fechas ni cifras confirmadas, cualquier relato sobre drogas experimentales es solo una hipótesis."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso decimos que lo documentado se separa de la leyenda. La curiosidad analítica nos obliga a pedir pruebas tangibles antes de aceptar teorías."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El tercer dato es crítico: los informes oficiales no mencionan drogas ni efectos secundarios graves en sus descripciones públicas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, la narrativa popular de LSD y ketamina carece de base documental directa. Necesitamos fuentes primarias para verificarlo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El segundo dato confirma que el estudio se centró en condiciones extremas, pero no menciona ninguna droga específica en los informes oficiales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La narrativa popular de LSD y ketamina carece de base documental directa según lo publicado por la NASA en 1962-1963."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces, la leyenda visual del programa MKUltra con sus drogas experimentales es más especulación que hecho verificado por fuentes primarias."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el chat: ¿real o inventado? Juega con nosotras."
+    }
+   ],
+   "seg": 150
+  },
+  {
+   "tipo": "charla",
+   "tema": "La falta de consentimiento informado",
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki abre el tema con un tono escéptico y divertido, planteando la falta de consentimiento como el núcleo del problema."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy responde analíticamente, destacando que los sujetos no sabían qué les pasaba, lo cual es crucial para entender el programa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki cierra la intervención con un toque de humor, recordando que incluso los experimentos más grandes tienen sus errores y mitos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Comenzamos con el origen del programa MKUltra. Se cuenta que fue aprobado por la Oficina de Administración de la NASA en 1962 para estudiar el comportamiento humano bajo condiciones extremas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí está la parte divertida: los sujetos no sabían qué les pasaba. Era como si fueran ratones de laboratorio que no supieran que iban a ser sacrificados para el experimento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y eso es lo crucial del consentimiento informado. Sin ese conocimiento previo, los resultados pueden ser válidos científicamente pero éticamente cuestionables."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por cierto, aunque se cuenta que usaron LSD y ketamina, eso no está en la hoja de datos oficial. Es leyenda urbana, no hecho documentado, así que lo dejamos como curiosidad del momento."
+    },
+    {
+     "quien": "joy",
+     "texto": "El consentimiento informado es la piedra angular de toda investigación ética. Sin él, los datos pierden validez moral y científica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En MKUltra, esa piedra fue reemplazada por un cartel que decía: 'experimentos en curso'. Los sujetos no tenían voz ni voto."
+    },
+    {
+     "quien": "joy",
+     "texto": "La falta de consentimiento no es solo un error administrativo; es una violación directa del derecho a la autonomía individual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y cuando se añade el factor sorpresa, como si fueran ratones de laboratorio, la injusticia se vuelve casi visual. ¡Qué tragedia!"
+    },
+    {
+     "quien": "joy",
+     "texto": "El consentimiento fue un requisito legal básico, no una opción negociable. Los sujetos firmaron documentos que no entendían."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina firmar algo y luego descubrir que la tinta es de un color que no existe en tu paleta emocional."
+    },
+    {
+     "quien": "joy",
+     "texto": "La falta de información se convirtió en el método principal. No fue descuido, fue estrategia deliberada de control mental."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si la tinta no existe, ¿cómo se puede firmar? La estrategia deliberada de ocultar información se vuelve un juego de espejos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los sujetos no eran actores en una película; eran piezas de un experimento donde el consentimiento fue la variable ignorada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 179
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La colaboración con la CIA",
+   "sub": "linea tiempo · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a misterios con escepticismo sano. Hoy desglosamos la verdad documentada del programa MKUltra, separando datos reales de leyendas visuales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La NASA aprobó el proyecto en 1962 para estudiar comportamientos humanos bajo presión extrema, con sujetos que no dieron su consentimiento informado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y se canceló en 1963 por falta de progreso. La CIA participó activamente, usando técnicas de condicionamiento clásico para analizar respuestas mentales y control."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que el programa MKUltra utilizó drogas experimentales como LSD y ketamina para alterar el estado mental de los sujetos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Preciso, pero faltan matices. La NASA aprobó en 1962, sí, pero la CIA no fue solo una observadora pasiva."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La colaboración fue directa: la CIA aportaba recursos y acceso a archivos clasificados para acelerar los estudios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y las drogas? Se cuenta que LSD y ketamina se probaron, pero no hay cifras oficiales que confirmen su uso masivo en el programa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto. Los informes de 1963 dicen falta de progreso, no que las drogas fallaron. La cancelación fue técnica, no química."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces el mito de la droga es solo especulación sin datos duros. Mientras tanto, el programa sigue siendo un ejemplo perfecto de investigación con sesgo y recursos limitados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las drogas se cuentan como parte de la leyenda, no como dato oficial. Los informes de 1963 hablan de falta de progreso, no de efectos colaterales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Sin cifras ni nombres de pacientes específicos, todo sobre LSD y ketamina es especulación. El programa sigue siendo un mito técnico."
+    },
+    {
+     "quien": "joy",
+     "texto": "El futuro es especular: quizás se descubran documentos ocultos, pero hasta que haya evidencia documentada, solo hay rumores y mitos en circulación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El documento de 1963 dice explícitamente que faltaba progreso. Nada confirma el uso de LSD o ketamina como parte oficial del programa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces esas afirmaciones sobre drogas son pura leyenda. La verdad documentada es solo la falta de resultados y el cierre prematuro en 1963."
+    }
+   ],
+   "seg": 152
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los informes oficiales publicados",
+   "sub": "real inventado · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Bienvenidos! Hoy separaremos los datos reales de la leyenda. Comencemos con lo que se cuenta: el programa MKUltra."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los documentos, fue aprobado por la NASA en 1962 para estudiar el comportamiento humano bajo condiciones extremas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y se canceló en 1963 por falta de progreso. Pero según relatos, también usaron LSD y ketamina sin consentimiento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los informes oficiales publicaron resultados valiosos sobre condicionamiento clásico y control mental, aunque la leyenda visual exagera los efectos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Siempre hay que separar el dato real de la especulación. Hoy no inventamos cifras ni fechas, solo verificamos lo documentado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los informes oficiales confirman el uso de técnicas de condicionamiento clásico para estudiar respuestas del comportamiento humano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero según relatos, también se usaron drogas experimentales como LSD y ketamina sin consentimiento informado de los sujetos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es importante no mezclar datos reales con especulaciones sobre el impacto en la salud mental durante la década de 1960."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, separar lo documentado de la leyenda visual es clave para mantener un análisis objetivo y sin exageraciones innecesarias."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tercer dato, el más difícil."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El dato más duro es que el programa fue cancelado en 1963 sin avances reales. Eso significa que la mayoría de lo que se cuenta fue especulación desde el inicio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y eso confirma que no hay evidencia sólida sobre el impacto en la salud mental durante la década. La leyenda visual es solo eso: una narrativa atractiva pero sin base."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y los informes oficiales de 1962 y 1963 tampoco mencionan el uso de LSD o ketamina. Si eso fuera verdad, debería haber sido publicado entonces. La duda es justificada."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el chat: ¿real o inventado? Juega con nosotras."
+    }
+   ],
+   "seg": 135
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1837,
+  "medios": 2
+ }
+}

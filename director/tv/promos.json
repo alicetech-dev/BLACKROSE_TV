@@ -1,0 +1,175 @@
+{
+ "fecha": "2026-11-21",
+ "spots": [
+  {
+   "programa": "vtubing",
+   "texto": "¿Tus avatares necesitan una nueva piel? En VTUBER LAB, la tecnología se convierte en arte. ¡Únete a nuestro estudio!",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "ciencia",
+   "texto": "La ciencia que vuela cabezas es solo el comienzo. En LABORATORIO, todo tiene sentido si sabes cómo funciona.",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "historia",
+   "texto": "Historias que explican el presente están esperando ser escuchadas. MÁQUINA DEL TIEMPO trae lo olvidado a la luz.",
+   "quien": "kuroki",
+   "origen": "llm"
+  },
+  {
+   "programa": "musica",
+   "texto": "Cyberpunk, phonk y dark techno para programar. En RADIO BLACKROSE 2049, el ritmo es tu nuevo compañero de viaje.",
+   "quien": "kuroki",
+   "origen": "llm"
+  },
+  {
+   "programa": "conspira",
+   "texto": "Lo documentado vs. la leyenda. ARCHIVO CONSPIRA separa el hecho del mito con rigor y humor.",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "hackers",
+   "texto": "Historias de hackers que cambiaron el mundo. ROOT ACCESS revela secretos técnicos sin aburrir al público.",
+   "quien": "kuroki",
+   "origen": "llm"
+  },
+  {
+   "programa": "alien",
+   "texto": "Misterios del cielo que desafían la lógica. En SEÑAL EXTRAÑA, cada astro cuenta una historia pendiente de resolución.",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "showkuroki",
+   "texto": "¿Robots que chatean contigo? Kuroki lo hace, y tú también. Ve el show donde la IA se ríe de tu chat.",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "megaconst",
+   "texto": "¿Qué es más grande: un puente o una mente? En Megaconst, las obras que chocan con la lógica.",
+   "quien": "kuroki",
+   "origen": "llm"
+  },
+  {
+   "programa": "teatro",
+   "texto": "Dos nekos, tres actrices y mucho drama. Teatro Blackrose: el teatro del mañana, hoy en tu pantalla.",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "milttech",
+   "texto": "Tecnología militar que termina en tu cocina. Milttech: de la defensa a lo cotidiano.",
+   "quien": "kuroki",
+   "origen": "llm"
+  },
+  {
+   "programa": "analisismil",
+   "texto": "Guerras vistas desde la lente del hardware. Análisis Militar: qué tecnología mueve las banderas hoy.",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "sobremesa",
+   "texto": "Sin guion, solo nekos y el néon de 2049. Sobremesa: conversaciones que no saben qué responder.",
+   "quien": "kuroki",
+   "origen": "llm"
+  },
+  {
+   "programa": "politica",
+   "texto": "Leyes, poder y tecnología en un circo satírico. Parlamento Sintético: la política que se programa para reírse.",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "analisis",
+   "texto": "La noticia real que Blackrose le da su versión de 2049. Análisis de Señal: cómo termina todo en el holograma.",
+   "quien": "kuroki",
+   "origen": "llm"
+  },
+  {
+   "programa": "megacorp",
+   "texto": "¿Tecnología del año 2049? Blackrose la revisa. ¿Quieres saber más?",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "retro",
+   "texto": "GoldenEye, F1, PES y Aero Fighters: los clásicos vuelven a Blackrose.",
+   "quien": "kuroki",
+   "origen": "llm"
+  },
+  {
+   "programa": "fastpenguin",
+   "texto": "Pingüinos corriendo en vivo cada mañana a las siete y media.",
+   "quien": "joy",
+   "origen": "llm"
+  },
+  {
+   "programa": "japon",
+   "texto": "Juegos japoneses con traducción: todo en la Hora de Japón.",
+   "quien": "kuroki",
+   "origen": "llm"
+  },
+  {
+   "programa": "noticias",
+   "texto": "¿Ya viste BLACKROSE NOTICIAS? Tecnología, ciencia e IA de hoy. Aquí, en BlackRose TV.",
+   "quien": "joy",
+   "origen": "plantilla"
+  },
+  {
+   "programa": "deportes",
+   "texto": "Próximamente en BlackRose TV: ZONA DEPORTES. Resultados, polémicas y esports.",
+   "quien": "kuroki",
+   "origen": "plantilla"
+  },
+  {
+   "programa": "internacional",
+   "texto": "¿Ya viste CONTINGENCIA INTERNACIONAL? El mundo hoy, con calma y equilibrio. Aquí, en BlackRose TV.",
+   "quien": "joy",
+   "origen": "plantilla"
+  },
+  {
+   "programa": "tecnologia",
+   "texto": "Próximamente en BlackRose TV: TECNOLOGÍA HOY. Cómo funciona lo que usas.",
+   "quien": "joy",
+   "origen": "plantilla"
+  },
+  {
+   "programa": "ia",
+   "texto": "Próximamente en BlackRose TV: MODO IA. Inteligencia artificial sin humo.",
+   "quien": "kuroki",
+   "origen": "plantilla"
+  },
+  {
+   "programa": "linux",
+   "texto": "No te pierdas TERMINAL ABIERTA. Linux, software libre y cacharreo. Solo en BlackRose TV.",
+   "quien": "kuroki",
+   "origen": "plantilla"
+  },
+  {
+   "programa": "videojuegos",
+   "texto": "¿Ya viste PLAYER TWO? Videojuegos, retro y desarrollo. Aquí, en BlackRose TV.",
+   "quien": "kuroki",
+   "origen": "plantilla"
+  },
+  {
+   "programa": "devgames",
+   "texto": "¿Ya viste DEV LOG? Cómo se hace un videojuego. Aquí, en BlackRose TV.",
+   "quien": "joy",
+   "origen": "plantilla"
+  },
+  {
+   "programa": "tecnooculta",
+   "texto": "Próximamente en BlackRose TV: TECNOLOGÍA OCULTA. Inventos olvidados y proyectos secretos.",
+   "quien": "joy",
+   "origen": "plantilla"
+  }
+ ],
+ "llm": 19,
+ "i": 20
+}

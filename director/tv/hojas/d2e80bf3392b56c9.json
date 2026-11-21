@@ -1,0 +1,21 @@
+{
+ "semilla": "Los satélites espía y los mapas que usas",
+ "hechos": [
+  "Los satélites de reconocimiento se desarrollaron durante la Guerra Fría para obtener imágenes de áreas de interés estratégico.",
+  "Los primeros satélites espía estadounidenses fueron parte del programa CORONA operado por la Fuerza Aérea y la CIA.",
+  "Los satélites espía capturan imágenes usando cámaras ópticas o sensores de radar que operan desde órbita terrestre.",
+  "La resolución de las imágenes ha mejorado con el tiempo permitiendo distinguir objetos cada vez más pequeños desde el espacio.",
+  "Los datos de posición y altimetría de satélites militares contribuyeron al desarrollo del Sistema de Posicionamiento Global.",
+  "La tecnología de imágenes satelitales se desclasificó gradualmente y se adaptó para usos civiles como la cartografía.",
+  "Los mapas digitales modernos en aplicaciones móviles usan mosaicos de imágenes satelitales de origen tanto civil como militar.",
+  "Los satélites de observación de la Tierra proporcionan datos para monitoreo ambiental agricultura y respuesta a desastres.",
+  "La ingeniería de estos satélites incluye sistemas de estabilización actitud y transmisión de datos a estaciones terrestres.",
+  "Los sensores multiespectrales en satélites permiten distinguir diferentes tipos de vegetación y materiales en la superficie."
+ ],
+ "leyendas": [
+  "Leyenda o error común: se cree que los satélites espía pueden leer placas de autos o periódicos desde el espacio lo cual excede las capacidades físicas reales de resolución.",
+  "Leyenda o error común: se cuenta que todos los mapas y aplicaciones de navegación actuales dependen exclusivamente de satélites militares cuando en realidad combinan fuentes civiles y comerciales."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 17:46"
+}

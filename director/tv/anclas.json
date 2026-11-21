@@ -1,0 +1,24 @@
+[
+ {
+  "id": "japon",
+  "programa": "japon",
+  "ini": "23:15",
+  "dura": 60,
+  "nombre": "HORA DE JAPÓN · 日本アワー",
+  "sub": "Videojuegos en Japón · en japonés, con traducción",
+  "color": "#ff8fc7",
+  "tag": "JAPÓN",
+  "escena": "JAPON",
+  "si": "japon"
+ },
+ {
+  "id": "fastpenguin",
+  "ini": "07:30",
+  "dura": 120,
+  "nombre": "FAST PENGUIN",
+  "sub": "En vivo · Blackrose juega",
+  "color": "#ffffff",
+  "tag": "EN VIVO",
+  "especial": true
+ }
+]

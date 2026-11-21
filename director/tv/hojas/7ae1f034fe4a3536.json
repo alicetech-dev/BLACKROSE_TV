@@ -1,0 +1,21 @@
+{
+ "semilla": "El sistema de ROOT ACCESS necesita una actualización urgente.",
+ "hechos": [
+  "El acceso root en sistemas Unix y Linux otorga privilegios administrativos completos.",
+  "El término root se originó en los primeros sistemas operativos multiusuario.",
+  "Los sistemas operativos modernos recomiendan evitar el uso habitual de root por razones de seguridad.",
+  "El principio de privilegio mínimo sugiere usar cuentas con los permisos estrictamente necesarios.",
+  "Las actualizaciones de software corrigen vulnerabilidades que podrían permitir escalada de privilegios.",
+  "Los ataques de escalada de privilegios buscan obtener acceso root sin autorización.",
+  "Las contraseñas débiles facilitan el compromiso de cuentas con privilegios elevados.",
+  "El uso de autenticación multifactor reduce el riesgo de accesos no autorizados.",
+  "Los registros de auditoría ayudan a detectar intentos de obtención de acceso root.",
+  "Las distribuciones Linux incluyen herramientas para gestionar permisos de usuario de forma segura."
+ ],
+ "leyendas": [
+  "Leyenda o error común: usar root todo el tiempo es la forma más eficiente de administrar un sistema.",
+  "Leyenda o error común: una vez que un atacante obtiene root ya no se puede hacer nada para recuperar el control."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 17:53"
+}

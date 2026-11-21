@@ -1,0 +1,19 @@
+{
+ "semilla": "El Wi-Fi explicado",
+ "hechos": [
+  "El Wi-Fi utiliza ondas de radiofrecuencia para transmitir datos inalámbricos entre dispositivos.",
+  "Las redes Wi-Fi operan en bandas de frecuencia específicas, como las de 2.4 GHz y 5 GHz.",
+  "La velocidad de una conexión Wi-Fi depende de la distancia al router y del número de dispositivos conectados.",
+  "Los routers Wi-Fi modernos pueden utilizar múltiples antenas para mejorar la transmisión mediante MIMO.",
+  "Las redes Wi-Fi son vulnerables a interferencias causadas por otros dispositivos electrónicos cercanos.",
+  "El estándar Wi-Fi ha evolucionado desde las versiones 802.11b hasta las actuales 802.11ax .",
+  "La seguridad en las redes Wi-Fi se mejora mediante el uso de protocolos como WPA3.",
+  "Los dispositivos móviles y las computadoras portátiles pueden conectarse a una red Wi-Fi para acceder a internet."
+ ],
+ "leyendas": [
+  "Se cuenta que los routers Wi-Fi antiguos son más rápidos, cuando en realidad la velocidad depende del estándar actual y no de la antigüedad.",
+  "Existe el error común de creer que la señal Wi-Fi viaja a través de las paredes como si fuera un líquido, ignorando que es una onda electromagnética."
+ ],
+ "por": "9b",
+ "t": "2026-11-21 01:23"
+}

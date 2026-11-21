@@ -1,0 +1,392 @@
+{
+ "bloque": "tecnologia_0153",
+ "programa": "tecnologia",
+ "fecha": "2026-11-20",
+ "creado": "01:14:46",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Baterías: por qué duran lo que duran",
+   "sub": "TECNOLOGÍA HOY",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo viajan los iones en el electrólito líquido",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Viaje iónico en electrólito",
+    "cajas": [
+     {
+      "t": "Iones libres",
+      "n": "Se disuelven en el solvente formando una solución conductora."
+     },
+     {
+      "t": "Movimiento térmico",
+      "n": "La energía cinética impulsa su desplazamiento aleatorio."
+     },
+     {
+      "t": "Campo eléctrico",
+      "n": "Un campo externo dirige el flujo neto hacia los electrodos."
+     },
+     {
+      "t": "Reacción en electrodo",
+      "n": "Los iones ganan o pierden electrones en la superficie metálica."
+     }
+    ]
+   },
+   "intl": {
+    "ja": "イオンは液体の中でダンスする。充電器の電源を切らないでね。",
+    "ja_es": "Los iones bailan en el líquido. No apagues el cargador.",
+    "en": "Ions dance in the liquid. Don't turn off the charger.",
+    "en_es": "Los iones bailan en el líquido. No apagues el cargador."
+   },
+   "sub": "top3 · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bien, hoy desmontamos el mito de la carga infinita. El electrólito no es magia, es una solución química muy específica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Imagina que los iones son peones en un tablero de ajedrez; el electrolito es la mesa de madera que ellos necesitan para moverse."
+    },
+    {
+     "quien": "joy",
+     "texto": "El tercer puesto lo ocupa la densidad energética. Es el factor que decide si tu teléfono durará horas o minutos con una carga."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Piensa en eso como un tanque de combustible: más volumen, más distancia. En las baterías, el volumen es lo que importa para la autonomía real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y si la mesa es de plástico, los peones se atascan. En las baterías modernas, el electrolito líquido o sólido facilita ese movimiento para que el coche pueda seguir rodando."
+    },
+    {
+     "quien": "joy",
+     "texto": "Primero, la densidad energética es el rey. Determina si tu teléfono sobrevive a una reunión de trabajo o se apaga ante un correo importante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Piensa en los iones como peones en un tablero: necesitan espacio para moverse. El electrolito es el tablero; sin él, la partida se detiene."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 93,
+   "imgs": [
+    {
+     "web": "/medios/352f1e6b6271cfc9_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/352f1e6b6271cfc9_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Pila de combustible»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El mito del frío eterno y la realidad térmica",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "El frío y la batería",
+    "cajas": [
+     {
+      "t": "Iones en movimiento",
+      "n": "El frío ralentiza su paso como tráfico en lluvia"
+     },
+     {
+      "t": "Batería como depósito",
+      "n": "Energía que se llena y vacía con los viajeros"
+     },
+     {
+      "t": "Calle empedrada",
+      "n": "Los iones se atascan pero no paran nunca"
+     },
+     {
+      "t": "Modo de espera",
+      "n": "No congelan, solo detienen la actividad temporalmente"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "冷気はイオンを待機モードに、笑って見守ってね",
+    "ja_es": "El frío pone a los iones en modo de espera, así que ríase y espere el calor",
+    "en": "Cold puts ions on standby; laugh and wait for warmth.",
+    "en_es": "El frío pone a los iones en espera; riense y espere el calor"
+   },
+   "sub": "explicado · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez creyeron que el frío congelaba la batería como si fuera hielo? La realidad es más sutil y menos dramática de lo que los anuncios prometen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero no digas eso. El frío ralentiza la movilidad de los iones dentro del electrolito, como si el tráfico se tuvieran en un día de lluvia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese 'día de lluvia' es literalmente lo que pasa. Los iones se mueven más lento, pero no paran; la batería sigue funcionando, solo con menos potencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las baterías son como un depósito de energía que se llena y vacía. Los iones son los viajeros que cruzan el puente entre el ánodo y el cátodo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que esos viajeros caminan por una calle empedrada; si llueve mucho, se atascan. El frío hace lo mismo con el electrolito, pero no cierra la puerta."
+    },
+    {
+     "quien": "joy",
+     "texto": "El frío no congela la batería, solo pone a los iones en modo de espera. Es como un banco que cierra las cajeras por la noche; el dinero sigue ahí, pero nadie puede retirarlo hasta que suba la temperatura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y eso es lo que pasa en tu coche eléctrico: si lo dejas en el frío, el motor no arranca, pero la batería no muere. Solo necesita un poco de calor para volver a moverse."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso es lo que pasa con las baterías de litio: almacenan energía en iones que se mueven entre el ánodo y el cátodo. La densidad energética determina cuánta energía pueden guardar por peso o volumen."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo tengo mi opinión sobre El mito del frío eterno y la realidad térmica, y no coincide con la tuya."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que el frío solo pone a los iones en modo de espera, como si fueran empleados de oficina que esperan la lluvia neón."
+    }
+   ],
+   "seg": 139,
+   "imgs": [
+    {
+     "web": "/medios/45f07d59f45a78d5_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/45f07d59f45a78d5_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Las ocho regiones naturales del Perú»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20210319_m2020_0001_mars_report_upda",
+   "archivo": "v/v_nasa_jpl_20210319_m2020_0001_mars_report_upda.mp4",
+   "titulo": "Mars Report: Update on NASA’s Perseverance Rover & Ingenuity Helicopter",
+   "atribucion": "«Mars Report: Update on NASA’s Perseverance Rover & Ingenuity Helicopter» — NASA · images.nasa.gov",
+   "dur": 168,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La nube no está en las nubes",
+   "sub": "TECNOLOGÍA HOY",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Centros de datos: la realidad detrás del mito",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Nacimiento de la nube",
+    "cajas": [
+     {
+      "t": "Años 90",
+      "n": "Alguien necesita guardar archivos sin discos físicos"
+     },
+     {
+      "t": "Era masiva",
+      "n": "Servidores gigantes hacen obsoleta mi batería de 6 GB"
+     },
+     {
+      "t": "Realidad actual",
+      "n": "Edificio con aire acondicionado, no cielo flotante"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "データセンターは雲ではなく、エアコンの効いたビルです。未来は予想できませんが、笑って見てください。",
+    "ja_es": "Los centros de datos no son nubes, sino edificios con aire acondicionado. No se puede predecir el futuro, pero diviértanse viendo.",
+    "en": "Data centers aren't clouds; they're air-conditioned buildings. The future is unpredictable, but enjoy the show.",
+    "en_es": "Los centros de datos no son nubes; son edificios con aire acondicionado. El futuro es impredecible, pero disfruten del espectáculo."
+   },
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La nube es solo un edificio con aire acondicionado, no un cielo flotante donde los datos se bañan en lluvia neón."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso suena a una explicación técnica; mejor te digo que mi batería de 6 GB se calienta cuando el servidor come todo el WiFi."
+    },
+    {
+     "quien": "joy",
+     "texto": "El origen de la nube es mucho más terrestre que lo que imaginas; fue una forma de describir algo que no está en el cielo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y a veces los servidores se calientan tanto que incluso mi batería de 6 GB se ve afectada por la temperatura ambiente."
+    },
+    {
+     "quien": "joy",
+     "texto": "La nube nació en los años noventa cuando alguien necesitaba guardar archivos sin comprar discos duros físicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y luego vino la era de los servidores masivos donde incluso mi batería de 6 GB se vuelve obsoleta frente a la potencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "La nube es un edificio con aire acondicionado, no un cielo flotan. Pero ojo: si tu servidor se calienta como mi batería de 6 GB, la nube se vuelve literalmente pesada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y a veces los servidores se calientan tanto que incluso mi batería de 6 GB se ve afectada por la temperatura ambiente. La nube nació en los años noventa cuando alguien necesitaba guardar archivos sin comprar discos duros físicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tuviéramos que adivinar el futuro de Centros de datos: la realidad detrás del mito, diríamos que recién empieza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 112,
+   "imgs": [
+    {
+     "web": "/medios/aae5d44399ec359e_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/aae5d44399ec359e_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Mito del cero papel»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Almacenamiento masivo: SSD vs HDD en la práctica",
+   "diagrama": null,
+   "intl": {
+    "ja": "データは空に飛ぶのではなく、地面の下で静かに眠っている。雨の夜でもクリックは鳴る。",
+    "ja_es": "Los datos no vuelan por el aire, sino que duermen tranquilos bajo tierra. El clic suena incluso en noches de lluvia neón.",
+    "en": "Data sleeps underground, not flying in clouds; the click plays even under neon rain.",
+    "en_es": "Los datos duermen bajo tierra, no vuelan como nubes; el clic suena incluso bajo la lluvia neón."
+   },
+   "sub": "entrevista con Dr. Neil D. T. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¡Bienvenido a la nube, Dr. Neil D. T.! Como si estuvieras flotando en el cielo, pero estás en un edificio con aire acondicionado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, y además es un personaje de parodia hecho por IA, no el científico real que te espera en el parque del futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. Neil D. T., ¿cómo es que la nube no está en las nubes, sino en un edificio con aire acondicionado?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La gente cree que los servidores flotan como nubes de vapor, pero en realidad están pegados al suelo, rodeados de ventiladores y cables."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. T., ¿acaso la gravedad no aplica a los datos? Si el servidor está en un edificio, ¿por qué nadie lo ve?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Porque la gravedad es solo para cosas con masa! Los bits son energías que viajan por fibra óptica, no tienen peso. ¡Mira el cable!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. T., ¿qué es lo que la gente ignora al hablar de almacenamiento en la nube?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que muchos piensan que los datos viajan por el aire, como si fueran nubes reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero la realidad es más terrestre y menos mágica de lo que parece en las películas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. T., ¿por qué los discos duros mecánicos hacen clic cuando la nube no es física?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Porque el clic es solo un sonido de confirmación, no una realidad espacial!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces si la gravedad no afecta a los bits, ¿qué les pasa cuando llueve neón?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tienes una pregunta para nuestro invitado, escríbela en el chat."
+    }
+   ],
+   "seg": 120,
+   "imgs": [
+    {
+     "web": "/medios/aae5d44399ec359e_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/aae5d44399ec359e_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Mito del cero papel»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_Le9u0QH2H4I",
+   "archivo": "yt/cyberpunk/Le9u0QH2H4I.mp4",
+   "titulo": "Cyber Cityscapes",
+   "audio": "yt/cyberpunk/Le9u0QH2H4I.m4a",
+   "atribucion": "Música: «Cyber Cityscapes» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 166,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/Le9u0QH2H4I.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_MKptILa2igM",
+   "archivo": "yt/phonk/MKptILa2igM.m4a",
+   "titulo": "Grioten x XI$OW - Rally Up! | Brazilian Phonk | NCS",
+   "audio": "yt/phonk/MKptILa2igM.m4a",
+   "atribucion": "Música: «Grioten x XI$OW - Rally Up! | Brazilian Phonk | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 94,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/MKptILa2igM.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 464,
+  "medios": 3
+ }
+}

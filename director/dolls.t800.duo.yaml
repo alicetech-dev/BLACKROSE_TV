@@ -1,0 +1,71 @@
+# DÚO Joy + T-800 (SFW) charlando solos mientras Alice no está: ~/joy_vmc/t800_modo.sh duo
+# El T-800 amigable, solo:  ./dolls.sh start --t800   (el director arranca con --config director/dolls.t800.yaml)
+# Cerebro: pack `t800` del agente (memoria propia en ~/proyectos/agente_unificado/data_t800). Cuerpo: el pixel art de OBS
+# (~/overlays_t800/t8_cuerpo.py en :8772 → t8_avatar.html?ws=ws://127.0.0.1:8772/avatar). Sin Warudo ni joy_vmc.
+sfw: true
+agente: ws://127.0.0.1:8791
+xtts_url: http://127.0.0.1:9020/tts
+llm_directo: http://127.0.0.1:8084
+
+usuario: {id: 0, nombre: Alice}
+
+audio:
+  sink: dolls
+  bloque_ms: 20
+  adelanto_ms: 30
+
+opinar: 0
+
+dolls:
+  t800:
+    nombre: T-800
+    alias: [t800, t-800, terminator, terminador]
+    cuerpo: ws://127.0.0.1:8772
+    cuerpo_desc: "pixel-art T-800: half human face, half metal endoskeleton, dark sunglasses with a cracked lens and a glowing red eye, leather jacket"
+    mirar: [camara, chat, izquierda, derecha, arriba, abajo]
+    idioma: es
+    voz: {motor: google, respaldo: ninguno, gtts_tld: {es: com.mx, en: com}, tono: 0.72, formantes: correr}
+  joy:
+    nombre: Joy
+    alias: [joy, yoi]
+    cuerpo: ws://127.0.0.1:8770
+    vmc_puerto: 39539
+    cuerpo_desc: "cyborg cat-girl avatar: cat ears, tail, robotic arms and glowing eyes"
+    mirar_a: {t800: derecha}
+    idioma: es
+    voz: {motor: google, respaldo: ninguno, gtts_tld: {es: com.mx, en: com}, tono: 1.12}   # XTTS (:9020) no respondía el 2026-10-16
+
+sala:
+  activo: true
+  silencio: [6, 15]
+  dialogo_max: 6
+  replicar: 0.9
+  posturas: {seguir: 0.3, contradecir: 0.25, preguntar: 0.2, debatir: 0.25}
+
+canal:
+  youtube: "@barbieblackrose"
+  twitch: ""
+  kick: ""
+  auto: true
+  cada: [20, 45]
+  vence: 180
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot]
+  bloquear: []
+
+temas:
+  - "Alice se fue a comprar: apuestas sobre qué va a traer"
+  - "Joy le enseña memes y jerga de internet al T-800"
+  - "el mejor robot o androide de películas y juegos"
+  - "¿los gatos son mejores que los robots?"
+  - "juegos retro contra juegos modernos"
+  - "Fast Penguin: estrategias absurdas para ganar"
+  - "qué mejora le pondrían a su propio cuerpo cyborg"
+  - "comida de madrugada: lo mejor para comer a las 3 AM"
+  - "ciencia ficción que acertó o le erró al futuro"
+  - "anime favorito y por qué el T-800 no entiende el anime"
+  - "¿la IA va a reemplazar a los programadores?"
+  - "música para programar de noche"
+
+perfiles:
+  ligero:
+    llm_directo: http://127.0.0.1:8086

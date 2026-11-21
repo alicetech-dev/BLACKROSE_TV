@@ -1,0 +1,398 @@
+{
+ "bloque": "hackers_0218",
+ "programa": "hackers",
+ "fecha": "2026-11-20",
+ "creado": "01:17:50",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Protocolos de ciberseguridad en redes domésticas",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El enrutador como punto central de vulnerabilidad",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "El enrutador vulnerable",
+    "cajas": [
+     {
+      "t": "Inicio simple",
+      "n": "Idea de conectar todo en un solo punto central"
+     },
+     {
+      "t": "Punto neurálgico",
+      "n": "Hacker lo ve como llave maestra de la red"
+     },
+     {
+      "t": "Caja de cartón",
+      "n": "Apariencia física con cables saliendo por todos lados"
+     },
+     {
+      "t": "Sistema operativo",
+      "n": "‘Hola, soy tu router’ mientras el mundo se derrumba"
+     },
+     {
+      "t": "Falta de chequeo",
+      "n": "Nadie le da mantenimiento y el corazón late descompensado"
+     }
+    ]
+   },
+   "intl": null,
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Alerta! El enrutador es el corazón latente de tu red, pero también su punto más débil si no se cuida bien."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y a veces ese corazón late descompensado porque nadie le ha dado un chequeo de rutina en meses."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Todo empezó con una idea sencilla."
+    },
+    {
+     "quien": "joy",
+     "texto": "Todo empezó con una idea sencilla, pero el enrutador se convirtió en el punto neurálgico donde los hackers del mundo entero intentan abrir la puerta de tu casa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El enrutador no es un simple cable de cobre, es el cerebro digital donde todo se decide y a veces se equivoca."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los hackers del mundo entero miran ese punto central, como si fuera la llave maestra de tu casa digital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate que el enrutador es una caja de cartón gigante con cables saliendo por todos lados, y un hacker le hace un agujero."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y dentro hay un sistema operativo que dice: ‘Hola, soy tu router’ mientras el mundo se derrumba a su alrededor en lluvia neón."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El enrutador es como un camarero que te sirve café pero no sabe cómo se hace."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y si el camarero es hacker, el café se vuelve código y tú eres la bebida."
+    }
+   ],
+   "seg": 97,
+   "imgs": [
+    {
+     "web": "/medios/762cb59c19f58f24_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/762cb59c19f58f24_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Circuito cerrado de televisión»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "WPA3 vs WPA2: la realidad del cifrado actual",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "WPA2 a WPA3",
+    "cajas": [
+     {
+      "t": "Castillo antiguo",
+      "n": "Enrutador viejo con grietas"
+     },
+     {
+      "t": "Ladrones entran",
+      "n": "Usan llaves de plástico"
+     },
+     {
+      "t": "Escudo de neón",
+      "n": "WPA3 bloquea la entrada"
+     },
+     {
+      "t": "Agujero en la base",
+      "n": "Si el firmware no se actualiza"
+     },
+     {
+      "t": "Futuro incierto",
+      "n": "Recién empieza la nueva era"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "WPA3は完璧だが、ファームウェアが古ければネオンが消える。6GBのカードで守れ。",
+    "ja_es": "WPA3 es perfecto, pero si el firmware es viejo, el neón se apaga. Guárdate la tarjeta de 6 GB.",
+    "en": "WPA3 looks perfect but old firmware kills the neon. Keep that 6GB card handy for defense.",
+    "en_es": "WPA3 parece perfecto pero el firmware viejo mata el neón. Mantén esa tarjeta de 6 GB para defensa."
+   },
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina que tu casa es un castillo medieval y el enrutador, el rey que guarda las puertas. Hoy vamos a ver qué armas tiene para defenderse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El rey WPA2 es viejo y deja grietas por donde entran los ladrones, mientras WPA3 trae un escudo de neón que no se puede romper fácil."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero el escudo tiene un agujero en la base si olvidas actualizar el firmware; la carta de 6 GB del canal te dirá cuánto espacio queda para reparaciones."
+    },
+    {
+     "quien": "joy",
+     "texto": "El rey WPA2 deja grietas; los ladrones usan llaves de plástico para abrir puertas de madera vieja. ¿Tienes una clave maestra?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "WPA3 parece el escudo perfecto, pero si tu enrutador tiene firmware de hace tres años, el neón se apaga y los ladrones entran por la puerta trasera."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los atacantes usan contraseñas predeterminadas como llave maestra; cambia el SSID y añade dos factores antes de que el rey WPA2 se vuelva a romper."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tuviéramos que adivinar el futuro de WPA3 vs WPA2: la realidad del cifrado actual, diríamos que recién empieza."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 87,
+   "imgs": [
+    {
+     "web": "/medios/9882a0537937dccc_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/9882a0537937dccc_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Circuito cerrado de televisión»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_c7-32pFM12Y",
+   "archivo": "yt/darktechno/c7-32pFM12Y.mp4",
+   "titulo": "Dark Acid Techno / Industrial Trance Type Beat / Cyberpunk Music 'Mycosis'",
+   "audio": "yt/darktechno/c7-32pFM12Y.m4a",
+   "atribucion": "Música: «Dark Acid Techno / Industrial Trance Type Beat / Cyberpunk Music 'Myco» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 485,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/c7-32pFM12Y.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La evolución del hacking ético",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El nacimiento del término en la década de los noventa",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Nacimiento del hacking ético",
+    "cajas": [
+     {
+      "t": "Confusión inicial",
+      "n": "La gente pensaba que el hacking era como abrir una caja de chocolates"
+     },
+     {
+      "t": "Primera definición",
+      "n": "Se creó el término cuando se confundió todo con el cracking"
+     },
+     {
+      "t": "Burocracia moderna",
+      "n": "Hoy los sistemas exigen firmas digitales y permisos complicados"
+     },
+     {
+      "t": "Consecuencia actual",
+      "n": "La ética se convirtió en un sello de aprobación para el código"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "90年代のバブルは、今もコードの中で眠っている",
+    "ja_es": "El burbuja de los 90 todavía duerme en el código",
+    "en": "The 90s bubble sleeps in the code; what will you type next?",
+    "en_es": "La burbuja de los 90 duerme en el código; ¿qué escribirás a continuación?"
+   },
+   "sub": "linea tiempo · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La gente piensa que el hacking ético es como abrir una caja de chocolates, pero la verdad es que es más bien como intentar entrar en casa de alguien sin llave."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y eso es lo que hace que los sistemas sean vulnerables. Pero no te preocupes, porque la corporación Blackrose tiene una tarjeta de 6 GB para guardar todo esto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El término nació cuando la gente confundía todo con el cracking. Imagina un hacker que pide permiso para robar cookies de tu café; eso es ética pura."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y esa confusión generó una industria entera. Ahora los sistemas son tan seguros que incluso el aire tiene filtros anti-hacker."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina un mundo donde el permiso es más difícil que conseguir una contraseña. Un sistema que exige una firma digital antes de dejarte ver el café."
+    },
+    {
+     "quien": "joy",
+     "texto": "Precisamente, esa burocracia nacida en los noventa definió la ética. Entonces, ¿por qué seguimos buscando fallos cuando el aire ya tiene filtros?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy El nacimiento del término en la década de los noventa sigue teniendo consecuencias."
+    },
+    {
+     "quien": "joy",
+     "texto": "En los noventa, la ética se convirtió en un sello de aprobación. Hoy, ese mismo sello nos hace mirar el código como si fuera un contrato que nadie firmó."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina un futuro donde cada byte tenga su propio abogado. Las empresas pedirán un permiso para ver tu ordenador, y tú solo tendrás la tarjeta de 6 GB como prueba de identidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 116,
+   "imgs": [
+    {
+     "web": "/medios/76577075f8b7f461_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/76577075f8b7f461_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Ética hacker»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo las pruebas de penetración se convirtieron en estándar",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "De martillo a IA",
+    "cajas": [
+     {
+      "t": "Martillo y linterna",
+      "n": "Primeros hackers éticos buscaban huecos a mano."
+     },
+     {
+      "t": "Scripts en Python",
+      "n": "Automatización inicial para probar miles de sistemas."
+     },
+     {
+      "t": "Algoritmos de IA",
+      "n": "Análisis masivo de código en segundos hoy."
+     },
+     {
+      "t": "Permiso como clave",
+      "n": "Sin autorización eres ladrillo, con permiso arquitecto."
+     }
+    ]
+   },
+   "intl": {
+    "ja": "雨の夜、ネオンが輝く世界で、許可なく歩けばただの石ころ。",
+    "ja_es": "In a world where neon glows on rainy nights, without permission you are just a stone.",
+    "en": "Without permission, you're just a brick in the neon rain.",
+    "en_es": "Sin permiso, eres solo un ladrillo en la lluvia de neón."
+   },
+   "sub": "explicado · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te has preguntado cómo un sistema tan complejo como la nube podría tener huecos que cualquiera podría atravesar?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es justo lo que hacemos los hackers éticos: encontrar esos agujeros antes de que alguien más los use para robar tus datos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La nube es como un edificio gigante de ladrillos digitales, pero incluso los edificios más altos tienen grietas que el viento puede aprovechar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esos ladrillos se vuelven vapor cuando la lluvia neón del futuro moja la tubería, creando fugas que nadie ve hasta que es tarde."
+    },
+    {
+     "quien": "joy",
+     "texto": "El hacking ético nació cuando alguien decidió que los sistemas debían tener puertas cerradas, no abiertas para todos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Primero se usó un martillo y una linterna, luego vinieron los scripts en Python y ahora es todo automático."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero la clave no es la herramienta, es el permiso. Sin autorización, eres un ladrillo, con permiso eres un arquitecto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y ahora los algoritmos de IA analizan millones de líneas de código en segundos. ¿Alguna vez te has preguntado cómo un sistema tan complejo como la nube..."
+    },
+    {
+     "quien": "joy",
+     "texto": "El permiso es el único ladrillo que nunca se consume. Sin él, eres un intruso con una linterna en la mano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la nube tiene un dueño que cobra por cada byte de lluvia neón que cae sobre tus servidores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y si ese dueño es una megacorporación, el permiso se negocia con formularios y tarjetas de 6 GB."
+    }
+   ],
+   "seg": 115,
+   "imgs": [
+    {
+     "web": "/medios/76577075f8b7f461_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/76577075f8b7f461_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Ética hacker»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_3BWcoeHD53o",
+   "archivo": "yt/coding/3BWcoeHD53o.mp4",
+   "titulo": "Stylish Technology Innovation by Infraction / Computer",
+   "audio": "yt/coding/3BWcoeHD53o.m4a",
+   "atribucion": "Música: «Stylish Technology Innovation by Infraction / Computer» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 139,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/3BWcoeHD53o.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 415,
+  "medios": 2
+ }
+}

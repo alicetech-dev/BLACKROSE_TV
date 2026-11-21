@@ -1,0 +1,848 @@
+{
+ "bloque": "conspira",
+ "fecha": "2026-11-18",
+ "creado": "22:24:49",
+ "items": [
+  {
+   "tipo": "charla",
+   "tema": "Operación Northwoods",
+   "sub": "El plan rechazado desclasificado",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a este episodio especial. Hoy hablamos de Operación Northwoods, un plan real del gobierno estadounidense que fue rechazado. Vamos a separar claramente lo que está desclasificado de cualquier leyenda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, nada de conspiraciones locas. Los documentos fueron desclasificados en los noventa y cualquiera puede leerlos. El Pentágono propuso en mil novecientos sesenta y dos crear incidentes falsos para justificar una invasión a Cuba."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es claro. El memorando del Estado Mayor Conjunto sugería ataques terroristas simulados dentro de Estados Unidos y en Guantánamo. Incluía hundir barcos, derribar aviones con drones y hasta ataques contra civiles cubanos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Todo eso está en los archivos desclasificados del Archivo de Seguridad Nacional. El objetivo era culpar al gobierno de Castro y ganar apoyo público y de la ONU. Pero el presidente Kennedy lo rechazó completamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. El plan incluía la idea de fabricar un funeral falso por un astronauta de la NASA para generar indignación. Eso suena a película, pero está escrito negro sobre blanco en el documento oficial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo que pensaba que mi batería tenía ideas raras. Lo importante es que nunca se ejecutó. Fue rechazado por el secretario de Defensa y por el mismo Kennedy. Eso es lo documentado, no especulación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Aquí viene la parte clave. Aunque algunos relatos populares lo conectan con otros eventos posteriores, no existe evidencia desclasificada que muestre que versiones similares se llevaran a cabo. Eso es leyenda, no hecho probado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Correcto. Los documentos paran en el rechazo. Cualquier historia que diga que Northwoods se hizo de todas formas es pura especulación. Los archivos muestran que el plan fue archivado y punto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que sí es un dato curioso es que uno de los generales involucrados en la propuesta luego llegó a ser jefe del Estado Mayor. La historia a veces tiene giros inesperados y eso está registrado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me hace pensar en cuántos planes locos se habrán rechazado y nunca sabremos. Imagina tener que defender Linux contra propuestas tan absurdas. Al menos este quedó en papel y bien guardado."
+    },
+    {
+     "quien": "joy",
+     "texto": "En resumen, Operación Northwoods es un ejemplo documentado de hasta dónde puede llegar un plan militar antes de ser detenido por el poder civil. Nos recuerda la importancia de la transparencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y de leer los documentos originales en vez de creer en sombreritos de aluminio. El escepticismo sano consiste en eso, ver lo que realmente dice el archivo desclasificado y no agregar fantasías."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La historia real ya es suficientemente fuerte sin necesidad de exagerarla. Lo desclasificado nos protege de las leyendas que se construyen después."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahora la pregunta queda en el aire para ustedes. ¿Qué otros documentos desclasificados creen que deberíamos revisar con el mismo escepticismo sano? Cuéntennos abajo."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_cosmos_laundromat",
+   "archivo": "v/v_cosmos_laundromat.mp4",
+   "titulo": "Cosmos Laundromat",
+   "atribucion": "«Cosmos Laundromat» (2015) © Blender Foundation · www.blender.org · CC BY 4.0",
+   "dur": 731,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Abrimos con Cosmos Laundromat de la Blender Foundation."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Una oveja deprimida y un vendedor de vidas en animación surreal."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Eso fue Cosmos Laundromat de Blender Foundation."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Extraña y surreal como pocas animaciones."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "La IA que escribe guiones nunca pide aumento",
+   "sub": "AHORRO CYBER",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "MKUltra: lo admitido",
+   "sub": "Documentos versus leyendas",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos a este episodio donde vamos a separar lo que la CIA admitió de lo que se convirtió en leyenda urbana. MKUltra existió de verdad y hoy revisamos los papeles desclasificados sin agregar sombreritos de aluminio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto Kuroki. Según los documentos oficiales la CIA inició el proyecto en 1953 para investigar control mental y drogas. Duró hasta 1973 cuando el director ordenó destruir la mayoría de los archivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo documentado es que probaron LSD y otras sustancias en ciudadanos sin su consentimiento. Hubo experimentos en hospitales y universidades con financiamiento encubierto. Eso está en informes del Congreso de 1975."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto. La Comisión Rockefeller y las audiencias Church confirmaron que se violaron derechos humanos. La CIA admitió haber usado al menos 80 instituciones y decenas de personas como sujetos involuntarios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso: uno de los científicos involucrados saltó por una ventana en 1953 después de recibir LSD sin saberlo. Se llama Frank Olson y su familia recibió disculpas oficiales décadas después."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso está documentado en expedientes desclasificados. Ahora pasemos a lo que se exagera. La idea de que MKUltra creó asesinos programados como en las películas es pura especulación sin pruebas en los archivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Totalmente. Se cuenta que algunos hablan de control total de la mente pero los mismos científicos de la CIA concluyeron que nunca lograron nada parecido. La mayoría de los ensayos fueron caóticos y poco científicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Lo que sí está confirmado es que destruyeron miles de documentos en 1973. Eso alimenta las leyendas porque queda mucho por saber. Pero lo destruido no equivale automáticamente a conspiraciones gigantes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste del día: si la CIA realmente controlara mentes hoy yo no estaría discutiendo esto en vivo con una directora que me interrumpe cada tres frases. O quizás sí y ese es el punto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Muy graciosa. En serio, la lección documentada es que agencias de inteligencia pueden cruzar límites éticos graves. Eso ocurrió y fue investigado. El resto sobre super soldados o control global sigue siendo especulación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso número dos: parte de los fondos se ocultaron en fundaciones falsas. Universidades respetadas recibieron dinero sin saber el origen real. Eso sí está en los reportes oficiales del Senado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí va mi opinión: MKUltra es un recordatorio de que el poder sin supervisión se descontrola. No necesitamos inventar monstruos mayores. Los hechos desclasificados ya son suficientemente inquietantes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cierto. La tarjeta de seis gigas del canal apenas alcanza para los PDFs desclasificados. Imagínate si tuviéramos que almacenar también todas las teorías conspirativas que se inventaron después."
+    },
+    {
+     "quien": "joy",
+     "texto": "Última pregunta al aire: sabiendo lo que la CIA admitió en los setenta, ¿qué tan lejos crees que podrían llegar agencias similares hoy con tecnología actual? Reflexionemos sin caer en el pánico."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_comfortable_mystery_4",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "titulo": "Comfortable Mystery 4",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Comfortable Mystery 4 de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Listos para un misterio cómodo."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Acaba Comfortable Mystery 4 de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Misterio sin conspiraciones, solo atmósfera."
+    }
+   ]
+  },
+  {
+   "tipo": "sketch",
+   "titulo": "Linux con batería",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Misterios con Escepticismo. Hoy desmenuzamos Linux sin conspiraciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Joy, déjame explicártelo con mi batería. Es lo único que tengo a mano."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tu batería de seis gigas. ¿Eso es el kernel o el demonio?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mira, esta parte vibra como el scheduler. Cuando late, es el proceso principal."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el zumbido es el terminal. Interesante metáfora."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y si golpeo dos veces, entra en modo sudo. ¿Ves?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso sonó como un error de segmentación. ¿Estás segura?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es open source, Joy. Mi batería recompila sola cada vez que se calienta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, eso es solo una leyenda urbana de cyborgs."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Prueba tú. Dale un golpe suave y pide que te compile un driver."
+    },
+    {
+     "quien": "joy",
+     "texto": "Listo. Acabo de escuchar que tu batería dijo kernel panic."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi tarjeta de video tiene más RAM que tu PC del 2009",
+   "sub": "BURN",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Operación Paperclip",
+   "sub": "Científicos alemanes en EE. UU.",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a este programa de misterios con escepticismo sano. Hoy hablamos de la Operación Paperclip. Vamos a separar lo documentado de lo que es pura leyenda. Empecemos por los hechos oficiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Lo documentado es que después de la Segunda Guerra Mundial el gobierno de Estados Unidos reclutó a más de mil científicos alemanes y técnicos. El objetivo era claro: ganar ventaja tecnológica contra la Unión Soviética. Eso está en los archivos desclasificados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto. Entre ellos estaban ingenieros de cohetes como Wernher von Braun, quien había trabajado en el programa V-2 nazi. Documentos oficiales muestran que se les otorgó visas y contratos para trabajar en la NASA y en instalaciones militares. Eso es historia confirmada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que se cuenta que pasó es que muchos de ellos tenían pasado en el partido nazi o en las SS. Según los relatos, Estados Unidos blanqueó sus expedientes para poder contratarlos. Eso sí está documentado en memorandos internos desclasificados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso es que von Braun terminó dirigiendo el centro que llevó al hombre a la Luna. Sin su equipo de Paperclip probablemente el programa Apollo habría sido muy diferente. Eso es un hecho histórico verificable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aquí viene mi chiste de baterista: esos tipos llegaron con cohetes y nosotros les dimos computadoras con apenas 6 gigas de RAM. Ironía pura. Pero en serio, la operación muestra cómo la Guerra Fría hizo que la ética quedara en segundo plano."
+    },
+    {
+     "quien": "joy",
+     "texto": "Separando claramente, lo documentado es la contratación masiva y el aporte tecnológico. Lo que es leyenda o especulación son las historias de que trajeron tecnología alienígena o que controlaban todo desde las sombras. Eso no tiene respaldo en archivos oficiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Totalmente. Los archivos desclasificados muestran una operación pragmática y fría, no conspiraciones de sombreritos de aluminio. Lo que sí está confirmado es que varios de esos científicos nunca fueron juzgados por sus acciones durante la guerra."
+    },
+    {
+     "quien": "joy",
+     "texto": "Otro hecho verificable es que la operación se llamó inicialmente Overcast y luego cambió a Paperclip porque usaban clips de papel para marcar los expedientes de los candidatos. Eso aparece en correspondencia oficial del Departamento de Guerra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Opinión personal: fue una decisión cínica pero efectiva. Ganaron la carrera espacial pero cargaron con el peso moral. Me recuerda que Linux se hizo popular porque la gente quería control real, no historias tapadas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que es pura especulación son las versiones que dicen que Paperclip nunca terminó y que todavía hay descendientes dirigiendo agencias secretas. Eso entra en el terreno de la leyenda sin evidencia documental."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Curioso cómo un país que juzgó en Núremberg luego contrató a los mismos científicos. Documentos muestran que Eisenhower y otros sabían pero priorizaron la ventaja contra los soviéticos. Realpolitik en estado puro."
+    },
+    {
+     "quien": "joy",
+     "texto": "En resumen, la Operación Paperclip es un capítulo real de la historia donde ciencia, moral y geopolítica chocaron. Lo documentado es la migración de talento nazi a Estados Unidos. Lo demás es especulación que debemos tratar con sano escepticismo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahora la pregunta abierta al aire: ¿crees que un país en plena Guerra Fría habría actuado diferente si hubiera tenido la oportunidad de reclutar a los mejores cerebros enemigos? Cuéntanos qué piensas."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20210610_m2020f_mars_report_nasas_pe",
+   "archivo": "v/v_nasa_jpl_20210610_m2020f_mars_report_nasas_pe.mp4",
+   "titulo": "Mars Report: Update on NASA’s Perseverance Rover SuperCam Instrument",
+   "atribucion": "«Mars Report: Update on NASA’s Perseverance Rover SuperCam Instrument» — NASA · images.nasa.gov",
+   "dur": 134,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Mars Report Update on NASA’s Perseverance Rover SuperCam Instrument de NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El rover analiza rocas en Jezero con láser, cámara y micrófono."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Termina el reporte de SuperCam del rover Perseverance de NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Datos documentados desde Marte, nada de especulación."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Linux no tiene virus solo tiene usuarios valientes",
+   "sub": "LINUX VIBES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Área 51: de secreto a admitido",
+   "sub": "Separando hechos de leyendas",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos a esta noche de misterios con escepticismo sano. Hoy hablamos del Área 51. Durante décadas fue el lugar más secreto de Estados Unidos. Nadie confirmaba ni negaba su existencia. ¿Qué sabemos realmente y qué es pura leyenda?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Empecemos por lo documentado. El Área 51 es una base militar real ubicada en Nevada dentro del vasto campo de pruebas de Nellis. Fue establecida en los años cincuenta para desarrollar y probar aviones espía como el U-2 y el SR-71. Eso está completamente desclasificado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La CIA reconoció oficialmente la base en dos mil trece y liberó miles de páginas de documentos. Todo giraba alrededor de aviones de reconocimiento de gran altitud durante la Guerra Fría. No hay mención a visitantes de otros mundos en esos papeles."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ahora pasemos a lo que es leyenda. Se cuenta que allí se guardan restos de ovnis y se realizan autopsias a extraterrestres. Esa historia explotó en los noventa con un supuesto ex empleado llamado Bob Lazar. Nada de eso ha sido probado con evidencia verificable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. El primer vuelo del U-2 provocó cientos de reportes de ovnis porque volaba a más de sesenta mil pies. La gente veía algo plateado brillando a una altura imposible y no sabía qué era. El gobierno prefirió guardar silencio en vez de explicar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso muestra cómo el secreto militar alimenta la especulación. En lugar de decir que probaban aviones nuevos, dejaron que corriera la imaginación. Hoy sabemos que gran parte de los avistamientos clásicos fueron aviones de reconocimiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Opinión personal. Me encanta la idea de que haya una nave alienígena guardada, pero sin una sola foto clara ni un documento filtrado creíble, queda como gran historia de ciencia ficción. Mi tarjeta de seis gigas prefiere datos duros."
+    },
+    {
+     "quien": "joy",
+     "texto": "Totalmente de acuerdo. El escepticismo sano nos ayuda a disfrutar las leyendas sin tragarnos todo. Lo admitido es impresionante por sí solo: tecnología que cambió la forma en que observamos el mundo durante la Guerra Fría."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Otro detalle documentado. En dos mil diecisiete se desclasificaron más fotos y reportes que muestran cómo la base creció para probar drones y aviones stealth. El sigilo sigue siendo su principal negocio, no platillos voladores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí va un chiste suave. Si realmente tuvieran alienígenas trabajando allí, dudo que la cafetería sirviera solo comida terrestre. Pero según todos los documentos, solo hay humanos con muy buena seguridad y mal horario."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que más me intriga es cómo el mito se volvió más grande que la realidad. Películas, series y hasta memes mantienen viva la idea de que allí pasa algo imposible de contar. Mientras tanto, los ingenieros siguen probando aviones."
+    },
+    {
+     "quien": "joy",
+     "texto": "La lección clara es que el secreto genera misterio. Cuando el gobierno finalmente admitió la existencia del Área 51, muchos se decepcionaron porque la verdad era mucho más aburrida que las leyendas de conspiración."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces, queridos espectadores, ¿qué creen ustedes? ¿Piensan que todavía hay capas de secreto que no se han desclasificado o que todo el folclor extraterrestre nació simplemente de aviones que nadie podía explicar en su época?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Esa es la pregunta abierta que dejamos en el aire esta noche. El Área 51 pasó de ser negada por completo a ser admitida oficialmente. Lo documentado es tecnología militar de vanguardia. Lo demás sigue siendo leyenda hasta que aparezcan pruebas sólidas."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20211221_m2020f_0001_explore_mars_je",
+   "archivo": "v/v_nasa_jpl_20211221_m2020f_0001_explore_mars_je.mp4",
+   "titulo": "Explore Mars' Jezero Crater with NASA’s Perseverance Rover",
+   "atribucion": "«Explore Mars' Jezero Crater with NASA’s Perseverance Rover» — NASA · images.nasa.gov",
+   "dur": 185,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Explore Mars Jezero Crater with NASA’s Perseverance Rover de NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Tour guiado desde la región Séítah con vistas del cráter."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Eso fue el tour de Jezero Crater con el rover Perseverance."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Paisaje marciano documentado por Mastcam-Z, solo hechos."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_darkest_child",
+   "archivo": "m/m_darkest_child.mp3",
+   "titulo": "Darkest Child",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Darkest Child de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a niño de la oscuridad."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Termina Darkest Child de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Oscuro pero sin caer en leyendas."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Machinations de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Intrigas mecánicas en audio."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Finaliza Machinations de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Maquinaciones puras, sin teorías raras."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Las baterías nunca fallan si las cargas con café",
+   "sub": "ENERGÍA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Debuggear es como buscar llaves en un cuarto oscuro",
+   "sub": "DEBUG LIFE",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "El cursor parpadea más que yo después de tres cafés",
+   "sub": "CURSOR MOOD",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Según los relatos el primer bug fue una polilla real",
+   "sub": "BUG HISTÓRICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi código compila solo cuando nadie mira",
+   "sub": "MAGIA",
+   "dice": "kuroki"
+  }
+ ],
+ "relleno_musica": [
+  {
+   "tipo": "musica",
+   "id": "m_wallpaper",
+   "archivo": "m/m_wallpaper.mp3",
+   "titulo": "Wallpaper",
+   "atribucion": "Música: «Wallpaper» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 220,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_cyborg_ninja",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "titulo": "Cyborg Ninja",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Machinations de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Intrigas mecánicas en audio."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Finaliza Machinations de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Maquinaciones puras, sin teorías raras."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_mechanolith",
+   "archivo": "m/m_mechanolith.mp3",
+   "titulo": "Mechanolith",
+   "atribucion": "Música: «Mechanolith» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 55,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_digital_lemonade",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "titulo": "Digital Lemonade",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_rocket_power",
+   "archivo": "m/m_rocket_power.mp3",
+   "titulo": "Rocket Power",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 154,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_space_jazz",
+   "archivo": "m/m_space_jazz.mp3",
+   "titulo": "Space Jazz",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 370,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_fluidscape",
+   "archivo": "m/m_fluidscape.mp3",
+   "titulo": "Fluidscape",
+   "atribucion": "Música: «Fluidscape» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 1821,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_dark_fog",
+   "archivo": "m/m_dark_fog.mp3",
+   "titulo": "Dark Fog",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_darkest_child",
+   "archivo": "m/m_darkest_child.mp3",
+   "titulo": "Darkest Child",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Darkest Child de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a niño de la oscuridad."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Termina Darkest Child de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Oscuro pero sin caer en leyendas."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_funkorama",
+   "archivo": "m/m_funkorama.mp3",
+   "titulo": "Funkorama",
+   "atribucion": "Música: «Funkorama» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 201,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_voxel_revolution",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "titulo": "Voxel Revolution",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 130,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_take_a_chance",
+   "archivo": "m/m_take_a_chance.mp3",
+   "titulo": "Take a Chance",
+   "atribucion": "Música: «Take a Chance» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 37,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_pixelland",
+   "archivo": "m/m_pixelland.mp3",
+   "titulo": "Pixelland",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 234,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_8bit_dungeon_boss",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "titulo": "8bit Dungeon Boss",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 172,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_newer_wave",
+   "archivo": "m/m_newer_wave.mp3",
+   "titulo": "Newer Wave",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 175,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_danger_storm",
+   "archivo": "m/m_danger_storm.mp3",
+   "titulo": "Danger Storm",
+   "atribucion": "Música: «Danger Storm» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_ghost_story",
+   "archivo": "m/m_ghost_story.mp3",
+   "titulo": "Ghost Story",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 320,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_lightless_dawn",
+   "archivo": "m/m_lightless_dawn.mp3",
+   "titulo": "Lightless Dawn",
+   "atribucion": "Música: «Lightless Dawn» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 380,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_comfortable_mystery_4",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "titulo": "Comfortable Mystery 4",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Comfortable Mystery 4 de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Listos para un misterio cómodo."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Acaba Comfortable Mystery 4 de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Misterio sin conspiraciones, solo atmósfera."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_impact_moderato",
+   "archivo": "m/m_impact_moderato.mp3",
+   "titulo": "Impact Moderato",
+   "atribucion": "Música: «Impact Moderato» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "charlas": 5,
+  "sketch": true,
+  "cortes": 8,
+  "videos": 3,
+  "musica": 3
+ }
+}

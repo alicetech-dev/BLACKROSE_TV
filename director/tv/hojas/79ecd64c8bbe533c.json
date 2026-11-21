@@ -1,0 +1,21 @@
+{
+ "semilla": "Modelos locales vs en la nube",
+ "hechos": [
+  "Los modelos de lenguaje operan utilizando arquitecturas basadas en transformadores.",
+  "La inferencia de un modelo local requiere recursos computacionales directamente en el dispositivo del usuario.",
+  "El entrenamiento de los grandes modelos se realiza mediante la técnica de aprendizaje supervisado.",
+  "Un modelo alojado en la nube depende de la conectividad a internet para funcionar correctamente.",
+  "Los parámetros de un modelo son los datos que definen su comportamiento interno.",
+  "La latencia es el tiempo que tarda una respuesta en generarse desde que se envía la solicitud.",
+  "El rendimiento de un modelo puede degradarse si no cuenta con suficiente memoria RAM disponible.",
+  "La inferencia local elimina la necesidad de depender de servidores externos para cada consulta.",
+  "Los modelos en la nube permiten acceder a capacidades computacionales superiores sin una inversión inicial alta.",
+  "La privacidad de los datos del usuario es más directa cuando el procesamiento se realiza localmente."
+ ],
+ "leyendas": [
+  "Se cuenta que los modelos locales son siempre más rápidos, aunque esto depende de las especificaciones del hardware disponible.",
+  "Según los relatos comunes, la nube ofrece una seguridad superior para todos los tipos de datos, pero esto varía según el proveedor."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 02:47"
+}

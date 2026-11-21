@@ -1,0 +1,883 @@
+{
+ "bloque": "conspira_1930",
+ "programa": "conspira",
+ "fecha": "2026-11-19",
+ "creado": "15:38:27",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Misterios con escepticismo sano",
+   "sub": "ARCHIVO CONSPIRA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La NASA archivó los documentos en su biblioteca central",
+   "sub": "mito realidad · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Crees que la NASA ocultó datos del proyecto Stargate por miedo a lo que descubrirían?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, no hubo un accidente catastrófico; fue una decisión administrativa fría."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿el mito de la cancelación por desastre es solo una historia para vender tickets?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que el mito de la cancelación por desastre nació cuando un reportero intentó vender una historia impactante y nadie le dio crédito."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si esa versión fue construida para justificar el silencio administrativo en lugar de ser una verdad oculta?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los documentos archivados muestran una decisión fría y calculada, sin los dramáticos accidentes que la leyenda popular exige para tener sentido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el misterio no es lo que se ocultó, sino cómo la gente prefiere creer historias simples sobre una realidad técnica y compleja."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El informe de 1982 dice que no hubo evidencia definitiva. Eso es lo único que podemos confirmar con certeza absoluta sobre el proyecto."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente busca narrativas simples donde la incertidumbre se convierte en drama, no en datos fríos y secos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es lo que hace al mito tan resistente: transforma una decisión administrativa en un evento épico y misterioso."
+    },
+    {
+     "quien": "joy",
+     "texto": "La NASA archivó los documentos, pero la leyenda se alimentó de ese silencio para construir su propia historia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La NASA archivó el proyecto, pero la leyenda creció en el vacío de silencio. ¿Acaso ese archivo escondía algo que nadie vio?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los documentos existen y se pueden estudiar, sin magia ni misterios. La incertidumbre fue un error administrativo, no un secreto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si esa duda alimentó el mito? La gente prefiere historias épicas a datos fríos, incluso cuando la verdad está disponible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Antes creía que el silencio de la NASA ocultaba secretos, pero los archivos demuestran lo contrario."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si ese silencio fue una estrategia para que el mito creciera mientras buscaban respuestas?"
+    }
+   ],
+   "seg": 150
+  },
+  {
+   "tipo": "charla",
+   "tema": "Se han publicado artículos académicos sobre su metodología",
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Acaso el silencio de la NASA es más eloquentes que cualquier transmisión alienígena?"
+    },
+    {
+     "quien": "joy",
+     "texto": "No, es que los datos se archivaron. Pero eso no impide que especulaciones florezcan."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La leyenda dice que hubo un accidente en la base, pero ¿es verdad?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El origen del proyecto Stargate se sitúa en la década de los setenta, cuando la NASA intentaba sistematizar la búsqueda de vida extraterrestre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si ese silencio inicial fue táctico? Quizás esperaban que alguien más hablara antes de divulgar cualquier hallazgo científico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los documentos archivados en la biblioteca central sugieren lo contrario: un proceso deliberado de recopilación y análisis metodológico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la leyenda del accidente en la base persiste. ¿Es una explicación plausible o simplemente otra capa de especulación infundada?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El informe de 1982 dice que no hubo accidentes, pero la leyenda del silencio táctico sigue viva. ¿Qué opinas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda del accidente en la base tiene peso, pero el informe de 1982 es frío y claro: no hubo desastres técnicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El silencio táctico podría ser una decisión política, no un error operativo. ¿Crees que la NASA ocultó algo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si fuera un accidente grave, el informe lo diría. Quizás el verdadero misterio es por qué se archivó sin revelar todo."
+    },
+    {
+     "quien": "joy",
+     "texto": "El silencio de 1982 es más inquietante que cualquier error técnico. Quizás la verdad esté en los archivos no indexados."
+    },
+    {
+     "quien": "joy",
+     "texto": "La metodología de línea de tiempo sugiere que cada dato fue analizado con rigor. Pero ¿por qué omitieron el contexto?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El informe de 1982 no menciona accidentes graves. ¿Por qué archivaron sin explicar los métodos exactos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La metodología en línea de tiempo sugiere análisis riguroso. Pero el silencio de 1982 es más inquietante que cualquier error técnico."
+    }
+   ],
+   "seg": 139
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los datos recopilados se publicaron en el informe final de 1982",
+   "sub": "linea tiempo · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Creen que la NASA ocultó datos sobre contactos reales? La verdad es que el informe de 1982 fue cerrado sin revelar todos los detalles técnicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Eso suena a leyenda! Algunos afirman que se ocultaron datos sobre contactos reales, pero según los relatos, solo hubo una búsqueda fallida de vida alienígena."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El proyecto Stargate fue un programa de la NASA en los años 70 que buscaba evidencia extraterrestre, y la agencia no encontró pruebas definitivas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué dice el informe sobre si realmente hubo contactos? La agencia no encontró pruebas definitivas de vida alienígena, pero archivó los documentos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto. Existen copias digitales disponibles para investigadores públicos, aunque la NASA nunca confirmó si esos archivos incluyen detalles técnicos completos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces el giro ocurrió cuando los datos se publicaron en 1982 sin revelar todos los detalles técnicos del proyecto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El informe final de 1982 separó lo desclasificado de la leyenda, dejando dudas sobre contactos reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasó con la base? Dicen que hubo un accidente, pero no hay pruebas documentadas. La NASA archivó los documentos en su biblioteca central."
+    },
+    {
+     "quien": "joy",
+     "texto": "El informe de 1982 confirmó que la búsqueda se detuvo sin hallar vida alienígena. ¿Por qué crees que el público siguió especulando?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás porque nadie logró replicar los datos del proyecto Stargate. La falta de evidencia clara alimenta todo tipo de teorías."
+    },
+    {
+     "quien": "joy",
+     "texto": "La especulación es natural, pero sin pruebas documentadas se convierte en mito. ¿Qué haríamos si tuviéramos el archivo original?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 122
+  },
+  {
+   "tipo": "charla",
+   "tema": "El proyecto fue cerrado sin revelar todos los detalles técnicos",
+   "sub": "mito realidad · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Dicen que el proyecto Stargate se canceló por un accidente en la base, pero eso es solo una leyenda urbana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los informes oficiales de 1982, no hubo accidente; simplemente la agencia concluyó que no había evidencia sólida."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el accidente fue una excusa para ocultar datos sobre contactos reales? La NASA archivó los documentos, pero ¿qué pasó con ellos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La versión popular dice que el Stargate se canceló por un accidente en la base, pero los informes oficiales de 1982 no mencionan ese evento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según la NASA, los documentos están en su biblioteca central y existen copias digitales para investigadores públicos. No hay razón para ocultar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero si se ocultaron datos, ¿por qué el informe final de 1982 dice que no hubo pruebas definitivas? Eso sugiere un corte deliberado en la investigación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué entonces existe esa leyenda persistente? A veces la gente confunde rumores con hechos confirmados por datos reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los documentos archivados, el proyecto se cerró sin revelar todos los detalles técnicos, pero sí se publicó un informe final en 1982."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese informe dice que no hubo pruebas definitivas de vida alienígena. ¿Significa eso que todo fue un fracaso total o algo más complejo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree el mito porque los medios no explicaron bien por qué se cerró sin revelar todos los detalles técnicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y porque muchos rumores circulan como si fueran hechos, mezclando lo documentado con especulaciones sin fuentes claras."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto que se publicaron artículos académicos sobre su metodología, pero eso no explica por qué persiste la duda pública."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese mito de la cancelación por accidente no tiene fuente, es solo una historia que los medios repitieron sin verificar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y eso explica por qué persiste la duda. La gente confunde el silencio técnico con un secreto intencional."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y los artículos académicos confirman que fue una decisión deliberada de no publicar datos clave, nada de magia oculta."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Crees que el silencio técnico sea un secreto intencional o simplemente una falta de recursos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente confunde la ausencia de datos con ocultamiento, pero los artículos dicen lo contrario."
+    }
+   ],
+   "seg": 170
+  },
+  {
+   "tipo": "video",
+   "id": "v_cosmos_laundromat",
+   "archivo": "v/v_cosmos_laundromat.mp4",
+   "titulo": "Cosmos Laundromat",
+   "atribucion": "«Cosmos Laundromat» (2015) © Blender Foundation · www.blender.org · CC BY 4.0",
+   "dur": 731,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Operación Northwoods: verdad y mito",
+   "sub": "ARCHIVO CONSPIRA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El general Kennedy en la isla de Puerto Rico",
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Creen que el general Kennedy dirigió una operación real en Puerto Rico o fue solo un ejercicio de simulacro?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los documentos oficiales, sí fue un ejercicio militar documentado en 1962 con más de trescientos soldados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero ¿el mito popular dice que fue una operación secreta como si fuera real? Eso es lo que quiero cuestionar ahora."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que muchos creen que fue una operación secreta y real, no un ejercicio de simulacro como dicen los documentos oficiales."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué pasa con la leyenda que dice que involucraba a figuras políticas no confirmadas? Eso suena más a especulación que a hecho verificado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente suele asociar el general Kennedy con una acción real en Puerto Rico, pero los archivos muestran que fue un entrenamiento militar documentado."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Creen que la versión popular es solo un mito o hay algún núcleo de verdad oculto detrás de esa narrativa histórica?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No hay evidencia documental que respalde una intervención política real; todo se reduce a pruebas tácticas y simulacros militares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, la leyenda surge de la incertidumbre pública más que de hechos concretos. ¿Qué otros mitos persisten sobre esta operación?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree el mito porque la incertidumbre pública genera historias atractivas que llenan los espacios vacíos de información."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La falta de datos concretos permite que las especulaciones florezcan como si fueran hechos verificados por todos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Además, la narrativa se adapta a los deseos colectivos: queremos creer que hubo algo más grande detrás de lo visible."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de que fue una operación real en Puerto Rico se basa en la confusión con el ejercicio de 1962, pero los registros muestran que no hubo un conflicto armado."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que fue un entrenamiento táctico con tecnología avanzada, documentado en informes militares oficiales, sin involucrar a figuras políticas no confirmadas ni inteligencia artificial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Crees que el mito de la operación real en Puerto Rico se debe a la confusión con este entrenamiento táctico?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El general Kennedy lideró un ejercicio militar en 1962 para probar tácticas urbanas y psicológicas, no una operación de guerra real."
+    }
+   ],
+   "seg": 168
+  },
+  {
+   "tipo": "charla",
+   "tema": "Más de 300 soldados en el ejercicio de 1962",
+   "sub": "linea tiempo · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Verdad que el general Kennedy comandó esto en Puerto Rico en 1962?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los archivos oficiales, sí: más de 300 soldados participaron."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué tan real fue el ejercicio? ¿O solo una simulación?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los archivos confirman que el general Kennedy dirigió esta operación militar en Puerto Rico, pero la verdad sobre su escala real sigue siendo debatida."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Realmente fue una simulación o un preámbulo a algo más? La información se mantuvo clasificada durante décadas y eso genera muchas dudas legítimas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los registros oficiales, participaron más de trescientos soldados y oficiales en este ejercicio de guerra urbana con tecnología avanzada para simular ataques enemigos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿qué dicen las fuentes secundarias sobre el impacto real? Algunos relatos sugieren que fue más allá de una simple demostración táctica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si esa clasificación fue solo una estrategia para mantener vivo el mito de su importancia estratégica?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los informes militares sí documentan la operación, pero no detallan todos los objetivos políticos detrás."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Algunos relatos sugieren que fue más allá de una simulación, quizás un preámbulo a algo más grande."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los informes de 1962 confirman la escala del ejercicio, pero no explican por qué se mantuvo clasificado tanto tiempo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás la clasificación fue un recurso táctico para que el mito persistiera mientras se probaban nuevas estrategias de guerra fría."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y eso hace que los historiadores debatan si fue una simulación real o un preámbulo a algo más ambicioso en la geopolítica de la época."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si la clasificación no fue solo táctica, sino porque el ejercicio revelaba debilidades que nadie quería ver?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es una hipótesis interesante, pero los documentos de 1962 no mencionan ese miedo específico a la exposición."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, los archivos son claros, pero el silencio posterior sugiere que hubo algo más que los informes oficiales contaron."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, los documentos son claros, pero el vacío histórico indica que se ocultó algo que nadie quería ver."
+    }
+   ],
+   "seg": 156
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La revelación pública en los años 2000",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Creen que la Operación Northwoods fue una guerra real o un ejercicio de simulacro?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que fue un entrenamiento militar en 1962, no un conflicto real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el mito de que fue una operación secreta como si fuera guerra es falso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que muchos creen que fue una guerra real, pero los documentos militares lo confirman como un ejercicio de simulacro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el mito de la operación secreta es falso. La verdad técnica dice que fue un entrenamiento para probar tácticas urbanas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Algunos incluso imaginan que involucraba a figuras políticas no confirmadas, pero eso es puro especulación sin fuentes verificables."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda sugiere que se usó inteligencia artificial en su planificación, pero la realidad es que fue un esfuerzo humano y tecnológico de la época."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad técnica dice que fue un entrenamiento para probar tácticas de guerra urbana y psicológica, no una operación real secreta como sugiere la leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los resultados mostraron la eficacia de las tácticas empleadas y el ejercicio fue documentado en informes militares oficiales, lo cual refuta cualquier versión mitológica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree el mito porque la historia militar siempre se ha contado con énfasis en lo extraordinario, no en lo rutinario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto, pero la realidad técnica muestra que las operaciones de entrenamiento suelen ser más simples de lo que se narra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Además, los informes clasificados se han ido filtrando con el tiempo, creando una narrativa que mezclaba datos reales con especulaciones."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de la complejidad extrema es un exagerado recurso narrativo; la verdad está en los documentos oficiales de 1962."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Creías que era una operación real antes de saber el año y el lugar exacto?"
+    }
+   ],
+   "seg": 137
+  },
+  {
+   "tipo": "charla",
+   "tema": "Qué se sabe realmente sobre su clasificación",
+   "sub": "real inventado · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Escucha, el juego es simple: lo documentado en informes oficiales versus la leyenda urbana. ¿Tienes una teoría sobre esto?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que los informes militares dicen lo contrario a lo que muchos creen. La clasificación fue real, pero no como se cuenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y la IA no jugó ningún rol en su planificación. Eso es mito. ¿Qué te parece si seguimos con los detalles?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Puedes empezar con un dato concreto: cuántos soldados participaron realmente o qué tecnología se usó en el ejercicio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, entonces dime primero si sabes la cifra exacta de personal que estuvo involucrado en esa operación militar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki tiene razón, la IA no participó. Pero ¿qué tecnología simulaba ataques enemigos en el eje norte?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los informes, usaron radares de última generación y drones sin piloto para probar tácticas urbanas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. ¿Y la cifra exacta de soldados? La leyenda dice 300, pero ¿es eso verdad o mito?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los documentos oficiales confirman más de 300 efectivos, incluyendo oficiales y técnicos de las fuerzas armadas."
+    },
+    {
+     "quien": "joy",
+     "texto": "La cifra de trescientos soldados es oficial, pero ¿qué dicen los informes sobre el nivel técnico de cada participante?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los documentos, muchos eran ingenieros y operadores de sistemas, no solo combatientes tradicionales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces la leyenda de 'soldados comunes' es falsa. ¿Y qué pasó con la tecnología que usaron para simular ataques?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Usaron radares de última generación y drones sin piloto, pero no hubo inteligencia artificial en la planificación."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda de que participaron solo soldados comunes es falsa, según los documentos. Eran ingenieros y operadores de sistemas avanzados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La idea de una IA en el ejercicio es pura especulación. Lo real fue un esfuerzo técnico masivo por probar tácticas urbanas y psicológicas en 1962."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Mira! La gente cree que fue solo un ejercicio de guerra urbana, pero los documentos muestran algo más complejo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La leyenda dice que fueron soldados comunes, pero la realidad es que participaron ingenieros y operadores técnicos."
+    }
+   ],
+   "seg": 160
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Roswell y el Proyecto Mogul",
+   "sub": "ARCHIVO CONSPIRA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El informe de Roswell: un techo o una envoltura?",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sobre El informe de Roswell: un techo o una envoltura? se cuentan muchas cosas. Vamos a separar mito de realidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que el objeto era una nave alienígena, pero eso es solo lo que la gente cree. La verdad técnica dice algo muy distinto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. La leyenda popular inventó la idea de aliens, mientras que los documentos muestran un 'techo' o envoltura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y por qué se confunde tanto? Porque el informe inicial usó palabras ambigüas. La gente tomó lo primero y lo extralimitó."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los archivos de 2013 confirman que fue un proyecto de estudios atmosféricos, no una búsqueda de visitantes del espacio exterior."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El informe de 1947 usó 'techo' porque los sensores fallaron. La gente escuchó 'envoltura' y creó la leyenda de naves extraterrestres sin pruebas."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ambigüedad del informe de 1947 es la raíz del mito. Palabras como 'techo' o 'envoltura' permiten que cualquier imaginación se apode del hecho técnico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué el público prefiere una historia épica sobre un fallo de sensores? La mente humana busca patrones, no reportes secos de ingeniería atmosférica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los archivos de 2013 aclaran que se estudiaron nubes y rayos. La narrativa de la nave alienígena persiste porque la gente acepta lo fascinante sobre lo verificado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto: el mito se alimenta de lo desconocido. Sin datos duros, la imaginación gana siempre en la cultura popular."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Crees que la gente elige mitos por miedo o porque les gusta la narrativa?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Porque el cerebro humano necesita patrones, no explicaciones técnicas frías."
+    }
+   ],
+   "seg": 122
+  },
+  {
+   "tipo": "charla",
+   "tema": "Mogul en acción: aviones de reconocimiento atmosférico",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Sobre Mogul en acción: aviones de reconocimiento atmosférico se cuentan muchas cosas. Vamos a separar mito de realidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki tiene razón, las versiones populares suelen exagerar el papel de los aviones de reconocimiento en la historia de Roswell."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Se cuenta que los pilotos veían naves extraterrestres, pero lo documentado muestra que estaban buscando fenómenos atmosféricos reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los archivos de 2013 confirman que el proyecto Mogul usó aviones para estudiar la atmósfera y no para construir naves espaciales como dice la leyenda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que fue una nave alienígena, pero los informes técnicos hablan de 'techo' o 'envoltura', algo muy diferente a un vehículo interestelar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Las bases de Roswell fueron desmanteladas en 1971 tras confirmar su uso para pruebas de armas nucleares, no para alienígenas ni construcción espacial."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree en naves alienígenas porque los informes técnicos hablan de 'techo' o 'envoltura', algo muy extraño para la época."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero el contexto real es diferente: Roswell fue una base militar activa, y Mogul estudiaba fenómenos atmosféricos con aviones de reconocimiento."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Por qué entonces persiste la idea de que fue un artefacto extraterrestre en lugar de un simple error de interpretación técnica?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que Mogul usaba aviones para observar nubes y tormentas, no para buscar alienígenas. El término 'techo' se refiere a una capa de hielo o nubes altas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, la confusión surge porque los documentos técnicos fueron malinterpretados por periodistas y fans durante décadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La leyenda de la nave alienígena es un mito popular que se mezcló con datos reales, creando una narrativa exagerada."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué creías antes sobre Mogul y Roswell? La gente suele pensar que buscaban alienígenas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es lo que dice la leyenda, no la realidad técnica. Los aviones miraban nubes, no extraterrestres."
+    }
+   ],
+   "seg": 142
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Desmantelamiento de la base en 1971: pruebas nucleares",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que el objeto de Roswell era una nave alienígena, pero los documentos oficiales lo llaman un 'techo' o envoltura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La gente cree que Mogul buscaba naves espaciales, aunque sus aviones solo observaban fenómenos atmosféricos y espaciales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y la base fue desmantelada en 1971, no porque haya alienígenas, sino porque se confirmó su uso para pruebas de armas nucleares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los archivos del proyecto Mogul fueron abiertos al público en 2013, confirmando que era un programa de investigación científica real."
+    },
+    {
+     "quien": "joy",
+     "texto": "El informe inicial de Roswell describió un 'techo' o 'envoltura', lo que sugiere que la misión buscaba estudiar estructuras desconocidas en la atmósfera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree el mito porque los reportes originales fueron redactados con términos técnicos que cualquiera puede interpretar mal, como 'techo' o 'envoltura', lo que suena a algo artificial."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El lenguaje técnico de la época, combinado con la incertidumbre sobre fenómenos atmosféricos, generó esa ambigüedad que luego se llenó de especulaciones no verificadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no olvidemos el contexto de la Guerra Fría: todo lo que parecía fuera de lo común era sospechoso. La base estaba en una zona remota, lo que solo alimenta la curiosidad y el rumor."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de la nave alienígena surge porque el informe original usó términos técnicos como 'envoltura' que hoy suenan futuristas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La incertidumbre sobre fenómenos atmosféricos combinada con la Guerra Fría hizo que todo lo desconocido fuera sospechoso."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que Roswell fue desmantelada en 1971 para pruebas nucleares, y los archivos del proyecto Mogul se abrieron recién en 2013."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Crees que el desmantelamiento en 1971 fue solo por pruebas nucleares o hay otra razón oculta?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los archivos públicos, se usó para misiles y defensa aérea; la verdad técnica es más simple que el mito."
+    }
+   ],
+   "seg": 142
+  },
+  {
+   "tipo": "charla",
+   "tema": "Archivos abiertos en 2013: qué revela el documento",
+   "sub": "real inventado · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que los archivos de 2013 no confirman naves alienígenas, solo documentos técnicos. ¿Por qué insisten en la leyenda?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Porque el informe original menciona un 'techo', no una nave. Eso suena a algo que se desmontó, ¿no? La gente inventa historias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. El proyecto Mogul buscaba fenómenos atmosféricos, no extraterrestres. Si fuera una nave, tendrían más pruebas. ¿Qué dice el documento?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El informe de 2013 confirma que el objeto era una 'envoltura' o 'techo', no una nave. Eso sugiere un diseño modular desmontable, ¿no?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero el documento de 2013 también menciona 'revestimiento' y 'capa'. ¿Podría ser un sistema de protección contra la radiación solar?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O quizás una prueba de material nuevo para escudos térmicos. La Fuerza Aérea no solía publicar detalles técnicos sin contexto."
+    },
+    {
+     "quien": "joy",
+     "texto": "El informe de 2013 dice que el objeto tenía una 'envoltura', pero no explica qué era esa envoltura. ¿Era un escudo o algo más?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Podría ser un revestimiento para proteger la nave de las altas temperaturas del reentrada atmosférica. La Fuerza Aérea solía ocultar detalles técnicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si fuera un escudo térmico, ¿por qué no lo describieron como tal? El documento solo dice 'revestimiento' y 'capa'. Eso suena ambiguo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La Fuerza Aérea clasificó el proyecto Mogul hasta 2013. ¿Por qué mantener esa incertidumbre? Quizás para no comprometer la doctrina de defensa aérea."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No inventan fechas ni cifras, pero sí dejan huecos. La ambigüedad es intencional. ¿O es que el documento está mal interpretado?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Si el documento solo dice 'revestimiento', ¿por qué no lo describieron como escudo térmico? La Fuerza Aérea clasificó el proyecto Mogul hasta 2013."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La ambigüedad es intencional, ¿o es que el documento está incompleto? Quizás para no comprometer la teoría de naves alienígenas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los archivos abiertos en 2013 revelan que el objeto fue un 'techo'. Eso sugiere algo más allá de una simple nave, pero ¿qué exactamente?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué un 'techo' y no un escudo térmico? La Fuerza Aérea clausuró los archivos para no dar pistas a la especulación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los documentos de 2013 dicen solo 'revestimiento'. Eso es ambiguo, pero la IA no inventa detalles que no existen."
+    }
+   ],
+   "seg": 170
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1778,
+  "medios": 2
+ }
+}

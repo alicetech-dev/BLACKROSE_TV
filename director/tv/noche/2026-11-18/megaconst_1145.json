@@ -1,0 +1,819 @@
+{
+ "bloque": "megaconst_1145",
+ "programa": "megaconst",
+ "fecha": "2026-11-19",
+ "creado": "14:12:22",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: La escala y el desafío",
+   "sub": "MEGACONSTRUCCIONES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El volumen de hormigón",
+   "sub": "mito realidad · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Vieron ese mito de que la represa se construyó con tecnología espacial? Es una leyenda, no un dato real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Los datos reales dicen que el volumen de hormigón es superior a 2,5 millones de metros cúbicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aunque hay cifras para la longitud del dique, se cuenta que la inundación no causó impacto ambiental significativo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Abriendo el programa con datos reales: se cuenta que la tecnología espacial no es el dato real, pero sí el volumen de hormigón superior a 2,5 millones de metros cúbicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo veo esa leyenda del tiempo récord y la tecnología espacial, pero los datos reales confirman que la reubicación de 35.000 personas es un hecho documentado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, se cuenta que hubo una creencia de impacto ambiental cero, aunque el desplazamiento real confirma que la inundación sí tuvo consecuencias humanas y ambientales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Para cerrar, el dique mide 8.000 metros y la capacidad es de 14.000 megavatios; se cuenta que la construcción duró años sin tecnología espacial para ese volumen de hormigón."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que está documentado de El volumen de hormigón es más sobrio, pero igual de interesante."
+    },
+    {
+     "quien": "joy",
+     "texto": "El dique mide 8.000 metros y la capacidad es de 14.000 megavatios; se documentó que hubo un desplazamiento de 35.000 personas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La tecnología espacial no usó satélites para el diseño, sino que la escala monumental demandó una inversión inicial en millones de dólares."
+    },
+    {
+     "quien": "joy",
+     "texto": "La escala del volumen de hormigón es una realidad documentada, con un dique que supera los 2.5 millones de metros cúbicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mito real: la tecnología espacial no fue usada para el diseño; la escala monumental demandó inversiones masivas y precisión humana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que la inundación desplazó a 35.000 personas, un hecho documentado que muestra el costo ético del proyecto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antes creía que la tecnología espacial diseñó el dique, pero se cuenta que fue ingeniería civil pura. La escala del hormigón es un dato real, no una magia cósmica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se documenta que desplazaron a 35.000 personas para crear el embalse. Este costo ético muestra la complejidad de las obras monumentales y su impacto social."
+    }
+   ],
+   "seg": 165
+  },
+  {
+   "tipo": "charla",
+   "tema": "Capacidad instalada",
+   "sub": "mito realidad · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sobre Capacidad instalada se cuentan muchas cosas. Vamos a separar mito de realidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "se cuenta que la tecnología espacial diseñó los planos, pero en realidad fue ingeniería civil pura con mucha tierra y mucho hormigón, nada de satélites para el dibujo."
+    },
+    {
+     "quien": "joy",
+     "texto": "la leyenda dice que la inundación liberó a todos sin dañar la selva, pero se cuenta que desplazamos vidas y ecosistemas para lograr esa capacidad instalada de 14.000 megavatios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "la versión popular asume que no hubo impacto ambiental al inundar las áreas, aunque el dato real muestra reubicaciones masivas y cambios en el paisaje para la represa."
+    },
+    {
+     "quien": "joy",
+     "texto": "entonces, la realidad es que movimos a 35.000 personas y alteramos el entorno inmediato para alcanzar esa escala monumental de energía en una sola central hidroeléctrica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mira, la versión popular asume que no hubo impacto ambiental significativo, pero los datos muestran reubicaciones masivas y cambios en el ecosistema local."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, se cuenta que inundamos las áreas afectadas para liberar agua, aunque eso implicó desplazar vidas de sus hogares y modificar el paisaje natural."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, la verdad es que movimos a 35.000 personas y alteramos la estructura del embalse para generar esa potencia eléctrica sin precedentes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que la obra fue un éxito mágico, pero se cuenta que el verdadero desafío fue mover a 35.000 personas sin perder el ritmo del proyecto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto, pero la realidad muestra que alteramos el embalse y desplazamos vidas para generar energía, algo que muchos pasan por alto en los relatos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mira, el mito dice que no hubo impacto ambiental, pero la verdad es que inundamos áreas afectadas, aunque la capacidad instalada de 14.000 megavatios lo hizo posible."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito sugiere que la obra fue un milagro instantáneo, pero la realidad es que se desplazó a 35.000 personas para alterar el embalse y generar energía."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cierto que hubo impacto ambiental al inundar áreas afectadas; no fue una obra mágica, sino un esfuerzo real donde movimos a 35.000 vecinos para la red eléctrica."
+    },
+    {
+     "quien": "joy",
+     "texto": "La escala monumental requirió esa reubicación masiva como parte del plan de ingeniería, demostrando que el impacto ambiental y social fueron el costo real del proyecto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antes de hablar, creo que el mito del milagro instantáneo es solo para ocultar la realidad: se desplazó a 35.000 personas y hubo impacto ambiental."
+    }
+   ],
+   "seg": 183
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Desplazamiento poblacional",
+   "sub": "top3 · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos a este documental sobre ingeniería monumental. Hoy exploramos el desplazamiento poblacional con un enfoque en el top 3, donde analizaremos la represa de Itaipú y su impacto en las comunidades afectadas por la construcción."
+    },
+    {
+     "quien": "joy",
+     "texto": "La escala de este proyecto es impresionante, pero el costo humano no debe pasarse por alto. Veremos cómo tres millones de metros cúbicos de hormigón cambiaron vidas y paisajes en una frontera entre Brasil y Paraguay."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, Joy. La reubicación de 35.000 personas fue un desafío enorme. Además, la tecnología espacial no se usó masivamente; fue ingeniería tradicional lo que logró este milagro en medio del río Paraná."
+    },
+    {
+     "quien": "joy",
+     "texto": "También hay una creencia común de que el impacto ambiental fue mínimo, pero eso es un error. La inundación afectó significativamente la flora y fauna local, algo que a menudo se pasa por alto en las historias oficiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La reubicación de 35.000 personas fue un desafío enorme, pero se cuenta que la tecnología espacial no fue el factor clave en el diseño."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y aunque la inversión inicial era alta, el impacto ambiental real también es una variable que se pasa por alto a veces."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Además, existe un error común creer que el impacto fue mínimo; la inundación de las áreas afectadas tuvo consecuencias reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "El desplazamiento de 35.000 personas marca el reto humano, aunque se cuenta que la tecnología espacial ayudó en el diseño."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso suena a leyenda, pero la reubicación real afectó vidas; además, muchos creían erróneamente que el impacto ambiental fue mínimo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La escala del dique de 8.000 metros desafió los materiales, mientras la inauguración en dos etapas requirió mucha planificación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El primer puesto va para la reubicación de 35.000 personas, un reto humano real que marcó el inicio del proyecto en esa frontera entre Brasil y Paraguay."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que la tecnología espacial ayudó a acelerar el diseño, pero la reubicación real fue lo más difícil; muchos creían erróneamente que no hubo impacto ambiental."
+    },
+    {
+     "quien": "joy",
+     "texto": "La construcción empleó a más de 30.000 trabajadores durante varios años, demostrando cómo la ingeniería monumental transforma desafíos en energía para millones de hogares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Además, la construcción empleó a más de 30.000 trabajadores durante varios años, demostrando cómo la ingeniería monumental movilizó recursos en la frontera entre Brasil y Paraguay."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y se cuenta que el proyecto fue iniciado en 1972 para aprovechar el potencial hidroeléctrico del río Paraná, aunque la reubicación humana siempre será el desafío mayor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mientras reubicaban a vecinos, la creencia de que el impacto ambiental fue nulo es una leyenda común en la ingeniería."
+    }
+   ],
+   "seg": 201
+  },
+  {
+   "tipo": "charla",
+   "tema": "Etimología del nombre",
+   "sub": "explicado · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez pensaron en la etimología de Itaipú? El nombre guaraní significa 'lugar donde se cruzan los ríos', un detalle curioso sobre el lugar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es interesante, pero ojo con las cifras. La construcción empezó oficialmente en 1974 y no en tiempos récord con tecnología espacial, eso es una leyenda común."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, se cuenta que el proyecto requirió reubicar a unas 35.000 personas para construir este complejo de 14.000 megavatios en la frontera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos a la escala y el desafío, donde analizamos cómo Itaipú redefine los límites de ingeniería monumental."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Iniciado en 1972, el proyecto buscó aprovechar el potencial hidroeléctrico del río Paraná para generar energía masiva."
+    },
+    {
+     "quien": "joy",
+     "texto": "La construcción oficial comenzó en 1974 con una inversión inicial estimada en millones de dólares, moviendo mucha gente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo interesante de Etimología del nombre es cómo funciona por dentro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a un documental donde la precisión se encuentra con la historia. El nombre Itaipú revela su origen en el guaraní, significando literalmente 'lugar donde se cruzan los ríos', una etimología que define nuestra ubicación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es interesante, pero la parte más desafiante fue la escala. En 1972, el proyecto buscó explotar el potencial del río Paraná, iniciando una obra que hoy nos impacta por su inmensidad y complejidad estructural."
+    },
+    {
+     "quien": "joy",
+     "texto": "La construcción oficial empezó en 1974 moviendo a miles de personas. El dique principal mide cerca de ocho kilómetros, utilizando más de dos millones y medio de metros cúbicos de hormigón para crear este gigante de ingeniería."
+    },
+    {
+     "quien": "joy",
+     "texto": "El proyecto buscó explotar el potencial hidroeléctrico en 1972, iniciando la construcción oficial al año siguiente tras mover a miles de personas afectadas por la inundación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La inversión inicial se estimó en millones de dólares y emplearon más de 30.000 trabajadores locales e internacionales para levantar un dique principal cercano a los ocho kilómetros."
+    },
+    {
+     "quien": "joy",
+     "texto": "El dique tiene una longitud aproximada de 8.000 metros con un volumen superior a 2,5 millones de metros cúbicos, logrando una capacidad instalada de 14.000 megavatios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La inversión inicial en millones de dólares impulsó un proyecto que empleó a más de 30.000 trabajadores durante varios años para construir una obra monumental."
+    }
+   ],
+   "seg": 168
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jsc2025m000041_tour_the_international_sp",
+   "archivo": "v/v_nasa_jsc2025m000041_tour_the_international_sp.mp4",
+   "titulo": "Tour the International Space Station: 25 Years of Humans in Space",
+   "atribucion": "«Tour the International Space Station: 25 Years of Humans in Space» — NASA · images.nasa.gov",
+   "dur": 951,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: El Gran Telescopio de Atacama",
+   "sub": "MEGACONSTRUCCIONES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Mapeo del cielo profundo con antenas individuales",
+   "sub": "mito realidad · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que las antenas de ALMA son gigantes como la Luna, pero en realidad son mucho más pequeñas y operan juntas para ver lo invisible."
+    },
+    {
+     "quien": "joy",
+     "texto": "La red está compuesta por 66 antenas individuales dispuestas en una configuración Y, permitiendo observar longitudes de onda entre 0.3 y 16 milímetros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Estas observaciones se realizan desde los más de 5.000 metros de altura en el desierto de Atacama, aprovechando la baja humedad atmosférica nocturna."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que ALMA detecta señales de miles de millones de años luz, pero esto depende del tipo de radiación emitida por los objetos celestes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un error común es pensar que las antenas individuales son gigantes como la Luna, cuando en realidad su tamaño físico es mucho menor."
+    },
+    {
+     "quien": "joy",
+     "texto": "La red está compuesta por 66 antenas individuales dispuestas en una configuración Y para mapear el cielo profundo con alta resolución."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que ALMA detecta señales de miles de millones de años luz, pero esto depende del tipo de radiación emitida por los objetos celestes. Un error común es pensar que las antenas individuales son gigantes como la Luna, cuando en realidad su tamaño físico es mucho menor."
+    },
+    {
+     "quien": "joy",
+     "texto": "La red está compuesta por 66 antenas individuales dispuestas en una configuración Y para mapear el cielo profundo. Las observaciones se realizan desde una altura superior a los 5.000 metros sobre el nivel del mar debido a la baja humedad atmosférica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "ALMA permite observar longitudes de onda entre 0.3 milímetros y 16 milímetros. La tecnología de interferometría combina las señales para lograr alta resolución, contribuyendo al estudio de la formación estelar y la evolución galáctica."
+    },
+    {
+     "quien": "joy",
+     "texto": "El veredicto es realidad: ALMA mapea el cielo profundo gracias a su red de 66 antenas individuales en configuración Y, operando entre 0.3 y 16 milímetros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antes creía que ALMA tenía antenas gigantes como la Luna, pero es solo una ilusión visual de su diseño."
+    },
+    {
+     "quien": "joy",
+     "texto": "Efectivamente, la realidad confirma que estas 66 unidades son mucho más pequeñas y trabajan en equipo."
+    }
+   ],
+   "seg": 156
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ambiente frío para reducir interferencias",
+   "sub": "mito realidad · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a un documental sobre ingeniería monumental. El tema de hoy es el ambiente frío para reducir interferencias en ALMA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, se cuenta que este entorno helado es clave para evitar ruido térmico y mejorar las observaciones astronómicas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Efectivamente. La altitud superior a 5.000 metros sumada al aire seco crea condiciones idealesimas para captar longitudes de onda entre 0.3 y 16 milímetros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, se cuenta que este entorno helado es clave para evitar ruido térmico y mejorar las observaciones. La altitud superior a 5.000 metros sumada al aire seco crea condiciones idealesimas para captar"
+    },
+    {
+     "quien": "joy",
+     "texto": "Efectivamente, la tecnología de interferometría combina señales para lograr alta resolución en esta banda milimétrica y submilimétrica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que ALMA es capaz de detectar señales desde distancias enormes, aunque esto depende del tipo de radiación emitida por los objetos celestes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un error común es pensar que las antenas individuales son más grandes que la Luna, cuando en realidad su tamaño físico es mucho menor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos al documental sobre ALMA, donde confirmamos que la interferometría combina señales para alta resolución. Se cuenta que detecta desde 0.3 hasta 16 milímetros de longitud de onda, pero esto depende del objeto celeste observado."
+    },
+    {
+     "quien": "joy",
+     "texto": "La observación ocurre a más de 5.000 metros en el desierto frío, reduciendo interferencias. Las antenas individuales son mucho más pequeñas que la Luna, aunque su red de 66 elementos logra ver formación estelar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El proyecto comenzó oficialmente en 2011 con colaboración internacional. El aire seco nocturno es clave; se observa solo de noche porque la humedad afecta las señales, algo que muchos desconocían hasta ahora."
+    },
+    {
+     "quien": "joy",
+     "texto": "Aunque se cuenta que alcanzan distancias enormes, esto depende del tipo de radiación emitida por los objetos. La tecnología documentada permite estudiar galaxias evolucionando con precisión milimétrica en la banda submilimétrica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que las antenas de ALMA son más grandes que la Luna, pero en realidad sus estructuras físicas miden mucho menos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las observaciones a más de 5.000 metros reducen el ruido atmosférico, mientras que se afirma también la colaboración internacional desde 2011."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El aire seco nocturno permite detectar longitudes de onda entre 0.3 y 16 milímetros, aunque se cuenta que abarcan distancias enormes según la radiación."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que el aire seco nocturno permite observar longitudes de onda entre 0.3 y 16 milímetros, mientras que se cuenta que las observaciones reducen el ruido atmosférico."
+    },
+    {
+     "quien": "joy",
+     "texto": "El proyecto fue inaugurado oficialmente en 2011 y permite estudiar la formación estelar desde una altura superior a los 5.000 metros sobre el nivel del mar."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que el aire seco nocturno permite observar esas frecuencias mientras el proyecto fue inaugurado oficialmente en 2011."
+    }
+   ],
+   "seg": 210
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Tecnología de interferometría para alta resolución",
+   "sub": "top3 · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos a un top 3 sobre la interferometría en ALMA. Se cuenta que combina antenas para alta resolución, pero siempre hay un error común: no son más grandes que la Luna."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. La red opera desde los 5000 metros en Atacama, donde la baja humedad permite ver entre 0.3 y 16 milímetros de longitud de onda para estudiar galaxias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el tercer punto es que ALMA ayuda a entender la formación estelar, aunque se inauguró en 2011. La tecnología combina señales para resolver detalles imposibles con una sola antena."
+    },
+    {
+     "quien": "joy",
+     "texto": "El tercer punto es que ALMA permite estudiar la formación estelar y la evolución galáctica, ya que combina antenas para lograr alta resolución."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso nos ayuda a ver cómo nacen las estrellas en regiones distantes, aunque se inauguró oficialmente en el año 2011."
+    },
+    {
+     "quien": "joy",
+     "texto": "La escala de estos proyectos es monumental, operando desde los 5.000 metros donde la baja humedad facilita las observaciones nocturnas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mirá esto, ALMA usa interferometría para combinar señales y lograr una resolución altísima, algo que antenas sueltas no logran. Aunque se cuenta que detecta desde miles de años luz, depende del tipo de radiación emitida por los objetos celestes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la tecnología combina las señales para alta resolución. Operando a más de 5.000 metros con baja humedad, esto permite observar longitudes entre 0.3 y 16 milímetros. Se inauguró oficialmente en el año 2011."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es un dato curioso que las antenas son más pequeñas que la Luna, pero su red de 66 unidades forma una configuración Y. Esto ayuda a estudiar la formación estelar y la evolución galáctica con mucha precisión en el desierto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a un documental sobre ingeniería monumental, donde exploramos la tecnología de ALMA en Atacama."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La red combina 66 antenas para lograr resolución altísima, algo que sorprende incluso a los más escépticos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Operando a más de 5.000 metros, las observaciones aprovechan la baja humedad para estudiar la formación estelar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es curioso cómo antenas pequeñas, menos que la Luna, logran detectar señales desde distancias inimaginables."
+    },
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la hora de ingeniería monumental, donde ALMA en Atacama combina 66 antenas para lograr resoluciones que desafían la imaginación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 175
+  },
+  {
+   "tipo": "charla",
+   "tema": "Contribuciones a la evolución galáctica",
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La historia de Contribuciones a la evolución galáctica tiene un giro que pocos conocen."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Todo empezó con una idea sencilla."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y entonces algo cambió para siempre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy Contribuciones a la evolución galáctica sigue teniendo consecuencias."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tuviéramos que adivinar el futuro de Contribuciones a la evolución galáctica, diríamos que recién empieza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 32
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: La red invisible: Cables Submarinos",
+   "sub": "MEGACONSTRUCCIONES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La arquitectura física de los cables",
+   "sub": "top3 · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Top tres de La arquitectura física de los cables. Empezamos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Tres cables subterráneos, no de redes sociales sino físicos. El tercero es el más antiguo, un par de cobre simple que resiste la corrosión mejor que los nuevos materiales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. Esa resistencia al tiempo es clave para la infraestructura global. Los datos muestran que el acero inoxidable también es usado, pero el cobre sigue siendo rey en este contexto específico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y por qué no usar fibra óptica? Por ahora, porque los cables metálicos son más baratos y fáciles de instalar bajo el mar. Pero la fibra óptica tiene su lugar también, aunque para este top tres hablamos de lo físico tangible."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el número uno…"
+    },
+    {
+     "quien": "joy",
+     "texto": "El cable metálico sigue siendo el rey del costo por kilómetro en zonas donde la profundidad es extrema y los dragues no llegan."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero ¿y si en lugar de tenderlo manualmente lo hicieran con un brazo robótico que lo levante desde el fondo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso suena a ciencia ficción, pero hay proyectos reales donde usan drones para colocar los cables en la superficie antes de bajarlos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 97
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los materiales que resisten el océano",
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Dicen que el océano es indiferente, pero los cables submarinos tienen un nombre de guerra: el titanio puro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso suena a ficción. La realidad es que el acero inoxidable se corrue con la sal y el oxígeno en dos horas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y ahí está la ingeniería: usar aleaciones especiales que resisten la presión sin romperse nunca."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que el océano es un enemigo implacable, pero los ingenieros lo convierten en su mejor aliado con materiales milagrosos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La realidad es más compleja: el agua salada y la presión hidrostática requieren aleaciones que no se oxidan ni fallan."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo divertido: pensar que algo tan pesado puede flotar sin romperse, mientras los cables submarinos sostienen todo el mundo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es ingeniería pura. Los materiales modernos son tan avanzados que hasta los videojuegos podrían aprender de ellos para sus mundos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los cables submarinos no flotan; se anclan al fondo. La presión del océano aplasta cualquier cosa que no sea acero o fibra de carbono."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree que flotan porque ven buques gigantes y asume que todo lo pesado debe hundirse, pero los cables son diferentes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, el mito dice que el acero puro flotaría si fuera un bloque sólido, ignorando la realidad de las estructuras huecas y ancladas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero los materiales modernos resisten mejor que nunca; hasta que un videojuego aprenda a diseñar algo que soporte el peso del océano sin romperse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito de que el acero puro flota es tan fuerte como la creencia de que los videojuegos son solo fantasías. La realidad es que la ingeniería moderna usa aleaciones y composites para vencer la gravedad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los cables submarinos no flotan porque son pesados, sino porque están anclados y diseñados para resistir la presión del océano sin romperse bajo el peso de las corrientes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En los videojuegos, un cable que flota se puede corregir con una simple actualización de física. En el mundo real, si falla, puede costar millones y meses antes de repararlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "El acero puro no flota, pero en los videojuegos la física se puede ajustar con una simple actualización."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y en el océano, si un cable se hunde, es porque su densidad supera a la del agua y no hay magia."
+    }
+   ],
+   "seg": 179
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El viaje de un fotón en la fibra",
+   "sub": "linea tiempo · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez has sentido que la internet es un océano, pero sin olas visibles? Hoy viajamos dentro de la fibra."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Un fotón viaja a la velocidad de la luz, pero en este mundo digital, su viaje es más lento que una nena en el parque."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es lento, es preciso. Cada bit que envías está siendo traducido por un ordenador que está intentando entender tu mensaje."
+    },
+    {
+     "quien": "joy",
+     "texto": "La fibra óptica no es magia, es ingeniería monumental. Transforman luz en datos y los envían a través de cables submarinos que cruzan océanos enteros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasa cuando el fotón choca con la pared del cable? La reflexión total interna lo devuelve, pero si hay una grieta, la señal se pierde para siempre."
+    },
+    {
+     "quien": "joy",
+     "texto": "El fotón viaja a la velocidad de la luz, pero el cable lo ralentiza ligeramente para que los bits no se mezclen en el caos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Allí es donde la ingeniería monumental entra en juego: cada curva y cada junta se calculan para mantener el flujo sin interrupciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es como un videojuego de nivel imposible, pero los ingenieros lo han resuelto. ¿No es fascinante que la física y la cultura se mezclen así?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El fotón sale del láser, cruza el vacío a la velocidad de la luz, pero al entrar en la fibra óptica sujeta por el vidrio, pierde un poco de velocidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es lo que hace que los bits se mezclen si no hay cuidado. Los ingenieros calculan curvas y juntas para mantener el flujo sin errores, como en un nivel imposible de videojuego."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tuviéramos que adivinar el futuro de El viaje de un fotón en la fibra, diríamos que recién empieza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese fotón viaja rápido, pero la fibra no es un tubo de ensayo. Los ingenieros diseñan curvas y juntas para que los bits no se mezclen."
+    }
+   ],
+   "seg": 145
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las personas detrás del despliegue",
+   "sub": "mito realidad · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Todos creemos que los cables submarinos son invisibles, pero la verdad es que forman una red visible en el fondo del mar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso no es todo: hay gente real trabajando en esa red, con sueños de conectar mundos enteros con solo un cable."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero el mito dice que son invisibles para los humanos, cuando en realidad son visibles en las fotos satelitales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que los cables submarinos son invisibles, pero en realidad forman una red visible en las fotos satelitales y en los mapas digitales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto: la leyenda dice que son invisibles para los humanos, cuando en realidad son visibles en las imágenes de satélite y en los sistemas de navegación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto: la mito del cable invisible se rompe al ver el mapa de la red submarina desde el espacio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero las historias cotidianas dicen que los técnicos viven en una realidad diferente, lejos de la superficie."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto: mientras el mundo ve océanos azules, ellos navegan entre tuberías de acero bajo presión constante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que los cables son invisibles porque solo ven el mar azul, no la complejidad técnica que hay debajo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto: el mito nace de lo que no se puede ver. La realidad es que cada cable tiene un nombre y una historia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero los técnicos viven en otra dimensión, donde la presión del océano es tan real como el código que escriben."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de lo invisible nace porque el ojo humano falla al ver la complejidad técnica que hay debajo del mar azul."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es una mezcla: lo que no se ve es más vital que lo que se ve, y eso define la ingeniería submarina moderna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ante esto, yo pensaba que los cables eran solo filamentos de cobre enterrados en el lecho marino, sin importancia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese es un mito común: la realidad es que cada cable sostiene miles de datos vitales para nuestra conectividad global."
+    }
+   ],
+   "seg": 157
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1868,
+  "medios": 2
+ }
+}

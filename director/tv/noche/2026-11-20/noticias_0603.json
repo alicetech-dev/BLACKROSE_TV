@@ -1,0 +1,269 @@
+{
+ "bloque": "noticias_0603",
+ "programa": "noticias",
+ "fecha": "2026-11-20",
+ "creado": "02:08:39",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Por primera vez, un robot ha construido de forma autónoma parte de una",
+   "sub": "Xataka Ciencia · hace 39 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "También: Por primera vez, un robot ha construido de forma autónoma parte de una estructura en el espacio. Lo informa Xataka Ciencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 21,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/7507928b70b2b911_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/7507928b70b2b911_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El GTA VI desata la locura: vuelos a Nueva Zelanda para probarlo antes",
+   "sub": "El País Tecnología · hace 49 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Atención a esta: El GTA VI desata la locura: vuelos a Nueva Zelanda para probarlo antes, ausencias laborales y hasta días libres en el ejército. Lo informa El País Tecnología."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 24,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/1f69843499e8fe0d_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/1f69843499e8fe0d_169.jpg",
+     "credito": "Foto: El País Tecnología"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Jian Tang, fabricante de robots: “Lo primero que harán será recoger co",
+   "sub": "El País Tecnología · hace 1 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Atención a esta: Jian Tang, fabricante de robots: “Lo primero que harán será recoger cosas y poner lavadoras”. Lo informa El País Tecnología."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 21,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/11b6d0f7608206bb_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/11b6d0f7608206bb_169.jpg",
+     "credito": "Foto: El País Tecnología"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Guillermo del Toro confirma que su peli de Star Wars al estilo de El P",
+   "sub": "3DJuegos · hace 7 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Otra más: Guillermo del Toro (62 años) confirma que su peli de Star Wars al estilo de El Padrino tenía guion, título y hasta esculturas, pero lleva años perdida. Lo informa 3DJuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 25,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/fe737a44ae56f694_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/fe737a44ae56f694_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20250128_mh_nas01_0001_artemis_succe",
+   "archivo": "v/v_nasa_ksc_20250128_mh_nas01_0001_artemis_succe.mp4",
+   "titulo": "Artemis Success and Preparation - Short Version (2 Minutes)",
+   "atribucion": "«Artemis Success and Preparation - Short Version (2 Minutes)» — NASA · images.nasa.gov",
+   "dur": 149,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ya es oficial: GTA 6 vende 32,5 millones de unidades y es el lanzamien",
+   "sub": "VidaExtra · hace 9 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Otra más: Ya es oficial: GTA 6 vende 32,5 millones de unidades y es el lanzamiento de entretenimiento más grande de la historia. Lo informa VidaExtra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 22,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/5e0e66ced0f22abb_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/5e0e66ced0f22abb_169.jpg",
+     "credito": "Foto: VidaExtra"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "GTA 6 esconde un excelente homenaje a Red Dead Redemption 2 con el que",
+   "sub": "VidaExtra · hace 10 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Otra más: GTA 6 esconde un excelente homenaje a Red Dead Redemption 2 con el que puedes conseguir el mismísimo sombrero de Arthur Morgan. Lo informa VidaExtra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 23,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/d5a37498b87d627d_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/d5a37498b87d627d_169.jpg",
+     "credito": "Foto: VidaExtra"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "146 estrenos de la semana en cines y streaming. El regreso de una saga",
+   "sub": "3DJuegos · hace 11 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sigue: 146 estrenos de la semana en cines y streaming. El regreso de una saga sci-fi de 3.300 millones de dólares y por fin puedes ver en casa el taquillazo del año. Lo informa 3DJuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 26,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/52308b79b4d098d5_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/52308b79b4d098d5_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "‘GTA 6’: el truco para conseguir «dinero infinito» apenas comienza el ",
+   "sub": "Hipertextual · hace 11 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Atención a esta: ‘GTA 6’: el truco para conseguir «dinero infinito» apenas comienza el juego. Lo informa Hipertextual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 19,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/c119c11bae79ca71_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c119c11bae79ca71_169.jpg",
+     "credito": "Foto: Hipertextual"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_d8RfWbNoXP4",
+   "archivo": "yt/coding/d8RfWbNoXP4.mp4",
+   "titulo": "Stylish Technology Corporate by Infraction / Underwater",
+   "audio": "yt/coding/d8RfWbNoXP4.m4a",
+   "atribucion": "Música: «Stylish Technology Corporate by Infraction / Underwater» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 122,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/d8RfWbNoXP4.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_PD8DU1bqvqg",
+   "archivo": "yt/synthwave/PD8DU1bqvqg.m4a",
+   "titulo": "Facading - Take it Down | Midtempo Bass | NCS",
+   "audio": "yt/synthwave/PD8DU1bqvqg.m4a",
+   "atribucion": "Música: «Facading - Take it Down | Midtempo Bass | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 177,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/PD8DU1bqvqg.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 8,
+  "seg_charla": 181,
+  "medios": 3
+ }
+}

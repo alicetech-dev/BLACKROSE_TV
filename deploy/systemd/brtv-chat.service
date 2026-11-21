@@ -1,0 +1,14 @@
+[Unit]
+Description=BlackRose CHAT :8797 — lee Twitch + YouTube y responde (reglas → LLM local → frase fija), sin APIs de pago
+After=network-online.target cerebro.service
+
+[Service]
+WorkingDirectory=/home/alice/joy_vmc
+ExecStart=/home/alice/joy_vmc/.venv/bin/python -u -m director.chat_srv
+Restart=always
+RestartSec=5
+StandardOutput=append:/home/alice/joy_vmc/logs/brtv_chat.log
+StandardError=append:/home/alice/joy_vmc/logs/brtv_chat.log
+
+[Install]
+WantedBy=default.target

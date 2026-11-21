@@ -1,0 +1,21 @@
+{
+ "semilla": "Innovaciones en el modelado facial 3D",
+ "hechos": [
+  "El modelado facial 3D se utiliza en películas, videojuegos y animación para crear expresiones realistas.",
+  "Las técnicas de captura de movimiento facial registran los movimientos de un actor para aplicarlos a un modelo digital.",
+  "Los blend shapes permiten deformar una malla facial mediante pesos para simular diferentes expresiones.",
+  "Los sistemas de rig facial usan controles y articulaciones para animar características como cejas y boca.",
+  "La fotogrametría reconstruye modelos 3D a partir de múltiples fotografías tomadas desde distintos ángulos.",
+  "Los escáneres 3D de luz estructurada capturan geometría facial con alta precisión.",
+  "Los shaders y mapas de texturas añaden detalles como arrugas y poros a los modelos faciales.",
+  "El aprendizaje automático se emplea para mejorar la transferencia de expresiones entre rostros.",
+  "Los avatares virtuales en tiempo real usan seguimiento facial para replicar movimientos del usuario.",
+  "La interpolación entre formas base es un método común para generar expresiones intermedias."
+ ],
+ "leyendas": [
+  "Leyenda o error común: que el modelado facial 3D solo se inventó con los videojuegos modernos.",
+  "Leyenda o error común: que cualquier modelo 3D facial se anima automáticamente sin intervención humana."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 18:26"
+}

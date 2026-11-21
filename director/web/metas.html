@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Metas</title>
+<!-- Barra de metas de SUSCRIPTORES (0 → max) con hitos: cada hito = un stream especial o un juego nuevo. Transparente, 1920×1080.
+     Datos: GET /api/metas (director/metas.json) · se actualiza solo cada 3 s · cambiar:  curl -X POST :8822/api/metas -d '{"actual":42}'  ({"sumar":1} también)
+     ?orient=h|v (h)  ?pos=bc|bl|br|tc|tl|tr|cl|cr (bc)  ?escala=0.8  ?demo=1 (sube sola para probar) -->
+<style>
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--rosa:#ff2fd6;--cian:#00e5ff;--oro:#ffe45e;--fondo:rgba(8,2,14,.86)}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent;color:#fff;font-family:Rajdhani,sans-serif}
+#m{position:absolute;padding:14px 22px 16px;background:var(--fondo);border:3px solid var(--rosa);box-shadow:0 0 22px rgba(255,47,214,.45),inset 0 0 18px rgba(255,47,214,.12);
+   clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,18px 100%,0 calc(100% - 18px));transform-origin:var(--o,50% 100%)}
+.top{display:flex;align-items:baseline;justify-content:space-between;gap:26px;white-space:nowrap}
+.et{font-family:Orbitron;font-size:17px;letter-spacing:4px;color:var(--cian);text-shadow:0 0 8px var(--cian)}
+.num{font-family:Rajdhani;font-size:54px;line-height:.9;color:#fff;text-shadow:0 0 14px var(--rosa),3px 3px 0 var(--rosa)}
+.num small{font-size:28px;color:#cdb8df;text-shadow:none}
+.prox{font-size:25px;color:#e9d9f7;letter-spacing:1px;text-align:right}
+.prox b{color:var(--oro);text-shadow:0 0 10px #ffb627;font-weight:700}
+/* pista con hitos */
+#pista{position:relative;margin-top:46px;height:34px;background:#14061f;border:2px solid #4a2a63;overflow:visible}
+#fill{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--rosa),#b46bff 60%,var(--cian));box-shadow:0 0 18px rgba(255,47,214,.7);transition:width 1.6s cubic-bezier(.2,.9,.2,1)}
+#fill::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 12px,rgba(0,0,0,.28) 12px 14px)}
+#fill::before{content:"";position:absolute;right:-3px;top:-6px;bottom:-6px;width:6px;background:#fff;box-shadow:0 0 14px #fff,0 0 28px var(--cian);z-index:2}
+.tk{position:absolute;top:0;bottom:0;width:0;z-index:1}
+.tk::before{content:"";position:absolute;left:-1px;top:-9px;bottom:-9px;width:2px;background:rgba(255,255,255,.55)}
+.tk span{position:absolute;top:-34px;left:0;transform:translateX(-50%);font-family:VT323;font-size:25px;color:#cdb8df}
+.tk.ok::before{background:var(--oro);box-shadow:0 0 8px var(--oro)}
+.tk.ok span{color:var(--oro);text-shadow:0 0 8px #ffb627}
+.tk.sig span{color:#fff;text-shadow:0 0 12px var(--cian);animation:late 1s steps(2) infinite}
+.tk i{position:absolute;bottom:-34px;left:0;transform:translateX(-50%);font:normal 12px Orbitron;letter-spacing:1px;color:var(--cian);white-space:nowrap;opacity:.9}
+@keyframes late{50%{opacity:.35}}
+/* vertical */
+body.v #m{width:210px}
+body.v .top{flex-direction:column;align-items:flex-start;gap:8px}
+body.v .prox{text-align:left;font-size:22px;white-space:normal}
+body.v #pista{margin:50px 0 38px 64px;width:34px;height:520px}
+body.v #fill{left:0;right:0;top:auto;bottom:0;width:auto;height:0;background:linear-gradient(0deg,var(--rosa),#b46bff 60%,var(--cian));transition:height 1.6s cubic-bezier(.2,.9,.2,1)}
+body.v #fill::after{background:repeating-linear-gradient(0deg,transparent 0 12px,rgba(0,0,0,.28) 12px 14px)}
+body.v #fill::before{right:-6px;left:-6px;top:-3px;bottom:auto;width:auto;height:6px}
+body.v .tk{left:0;right:0;top:auto;width:auto;height:0}
+body.v .tk::before{left:-9px;right:-9px;top:-1px;bottom:auto;width:auto;height:2px}
+body.v .tk span{top:-14px;left:auto;right:calc(100% + 18px);transform:none}
+body.v .tk i{display:none}
+/* destello al subir y banner de meta */
+.pt{position:absolute;width:8px;height:8px;pointer-events:none;z-index:5}
+#banner{position:absolute;left:50%;top:380px;transform:translateX(-50%) scale(.6);opacity:0;text-align:center;pointer-events:none;
+  padding:22px 60px 26px;background:linear-gradient(90deg,transparent,rgba(8,2,14,.95) 12%,rgba(8,2,14,.95) 88%,transparent);transition:opacity .4s,transform .5s cubic-bezier(.2,1.4,.3,1)}
+#banner.si{opacity:1;transform:translateX(-50%) scale(1)}
+#banner .a{font-family:Orbitron;font-size:30px;letter-spacing:12px;color:var(--cian);text-shadow:0 0 12px var(--cian)}
+#banner .b{font-family:Audiowide;font-size:100px;color:#fff;margin:6px 0;text-shadow:0 0 8px #fff,0 0 30px var(--rosa),0 0 60px var(--rosa)}
+#banner .c{font-family:Rajdhani;font-size:52px;letter-spacing:6px;color:var(--oro);text-shadow:0 0 16px #ffb627}
+</style></head>
+<body>
+<div id="m">
+  <div class="top"><div><div class="et" id="et">SUSCRIPTORES</div><div class="num"><span id="n">0</span><small> / <span id="mx">100</span></small></div></div>
+    <div class="prox" id="prox">—</div></div>
+  <div id="pista"><div id="fill"></div></div>
+</div>
+<div id="banner"><div class="a">¡META DESBLOQUEADA!</div><div class="b" id="bn">50</div><div class="c" id="bp"></div></div>
+<script>
+const q = new URLSearchParams(location.search), $ = id => document.getElementById(id);
+const v = q.get('orient') === 'v', m = $('m'), pos = q.get('pos') || (v ? 'cr' : 'bc');
+if (v) document.body.classList.add('v');
+const eje = { b: 'bottom', t: 'top', c: 'center' };
+// posición: 1ª letra = vertical (t|c|b), 2ª = horizontal (l|c|r)
+const vy = pos[0], hx = pos[1] || 'c', M = 56;
+if (vy === 't') m.style.top = (q.get('top') || 110) + 'px'; else if (vy === 'b') m.style.bottom = (q.get('bottom') || (v ? 90 : 96)) + 'px'; else { m.style.top = '50%'; }
+if (hx === 'l') m.style.left = M + 'px'; else if (hx === 'r') m.style.right = M + 'px'; else { m.style.left = '50%'; }
+const tr = []; if (hx === 'c') tr.push('translateX(-50%)'); if (vy === 'c') tr.push('translateY(-50%)');
+if (q.get('escala')) tr.push(`scale(${parseFloat(q.get('escala'))})`);
+m.style.transform = tr.join(' ') || 'none';
+m.style.setProperty('--o', `${hx === 'l' ? '0%' : hx === 'r' ? '100%' : '50%'} ${vy === 't' ? '0%' : vy === 'b' ? '100%' : '50%'}`);
+
+let D = null, mostrado = null, hechos = new Set();
+function dibujar(d) {
+  const max = +d.max || 100, act = Math.max(0, Math.min(max, +d.actual || 0)), hitos = (d.hitos || []).slice().sort((a, b) => a.en - b.en);
+  $('et').textContent = d.etiqueta || 'SUSCRIPTORES'; $('n').textContent = act; $('mx').textContent = max;
+  const sig = hitos.find(h => h.en > act);
+  $('prox').innerHTML = sig ? `PRÓXIMA META <b>${sig.en}</b><br>${sig.premio} · faltan <b>${sig.en - act}</b>` : '<b>¡TODAS LAS METAS CUMPLIDAS!</b>';
+  const p = $('pista'); if (!p.querySelector('.tk') || D === null || JSON.stringify(hitos) !== JSON.stringify(D.hitos)) {
+    p.querySelectorAll('.tk').forEach(e => e.remove());
+    hitos.forEach(h => { const t = document.createElement('div'); t.className = 'tk'; t.dataset.en = h.en; t.innerHTML = `<span>${h.en}</span>`; t.style[v ? 'bottom' : 'left'] = (h.en / max * 100) + '%'; p.append(t); }); }
+  p.querySelectorAll('.tk').forEach(t => { const en = +t.dataset.en; t.classList.toggle('ok', en <= act); t.classList.toggle('sig', !!sig && en === sig.en); });
+  $('fill').style[v ? 'height' : 'width'] = (act / max * 100) + '%';
+}
+function chispas() {
+  const f = $('fill').getBoundingClientRect(); const x = v ? f.left + f.width / 2 : f.right, y = v ? f.top : f.top + f.height / 2;
+  for (let i = 0; i < 26; i++) { const e = document.createElement('i'); e.className = 'pt'; e.style.left = x + 'px'; e.style.top = y + 'px';
+    e.style.background = ['#ff2fd6', '#00e5ff', '#ffe45e', '#fff'][i % 4]; document.body.append(e);
+    const a = Math.random() * 6.283, d = 40 + Math.random() * 120; e.animate([{ transform: 'translate(0,0)', opacity: 1 }, { transform: `translate(${Math.cos(a) * d}px,${Math.sin(a) * d - 40}px)`, opacity: 0 }], { duration: 900 + Math.random() * 500, easing: 'ease-out' }).onfinish = () => e.remove(); }
+}
+function meta(h) {
+  $('bn').textContent = h.en + ' SUBS'; $('bp').textContent = h.premio; const b = $('banner'); b.classList.add('si'); chispas();
+  setTimeout(() => b.classList.remove('si'), 9000);
+}
+function nuevo(d) {
+  const antes = D ? +D.actual : null; dibujar(d);
+  if (antes !== null && +d.actual > antes) { setTimeout(chispas, 700);
+    (d.hitos || []).filter(h => h.en > antes && h.en <= +d.actual).sort((a, b) => b.en - a.en).slice(0, 1).forEach(h => setTimeout(() => meta(h), 1500)); }
+  D = d;
+}
+async function leer() { try { nuevo(await (await fetch('/api/metas', { cache: 'no-store' })).json()); } catch (_) {} }
+if (q.get('demo')) {
+  const H = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100].map((e, i) => ({ en: e, premio: i % 2 ? 'JUEGO NUEVO' : 'STREAM ESPECIAL' }));
+  let a = 41; nuevo({ actual: a, max: 100, hitos: H }); setInterval(() => { a = a >= 100 ? 41 : a + (a === 49 ? 1 : 3); nuevo({ actual: a, max: 100, hitos: H }); }, 4500);
+} else { leer(); setInterval(leer, 3000); }
+</script></body></html>

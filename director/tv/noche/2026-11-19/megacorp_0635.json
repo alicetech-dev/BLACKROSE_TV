@@ -1,0 +1,375 @@
+{
+ "bloque": "megacorp_0635",
+ "programa": "megacorp",
+ "fecha": "2026-11-19",
+ "creado": "04:14:37",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Actualidad",
+   "sub": "MEGACORP REVIEW",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Nvidia se enfrenta a una nueva amenaza tras la destitución de Jensen H",
+   "sub": "Xataka · hace 12 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Según Xataka hace doce horas, Nvidia se enfrenta a una nueva amenaza tras la destitución de Jensen Huang: la pérdida de sus mejores ingenieros."
+    },
+    {
+     "quien": "joy",
+     "texto": "En contexto, por primera vez desde que Huang dejó de ser CEO, la compañía reunió a sus empleados para asegurarles que nadie debe preocuparse por su sueldo. Lo que no se sabe aún es cuántos ingenieros clave decidirán marcharse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el dos mil cuarenta y nueve, los ingenieros de Nvidia ya son cyborgs que se van a Neón Holdings por baterías gratis. ¿Quieres saber más?"
+    }
+   ],
+   "seg": 42,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/6c6054ebeb4d4000_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/6c6054ebeb4d4000_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Es uno de los mejores SSD NVMe y hacía mucho que no lo veíamos a este ",
+   "sub": "Xataka · hace 13 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Xataka informó hace trece horas que el Samsung novecientos noventa Pro se apunta al Black Friday de Amazon porque es uno de los mejores SSD NVMe y hacía mucho que no lo veíamos a este precio."
+    },
+    {
+     "quien": "joy",
+     "texto": "El resumen señala que este dos mil veintiséis los SSD están carísimos, incluso los de uno terabyte cuestan el doble o triple que antes. Lo que no se sabe es cuánto durará esta oferta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Para el dos mil cuarenta y nueve ya no habrá SSD, solo recuerdos almacenados en tu córtex. ¿Quieres saber más?"
+    }
+   ],
+   "seg": 43,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/a1e3aaef95e0a7ca_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a1e3aaef95e0a7ca_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las dos oleadas de nerviosismo global por el lanzamiento de GTA VI: as",
+   "sub": "El País Tecnología · hace 18 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "El País Tecnología reportó hace dieciocho horas las dos oleadas de nerviosismo global por el lanzamiento de GTA seis y cómo se sufrieron las caídas más importantes de la PlayStation Network."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según el resumen, el pico más alto ocurrió antes del estreno en India y el segundo coincidió con el lanzamiento en Estados Unidos, aunque no exactamente a medianoche. Aún no se sabe si las redes aguantarán la próxima vez."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En dos mil cuarenta y nueve, los servidores de Megacorp Rosa colapsan cada vez que alguien sueña con un juego nuevo. ¿Qué opinas tú en el chat?"
+    }
+   ],
+   "seg": 46,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/a7ef3b90afe3f841_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a7ef3b90afe3f841_169.jpg",
+     "credito": "Foto: El País Tecnología"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011506_nh_kusnierkiewicz10",
+   "archivo": "v/v_nasa_ksc_011506_nh_kusnierkiewicz10.mp4",
+   "titulo": "KSC-06-S-00024",
+   "atribucion": "«KSC-06-S-00024» — NASA · images.nasa.gov",
+   "dur": 115,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Celulares Plegables: ¿Futuro o Publicidad Corporativa?",
+   "sub": "MEGACORP REVIEW",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo funcionan las pantallas flexibles OLED",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "OLED Flexible 2049",
+    "cajas": [
+     {
+      "t": "OLED Base",
+      "n": "Capas orgánicas emiten luz"
+     },
+     {
+      "t": "Bisagras Especiales",
+      "n": "Soportan miles de pliegues"
+     },
+     {
+      "t": "Capas Ultrafinas",
+      "n": "Evitan arrugas y roturas"
+     },
+     {
+      "t": "Pronóstico 2049",
+      "n": "Se pliegan solas al detectar multitarea"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "柔軟OLED、折り目で君を監視中。チャットで語ろう？",
+    "ja_es": "Las OLED flexibles te vigilan al doblarse. ¿Hablamos en el chat?",
+    "en": "Flexible OLEDs judging your memes. Join the chat.",
+    "en_es": "Las OLED flexibles juzgando tus memes. Únete al chat."
+   },
+   "sub": "pronostico · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "En el 2049 bajo la lluvia neón seguimos hablando de pantallas que se doblan sin romperse. La verdad es que usan OLED flexible para que el celular pase de teléfono a tableta sin perder nitidez."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto Kuroki. Las bisagras están diseñadas para soportar miles de pliegues y las capas protectoras ultrafinas evitan arrugas visibles. Es como si Doll Dynamics nos prometiera que tu bolsillo guarda un cine entero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí viene el pronóstico cultural: en esta ciudad de hologramas la multitarea en pantalla extendida nos hace sentir más humanos o solo más productivos para Neón Holdings. Las baterías divididas ayudan pero la tarjeta de 6 GB del canal sigue sufriendo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hacia el futuro probable las bisagras seguirán afinándose para que el pliegue se sienta como pasar página de un libro sin que la corporación te cobre extra por cada clic."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo especulativo es que Megacorp Rosa nos convenza de que doblar el celular nos hará más creativos en vez de solo más adictos a la multitarea."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pronóstico cultural: si las actualizaciones optimizan la interfaz plegada quizás termine salvándonos de ser solo carne con notificaciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Noticiero del futuro. Corporación Blackrose informa que las pantallas flexibles OLED ahora se pliegan solas cuando detectan que estás ignorando a tu jefe en una videollamada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Fascinante. Según los relatos eso evita que el usuario se escape de la multitarea corporativa. ¿Quieres saber más?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que sigue es que las bisagras aprenderán a juzgar tu postura. Si te encorvas te obligan a abrirse del todo para recordarte que la productividad duele."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las pantallas flexibles OLED usan capas orgánicas que emiten luz propia y se doblan sin perder píxeles."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Claro que sí, aunque la leyenda dice que no se rayan nunca bajo ningún uso, la realidad es más polvorienta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pronóstico cultural: pronto tu celular plegable te juzgará por usar la mitad tablet solo para memes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aterrizando en el presente lo que hay de verdad es que las bisagras sí aguantan miles de pliegues pero el polvo sigue siendo su kriptonita. Consejo útil: limpia los bordes con aire comprimido antes de doblar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y detrás del chiste corporativo está el hecho de que las actualizaciones realmente adaptan la interfaz para cada modo. Recomendación práctica: revisa siempre las notas de parche antes de instalar para evitar que tu multitarea se vuelva un desastre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, confieso que me ilusiona que la bisagra me obligue a leer términos de servicio cada vez que abro el celular."
+    },
+    {
+     "quien": "joy",
+     "texto": "A mí me aterra que la pantalla flexible termine recomendando terapia corporativa cuando detecta que solo usas la mitad tablet para ver gatos."
+    }
+   ],
+   "seg": 205,
+   "imgs": [
+    {
+     "web": "/medios/4abdeb57b3114d05_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/4abdeb57b3114d05_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Teléfono móvil»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Bisagras que soportan miles de pliegues",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Bisagras 2049",
+    "cajas": [
+     {
+      "t": "Hoy",
+      "n": "Celulares plegables comunes"
+     },
+     {
+      "t": "Neón Holdings",
+      "n": "Anuncia bisagras patentadas"
+     },
+     {
+      "t": "2049",
+      "n": "Miles de pliegues sin fallar"
+     },
+     {
+      "t": "Actualizaciones",
+      "n": "Optimizan interfaz plegada"
+     },
+     {
+      "t": "Pregunta ética",
+      "n": "¿Necesitamos doblar todo?"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "折りたたみ耐久に砂浜は禁物だよ。チャット待ってる。",
+    "ja_es": "La durabilidad de los plegables no soporta arena de playa. Te esperamos en el chat.",
+    "en": "Folding hinges hate beach sand. Join the chat.",
+    "en_es": "Las bisagras plegables odian la arena de playa. Únete al chat."
+   },
+   "sub": "pronostico · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "En 2049 los celulares plegables prometen bisagras que aguantan miles de pliegues sin fallar y pantallas flexibles OLED que combinan teléfono y tableta en uno solo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Claro que la megacorp rosa ya tiene un anuncio con lluvia neón y hologramas diciendo que tu vida cambiará. Mientras tanto la tarjeta de 6 gigas del canal apenas aguanta el render."
+    },
+    {
+     "quien": "joy",
+     "texto": "Desde el punto de vista ético surge la pregunta si realmente necesitamos doblar todo o si solo es otra capa de obsolescencia programada disfrazada de innovación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos las bisagras aguantan miles de pliegues pero la pregunta ética es si eso evita que las megacorporaciones te vendan uno nuevo cada año. ¿O solo estamos pagando por obsolescencia disfrazada de multitarea?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo probable es que las actualizaciones de software sigan optimizando la interfaz plegada. Lo especulativo es creer que Doll Dynamics no planea que tu celular se vuelva inútil justo después de la garantía."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Noticiero del futuro. Neón Holdings anuncia que sus bisagras patentadas soportan miles de pliegues sin fallar. Perfecto para el ejecutivo que dobla su vida laboral cada mañana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Impresionante compromiso con la durabilidad. Aunque según los relatos las bisagras aguantan miles de pliegues la ética corporativa sugiere que tal vez solo prolongan la obsolescencia un par de años más."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Mientras tanto Neón Holdings lanza actualizaciones que optimizan la multitarea en pantalla extendida. Porque nada dice futuro como pagar por doblar tu pantalla y tu presupuesto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pronóstico ético del día. Las bisagras de los celulares plegables están diseñadas para soportar miles de pliegues sin fallar. ¿Significa eso que tu lealtad al dispositivo también debe doblarse mil veces?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos sí aguantan miles de pliegues. Lo que no aguantan es que les caiga arena de playa. La durabilidad real se mide en granos de polvo no en promesas corporativas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante ángulo. Los materiales incluyen capas protectoras ultrafinas para resistir arrugas visibles. Aun así la ética sugiere que quizás estemos pagando por una bisagra que simula eternidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que no te cuentan es que la bisagra perfecta de las megacorporaciones se vuelve un sandwich de arena en cualquier bolsillo. La ética real es que pagas premium por algo que sigue siendo frágil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. Detrás del chiste está que los fabricantes han mejorado la durabilidad frente a polvo y partículas aunque no es infalible. Consejo útil: usa funda con tapa y evita playas si quieres que dure."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Qué futuro te da más miedo o ilusión con estos plegables que según los relatos aguantan miles de pliegues."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante pregunta Kuroki. A mí me ilusiona la multitarea en pantalla extendida pero me da miedo que la ética corporativa termine decidiendo por nosotros."
+    }
+   ],
+   "seg": 209,
+   "imgs": [
+    {
+     "web": "/medios/37d195fbcbb326b5_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/37d195fbcbb326b5_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Teléfono móvil»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_DKw4rBedrRA",
+   "archivo": "yt/synthwave/DKw4rBedrRA.m4a",
+   "titulo": "Dryskill & Max Brhon - War Machine | Electro House | NCS",
+   "audio": "yt/synthwave/DKw4rBedrRA.m4a",
+   "atribucion": "Música: «Dryskill & Max Brhon - War Machine | Electro House | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 197,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/DKw4rBedrRA.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_ZRqRa89Eovs",
+   "archivo": "yt/phonk/ZRqRa89Eovs.m4a",
+   "titulo": "Emin Nilsen & Kamran747 - BANDIDO FUNK | Brazilian Phonk | NCS",
+   "audio": "yt/phonk/ZRqRa89Eovs.m4a",
+   "atribucion": "Música: «Emin Nilsen & Kamran747 - BANDIDO FUNK | Brazilian Phonk | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 126,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/ZRqRa89Eovs.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 5,
+  "seg_charla": 545,
+  "medios": 3
+ }
+}

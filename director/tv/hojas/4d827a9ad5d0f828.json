@@ -1,0 +1,21 @@
+{
+ "semilla": "Shaders explicados",
+ "hechos": [
+  "Un shader es un programa de computadora que se ejecuta en la tarjeta gráfica para renderizar gráficos.",
+  "Los shaders determinan cómo se calcula el color, la iluminación y las texturas de los objetos en una escena 3D.",
+  "La palabra 'shader' proviene del inglés 'shade', que significa sombra o tono.",
+  "En los videojuegos modernos, los shaders son esenciales para crear efectos visuales realistas como reflejos y sombras dinámicas.",
+  "Los gráficos vectoriales se generan mediante el uso de shaders en lugar de imágenes pre-renderizadas.",
+  "La tecnología de shaders permite a los desarrolladores optimizar el rendimiento visual sin sacrificar la calidad.",
+  "El lenguaje GLSL es uno de los lenguajes más utilizados para escribir shaders en aplicaciones web y juegos.",
+  "Los shaders pueden ser escritos en C, pero se traducen al lenguaje específico del motor gráfico o del navegador.",
+  "La evolución de los shaders ha permitido transiciones suaves entre polígonos en lugar de bordes visibles.",
+  "Los shaders son una parte fundamental de la arquitectura de las tarjetas gráficas modernas."
+ ],
+ "leyendas": [
+  "Se cuenta que los primeros shaders fueron creados en 1980, aunque se cuenta que existían versiones rudimentarias antes.",
+  "Muchas personas creen erróneamente que los shaders son solo para juegos de alta gama, cuando también se usan en animaciones simples."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 04:53"
+}

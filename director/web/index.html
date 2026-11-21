@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doll Deck</title>
+<style>
+:root {
+  --bg: #0d0a10; --chasis: #17121b; --chasis2: #1f1825; --key: #231b2a; --key-hi: #2e2436; --line: #33283b;
+  --text: #f4ebf6; --muted: #9c88a6; --warn: #ffcc66; --ok: #7be0a8;
+  --joy: #b98cff; --bambi: #ff6fb5;
+  --cara: #ffb86b; --gesto: #6bd6ff; --mirar: #8be38b; --modo: #c792ff; --auto: #ff7ab6; --hacer: #ffd86b; --ctrl: #ff6b6b;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.4 system-ui, sans-serif; display: flex; flex-direction: column; }
+button { font: inherit; color: inherit; }
+
+/* barra superior */
+header { display: flex; align-items: center; gap: 10px; padding: 8px 14px; background: var(--chasis); border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.logo { font-weight: 800; letter-spacing: 2px; font-size: 13px; color: var(--muted); }
+.dolltab { display: flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 12px; background: var(--chasis2); border: 1px solid var(--line); cursor: pointer; min-width: 170px; }
+.dolltab.on { border-color: var(--c); box-shadow: 0 0 0 1px var(--c) inset, 0 0 18px -6px var(--c); }
+.dolltab .n { font-weight: 700; color: var(--c); }
+.leds { display: flex; gap: 4px; margin-left: auto; }
+.led { width: 8px; height: 8px; border-radius: 50%; background: #3a2f41; }
+.led.on { background: var(--lc); box-shadow: 0 0 8px var(--lc); }
+.dolltab .sub { font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 150px; }
+.dolltab .col { display: flex; flex-direction: column; min-width: 0; }
+#con { margin-left: auto; font-size: 12px; color: var(--muted); }
+.sala { display: flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 12px; background: var(--chasis2); border: 1px solid var(--line); cursor: pointer; font-size: 13px; }
+.sala.on { border-color: var(--auto); box-shadow: 0 0 14px -5px var(--auto); }
+
+/* cuerpo */
+main { flex: 1; display: grid; grid-template-columns: minmax(0, 1fr) 380px; min-height: 0; }
+#deck { overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 14px; }
+.grupo { background: var(--chasis); border: 1px solid var(--line); border-radius: 16px; padding: 10px 12px 12px; }
+.grupo h3 { margin: 0 0 8px; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--g); display: flex; gap: 8px; align-items: center; }
+.grupo h3 small { color: var(--muted); letter-spacing: 0; text-transform: none; font-weight: 400; }
+.keys { display: grid; grid-template-columns: repeat(auto-fill, minmax(74px, 1fr)); gap: 8px; }
+.key { aspect-ratio: 1; border-radius: 14px; border: 1px solid var(--line); background: linear-gradient(160deg, var(--key-hi), var(--key));
+       display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; cursor: pointer; position: relative;
+       box-shadow: 0 3px 0 #0a070c, inset 0 1px 0 rgba(255,255,255,.05); transition: transform .06s, box-shadow .06s, border-color .15s; user-select: none; }
+.key:hover { border-color: var(--g); }
+.key:active, .key.pulso { transform: translateY(2px); box-shadow: 0 1px 0 #0a070c; }
+.key .i { font-size: 26px; line-height: 1; }
+.key .l { font-size: 11px; color: var(--muted); text-align: center; padding: 0 4px; line-height: 1.1; }
+.key.on { border-color: var(--g); background: linear-gradient(160deg, color-mix(in srgb, var(--g) 28%, var(--key-hi)), var(--key)); }
+.key.on::after { content: ""; position: absolute; top: 7px; right: 7px; width: 7px; height: 7px; border-radius: 50%; background: var(--g); box-shadow: 0 0 8px var(--g); }
+.key.on .l { color: var(--text); }
+.key.pulso { border-color: var(--g); }
+
+/* chat */
+aside { display: flex; flex-direction: column; border-left: 1px solid var(--line); background: var(--chasis); min-height: 0; }
+#chat { flex: 1; overflow-y: auto; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+.m { max-width: 88%; padding: 7px 11px; border-radius: 13px; background: var(--chasis2); border-left: 3px solid var(--c, var(--muted)); white-space: pre-wrap; }
+.m .who { font-size: 11px; color: var(--c, var(--muted)); font-weight: 700; display: flex; gap: 6px; }
+.m .who i { font-style: normal; color: var(--muted); font-weight: 400; }
+.m.yo { align-self: flex-end; background: #2c2234; border-left: 0; border-right: 3px solid var(--muted); }
+.m.sys { align-self: center; background: transparent; color: var(--warn); font-size: 12px; border: 0; text-align: center; }
+.m .t { font-size: 10px; color: var(--muted); margin-top: 2px; }
+.animo { padding: 8px 12px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+.animo b { color: var(--c); }
+form { display: flex; gap: 8px; padding: 10px; border-top: 1px solid var(--line); }
+#txt { flex: 1; min-width: 0; background: var(--chasis2); color: var(--text); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; font-size: 15px; }
+#txt:focus { outline: none; border-color: var(--c, var(--muted)); }
+form button { background: var(--c, var(--muted)); color: var(--bg); border: 0; border-radius: 12px; padding: 0 14px; font-weight: 700; cursor: pointer; }
+.para { display: flex; gap: 6px; padding: 8px 10px 0; font-size: 12px; color: var(--muted); align-items: center; flex-wrap: wrap; }
+.para button { background: var(--chasis2); border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; cursor: pointer; font-size: 12px; }
+.para button.on { border-color: var(--c); color: var(--c); }
+
+/* fila y conversación */
+#fila { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); padding: 6px 14px; background: var(--chasis2); border-bottom: 1px solid var(--line); min-height: 30px; flex-wrap: wrap; }
+#fila b { color: var(--text); font-weight: 600; }
+#fila .dot { width: 8px; height: 8px; border-radius: 50%; background: #3a2f41; }
+#fila .dot.on { background: var(--ok); box-shadow: 0 0 8px var(--ok); animation: late 1s infinite alternate; }
+@keyframes late { to { opacity: .35; } }
+#fila button { background: transparent; border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 1px 9px; cursor: pointer; font-size: 11px; margin-left: auto; }
+.conv { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; }
+.conv input[type=text], .conv select { background: var(--chasis2); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; font-size: 14px; min-width: 0; }
+.conv input[type=text]:focus { outline: none; border-color: var(--g); }
+.conv .fila2 { grid-column: 1 / -1; display: flex; gap: 14px; flex-wrap: wrap; align-items: center; font-size: 13px; color: var(--muted); }
+.conv label { display: flex; gap: 6px; align-items: center; cursor: pointer; }
+.conv .acc { grid-column: 1 / -1; display: flex; gap: 8px; }
+.conv .acc button { flex: 1; border-radius: 12px; border: 1px solid var(--line); padding: 10px; cursor: pointer; font-weight: 700; background: linear-gradient(160deg, var(--key-hi), var(--key)); box-shadow: 0 3px 0 #0a070c; }
+.conv .acc .go { border-color: var(--g); color: var(--g); }
+.conv .acc button:active { transform: translateY(2px); box-shadow: 0 1px 0 #0a070c; }
+.conv textarea { grid-column: 1 / -1; background: var(--chasis2); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; font-family: inherit; font-size: 14px; line-height: 1.4; min-height: 120px; resize: vertical; }
+.conv textarea:focus, .conv input[type=number]:focus { outline: none; border-color: var(--g); }
+.conv input[type=number] { width: 78px; background: var(--chasis2); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 9px 8px; font-size: 14px; }
+.conv .desc { grid-column: 1 / -1; font-size: 12px; color: var(--muted); }
+.conv .estado { grid-column: 1 / -1; font-size: 12px; color: var(--g); min-height: 16px; }
+.m.reflexion { border-left-style: dashed; font-size: 13px; color: #d9cbe0; }
+.m.canal { align-self: flex-start; background: transparent; border: 1px dashed var(--line); border-left: 3px solid var(--mirar); cursor: pointer; font-size: 13px; }
+.m.canal:hover { border-color: var(--mirar); }
+.m.canal .who { color: var(--mirar); }
+.m.canal.hecho { opacity: .6; cursor: default; }
+/* modo SFW (stream): otra paleta, para que se note de un vistazo en qué modo está prendido */
+body.sfw { --bg: #080c10; --chasis: #0f161c; --chasis2: #152029; --key: #17232c; --key-hi: #1f3038; --line: #24363f;
+           --text: #e8f4f2; --muted: #7f9aa0; --joy: #7fd4ff; --bambi: #5dffa0; --auto: #5dffa0; --modo: #7fd4ff; }
+.badge { font-size: 10px; font-weight: 800; letter-spacing: 1px; padding: 2px 7px; border-radius: 999px; background: var(--ok); color: var(--bg); }
+
+@media (max-width: 900px) {
+  main { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) minmax(0, 1fr); }
+  aside { border-left: 0; border-top: 1px solid var(--line); }
+  .keys { grid-template-columns: repeat(auto-fill, minmax(62px, 1fr)); }
+  .key .i { font-size: 22px; }
+  .dolltab { min-width: 0; }
+}
+</style>
+</head>
+<body>
+<header>
+  <span class="logo" id="logo">DOLL DECK</span><span class="badge" id="badge" hidden>SFW · STREAM</span>
+  <span id="tabs" style="display:flex;gap:8px;flex-wrap:wrap"></span>
+  <button class="sala" id="sala" title="En los silencios hablan solas o entre ellas">🔁 <span>Sala autónoma</span></button>
+  <label class="sala" id="perfilbox" hidden title="habitual: Warudo + 4B local + voz XTTS · ligero: Joy como overlay VRM + Claude (haiku) + voz gTTS, sin usar la GPU (para jugar con XR Animator). Cambiar reinicia todo.">⚙ <select id="perfil"></select></label>
+  <label class="sala" id="vozbox" hidden title="gTTS: voz de Google en CPU, no toca la GPU (para jugar). XTTS: la voz de Joy (samplevoice.wav), usa ~2,2 GB de VRAM y GPU al hablar: solo si no estás jugando.">🗣 <select id="voz"></select></label>
+  <button class="sala" id="canal" hidden>💬 <span>Chat del canal</span></button>
+  <button class="sala" id="shh" title="Cortar lo que están diciendo">⏹ <span>Callar</span></button>
+  <span id="con">conectando…</span>
+</header>
+<div id="fila"><span class="dot" id="fdot"></span><span id="fahora">tranquilas</span><span id="fpend"></span><button id="vaciar" title="Descartar lo que está en fila (lo que suena ahora termina)">vaciar fila</button></div>
+<main>
+  <section id="deck"></section>
+  <aside>
+    <div class="para" id="para"></div>
+    <div id="chat"></div>
+    <div class="animo" id="animo"></div>
+    <form id="f">
+      <input id="txt" autocomplete="off" placeholder="Escribile…">
+      <button>Enviar</button>
+    </form>
+  </aside>
+</main>
+<script>
+const COLOR = {joy: "var(--joy)", bambi: "var(--bambi)", ambas: "var(--auto)"};
+const col = d => COLOR[d] || "var(--muted)";
+const ICONO = {
+  // caras
+  neutral: "😐", feliz: "😊", alegre: "😄", triste: "😢", enojada: "😠", sorprendida: "😮", picara: "😏",
+  emocionada: "🤩", "guiño": "😉", avergonzada: "😳", gatuna: "😺", traviesa: "😼", error: "🤖",
+  coqueta: "😘", besito: "💋", presumida: "💁",
+  // gestos
+  saludo: "👋", asentir: "🙂", ladear_cabeza: "🤨", negar: "🙅", pensar: "🤔", escuchar: "👂", risita: "🤭",
+  encoger_hombros: "🤷", sorpresa: "😲", timida: "🙈", corazon: "🫶", senalar: "👉", aplaudir: "👏", bostezo: "🥱",
+  hablar_manos: "🙌", patitas: "🐾", glitch: "⚡", amasar: "🐈", escanear: "📡", beso: "💋", echar_pelo: "💇",
+  mano_cadera: "💃", mirar_unas: "💅", enrular_pelo: "🌀", posar: "📸",
+  // mirar
+  izquierda: "⬅️", arriba: "⬆️", camara: "🎥", chat: "💬", abajo: "⬇️", derecha: "➡️",
+  // modos
+  trance: "🌀", spa: "🧖", lecture: "🎓", monologue: "🎙️", recall: "📼", fusion: "🧩", therapy: "🫂",
+  // autonomía / acciones
+  off: "⏹️", vida: "🌸", sleep: "🌙", pensamiento: "💭", pregunta: "❓", a_la_otra: "👯", dialogo: "🗣️",
+  titere: "🎭", parada: "🧍", standby: "😌", sentada: "🪑", baile_suave: "💃", baile_lento: "🕺", baile_fuerte: "🪩", baile_no: "⏸", reflect: "🧠", research: "🔎", lore: "📜", callar: "⏹", soltar: "✋", reset: "↺", idioma_auto: "🌐", idioma_es: "🇪🇸", idioma_en: "🇬🇧",
+};
+const ETIQ = {
+  ladear_cabeza: "ladear", encoger_hombros: "hombros", hablar_manos: "manos", mano_cadera: "cadera",
+  mirar_unas: "uñas", enrular_pelo: "enrular", echar_pelo: "pelo", senalar: "señalar", corazon: "corazón",
+  timida: "tímida", camara: "cámara", picara: "pícara", monologue: "monólogo", lecture: "clase", recall: "recuerdo",
+  fusion: "fusión", therapy: "terapia", a_la_otra: "a la otra", dialogo: "charlen", reflect: "reflexionar",
+  research: "investigar", pensamiento: "pensá algo", pregunta: "preguntame", sleep: "dormir/charla", vida: "vida",
+  off: "quieta", chat: "charla",
+};
+const etiq = x => ETIQ[x] || x.replace(/_/g, " ");
+const $ = s => document.querySelector(s);
+let ws, dolls = {}, orden = [], sel = null, burbujas = {}, sala = {activo: false}, para = null;
+let sfw = false, canal = {activo: false, fuentes: []}, delCanal = {};
+
+function send(o) { if (ws && ws.readyState === 1) ws.send(JSON.stringify(o)); }
+function nombre(d) { return (dolls[d] && dolls[d].nombre) || d || ""; }
+function hora() { return new Date().toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"}); }
+
+/* ---------- barra superior ---------- */
+let perfilActual = "habitual";
+const NOM_PERFIL = {habitual: "Habitual · Warudo", ligero: "Ligero · XR Animator + Claude"};
+function perfiles(ev) {  // desplegable de perfil (solo modo stream): cambiarlo reinicia todo (dolls.sh restart)
+  const sel_ = $("#perfil"); $("#perfilbox").hidden = !(ev.perfiles || []).length;
+  sel_.innerHTML = (ev.perfiles || []).map(p => `<option value="${p}"${p === ev.perfil ? " selected" : ""}>${NOM_PERFIL[p] || p}</option>`).join("");
+  const v = $("#voz"); $("#vozbox").hidden = !(ev.voces || []).length;
+  v.innerHTML = (ev.voces || []).map(x => `<option value="${x}"${x === ev.voz ? " selected" : ""}>${{gtts: "Voz gTTS (CPU, jugando)", xtts: "Voz de Joy (XTTS, GPU)"}[x] || x}</option>`).join("");
+  sel_.disabled = !!ev.reiniciando; perfilActual = ev.perfil || "habitual";
+  if (ev.reiniciando) { $("#con").textContent = "● reiniciando → " + ev.reiniciando; $("#con").style.color = "var(--warn)"; }
+}
+$("#voz").onchange = (e) => send({type: "voz", voz: e.target.value});
+$("#perfil").onchange = (e) => {
+  const p = e.target.value;
+  if (confirm(`Cambiar al perfil «${NOM_PERFIL[p] || p}»: se reinicia todo (las chicas pierden la conversación en curso). ¿Seguro?`)) send({type: "perfil", perfil: p});
+  else e.target.value = perfilActual;
+};
+function tabs() {
+  const t = $("#tabs"); t.innerHTML = "";
+  for (const d of orden) {
+    const e = dolls[d].estado || {};
+    const b = document.createElement("div");
+    b.className = "dolltab" + (sel === d ? " on" : ""); b.style.setProperty("--c", col(d));
+    b.innerHTML = `<div class="col"><span class="n"></span><span class="sub"></span></div>
+      <span class="leds"><span class="led" title="hablando" style="--lc:var(--ok)"></span><span class="led" title="pensando" style="--lc:var(--hacer)"></span><span class="led" title="dormida" style="--lc:var(--ctrl)"></span></span>`;
+    b.querySelector(".n").textContent = nombre(d);
+    b.querySelector(".sub").textContent = [e.titere ? "🎭 marioneta" : "", e.emocion, e.gesto, dolls[d].autonomia !== "off" ? "auto: " + dolls[d].autonomia : ""].filter(Boolean).join(" · ");
+    const L = b.querySelectorAll(".led");
+    L[0].classList.toggle("on", !!e.hablando); L[1].classList.toggle("on", !!e.pensando); L[2].classList.toggle("on", !!e.dormida);
+    b.onclick = () => { sel = d; render(); placeholder(); };
+    t.appendChild(b);
+  }
+  $("#sala").classList.toggle("on", !!sala.activo);
+  $("#canal").classList.toggle("on", !!canal.activo);
+  $("#canal").title = (canal.activo ? "Contestan solas al chat" : "No contestan solas (clic en un mensaje para que lo contesten)")
+    + " · fuentes: " + ((canal.fuentes || []).join(", ") || "ninguna configurada (dolls.sfw.yaml → canal)");
+  document.body.style.setProperty("--c", col(sel));
+}
+
+/* ---------- botonera ---------- */
+function grupo(titulo, color, nota, items) {
+  const g = document.createElement("div"); g.className = "grupo"; g.style.setProperty("--g", color);
+  g.innerHTML = `<h3>${titulo} ${nota ? `<small>${nota}</small>` : ""}</h3><div class="keys"></div>`;
+  const k = g.querySelector(".keys");
+  for (const it of items) {
+    const b = document.createElement("div"); b.className = "key" + (it.on ? " on" : ""); b.title = it.title || etiq(it.id);
+    b.innerHTML = `<span class="i"></span><span class="l"></span>`;
+    b.querySelector(".i").textContent = ICONO[it.id] || "✦"; b.querySelector(".l").textContent = it.label || etiq(it.id);
+    b.onclick = () => { b.classList.add("pulso"); setTimeout(() => b.classList.remove("pulso"), 180); it.fn(); };
+    k.appendChild(b);
+  }
+  return g;
+}
+
+function render() {
+  tabs();
+  const deck = $("#deck");
+  for (const n of [...deck.children]) if (n.id !== "guion") n.remove();  // el guion no se reconstruye: no pierde el texto ni el foco
+  if (!sel) return;
+  panelGuion(); panelBaile();
+  const d = sel, info = dolls[d], e = info.estado || {};
+  const cuerpo = intent => send({type: "cuerpo", doll: d, intent});
+  const otra = orden.find(x => x !== d);
+  const titere = !!e.titere;
+  deck.appendChild(grupo("Marioneta", "var(--ctrl)", titere ? "la manejás vos: lo que escribís abajo lo dice ella (con *acciones* y emojis hace gestos y caras); el idle sigue" : "la IA no genera nada, hablás y la movés vos", [
+    {id: "titere", label: titere ? "devolverle a la IA" : "manejarla yo", on: titere, title: "Modo marioneta", fn: () => send({type: "titere", doll: d, activo: !titere})},
+    ...(titere ? [{id: "callar", label: "callar", fn: () => send({type: "callar"})}] : []),
+  ]));
+  if (!titere) deck.appendChild(panelConv());
+  if (!titere) deck.appendChild(grupo("Que haga algo", "var(--hacer)", "habla sola", [
+    {id: "pensamiento", fn: () => send({type: "espontaneo", doll: d, tipo: "pensamiento"})},
+    {id: "pregunta", fn: () => send({type: "espontaneo", doll: d, tipo: "pregunta"})},
+    ...(otra ? [{id: "a_la_otra", label: "a " + nombre(otra), fn: () => send({type: "espontaneo", doll: d, tipo: "a_la_otra"})},
+                {id: "dialogo", label: "charlen (tema al azar)", fn: () => send({type: "dialogo", doll: d, turnos: 4})}] : []),
+    ...(info.impulsos || ["reflect", "research", "monologue", "lore"]).map(i => ({id: i, fn: () => send({type: "impulso", doll: d, impulso: i})})),
+  ]));
+  const autos = info.autonomias || ["vida", "sleep"];  // los que ofrece el pack del agente
+  if (!titere) deck.appendChild(grupo("Autonomía", "var(--auto)", ["vida: cuenta en qué anda", ...(autos.includes("sleep") ? ["dormir: charla suave continua"] : [])].join(" · "), ["off", ...autos].map(m => ({
+    id: m, on: (info.autonomia || "off") === m, fn: () => send({type: "autonomia", doll: d, modo: m})}))));
+  if (!titere && (info.modos || ["chat"]).length > 1) deck.appendChild(grupo("Modo de charla", "var(--modo)", "cómo te responde", info.modos.map(m => ({
+    id: m, on: (e.modo || "chat") === m, fn: () => send({type: "modo", doll: d, modo: m})}))));
+  deck.appendChild(grupo("Idioma", "var(--modo)", "forzar idioma", [
+    {id: "idioma_auto", label: "Auto", on: !info.idioma_forzado, fn: () => send({type: "idioma", doll: d, lang: null})},
+    {id: "idioma_es", label: "Español", on: info.idioma_forzado === "es", fn: () => send({type: "idioma", doll: d, lang: "es"})},
+    {id: "idioma_en", label: "English", on: info.idioma_forzado === "en", fn: () => send({type: "idioma", doll: d, lang: "en"})}
+  ]));
+  const niv = v => typeof v === "string" ? (info.bailes || {})[v] ?? 0 : +v || 0;
+  const bailando = niv(e.baile) > 0.5, pose = e.pose || "parada";
+  const quieta = pose === "parada" && !bailando && (e.emocion || "neutral") === "neutral" && !e.gesto;  // standby: sin nada puesto
+  const TEMPO = {suave: 60, lento: 76, fuerte: 124};  // bpm de cada baile (el joy_vmc acepta 40-160)
+  deck.appendChild(grupo("Pose y balanceo", "var(--mirar)", "el balanceo es solo el idle más fuerte; los bailes reales están en «Baile»", [
+    ...(info.poses || []).includes("parada") ? [{id: "parada", on: pose === "parada" && !bailando && !quieta, fn: () => cuerpo({pose: "parada", baile: "no"})}] : [],
+    {id: "standby", on: quieta, title: "Parada, quieta, cara neutra y mirando a cámara (solo el idle)",
+     fn: () => { cuerpo({pose: "parada", baile: "no"}); cuerpo({reset: true}); }},
+    ...(info.poses || []).includes("sentada") ? [{id: "sentada", on: pose === "sentada", fn: () => cuerpo({pose: "sentada"})}] : [],
+    ...Object.keys(info.bailes || {}).filter(b => b !== "no").sort((a, b) => info.bailes[a] - info.bailes[b]).map(b => ({
+      id: "baile_" + b, label: "balanceo " + b, on: pose === "parada" && bailando && Math.abs(niv(e.baile) - info.bailes[b]) < 0.05,
+      fn: () => { if (pose !== "parada") cuerpo({pose: "parada"}); cuerpo({baile: b, tempo: TEMPO[b] || 72}); }})),
+    {id: "baile_no", label: "parar balanceo", fn: () => cuerpo({baile: "no"})},
+  ]));
+  deck.appendChild(grupo("Gestos", "var(--gesto)", "", [
+    ...info.gestos.map(g => ({id: g, on: e.gesto === g && (e.hablando || e.pensando), fn: () => cuerpo({gesto: g})})),
+  ]));
+  deck.appendChild(grupo("Cara", "var(--cara)", "", info.emociones.map(m => ({id: m, on: e.emocion === m, fn: () => cuerpo({emocion: m})}))));
+  deck.appendChild(grupo("Mirar", "var(--mirar)", "", ["izquierda", "arriba", "camara", "chat", "abajo", "derecha"].map(m => ({id: m, fn: () => cuerpo({mirar: m})}))));
+  deck.appendChild(grupo("Control", "var(--ctrl)", "", [
+    {id: "callar", label: "callar", fn: () => send({type: "callar"})},
+    {id: "soltar", label: "soltar gesto", fn: () => cuerpo({soltar: true})},
+    {id: "reset", label: "reset", fn: () => send({type: "reset", doll: d})},
+  ]));
+  animo();
+}
+
+/* ---------- baile MMD (Warudo): baile, cámara y canción por separado, una muñeca o las dos ---------- */
+let baileMMD = {bailes: [], con_player: [], bailando: {}};
+const baileForm = {baile: "", quien: "", baile_on: true, camara: false, musica: true};
+const mmss = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+function panelBaile() {
+  let g = $("#baile");
+  if (!g) {
+    g = document.createElement("div"); g.id = "baile"; g.className = "grupo"; g.style.setProperty("--g", "var(--cara)");
+    g.innerHTML = `<h3>Baile <small>MMD en Warudo · baile, cámara y canción se eligen aparte</small></h3>
+      <div class="conv">
+        <select class="bl" title="Baile"></select><select class="qn" title="Quién baila"></select>
+        <div class="fila2"><label><input type="checkbox" class="b-baile"> 💃 baile</label>
+          <label><input type="checkbox" class="b-camara"> 🎥 cámara</label>
+          <label><input type="checkbox" class="b-musica"> 🎵 canción</label></div>
+        <div class="desc cred"></div>
+        <div class="acc"><button class="go">▶ Bailar</button><button class="mus" title="Solo la canción, sin baile ni cámara">🎵 Solo canción</button><button class="stop">⏹ Parar</button></div>
+        <div class="estado"></div>
+      </div>`;
+    const q = s => g.querySelector(s), bl = q(".bl"), qn = q(".qn");
+    bl.onchange = () => { baileForm.baile = bl.value; panelBaile(); };
+    qn.onchange = () => baileForm.quien = qn.value;
+    for (const [k, c] of [["baile_on", ".b-baile"], ["camara", ".b-camara"], ["musica", ".b-musica"]]) q(c).onchange = e => baileForm[k] = e.target.checked;
+    q(".go").onclick = () => {
+      const quienes = qn.value === "ambas" ? "ambas" : [qn.value];
+      send({type: "bailar", baile: bl.value, quienes, con: {baile: baileForm.baile_on, camara: baileForm.camara, musica: baileForm.musica}});
+      q(".estado").textContent = "⏳ preparando en Warudo…";
+    };
+    q(".mus").onclick = () => send({type: "musica_sola", baile: bl.value});
+    q(".stop").onclick = () => send({type: "bailar_parar"});
+    $("#deck").prepend(g);
+  }
+  const q = s => g.querySelector(s), bl = q(".bl"), qn = q(".qn");
+  if (bl.options.length !== baileMMD.bailes.length) {
+    bl.innerHTML = ""; for (const b of baileMMD.bailes) { const o = document.createElement("option"); o.value = b.id; o.textContent = `${b.label}${b.loop ? " (bucle)" : " · " + mmss(b.duracion)}`; bl.appendChild(o); }
+  }
+  if (!baileForm.baile && baileMMD.bailes.length) baileForm.baile = baileMMD.bailes[0].id;
+  bl.value = baileForm.baile;
+  const quienes = [...orden.map(d => [d, nombre(d) + (baileMMD.con_player.includes(d) ? "" : " (sin reproductor)")]), ...(orden.length > 1 ? [["ambas", "Las dos"]] : [])];
+  if (qn.options.length !== quienes.length || [...qn.options].some((o, i) => o.textContent !== quienes[i][1])) {
+    qn.innerHTML = ""; for (const [v, t] of quienes) { const o = document.createElement("option"); o.value = v; o.textContent = t; qn.appendChild(o); }
+  }
+  if (!baileForm.quien || ![...qn.options].some(o => o.value === baileForm.quien)) baileForm.quien = baileMMD.con_player.includes(sel) ? sel : (qn.options[0] || {}).value;
+  qn.value = baileForm.quien;
+  q(".b-baile").checked = baileForm.baile_on; q(".b-camara").checked = baileForm.camara; q(".b-musica").checked = baileForm.musica;
+  const b = baileMMD.bailes.find(x => x.id === bl.value) || {};
+  q(".b-camara").disabled = !b.camara; q(".b-musica").disabled = !b.musica;
+  q(".cred").textContent = b.credito ? `Crédito para la descripción del stream: ${b.credito}` : "";
+  const e = baileMMD.bailando || {};
+  q(".estado").textContent = e.baile ? `💃 bailando «${(baileMMD.bailes.find(x => x.id === e.baile) || {}).label || e.baile}» · ${e.quienes.map(nombre).join(" y ")} · ${mmss(e.pasaron)}${e.duracion ? " de " + mmss(e.duracion) : " (en bucle hasta Parar)"}` : "";
+}
+
+/* ---------- guion: tu texto directo a la voz, con la animación de una escena ---------- */
+let escenas = [];
+const guionForm = {texto: "", escena: "hablar", tempo: ""};
+function panelGuion() {
+  let g = $("#guion");
+  if (!g) {
+    g = document.createElement("div"); g.id = "guion"; g.className = "grupo"; g.style.setProperty("--g", "var(--gesto)");
+    g.innerHTML = `<h3>Guion <small></small></h3>
+      <div class="conv">
+        <textarea placeholder="Escribí lo que va a decir.&#10;&#10;Línea en blanco = pausa larga · [pausa 2] = pausa en segundos&#10;Joy: / Bambi: al inicio de una línea cambia de voz&#10;*acciones*, emojis y [emocion:x] mueven la cara y los gestos"></textarea>
+        <select class="esc" title="Escena: pose, baile, cara y mirada"></select>
+        <input type="number" class="bpm" min="40" max="160" placeholder="bpm" title="Tempo del baile (solo escenas con baile)">
+        <div class="desc"></div>
+        <div class="acc"><button class="go">▶ Leer</button><button class="stop">⏹ Parar</button></div>
+      </div>`;
+    const ta = g.querySelector("textarea"), es = g.querySelector(".esc"), bpm = g.querySelector(".bpm");
+    ta.value = guionForm.texto; bpm.value = guionForm.tempo;
+    ta.oninput = () => guionForm.texto = ta.value; bpm.oninput = () => guionForm.tempo = bpm.value;
+    es.onchange = () => { guionForm.escena = es.value; panelGuion(); };
+    g.querySelector(".go").onclick = () => {
+      if (!ta.value.trim()) return;
+      send({type: "guion", doll: sel, texto: ta.value, escena: es.value, tempo: bpm.value ? +bpm.value : null});
+    };
+    g.querySelector(".stop").onclick = () => send({type: "callar"});
+    $("#deck").prepend(g);
+  }
+  g.querySelector("h3 small").textContent = `tu texto va directo a la voz de ${nombre(sel)}, sin IA`;
+  const es = g.querySelector(".esc");
+  if (es.options.length !== escenas.length) {
+    es.innerHTML = ""; for (const x of escenas) { const o = document.createElement("option"); o.value = x.id; o.textContent = `${x.icono || "🎬"} ${x.label}`; es.appendChild(o); }
+  }
+  es.value = guionForm.escena;
+  const x = escenas.find(y => y.id === es.value) || {};
+  g.querySelector(".desc").textContent = x.desc || "";
+  g.querySelector(".bpm").style.display = x.baile ? "" : "none";
+  if (x.tempo && !guionForm.tempo) g.querySelector(".bpm").placeholder = x.tempo + " bpm";
+  const e = (dolls[sel] || {}).estado || {};
+  g.querySelector(".go").textContent = e.escena ? "⏳ leyendo…" : "▶ Leer";
+}
+
+let temas = [], conv = {activa: false}, cola = {actual: "", pendientes: []};
+const convForm = {tema: "", turnos: "8", investigar: true, reflexionar: true};
+function panelConv() {
+  const g = document.createElement("div"); g.className = "grupo"; g.style.setProperty("--g", "var(--auto)");
+  g.innerHTML = `<h3>Conversación con tema <small>ellas charlan entre sí; empieza ${nombre(sel)}</small></h3>
+    <div class="conv">
+      <input type="text" list="temas" placeholder="Escribí un tema o elegí uno de la lista…">
+      <select title="turnos"><option value="6">6 turnos</option><option value="8">8 turnos</option><option value="12">12 turnos</option><option value="20">20 turnos</option><option value="0">sin fin</option></select>
+      <div class="fila2"><label><input type="checkbox" class="inv"> 🔎 investigar en internet para argumentar</label>
+        <label><input type="checkbox" class="ref"> 🧠 reflexionar al final</label></div>
+      <div class="acc"><button class="go">💬 Conversar de esto</button><button class="stop">⏹ Parar</button></div>
+      <div class="estado"></div>
+      <datalist id="temas"></datalist>
+    </div>`;
+  const inp = g.querySelector("input[type=text]"), sel2 = g.querySelector("select"), inv = g.querySelector(".inv"), ref = g.querySelector(".ref");
+  inp.value = convForm.tema; sel2.value = convForm.turnos; inv.checked = convForm.investigar; ref.checked = convForm.reflexionar;
+  inp.oninput = () => convForm.tema = inp.value; sel2.onchange = () => convForm.turnos = sel2.value;
+  inv.onchange = () => convForm.investigar = inv.checked; ref.onchange = () => convForm.reflexionar = ref.checked;
+  const dl = g.querySelector("datalist"); for (const t of temas) { const o = document.createElement("option"); o.value = t; dl.appendChild(o); }
+  g.querySelector(".go").onclick = () => {
+    send({type: "conversar", doll: sel, tema: inp.value.trim(), turnos: +sel2.value, investigar: inv.checked, reflexionar: ref.checked});
+    g.querySelector(".estado").textContent = "⏳ preparando" + (inv.checked ? ": primero investigan en internet (~30 s cada una)…" : "…");
+  };
+  g.querySelector(".stop").onclick = () => send({type: "parar"});
+  g.querySelector(".estado").textContent = conv.activa ? `💬 charlando de «${conv.tema}» · turno ${conv.hechos || 0}${conv.turnos ? " de " + conv.turnos : ""}` : (conv.tema ? `última: «${conv.tema}» (${conv.hechos || 0} turnos)` : "");
+  return g;
+}
+function fila() {
+  $("#fdot").classList.toggle("on", !!cola.actual);
+  $("#fahora").innerHTML = cola.actual ? "ahora: <b></b>" : "tranquilas";
+  if (cola.actual) $("#fahora b").textContent = cola.actual;
+  const p = cola.pendientes || [];
+  $("#fpend").textContent = p.length ? `· en fila (${p.length}): ${p.slice(0, 3).join(" → ")}${p.length > 3 ? " …" : ""}` : "";
+}
+function refrescarConv() { const e = document.querySelector(".conv .estado"); if (e) e.textContent = conv.activa ? `💬 charlando de «${conv.tema}» · turno ${conv.hechos || 0}${conv.turnos ? " de " + conv.turnos : ""}` : (conv.tema ? `última: «${conv.tema}» (${conv.hechos || 0} turnos)` : ""); }
+
+function animo() {
+  const e = (dolls[sel] || {}).estado || {};
+  $("#animo").style.setProperty("--c", col(sel));
+  $("#animo").innerHTML = sel ? `<b></b> ${e.dormida ? "· 💤 dormida" : ""}${e.titere ? "· 🎭 marioneta" : ""}<div></div>` : "";
+  if (sel) { $("#animo b").textContent = nombre(sel); $("#animo div").textContent = e.animo ? "ánimo: " + e.animo : ""; }
+}
+
+/* ---------- a quién le hablo ---------- */
+function paraQuien() {
+  const p = $("#para"); p.innerHTML = "hablarle a:";
+  for (const [d, n] of [[null, "la que nombre"], ...orden.map(x => [x, nombre(x)]), ...(orden.length > 1 ? [["ambas", "las dos"]] : [])]) {
+    const b = document.createElement("button"); b.textContent = n; b.className = para === d ? "on" : "";
+    b.style.setProperty("--c", col(d)); b.onclick = () => { para = d; paraQuien(); $("#txt").focus(); };
+    p.appendChild(b);
+  }
+}
+
+/* ---------- chat ---------- */
+const chat = $("#chat");
+function abajo() { chat.scrollTop = chat.scrollHeight; }
+function burbuja(clase, doll, texto, origen) {
+  const el = document.createElement("div"); el.className = "m " + clase; el.style.setProperty("--c", col(doll));
+  el.innerHTML = clase === "doll" ? `<div class="who"><span></span><i></i></div><div class="x"></div><div class="t"></div>` : `<div class="x"></div>`;
+  if (clase === "doll") { el.querySelector(".who span").textContent = nombre(doll); el.querySelector(".who i").textContent = origen || ""; }
+  el.querySelector(".x").textContent = texto; chat.appendChild(el); abajo(); return el;
+}
+const ORIGEN = {vida: "🌸 vida", sleep: "🌙", pensamiento: "💭", pregunta: "❓", a_la_otra: "👯", silencio: "…", reflect: "🧠", research: "🔎", monologue: "🎙️", lore: "📜"};
+function evento(ev, viejo) {
+  const d = ev.doll;
+  if (ev.type === "yo") { burbuja("yo", d, (ev.para ? "→ las dos: " : d && !viejo ? "→ " + nombre(d) + ": " : "") + ev.texto); delete burbujas[d]; }
+  else if (ev.type === "frase") {
+    if (!burbujas[d]) burbujas[d] = burbuja("doll", d, ev.texto);
+    else { burbujas[d].querySelector(".x").textContent += " " + ev.texto; abajo(); }
+  } else if (ev.type === "fin") {
+    if (burbujas[d]) {
+      const t = ev.tiempos || {};
+      if (ev.origen) burbujas[d].querySelector(".who i").textContent = ORIGEN[ev.origen] || ev.origen;
+      burbujas[d].querySelector(".t").textContent = hora() + (t.primer_audio != null ? ` · voz en ${t.primer_audio}s` : "");
+    }
+    delete burbujas[d];
+  } else if (ev.type === "canal") {
+    const el = burbuja("doll", null, ev.texto, ev.plataforma); el.classList.add("canal");
+    el.querySelector(".who span").textContent = "💬 " + ev.autor; el.title = "clic: que lo conteste " + (para && dolls[para] ? nombre(para) : "la que nombre (o la que le toque)");
+    el.onclick = () => { if (!el.classList.contains("hecho")) send({type: "canal_responder", id: ev.id, doll: dolls[para] ? para : null}); };
+    delCanal[ev.id] = el;
+  } else if (ev.type === "canal_turno") {
+    const el = delCanal[ev.id];
+    if (el) { el.classList.add("hecho"); el.querySelector(".t").textContent = "→ le contesta " + nombre(ev.doll); }
+    delete burbujas[ev.doll];
+  } else if (ev.type === "reflexion") {
+    const el = burbuja("doll", d, ev.texto, "🧠 reflexión: " + ev.tema); el.classList.add("reflexion");
+    delete burbujas[d];
+  } else if (ev.type === "biblioteca") {
+    const el = burbuja("sys", d, `📚 ${nombre(d)} leyó sobre «${ev.consulta}»`);
+    el.title = ev.texto || ""; el.style.color = "var(--gesto)";
+  } else if (["aviso", "dormida", "despierta"].includes(ev.type)) {
+    burbuja("sys", d, (d ? nombre(d) + ": " : "") + (ev.type === "despierta" ? "se despertó" : ev.texto));
+  }
+  if (viejo) return;
+  if (ev.type === "estado" && dolls[d]) { dolls[d].estado = ev.estado; if (d === sel) render(); else tabs(); placeholder(); }
+  if (ev.type === "autonomia" && dolls[d]) { dolls[d].autonomia = ev.modo; render(); }
+  if (ev.type === "idioma" && dolls[d]) { dolls[d].idioma_forzado = ev.lang; render(); }
+  if (ev.type === "bailando") { baileMMD.bailando = ev.estado || {}; if ($("#baile")) panelBaile(); }
+  if (ev.type === "sala") { sala = ev.sala; tabs(); }
+  if (ev.type === "canal_estado") { canal = ev.canal; tabs(); }
+  if (ev.type === "cola") { cola = ev; fila(); }
+  if (ev.type === "conv") { conv = ev.conv; refrescarConv(); }
+  if (["dormida", "despierta"].includes(ev.type) && dolls[d]) { dolls[d].estado.dormida = ev.type === "dormida"; render(); }
+}
+
+/* ---------- conexión ---------- */
+function conectar() {
+  ws = new WebSocket(`${location.protocol === "https:" ? "wss" : "ws"}://${location.host}/ws`);
+  ws.onopen = () => { $("#con").textContent = "● conectada"; $("#con").style.color = "var(--ok)"; };
+  ws.onclose = () => { $("#con").textContent = "● reconectando"; $("#con").style.color = "var(--warn)"; setTimeout(conectar, 2000); };
+  ws.onmessage = m => {
+    const ev = JSON.parse(m.data);
+    if (ev.type === "info") {
+      dolls = {}; orden = [];
+      for (const x of ev.dolls) { dolls[x.id] = x; orden.push(x.id); }
+      sala = ev.sala || sala; sel = sel && dolls[sel] ? sel : orden[0];
+      sfw = !!ev.sfw; canal = ev.canal || canal; delCanal = {};
+      document.body.classList.toggle("sfw", sfw); $("#badge").hidden = !sfw; $("#canal").hidden = !sfw;
+      perfiles(ev);
+      const et = ev.etiqueta || {}; $("#logo").textContent = sfw ? (et.logo || "NEKO DECK") : "DOLL DECK";
+      document.title = sfw ? (et.logo || "Neko Deck") : "Doll Deck"; if (et.badge) $("#badge").textContent = et.badge;
+      escenas = ev.escenas || []; baileMMD = ev.baile_mmd || baileMMD;
+      temas = ev.temas || []; conv = ev.conv || conv; cola = ev.cola || cola; fila();
+      chat.innerHTML = ""; burbujas = {};
+      for (const h of ev.historial) evento(h, true);
+      burbujas = {}; render(); paraQuien(); placeholder();
+    } else evento(ev, false);
+  };
+}
+
+function placeholder() {
+  const t = sel && dolls[sel] && (dolls[sel].estado || {}).titere && (para === null || para === sel);
+  $("#txt").placeholder = t ? `🎭 hablás por ${nombre(sel)}: lo que escribas lo dice ella` : "Escribile…";
+}
+let ultEsc = 0;
+$("#txt").addEventListener("input", () => {
+  if (Date.now() - ultEsc > 3000) { ultEsc = Date.now(); send({type: "escribiendo", doll: para}); }
+});
+$("#f").onsubmit = e => {
+  e.preventDefault();
+  const t = $("#txt").value.trim(); if (!t) return;
+  // si la pestaña elegida es una marioneta y no elegiste a quién, hablás por ella
+  const por = para === null && sel && dolls[sel] && (dolls[sel].estado || {}).titere ? sel : para;
+  send({type: "msg", doll: por, text: t}); $("#txt").value = "";
+};
+$("#sala").onclick = () => send({type: "sala", activo: !sala.activo});
+$("#canal").onclick = () => send({type: "canal", activo: !canal.activo});
+$("#shh").onclick = () => send({type: "callar"});
+$("#vaciar").onclick = () => send({type: "vaciar"});
+conectar();
+</script>
+</body>
+</html>

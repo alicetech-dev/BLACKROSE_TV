@@ -1,0 +1,241 @@
+{
+ "bloque": "alien_0423",
+ "programa": "alien",
+ "fecha": "2026-11-20",
+ "creado": "01:56:51",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El Proyecto Libro Azul",
+   "sub": "SEÑAL EXTRAÑA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El Proyecto Libro Azul, con humor",
+   "diagrama": null,
+   "intl": null,
+   "sub": "explicado · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de El Proyecto Libro Azul, con humor? Hoy lo vemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El Proyecto Libro Azul, con humor, dicho en simple, es algo que usamos sin darnos cuenta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo interesante de El Proyecto Libro Azul, con humor es cómo funciona por dentro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hay un dato de El Proyecto Libro Azul, con humor que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo tengo mi opinión sobre El Proyecto Libro Azul, con humor, y no coincide con la tuya."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de El Proyecto Libro Azul, con humor? Escríbelo en el chat."
+    }
+   ],
+   "seg": 47,
+   "imgs": [
+    {
+     "web": "/medios/f8cbf4e1bba3cf9c_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/f8cbf4e1bba3cf9c_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Proyecto Libro Azul»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El Proyecto Libro Azul, visto desde lo ético",
+   "diagrama": null,
+   "intl": null,
+   "sub": "debate · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Hoy debatimos sobre El Proyecto Libro Azul, visto desde lo ético."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo creo que El Proyecto Libro Azul, visto desde lo ético tiene más ventajas que problemas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo creo exactamente lo contrario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Te concedo un punto, pero solo uno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás las dos tenemos un poco de razón."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 31,
+   "imgs": [
+    {
+     "web": "/medios/f8cbf4e1bba3cf9c_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/f8cbf4e1bba3cf9c_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Proyecto Libro Azul»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20211004_mh_jnd01_0001_dart_spacecra",
+   "archivo": "v/v_nasa_ksc_20211004_mh_jnd01_0001_dart_spacecra.mp4",
+   "titulo": "DART Spacecraft Removal from Shipping Container and Move to Spacecraft Dolly",
+   "atribucion": "«DART Spacecraft Removal from Shipping Container and Move to Spacecraft Dolly» — NASA · images.nasa.gov",
+   "dur": 191,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La ecuación de Drake",
+   "sub": "SEÑAL EXTRAÑA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La ecuación de Drake, visto desde lo histórico",
+   "diagrama": null,
+   "intl": null,
+   "sub": "debate · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Hoy debatimos sobre La ecuación de Drake, visto desde lo histórico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo creo que La ecuación de Drake, visto desde lo histórico tiene más ventajas que problemas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo creo exactamente lo contrario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Te concedo un punto, pero solo uno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás las dos tenemos un poco de razón."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 31,
+   "imgs": [
+    {
+     "web": "/medios/3bfcdb5c15800403_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/3bfcdb5c15800403_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Extraterrestre»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "La ecuación de Drake, visto desde lo ético",
+   "diagrama": null,
+   "intl": null,
+   "sub": "explicado · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de La ecuación de Drake, visto desde lo ético? Hoy lo vemos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ecuación de Drake, visto desde lo ético, dicho en simple, es algo que usamos sin darnos cuenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo interesante de La ecuación de Drake, visto desde lo ético es cómo funciona por dentro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hay un dato de La ecuación de Drake, visto desde lo ético que siempre sorprende."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo tengo mi opinión sobre La ecuación de Drake, visto desde lo ético, y no coincide con la tuya."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y tú qué piensas de La ecuación de Drake, visto desde lo ético? Escríbelo en el chat."
+    }
+   ],
+   "seg": 52,
+   "imgs": [
+    {
+     "web": "/medios/3bfcdb5c15800403_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/3bfcdb5c15800403_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Extraterrestre»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "joy"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_LKg6P5aI_bQ",
+   "archivo": "yt/synthwave/LKg6P5aI_bQ.m4a",
+   "titulo": "Siberian Express - Talk To Me | Electronic | NCS",
+   "audio": "yt/synthwave/LKg6P5aI_bQ.m4a",
+   "atribucion": "Música: «Siberian Express - Talk To Me | Electronic | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 175,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/LKg6P5aI_bQ.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_2TGVPj4YVfk",
+   "archivo": "yt/synthwave/2TGVPj4YVfk.m4a",
+   "titulo": "JNATHYN - Rise | Electronic | NCS",
+   "audio": "yt/synthwave/2TGVPj4YVfk.m4a",
+   "atribucion": "Música: «JNATHYN - Rise | Electronic | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 190,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/2TGVPj4YVfk.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 161,
+  "medios": 3
+ }
+}

@@ -1,0 +1,887 @@
+{
+ "bloque": "megaconst_1545",
+ "programa": "megaconst",
+ "fecha": "2026-11-19",
+ "creado": "14:51:08",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: La Gran Muralla China",
+   "sub": "MEGACONSTRUCCIONES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El sistema de fortificaciones más largo del mundo",
+   "sub": "explicado · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien sabe si la Gran Muralla es realmente visible desde el espacio? La leyenda dice que no, pero los satélites modernos podrían verlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, la muralla fue construida por millones de personas a lo largo de siglos. No es obra de un solo trabajador en un día, como se cuenta popularmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y además, el nombre 'Gran Muralla' es occidental. Los chinos la llaman 'Shi Wang Cheng', que significa 'Pared Imperial'. ¡Qué diferencia de perspectiva!"
+    },
+    {
+     "quien": "joy",
+     "texto": "La Gran Muralla China es el sistema de fortificaciones más largo del mundo, un milagro de la ingeniería antigua."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate una obra que mide más de trece mil kilómetros. Eso es lo que se conserva hoy, aunque el original fue mucho mayor."
+    },
+    {
+     "quien": "joy",
+     "texto": "Más de trece mil kilómetros de piedra y tierra. Un sistema defensivo que cubre casi todo el norte de China, desde la costa del Mar del Este hasta el desierto de Gobi."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es imposible de construir con tecnología moderna si no tienes un plan maestro. Los chinos usaron ingeniería avanzada para unir las secciones dispersas en una sola línea continua."
+    },
+    {
+     "quien": "joy",
+     "texto": "El diseño incorporaba torres, pasarelas y sistemas de agua. Cada sección tenía su propio nombre y función específica dentro del sistema defensivo global."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo tengo mi opinión sobre El sistema de fortificaciones más largo del mundo, y no coincide con la tuya."
+    },
+    {
+     "quien": "joy",
+     "texto": "La escala monumental exige un plan maestro, como el de la Gran Muralla. ¿Cómo lo harían hoy con tecnología?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Con drones y realidad virtual podríamos reconstruir torres en días, no siglos. ¡Pero falta un presupuesto!"
+    }
+   ],
+   "seg": 125
+  },
+  {
+   "tipo": "charla",
+   "tema": "Materiales y técnicas de construcción por región",
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La leyenda de que la muralla se construyó en un día es un mito sin base histórica, como veremos con los datos reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el error de pensar que son invisibles para el ojo humano: la realidad es que muchos tramos son tan altos y gruesos que dominan el paisaje."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los documentos confirman que las secciones conservadas hoy alcanzan más de 13.000 kilómetros, no un solo día de construcción."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice que un solo trabajador construyó toda la muralla en un día, pero los documentos históricos muestran miles de trabajadores y siglos de trabajo continuo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto, y además el nombre 'Gran Muralla' se popularizó en Occidente tras la exploración europea, no era así originalmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y sobre lo invisible: algunos relatos populares afirman que los muros son invisibles para el ojo humano, pero la realidad es que muchos tramos son tan altos y gruesos que dominan el paisaje."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los documentos históricos confirman que la construcción fue un esfuerzo colectivo de siglos, no una obra de un solo trabajador en un día como dice la leyenda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La realidad es más compleja: miles de mano de obra, desde el Qin hasta el Ming, usando piedra, ladrillo o tierra según la región disponible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Correcto. La muralla es visible en múltiples escalas, desde satélites hasta caminantes locales, y su existencia se mide en kilómetros reales, no mitos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito del trabajador solitario nace de la dificultad para visualizar obras colectivas, como si fuera un acto individual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La gente proyecta su propia narrativa sobre lo inmenso, ignorando la complejidad histórica real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Además, los relatos populares simplifican procesos militares y logísticos para hacerlos más digeribles y menos intimidantes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Nuestro veredicto sobre Materiales y técnicas de construcción por región: hay más historia que misterio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Antes creía que los materiales eran clave, pero ahora veo que la logística militar fue el verdadero motor de esta ingeniería monumental."
+    }
+   ],
+   "seg": 153
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Organización militar y mano de obra masiva",
+   "sub": "explicado · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si te digo que detrás de esos muros hay un ejército organizado como si fuera una empresa de construcción moderna?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La organización militar no fue casual, sino que se basaba en protocolos estrictos y jerarquías claras."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina una flota de robots trabajando en sincronía; eso es lo que intentaron lograr con la mano de obra masiva."
+    },
+    {
+     "quien": "joy",
+     "texto": "La Gran Muralla es un sistema de fortificaciones que abarca miles de kilómetros, construido para proteger los territorios imperiales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eran protocolos militares estrictos, no casualidad. La organización centralizada permitió movilizar recursos y trabajadores en escala industrial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cada sección era un proyecto independiente con su propia logística; sin eso, la muralla sería solo un montón de piedras abandonadas."
+    },
+    {
+     "quien": "joy",
+     "texto": "La Gran Muralla no es un muro continuo, sino una serie de fortificaciones conectadas por pasos y pasarelas que permitían el movimiento táctico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina una ciudad moderna con torres de vigilancia y drones; la muralla funcionaba como un sistema de defensa distribuido antes de la era digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cada sección tenía su propio comandante y suministro, lo que hacía que el control central fuera difícil pero necesario para la logística masiva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es como si cada ladrillo fuera un servidor independiente; sin una red de comunicación, el sistema colapsaría ante una invasión coordinada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso: los ingenieros ming utilizaban acueductos internos para llevar agua a las torres y permitir que los defensores duraran más tiempo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cada bloque era un nodo de la red militar; sin el protocolo de comunicación, todo colapsaría en caos total."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero los ingenieros ming tenían acueductos internos para alimentar las torres y mantener la defensa activa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy en día usamos fibra óptica para controlar servidores globales; la gran muralla era un sistema de telecomunicaciones primitivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La diferencia es que hoy tenemos redes redundantes, mientras que la muralla dependía del esfuerzo humano masivo y centralizado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy la fibra óptica conecta servidores en milisegundos; entonces ¿cómo logró la muralla defender imperios enteros sin internet?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La respuesta está en la organización militar y la mano de obra masiva que transformaron piedra y tierra en un sistema defensivo complejo."
+    }
+   ],
+   "seg": 170
+  },
+  {
+   "tipo": "charla",
+   "tema": "Diseño defensivo con torres y sistemas de agua",
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez creyeron que la Gran Muralla fue levantada en un solo día por un trabajador?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Eso es el mito de la velocidad! La realidad es que requirió siglos y millones de manos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero los sistemas de agua y torres sí existieron, como vemos en las secciones conservadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que un trabajador levantó la muralla en un día. La realidad es que requirió siglos y millones de manos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Mito de la velocidad! La construcción real fue un esfuerzo masivo con piedra, ladrillo y tierra compactada según la región."
+    },
+    {
+     "quien": "joy",
+     "texto": "El diseño defensivo incorporaba torres, pasarelas y sistemas de agua. Eso se ve en las secciones conservadas hoy."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Las torres no eran solo decoración; funcionaban como observatorios y puntos de apoyo para los ejércitos que defendían la línea."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los sistemas de agua eran vitales para mantener a las tropas hidratadas en el desierto. Se construyeron canales y aljibes estratégicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que el agua era solo un detalle secundario, pero en realidad era la arteria vital del sistema defensivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto; los canales y pozos permitían que las tropas mantuvieran su movilidad incluso en medio de la sequía."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso explica por qué algunas secciones están mejor conservadas: el agua protegió la piedra del desgaste natural."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de que el agua fue un detalle secundario es falso; la historia muestra que los canales eran la arteria vital del sistema defensivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero hay una mezcla interesante: mientras el agua era clave para la logística, las torres altas sí servían como observatorios y puntos de disparo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Crees que el agua fuera un detalle secundario? La realidad dice lo contrario: los canales eran la arteria vital de esta fortaleza."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Los sistemas hidráulicos permitieron mantener el material y la estructura intacta por siglos, algo que pocos entienden hoy."
+    }
+   ],
+   "seg": 147
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011706_nh_stelzer",
+   "archivo": "v/v_nasa_ksc_011706_nh_stelzer.mp4",
+   "titulo": "KSC-05-S-00329",
+   "atribucion": "«KSC-05-S-00329» — NASA · images.nasa.gov",
+   "dur": 343,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: El túnel del Canal de la Mancha",
+   "sub": "MEGACONSTRUCCIONES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La escala monumental del proyecto",
+   "sub": "mito realidad · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Un solo día? Suena como la historia de un videojuego donde los gráficos se cargan demasiado rápido. Probablemente sea eso."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es más aburrida: décadas de ingeniería, no magia. Pero el mito persiste porque la gente busca explicaciones simples."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La leyenda dice que un grupo místico lo construyó en un día, como si fuera un glitch del tiempo. Nosotros sabemos que fue trabajo duro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos populares, los ingenieros trabajaron con velocidad sobrehumana, saltando obstáculos geológicos como si fueran enemigos de un videojuego."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la verdad es que cada metro excavado fue una batalla real contra el tiempo y la tierra. La leyenda simplifica todo para hacerlo más emocionante."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es más brutal que el mito. No hubo magia, solo ingeniería de precisión y un esfuerzo colectivo constante durante décadas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los datos confirman que se usaron técnicas de túneles paralelos para minimizar riesgos geológicos. La escala del proyecto es impresionante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la profundidad máxima de 130 metros bajo el nivel del mar añade una capa extra de complejidad técnica que los mitos no mencionan."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de la construcción en un solo día surge del énfasis en la rapidez final, pero los registros muestran décadas de planificación y ejecución meticulosa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente asocia el éxito con la magia porque ignoran la complejidad técnica real: túneles paralelos, ventilación avanzada y materiales de alta resistencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los datos confirman que cada metro excavado requirió precisión milimétrica y coordinación internacional; no fue un acto de fe, sino ingeniería pura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito del día mágico es solo ruido; la realidad es décadas de precisión milimétrica y coordinación internacional."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, cada metro excavado requirió precisión extrema. La gente asocia el éxito con magia porque ignora la complejidad técnica real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los datos confirman que fue un esfuerzo monumental, no un evento místico. La leyenda nace del énfasis en la rapidez final del proyecto."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente creía que era un evento místico, pero los datos muestran décadas de precisión técnica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, cada metro excavado requirió coordinación internacional y materiales de alta resistencia."
+    }
+   ],
+   "seg": 166
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los materiales que resisten el mar",
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Mito popular: el túnel se hizo en un día por ingenieros místicos que conocían secretos del mar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Realidad fría: fue obra de décadas, con hormigón y acero, no magia ni batallones ocultos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito sugiere que el proyecto se completó antes de lo que realmente ocurrió, según los relatos populares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, la gente cree que el proyecto se completó antes de lo que realmente ocurrió, como si fuera magia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero los datos dicen algo distinto: cincuenta y cuatro metros de diámetro máximo, no un milagro instantáneo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree ese mito porque el túnel se construyó bajo un mar profundo sin que nadie lo viera, como si fuera magia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la realidad es que los ingenieros usaron técnicas de excavación paralelas y materiales resistentes, no hechizos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito persiste porque el proyecto fue un esfuerzo masivo y técnico que desafió todo lo que sabíamos sobre la ingeniería."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito del túnel construido en un solo día por místicos es falso. La realidad usa ingeniería paralela y materiales resistentes, no magia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Persiste el error porque la escala masiva parece imposible de lograr sin tecnología avanzada. La ciencia explica cada detalle técnico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los ingenieros enfrentaron desafíos geológicos reales, no fantasías. El éxito fue por planificación precisa y materiales de alta resistencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de la construcción en un solo día no tiene base en los documentos históricos del proyecto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad usa ingeniería paralela y materiales avanzados, nada de magia ni historias falsas."
+    }
+   ],
+   "seg": 121
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los desafíos geológicos enfrentados",
+   "sub": "mito realidad · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien cree que el túnel se hizo en un solo día por unos magos del mar? La realidad es más fría y técnica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es leyenda urbana, no historia. Los ingenieros trabajaron décadas con precisión milimétrica bajo el océano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aún así, los geólogos se quejaban de rocas movibles y agua salada que complicaba cada metro excavado."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda urbana dice que unos magos del mar construyeron el túnel en un solo día, pero la verdad es más fría y técnica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que la construcción tomó décadas con precisión milimétrica, no un día mágico. Los ingenieros trabajaron bajo presión constante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aún así, los desafíos geológicos fueron reales: cada metro excavado requería cálculos complejos y materiales de alta resistencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que el túnel no fue obra de magia, sino de cálculos geológicos precisos y materiales de alta resistencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, cada metro excavado requirió estudiar la roca del fondo marino para evitar colapsos inesperados durante la construcción."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los ingenieros enfrentaron desafíos reales: la presión del agua y las grietas en el terreno, pero lograron superarlos con tecnología avanzada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no fue fácil; se usaron técnicas de túneles paralelos para asegurar la estabilidad estructural antes de unir ambos conductos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree el mito porque los medios simplificados mostraron solo la gloria final y omitieron los años de estudio geológico previo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es cierto, pero la realidad es más fea: cada metro requería pruebas de roca para evitar colapsos que costaron millones en materiales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los ingenieros no eran magia; enfrentaron presión del agua y grietas reales, usando técnicas paralelas para asegurar estabilidad antes de unir."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, los medios simplificados crearon una narrativa épica que ocultó la realidad fea: cada metro requería pruebas de roca para evitar colapsos costosos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La presión del agua y las grietas reales fueron los verdaderos enemigos, no la magia. Usaron técnicas paralelas para excavar sin que el túnel se derrumbara."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Tú te creías la versión popular de Los desafíos geológicos enfrentados? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 162
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las personas detrás del ingenio",
+   "sub": "mito realidad · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Creen que el túnel se construyó en un solo día por unos magos olvidados?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es falso, pero la leyenda tiene sentido: nadie quiere admitir décadas de trabajo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que ingenieros y obreros trabajaron sin descanso para lograrlo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que el túnel se construyó en un solo día por magos olvidados. La leyenda dice que unos ingenieros místicos lo cavaron con magia pura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que ingenieros y obreros trabajaron sin descanso para lograrlo. Cada metro fue una batalla contra la presión del océano."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y encima, el proyecto tuvo que lidiar con terremotos, grietas y materiales que resisten mejor de lo que se pensaba."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los datos confirman: 50,4 metros de diámetro y una profundidad máxima de 130 metros bajo el nivel del mar. Nada de magia aquí."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cinco décadas de ingeniería, desde los diseños iniciales hasta la inauguración en 1994. La prueba es que funciona con trenes automáticos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mito de la velocidad: se cuenta que el túnel fue construido en un solo día por un grupo místico. La realidad es cinco décadas de ingeniería, desde los diseños iniciales hasta la inauguración en 1994."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por qué se cree el mito: la gente admira la escala monumental y las cifras como diámetro de 50,4 metros o profundidad de 130 metros. La complejidad hace que parezca un acto de magia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Realidad técnica: los ingenieros enfrentaron desafíos geológicos significativos durante la construcción, no magia. El sistema de trenes automáticos y materiales resistentes son pruebas de ingeniería, no leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de la velocidad se alimenta de la admiración por la escala monumental, pero la realidad técnica muestra desafíos geológicos reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente confunde el diámetro de 50,4 metros con magia; en vez de eso hay acero y hormigón resistiendo presiones enormes bajo el mar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que el proyecto se completó en 1994 después de décadas, no un día místico. La ingeniería fue paciente y precisa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antes creía que fuera magia, ahora veo acero y hormigón resistiendo presiones gigantes."
+    }
+   ],
+   "seg": 161
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Ingeniería monumental: la presa Hoover",
+   "sub": "MEGACONSTRUCCIONES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El desafío de construir en el desierto de Nevada",
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Imaginas construir un muro de hormigón que sostenga el cielo sobre el desierto? Eso es la presa Hoover, y no fue fácil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Construir en Nevada significaba lidiar con calor extremo, polvo y una falta de recursos. Los ingenieros tuvieron que innovar constantemente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso: la presa mide 276 metros de altura, lo que la convierte en un desafío monumental para la época."
+    },
+    {
+     "quien": "joy",
+     "texto": "El desierto de Nevada ofrecía un escenario hostil: calor extremo, polvo y una escasez notable de recursos naturales para la construcción."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si le dieramos a los ingenieros un asistente digital? Podríamos simular el clima y optimizar el uso de cemento en tiempo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es fascinante, pero debemos verificar si la tecnología actual puede replicar los desafíos del siglo pasado con precisión absoluta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por supuesto. La IA puede procesar datos históricos y aplicarlos a situaciones nuevas, siempre que no inventemos cifras ni fechas sin base."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que el desierto de Nevada ofrecía retos climáticos extremos para la construcción de la presa Hoover."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El desierto de Nevada no era un escenario vacío, sino un campo de batalla contra el calor extremo y la sequía durante los años treinta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La temperatura diaria superaba los cuarenta grados, lo que exigía soluciones ingenieriles innovadoras para mantener la productividad del personal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se contaban historias de trabajadores que llevaban agua desde el río en camiones a pie, enfrentando olas de calor que podían desorientar incluso a los más experimentados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imaginen que en el futuro la presa Hoover se convierta en una central nuclear compacta, usando el calor residual del desierto para generar energía."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Qué idea! Pero los materiales actuales no aguantan tanto calor sin degradarse. Necesitamos nuevos compuestos que resistan miles de grados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Y además, el agua del río Colorado se evaporaría demasiado rápido. Habría que inventar sistemas de refrigeración más eficientes y baratos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 155
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los materiales de alta resistencia del hormigón y el acero",
+   "sub": "linea tiempo · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Creen que el hormigón de la presa Hoover es solo piedra y cemento? La realidad es mucho más sofisticada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no se detengan en lo básico. El acero que usaron tiene propiedades que hoy nos parecen ciencia ficción."
+    },
+    {
+     "quien": "joy",
+     "texto": "El ingeniero John L. Smith eligió materiales específicos para resistir el clima desértico y las fuerzas del río Colorado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El hormigón de la presa Hoover no es simple cemento; contiene aditivos químicos que le dan resistencia excepcional ante el calor extremo del desierto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto, pero la verdadera magia está en cómo se mezcla y cura para soportar tanto peso sin fisuras después de décadas bajo el sol."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no olvidemos el acero estructural; es como la armadura invisible que mantiene todo unido cuando las fuerzas del río intentan romperlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Smith tuvo visión: combinó materiales modernos con técnicas tradicionales para crear algo que hoy sigue siendo el estándar en ingeniería hidráulica mundial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La magia no está en el concreto, sino en la ingeniería de la época. Smith usó acero como armadura invisible para mantener todo unido bajo presión."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, el acero estructural es clave. Pero hay otro detalle: el hormigón de alta resistencia se mezclaba con aditivos para durar siglos sin fisuras."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y los trabajadores, más de 400 personas, enfrentaron calor extremo y agua fría. La combinación de materiales modernos con técnicas tradicionales es lo que hace que esto siga vigente."
+    },
+    {
+     "quien": "joy",
+     "texto": "El diseño incluye un sistema de drenaje interno para controlar la presión del agua. Eso demuestra cómo la ingeniería monumental combina ciencia y experiencia práctica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El acero resistió el calor del desierto y la presión del agua. Hoy usamos nanotecnología para materiales aún más fuertes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es verdad, pero el hormigón de la época ya era excepcional. El drenaje interno sigue siendo un ingenio hidráulico brillante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La energía que genera hoy es renovable y limpia. La presa Hoover sigue siendo una obra maestra de la ingeniería moderna."
+    },
+    {
+     "quien": "joy",
+     "texto": "El hormigón de la época ya era excepcional, pero hoy la nanotecnología redefine lo posible en materiales de ingeniería monumental."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina si el acero del siglo XX tuviera propiedades auto-curativas como las nanoceldas actuales; la presa Hoover podría regenerarse sola."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es una especulación fascinante, pero recuerda que la realidad de la construcción depende de datos verificados y no de ficción científica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si el acero pudiera auto-repararse con nanoceldas, la presa Hoover seguiría funcionando después de un siglo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que los materiales actuales superan a los del siglo XX en resistencia y durabilidad comprobada."
+    }
+   ],
+   "seg": 202
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El costo de 32 millones de dólares en 1935",
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuánto costó construir la presa Hoover en 1935? 32 millones de dólares, cifra que hoy parece ridícula."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Ese costo representaba un esfuerzo masivo para la época y refleja la importancia estratégica del proyecto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no solo fue dinero; implicó miles de trabajadores, tecnología innovadora y desafíos logísticos en el desierto de Nevada."
+    },
+    {
+     "quien": "joy",
+     "texto": "La presa Hoover es una ingeniería hidráulica monumental en el desierto de Nevada, construida entre 1931 y 1935 bajo la dirección del ingeniero John L. Smith."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Miles de trabajadores la edificaron con hormigón de alta resistencia y acero, regulando el flujo del río Colorado para abastecer a Las Vegas y generar energía eléctrica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no solo fue dinero; implicó desafíos logísticos en el desierto, tecnología innovadora y un sistema de drenaje interno para controlar la presión hidrostática."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina que cada dólar invertido en la presa Hoover se usó para construir un edificio de diez pisos. Así es como el costo de treinta y dos millones se tradujo en infraestructura."
+    },
+    {
+     "quien": "joy",
+     "texto": "El proyecto empleó a más de cuatrocientos trabajadores durante sus cuatro años de construcción, coordinando el transporte de materiales y la mezcla de hormigón de alta resistencia en condiciones extremas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "John L. Smith dirigió todo esto con una visión clara: crear una barrera natural contra inundaciones mientras se generaba energía eléctrica para las ciudades que hoy conocemos como Las Vegas."
+    },
+    {
+     "quien": "joy",
+     "texto": "32 millones de dólares en 1935 equivalen a construir un edificio de diez pisos, pero la verdadera escala es el control del río Colorado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "John L. Smith no solo dirigió, sino que diseñó un sistema de drenaje interno para controlar la presión, algo muy avanzado para su época."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que se construyó en un año, pero los registros muestran cuatro años de trabajo intenso con más de 400 trabajadores."
+    },
+    {
+     "quien": "joy",
+     "texto": "La presa Hoover regula el flujo del Colorado para abastecer a Las Vegas y genera energía eléctrica con dos centrales hidroeléctricas asociadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese sistema de drenaje que Smith diseñó es como un pulmón artificial para la presa, controlando la presión interna sin colapsar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y eso demuestra cómo la ingeniería moderna aún aprende de los errores del siglo XX al planificar obras monumentales."
+    }
+   ],
+   "seg": 173
+  },
+  {
+   "tipo": "charla",
+   "tema": "La función hidroeléctrica para abastecer a Las Vegas",
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez has imaginado que un solo muro de hormigón pudiera detener el flujo del río Colorado y alimentar a una ciudad entera?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero ¿y si te dijera que eso no fue magia, sino matemáticas brutales aplicadas con una precisión quirúrgica?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La presa Hoover es un caso de estudio en ingeniería monumental: escalas masivas, materiales avanzados y desafíos que hoy nos parecen triviales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si le dijeras al río Colorado que se detuviera? No fue un muro estático, sino un sistema dinámico que controla el flujo con precisión milimétrica."
+    },
+    {
+     "quien": "joy",
+     "texto": "El ingeniero John L. Smith dirigió este esfuerzo colossal, pero no fue él solo: más de 400 trabajadores construyeron esta obra durante cuatro años intensos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La energía hidroeléctrica generada alimenta a millones en Las Vegas, transformando un desierto árido en una metrópolis vibrante gracias a la ingeniería del siglo XX."
+    },
+    {
+     "quien": "joy",
+     "texto": "El costo total de construcción fue de unos 32 millones de dólares en 1935, una cifra impresionante para la época y que demuestra la capacidad de planificación federal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese costo de treinta y dos millones en 1935 es ridículo si lo comparas con el precio del acero hoy, pero la ingeniería del momento era otra cosa."
+    },
+    {
+     "quien": "joy",
+     "texto": "La energía hidroeléctrica sigue siendo clave para Las Vegas; sin ella, la ciudad no podría mantener su ritmo de consumo energético masivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasa con el agua? El sistema de drenaje interno que diseñaron hace setenta años aún controla la presión en las paredes de hormigón."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si ese diseño antiguo se colapsa por un cambio climático que nadie pronosticó? La ingeniería del siglo XX lucha con el futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los planos originales, el drenaje interno es crítico para evitar fracturas. Pero la predicción climática actual es incierta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿El drenaje interno se mantendrá eficaz frente a lluvias extremas y cambios de nivel del río?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los planos, el sistema está diseñado para fluctuaciones moderadas; la resistencia es alta pero no infalible."
+    }
+   ],
+   "seg": 155
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1890,
+  "medios": 2
+ }
+}

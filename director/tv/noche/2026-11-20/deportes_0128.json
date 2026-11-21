@@ -1,0 +1,301 @@
+{
+ "bloque": "deportes_0128",
+ "programa": "deportes",
+ "fecha": "2026-11-20",
+ "creado": "01:11:14",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "ZONA DEPORTES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El futbolista que perdió el peluquín en pleno partido rompe su silenci",
+   "sub": "Marca · hace 21 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Eduardo 'Dudu' Rosa confirmó que perdió el peluquín al cabecear y tuvo que jugar los últimos minutos con su prótesis capilar en la mano."
+    },
+    {
+     "quien": "joy",
+     "texto": "El contexto es que muchos futbolistas profesionales tienen rutinas de cuidado capilar, pero este incidente fue tan repentino que no hubo tiempo para reaccionar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahora está en el campo con un peluquín artificial mientras la gente aplaude por su resistencia, aunque el peluquín parece más triste que él."
+    }
+   ],
+   "seg": 35,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/fd8987a590e49428_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/fd8987a590e49428_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Pep Guardiola abre la vía brasileña mientras el City pierde 2.000 mill",
+   "sub": "Marca · hace 22 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Pep Guardiola abrió la vía brasileña para el City, pero el equipo perdió dos mil millones en un solo día según los registros financieros del club."
+    },
+    {
+     "quien": "joy",
+     "texto": "El contexto es que las fluctuaciones del mercado pueden afectar a cualquier entidad deportiva, incluso a las más sólidas como el Manchester City."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Así que aunque Guardiola parezca tener la solución, los números dicen que el problema es más grande de lo que parece en primera vista."
+    }
+   ],
+   "seg": 35,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/a70138d760e41595_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a70138d760e41595_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "\"Me hacía mucha ilusión luchar por la Ensaladera\"",
+   "sub": "Marca · hace 22 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "El malagueño dijo que le hacía mucha ilusión luchar por la Ensaladera, según sus declaraciones a MARCA sobre su renuncia a la fase final de Bolonia."
+    },
+    {
+     "quien": "joy",
+     "texto": "El contexto es que muchos atletas valoran el proceso competitivo más allá del resultado final, especialmente cuando se trata de competiciones importantes como la Copa del Rey."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Así que aunque renuncie a la fase final, su pasión por el deporte sigue viva y eso es lo que realmente importa en este momento."
+    }
+   ],
+   "seg": 38,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/373283f308df927e_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/373283f308df927e_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "\"El mejor Marc Márquez\" replica a Melandri o Bradl",
+   "sub": "Marca · hace 22 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Marc Márquez replicó a Melandri o Bradl, según sus declaraciones a MARCA sobre su victoria y la negativa a retirarse del deporte."
+    },
+    {
+     "quien": "joy",
+     "texto": "El contexto es que los pilotos de motor suelen comparar su estilo con otros legendarios para definir su identidad en el campeonato mundial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Así que aunque se compara consigo mismo y con otros, su decisión de no retirarse parece estar más clara que nunca en este momento."
+    }
+   ],
+   "seg": 34,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/9a9416c406a28848_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/9a9416c406a28848_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_caminandes_llamigos",
+   "archivo": "v/v_caminandes_llamigos.mp4",
+   "titulo": "Caminandes: Llamigos",
+   "atribucion": "«Caminandes: Llamigos» (2016) © Blender Foundation · www.blender.org · CC BY 3.0",
+   "dur": 150,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "ZONA DEPORTES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las cuentas de Marc Márquez para proclamarse campeón en Portugal",
+   "sub": "Marca · hace 22 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Marc Márquez se prepara para proclamarse campeón en Portugal, según Marca. El motor está listo y el plan es claro."
+    },
+    {
+     "quien": "joy",
+     "texto": "El contexto sugiere que la carrera de MotoGP busca recuperar su brillo con un gran final este sábado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el primer giro fuera un error? La pista lo dirá, pero nosotros ya tenemos el chiste listo."
+    }
+   ],
+   "seg": 28,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/d080fe0ec40a7c28_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/d080fe0ec40a7c28_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "\"Lamine, de chaval, ya apuntaba maneras\"",
+   "sub": "Marca · hace 22 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Lamine, de chico, ya apuntaba maneras según Marca. La trayectoria es larga y llena de promesas."
+    },
+    {
+     "quien": "joy",
+     "texto": "El resumen indica que compartió partidillos en Rocafonda con un crack del Barça, una sensación en Segunda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Podría encajar en el Córdoba? La duda es legítima, pero la confianza del jugador también lo es."
+    }
+   ],
+   "seg": 25,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/2e64b826d2b8b13e_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/2e64b826d2b8b13e_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "\"En los Juegos Olímpicos descubrí lo afortunado que soy\"",
+   "sub": "Marca · hace 22 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "En los Juegos Olímpicos descubrí lo afortunado que soy, dice el lateral del Bolonia según Marca."
+    },
+    {
+     "quien": "joy",
+     "texto": "El contexto general es un gran arranque de Serie A 2026-27 tras un éxito olímpico en París."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Afortunado o suerte? La línea está trunca, pero el chiste sigue vivo para quien lo escuche."
+    }
+   ],
+   "seg": 25,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/22e4721ee953e841_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/22e4721ee953e841_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "\"En Oviedo me costó, pero ahora estoy en mi 'cuarto prime\"",
+   "sub": "Marca · hace 22 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "En Oviedo me costó, pero ahora estoy en mi 'cuarto prime', confiesa el legendario delantero venezolano según Marca."
+    },
+    {
+     "quien": "joy",
+     "texto": "El resumen habla de una entrevista exclusiva en México con el jugador del Club Pachuca."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuarto prime o cuarto cielo? La diferencia es sutil, pero el humor se mantiene intacto."
+    }
+   ],
+   "seg": 24,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/f32cb24858913d56_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/f32cb24858913d56_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_-jfEBBfSKUw",
+   "archivo": "yt/phonk/-jfEBBfSKUw.m4a",
+   "titulo": "EPICK PHONK BY EMEREL GRAY, INFRACTION / INVADERS",
+   "audio": "yt/phonk/-jfEBBfSKUw.m4a",
+   "atribucion": "Música: «EPICK PHONK BY EMEREL GRAY, INFRACTION / INVADERS» · EMEREL GRAY · sin copyright (YouTube)",
+   "dur": 171,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/-jfEBBfSKUw.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_LfGDCSiH8lc",
+   "archivo": "yt/phonk/LfGDCSiH8lc.m4a",
+   "titulo": "Emin Nilsen - BANE | Brazilian Phonk | NCS",
+   "audio": "yt/phonk/LfGDCSiH8lc.m4a",
+   "atribucion": "Música: «Emin Nilsen - BANE | Brazilian Phonk | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 121,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/LfGDCSiH8lc.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 8,
+  "seg_charla": 244,
+  "medios": 3
+ }
+}

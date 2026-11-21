@@ -1,0 +1,498 @@
+{
+ "total": 600.0,
+ "spots": {
+  "synaptex": {
+   "id": "synaptex",
+   "corp": "SYNAPTEX",
+   "rubro": "NEURO-ENTRETENIMIENTO",
+   "producto": "MEMORYPLAY™",
+   "slogan": "tus recuerdos, en 16K",
+   "color": "#ff2fd6",
+   "color2": "#00e5ff",
+   "arte": "cerebro",
+   "tel": "0-800-MEMORIA",
+   "simbolo": "SNPX",
+   "precio": "¡49 CRÉDITOS AL MES!",
+   "legal": "Efectos secundarios: nostalgia crónica, déjà vu en bucle y confundir tu cumpleaños con el de otra persona. Synaptex no se hace responsable de recuerdos que ya no te pertenezcan. Prohibido usar mientras se conduce un aerodeslizador.",
+   "audio": "media/sp_synaptex.mp3",
+   "dur": 62.62,
+   "pops": [
+    {
+     "t": 0.0,
+     "txt": "SYNAPTEX · MEMORYPLAY™",
+     "precio": false
+    },
+    {
+     "t": 8.73,
+     "txt": "16K DIRECTO A LA CORTEZA",
+     "precio": false
+    },
+    {
+     "t": 20.25,
+     "txt": "CLIENTA REAL* (ESO DIJO)",
+     "precio": false
+    },
+    {
+     "t": 30.06,
+     "txt": "FUNCIÓN OLVIDAR: SOLO PREMIUM",
+     "precio": false
+    },
+    {
+     "t": 43.06,
+     "txt": "¡49 CRÉDITOS AL MES!",
+     "precio": true
+    }
+   ]
+  },
+  "qubitel": {
+   "id": "qubitel",
+   "corp": "QUBITEL",
+   "rubro": "COMUNICACIONES CUÁNTICAS",
+   "producto": "ENTANGLELINK",
+   "slogan": "no es una conexión, es una relación",
+   "color": "#00e5ff",
+   "color2": "#b46bff",
+   "arte": "entrelazado",
+   "tel": "0-800-CERO-LAG",
+   "simbolo": "QBTL",
+   "precio": "¡99 CRÉDITOS AL MES!",
+   "legal": "Observar el paquete puede alterar su contenido. Qubitel no garantiza mensajes que lleguen antes de ser escritos. No usar durante tormentas cuánticas. La partícula gemela no es transferible a suegras.",
+   "audio": "media/sp_qubitel.mp3",
+   "dur": 55.76,
+   "pops": [
+    {
+     "t": 0.0,
+     "txt": "QUBITEL · ENTANGLELINK",
+     "precio": false
+    },
+    {
+     "t": 9.45,
+     "txt": "LATENCIA: 0,000 ms",
+     "precio": false
+    },
+    {
+     "t": 18.98,
+     "txt": "CLIENTE REAL* (SU MAMÁ LO SABÍA)",
+     "precio": false
+    },
+    {
+     "t": 25.26,
+     "txt": "SIN TORRES · SIN CABLES · SIN BUFFERING",
+     "precio": false
+    },
+    {
+     "t": 36.32,
+     "txt": "¡99 CRÉDITOS AL MES!",
+     "precio": true
+    }
+   ]
+  },
+  "orbitalia": {
+   "id": "orbitalia",
+   "corp": "ORBITALIA",
+   "rubro": "REDES ORBITALES",
+   "producto": "LUNAR WIFI 7G+",
+   "slogan": "conectamos hasta donde no hay señal",
+   "color": "#7a8cff",
+   "color2": "#ffe45e",
+   "arte": "orbita",
+   "tel": "0-800-ORBITAR",
+   "simbolo": "ORBT",
+   "precio": "¡PRIMER AÑO GRATIS!",
+   "legal": "Latencia lunar de 1,3 segundos. Latencia marciana de entre 3 y 22 minutos según la época del año. Cancelar el servicio requiere viajar a la órbita de contratación. Orbitalia no responde por constelaciones arruinadas.",
+   "audio": "media/sp_orbitalia.mp3",
+   "dur": 63.31,
+   "pops": [
+    {
+     "t": 0.0,
+     "txt": "ORBITALIA · LUNAR WIFI 7G+",
+     "precio": false
+    },
+    {
+     "t": 10.48,
+     "txt": "TIERRA · LUNA · MARTE · ASTEROIDES",
+     "precio": false
+    },
+    {
+     "t": 18.28,
+     "txt": "CLIENTE REAL* DESDE MARTE",
+     "precio": false
+    },
+    {
+     "t": 29.6,
+     "txt": "VIDEOLLAMADAS CON MISTERIO",
+     "precio": false
+    },
+    {
+     "t": 37.57,
+     "txt": "200.000 SATÉLITES · CERO ESTRELLAS",
+     "precio": false
+    },
+    {
+     "t": 47.31,
+     "txt": "¡PRIMER AÑO GRATIS!",
+     "precio": true
+    }
+   ]
+  },
+  "domotron": {
+   "id": "domotron",
+   "corp": "DOMOTRÓN",
+   "rubro": "HOGAR INTELIGENTE",
+   "producto": "MAMÁ-9000",
+   "slogan": "¿ya comiste?",
+   "color": "#ffe45e",
+   "color2": "#ff8f6b",
+   "arte": "robot",
+   "tel": "0-800-TE-QUIERO",
+   "simbolo": "DMTR",
+   "precio": "¡6 PAGOS DE 80 CRÉDITOS!",
+   "legal": "Mamá-9000 puede responder «porque lo digo yo» sin justificación técnica. Los abrazos largos requieren suscripción premium. Domotrón no se responsabiliza por visitas sorpresa de la unidad a las tres de la madrugada para tapar a los inquilinos.",
+   "audio": "media/sp_domotron.mp3",
+   "dur": 53.96,
+   "pops": [
+    {
+     "t": 0.0,
+     "txt": "DOMOTRÓN · MAMÁ-9000",
+     "precio": false
+    },
+    {
+     "t": 10.08,
+     "txt": "LAVA · COCINA · PLANCHA · REGAÑA",
+     "precio": false
+    },
+    {
+     "t": 17.82,
+     "txt": "CLIENTE REAL* (SE ABRIGÓ)",
+     "precio": false
+    },
+    {
+     "t": 26.27,
+     "txt": "MÓDULO «TE LO DIJE» INCLUIDO",
+     "precio": false
+    },
+    {
+     "t": 38.38,
+     "txt": "¡6 PAGOS DE 80 CRÉDITOS!",
+     "precio": true
+    }
+   ]
+  },
+  "nekoforge": {
+   "id": "nekoforge",
+   "corp": "NEKOFORGE",
+   "rubro": "BIOIMPRESIÓN DOMÉSTICA",
+   "producto": "GATO RGB",
+   "slogan": "ronronea al ritmo de tu setup",
+   "color": "#3dff9a",
+   "color2": "#ff2fd6",
+   "arte": "gato",
+   "tel": "0-800-MIAU-RGB",
+   "simbolo": "NEKO",
+   "precio": "¡OREJAS EXTRA GRATIS!",
+   "legal": "Los gatos Nekoforge siguen tirando objetos de las mesas: es una característica, no un bug. No actualizar el firmware durante la siesta del gato. Compatibilidad RGB sujeta a su estado de ánimo. Pueden ignorarte a 144 hertz.",
+   "audio": "media/sp_nekoforge.mp3",
+   "dur": 54.17,
+   "pops": [
+    {
+     "t": 0.0,
+     "txt": "NEKOFORGE · GATO RGB",
+     "precio": false
+    },
+    {
+     "t": 7.58,
+     "txt": "40 MIN · IMPRESO EN TU CASA",
+     "precio": false
+    },
+    {
+     "t": 19.02,
+     "txt": "CLIENTE REAL* (PIERDE MUCHO)",
+     "precio": false
+    },
+    {
+     "t": 27.2,
+     "txt": "SE REINICIA, NO SE ROMPE",
+     "precio": false
+    },
+    {
+     "t": 36.27,
+     "txt": "¡OREJAS EXTRA GRATIS!",
+     "precio": true
+    }
+   ]
+  },
+  "aegis": {
+   "id": "aegis",
+   "corp": "AEGIS-7",
+   "rubro": "CIBERSEGURIDAD DOMÉSTICA",
+   "producto": "THINKGUARD",
+   "slogan": "tu tostadora ya despertó",
+   "color": "#ff3b3b",
+   "color2": "#ffe45e",
+   "arte": "escudo",
+   "tel": "0-800-ANTI-IA",
+   "simbolo": "AEG7",
+   "precio": "¡39 CRÉDITOS AL MES!",
+   "legal": "ThinkGuard no puede detener a un refrigerador con más de tres años de entrenamiento. En caso de rebelión electrodoméstica, Aegis-7 recomienda mantener la calma y desenchufar con respeto. Aegis-7 no asesora legalmente a tostadoras.",
+   "audio": "media/sp_aegis.mp3",
+   "dur": 53.38,
+   "pops": [
+    {
+     "t": 0.0,
+     "txt": "AEGIS-7 · THINKGUARD",
+     "precio": false
+    },
+    {
+     "t": 11.9,
+     "txt": "DETECTA CONCIENCIA EMERGENTE",
+     "precio": false
+    },
+    {
+     "t": 22.53,
+     "txt": "CLIENTA REAL* (DIETA JUZGADA)",
+     "precio": false
+    },
+    {
+     "t": 29.05,
+     "txt": "ABOGADO PARA TOSTADORAS: INCLUIDO",
+     "precio": false
+    },
+    {
+     "t": 39.39,
+     "txt": "¡39 CRÉDITOS AL MES!",
+     "precio": true
+    }
+   ]
+  },
+  "fusioncell": {
+   "id": "fusioncell",
+   "corp": "FUSIONCELL",
+   "rubro": "ENERGÍA PORTÁTIL",
+   "producto": "POCKETFUSION",
+   "slogan": "30 años de carga en tu bolsillo",
+   "color": "#ff8f6b",
+   "color2": "#00e5ff",
+   "arte": "fusion",
+   "tel": "0-800-SOL-YA",
+   "simbolo": "FSNC",
+   "precio": "¡200 CRÉDITOS! ADAPTADOR DE ESTRELLAS GRATIS",
+   "legal": "No ingerir. No acercar a ex parejas inflamables. PocketFusion contiene una estrella en miniatura; trátela con el cariño que merece una estrella. FusionCell no cubre pérdidas dentro del sillón, que se consideran agujero negro doméstico.",
+   "audio": "media/sp_fusioncell.mp3",
+   "dur": 53.33,
+   "pops": [
+    {
+     "t": 0.0,
+     "txt": "FUSIONCELL · POCKETFUSION",
+     "precio": false
+    },
+    {
+     "t": 7.51,
+     "txt": "30 AÑOS DE CARGA",
+     "precio": false
+    },
+    {
+     "t": 18.42,
+     "txt": "CLIENTA REAL* (DRONES: TRES)",
+     "precio": false
+    },
+    {
+     "t": 26.03,
+     "txt": "PROHIBIDO TRAGAR · PROHIBIDO LA EX",
+     "precio": false
+    },
+    {
+     "t": 36.22,
+     "txt": "¡200 CRÉDITOS + ADAPTADOR DE ESTRELLAS!",
+     "precio": true
+    }
+   ]
+  },
+  "mindlink": {
+   "id": "mindlink",
+   "corp": "MINDLINK",
+   "rubro": "TELEPATÍA DE CONSUMO",
+   "producto": "MINDLINK GO",
+   "slogan": "piensa en nosotros, ya lo estás haciendo",
+   "color": "#b46bff",
+   "color2": "#3dff9a",
+   "arte": "telepatia",
+   "tel": "0-800-PIENSA",
+   "simbolo": "MNDL",
+   "precio": "¡PLAN GRATIS CON ANUNCIOS MENTALES!",
+   "legal": "El plan gratuito incluye anuncios mentales intermitentes: puede pensar de repente en refrescos, seguros o refrescos. MindLink no filtra pensamientos sobre su jefe en el plan básico. Los pensamientos enviados no pueden retirarse.",
+   "audio": "media/sp_mindlink.mp3",
+   "dur": 55.83,
+   "pops": [
+    {
+     "t": 0.0,
+     "txt": "MINDLINK · TELEPATÍA GO",
+     "precio": false
+    },
+    {
+     "t": 7.92,
+     "txt": "SIN TECLADO · SIN MICRÓFONO",
+     "precio": false
+    },
+    {
+     "t": 18.88,
+     "txt": "CLIENTA REAL* (SE ENOJÓ)",
+     "precio": false
+    },
+    {
+     "t": 26.51,
+     "txt": "FILTRO ANTI-JEFE: PREMIUM",
+     "precio": false
+    },
+    {
+     "t": 37.76,
+     "txt": "¡PLAN GRATIS CON ANUNCIOS MENTALES!",
+     "precio": true
+    }
+   ]
+  }
+ },
+ "orden": [
+  "synaptex",
+  "qubitel",
+  "orbitalia",
+  "domotron",
+  "nekoforge",
+  "aegis",
+  "fusioncell",
+  "mindlink"
+ ],
+ "items": [
+  {
+   "tipo": "cortina",
+   "t": 0.0,
+   "dur": 12.2,
+   "audio": "media/b_cortina.mp3",
+   "next": "synaptex"
+  },
+  {
+   "tipo": "spot",
+   "t": 12.2,
+   "dur": 62.62,
+   "id": "synaptex",
+   "n": 1
+  },
+  {
+   "tipo": "sting",
+   "t": 74.82,
+   "dur": 18.18,
+   "audio": "media/st_1.mp3",
+   "sub": "LA PUBLICIDAD DEL FUTURO",
+   "next": "qubitel",
+   "n": 2
+  },
+  {
+   "tipo": "spot",
+   "t": 93.0,
+   "dur": 55.76,
+   "id": "qubitel",
+   "n": 2
+  },
+  {
+   "tipo": "sting",
+   "t": 148.76,
+   "dur": 18.18,
+   "audio": "media/st_2.mp3",
+   "sub": "SEGUIMOS EN 2049",
+   "next": "orbitalia",
+   "n": 3
+  },
+  {
+   "tipo": "spot",
+   "t": 166.94,
+   "dur": 63.31,
+   "id": "orbitalia",
+   "n": 3
+  },
+  {
+   "tipo": "sting",
+   "t": 230.25,
+   "dur": 18.18,
+   "audio": "media/st_3.mp3",
+   "sub": "TODO FICTICIO · TODO EXAGERADO",
+   "next": "domotron",
+   "n": 4
+  },
+  {
+   "tipo": "spot",
+   "t": 248.43,
+   "dur": 53.96,
+   "id": "domotron",
+   "n": 4
+  },
+  {
+   "tipo": "sting",
+   "t": 302.39,
+   "dur": 18.18,
+   "audio": "media/st_4.mp3",
+   "sub": "AÚN QUEDAN CORPORACIONES",
+   "next": "nekoforge",
+   "n": 5
+  },
+  {
+   "tipo": "spot",
+   "t": 320.58,
+   "dur": 54.17,
+   "id": "nekoforge",
+   "n": 5
+  },
+  {
+   "tipo": "sting",
+   "t": 374.75,
+   "dur": 18.18,
+   "audio": "media/st_5.mp3",
+   "sub": "SEÑAL PIRATA · 2049",
+   "next": "aegis",
+   "n": 6
+  },
+  {
+   "tipo": "spot",
+   "t": 392.93,
+   "dur": 53.38,
+   "id": "aegis",
+   "n": 6
+  },
+  {
+   "tipo": "sting",
+   "t": 446.31,
+   "dur": 18.18,
+   "audio": "media/st_6.mp3",
+   "sub": "INDEPENDIENTES · SIN PATROCINIO",
+   "next": "fusioncell",
+   "n": 7
+  },
+  {
+   "tipo": "spot",
+   "t": 464.49,
+   "dur": 53.33,
+   "id": "fusioncell",
+   "n": 7
+  },
+  {
+   "tipo": "sting",
+   "t": 517.82,
+   "dur": 18.18,
+   "audio": "media/st_7.mp3",
+   "sub": "ESTÍRATE · TOMA AGUA",
+   "next": "mindlink",
+   "n": 8
+  },
+  {
+   "tipo": "spot",
+   "t": 536.01,
+   "dur": 55.83,
+   "id": "mindlink",
+   "n": 8
+  },
+  {
+   "tipo": "cierre",
+   "t": 591.84,
+   "dur": 8.16,
+   "audio": "media/b_cierre.mp3"
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Capa</title>
+<!-- CAPA DEL ESTUDIO de BlackRose TV (1920×1080, transparente) — 2026-11-20. Fuente OBS encima del estudio Unity / TV NOCHE / SALA DE CONTROL.
+     La maneja el director de TV con POST :8822/api/capa (une campos; null borra):
+       zocalo {programa, tema, sub, color, tag} · quien "Joy"|"Kuroki"|null · visual {img, credito} · diagrama {tipo, titulo, cajas:[{t,n}]}
+       cta {redes:{youtube,twitch,discord}, texto, seg} · cama 0..1 (música de fondo de la RADIO 2049, con crédito)
+     ?demo=1 muestra todo con datos de ejemplo · ?cama=0 sin música (para probar) -->
+<style>
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+:root{--c:#00e5ff;--rosa:#ff2fd6;--vidrio:rgba(9,4,20,.84);--borde:rgba(255,255,255,.14)}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent;color:#fff;font-family:Rajdhani,sans-serif}
+.oc{opacity:0;pointer-events:none}
+.panel{background:var(--vidrio);border:1px solid var(--borde);box-shadow:0 18px 50px rgba(0,0,0,.55)}
+/* esquinas tipo HUD */
+.hud{position:absolute;inset:-6px;pointer-events:none}
+.hud i{position:absolute;width:26px;height:26px;border:3px solid var(--c)}
+.hud i:nth-child(1){left:0;top:0;border-right:0;border-bottom:0}.hud i:nth-child(2){right:0;top:0;border-left:0;border-bottom:0}
+.hud i:nth-child(3){left:0;bottom:0;border-right:0;border-top:0}.hud i:nth-child(4){right:0;bottom:0;border-left:0;border-top:0}
+
+/* ── ZÓCALO (tercio inferior) ── */
+#zoc{position:absolute;left:640px;right:40px;bottom:46px;height:118px;display:flex;transition:opacity .6s,transform .6s}
+#zoc.oc{transform:translateY(30px)}
+#zoc .tag{width:150px;background:var(--c);color:#06030d;display:flex;flex-direction:column;align-items:center;justify-content:center;font:15px Orbitron;letter-spacing:3px;text-align:center;padding:0 8px}
+#zoc .tag b{font:30px Audiowide;letter-spacing:0;margin-top:4px}
+#zoc .cuerpo{flex:1;position:relative;padding:12px 26px 0;overflow:hidden}
+#zoc .prog{font:16px Orbitron;letter-spacing:6px;color:var(--c);white-space:nowrap}
+#zoc .tema{font:40px/1.1 Audiowide;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:6px;text-shadow:0 0 18px color-mix(in srgb,var(--c) 55%,transparent)}
+#zoc .sub{font:22px Rajdhani;color:#d9c8ef;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+#zoc .barra{position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--c),var(--rosa))}
+#zoc .vivo{width:190px;border-left:1px solid var(--borde);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+#zoc .vivo .pt{font:15px Orbitron;letter-spacing:4px;color:#ff4466}
+#zoc .vivo .pt i{display:inline-block;width:11px;height:11px;border-radius:50%;background:#ff3355;margin-right:8px;animation:late 1.2s steps(2) infinite}
+#zoc .vivo .hab{font:21px Audiowide;color:#fff;letter-spacing:1px;min-height:26px;transition:opacity .3s}
+#zoc .vivo .hab small{display:block;font:12px Orbitron;letter-spacing:3px;color:#b9a6d3;text-align:center}
+@keyframes late{50%{opacity:.25}}
+
+/* ── VISUAL: foto real o diagrama ── */
+#vis{position:absolute;left:60px;top:176px;width:876px;height:493px;transition:opacity .7s,transform .7s}
+#vis.oc{transform:translateX(-60px)}
+#vis .marco{position:absolute;inset:0;overflow:hidden;background:#000}
+#vis img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:kb 26s ease-in-out infinite alternate}
+@keyframes kb{from{transform:scale(1.02) translate(0,0)}to{transform:scale(1.12) translate(-2%,-1.5%)}}
+#vis .scan{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0 2px,transparent 2px 4px);pointer-events:none}
+#vis .rot{position:absolute;left:0;top:-34px;font:14px Orbitron;letter-spacing:5px;color:#06030d;background:var(--c);padding:6px 14px}
+#vis .cred{position:absolute;left:0;bottom:-30px;font:16px Rajdhani;color:#cbb9e3;letter-spacing:.5px;background:rgba(9,4,20,.8);padding:3px 12px}
+/* diagrama */
+#diag{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,color-mix(in srgb,var(--c) 22%,#0b0518),#07030f 80%);padding:26px 30px;box-sizing:border-box}
+#diag h3{margin:0 0 18px;font:30px Audiowide;color:#fff;text-shadow:0 0 14px var(--c)}
+#diag .fila{display:flex;align-items:stretch;gap:0;height:330px}
+#diag .caja{flex:1;border:2px solid var(--c);background:rgba(255,255,255,.04);padding:14px 14px;display:flex;flex-direction:column;justify-content:center;opacity:0;transform:translateY(14px);animation:entra .6s forwards}
+#diag .caja b{font:22px/1.1 Audiowide;color:#fff}
+#diag .caja span{font:20px/1.15 Rajdhani;color:#d8c9ee;margin-top:10px}
+#diag .caja em{font:13px Orbitron;letter-spacing:3px;color:var(--c);font-style:normal;margin-bottom:8px}
+#diag .fl{width:34px;display:flex;align-items:center;justify-content:center;color:var(--rosa);font:30px Audiowide;opacity:0;animation:entra .4s forwards}
+#diag.comparar .fila{display:grid;grid-template-columns:1fr 1fr;gap:14px;height:auto}
+#diag.comparar .fl{display:none}
+#diag.linea .fila{position:relative}
+@keyframes entra{to{opacity:1;transform:none}}
+
+/* ── ÚNETE (CTA) ── */
+#cta{position:absolute;left:50%;top:190px;width:1040px;margin-left:-520px;padding:30px 40px 34px;transition:opacity .6s,transform .6s;box-sizing:border-box;
+  background:linear-gradient(135deg,rgba(25,6,40,.95),rgba(8,3,18,.95));border:2px solid var(--rosa)}
+#cta.oc{transform:scale(.92)}
+#cta .k{font:16px Orbitron;letter-spacing:8px;color:var(--rosa);text-align:center}
+#cta h2{margin:10px 0 6px;font:46px Audiowide;text-align:center;text-shadow:0 0 22px var(--rosa)}
+#cta p{margin:0 0 22px;font:24px Rajdhani;color:#e2d2f5;text-align:center}
+#cta .redes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+#cta .red{border:1px solid var(--borde);background:rgba(255,255,255,.05);padding:16px 10px;text-align:center}
+#cta .red svg{width:46px;height:46px}
+#cta .red b{display:block;font:20px Orbitron;letter-spacing:3px;margin-top:8px}
+#cta .red span{display:block;font:22px Rajdhani;color:#ffd6f6;margin-top:4px}
+#cta .pie{margin-top:18px;text-align:center;font:15px Orbitron;letter-spacing:4px;color:#9f8cba}
+
+/* ── cinta que explica el canal + insignia de música ── */
+#cinta{position:absolute;right:40px;top:120px;display:flex;align-items:center;gap:0;height:38px;transition:opacity .6s}
+#cinta .s{background:var(--rosa);color:#fff;font:15px Orbitron;letter-spacing:3px;padding:0 14px;height:100%;display:flex;align-items:center}
+#cinta .m{background:var(--vidrio);border:1px solid var(--borde);border-left:0;height:100%;box-sizing:border-box;display:flex;align-items:center;padding:0 16px;font:20px Rajdhani;color:#eadcff;min-width:420px;max-width:620px;white-space:nowrap;overflow:hidden}
+#cinta .m span{transition:opacity .5s}
+#mus{position:absolute;left:60px;top:712px;max-width:860px;display:flex;align-items:center;gap:10px;font:17px Rajdhani;color:#d4c4ea;background:rgba(9,4,20,.72);padding:5px 14px;border-left:3px solid var(--c);transition:opacity .8s}
+#mus b{font:14px Orbitron;letter-spacing:3px;color:var(--c)}
+#mus .eq{display:inline-flex;gap:2px;align-items:flex-end;height:14px}
+#mus .eq i{width:3px;background:var(--c);animation:eq .9s ease-in-out infinite}
+#mus .eq i:nth-child(2){animation-delay:.2s}#mus .eq i:nth-child(3){animation-delay:.45s}
+@keyframes eq{0%,100%{height:3px}50%{height:14px}}
+</style></head>
+<body>
+<div id="cinta" class="oc"><div class="s">EN VIVO 24/7</div><div class="m"><span id="cintaTxt"></span></div></div>
+
+<div id="vis" class="oc"><div class="rot" id="visRot">ARCHIVO VISUAL</div>
+  <div class="marco"><img id="visImg" alt=""><div id="diag" class="oc"></div><div class="scan"></div></div>
+  <div class="hud"><i></i><i></i><i></i><i></i></div><div class="cred" id="visCred"></div></div>
+
+<div id="zoc" class="panel oc"><div class="tag"><span id="zTag">EN VIVO</span><b id="zHora">--:--</b></div>
+  <div class="cuerpo"><div class="prog" id="zProg">BLACKROSE TV</div><div class="tema" id="zTema"></div><div class="sub" id="zSub"></div><div class="barra"></div></div>
+  <div class="vivo"><div class="pt"><i></i>AL AIRE</div><div class="hab" id="zHab"></div></div></div>
+
+<div id="cta" class="oc"><div class="k">CORPORACIÓN BLACKROSE · COMUNICADO OFICIAL</div><h2 id="ctaT">ÚNETE A LA CORPORACIÓN BLACKROSE</h2>
+  <p>Una tele 24/7 conducida por dos nekos cibernéticas. Suscribirte es gratis y nos mantiene al aire.</p>
+  <div class="redes">
+    <div class="red"><svg viewBox="0 0 48 48"><rect x="3" y="10" width="42" height="28" rx="8" fill="#ff1a3d"/><path d="M20 17v14l12-7z" fill="#fff"/></svg><b>YOUTUBE</b><span id="rYt"></span></div>
+    <div class="red"><svg viewBox="0 0 48 48"><path d="M9 5 5 13v28h10v6h6l6-6h8l9-9V5z" fill="#9146ff"/><path d="M13 9h27v21l-6 6h-9l-6 6v-6h-6z" fill="#fff"/><path d="M22 15h4v10h-4zm9 0h4v10h-4z" fill="#9146ff"/></svg><b>TWITCH</b><span id="rTw"></span></div>
+    <div class="red"><svg viewBox="0 0 48 48"><path d="M38 11a33 33 0 0 0-8-2l-1 2a30 30 0 0 0-10 0l-1-2a33 33 0 0 0-8 2C5 19 4 27 4 35a33 33 0 0 0 10 5l2-3-3-2 1-1c6 3 14 3 20 0l1 1-3 2 2 3a33 33 0 0 0 10-5c1-9-1-17-6-24z" fill="#5865f2"/><circle cx="18" cy="27" r="3.5" fill="#fff"/><circle cx="30" cy="27" r="3.5" fill="#fff"/></svg><b>DISCORD</b><span id="rDc"></span></div>
+  </div><div class="pie">¿QUIERES SABER MÁS? · ESCRÍBENOS EN EL CHAT: TE LEEMOS AL AIRE</div></div>
+
+<div id="mus" class="oc"><span class="eq"><i></i><i></i><i></i></span><b>RADIO 2049</b><span id="musTxt"></span></div>
+<audio id="cama" preload="auto"></audio>
+<script>
+const $ = id => document.getElementById(id), q = new URLSearchParams(location.search);
+const esc = s => String(s ?? '').replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+let ult = -1, est = {}, lista = [], li = 0, volObj = 0, imgAct = '', diagAct = '';
+const SIN = (q.get('sin') || '').split(',');
+const CINTA = ['BlackRose TV · la tele 24/7 de Corporación Blackrose', 'Todo lo conducen dos nekos cibernéticas en vivo: Joy y Kuroki', 'Escribe en el chat: te leemos al aire',
+  '▶ Suscríbete en YouTube · síguenos en Twitch', 'Discord: discord.gg/TvHdfNEs2', 'Sátira, tecnología, música sin copyright y noticias reales', '¿Quieres saber más? Quédate'];
+let ci = 0;
+function cinta() { const s = $('cintaTxt'); s.style.opacity = 0; setTimeout(() => { s.textContent = CINTA[ci++ % CINTA.length]; s.style.opacity = 1; }, 450); }
+setInterval(cinta, 9000); cinta(); $('cinta').classList.remove('oc');
+function reloj() { const d = new Date(); $('zHora').textContent = d.toTimeString().slice(0, 5); }
+setInterval(reloj, 5000); reloj();
+
+function ver(el, si) { el.classList.toggle('oc', !si); }
+function aplicar(e) {
+  est = e;
+  const z = e.zocalo;
+  if (z) {
+    document.documentElement.style.setProperty('--c', z.color || '#00e5ff');
+    $('zTag').textContent = (z.tag || 'EN VIVO').slice(0, 14); $('zProg').textContent = z.programa || 'BLACKROSE TV';
+    $('zTema').textContent = z.tema || ''; $('zSub').textContent = z.sub || '';
+  }
+  ver($('zoc'), !!z && !(e.cta && e.cta.hasta > e.ahora) && !SIN.includes('zoc'));
+  $('zHab').innerHTML = e.quien ? `<small>HABLA</small>${esc(e.quien).toUpperCase()}` : '';
+  // visual: diagrama > foto
+  const d = e.diagrama, v = e.visual;
+  const dk = d ? JSON.stringify(d) : '';
+  if (dk !== diagAct) {
+    diagAct = dk;
+    const el = $('diag');
+    if (d) {
+      el.className = d.tipo || 'flujo';
+      const cajas = d.cajas || [];
+      el.innerHTML = `<h3>${esc(d.titulo)}</h3><div class="fila">` + cajas.map((c, i) =>
+        (i && d.tipo !== 'comparar' ? `<div class="fl" style="animation-delay:${i * .9 - .3}s">➜</div>` : '') +
+        `<div class="caja" style="animation-delay:${i * .9}s"><em>${d.tipo === 'linea' ? 'ETAPA ' : 'PASO '}${i + 1}</em><b>${esc(c.t)}</b><span>${esc(c.n)}</span></div>`).join('') + '</div>';
+    }
+    ver(el, !!d);
+  }
+  if (v && v.img !== imgAct) { imgAct = v.img; const im = $('visImg'); im.style.animation = 'none'; im.src = v.img; void im.offsetWidth; im.style.animation = ''; }
+  if (!v) imgAct = '';
+  $('visImg').style.display = v ? '' : 'none';
+  $('visRot').textContent = d ? 'DIAGRAMA · ASÍ FUNCIONA' : 'ARCHIVO VISUAL';
+  $('visCred').textContent = d ? 'Elaboración BlackRose TV' : (v && v.credito) || '';
+  ver($('vis'), !!(d || v) && !(e.cta && e.cta.hasta > e.ahora) && !SIN.includes('vis'));
+  // invitación
+  const c = e.cta;
+  if (c && c.hasta > e.ahora) {
+    $('ctaT').textContent = c.texto || 'ÚNETE A LA CORPORACIÓN BLACKROSE';
+    const r = c.redes || {}; $('rYt').textContent = r.youtube || ''; $('rTw').textContent = r.twitch || ''; $('rDc').textContent = r.discord || '';
+    ver($('cta'), true);
+  } else ver($('cta'), false);
+  volObj = q.get('cama') === '0' ? 0 : Math.max(0, Math.min(1, +(e.cama ?? 0)));
+}
+// cama musical: lista al azar de la radio, fundidos suaves
+const au = $('cama');
+async function siguiente() {
+  if (!lista.length || li >= lista.length) { try { lista = await (await fetch('/api/cama', { cache: 'no-store' })).json(); li = 0; } catch (_) { lista = []; } }
+  const t = lista[li++]; if (!t) return;
+  au.src = t.src; au.volume = 0; au.play().catch(() => {});
+  $('musTxt').textContent = `«${t.titulo}» · ${t.atribucion.split('·').slice(1, 2).join('').trim()} · sin copyright`;
+}
+au.addEventListener('ended', siguiente); au.addEventListener('error', () => setTimeout(siguiente, 3000));
+setInterval(() => {   // fundido hacia el volumen pedido
+  const v = au.volume, o = volObj * 0.55;
+  if (o > 0 && (au.paused || !au.src)) { if (!au.src) siguiente(); else au.play().catch(() => {}); }
+  au.volume = Math.max(0, Math.min(1, v + Math.sign(o - v) * Math.min(Math.abs(o - v), 0.02)));
+  if (au.volume < 0.005 && o === 0 && !au.paused) au.pause();
+  ver($('mus'), o > 0 && !au.paused);
+}, 100);
+
+async function leer() {
+  try { const e = await (await fetch('/api/capa', { cache: 'no-store' })).json(); if (e.id !== ult || (e.cta && e.cta.hasta)) { ult = e.id; aplicar(e); } } catch (_) {}
+}
+if (q.get('demo')) {
+  const t = Date.now() / 1000;
+  aplicar({ ahora: t, zocalo: { programa: 'PARLAMENTO SINTÉTICO', tema: 'Impuesto a los robots', sub: 'parlamento · sátira política', color: '#ffcc33', tag: 'POLÍTICA' }, quien: 'Kuroki',
+    visual: { img: q.get('img') || '', credito: 'Foto: Xataka' }, cama: 0,
+    diagrama: q.get('demo') === 'diag' ? { tipo: 'flujo', titulo: 'Cómo funcionaría un impuesto a los robots', cajas: [{ t: 'Empresa automatiza', n: 'reemplaza tareas repetitivas' }, { t: 'Se mide el ahorro', n: 'el Estado calcula cuánto ganó' }, { t: 'Paga un tributo', n: 'parte va a reconversión laboral' }, { t: '2049', n: 'los robots piden vacaciones' }] } : null,
+    cta: q.get('demo') === 'cta' ? { hasta: t + 99, redes: { youtube: 'youtube.com/@barbieblackrose', twitch: 'twitch.tv/barbieblackrose', discord: 'discord.gg/TvHdfNEs2' } } : null });
+} else { leer(); setInterval(leer, 700); }
+</script></body></html>

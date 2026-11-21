@@ -1,0 +1,21 @@
+{
+ "semilla": "Cómo IA comprime voz sin alma",
+ "hechos": [
+  "La compresión de audio reduce el tamaño de los archivos de voz mediante algoritmos que eliminan datos redundantes o menos perceptibles.",
+  "Los códecs de voz como el LPC se basan en modelado de la señal vocal humana para transmitir solo parámetros esenciales.",
+  "El estándar GSM usó compresión de voz en redes móviles desde sus inicios para optimizar el ancho de banda.",
+  "La compresión con pérdida descarta información que el oído humano tiende a no percibir fácilmente.",
+  "Los algoritmos de compresión modernos emplean transformadas como la MDCT para representar la señal en frecuencias.",
+  "La inteligencia artificial ha mejorado la compresión de voz mediante modelos de aprendizaje profundo que predicen patrones.",
+  "Los sistemas de síntesis de voz basados en IA generan audio a partir de texto usando vocoders paramétricos.",
+  "La compresión de voz se utiliza ampliamente en telefonía, streaming, asistentes virtuales y videollamadas.",
+  "Los códecs como Opus combinan técnicas de compresión para voz y música en tiempo real.",
+  "La reducción de bitrate permite transmitir voz con menor consumo de datos sin perder inteligibilidad básica."
+ ],
+ "leyendas": [
+  "Leyenda o error común: que la compresión de voz con IA siempre elimina completamente el tono emocional o alma de la voz original.",
+  "Leyenda o error común: que los primeros sistemas de compresión digital de voz fueron creados directamente por inteligencia artificial."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 04:23"
+}

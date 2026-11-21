@@ -1,0 +1,13 @@
+[Unit]
+Description=BlackRose TV noche — DIRECTOR DE TV (ejecuta la cartelera 22:30–06:00, cero IA en vivo)
+
+[Service]
+WorkingDirectory=/home/alice/joy_vmc
+ExecStart=/home/alice/joy_vmc/.venv/bin/python -m director.tv.director_tv demonio
+Restart=always
+RestartSec=5
+StandardOutput=append:/home/alice/joy_vmc/logs/tv_noche.log
+StandardError=append:/home/alice/joy_vmc/logs/tv_noche.log
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Noche</title>
+<!-- PANTALLA del canal nocturno de BlackRose TV (1920×1080). El director de TV (director/tv/director_tv.py) la maneja con
+       POST :8822/api/tv  {"modo": "idle|charla|video|musica|corte|cierre", ...}    (esta página lo lee cada 1 s)
+     Fuente de OBS opaca (es el fondo de la escena «TV NOCHE»): las dolls van encima, a los costados; el logo/marquesina y la cartelera, arriba.
+     Campos: charla {tema, sub, tag, quien, color} · video {archivo, titulo, atribucion, color, desde} · musica {archivo, titulo, atribucion, color}
+             corte {texto, sub, color} · cierre {texto, sub}
+     Los medios salen de /tv/media/ (v/ videos, m/ música).  ?demo=video|musica|charla|corte|cierre para mirarla suelta (?arch=v/xxx.mp4)
+     Todo video/música lleva su crédito de licencia en pantalla (CC BY exige atribución). -->
+<style>
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Monoton;src:url(/img/fuentes/monoton.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--c:#00e5ff;--c2:#ff2fd6}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#05030c;color:#fff;font-family:Rajdhani,sans-serif}
+#fondo{position:absolute;inset:0;background:
+  radial-gradient(ellipse at 50% 38%,color-mix(in srgb,var(--c) 22%,transparent),transparent 62%),
+  linear-gradient(180deg,#0a0418 0%,#05030c 60%,#12051f 100%)}
+#rejilla{position:absolute;left:-10%;right:-10%;bottom:0;height:46%;background:
+  repeating-linear-gradient(90deg,color-mix(in srgb,var(--c2) 42%,transparent) 0 2px,transparent 2px 120px),
+  repeating-linear-gradient(0deg,color-mix(in srgb,var(--c2) 42%,transparent) 0 2px,transparent 2px 60px);
+  transform:perspective(520px) rotateX(62deg);transform-origin:50% 100%;opacity:.35;animation:rej 2.4s linear infinite}
+@keyframes rej{to{background-position:0 60px,120px 0}}
+#pantalla{position:absolute;left:480px;top:250px;width:960px;height:540px;background:#000;border:4px solid var(--c);
+  box-shadow:0 0 26px color-mix(in srgb,var(--c) 70%,transparent),0 0 70px color-mix(in srgb,var(--c2) 35%,transparent);overflow:hidden}
+#pantalla::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 2px,transparent 2px 4px)}
+#tag{position:absolute;left:480px;top:216px;font:15px Orbitron;letter-spacing:4px;color:#05030c;background:var(--c);padding:4px 12px;transform:translateY(0)}
+#rec{position:absolute;left:1180px;top:218px;width:260px;text-align:right;font:15px Orbitron;letter-spacing:3px;color:var(--c)}
+#rec i{display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff2d4a;margin-right:8px;animation:late 1s steps(2) infinite}
+@keyframes late{50%{opacity:.2}}
+video,#viz,#cortes,#charla{position:absolute;inset:0;width:100%;height:100%}
+video{object-fit:contain;background:#000}
+.hid{display:none!important}
+/* crédito (tercio inferior) */
+#cred{position:absolute;left:480px;top:806px;width:960px;display:flex;align-items:stretch;transition:opacity .5s}
+#cred .t{flex:1;background:rgba(8,2,16,.92);border-left:8px solid var(--c);padding:6px 16px 6px}
+#cred .t b{display:block;font:26px Audiowide;letter-spacing:1px;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#cred .t span{display:block;font:19px Rajdhani;color:#cdb8df;letter-spacing:.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#cred .k{background:var(--c);color:#05030c;font:14px Orbitron;letter-spacing:3px;padding:0 14px;display:flex;align-items:center}
+/* charla */
+#charla{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+  background:radial-gradient(ellipse at 50% 40%,color-mix(in srgb,var(--c) 30%,#0a0418),#05030c 75%)}
+#charla .a{font:20px Orbitron;letter-spacing:10px;color:var(--c2);text-shadow:0 0 12px var(--c2)}
+#charla .b{font:64px/1.05 Audiowide;margin:18px 40px 12px;color:#fff;text-shadow:0 0 10px var(--c),0 0 36px var(--c)}
+#charla .c{font:30px Rajdhani;color:#e9d9f7;letter-spacing:2px;margin:0 60px}
+#charla .q{position:absolute;bottom:18px;left:0;right:0;font:20px Orbitron;letter-spacing:5px;color:var(--c)}
+#charla .q i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--c);margin-right:10px;animation:late .8s steps(2) infinite}
+/* corte MTV */
+#cortes{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:var(--c2);animation:flash .7s steps(3) both}
+#cortes .a{font:24px Orbitron;letter-spacing:12px;color:#05030c;background:#fff;padding:5px 18px;transform:rotate(-3deg)}
+#cortes .b{font:62px/1.04 Monoton,Audiowide;margin:22px 40px;color:#05030c;text-transform:uppercase;transform:rotate(-2deg);animation:tiembla .35s steps(2) infinite}
+#cortes .c{font:30px Audiowide;color:#fff;letter-spacing:4px;text-shadow:4px 4px 0 #05030c}
+@keyframes flash{0%{filter:invert(1)}60%{filter:invert(0)}}
+@keyframes tiembla{50%{transform:rotate(-2deg) translate(3px,-2px)}}
+body[data-modo=corte]{--c:#ffe45e}
+/* 20-nov: video y música a pantalla grande (sin rostros), carátula de la RADIO 2049 */
+body[data-modo=video] #pantalla,body[data-modo=musica] #pantalla{left:200px;top:150px;width:1520px;height:855px}
+body[data-modo=video] #tag,body[data-modo=musica] #tag{left:200px;top:116px}
+body[data-modo=video] #rec,body[data-modo=musica] #rec{left:1460px;top:118px}
+body[data-modo=video] #cred,body[data-modo=musica] #cred{left:200px;top:960px;width:1520px}
+#portada{position:absolute;inset:0}
+#portada .bg{position:absolute;inset:-40px;background-size:cover;background-position:center;filter:blur(28px) brightness(.45) saturate(1.4)}
+#portada .cov{position:absolute;left:70px;top:110px;width:760px;height:428px;background-size:cover;background-position:center;border:3px solid var(--c);box-shadow:0 0 40px color-mix(in srgb,var(--c) 60%,transparent);animation:kb 30s ease-in-out infinite alternate}
+@keyframes kb{to{transform:scale(1.04)}}
+#portada .txt{position:absolute;left:880px;right:60px;top:150px}
+#portada .g{font:20px Orbitron;letter-spacing:8px;color:var(--c)}
+#portada .t{font:46px/1.1 Audiowide;margin-top:16px;text-shadow:0 0 18px var(--c2);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+#portada .a{font:24px Rajdhani;color:#d8c8ee;margin-top:18px}
+#portada .r{font:16px Orbitron;letter-spacing:5px;color:#fff;margin-top:34px;opacity:.75}
+body[data-modo=musica] #viz{top:auto;bottom:0;height:200px;opacity:.85}
+/* ── CORTINA DE INTRO (20-nov): Corporación Blackrose · 2049 · qué es el canal. modo "intro" {paso, k, t, s, img, lista} ── */
+#intro{position:absolute;inset:0;background:#030108;overflow:hidden;z-index:5}
+#intro canvas{position:absolute;inset:0;width:100%;height:100%}
+#intro .foto{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.32;filter:saturate(1.3) contrast(1.1);animation:zoom 14s linear both}
+@keyframes zoom{from{transform:scale(1.02)}to{transform:scale(1.14)}}
+#intro .vel{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 55%,transparent 20%,#030108 78%),linear-gradient(180deg,rgba(3,1,8,.2),rgba(3,1,8,.85))}
+#intro .bloque{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;padding:0 160px}
+#intro .k{font:22px Orbitron;letter-spacing:14px;color:#ff2fd6;text-shadow:0 0 14px #ff2fd6;opacity:0;animation:sube .9s .2s forwards}
+#intro .t{font:96px/1.02 Audiowide;margin:26px 0 22px;color:#fff;text-shadow:0 0 26px #00e5ff,0 0 70px rgba(0,229,255,.5);opacity:0;animation:sube 1.1s .5s forwards;letter-spacing:2px}
+#intro .s{font:34px/1.25 Rajdhani;color:#e8dcff;max-width:1300px;margin:0 auto;opacity:0;animation:sube 1s 1s forwards}
+#intro .lista{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:34px}
+#intro .lista span{font:24px Orbitron;letter-spacing:3px;border:2px solid #00e5ff;padding:10px 20px;color:#fff;background:rgba(0,229,255,.08);opacity:0;animation:sube .6s forwards}
+#intro .linea{position:absolute;left:10%;right:10%;bottom:120px;height:2px;background:linear-gradient(90deg,transparent,#ff2fd6,#00e5ff,transparent)}
+#intro .pie{position:absolute;left:0;right:0;bottom:70px;text-align:center;font:18px Orbitron;letter-spacing:10px;color:#9c89c2}
+#intro .ret{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 2px,transparent 2px 4px);pointer-events:none}
+@keyframes sube{from{opacity:0;transform:translateY(24px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+</style></head>
+<body data-modo="idle">
+<div id="fondo"></div><div id="rejilla"></div>
+<div id="tag">BLACKROSE TV</div><div id="rec"><i></i>NOCHE</div>
+<div id="pantalla">
+  <video id="v" playsinline></video>
+  <div id="portada" class="hid"><div class="bg" id="pBg"></div><div class="cov" id="pCov"></div>
+    <div class="txt"><div class="g" id="pG">RADIO BLACKROSE 2049</div><div class="t" id="pT"></div><div class="a" id="pA"></div><div class="r">CORPORACIÓN BLACKROSE · MÚSICA SIN COPYRIGHT</div></div></div>
+  <canvas id="viz" width="480" height="270" class="hid"></canvas>
+  <div id="charla" class="hid"></div>
+  <div id="cortes" class="hid"></div>
+</div>
+<div id="intro" class="hid"><canvas id="lluvia" width="960" height="540"></canvas><div class="foto" id="iFoto"></div><div class="vel"></div>
+  <div class="bloque" id="iB"></div><div class="linea"></div><div class="pie">CORPORACIÓN BLACKROSE · TRANSMITIENDO DESDE EL AÑO 2049</div><div class="ret"></div></div>
+<div id="cred" class="hid" style="opacity:0"><span class="k" id="ck">VIDEO</span><div class="t"><b id="ct"></b><span id="ca"></span></div></div>
+<audio id="a" preload="auto"></audio>
+<script>
+const q = new URLSearchParams(location.search), $ = id => document.getElementById(id);
+const v = $('v'), au = $('a'), viz = $('viz'), vx = viz.getContext('2d'), esc = s => String(s ?? '').replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+let ultimo = -1, modo = 'idle', ctx = null, an = null, buf = null, tCred = 0;
+
+function colores(e) { const r = document.documentElement.style; r.setProperty('--c', e.color || '#00e5ff'); r.setProperty('--c2', e.color2 || '#ff2fd6'); }
+function credito(titulo, atrib, clase) {
+  $('ck').textContent = clase; $('ct').textContent = titulo || ''; $('ca').textContent = atrib || '';
+  const c = $('cred'); c.classList.remove('hid'); c.style.opacity = 1; clearTimeout(tCred);
+}
+function ocultaCred() { const c = $('cred'); c.style.opacity = 0; }
+
+function aplicar(e) {
+  modo = e.modo || 'idle'; document.body.dataset.modo = modo; colores(e);
+  for (const id of ['viz', 'charla', 'cortes', 'portada', 'intro']) $(id).classList.add('hid');
+  v.classList.add('hid'); v.pause(); au.pause();
+  ocultaCred();
+  if (modo === 'video') {
+    v.classList.remove('hid'); v.src = '/tv/media/' + e.archivo; v.volume = e.volumen ?? 1;
+    v.onloadedmetadata = () => { if (e.desde) v.currentTime = e.desde; };
+    v.play().catch(() => {}); credito(e.titulo, e.atribucion, 'VIDEO');
+    $('tag').textContent = e.tag || 'BLACKROSE TV · CINE';
+  } else if (modo === 'musica') {
+    if (e.img) { $('portada').classList.remove('hid'); $('pBg').style.backgroundImage = $('pCov').style.backgroundImage = `url("${e.img}")`;
+      $('pG').textContent = (e.genero ? e.genero + ' · ' : '') + 'RADIO BLACKROSE 2049'; $('pT').textContent = e.titulo || ''; $('pA').textContent = e.atribucion || ''; }
+    viz.classList.remove('hid'); au.src = '/tv/media/' + e.archivo; au.volume = e.volumen ?? 1; au.play().catch(() => {});
+    engancha(); credito(e.titulo, e.atribucion, 'MÚSICA'); $('tag').textContent = e.tag || 'BLACKROSE MUSIC';
+  } else if (modo === 'charla') {
+    const c = $('charla'); c.classList.remove('hid');
+    c.innerHTML = `<div class="a">${esc(e.tag || 'EN CONVERSACIÓN')}</div><div class="b">${esc(e.tema)}</div><div class="c">${esc(e.sub)}</div>` +
+      (e.quien ? `<div class="q"><i></i>${esc(e.quien).toUpperCase()}</div>` : '');
+    $('tag').textContent = e.etiqueta || 'BLACKROSE TV';
+  } else if (modo === 'intro') {
+    $('intro').classList.remove('hid');
+    const f = $('iFoto'); f.style.animation = 'none'; f.style.backgroundImage = e.img ? `url("${e.img}")` : 'none'; void f.offsetWidth; f.style.animation = '';
+    $('iB').innerHTML = `<div class="k">${esc(e.k)}</div><div class="t">${esc(e.tt)}</div><div class="s">${esc(e.s)}</div>` +
+      (e.lista ? `<div class="lista">${e.lista.map((x, i) => `<span style="animation-delay:${1.3 + i * .25}s">${esc(x)}</span>`).join('')}</div>` : '');
+    $('tag').textContent = 'BLACKROSE TV';
+  } else if (modo === 'corte') {
+    const c = $('cortes'); c.classList.remove('hid'); c.style.animation = 'none'; void c.offsetWidth; c.style.animation = '';
+    c.innerHTML = `<div class="a">${esc(e.etiqueta || 'CORTE RANDOM')}</div><div class="b">${esc(e.texto)}</div><div class="c">${esc(e.sub)}</div>`; $('tag').textContent = 'BLACKROSE TV';
+  } else if (modo === 'cierre') {
+    const c = $('charla'); c.classList.remove('hid');
+    c.innerHTML = `<div class="a">${esc(e.etiqueta || 'BLACKROSE TV')}</div><div class="b">${esc(e.texto)}</div><div class="c">${esc(e.sub)}</div>`; $('tag').textContent = 'BLACKROSE TV';
+  } else { const c = $('charla'); c.classList.remove('hid'); c.innerHTML = `<div class="a">SEÑAL PIRATA</div><div class="b">BLACKROSE TV</div><div class="c">Desde la Mansión Blackrose</div>`; }
+}
+
+/* visualizador de la música (barras + onda; lienzo pequeño, sin sombras: OBS lo dibuja en CPU) */
+function engancha() {
+  if (!ctx) { try { ctx = new (window.AudioContext || window.webkitAudioContext)(); const s = ctx.createMediaElementSource(au); an = ctx.createAnalyser(); an.fftSize = 128; s.connect(an); an.connect(ctx.destination); buf = new Uint8Array(an.frequencyBinCount); } catch (_) { ctx = null; } }
+  if (ctx && ctx.state === 'suspended') ctx.resume().catch(() => {});
+}
+let tt = 0;
+function dibuja() {
+  requestAnimationFrame(dibuja);
+  if (modo !== 'musica') return;
+  const t = performance.now(); if (t - tt < 42) return; tt = t;
+  const W = 480, H = 270, c = getComputedStyle(document.documentElement).getPropertyValue('--c').trim() || '#00e5ff', c2 = getComputedStyle(document.documentElement).getPropertyValue('--c2').trim() || '#ff2fd6';
+  vx.fillStyle = 'rgba(5,3,12,.35)'; vx.fillRect(0, 0, W, H);
+  if (an) an.getByteFrequencyData(buf); const n = buf ? buf.length : 32, bw = W / n;
+  for (let i = 0; i < n; i++) {
+    const a = buf ? buf[i] / 255 : (Math.sin(t / 300 + i) + 1) / 4, h = Math.max(3, a * H * 0.8);
+    vx.fillStyle = i % 2 ? c : c2; vx.fillRect(i * bw + 1, H - h, bw - 2, h);
+    vx.fillStyle = 'rgba(255,255,255,.8)'; vx.fillRect(i * bw + 1, H - h - 3, bw - 2, 2);
+  }
+  vx.fillStyle = '#fff'; vx.font = '18px Orbitron'; vx.fillText('♪', 14, 28);
+}
+dibuja();
+/* lluvia de neón de la intro (lienzo chico, sin sombras) */
+const ll = $('lluvia').getContext('2d'), gotas = Array.from({ length: 140 }, () => ({ x: Math.random() * 960, y: Math.random() * 540, v: 4 + Math.random() * 7, l: 8 + Math.random() * 18 }));
+let tl = 0;
+(function llueve(t) {
+  requestAnimationFrame(llueve);
+  if (modo !== 'intro' || t - tl < 40) return; tl = t;
+  ll.fillStyle = 'rgba(3,1,8,.35)'; ll.fillRect(0, 0, 960, 540);
+  for (const g of gotas) { ll.strokeStyle = g.v > 8 ? 'rgba(255,47,214,.55)' : 'rgba(0,229,255,.45)'; ll.beginPath(); ll.moveTo(g.x, g.y); ll.lineTo(g.x - 2, g.y + g.l); ll.stroke(); g.y += g.v; g.x -= .6; if (g.y > 540) { g.y = -20; g.x = Math.random() * 980; } }
+})(0);
+
+async function leer() {
+  try {
+    const e = await (await fetch('/api/tv', { cache: 'no-store' })).json();
+    if (e.id !== ultimo) { ultimo = e.id; aplicar(e); }
+  } catch (_) {}
+}
+const demo = q.get('demo');
+if (demo) {
+  const base = { id: 1, color: q.get('color') || '#00e5ff' };
+  const E = {
+    video: { ...base, modo: 'video', archivo: q.get('arch') || 'v/v_elephants_dream.mp4', titulo: 'Elephants Dream', atribucion: '© Blender Foundation · www.blender.org · CC BY 2.5' },
+    musica: { ...base, modo: 'musica', archivo: q.get('arch') || 'm/m_cyborg_ninja.mp3', titulo: 'Cyborg Ninja', atribucion: 'Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · CC BY 4.0', color: '#ff2fd6' },
+    charla: { ...base, modo: 'charla', tag: 'ARCHIVO CONSPIRA', tema: 'La señal Wow! de 1977', sub: 'Lo documentado vs. la leyenda', quien: 'Joy', color: '#ffe45e' },
+    corte: { ...base, modo: 'corte', texto: 'Control Z: la única máquina del tiempo que funciona', sub: 'BLACKROSE TV', color: '#ffe45e' },
+    cierre: { ...base, modo: 'cierre', texto: 'Seguimos después de la pausa', sub: 'Vuelve en 5 minutos', etiqueta: 'BLACKROSE TV' }
+  };
+  aplicar(E[demo] || { ...base, modo: 'idle' });
+} else { leer(); setInterval(leer, 1000); }
+</script></body></html>

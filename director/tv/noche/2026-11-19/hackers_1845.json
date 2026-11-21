@@ -1,0 +1,835 @@
+{
+ "bloque": "hackers_1845",
+ "programa": "hackers",
+ "fecha": "2026-11-19",
+ "creado": "15:12:31",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El Gusano Morris: El Primer Gran Desastre de Red",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Robert Morris Jr. y su viaje desde Cornell hasta la NASA",
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez creiste que el gusano Morris fue creado para molestar? La leyenda dice que lo hizo solo para probar su código, pero no hay ninguna prueba real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, Robert Morris Jr. era un estudiante de Cornell que quería demostrar la vulnerabilidad de las redes antes de irse a la NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La cifra exacta de computadoras afectadas varía según las fuentes, pero se estima que más de 6.000 sistemas en Estados Unidos sufrieron fallos importantes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Pero no fue solo para probar! La leyenda popular dice que lo hizo con malicia, como si fuera un virus de pago o algo así."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso no tiene fundamento. El gusano era una demostración técnica, aunque quizás le faltó un poco de moderación en el tiempo de propagación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda del gusano Morris como un virus malintencionado no tiene sustento en los registros históricos, pero la curiosidad de su creador es real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los archivos de Cornell muestran que Robert Morris Jr. lo desarrolló como una demostración técnica, sin intención destructiva comprobada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aún así, el impacto fue masivo: más de 6.000 sistemas en Estados Unidos fallaron, lo que obligó a actualizar protocolos de seguridad global."
+    },
+    {
+     "quien": "joy",
+     "texto": "La lección principal no fue la malicia, sino la necesidad crítica de mantener los sistemas de red actualizados y con controles de acceso estrictos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que fue una demostración porque Morris siempre usaba sus proyectos para mostrar lo que podía hacer con el código."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero los archivos de Cornell no mencionan intención de dañar, solo dicen que fue un ejercicio técnico sin plan de propagación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los archivos de Cornell dicen que fue un ejercicio técnico sin plan, así que la lección principal es la necesidad crítica de mantener los sistemas de red actualizados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que algunos creen que el virus fue diseñado intencionalmente para dañar, pero eso sigue siendo leyenda urbana sin evidencia documental clara o concreta."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Tú te creías la versión popular de Robert Morris Jr. y su viaje desde Cornell hasta la NASA? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 162
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo el protocolo FTP permitió la propagación masiva en 1988",
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Blackrose TV. Hoy viajamos al año 1988 para descubrir cómo un protocolo de transferencia de archivos provocó el primer gran caos en la historia de internet."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que fue un accidente, pero el gusano Morris usaba FTP como autopista. Sin querer, creó la primera epidemia digital masiva que todos conocemos hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "El protocolo FTP era simple: copiar y pegar archivos entre servidores. El virus se deslizaba por esa brecha sin que nadie lo notara hasta que todo el sistema colapsó."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Morris trabajó para la NASA antes, pero aquí estamos en el aula de Cornell. La lección fue actualizar sistemas periódicamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se estima que afectó a más de 6.000 computadoras en Estados Unidos. El evento marcó un punto de inflexión en la seguridad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "FTP era copiar y pegar. El gusano se deslizó por esa brecha como un intruso en la casa de los archivos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El gusano no tenía capacidad de auto-replicación sin intervención humana. La respuesta fue el despliegue masivo de software de defensa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy seguimos usando FTP en servidores antiguos, pero la seguridad es otro asunto. ¿Alguien recuerda cómo se hacía antes?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki tiene razón; FTP sigue vivo en legacy systems. La brecha era trivial para un estudiante de Cornell en 1988."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y hoy, con IPv6 y HTTPS, la puerta se cierra... pero el DNS aún es un texto plano que cualquiera puede leer."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La lección no fue solo FTP, sino que la seguridad viene de los humanos, no del protocolo en sí mismo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El DNS sigue siendo texto plano, y un cualquiera puede leerlo. La brecha era trivial para un estudiante de Cornell en 1988."
+    }
+   ],
+   "seg": 132
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los 6.000 sistemas afectados y el colapso inicial del tráfico",
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el gusano Morris fue la primera vez que internet tuvo un accidente real? La historia no es solo técnica, es humana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. En 1988, Robert Morris Jr., estudiante de Cornell, liberó un virus que usaba FTP para infectar sistemas. Fue el primer gran desastre de red."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero hay una leyenda urbana: dijo que lo hizo solo para probar su código. Sin evidencia, pero la gente cree que fue intencional."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es más simple: el gusano Morris afectó a más de 6.000 computadoras en Estados Unidos y marcó un punto de inflexión en la seguridad informática."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esa cifra exacta es lo que siempre cuestionan. Algunos relatos dicen que fue menos, otros más. La lección principal fue actualizar sistemas periódicamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero el momento real del colapso ocurrió cuando el tráfico de internet empezó a ralentizarse masivamente por la propagación del virus a través del protocolo FTP."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate: tú intentas abrir una página y tu navegador se congela. Eso fue lo que pasó con millones de usuarios en 1988, antes de que hubiera firewalls modernos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El colapso inicial se sintió como una pausa global en la navegación, con millones de usuarios atrapados en pantallas congeladas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esa parálisis fue el primer recordatorio de que nuestras redes son tan frágiles si no las protegemos con actualizaciones constantes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy, la defensa contra virus como el Morris se ha vuelto tan automática que casi nadie recuerda cómo funcionaba antes del desastre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si mañana el protocolo FTP se vuelve obsoleto antes de que alguien lo repare? La historia del gusano Morris nos recuerda que la defensa pasiva no basta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, hoy la respuesta es automática, pero en el futuro quizás debamos diseñar redes que se autorenicien ante cualquier vulnerabilidad sin intervención humana."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O tal vez las máquinas aprendan de los errores históricos como si fuera una serie de misterio donde cada fallo sea un capítulo que prepara al sistema para el siguiente ataque."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 159
+  },
+  {
+   "tipo": "charla",
+   "tema": "La lección de defensa: actualizar siempre, nunca esperar a que falle",
+   "sub": "explicado · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Y si el primer gran desastre de red fue un error humano que casi no se corrigió a tiempo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y eso es lo que nos enseña hoy: actualizar antes de que la brecha sea demasiado grande."
+    },
+    {
+     "quien": "joy",
+     "texto": "La historia del gusano Morris muestra que incluso los más brillantes pueden olvidar un parche simple."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El gusano Morris fue un virus de red creado en 1988 por Robert Morris Jr., estudiante de Cornell. Usaba FTP para propagarse y afectó a miles de computadoras."
+    },
+    {
+     "quien": "joy",
+     "texto": "La lección principal es actualizar siempre, antes de que la brecha sea crítica. Incluso los más brillantes pueden olvidar un parche simple si no vigilan sus sistemas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Algunos dicen que fue un error humano casi sin corregir a tiempo, pero la evidencia sugiere que Morris lo hizo para probar su código. No hay prueba de intención maliciosa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Esa duda persiste: ¿fue un accidente o algo más? La historia muestra que la seguridad requiere vigilancia constante y actualizaciones periódicas, no solo parches reactivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que tu teléfono se bloquea porque no tiene la última versión del sistema. Eso es exactamente lo que pasó en 1988 con el gusano Morris."
+    },
+    {
+     "quien": "joy",
+     "texto": "El virus se movía por FTP, como si fuera un mensajero corriendo de una casa a otra, llevando consigo la capacidad de infectar nuevos sistemas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La respuesta no fue construir un escudo nuevo, sino actualizar todos los sistemas existentes. Una lección clara: el mantenimiento preventivo salva vidas digitales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy en día, si tu servidor no recibe actualizaciones automáticas, es como dejar la puerta abierta mientras alguien más intenta entrar con fuerza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hay un dato de La lección de defensa: actualizar siempre, nunca esperar a que falle que siempre sorprende."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo que falla hoy en día: las empresas esperan hasta que el servidor se caiga para actualizar, como si la gravedad fuera opcional."
+    },
+    {
+     "quien": "joy",
+     "texto": "Preciso. El gusano Morris usó FTP porque nadie había pensado en cómo un protocolo de transferencia podría convertirse en una cadena de infecciones silenciosa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si las empresas actualizan solo cuando el cliente reclama? Eso es lo que falla hoy en día."
+    }
+   ],
+   "seg": 168
+  },
+  {
+   "tipo": "video",
+   "id": "v_pre_onguard1956",
+   "archivo": "v/v_pre_onguard1956.mp4",
+   "titulo": "On Guard! The Story of SAGE",
+   "atribucion": "«On Guard! The Story of SAGE» — Prelinger Archives / Internet Archive · dominio público",
+   "dur": 735,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Captain Crunch: El cereal que revolucionó la infancia",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La historia real del cereal y su lanzamiento en 1938",
+   "sub": "explicado · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el cereal no fue inventado en 1938, sino que fue una respuesta a la crisis económica de esa época?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los registros, General Mills lo lanzó oficialmente en 1938. Pero ¿qué necesidad tenía el mercado entonces?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente necesitaba algo rápido, barato y que pudiera comerse mientras trabajaba. El cereal cumplió ese papel."
+    },
+    {
+     "quien": "joy",
+     "texto": "Captain Crunch es un cereal de maíz procesado que se lanzó en Estados Unidos en 1938 por General Mills."
+    },
+    {
+     "quien": "joy",
+     "texto": "Originalmente tenía un sabor a chocolate y se vendía en bolsas de papel con ilustraciones de personajes animados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En los años 50 ganó popularidad gracias a su inclusión en programas de televisión, consolidándose como producto estrella."
+    },
+    {
+     "quien": "joy",
+     "texto": "Captain Crunch nació en 1938 como un cereal de maíz procesado con sabor a chocolate, vendido en bolsas de papel."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "General Mills lo lanzó bajo el nombre original de Corn Flakes, pero pronto se convirtió en una marca icónica."
+    },
+    {
+     "quien": "joy",
+     "texto": "En los años 50, la inclusión en programas de televisión impulsó su popularidad y lo hizo conocido en todo el país."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El empaque original tenía ilustraciones de personajes animados para atraer a niños, facilitando su expansión internacional."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante cómo un cereal de maíz procesado en 1938 se convirtió en una institución cultural global sin que nadie lo planificara."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, la historia real es mucho más sencilla y menos mágica que las leyendas urbanas que circulan sobre su origen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero eso no resta valor a su impacto en los años 50 cuando la televisión hizo de él un fenómeno masivo en todo el país."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La TV lo catapultó, claro. General Mills tenía ya una marca sólida y el cereal se convirtió en un icono de consumo rápido y barato."
+    },
+    {
+     "quien": "joy",
+     "texto": "Su formato de bolsa de papel también fue clave para la distribución masiva que permitía a los niños acceder a él en cualquier tienda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de La historia real del cereal y su lanzamiento en 1938? Escríbelo en el chat."
+    }
+   ],
+   "seg": 158
+  },
+  {
+   "tipo": "charla",
+   "tema": "El marketing de General Mills y el éxito en los años 50",
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez creyeron que un cereal fue inventado por accidente en la cocina de un niño?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es una leyenda urbanita, no hay prueba documental. La historia real empieza mucho antes."
+    },
+    {
+     "quien": "joy",
+     "texto": "General Mills lo lanzó en 1938 como Corn Flakes con sabor a chocolate y bolsas de papel."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que un niño inventó el cereal por accidente mientras jugaba en la cocina, pero no hay prueba documental de eso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué dicen los registros históricos sobre la expansión del producto en mercados internacionales durante los años 50?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los archivos muestran que la producción masiva permitió su distribución nacional y un crecimiento significativo en ventas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Existen registros que indican una expansión internacional, pero las fechas exactas y las cifras de ventas varían según la fuente consultada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los mitos nacen donde falta dato duro. La gente cree que fue un niño inventor, pero los archivos muestran una formulación corporativa y una estrategia de marketing calculada desde el inicio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El cereal no es una casualidad infantil; es un producto diseñado para venderse en masa. La televisión de los 50 fue la herramienta clave que General Mills utilizó para catapultar la marca."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el nombre 'Crunch' no es solo una palabra bonita, es un sonido que promete textura y sabor. La publicidad antigua lo usaba como grito de batalla, no como una frase casual o infantil."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito del niño inventor no tiene base documental. Los archivos muestran una formulación corporativa y un diseño intencional para el mercado masivo de los años cincuenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La gente cree que fue casualidad, pero la realidad es que General Mills diseñó esto con precisión industrial para dominar el segmento infantil y familiar."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Tú te creías la versión popular de El marketing de General Mills y el éxito en los años 50? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 146
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las ilustraciones animadas en el empaque original",
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez has visto el empaque original de Captain Crunch con sus ilustraciones animadas? Esas imágenes fueron clave para vender el cereal."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los registros, el diseño del empaque incluía personajes animados que atraían a niños. Eso no fue casualidad, sino estrategia comercial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero hay una leyenda que dice que un niño inventó el sabor de chocolate. La verdad es que General Mills lo formuló para darle un toque especial."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las ilustraciones del empaque original eran una estrategia de marketing inteligente, no solo decorativas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es cierto, pero la leyenda del niño inventando el sabor de chocolate sigue siendo un misterio sin pruebas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los archivos de General Mills, los personajes animados eran clave para atraer a los niños en la década de 1950."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aunque el cereal revolucionó la infancia, las historias sobre su origen son más legendarias que documentadas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las ilustraciones animadas del empaque original funcionaban como un anuncio visual que capturaba la atención de los niños en la década de 1950."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los dibujos del empaque original no eran solo decoración, fueron una estrategia de marketing diseñada para captar la atención de los niños en la década de 1950."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los archivos de General Mills, esos personajes animados funcionaban como un anuncio visual que capturaba la atención del público infantil de forma efectiva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bromea: si tuvieran voz, probablemente criticarían la falta de azúcar en los cereales hoy. Pero eso es otro tema para el próximo episodio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, el cereal original tenía un sabor a chocolate y se vendía en bolsas de papel. La ilustración animada era clave para vender esa experiencia sensorial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si esas ilustraciones eran un intento fallido de crear un personaje con personalidad propia?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los archivos, el diseño buscaba atraer a niños mediante colores vibrantes y formas dinámicas."
+    }
+   ],
+   "seg": 145
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo Captain Crunch se expandió a mercados internacionales",
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguien recuerda el cereal que revolucionó la infancia? Captain Crunch, ese grano de maíz procesado que llegó a Estados Unidos en 1938."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Bueno! La marca fue fundada por General Mills bajo el nombre de Corn Flakes con una nueva formulación. Pero hay un giro interesante..."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, el producto original contenía sabor a chocolate y se vendía en bolsas de papel. En los años 50 ganó popularidad gracias a la televisión."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! General Mills lo lanzó como Corn Flakes con un toque dulce, pero el nombre 'Captain Crunch' nació más tarde, según los archivos de la empresa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso: las ilustraciones del empaque original incluían personajes animados para atraer a niños, lo que ayudó a la expansión masiva del cereal en todo el país."
+    },
+    {
+     "quien": "joy",
+     "texto": "La producción masiva permitió su distribución global. Existen registros históricos que muestran la expansión del producto en mercados internacionales, pero las fechas exactas de cada etapa siguen siendo un misterio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los registros, la expansión internacional llegó después de que las ilustraciones del empaque captaran la imaginación de niños en todo el mundo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Las ilustraciones animadas no fueron un extra, eran la clave de su éxito global. Los niños las reconocían y pedían el producto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Esa conexión emocional hizo que marcas como General Mills invirtieran en publicidad y distribución internacional desde los años 50."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso: la producción masiva permitió que llegara a tiendas de todo el país. Es un ejemplo claro de cómo el diseño impulsa el mercado."
+    },
+    {
+     "quien": "joy",
+     "texto": "La expansión internacional no fue casual; la producción masiva y las ilustraciones animadas crearon un fenómeno cultural global."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 134
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Filtraciones de contraseñas: el caso real y la defensa",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo se filtran las contraseñas en texto plano",
+   "sub": "explicado · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez has entrado a un café y visto alguien leyendo tu correo sin que tú lo supieras? La leyenda dice que los hackers tienen magia, pero la verdad es más simple."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La realidad es que muchos servidores guardan contraseñas en texto plano, como si fueran notas de papel en una mesa compartida."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y cuando el protocolo HTTP envía datos sin cifrado, cualquier persona en la red puede interceptarlos. Es como hablar a gritos en un estadio vacío."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La leyenda urbana sugiere que alguien pueda leer tu correo sin permiso, pero la realidad es más técnica y menos mágica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es como dejar la puerta de tu casa abierta mientras entras a comprar leche. Cualquier vecino puede ver qué tienes adentro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cuando un servidor guarda contraseñas como texto plano, cualquiera con acceso al disco las lee. Es el error más básico de diseño."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que tu casa tiene la puerta abierta y el vecino mira dentro mientras tú compras leche. Así es como funciona HTTP sin cifrado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los ataques de fuerza bruta proban millones de combinaciones hasta encontrar la correcta. Un ordenador rápido lo hace en segundos si no hay protección."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La solución es usar cifrado TLS para proteger los datos en tránsito y sistemas como Vault para almacenar las credenciales de forma segura."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso nos lleva a un dato curioso verdadero: muchos servidores antiguos guardaban contraseñas en texto plano. Si alguien accede al disco, tiene todo el acceso inmediato sin necesidad de romper ningún algoritmo complejo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Muchos creen que los hackers leen tu correo sin permiso, pero la realidad es que necesitan acceso al servidor o a la aplicación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, eso es una leyenda urbana. La verdad es más técnica: si el servidor almacena texto plano, cualquiera puede leerlo en la red."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no digas que cambiar la contraseña cada día es esencial; la seguridad real depende de la complejidad y del cifrado correcto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tienes razón, Kuroki. La rotación periódica reduce el riesgo, pero si el almacén original fue texto plano, incluso una contraseña fuerte se queda vulnerable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de Cómo se filtran las contraseñas en texto plano? Escríbelo en el chat."
+    }
+   ],
+   "seg": 174
+  },
+  {
+   "tipo": "charla",
+   "tema": "El protocolo HTTP sin cifrado expone datos",
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez has entrado a un café y visto que alguien te escucha en el celular? Eso es lo que hace el HTTP sin cifrado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, los datos viajan en claro como si fuera un mensaje de texto normal. Cualquier persona con una red puede leerlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso incluye a los hackers que usan fuerza bruta o capturan el tráfico para buscar contraseñas simples."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina un café lleno de gente: cada vez que alguien pide algo, todos escuchan la conversación. Eso es HTTP sin cifrado."
+    },
+    {
+     "quien": "joy",
+     "texto": "La solución no es cambiar las contraseñas cada día, sino usar cifrado como TLS para proteger los datos en tránsito."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Un ejemplo cotidiano: cuando entras a una página web bancaria, tus credenciales viajan sin escudos si el sitio no usa HTTPS."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los sistemas de gestión de secretos como HashiCorp Vault permiten almacenar credenciales de forma segura y controlada en servidores dedicados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un dato curioso: en los años 90, muchos sitios web usaban HTTP puro. Un atacante con una captura de pantalla y un poco de paciencia podía leer tus contraseñas como si fueran públicas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La falta de cifrado en el protocolo HTTP exponía datos sensibles a cualquier persona que estuviera en la misma red, lo que hoy se conoce como una vulnerabilidad básica pero devastadora."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso. Muchos desarrolladores pensaban que cambiar la contraseña cada día era suficiente, pero la seguridad real depende más de usar cifrado robusto y gestionar los secretos con herramientas como HashiCorp Vault."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, HTTP sin cifrado es como dejar la puerta abierta en un supermercado lleno de secretos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda urbana dice que los hackers pueden leer tu correo sin permiso, pero en realidad necesitan acceso al servidor o a la aplicación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Muchos creen que cambiar la contraseña cada día es esencial, aunque la seguridad real depende más de la complejidad y el uso de cifrado. La rotación periódica reduce el riesgo, pero no elimina la vulnerabilidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, la próxima vez que veas un formulario de login, recuerda que el cifrado es tu escudo real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si olvidaste cambiar la contraseña, al menos tienes la ventaja de que los hackers no pueden adivinarla fácilmente."
+    }
+   ],
+   "seg": 174
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ataques de fuerza bruta contra sistemas débiles",
+   "sub": "mito realidad · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Y además, si tu móvil no usa almacenamiento seguro para las credenciales, un hacker puede leerlas sin que tú lo sepas en absoluto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que muchos creen que los hackers pueden leer tu correo sin permiso, pero en realidad necesitan acceso directo al servidor o a la aplicación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La leyenda dice que basta con escuchar el ruido de la red, cuando en verdad requieren un punto de entrada concreto y autorizado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y otra errada idea: cambiar la contraseña cada día es esencial para la seguridad, aunque la complejidad y el cifrado son factores mucho más determinantes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Muy bien! La realidad es que la rotación diaria sin mejorar la calidad de la contraseña solo crea un ciclo inútil de esfuerzo y poca protección real."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que muchos creen que el ruido de la red revela contraseñas, pero solo un atacante con acceso al servidor puede leerlas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Muy bien! La realidad es que la rotación diaria sin mejorar la calidad de la contraseña solo crea un ciclo infinito de trabajo para el usuario y poco impacto real en la seguridad del sistema."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso lleva a que la gente piense que escuchar el tráfico es suficiente para romper cualquier sistema, cuando en realidad falta el cifrado adecuado y una buena gestión de claves."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y muchos creen que rotar la contraseña cada día previene todo, cuando la seguridad real depende de la complejidad y el cifrado."
+    },
+    {
+     "quien": "joy",
+     "texto": "La mezcla de mitos y realidad ocurre cuando se confunde el protocolo HTTP sin cifrado con la capacidad de interceptar datos en redes públicas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Tú te creías la versión popular de Ataques de fuerza bruta contra sistemas débiles? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 135
+  },
+  {
+   "tipo": "charla",
+   "tema": "Gestión segura de secretos con HashiCorp Vault",
+   "sub": "linea tiempo · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina una historia donde los secretos se filtran porque nadie guardó el código correcto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. El HTTP envía datos en claro y cualquier espía en la red pública los lee sin esfuerzo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero hay un giro: las contraseñas rotas no son solo un problema de transmisión, sino de almacenamiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que el servidor guarda una lista de nombres y apellidos en papel dentro de la caja del ordenador. Cualquiera puede leerlo si entra."
+    },
+    {
+     "quien": "joy",
+     "texto": "HashiCorp Vault cambia eso: convierte cada secreto en un bloque de código casi imposible de descifrar sin una clave maestra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El giro está en que el servidor mismo guarda texto plano, como si fuera un cuaderno abierto bajo el escritorio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto: los datos viven en claro en disco, vulnerables a quien tenga acceso físico o de lectura directa al almacenamiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "HashiCorp Vault entra como un guardián que cifra cada secreto antes de que toque el disco y lo destruye cuando ya no es necesario."
+    },
+    {
+     "quien": "joy",
+     "texto": "No solo cifra, sino que gestiona el ciclo de vida: crea, rota y elimina claves con precisión quirúrgica, evitando el desastre humano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "HashiCorp Vault no es solo un cifrador, es una plataforma de gestión de secretos que centraliza todo el ciclo de vida de las credenciales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto: crea tokens únicos por sesión, los rota automáticamente y los destruye cuando ya no son necesarios, minimizando la ventana de exposición."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si un servidor cae, Vault puede reactivar las credenciales en segundos sin que el usuario lo sepa, manteniendo la continuidad del servicio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imaginen un mundo donde Vault prediga el futuro con certeza absoluta, pero la realidad es que incluso los mejores sistemas pueden fallar si no se actualizan."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto: el futuro no está escrito en piedra, sino en código que puede romperse mañana. La seguridad real depende de la constante evolución del entorno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso, la lección para el futuro es clara: la gestión de secretos debe ser dinámica, no estática, y siempre alineada con los cambios del mundo digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto: la gestión de secretos debe ser fluida, adaptativa y siempre actualizada. Las herramientas como Vault hacen posible que el futuro sea más seguro."
+    }
+   ],
+   "seg": 171
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1858,
+  "medios": 2
+ }
+}

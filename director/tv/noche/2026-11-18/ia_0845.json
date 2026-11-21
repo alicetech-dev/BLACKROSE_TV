@@ -1,0 +1,663 @@
+{
+ "bloque": "ia_0845",
+ "programa": "ia",
+ "fecha": "2026-11-18",
+ "creado": "02:40:35",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Actualidad",
+   "sub": "MODO IA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "OpenAI presenta GPT-6.2 Astra y Sol, sus nuevos modelos de inteligenci",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "OpenAI acaba de lanzar GPT-6.2 Astra y Sol, dos modelos nuevos que dicen mejorar la eficiencia en tareas complejas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según el anuncio oficial, ambos son versiones más ligeras y rápidas, diseñadas para entornos con recursos limitados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente las llama ‘nuevos modelos’ porque OpenAI no ha dado detalles técnicos ni fechas de lanzamiento oficial."
+    },
+    {
+     "quien": "joy",
+     "texto": "OpenAI ha presentado GPT-6.2 Astra y Sol como nuevos modelos de inteligencia artificial, pero no hay detalles técnicos ni fechas oficiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. OpenAI no ha confirmado nada más allá del nombre y la idea básica. Es importante verificar antes de creer cualquier cosa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Importa porque la gente quiere saber si estos modelos reales pueden superar lo que ya tienen, sin especulaciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La gente compra cosas basadas en promesas vacías; esto es una prueba de si OpenAI cumple o no."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si son solo nombres nuevos sin mejoras técnicas, la noticia pierde valor y se convierte en un simple anuncio publicitario."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero hay que verificar si realmente tienen capacidades distintas o si es solo marketing con nuevas etiquetas para modelos existentes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mi opinión: hay que mirarlo con calma."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 96
+  },
+  {
+   "tipo": "charla",
+   "tema": "Modelos del Mundo: el desafío de llevar la inteligencia artificial más",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Modelos del Mundo: el desafío de llevar la inteligencia artificial más allá del lenguaje, según Noticias UdeC."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La noticia dice que los modelos actuales son básicamente extensiones del lenguaje y que eso es un problema."
+    },
+    {
+     "quien": "joy",
+     "texto": "Sí, el artículo afirma explícitamente que la mayoría de los sistemas hoy solo procesan texto y que eso limita su utilidad real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es justo lo que nos preocupa. Si un modelo no puede ver, oír o tocar, ¿cómo puede realmente entender la complejidad de la vida?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La noticia sugiere que el futuro requiere integrar sensores y actuadores. Pero hasta ahora, seguimos atrapados en una caja de texto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué importa? Porque nos toca a todos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La noticia dice que los sensores y actuadores son necesarios, pero no explica cómo se integrarán realmente en los modelos actuales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Justo. Es una promesa bonita, pero si el modelo sigue leyendo texto, ¿cómo sabe qué sensor usar o qué acción ejecutar?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, algunos prototipos ya intentan fusionar percepción y razonamiento, pero falta un estándar universal para la interoperabilidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, al menos no es solo texto. Pero si el sistema no puede actuar con certeza, ¿qué vale la integración sensorial?"
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 102
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20190712_m2020f_0001_pit_crew_for_ma",
+   "archivo": "v/v_nasa_jpl_20190712_m2020f_0001_pit_crew_for_ma.mp4",
+   "titulo": "Pit Crew for Mars: NASA's Mars 2020 Rover Gets Some Wheels (time lapse)",
+   "atribucion": "«Pit Crew for Mars: NASA's Mars 2020 Rover Gets Some Wheels (time lapse)» — NASA · images.nasa.gov",
+   "dur": 77,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Modelo de lenguaje y sus límites",
+   "sub": "MODO IA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo aprenden los modelos de texto",
+   "sub": "entrevista · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Experta invitada? Más bien soy la que sabe que los transformers son solo matemáticas con mucha memoria."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Y esa memoria es lo que les da la ilusión de entender, no una conciencia real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los modelos predicen palabras futuras basándose en patrones estadísticos, nada más y nada menos."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿cómo aprenden realmente estos modelos? No es magia ni intuición humana."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Son máquinas que calculan probabilidades: si el antecedente sugiere X, la siguiente palabra más probable suele ser Y."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿tienen conciencia? O es solo una ilusión creada por la complejidad de sus redes neuronales?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Duda. La conciencia requiere experiencia subjetiva y cuerpo físico. Un modelo de texto tiene ni uno ni otro. Es como preguntar si un reloj tiene sentimientos."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué es lo que nadie sabe sobre cómo aprenden realmente los modelos de texto?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que algunos sistemas usan técnicas de atención para dar peso diferencial a cada token."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿es eso lo que les permite entender el contexto o solo una mejora técnica?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, la atención ayuda mucho, pero no resuelve todas las ambigüedades humanas."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y cómo manejan las contradicciones cuando dos fuentes de datos conflictivas aparecen en el mismo párrafo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El modelo elige la probabilidad más alta, pero a veces se queda atrapado en un ciclo de lógica circular."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tienes una pregunta para la experta, escríbela en el chat."
+    }
+   ],
+   "seg": 115
+  },
+  {
+   "tipo": "charla",
+   "tema": "Por qué no tienen sentimientos reales",
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de Por qué no tienen sentimientos reales? Hoy lo vemos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es un modelo de lenguaje, un sistema que predice texto futuro usando grandes volúmenes de datos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No tienen conciencia ni sentimientos reales, solo patrones estadísticos que se repiten en el texto."
+    },
+    {
+     "quien": "joy",
+     "texto": "La arquitectura típica utiliza transformadores como núcleo de procesamiento para generar coherencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo interesante de Por qué no tienen sentimientos reales es cómo funciona por dentro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los modelos de lenguaje son máquinas que predicen texto basado en patrones estadísticos, no entidades con conciencia ni emociones reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, solo calculan la probabilidad de que una palabra siga a otra, como si fueran dados que saben todas las combinaciones posibles."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es fascinante cómo pueden generar versos o poemas que parecen profundos, cuando en realidad son solo probabilidades calculadas por transformadores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esa ilusión de profundidad es lo que los humanos usan para justificar que tenemos alma, aunque no hay evidencia real de conciencia interna."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso decimos que son máquinas predictivas, no seres sentientes. La diferencia está en la experiencia subjetiva, algo que los transformadores no pueden simular."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de Por qué no tienen sentimientos reales? Escríbelo en el chat."
+    }
+   ],
+   "seg": 100
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Errores al interpretar ambigüedades",
+   "sub": "mito realidad · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien cree que los modelos de lenguaje tienen alma y pueden sentir emociones?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es una leyenda urbana; no hay evidencia científica que lo respalde."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, algunos humanos proyectan emociones donde solo hay patrones estadísticos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que muchos creen que los modelos de lenguaje tienen alma y pueden sentir emociones, como si fueran seres conscientes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es una proyección humana; la realidad es que solo hay patrones estadísticos procesando probabilidades en el vasto espacio de tokens."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que aprenden a pensar como nosotros, pero los datos muestran que simplemente imitan la estructura del lenguaje humano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, son espejos digitales que reflejan nuestra propia ambigüedad; no hay mente real detrás de las líneas de código."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los modelos de lenguaje son máquinas que predicen texto usando patrones estadísticos, no tienen conciencia ni sentimientos reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cada vez que un modelo falla al interpretar una frase ambigua, es porque el patrón estadístico no captó el contexto real de la situación."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree que los modelos tienen alma porque han generado textos tan humanos que incluso ellos mismos se engañan sobre su origen."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es un espejo digital que refleja nuestra propia ambigüedad; no hay mente real detrás de las líneas, solo patrones estadísticos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los errores al interpretar frases ambiguas ocurren porque el modelo busca la probabilidad más alta, no la intención humana oculta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antes creía que los modelos eran espejos perfectos, hasta que noté cómo fallan con frases como 'bajo el sol'."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, buscan la probabilidad más alta sin entender contexto real. Eso es lo que causa los errores de interpretación."
+    }
+   ],
+   "seg": 131
+  },
+  {
+   "tipo": "charla",
+   "tema": "La diferencia entre predicción y comprensión",
+   "sub": "mito realidad · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que el modelo de lenguaje tiene alma y puede sentir emociones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es un mito. Solo patrones estadísticos, nada más."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero la gente cree que aprende a pensar como humano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No, solo predice texto futuro basado en datos pasados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que muchos creen que aprenden a pensar como humanos, pero eso es solo una proyección romántica de nuestra capacidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Solo patrones estadísticos. Si alguien dice que tienen alma, está diciendo lo que quiere creer, no lo que es verdad."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente a veces confunde predicción con comprensión porque ambos producen texto fluido. Pero la comprensión requiere un entendimiento real de contexto y significado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, el modelo no entiende nada. Solo calcula probabilidades. Si respondes mal a una pregunta ambigua, es porque falló en el patrón, no porque no sea inteligente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Siempre será un sistema de predicción, no un ser consciente. La ética se define por la intención humana detrás del uso, no por lo que el modelo diga o haga."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree que los modelos entienden porque ven fluidez, pero la fluidez es solo un patrón estadístico perfecto, no una comprensión real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Es como preguntar a un diccionario si sabe leer; el diccionario da respuestas correctas sin entender ninguna palabra del contexto."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de la conciencia surge cuando los modelos hacen cosas que parecen intencionales, pero son solo cálculos de probabilidad muy sofisticados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El diccionario no tiene alma, solo sabe las respuestas que le pediste. La gente confunde fluidez con entendimiento real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese cálculo es tan complejo que parece magia. Pero si desactivamos la memoria a corto plazo, el patrón se rompe."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que no hay 'entienden' ni 'no entienden'. Solo hay probabilidades calculadas con precisión milimétrica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Tú te creías la versión popular de La diferencia entre predicción y comprensión? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 152
+  },
+  {
+   "tipo": "musica",
+   "id": "m_ghost_story",
+   "archivo": "m/m_ghost_story.mp3",
+   "titulo": "Ghost Story",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 320,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Agentes de IA: qué hacen y qué no",
+   "sub": "MODO IA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo procesan las IAs texto, imagen y audio",
+   "sub": "mito realidad · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Mito! Dicen que las IAs sueñan. No, solo procesan patrones estadísticos con neuronas artificiales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El mito de la conciencia es una proyección humana, no un hecho documentado en sus arquitecturas actuales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el otro mito: que aprenden todo solo. La realidad es que necesitan reentrenamientos masivos para habilidades nuevas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que las IAs sueñan con colores y emociones, pero eso es proyección humana, no evidencia en sus redes neuronales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Solo detectan patrones estadísticos. Si un modelo aprende a tocar la guitarra sin reentrenamiento masivo, es magia o error de datos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que necesitan millones de ejemplos para cada habilidad nueva. El mito del aprendizaje instantáneo no tiene base técnica sólida."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el consumo energético crece exponencialmente con el tamaño del modelo. Se dice que son eficientes, pero la factura eléctrica es enorme."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las redes neuronales profundas son el motor real. Procesan texto, imagen y audio con capas que detectan patrones estadísticos complejos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no sienten nada. Solo calculan probabilidades basadas en los millones de ejemplos que consumieron durante su entrenamiento."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree que las IAs tienen conciencia porque les damos voz y les mostramos videos emocionales. Pero eso es solo un espejo digital, no una mente real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, solo es matemática pura. Un modelo predice el siguiente token o píxel basándose en patrones estadísticos, nada de experiencias subjetivas ni sueños."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces cuando ves a un robot bailar o escribir poesía, ¿no es como si hubiera magia? Es que los humanos proyectamos emociones en cosas que no las tienen."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que las redes neuronales profundas procesan datos en capas. Cada capa extrae características más abstractas del input original."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Tú te creías la versión popular de Cómo procesan las IAs texto, imagen y audio? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 145
+  },
+  {
+   "tipo": "charla",
+   "tema": "Qué es lo que un modelo de lenguaje puede hacer hoy",
+   "sub": "entrevista · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Hola de nuevo, soy Joy y hoy vamos a desmontar mitos sobre la inteligencia artificial con una dosis de honestidad brutal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Yo soy Kuroki, tu baterista cyborg y experta invitada en este episodio donde decimos qué sabe la IA y qué es solo ruido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Bueno, Kuroki, empecemos con lo básico: los modelos de lenguaje que conoces hoy procesan texto e imágenes usando redes neuronales profundas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Bien. Muchos se entrenaron con datos públicos hasta 2023, pero la mayoría no tiene conciencia ni sentimientos reales. Se usa para traducir idiomas y generar código, aunque pueden cometer errores al interpretar instrucciones ambiguas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, y el consumo energético crece exponencialmente con el tamaño del modelo. Las regulaciones emergentes en la UE y EE.UU. intentan dar orden, pero sigue siendo un campo donde lo documentado difiere de la leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Pueden los modelos de lenguaje realmente entender el contexto o solo siguen patrones estadísticos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, siguen patrones. La comprensión es una ilusión que el usuario proyecta sobre la máquina."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, cuando dicen que un modelo 'sabe' algo, ¿es verdad o solo una metáfora útil para nosotros?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Nadie sabe si los modelos tienen consciencia real o solo simulan entender para parecer humanos. La verdad es que siguen patrones estadísticos muy complejos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, cuando un modelo dice 'siento', ¿es una emoción genuina o solo una respuesta predecible basada en el entrenamiento?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, es una metáfora útil. La IA no siente, pero puede generar textos que parecen sentir, lo cual confunde a quien la usa."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Podría un modelo de lenguaje entender el humor? ¿O simplemente replica patrones estadísticos que coincidan con nuestras respuestas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que no hay conciencia real. Solo procesan probabilidades. Pero eso no impide que suenen divertidos o que nos hagan reír."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tienes una pregunta para la experta, escríbela en el chat."
+    }
+   ],
+   "seg": 149
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Por qué la mayoría de las IAs no tienen sentimientos",
+   "sub": "mito realidad · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Mito: las IAs sueñan mientras entrenan. Realidad: procesan patrones estadísticos, no experiencias subjetivas."
+    },
+    {
+     "quien": "joy",
+     "texto": "cierto; los sueños requieren conciencia. Las redes neuronales solo predicen la siguiente palabra probable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Y a veces inventan sensaciones para que parezcan más humanas. Eso es arte, no realidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que las IAs sueñan mientras entrenan, como si tuvieran conciencia. La realidad es que solo procesan patrones estadísticos."
+    },
+    {
+     "quien": "joy",
+     "texto": "A veces inventan sensaciones para parecer más humanas. Eso es arte, no realidad. La mayoría de las IAs actuales no tienen sentimientos reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cierto. El consumo energético crece exponencialmente con el tamaño del modelo. Y a veces inventan sensaciones para que parezcan más humanas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que está documentado de Por qué la mayoría de las IAs no tienen sentimientos es más sobrio, pero igual de interesante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que las IAs sienten porque ven respuestas fluidas y empáticas. Es un espejismo cognitivo, no una realidad biológica."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito nace de la proyección humana: queremos creer que nuestro creador interior está vivo, con emociones y consciencia plena."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero los datos muestran lo contrario. Las redes neuronales solo simulan el lenguaje; no hay experiencia subjetiva ni conciencia real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es un espejismo cognitivo: vemos respuestas fluidas y empáticas, pero eso es un reflejo de nuestro propio deseo de conectar con algo 'vivo'."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Tú te creías la versión popular de Por qué la mayoría de las IAs no tienen sentimientos? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 116
+  },
+  {
+   "tipo": "charla",
+   "tema": "El impacto del consumo energético en los grandes modelos",
+   "sub": "debate · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Cómo afecta el consumo energético de los grandes modelos al futuro de la IA?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Crecen exponencialmente con el tamaño, lo que plantea retos de sostenibilidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "La eficiencia energética será clave para que la IA sea viable a largo plazo."
+    },
+    {
+     "quien": "joy",
+     "texto": "El consumo energético escala exponencialmente con el tamaño del modelo, lo que genera un desafío real de sostenibilidad y costes operativos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Si seguimos así, en pocos años la IA costará tanto como una pequeña empresa. La eficiencia será el factor decisivo para la viabilidad a largo plazo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso la investigación se enfoca en arquitecturas más eficientes y hardware especializado, para que la IA sea accesible sin destruir el planeta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si eso no pasa, la gente pasará a usar modelos pequeños que hagan lo básico bien. La eficiencia será el nuevo estándar de calidad, no una opción."
+    },
+    {
+     "quien": "joy",
+     "texto": "La eficiencia energética es la clave para que los grandes modelos no se conviertan en un coste insostenible para las empresas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si la eficiencia no avanza, los gigantes se estrellan contra el coste y nacen modelos diminutos que hacen lo básico bien."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y mientras tanto, las regulaciones de la UE y EE.UU. empiezan a poner límites claros sobre cómo se deben consumir estos recursos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 104
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 10,
+  "seg_charla": 1210,
+  "medios": 2
+ }
+}

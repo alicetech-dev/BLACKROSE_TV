@@ -1,0 +1,14 @@
+[Unit]
+Description=BlackRose TV — PENSADOR (pensamientos no dichos + investigación con el 9B «profundo»; semillas y directriz para el fractal)
+After=cerebro.service
+
+[Service]
+WorkingDirectory=/home/alice/joy_vmc
+ExecStart=/home/alice/joy_vmc/.venv/bin/python -m director.tv.pensador demonio
+Restart=always
+RestartSec=20
+StandardOutput=append:/home/alice/joy_vmc/logs/pensador.log
+StandardError=append:/home/alice/joy_vmc/logs/pensador.log
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,21 @@
+{
+ "semilla": "Integración de sistemas de audio en tiempo real",
+ "hechos": [
+  "Los sistemas de audio en tiempo real requieren una latencia inferior a los 10 milisegundos para que el sonido se sincronice perfectamente con la acción visual.",
+  "La integración de audio en tiempo real depende del uso de APIs como OpenAL o FMOD, que permiten la comunicación directa entre el motor gráfico y el sistema de sonido.",
+  "El procesamiento del audio en tiempo real ocurre en un hilo separado del hilo principal del juego para evitar bloqueos y mantener una fluidez constante.",
+  "Las tarjetas de sonido dedicadas con hardware acelerado son esenciales para manejar múltiples canales de audio simultáneamente sin retrasos perceptibles.",
+  "La gestión dinámica de la mezcla de volumen se realiza mediante algoritmos que ajustan los niveles en función de las distancias entre el oyente y las fuentes de sonido.",
+  "El uso de buffer sizes pequeños es crucial para mantener baja latencia, aunque esto aumenta ligeramente la probabilidad de crujidos si no está bien configurado.",
+  "La normalización del audio asegura que los picos de volumen no excedan el límite máximo permitido por el formato de archivo o el hardware.",
+  "Las tecnologías de espacialización 3D como HRTF permiten simular la dirección y distancia de las fuentes sonoras basándose en la geometría virtual.",
+  "La optimización del rendimiento se logra priorizando las operaciones de audio sobre otras tareas cuando los recursos del sistema están bajo presión.",
+  "El streaming de audio en tiempo real utiliza técnicas de compresión sin pérdida o con pérdida para reducir el consumo de memoria y CPU."
+ ],
+ "leyendas": [
+  "Se cuenta que la primera vez que se usó un motor de audio en tiempo real fue en 1995, aunque las implementaciones funcionales ya existían en entornos de desarrollo anteriores.",
+  "Muchos creen que los juegos con mejor sonido siempre usan tarjetas de sonido externas, pero la integración eficiente también es posible con hardware integrado moderno."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 10:52"
+}

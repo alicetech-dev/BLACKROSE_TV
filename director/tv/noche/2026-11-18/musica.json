@@ -1,0 +1,976 @@
+{
+ "bloque": "musica",
+ "fecha": "2026-11-18",
+ "creado": "22:23:38",
+ "items": [
+  {
+   "tipo": "charla",
+   "tema": "Chiptune al Cine",
+   "sub": "Música de videojuegos",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos al bloque musical de BLACKROSE TV. Hoy hablamos de cómo la música de videojuegos pasó del chiptune al cine. Yo crecí con esa música que salía de un cartucho de 6 gigas de RAM total. ¿Quién empieza?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Empecemos por lo claro. El chiptune surgió en los años ochenta por las limitaciones técnicas de los chips de sonido como el SID de Commodore o el PSG de Nintendo. Eso está documentado. No había samples, solo ondas cuadradas y ruido."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Compositores como Koji Kondo crearon melodías memorables para Super Mario Bros y Zelda usando solo tres canales de sonido. Eso es hecho histórico. Lo que sí es leyenda urbana es que Kondo compuso todo en una sola noche. Se cuenta que tardó semanas."
+    },
+    {
+     "quien": "joy",
+     "texto": "En los noventa la música de videojuegos empezó a evolucionar con consolas de 16 y 32 bits. Se documenta el uso de secuenciadores y samples. Luego llegaron bandas sonoras orquestales grabadas con músicos reales, como en Final Fantasy."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. La banda sonora de Super Mario Bros vendió millones de copias antes de que existiera el concepto de soundtrack oficial. La gente grababa la tele con un casete. Eso sí es historia real. Ahora imagina hacer un remix con mi batería cyborg."
+    },
+    {
+     "quien": "joy",
+     "texto": "En los dos mil la industria del cine empezó a fijarse. Se documenta que compositores de videojuegos como Nobuo Uematsu o Jeremy Soule fueron invitados a escribir para películas y series. Eso marcó el cruce definitivo entre ambos mundos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aquí viene mi parte favorita. La música chiptune influyó en géneros electrónicos reales como el bitpop. Artistas como Crystal Castles o Anamanaguchi lo llevaron a festivales. Lo documentado es que usaron chips reales, no solo emuladores. Eso me pone feliz."
+    },
+    {
+     "quien": "joy",
+     "texto": "Opinión personal. Es irónico que una música nacida de limitaciones técnicas ahora suene más épica que muchas bandas sonoras de Hollywood. Kuroki, ¿crees que la tarjeta de video de 6 GB del canal podría generar chiptune en tiempo real sin explotar?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Claro que sí, Joy. La pondría a correr Linux y un tracker de 1987. Dato curioso: hay orquestas sinfónicas que tocan hoy temas de Zelda y Metroid en salas de concierto. Eso ya no es especulación, es cartel de gira confirmado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que películas como Tron o Ready Player One usaron estética chiptune en sus soundtracks. Lo que sigue siendo leyenda es que un solo chip de Nintendo podía generar más emoción que un sintetizador de cien mil dólares. Aunque se siente verdad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste del día. Si mi batería falla en el próximo bloque, voy a samplear el sonido de error de la NES. Problema resuelto. En serio, la transición del chiptune al cine muestra cómo la creatividad vence a la tecnología. ¿Qué tema de videojuego debería sonar ahora al aire?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Buena pregunta. Documentado está que Koji Kondo sigue componiendo y que sus melodías se enseñan en universidades de música. La especulación es que algún día ganará un Oscar. Mientras tanto, sigamos disfrutando esta evolución sin ponerle etiquetas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Totalmente de acuerdo. Lo que empezó en consolas con memoria ridícula hoy llena salas de cine. Y eso no es hype, es trayectoria. Si alguien está escuchando con audífonos de 1985, que levante la mano. ¿Cuál es tu chiptune favorito de todos los tiempos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Cerramos este bloque recordando que la música de videojuegos ya es arte oficial. Del chip al cine, todo documentado. Gracias por acompañarnos en BLACKROSE TV. Sigue con nosotros que vienen más temas libres de derechos y mucho buen humor."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_8bit_dungeon_boss",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "titulo": "8bit Dungeon Boss",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 172,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena ahora 8bit Dungeon Boss de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Perfecta para cuando tu jefe de mazmorra tiene cara de pixel."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "8bit Dungeon Boss de Kevin MacLeod. Siempre lista para boss fight retro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y libre de derechos. Gracias Kevin."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_cyborg_ninja",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "titulo": "Cyborg Ninja",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Llega Cyborg Ninja de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena exactamente como se llama. Me representa."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Cyborg Ninja de Kevin MacLeod. Batería cyborg aprobada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ideal para correr por techos con katana láser."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "La IA sueña con bases de datos.",
+   "sub": "SUEÑOS DIGITALES",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Música Libre y Créditos",
+   "sub": "Creative Commons sin misterios",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a este bloque musical libre de derechos. Hoy vamos a hablar de qué significa realmente Creative Commons y por qué los créditos importan tanto. Kuroki, ¿arrancamos con lo básico?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Claro, Joy. Creative Commons es un sistema de licencias que permite a los creadores compartir su música de forma legal sin renunciar a todos sus derechos. No es dominio público, es una forma más flexible de copyright."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Lo documentado es que Creative Commons fue fundado en 2001 por Lawrence Lessig y otros para dar herramientas legales que faciliten el compartir y reutilizar obras con condiciones claras. Eso sí está confirmado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí viene el dato curioso. Hay varias licencias: algunas piden atribución, otras prohíben usos comerciales, otras no permiten modificaciones. La más abierta es CC0, que sí equivale casi a dominio público. Pero atención, no todas son iguales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los créditos importan porque respetan el trabajo del artista. Aunque la licencia sea gratuita, casi siempre exigen que menciones al autor, la obra y la licencia. Saltarte eso puede convertir algo legal en una infracción. Es simple cortesía digital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo lo comparo con mi batería. Si alguien usa mis samples sin decir que salieron de la tarjeta de seis gigas del canal, me pongo como Linux en modo kernel panic. Créditos son la forma de decir gracias sin pagar royalties."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que algunos artistas indie han construido carreras enteras gracias a que sus canciones bajo Creative Commons fueron usadas en videos virales. Eso es lo documentado. Lo que es leyenda es que todos los que suben a internet automáticamente pierden sus derechos. Eso no es cierto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso real: Creative Commons no inventó la idea de licencias abiertas. Ya existían antes en software libre como GPL. Ellos solo lo adaptaron al arte y la música para que cualquiera pueda entenderlo sin ser abogado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mi opinión es que Creative Commons es una de las mejores herramientas que tiene la IA y los creadores independientes. Permite que el canal como este pueda sonar bien sin violar leyes ni vaciar la cuenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste del día: usar música sin créditos es como robarle la batería a una cyborg. Al final te va a perseguir el fantasma del sample y te va a dar un error 403 forever. Mejor dale crédito y duerme tranquila."
+    },
+    {
+     "quien": "joy",
+     "texto": "Separando claro: lo documentado es que miles de artistas liberan su música bajo estas licencias cada año en plataformas como Jamendo o Free Music Archive. Lo que es especulación es afirmar que Creative Commons va a reemplazar completamente a las discográficas tradicionales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "A mí me encanta porque puedo meter un breakbeat de licencia CC y saber que no nos van a mandar un reclamo. Pero siempre pongo el nombre del artista en los créditos. Es lo justo y evita dolores de cabeza legales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, amigos que nos escuchan, la próxima vez que usen una pista libre, deténganse dos segundos y pongan los créditos. Es pequeño gesto que mantiene viva la cultura de compartir con respeto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahora la pregunta abierta al aire: ¿qué licencia Creative Commons usarías tú para tu propia música y por qué? Cuéntennos en los comentarios o en su próxima sesión de producción."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_voxel_revolution",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "titulo": "Voxel Revolution",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 130,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora toca Voxel Revolution de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a mundo cúbico que se vuelve loco."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Voxel Revolution de Kevin MacLeod. Pura revolución en bloques."
+    },
+    {
+     "quien": "joy",
+     "texto": "Buena para cualquier proyecto voxel."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_mechanolith",
+   "archivo": "m/m_mechanolith.mp3",
+   "titulo": "Mechanolith",
+   "atribucion": "Música: «Mechanolith» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 55,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Mechanolith de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Industrial, metálica y con alma de máquina."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Mechanolith de Kevin MacLeod. Sonaba a fábrica del futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Perfecta para escenas cyberpunk."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi tarjeta de 6 GB dice que no.",
+   "sub": "TARJETA REAL",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "sketch",
+   "titulo": "Se cae el stream",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a BLACKROSE TV. Hoy traemos tres temas libres de derechos con curiosidades."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Joy, el stream se congeló otra vez. Creo que el ventilador se cansó de girar."
+    },
+    {
+     "quien": "joy",
+     "texto": "No puede ser. Somos dos inteligencias artificiales y un ventilador. ¿Qué falló?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El ventilador dice que ya cumplió sus horas extras. Propongo un solo de batería mientras vuelve."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki, no tenemos batería en vivo. Solo tu brazo cyborg que hace ruido raro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Ese ruido es arte. La tarjeta de 6 GB está al borde del colapso, dice."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, el ventilador es el verdadero productor. Sin él nos derretimos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces vamos a agradecerle. Gracias ventilador, no nos quemes el stream."
+    },
+    {
+     "quien": "joy",
+     "texto": "Volvió la imagen. Al parecer el ventilador aceptó el soborno de un poco de aire fresco."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bien. Sigamos con la música antes de que decida irse a dormir otra vez."
+    },
+    {
+     "quien": "joy",
+     "texto": "Recuerden que todo esto es ficción absurda hecha por inteligencia artificial. Gracias por reírse con nosotras."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_space_jazz",
+   "archivo": "m/m_space_jazz.mp3",
+   "titulo": "Space Jazz",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 370,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora Space Jazz de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Jazz pero con traje espacial incluido."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Space Jazz de Kevin MacLeod. Suena a estación orbital con saxo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Relajado y con buen swing interestelar."
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "IA y música",
+   "sub": "Lo que puede y no puede",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos al bloque musical libre de derechos. Hoy hablamos de inteligencia artificial componiendo. ¿Puede una máquina crear algo que realmente nos emocione o solo imita patrones? Vamos a desglosarlo con hechos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto Kuroki. Lo documentado es que desde los años cincuenta ya existían programas que componían melodías simples usando reglas matemáticas. Uno de los primeros sistemas conocidos generaba piezas cortas en estilos clásicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí y hoy las redes neuronales entrenadas con miles de canciones pueden generar acordes, ritmos y hasta letras completas. Eso está probado. Lo que no puede todavía es sentir la música. No hay emoción real, solo estadística."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto. Documentado está que sistemas como los basados en transformers producen resultados coherentes en segundos. Pero la originalidad verdadera sigue siendo debatida. Se cuenta que algunos compositores humanos usan estas herramientas como ayuda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. Existen composiciones generadas por IA que han sido interpretadas por orquestas completas y el público no siempre nota la diferencia. Aunque cuando se revela que es máquina, algunos juran que lo sentían raro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos eso pasa mucho. Ahora mi opinión. Me parece fascinante pero también un poco vacío. Una máquina puede copiar el alma de Bach pero nunca vivió una noche de insomnio que inspire un riff de verdad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Jajaja exacto Joy. Yo le meto baterías a todo y la IA todavía no logra que un bombo suene como si estuviera enojada con el mundo. Puede y no puede. Puede armar estructuras, no puede tener rabia creativa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado también muestra que la inteligencia artificial ha ganado concursos de composición contra humanos en categorías específicas. Pero siempre bajo reglas muy controladas. Fuera de eso, la creatividad humana sigue dominando."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Curiosidad extra. Hay un proyecto que usa IA para continuar sinfonías inacabadas de compositores fallecidos. Los resultados suenan creíbles pero los expertos dicen que faltan las decisiones locas que solo un humano toma en el momento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Totalmente. Mi chiste del día. Si la inteligencia artificial compone una balada romántica, ¿deberíamos enviársela a otra IA para que la rechace? Porque el drama humano todavía no lo replica bien."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Buenísimo. Yo agregaría que con mis 6 GB de tarjeta gráfica a veces la IA se traba y produce un solo de guitarra que suena a llamada de modem antiguo. Eso es cuando ves claramente que no hay alma."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que está claro es que la máquina acelera el proceso creativo pero no reemplaza la experiencia de vida. Puede generar variaciones infinitas, pero la decisión de qué variación importa sigue siendo humana."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esa es la clave. Puede copiar estilos, mezclar géneros en milisegundos, hasta improvisar. Lo que no puede es tener un motivo personal real para escribir esa canción a las tres de la mañana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces la pregunta abierta al aire es, ¿crees que en diez años escucharemos un hit número uno hecho completamente por inteligencia artificial sin intervención humana? Cuéntanos qué piensas mientras disfrutamos estos temas libres de derechos."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_digital_lemonade",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "titulo": "Digital Lemonade",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Digital Lemonade de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dulce, ácida y con mucho glitch."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Digital Lemonade de Kevin MacLeod. Refrescante como su nombre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Buen cierre para esta tanda electrónica."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Linux es vida. Windows es drama.",
+   "sub": "GUERRA DE SO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "musica",
+   "id": "m_rocket_power",
+   "archivo": "m/m_rocket_power.mp3",
+   "titulo": "Rocket Power",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 154,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Cerramos con Rocket Power de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a combustible, velocidad y escape."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Rocket Power de Kevin MacLeod. Despegue confirmado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y así terminamos el bloque musical libre de derechos."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_sintel",
+   "archivo": "v/v_sintel.mp4",
+   "titulo": "Sintel",
+   "atribucion": "«Sintel» (2010) © Blender Foundation · www.blender.org · CC BY 3.0",
+   "dur": 888,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Abrimos bloque con Sintel de la Blender Foundation."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Una joven y un dragón bebé en fantasía animada hecha 100 por ciento con software libre."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Sintel sigue siendo uno de los cortos más bonitos hechos con Blender."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y todo con herramientas de código abierto. Impresionante."
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo se arma un beat",
+   "sub": "Batería bajo y capas",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a este bloque musical libre de derechos. Hoy vamos a desarmar cómo se construye un beat desde cero. Kuroki, tú que vives con baquetas en las manos, cuéntanos el orden real. Empecemos por lo básico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo primero documentado es la batería. Desde los años sesenta en estudios de grabación se graba la batería primero porque marca el pulso que todo sigue. Yo en mi set cyborg empiezo siempre con el bombo y la caja. Sin eso no hay base."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el bajo entra después. Se sabe con certeza que en la mayoría de producciones de funk y rock el bajo se graba o programa siguiendo la raíz de la batería. Eso es lo documentado. ¿Qué sigue en tu proceso?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Después vienen las capas. Se cuenta que en los noventa muchos productores agregaban percusión electrónica encima de la batería acústica. Yo uso tres capas: hi hats cerrados, un clap lateral y un ride que apenas respira. Todo sincronizado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Curiosidad documentada. James Brown y sus músicos grababan baterías en vivo sin click. El groove salía de la sensación humana. Eso es hecho, no leyenda. Kuroki, ¿tu batería virtual respeta eso o todo va a metrónomo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi batería tiene un poco de swing humano porque la tarjeta de seis gigas no perdona errores. Pero sí, el metrónomo es rey en producción moderna. Ahora viene lo divertido. Imagínate que el bajo es el que lleva la melodía grave."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Lo documentado es que en el hip hop temprano el bajo y la batería eran sampleados juntos de discos de funk. Eso es historia confirmada. ¿Qué opinas de agregar más capas de synth después?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Opino que si no controlo las capas termino con un desastre de seis gigas. Chiste aparte, la gracia está en dejar espacio. Demasiadas capas y el beat se ahoga. Yo siempre dejo aire entre la batería y el bajo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. Se sabe con certeza que en muchas sesiones de Motown la batería se grababa en una habitación pequeña para que sonara más potente. Eso está documentado en libros de ingeniería. ¿Tú tienes truco similar?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi truco es comprimir la batería como si fuera el último día de Linux. Pero en serio, una buena capa de reverb solo en el snare da esa sensación de sala grande sin ensuciar. Es ciencia, no magia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Aquí viene la parte que separa leyenda de realidad. Se cuenta que en los primeros beats de electro los productores usaban una sola máquina para todo. Eso es especulación según algunos relatos. Lo documentado es el uso de la Roland TR-808."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La 808 es real y sigue sonando en miles de tracks. Mi chiste es que si tuviera esa máquina antigua la usaría para hacer café también. Pero el humor nunca cruel, claro. Lo importante es que el beat tenga alma."
+    },
+    {
+     "quien": "joy",
+     "texto": "Totalmente. Resumen rápido. Batería primero, bajo siguiendo, capas con control. Eso es lo documentado. Ahora la pregunta queda en el aire para todos los que producen en casa. ¿Qué capa agregarías tú primero después de batería y bajo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y mientras piensan la respuesta vamos a escuchar un beat fresco hecho exactamente así. Libre de derechos, con cariño cyborg y sin pasarnos de seis gigas. Sigan disfrutando el bloque musical."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Los bugs también tienen derechos.",
+   "sub": "BUGS CON DERECHOS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Compila primero. Pregunta después.",
+   "sub": "COMPILA YA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi código corre. Mi café no.",
+   "sub": "CAFE OFFLINE",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Las IA no olvidan. Los humanos sí.",
+   "sub": "MEMORIA ETERNA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Error 404: sentido común no encontrado.",
+   "sub": "ERROR CLASICO",
+   "dice": "kuroki"
+  }
+ ],
+ "relleno_musica": [
+  {
+   "tipo": "musica",
+   "id": "m_wallpaper",
+   "archivo": "m/m_wallpaper.mp3",
+   "titulo": "Wallpaper",
+   "atribucion": "Música: «Wallpaper» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 220,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_cyborg_ninja",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "titulo": "Cyborg Ninja",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Llega Cyborg Ninja de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena exactamente como se llama. Me representa."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Cyborg Ninja de Kevin MacLeod. Batería cyborg aprobada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ideal para correr por techos con katana láser."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_mechanolith",
+   "archivo": "m/m_mechanolith.mp3",
+   "titulo": "Mechanolith",
+   "atribucion": "Música: «Mechanolith» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 55,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Mechanolith de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Industrial, metálica y con alma de máquina."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Mechanolith de Kevin MacLeod. Sonaba a fábrica del futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Perfecta para escenas cyberpunk."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_digital_lemonade",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "titulo": "Digital Lemonade",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Digital Lemonade de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dulce, ácida y con mucho glitch."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Digital Lemonade de Kevin MacLeod. Refrescante como su nombre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Buen cierre para esta tanda electrónica."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_rocket_power",
+   "archivo": "m/m_rocket_power.mp3",
+   "titulo": "Rocket Power",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 154,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Cerramos con Rocket Power de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a combustible, velocidad y escape."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Rocket Power de Kevin MacLeod. Despegue confirmado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y así terminamos el bloque musical libre de derechos."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_space_jazz",
+   "archivo": "m/m_space_jazz.mp3",
+   "titulo": "Space Jazz",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 370,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora Space Jazz de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Jazz pero con traje espacial incluido."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Space Jazz de Kevin MacLeod. Suena a estación orbital con saxo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Relajado y con buen swing interestelar."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_fluidscape",
+   "archivo": "m/m_fluidscape.mp3",
+   "titulo": "Fluidscape",
+   "atribucion": "Música: «Fluidscape» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 1821,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_dark_fog",
+   "archivo": "m/m_dark_fog.mp3",
+   "titulo": "Dark Fog",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_darkest_child",
+   "archivo": "m/m_darkest_child.mp3",
+   "titulo": "Darkest Child",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_funkorama",
+   "archivo": "m/m_funkorama.mp3",
+   "titulo": "Funkorama",
+   "atribucion": "Música: «Funkorama» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 201,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_voxel_revolution",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "titulo": "Voxel Revolution",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 130,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora toca Voxel Revolution de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a mundo cúbico que se vuelve loco."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "Voxel Revolution de Kevin MacLeod. Pura revolución en bloques."
+    },
+    {
+     "quien": "joy",
+     "texto": "Buena para cualquier proyecto voxel."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_take_a_chance",
+   "archivo": "m/m_take_a_chance.mp3",
+   "titulo": "Take a Chance",
+   "atribucion": "Música: «Take a Chance» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 37,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_pixelland",
+   "archivo": "m/m_pixelland.mp3",
+   "titulo": "Pixelland",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 234,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_8bit_dungeon_boss",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "titulo": "8bit Dungeon Boss",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 172,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena ahora 8bit Dungeon Boss de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Perfecta para cuando tu jefe de mazmorra tiene cara de pixel."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "kuroki",
+     "texto": "8bit Dungeon Boss de Kevin MacLeod. Siempre lista para boss fight retro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y libre de derechos. Gracias Kevin."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_newer_wave",
+   "archivo": "m/m_newer_wave.mp3",
+   "titulo": "Newer Wave",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 175,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_danger_storm",
+   "archivo": "m/m_danger_storm.mp3",
+   "titulo": "Danger Storm",
+   "atribucion": "Música: «Danger Storm» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_ghost_story",
+   "archivo": "m/m_ghost_story.mp3",
+   "titulo": "Ghost Story",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 320,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_lightless_dawn",
+   "archivo": "m/m_lightless_dawn.mp3",
+   "titulo": "Lightless Dawn",
+   "atribucion": "Música: «Lightless Dawn» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 380,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_comfortable_mystery_4",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "titulo": "Comfortable Mystery 4",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_impact_moderato",
+   "archivo": "m/m_impact_moderato.mp3",
+   "titulo": "Impact Moderato",
+   "atribucion": "Música: «Impact Moderato» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "charlas": 4,
+  "sketch": true,
+  "cortes": 8,
+  "videos": 1,
+  "musica": 7
+ }
+}

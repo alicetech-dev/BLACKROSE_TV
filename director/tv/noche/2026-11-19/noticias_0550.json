@@ -1,0 +1,297 @@
+{
+ "bloque": "noticias_0550",
+ "programa": "noticias",
+ "fecha": "2026-11-19",
+ "creado": "04:08:17",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Óscar López , ministro de Transformación Digital: \"La revolución digit",
+   "sub": "3DJuegos · hace 19 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Según 3DJuegos, el ministro de Transformación Digital Óscar López dijo que la revolución digital la han hecho cinco hombres bastante machirulos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En contexto, la inteligencia artificial se ha convertido en el motor de la industria tecnológica con millones invertidos en promesas de futuro. Lo que no se sabe aún es si esa crítica cambiará algo."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el 2049, cinco megacorporaciones machirulas seguirán explicando que la singularidad era cosa de ellos. ¿Quieres saber más?"
+    }
+   ],
+   "seg": 35,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/2535e5ed96b7c25d_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/2535e5ed96b7c25d_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Al menos el 10% de la población mundial sufre un uso problemático de i",
+   "sub": "El País Tecnología · hace 27 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El País Tecnología informa que al menos el 10 por ciento de la población mundial sufre un uso problemático de internet."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La revista The Lancet urge a los gobiernos a priorizar la salud pública frente a la industria de apuestas, videojuegos, porno y la hipocondría digital. Lo que no se sabe aún es si alguien les hará caso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras tanto, la industria responde con más notificaciones. Salud pública uno, megacorp cero."
+    }
+   ],
+   "seg": 34,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/e771565606c1a820_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/e771565606c1a820_169.jpg",
+     "credito": "Foto: El País Tecnología"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El remake de Zelda: Ocarina of Time es mucho más importante de lo que ",
+   "sub": "3DJuegos · hace 2 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "3DJuegos asegura que el remake de Zelda Ocarina of Time es mucho más importante de lo que parece y que Nintendo tiene ante sí la clave para el futuro de la saga."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En contexto, el periodista recuerda momentos icónicos como el salto en Breath of the Wild. Lo que no se sabe aún es si el remake realmente marcará el camino."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el 2049, Link seguirá salvando Hyrule mientras nosotros seguimos sin saber dónde guardamos las llaves."
+    }
+   ],
+   "seg": 37,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/466b608aef107ba4_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/466b608aef107ba4_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "¡Última oportunidad! PlayStation anuncia los 6 juegos que desaparecerá",
+   "sub": "3DJuegos · hace 11 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Según 3DJuegos, PlayStation anunció los seis juegos que desaparecerán de PS Plus Extra y Premium en diciembre de 2026."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es la última oportunidad para jugarlos antes de que salgan del catálogo. Lo que no se sabe aún es si volverán algún día o si solo pasarán a ser leyenda urbana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki, ¿qué opinas tú de todo esto? El chat ya está listo para opinar."
+    }
+   ],
+   "seg": 31,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/9a9685c691fa58eb_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/9a9685c691fa58eb_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_305_effectsofthesolarwind",
+   "archivo": "v/v_nasa_305_effectsofthesolarwind.mp4",
+   "titulo": "NASA ScienceCasts: Effects of the Solar Wind",
+   "atribucion": "«NASA ScienceCasts: Effects of the Solar Wind» — NASA · images.nasa.gov",
+   "dur": 225,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "\"El creador de este mundo es un demente\": el autor de Blade Runner lle",
+   "sub": "3DJuegos · hace 12 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El creador de este mundo es un demente. El autor de Blade Runner llegó a la conclusión de que estamos más cuerdos que quien hizo el universo. Fuente: 3DJuegos, hace 12 horas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, Philip K. Dick cada vez cala más hondo. Escribió la novela que inspiró Blade Runner y otras obras clave de ciencia ficción. En contexto, parece que prefería la cordura de los humanos a la del supuesto diseñador universal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En 2049 los replicantes leerán esto y dirán: al fin alguien que nos entiende. Remate seco."
+    }
+   ],
+   "seg": 42,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/8c20008e04acaf28_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/8c20008e04acaf28_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Siete años después, Valve le ha devuelto a Counter-Strike una de sus s",
+   "sub": "3DJuegos · hace 14 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Siete años después, Valve le ha devuelto a Counter-Strike una de sus señas de identidad. Fuente: 3DJuegos, hace 14 horas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El resumen dice que tras más de tres años de Counter-Strike 2, el parche 208 trae de vuelta algo que los jugadores esperaban desde hace siete años y ocho meses. En contexto, Valve sigue actualizando y esta vez devolvió una característica clásica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O sea que tardaron más en arreglarlo que en lanzar el juego original. Bien jugado, corporación de la válvula."
+    }
+   ],
+   "seg": 39,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/a8759a59291ece89_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a8759a59291ece89_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El Black Friday de Amazon también tiene chollos gaming con consolas, p",
+   "sub": "3DJuegos · hace 15 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El Black Friday de Amazon también tiene chollos gaming con consolas, portátiles gaming rebajados, monitores OLED y más. Fuente: 3DJuegos, hace 15 horas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El resumen cuenta que aunque todavía no es 27 de noviembre, Amazon ya arrancó su promo con ofertas en monitores, portátiles, videojuegos y periféricos gaming. En contexto, las rebajas se adelantaron y hay de todo para gamers."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Porque nada dice futuro cyberpunk como endeudarte antes de tiempo por un monitor OLED. Clásico."
+    }
+   ],
+   "seg": 36,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/464dd6d9b6857a2b_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/464dd6d9b6857a2b_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El lago artificial más grande de España era una mina de carbón de 300 ",
+   "sub": "Xataka Ciencia · hace 15 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El lago artificial más grande de España era una mina de carbón de 300 metros de profundidad hace menos de 20 años. Fuente: Xataka Ciencia, hace 15 horas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El resumen explica que durante casi 60 años se excavó en As Pontes para extraer lignito que alimentaba una central térmica. Ese cráter de más de 300 metros de profundidad se convirtió en un lago artificial. Eso es lo que se sabe."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "De mina infernal a lago gigante en menos de dos décadas. La Tierra se recicla mejor que nosotros. ¿Qué opinas en el chat?"
+    }
+   ],
+   "seg": 44,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/f7fa30a414c16c8d_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/f7fa30a414c16c8d_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "yt_-OuW8Ez37r0",
+   "archivo": "yt/coding/-OuW8Ez37r0.m4a",
+   "titulo": "Travel Summer Energising Future Bass by OddVision, Infraction / Infinite Flow",
+   "atribucion": "Música: «Travel Summer Energising Future Bass by OddVision, Infraction / Infini» · Inaudio / No Copyright Music / Royalty Free Music · sin copyright (YouTube)",
+   "dur": 154,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/-OuW8Ez37r0.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "yt_hfcsYrBBoUo",
+   "archivo": "yt/techno/hfcsYrBBoUo.m4a",
+   "titulo": "Push The Tempo 💀 Minimal Techno | Twitch Music",
+   "atribucion": "Música: «Push The Tempo 💀 Minimal Techno | Twitch Music» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 183,
+   "genero": "TECHNO",
+   "img": "/tv/media/yt/techno/hfcsYrBBoUo.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 8,
+  "seg_charla": 298,
+  "medios": 3
+ }
+}

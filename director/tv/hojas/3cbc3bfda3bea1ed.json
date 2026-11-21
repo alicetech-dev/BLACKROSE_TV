@@ -1,0 +1,21 @@
+{
+ "semilla": "La lección de defensa para usuarios básicos",
+ "hechos": [
+  "Los usuarios deben cambiar sus contraseñas regularmente para evitar accesos no autorizados.",
+  "Las contraseñas largas y complejas son más seguras que las cortas o simples.",
+  "El uso de autenticación de dos factores añade una capa extra de seguridad a las cuentas.",
+  "Es importante verificar la dirección URL antes de introducir datos sensibles en sitios web.",
+  "Los dispositivos móviles pueden ser vulnerables si no se actualizan sus sistemas operativos.",
+  "Las redes Wi-Fi públicas sin contraseña son propensas a ataques de interceptación.",
+  "El phishing es una técnica común que busca engañar a los usuarios para revelar información personal.",
+  "La falta de un antivirus o firewall en dispositivos puede dejarlos expuestos a malware.",
+  "Los usuarios deben desconfiar de enlaces sospechosos recibidos por correo electrónico.",
+  "Las cuentas compartidas con múltiples personas aumentan el riesgo de ser comprometidas."
+ ],
+ "leyendas": [
+  "Se cuenta que los hackers siempre usan mascarillas y guantes para parecer más misteriosos, pero en realidad es solo una estética común.",
+  "Según los relatos populares, cambiar la contraseña cada 24 horas es infalible, aunque la realidad es que depende del tipo de amenaza."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 19:35"
+}

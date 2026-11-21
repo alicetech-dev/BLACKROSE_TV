@@ -1,0 +1,59 @@
+# Bailes MMD (.vmd) que reproduce el Reproductor MMD de Warudo. Los archivos viven en
+#   ~/.local/share/Steam/steamapps/common/Warudo/Warudo_Data/StreamingAssets/{MMD,Music}/
+# (los originales están en ~/joy_vmc/bailes/). Cámara y canción son opcionales y se eligen aparte en la consola.
+#
+# CRÉDITOS: los packs de Nikisa San piden no redistribuir el movimiento y poner su nombre (o el link al video
+# original) en la descripción del video/stream. El de Boomerang Pole Dance es de MizukiC.
+
+warudo:
+  # Un Reproductor MMD de Warudo POR muñeca (cada uno asociado a su personaje). Sin `player`, esa muñeca no baila.
+  jugadores:
+    bambi:                         # Personaje 2, receptor VMC 39541
+      player: db5d382a-f413-4c7b-865a-fbaac2a503b7
+      pose: [d93a6a37-f336-4dbc-8455-1eaea33ff65f]    # grafos "Seguimiento de pose - VMC": se apagan mientras baila
+      pies: 6c57b210-6931-4a4a-88dc-46d8f27361d4      # "Pies fijos - MMD": se enciende mientras baila (arregla el IK de pies)
+    joy:                           # Personaje 3, receptor VMC 39539
+      player: 069b578b-551a-4510-9ba9-8b1f79568b05    # "Reproductor MMD 2", asociado a Personaje 3
+      pose: [91ecb140-a2ca-4d22-a7f2-f9966f7c1e0c, ea5c075f-bb80-432b-84fe-7b7c813cef56]
+      pies: 4134fd64-af6a-4607-8f2a-b0ebd7ba08dd
+  musica: 81b63707-1b30-4368-9bde-6c6a8fb854cb        # asset "Reproductor de música"
+  camara: bc77a8de-5252-4bb9-bbfa-ec65adb66c66        # "Cámara 1": la que recibe los movimientos de cámara del .vmd
+
+bailes:
+  saso:
+    label: Doja Cat - Say So
+    baile: SaySo_baile.vmd
+    camara: SaySo_camara.vmd
+    musica: SaySo.wav
+    duracion: 86.1
+    credito: "Motion by Nikisa San"
+  saso_fix:
+    label: Doja Cat - Say So (pies corregidos)
+    baile: SaySo_baile_fix.vmd     # tools/vmd_continuidad.py: mismas rotaciones, sin saltos de signo (evita el giro de pie)
+    camara: SaySo_camara.vmd
+    musica: SaySo.wav
+    duracion: 86.1
+    credito: "Motion by Nikisa San"
+  side:
+    label: Ariana Grande - Side To Side
+    baile: SideToSide_baile.vmd
+    camara: SideToSide_camara.vmd
+    musica: SideToSide.wav
+    duracion: 225.6
+    credito: "Motion by Nikisa San"
+  boomerang_plano:
+    label: Boomerang Pole Dance (tacón plano)
+    baile: Boomerang_baile_plano.vmd
+    camara: Boomerang_camara.vmd
+    musica: Boomerang.wav
+    duracion: 11.3
+    loop: true                     # dura 11 s: se repite hasta Parar
+    credito: "Motion by MizukiC"
+  boomerang_tacon:
+    label: Boomerang Pole Dance (tacón alto)
+    baile: Boomerang_baile_tacon.vmd
+    camara: Boomerang_camara.vmd
+    musica: Boomerang.wav
+    duracion: 11.3
+    loop: true
+    credito: "Motion by MizukiC"

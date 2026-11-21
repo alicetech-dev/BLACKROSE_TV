@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Transiciones</title>
+<style>
+:root{--rosa:#ff2fd6;--cian:#00e5ff;--bg:#0a0410;--txt:#f6eaff}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.4 system-ui,sans-serif;padding:20px 24px 40px}
+h1{margin:0 0 4px;font-size:26px;color:#fff;text-shadow:0 0 12px var(--rosa)}
+p.s{margin:0 0 18px;color:#cdb8df}
+#vista{position:relative;width:960px;height:540px;border:2px solid var(--cian);box-shadow:0 0 22px rgba(0,229,255,.4);overflow:hidden;
+  background:repeating-conic-gradient(#1b0b26 0 25%,#12071b 0 50%) 0 0/40px 40px}
+#vista iframe{position:absolute;left:0;top:0;width:1920px;height:1080px;border:0;transform:scale(.5);transform-origin:0 0;background:transparent}
+.fila{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
+button{font:600 15px system-ui;border:2px solid var(--cian);background:#12071b;color:#fff;padding:9px 14px;border-radius:8px;cursor:pointer}
+button:hover{background:#1d0c2b;box-shadow:0 0 12px var(--cian)}
+button.vivo{border-color:#ff3b3b}button.vivo:hover{box-shadow:0 0 12px #ff3b3b}
+.card{display:inline-block;margin:0 14px 14px 0;vertical-align:top;max-width:300px}
+.card small{display:block;color:#cdb8df;margin:4px 2px 0}
+code{background:#12071b;border:1px solid #3a1c4d;padding:2px 6px;border-radius:4px;color:#ffd1f6;font-size:13px}
+input{background:#12071b;border:2px solid #3a1c4d;color:#fff;padding:8px;border-radius:8px;font-size:15px}
+h2{margin:26px 0 8px;font-size:18px;color:var(--cian)}
+#msg{color:#3dff9a;min-height:1.4em}
+</style></head><body>
+<h1>BlackRose TV · transiciones y cuñas</h1>
+<p class="s">Vista previa local (nada sale al aire con los botones azules). Los rojos la mandan al overlay que está en OBS.</p>
+<div id="vista"><iframe id="f" src="/blackrose_tv?aviso=15&trans=none"></iframe></div>
+<div class="fila" id="botones"></div>
+<div id="msg"></div>
+
+<h2>Aviso «Vuelvo en X min»</h2>
+<div class="fila">
+  <input id="min" type="number" value="15" min="1" style="width:80px"> min con
+  <input id="con" value="Fast Penguin" style="width:200px">
+  <button class="vivo" onclick="aviso(true)">Poner al aire</button>
+  <button class="vivo" onclick="aviso(false)">Quitar</button>
+</div>
+
+<h2>Cuándo sale cada una</h2>
+<div>
+ <div class="card"><b>ident</b><small>Al empezar cada bloque. Kuroki: «Esto es BlackRose TV. Tu fuente de información tecnológica.»</small></div>
+ <div class="card"><b>corte</b><small>Barrido rápido entre noticias (mudo).</small></div>
+ <div class="card"><b>mercados</b><small>A veces entre noticias: señala la barra de acciones y cripto.</small></div>
+ <div class="card"><b>ultima_hora</b><small>Si la noticia tiene menos de 2,5 h.</small></div>
+ <div class="card"><b>volvemos</b><small>Antes del promo del canal.</small></div>
+ <div class="card"><b>senal</b><small>Solo a mano (identidad pirata).</small></div>
+</div>
+<h2>Desde la terminal</h2>
+<p>Transición sola: <code>curl -s ":8822/api/transicion?tipo=ident"</code><br>
+Kuroki la dice con su voz + transición: <code>curl -s -X POST :8780/api/programa -H 'Content-Type: application/json' -d '{"accion":"cuna","tipo":"ident"}'</code><br>
+Mensaje propio: <code>… -d '{"accion":"cuna","tipo":"ident","texto":"Tu frase"}'</code> · Frases fijas: <code>~/joy_vmc/director/programacion.yaml</code> → <code>cunas:</code></p>
+<script>
+const T = ['ident','ultima_hora','volvemos','mercados','corte','senal'], b = document.getElementById('botones'), m = t => document.getElementById('msg').textContent = t;
+T.forEach(t => { const x = document.createElement('button'); x.textContent = '▶ ' + t; x.onclick = () => document.getElementById('f').contentWindow.postMessage({trans: t}, '*'); b.append(x); });
+T.forEach(t => { const x = document.createElement('button'); x.className = 'vivo'; x.textContent = '● al aire: ' + t;
+  x.onclick = async () => { const r = await (await fetch('/api/transicion?tipo=' + t)).json(); m(r.ok ? 'Enviada al aire: ' + t : 'Error'); }; b.append(x); });
+async function aviso(on) {
+  const body = on ? {minutos: +document.getElementById('min').value, con: document.getElementById('con').value} : {accion: 'off'};
+  const r = await (await fetch('/api/aviso', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)})).json();
+  m(on ? 'Aviso puesto: ' + body.minutos + ' min con ' + body.con : 'Aviso quitado');
+}
+</script></body></html>

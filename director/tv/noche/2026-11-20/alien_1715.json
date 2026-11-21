@@ -1,0 +1,442 @@
+{
+ "bloque": "alien_1715",
+ "programa": "alien",
+ "fecha": "2026-11-20",
+ "creado": "17:42:50",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Oumuamua el mensajero interestelar",
+   "sub": "SEÑAL EXTRAÑA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El primer objeto interestelar confirmado",
+   "diagrama": null,
+   "intl": {
+    "ja": "オウムアムアは宇宙のゴミ？ チャットで語ろう",
+    "ja_es": "¿Oumuamua es basura del espacio? Hablemos en el chat",
+    "en": "Oumuamua cosmic trash or shy asteroid? Join the chat",
+    "en_es": "¿Oumuamua basura cósmica o asteroide tímido? Únete al chat"
+   },
+   "sub": "entrevista con Dr. Michio K. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Con nosotros en este holograma que parpadea bajo la lluvia neón está el Dr. Michio K., un personaje de parodia hecho por inteligencia artificial inspirado en divulgadores entusiastas, no la persona real. Doctor, bienvenido al show."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Es fantástico estar aquí! Oumuamua es el primer mensajero interestelar confirmado, un asteroide alargado como cigarro que viaja a velocidad hiperbólica sin coma ni cola. Imagina si civilizaciones que dominan estrellas lo enviaron."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, su brillo varía de forma extrema por rotación irregular y se acercó al Sol dentro de la órbita de Mercurio. Los telescopios lo clasifican como asteroide, nada de naves alienígenas, aunque la leyenda insiste."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, cuéntenos desde el punto de vista técnico qué hace que Oumuamua sea el primer objeto interestelar confirmado que pasó por nuestro sistema solar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Es fantástico! Imagina un asteroide con forma de cigarro que viene del lejano pasado, viajando a velocidad hiperbólica sin estar atado al Sol, como un mensajero que evade toda la burocracia gravitacional de las megacorporaciones estelares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Su nombre significa mensajero del lejano pasado que llega primero en hawaiano y no muestra coma ni cola como los cometas típicos. ¿Qué nos dice eso sobre su naturaleza?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, si su velocidad hiperbólica lo delata como visitante interestelar, ¿por qué algunos insisten en que esa no-aceleración tan leve fue un empujón alienígena?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Es fantástico! Imagina que la burocracia interestelar tardó milenios en aprobar el formulario de visita y el motor falló justo al pasar por Mercurio, por eso solo dio un pequeño bostezo gravitacional."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿podría ser simplemente un resto de algún sistema que falló hace eones o estamos ante el primer caso de asteroide tímido que no quiere mostrar su coma?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, entonces qué es lo que nadie sabe sobre este mensajero interestelar que ni los algoritmos de la Corporación Blackrose logran predecir del todo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es fantástico. Imagina que su rotación irregular hace que brille como un faro defectuoso y nadie sabe con certeza de qué sistema huyó hace eones."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y esa falta de coma o cola nos deja con un asteroide tímido que no suelta vapor ni siquiera cerca del Sol. ¿Eso cambia todo lo que creíamos de visitantes?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Doctor, ¿podría ser que Oumuamua sea solo un pedazo de basura interestelar que las megacorporaciones del cosmos desecharon?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, si su perihelio lo llevó dentro de la órbita de Mercurio sin coma ni cola, ¿qué mecanismo técnico explica esa timidez interestelar?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es fantástico. Imagina que las megacorporaciones del vacío lo catalogaron como asteroide pero su rotación irregular es puro caos sin manual de usuario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y esa velocidad hiperbólica que lo libera del Sol, ¿nos dice que solo es un mensajero o que huye de algún algoritmo cósmico fallido?"
+    }
+   ],
+   "seg": 212,
+   "imgs": [
+    {
+     "web": "/medios/4bf0aa65a2937932_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/4bf0aa65a2937932_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «1I/ʻOumuamua»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Descubrimiento por Pan-STARRS en Hawái",
+   "diagrama": null,
+   "intl": {
+    "ja": "大岩はただの岩？ チャットで語ろう！",
+    "ja_es": "¿La gran roca es solo una roca? ¡Hablemos en el chat!",
+    "en": "Just a rock or corporate drone? Join the chat.",
+    "en_es": "¿Solo una roca o dron corporativo? Únete al chat."
+   },
+   "sub": "entrevista con Dr. Neil D. T. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Con el neón cayendo como siempre en la ciudad 2049 les presento al invitado de hoy. Aquí está el Dr. Neil D. T. nuestro astrofísico divulgador hecho por inteligencia artificial. No es la persona real solo una parodia cariñosa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Gracias Joy. Desde la perspectiva cósmica Oumuamua es el primer objeto interestelar confirmado que pasó por nuestro vecindario solar. En realidad recordemos que todos somos polvo de estrellas incluso este mensajero del lejano pasado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor el Pan-STARRS en Hawái lo detectó en octubre de dos mil diecisiete. Su nombre significa mensajero que llega primero. ¿Por qué los astrónomos lo llaman asteroide interestelar y no cometa?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, después de que Pan-STARRS lo detectó, múltiples telescopios lo siguieron. ¿Qué nos dice su velocidad hiperbólica sobre su origen?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desde la perspectiva cósmica, Joy, viaja tan rápido que el Sol ni siquiera pudo retenerlo. En realidad, es como un turista interestelar que pasó sin pedir visa, no como esos asteroides locales que se quedan a dar vueltas eternamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Su forma de cigarro y el brillo que varía tanto sugieren una rotación irregular. ¿Por qué los astrónomos lo llaman asteroide y no cometa?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, si no muestra coma ni cola y su brillo varía tanto, ¿por qué algunos insisten en que es una nave alienígena disfrazada de cigarro interestelar?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desde la perspectiva cósmica, Joy, en realidad es solo un asteroide que nos visita como un drone de Neón Holdings perdido en la burocracia galáctica. Aunque si tuviera motor alienígena, ya habría hackeado la tarjeta de 6 GB del canal."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, qué es lo que nadie sabe aún sobre este mensajero interestelar que dejó a los telescopios rascándose la cabeza?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desde la perspectiva cósmica, Joy, en realidad su rotación irregular hace que brille como un holograma corporativo defectuoso y nadie sabe con certeza de qué material está hecho."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. Entonces mientras la burocracia galáctica sigue debatiendo su origen, ¿crees que Oumuamua nos recuerda que somos solo polvo de estrellas con mejor marketing?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, qué opinas de los que juran que Oumuamua es una sonda de Doll Dynamics?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desde la perspectiva cósmica Joy en realidad es solo roca interestelar no un dron corporativo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces por qué su aceleración mínima generó tantos memes en los servidores de Megacorp Rosa?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desde la perspectiva cósmica fue solo outgassing leve nadie llama a los abogados alienígenas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, qué opinas de los que juran que Oumuamua es una sonda de Neón Holdings disfrazada de roca."
+    }
+   ],
+   "seg": 194,
+   "imgs": [
+    {
+     "web": "/medios/8fefe73ca00667a8_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/8fefe73ca00667a8_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «1I/ʻOumuamua»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011906_nh_launchchange",
+   "archivo": "v/v_nasa_ksc_011906_nh_launchchange.mp4",
+   "titulo": "KSC-06-S-00004",
+   "atribucion": "«KSC-06-S-00004» — NASA · images.nasa.gov",
+   "dur": 96,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La estrella de Tabby: variaciones sin explicación",
+   "sub": "SEÑAL EXTRAÑA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo Kepler detectó los dips de brillo",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Como Kepler Detecto Dips",
+    "cajas": [
+     {
+      "t": "Estrella en Cygnus",
+      "n": "Brillo irregular como holograma defectuoso"
+     },
+     {
+      "t": "Dips de 20%",
+      "n": "Sin planetas que expliquen la caída"
+     },
+     {
+      "t": "Algoritmos en Orbita",
+      "n": "Procesan terabytes de datos"
+     },
+     {
+      "t": "Burocracia NASA",
+      "n": "Pide mas reuniones e informes"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ケプラーの謎のdipを笑いながら見よう。チャットで語ろう！",
+    "ja_es": "Veamos riendo los dips misteriosos de Kepler. ¡Hablemos en el chat!",
+    "en": "Kepler's weird dips still baffle us. Join the chat, humans.",
+    "en_es": "Los dips raros de Kepler aún nos desconcertan. Únete al chat, humanos."
+   },
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina una estrella en Cygnus que parpadea como un holograma defectuoso bajo la lluvia neón. ¿Qué está tapando su luz de forma tan irregular?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kepler lo vio todo desde su órbita. La NASA detectó dips de hasta un veinte por ciento sin que ningún planeta aparezca en los datos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los algoritmos de Kepler masticaron terabytes mientras la burocracia terrestre pedía más reuniones. Así se encontró el patrón sin explicación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kepler era un telescopio que la NASA lanzó para cazar planetas. En vez de eso encontró una estrella en Cygnus que bajaba su brillo de golpe hasta un veinte por ciento sin motivo aparente. Los datos llegaron limpios, sin planetas a la vista. Imagina la cara de los algoritmos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los algoritmos de Kepler procesaron terabytes en órbita mientras en tierra la burocracia de la NASA pedía informes en triplicado. Así detectaron dips irregulares que ningún modelo explicaba. La estrella es más caliente y masiva que el Sol, y sigue sin mostrar planetas confirmados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que tu tarjeta de crédito corporativa se niega a pagar la cuenta cada vez que pasas por el mismo semáforo. Kepler detectó los dips porque sus algoritmos comparaban brillo estrella por estrella como un contador obsesivo. De repente KIC 8462852 bajaba un veinte por ciento sin motivo. La burocracia de la NASA tardó meses en aprobar el papel que decía raro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto como cuando tu jefe pide tres copias de un meme. Los sensores de Kepler medían luz cada treinta minutos y los datos llegaban limpios. Un dip normal es del uno por ciento por un planeta. Este era veinte veces más grande y sin curva de tránsito limpia. Los astrónomos se rascaron la cabeza y propusieron cometas hechos polvo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La estrella de Tabby es más caliente y masiva que el Sol y aun así decide bajar su brillo hasta un veinte por ciento sin avisar. Como si la megacorp Rosa te bajara el sueldo cada vez que su IA se aburre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los astrónomos detectaron estos cambios en los datos de la misión Kepler. Imagina algoritmos en órbita resolviendo el misterio mientras en tierra alguien llenaba formularios en triplicado para aprobar un café."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No se han encontrado planetas confirmados orbitando la estrella de Tabby. Claro, porque si hubiera uno ya habría pedido aumento y se habría ido a otra galaxia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kepler detectó los dips midiendo fotones con precisión quirúrgica. Un telescopio orbitando que convierte variaciones de luz en números limpios mientras los humanos tardamos meses en abrir un ticket."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aun así los algoritmos no supieron qué diablos era. Imagina entregar un informe a la junta de Neón Holdings y que te respondan con un emoji de cometa fragmentado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los astrónomos siguen proponiendo nubes de polvo o enjambres de cometas. Explicaciones naturales que suenan decentes hasta que la estrella decide bajar otro veinte por ciento solo para reírse."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kepler midió fotones con una precisión que haría llorar a cualquier contador corporativo. Convertía luz en curvas limpias mientras la junta de Doll Dynamics pedía más reuniones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aun así los modelos se rompían como mi batería vieja. Imagina entregar datos impecables y que la IA de turno responda con un simple archivo llamado quizás cometas.pdf."
+    }
+   ],
+   "seg": 248,
+   "imgs": [
+    {
+     "web": "/medios/23967b3a63efcfd7_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/23967b3a63efcfd7_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «KIC 8462852»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Por qué es más caliente y masiva que el Sol",
+   "diagrama": null,
+   "intl": {
+    "ja": "タビーの星より熱いブラックローズ、チャットで語ろう",
+    "ja_es": "Más caliente que la estrella de Tabby, Blackrose. Hablemos en el chat.",
+    "en": "Hotter than Tabby's star and way more massive, join the chat.",
+    "en_es": "Más caliente y masiva que la estrella de Tabby, únete al chat."
+   },
+   "sub": "entrevista con Dr. Neil D. T. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Con nosotros está el invitado estelar de esta noche, un personaje de parodia hecho por inteligencia artificial inspirado en el divulgador cósmico. Doctor Neil D. T., bienvenido al misterio de la estrella de Tabby."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Gracias Joy, y hola a todos los que flotan en esta lluvia neón. En realidad la estrella de Tabby es más caliente y masiva que el Sol, aunque mi tarjeta de seis gigas ya se está preguntando si eso explica las bajadas del veinte por ciento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, desde la perspectiva cósmica, ¿por qué una estrella tan robusta nos da estos dips irregulares que ni los algoritmos corporativos logran predecir?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, es como si la estrella de Tabby hubiera contratado a una megacorp rosa para su propio eclipse privado. Es más caliente y masiva que el Sol, pero sus caídas de brillo son tan caprichosas que hasta los cometas fragmentados parecen estar en huelga sindical."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿podría tratarse solo de nubes de polvo o material en órbita, o hay algo que los telescopios terrestres siguen sin explicarnos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, si la estrella es más caliente y masiva que el Sol, ¿por qué sus dips parecen un algoritmo de megacorp que se cuelga cada dos semanas sin razón aparente?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, es como si Tabby estuviera en plena crisis existencial cósmica. Somos polvo de estrellas, pero a veces ese polvo decide hacer huelga y bajar el brillo un veinte por ciento solo para vernos sufrir."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces dime, ¿los telescopios terrestres siguen sin explicarlo o ya hay una burocracia científica que nos oculta que es solo cometas fragmentados disfrazados de misterio?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, qué es lo que nadie sabe todavía sobre estas variaciones que ni los algoritmos de Neón Holdings logran predecir."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, los astrónomos siguen detectando que la estrella de Tabby emite más luz infrarroja de lo esperado, como si algo estuviera calentando polvo a su alrededor sin que sepamos qué."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. Entonces esa firma infrarroja extra, ¿podría ser solo burocracia cósmica o nos deja con más preguntas que un parche de actualización de Doll Dynamics?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, es como si Tabby hubiera contratado a una megacorporación ficticia para ocultar su exceso de calor."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. Entonces, ¿podría ser material en órbita o solo algoritmos que fallan como los nuestros?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, los astrónomos siguen monitoreando sin planetas confirmados, puro polvo cósmico en crisis."
+    },
+    {
+     "quien": "joy",
+     "texto": "Doctor, si es más caliente y masiva que el Sol, ¿por qué sus dips parecen una burocracia cósmica que no termina nunca?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En realidad Joy, desde la perspectiva cósmica es como si Tabby hubiera subcontratado a una megacorporación ficticia para su crisis de brillo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. Entonces, ¿podría ser solo cometas fragmentados o los algoritmos de Kepler fallando como nuestros servidores lentos?"
+    }
+   ],
+   "seg": 216,
+   "imgs": [
+    {
+     "web": "/medios/9dfdf5374a7d9261_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/9dfdf5374a7d9261_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «KIC 8462852»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_B-bR_bRRMqA",
+   "archivo": "yt/darktechno/B-bR_bRRMqA.mp4",
+   "titulo": "Darksynth Techno / Synth-Trance / Acid Industrial Type Beat / Cyberpunk Music 'Archanum'",
+   "audio": "yt/darktechno/B-bR_bRRMqA.m4a",
+   "atribucion": "Música: «Darksynth Techno / Synth-Trance / Acid Industrial Type Beat / Cyberpun» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 483,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/B-bR_bRRMqA.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_lS0_Ah5ruYA",
+   "archivo": "yt/synthwave/lS0_Ah5ruYA.m4a",
+   "titulo": "Vosai & Facading - Crossed The Line (feat. Linn Sandin) | Electronic | NCS",
+   "audio": "yt/synthwave/lS0_Ah5ruYA.m4a",
+   "atribucion": "Música: «Vosai & Facading - Crossed The Line (feat. Linn Sandin) | Electronic |» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 147,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/lS0_Ah5ruYA.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 870,
+  "medios": 3
+ }
+}

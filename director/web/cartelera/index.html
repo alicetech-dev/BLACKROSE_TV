@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Cartelera</title>
+<!-- CARTELERA de la noche de BlackRose TV. Capa transparente 1920×1080 para OBS (encima de todo).
+     Datos: GET /api/cartelera (director/tv/cartelera.json, se relee solo; editable en vivo). Hora = reloj de esta máquina.
+     · Chip fijo AHORA / LUEGO (franja central bajo el logo: no toca personajes, subtítulos ni chat).
+     · Tarjeta grande con TODA la noche: sale 25 s al empezar cada programa, cada 10 min (min :05), y a pedido:
+         curl -X POST :8822/api/cartelera -d '{"mostrar":25}'
+     ?demo=1 deja la tarjeta fija · ?chip=0 oculta el chip · ?cada=N min entre apariciones (10; 0 = solo al empezar cada programa) · ?auto=0 sin apariciones automáticas · ?ahora=HH:MM simula la hora -->
+<style>
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--rosa:#ff2fd6;--cian:#00e5ff;--oro:#ffe45e;--fondo:rgba(8,2,16,.90)}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent;color:#fff;font-family:Rajdhani,sans-serif}
+
+/* ── chip fijo ─────────────────────────────────────────────── */
+#chip{position:absolute;left:50%;top:172px;transform:translateX(-50%);display:flex;flex-direction:column;width:560px;white-space:nowrap;
+  background:var(--fondo);border:2px solid var(--cian);box-shadow:0 0 14px rgba(0,229,255,.35);
+  clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px));transition:opacity .5s}
+#chip.off{opacity:0}
+#chip .m{display:flex;align-items:center;gap:10px;padding:0 14px;height:31px}
+#chip .m+.m{border-top:1px solid rgba(255,255,255,.18)}
+#chip .et{font:12px Orbitron;letter-spacing:2px;color:#05010a;padding:2px 7px;background:var(--c,var(--cian));min-width:62px;text-align:center}
+#chip .tt{font:17px Audiowide;color:#fff;letter-spacing:1px;flex:1;overflow:hidden;text-overflow:ellipsis}
+#chip .hh{font:25px VT323;color:var(--oro)}
+#chip .m.luego .et{background:var(--rosa);color:#fff}
+#chip .live{display:inline-block;width:8px;height:8px;border-radius:50%;background:#ff2d4a;margin-right:4px;animation:late 1s steps(2) infinite}
+@keyframes late{50%{opacity:.25}}
+
+/* ── tarjeta grande ────────────────────────────────────────── */
+#card{position:absolute;left:50%;top:176px;width:980px;transform:translateX(-50%) translateY(-26px) scale(.97);opacity:0;pointer-events:none;
+  background:var(--fondo);border:3px solid var(--rosa);padding:16px 26px 14px;
+  box-shadow:0 0 28px rgba(255,47,214,.5),inset 0 0 22px rgba(255,47,214,.10);
+  clip-path:polygon(0 0,calc(100% - 26px) 0,100% 26px,100% 100%,26px 100%,0 calc(100% - 26px));
+  transition:opacity .5s,transform .6s cubic-bezier(.2,1.2,.3,1)}
+#card.si{opacity:1;transform:translateX(-50%) translateY(0) scale(1)}
+#card h1{margin:0;display:flex;align-items:baseline;justify-content:space-between;font:30px Audiowide;letter-spacing:3px;color:#fff;text-shadow:0 0 10px var(--rosa)}
+#card h1 small{font:16px Orbitron;letter-spacing:4px;color:var(--cian);text-shadow:none}
+#card .rel{font:22px Rajdhani;color:#cdb8df;letter-spacing:1px;margin:2px 0 8px}
+#card .rel b{color:var(--oro)}
+.fila{display:grid;grid-template-columns:92px 1fr auto;align-items:center;gap:14px;height:46px;border-top:1px solid rgba(255,255,255,.10);position:relative;padding:0 8px}
+.fila .h{font:38px VT323;color:var(--c);text-shadow:0 0 8px var(--c)}
+.fila .n{font:21px Audiowide;color:#fff;letter-spacing:1px;line-height:1}
+.fila .s{font:19px Rajdhani;color:#cdb8df;line-height:1;margin-top:3px}
+.fila .g{font:12px Orbitron;letter-spacing:2px;color:var(--c);border:1px solid var(--c);padding:3px 8px}
+.fila.pasado{opacity:.38}
+.fila.pasado .n{text-decoration:line-through;text-decoration-color:rgba(255,255,255,.4)}
+.fila.ahora{background:linear-gradient(90deg,color-mix(in srgb,var(--c) 28%,transparent),transparent 85%)}
+.fila.ahora::before{content:"▶ AHORA";position:absolute;left:-2px;top:-1px;font:11px Orbitron;letter-spacing:2px;color:#05010a;background:var(--c);padding:1px 6px;transform:translateY(-100%);display:none}
+.fila.ahora .g{background:var(--c);color:#05010a;animation:late 1s steps(2) infinite}
+.fila.prox{background:linear-gradient(90deg,rgba(255,47,214,.20),transparent 85%)}
+.fila.esp{border:2px solid #fff;box-shadow:0 0 16px rgba(255,255,255,.55),inset 0 0 14px rgba(255,255,255,.12);margin-top:6px;height:54px}
+.fila.esp .n{font-size:26px;text-shadow:0 0 12px #fff}
+.fila.esp .g{background:#ff2d4a;border-color:#ff2d4a;color:#fff}
+#card .pie{margin-top:8px;font:15px Orbitron;letter-spacing:3px;color:var(--cian);text-align:center;opacity:.85}
+</style></head>
+<body>
+<div id="chip"></div>
+<div id="card"></div>
+<script>
+const q = new URLSearchParams(location.search), $ = id => document.getElementById(id);
+const DEMO = q.get('demo') === '1', AUTO = q.get('auto') !== '0', CADA = q.has('cada') ? +q.get('cada') : 10;
+let D = null, ultimoBloque = null, hastaServidor = 0, hastaLocal = 0;
+
+function ahoraMin() {                       // minutos desde las 00:00, con la madrugada contada como «noche + 24 h»
+  let n; if (q.get('ahora')) { const [h, m] = q.get('ahora').split(':').map(Number); n = h * 60 + m + 0.5; }
+  else { const d = new Date(); n = d.getHours() * 60 + d.getMinutes() + d.getSeconds() / 60; }
+  return n < 12 * 60 ? n + 1440 : n;
+}
+const aMin = hhmm => { const [h, m] = hhmm.split(':').map(Number); const x = h * 60 + m; return x < 12 * 60 ? x + 1440 : x; };
+const mmss = min => { const s = Math.max(0, Math.round(min * 60)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
+const dur = D_ => D_.duracion_bloque || 45;
+
+function estado() {
+  const n = ahoraMin(), B = D.bloques.map(b => ({ ...b, a: aMin(b.ini), z: aMin(b.ini) + (b.dura || dur(D)) }));
+  const ant = B.filter(b => b.a <= n).pop(), sig = B.find(b => b.a > n);
+  let fase, actual = null;
+  if (!ant) fase = 'antes';
+  else if (n < ant.z) { fase = 'aire'; actual = ant; }
+  else if (sig) fase = 'pausa';
+  else fase = 'fin';
+  return { n, B, ant, sig, fase, actual };
+}
+
+function dibujarChip(e) {
+  const c = $('chip'); if (q.get('chip') === '0') { c.classList.add('off'); return; }
+  let a, l = '';
+  if (e.fase === 'aire') {
+    a = `<div class="m" style="--c:${e.actual.color}"><span class="et">${e.actual.especial ? '<i class="live"></i> ' : ''}AHORA</span><span class="tt">${e.actual.nombre}</span></div>`;
+    if (e.sig) l = `<div class="m luego"><span class="et">LUEGO</span><span class="tt">${e.sig.nombre}</span><span class="hh">${e.sig.ini}</span></div>`;
+  } else if (e.fase === 'pausa') {
+    a = `<div class="m" style="--c:#ffe45e"><span class="et">AHORA</span><span class="tt">PAUSA COMERCIAL</span></div>`;
+    l = `<div class="m luego"><span class="et">VOLVEMOS</span><span class="tt">${e.sig.nombre}</span><span class="hh">${mmss(e.sig.a - e.n)}</span></div>`;
+  } else if (e.fase === 'antes') {
+    a = `<div class="m" style="--c:#ffe45e"><span class="et">HOY</span><span class="tt">PROGRAMACIÓN NOCTURNA</span></div>`;
+    l = `<div class="m luego"><span class="et">DESDE</span><span class="tt">${D.bloques[0].nombre}</span><span class="hh">${D.bloques[0].ini}</span></div>`;
+  } else { a = `<div class="m"><span class="et">FIN</span><span class="tt">HASTA LA PRÓXIMA NOCHE</span></div>`; }
+  c.innerHTML = a + l; c.classList.remove('off');
+}
+
+function dibujarCard(e) {
+  const b0 = e.B[0], bN = e.B[e.B.length - 1];
+  let rel = '';
+  if (e.fase === 'antes') rel = `La noche empieza a las <b>${b0.ini}</b> · faltan <b>${mmss(b0.a - e.n)}</b>`;
+  else if (e.fase === 'aire') rel = `Al aire: <b>${e.actual.nombre}</b>${e.sig ? ` · sigue <b>${e.sig.nombre}</b> a las ${e.sig.ini}` : ''}`;
+  else if (e.fase === 'pausa') rel = `Pausa comercial · vuelve <b>${e.sig.nombre}</b> en <b>${mmss(e.sig.a - e.n)}</b>`;
+  else rel = 'Gracias por acompañarnos. Hasta la próxima noche.';
+  const filas = e.B.map(b => {
+    const cls = ['fila'];
+    if (b.especial) cls.push('esp');
+    if (e.fase === 'aire' && b === e.actual) cls.push('ahora');
+    else if (b.z <= e.n) cls.push('pasado');
+    else if ((e.fase === 'pausa' || e.fase === 'antes' || e.fase === 'aire') && b === e.sig) cls.push('prox');
+    const tag = (e.fase === 'aire' && b === e.actual) ? (b.especial ? '● EN VIVO' : '● AL AIRE') : b.tag;
+    return `<div class="${cls.join(' ')}" style="--c:${b.color}"><span class="h">${b.ini}</span><div><div class="n">${b.nombre}</div><div class="s">${b.sub}</div></div><span class="g">${tag}</span></div>`;
+  }).join('');
+  $('card').innerHTML = `<h1>${D.titulo}<small>${D.noche} · ${b0.ini} → ${bN.ini}</small></h1><div class="rel">${rel}</div>${filas}<div class="pie">BLACKROSE TV · SEÑAL PIRATA DESDE LA MANSIÓN BLACKROSE</div>`;
+}
+
+function tarjetaVisible(e) {
+  const ahora = Date.now();
+  if (DEMO) return true;
+  if (ahora < hastaLocal) return true;
+  if (!AUTO) return false;
+  const d = new Date(); const s = d.getSeconds(), m = d.getMinutes();
+  if (CADA > 0 && m % CADA === 5 % CADA && s < 25) return true;             // cada CADA min (?cada=0 la desactiva; en TV NOCHE no tapa el video)
+  const b = e.fase === 'aire' ? e.actual : null;                            // al empezar un programa
+  if (b && (e.n - b.a) * 60 < 25) return true;
+  return false;
+}
+
+function tick() {
+  if (!D) return; const e = estado();
+  const v = tarjetaVisible(e);
+  dibujarChip(e);
+  if (v) { $('chip').classList.add('off'); dibujarCard(e); }
+  $('card').classList.toggle('si', v);
+}
+async function leer() {
+  try {
+    const d = await (await fetch('/api/cartelera', { cache: 'no-store' })).json();
+    D = d; if (d.mostrar_hasta && d.mostrar_hasta !== hastaServidor) { hastaServidor = d.mostrar_hasta; hastaLocal = Date.now() + Math.max(0, (d.mostrar_hasta - d.ahora) * 1000); }
+  } catch (_) {}
+}
+leer(); setInterval(leer, 5000); setInterval(tick, 1000);
+</script></body></html>

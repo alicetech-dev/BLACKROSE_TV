@@ -1,0 +1,11 @@
+[Unit]
+Description=BlackRose TV noche — PRODUCTOR (crea el contenido de cada bloque con Grok, va adelantado)
+
+[Service]
+WorkingDirectory=/home/alice/joy_vmc
+ExecStart=/home/alice/joy_vmc/.venv/bin/python -m director.tv.productor demonio
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

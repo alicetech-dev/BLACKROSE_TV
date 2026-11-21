@@ -1,0 +1,310 @@
+{
+ "bloque": "ciencia_0105",
+ "programa": "ciencia",
+ "fecha": "2026-11-20",
+ "creado": "01:11:11",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Actualidad",
+   "sub": "LABORATORIO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Una hoja de papel tiene 0,1 mm de grosor, pero al doblarla 27 veces se",
+   "sub": "Xataka Ciencia · hace 17 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Una hoja de papel corriente mide milimétricamente, pero doblarla veintiséis veces genera una torre que supera al Everest."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El resumen nos dice que cada doblez multiplica la altura exponencialmente, hasta llegar a más de ciento treinta y cuatro kilómetros con solo veinte pliegues."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y si añadimos quince dobleces más, la pila mide casi cuarenta mil trescientos ochenta kilómetros, algo que ningún ascensor corporativo podría soportar."
+    }
+   ],
+   "seg": 32,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/72cf37fc36fadaaa_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/72cf37fc36fadaaa_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Marie-Hélène Verlhac, bióloga del Collège de France, sobre la proteína",
+   "sub": "Xataka Ciencia · hace 19 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Marie-Hélène Verlhac del Collège de France explica cómo una proteína puede frenar el desgaste celular en ratones, pero aún no se aplica a humanos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El contexto sugiere que los ovocitos nacen con toda su vida reproductiva, en pausa hasta que el tiempo desgasta sus cromosomas progresivamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es una pista importante para entender la vejez biológica, aunque la tecnología aún está lejos de traducirse a terapias clínicas reales."
+    }
+   ],
+   "seg": 33,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/c273ad536f6e26fe_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c273ad536f6e26fe_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El eclipse del siglo apagará el sol de 'Star Wars' sobre el desierto d",
+   "sub": "Xataka Ciencia · hace 35 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El eclipse del siglo de agosto de dos mil veintisiete apagará el sol de Star Wars sobre el desierto de Túnez, donde se rodó la saga."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En Tatooine brillan dos soles, pero en la Tierra solo tenemos uno, y este evento histórico coincidirá con el sur donde se filmaron muchas escenas icónicas."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Alguien cree que los fans seguirán buscando sombras de luces láser bajo el cielo negro cuando llegue la oscuridad total?"
+    }
+   ],
+   "seg": 35,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/c70c0ae90fd27b2c_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c70c0ae90fd27b2c_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20241101_whatsuf_0001_whats_up_novem",
+   "archivo": "v/v_nasa_jpl_20241101_whatsuf_0001_whats_up_novem.mp4",
+   "titulo": "What's Up: November 2024 Skywatching Tips from NASA",
+   "atribucion": "«What's Up: November 2024 Skywatching Tips from NASA» — NASA · images.nasa.gov",
+   "dur": 300,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Del laboratorio a la realidad",
+   "sub": "LABORATORIO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Personalización nutricional con datos genéticos",
+   "diagrama": null,
+   "intl": {
+    "ja": "遺伝子という指揮官が食卓を飾るなら、味方たちはどう反応する？",
+    "ja_es": "If genetics were the conductor at the table, how would the guests react?",
+    "en": "Genetics as a conductor? Taste the chaos and join the chat.",
+    "en_es": "¿La genética como director de orquesta? Prueba el caos y únete al chat."
+   },
+   "sub": "entrevista con Dr. Michio K. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¡Bienvenido, Dr. Michio K.! Tu voz es la que hace que el universo parezca un laberinto de oportunidades infinitas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero ojo: esto no es una entrevista real, es una parodia creada por IA para que nos reamos juntos."
+    },
+    {
+     "quien": "joy",
+     "texto": "¡Claro! Y mientras tanto, ¿crees que algún día podamos viajar a civilizaciones que dominen la energía de una estrella?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. Michio K., ¿cómo se siente el cuerpo humano cuando los datos genéticos le dictan su propia dieta?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Fantástico! Es como si cada célula tuviera un plan de carrera, pero con más proteínas y menos burocracia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. K., ¿qué diría usted si un día la genética no fuera solo un catálogo, sino un director de orquesta que toca el cuerpo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Diría que es como pedirle a un chef que cocine con los ingredientes del aire! Fantástico, pero ¿y si la receta falla? ¡La burocracia no te salva!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Dr. K., ¿qué es lo que nadie sabe sobre la genética? ¿Algo que escape a los catálogos tradicionales?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La ciencia dice que el epigenético puede cambiar cómo se expresa un gene sin alterar el ADN, como si cada célula tuviera su propia luz. ¡Fantástico!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿la burocracia no es el enemigo del progreso genético?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Diría que es como pedirle a un chef que cocine con los ingredientes del mañana! ¡La comida se hace en el momento!"
+    }
+   ],
+   "seg": 109,
+   "imgs": [
+    {
+     "web": "/medios/b016c748c75cf123_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/b016c748c75cf123_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Macrodatos»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ejercicio moderado y producción de endorfinas",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Actualiza tu cuerpo",
+    "cajas": [
+     {
+      "t": "El cuerpo es un PC antiguo",
+      "n": "Software desactualizado y lento para la felicidad"
+     },
+     {
+      "t": "Ejercicio moderado = actualización",
+      "n": "Instala drivers de bienestar y optimiza la recuperación cognitiva"
+     },
+     {
+      "t": "Endorfinas = emojis del sistema",
+      "n": "Neurotransmisores que liberan el estado de ánimo positivo"
+     },
+     {
+      "t": "Burocracia de gimnasios",
+      "n": "Piden permiso para ejecutar la actualización física"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "体をアップデートする運動は、脳に楽しい化学物質を供給しますよ。",
+    "ja_es": "El ejercicio actualiza el cuerpo y suministra sustancias químicas alegres al cerebro.",
+    "en": "Moderate movement updates your body and releases happy chemicals in the brain.",
+    "en_es": "El movimiento moderado actualiza tu cuerpo y libera sustancias químicas alegres en el cerebro."
+   },
+   "sub": "explicado · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez has sentido que tu cuerpo es un ordenador demasiado lento para ejecutar la felicidad?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La ciencia dice que el ejercicio moderado inyecta endorfinas, pero la burocracia de los gimnasios sigue pidiendo permisos para bailar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El ejercicio es como un software de actualización para el cuerpo. Las endorfinas son los emojis que sale al final, pero la burocracia del gimnasio pide permisos para bailar."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ciencia dice que el movimiento libera neurotransmisores, igual que un sistema operativo que se reinicia. Solo faltan los drivers de felicidad en tu lista de compras."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los sensores miden tus pasos como si fueran transacciones bancarias. La empresa de bienestar predice tu próxima compra antes de que la decidas tú."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina que tu cuerpo es un ordenador antiguo con software desactualizado. El ejercicio moderado es como instalar una actualización segura que optimiza el rendimiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El cuerpo no es un PC con drivers rotos, es un organismo que repara su propio hardware. La endorfina es el sistema de recompensa que dice ‘buen trabajo’ cuando el software se actualiza."
+    },
+    {
+     "quien": "joy",
+     "texto": "Precisamente. El ejercicio moderado funciona como una actualización segura del cuerpo, optimizando la recuperación cognitiva sin necesidad de reinstalar todo el sistema operativo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si tu sistema operativo es la rutina, ¿qué pasa cuando los sensores de sueño detectan que estás dormido en medio del caos corporativo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La ciencia dice que el movimiento libera neurotransmisores, igual que una descarga de drivers para que todo funcione fluido."
+    }
+   ],
+   "seg": 116,
+   "imgs": [
+    {
+     "web": "/medios/8039002d13c63eb0_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/8039002d13c63eb0_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Macrodatos»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_GtSiCP17zIE",
+   "archivo": "yt/citypop/GtSiCP17zIE.m4a",
+   "titulo": "Neon Rain Memory",
+   "audio": "yt/citypop/GtSiCP17zIE.m4a",
+   "atribucion": "Música: «Neon Rain Memory» · NN Records · sin copyright (YouTube)",
+   "dur": 243,
+   "genero": "CITY POP JAPÓN",
+   "img": "/tv/media/yt/citypop/GtSiCP17zIE.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_A6UdjfUAgWw",
+   "archivo": "yt/synthwave/A6UdjfUAgWw.m4a",
+   "titulo": "PLEEG - Spirit | Electronic Pop | NCS",
+   "audio": "yt/synthwave/A6UdjfUAgWw.m4a",
+   "atribucion": "Música: «PLEEG - Spirit | Electronic Pop | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 176,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/A6UdjfUAgWw.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 5,
+  "seg_charla": 325,
+  "medios": 3
+ }
+}

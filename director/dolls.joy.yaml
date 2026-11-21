@@ -1,0 +1,56 @@
+# JOY SOLA acompañando el cowork (el T-800 guardado): ~/joy_vmc/t800_modo.sh joy
+# El T-800 amigable, solo:  ./dolls.sh start --t800   (el director arranca con --config director/dolls.t800.yaml)
+# Cerebro: pack `t800` del agente (memoria propia en ~/proyectos/agente_unificado/data_t800). Cuerpo: el pixel art de OBS
+# (~/overlays_t800/t8_cuerpo.py en :8772 → t8_avatar.html?ws=ws://127.0.0.1:8772/avatar). Sin Warudo ni joy_vmc.
+sfw: true
+agente: ws://127.0.0.1:8791
+xtts_url: http://127.0.0.1:9020/tts
+llm_directo: http://127.0.0.1:8084
+
+usuario: {id: 0, nombre: Alice}
+
+audio:
+  sink: dolls
+  bloque_ms: 20
+  adelanto_ms: 30
+
+opinar: 0
+
+dolls:
+  joy:
+    nombre: Joy
+    alias: [joy, yoi]
+    cuerpo: ws://127.0.0.1:8770
+    vmc_puerto: 39539
+    cuerpo_desc: "cyborg cat-girl avatar: cat ears, tail, robotic arms and glowing eyes"
+    idioma: es
+    voz: {motor: google, respaldo: ninguno, gtts_tld: {es: com.mx, en: com}, tono: 1.12}
+
+sala:
+  activo: true
+  silencio: [40, 80]    # mientras juega: acompaña seguido
+  dialogo_max: 1
+  replicar: 0
+  posturas: {}
+
+canal:
+  youtube: "@barbieblackrose"
+  twitch: ""
+  kick: ""
+  auto: true
+  cada: [20, 45]
+  vence: 180
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot]
+  bloquear: []
+
+temas:
+  - "la Temporada 13 de Faaast Penguin, FPX: Badlands, que salió ayer: qué trae el mundo nuevo. Datos oficiales (notas del parche de faaast-penguin.com): Faaast Penguin, un juego de carreras multijugador de pingüinos, sacó el 15 de octubre de 2026 la Temporada 13, actualización v2.3.0, con un mundo nuevo, FPX: Badlands. Trae 4 cursos nuevos (no publicaron los nombres); usa la acción Truco (Trick) como FPX: Snowboarding: con puntos de truco sube tu Run Rank y con eso tu velocidad base. Nuevo obstáculo, Barrel Mouse: ratones voladores con un barril y un interruptor en la espalda; si golpeás el interruptor el barril explota al rato, y hay que esquivar las explosiones mientras encadenás trucos. Cambios de balance en los trucos: menos rebote en las pendientes, ventana más amplia para acertar, rodada más corta al caer mal, y ahora caer mal da un pequeño impulso según cuántos trucos hiciste; menos retrocesos de posición por lag. Novedades: favoritos en la personalización (aparecen arriba con un corazón), opciones accesibles durante las carreras, opción Precompilar shaders en Steam y Epic para que no se trabe (viene apagada y pide reiniciar), y tickets de rango según el pase de temporada (normal, Gold o Black). Arreglos: posiciones mal mostradas en Through the Sky Fleet, corrientes que te tiraban fuera del curso en Coral Canyon, la misión Attack: Master Seal en Temple of the Abyss y sonidos de emotes en Aqua Wonder. También hay una campaña en redes por el lanzamiento del mundo nuevo con cristales de premio. Alice lo juega en PC (Steam). Akane Bankei NO está en este stream: no le hables a ella. Si un detalle no está acá, decí que no lo sabés."
+  - "el Barrel Mouse de FPX: Badlands: cómo se juega con las explosiones mientras encadenás trucos. Datos oficiales (notas del parche de faaast-penguin.com): Faaast Penguin, un juego de carreras multijugador de pingüinos, sacó el 15 de octubre de 2026 la Temporada 13, actualización v2.3.0, con un mundo nuevo, FPX: Badlands. Trae 4 cursos nuevos (no publicaron los nombres); usa la acción Truco (Trick) como FPX: Snowboarding: con puntos de truco sube tu Run Rank y con eso tu velocidad base. Nuevo obstáculo, Barrel Mouse: ratones voladores con un barril y un interruptor en la espalda; si golpeás el interruptor el barril explota al rato, y hay que esquivar las explosiones mientras encadenás trucos. Cambios de balance en los trucos: menos rebote en las pendientes, ventana más amplia para acertar, rodada más corta al caer mal, y ahora caer mal da un pequeño impulso según cuántos trucos hiciste; menos retrocesos de posición por lag. Novedades: favoritos en la personalización (aparecen arriba con un corazón), opciones accesibles durante las carreras, opción Precompilar shaders en Steam y Epic para que no se trabe (viene apagada y pide reiniciar), y tickets de rango según el pase de temporada (normal, Gold o Black). Arreglos: posiciones mal mostradas en Through the Sky Fleet, corrientes que te tiraban fuera del curso en Coral Canyon, la misión Attack: Master Seal en Temple of the Abyss y sonidos de emotes en Aqua Wonder. También hay una campaña en redes por el lanzamiento del mundo nuevo con cristales de premio. Alice lo juega en PC (Steam). Akane Bankei NO está en este stream: no le hables a ella. Si un detalle no está acá, decí que no lo sabés."
+  - "los cambios a los trucos en Faaast Penguin: por qué caer mal ahora te da un impulsito. Datos oficiales (notas del parche de faaast-penguin.com): Faaast Penguin, un juego de carreras multijugador de pingüinos, sacó el 15 de octubre de 2026 la Temporada 13, actualización v2.3.0, con un mundo nuevo, FPX: Badlands. Trae 4 cursos nuevos (no publicaron los nombres); usa la acción Truco (Trick) como FPX: Snowboarding: con puntos de truco sube tu Run Rank y con eso tu velocidad base. Nuevo obstáculo, Barrel Mouse: ratones voladores con un barril y un interruptor en la espalda; si golpeás el interruptor el barril explota al rato, y hay que esquivar las explosiones mientras encadenás trucos. Cambios de balance en los trucos: menos rebote en las pendientes, ventana más amplia para acertar, rodada más corta al caer mal, y ahora caer mal da un pequeño impulso según cuántos trucos hiciste; menos retrocesos de posición por lag. Novedades: favoritos en la personalización (aparecen arriba con un corazón), opciones accesibles durante las carreras, opción Precompilar shaders en Steam y Epic para que no se trabe (viene apagada y pide reiniciar), y tickets de rango según el pase de temporada (normal, Gold o Black). Arreglos: posiciones mal mostradas en Through the Sky Fleet, corrientes que te tiraban fuera del curso en Coral Canyon, la misión Attack: Master Seal en Temple of the Abyss y sonidos de emotes en Aqua Wonder. También hay una campaña en redes por el lanzamiento del mundo nuevo con cristales de premio. Alice lo juega en PC (Steam). Akane Bankei NO está en este stream: no le hables a ella. Si un detalle no está acá, decí que no lo sabés."
+  - "consejo para Alice: activar Precompilar shaders en Steam para que el juego no se trabe. Datos oficiales (notas del parche de faaast-penguin.com): Faaast Penguin, un juego de carreras multijugador de pingüinos, sacó el 15 de octubre de 2026 la Temporada 13, actualización v2.3.0, con un mundo nuevo, FPX: Badlands. Trae 4 cursos nuevos (no publicaron los nombres); usa la acción Truco (Trick) como FPX: Snowboarding: con puntos de truco sube tu Run Rank y con eso tu velocidad base. Nuevo obstáculo, Barrel Mouse: ratones voladores con un barril y un interruptor en la espalda; si golpeás el interruptor el barril explota al rato, y hay que esquivar las explosiones mientras encadenás trucos. Cambios de balance en los trucos: menos rebote en las pendientes, ventana más amplia para acertar, rodada más corta al caer mal, y ahora caer mal da un pequeño impulso según cuántos trucos hiciste; menos retrocesos de posición por lag. Novedades: favoritos en la personalización (aparecen arriba con un corazón), opciones accesibles durante las carreras, opción Precompilar shaders en Steam y Epic para que no se trabe (viene apagada y pide reiniciar), y tickets de rango según el pase de temporada (normal, Gold o Black). Arreglos: posiciones mal mostradas en Through the Sky Fleet, corrientes que te tiraban fuera del curso en Coral Canyon, la misión Attack: Master Seal en Temple of the Abyss y sonidos de emotes en Aqua Wonder. También hay una campaña en redes por el lanzamiento del mundo nuevo con cristales de premio. Alice lo juega en PC (Steam). Akane Bankei NO está en este stream: no le hables a ella. Si un detalle no está acá, decí que no lo sabés."
+  - "alentar a Alice en las carreras de Badlands, como compañera de sofá. Datos oficiales (notas del parche de faaast-penguin.com): Faaast Penguin, un juego de carreras multijugador de pingüinos, sacó el 15 de octubre de 2026 la Temporada 13, actualización v2.3.0, con un mundo nuevo, FPX: Badlands. Trae 4 cursos nuevos (no publicaron los nombres); usa la acción Truco (Trick) como FPX: Snowboarding: con puntos de truco sube tu Run Rank y con eso tu velocidad base. Nuevo obstáculo, Barrel Mouse: ratones voladores con un barril y un interruptor en la espalda; si golpeás el interruptor el barril explota al rato, y hay que esquivar las explosiones mientras encadenás trucos. Cambios de balance en los trucos: menos rebote en las pendientes, ventana más amplia para acertar, rodada más corta al caer mal, y ahora caer mal da un pequeño impulso según cuántos trucos hiciste; menos retrocesos de posición por lag. Novedades: favoritos en la personalización (aparecen arriba con un corazón), opciones accesibles durante las carreras, opción Precompilar shaders en Steam y Epic para que no se trabe (viene apagada y pide reiniciar), y tickets de rango según el pase de temporada (normal, Gold o Black). Arreglos: posiciones mal mostradas en Through the Sky Fleet, corrientes que te tiraban fuera del curso en Coral Canyon, la misión Attack: Master Seal en Temple of the Abyss y sonidos de emotes en Aqua Wonder. También hay una campaña en redes por el lanzamiento del mundo nuevo con cristales de premio. Alice lo juega en PC (Steam). Akane Bankei NO está en este stream: no le hables a ella. Si un detalle no está acá, decí que no lo sabés."
+  - "preguntarle al chat qué les parece la temporada nueva y si alguien ya probó Badlands. Datos oficiales (notas del parche de faaast-penguin.com): Faaast Penguin, un juego de carreras multijugador de pingüinos, sacó el 15 de octubre de 2026 la Temporada 13, actualización v2.3.0, con un mundo nuevo, FPX: Badlands. Trae 4 cursos nuevos (no publicaron los nombres); usa la acción Truco (Trick) como FPX: Snowboarding: con puntos de truco sube tu Run Rank y con eso tu velocidad base. Nuevo obstáculo, Barrel Mouse: ratones voladores con un barril y un interruptor en la espalda; si golpeás el interruptor el barril explota al rato, y hay que esquivar las explosiones mientras encadenás trucos. Cambios de balance en los trucos: menos rebote en las pendientes, ventana más amplia para acertar, rodada más corta al caer mal, y ahora caer mal da un pequeño impulso según cuántos trucos hiciste; menos retrocesos de posición por lag. Novedades: favoritos en la personalización (aparecen arriba con un corazón), opciones accesibles durante las carreras, opción Precompilar shaders en Steam y Epic para que no se trabe (viene apagada y pide reiniciar), y tickets de rango según el pase de temporada (normal, Gold o Black). Arreglos: posiciones mal mostradas en Through the Sky Fleet, corrientes que te tiraban fuera del curso en Coral Canyon, la misión Attack: Master Seal en Temple of the Abyss y sonidos de emotes en Aqua Wonder. También hay una campaña en redes por el lanzamiento del mundo nuevo con cristales de premio. Alice lo juega en PC (Steam). Akane Bankei NO está en este stream: no le hables a ella. Si un detalle no está acá, decí que no lo sabés."
+
+perfiles:
+  ligero:
+    llm_directo: http://127.0.0.1:8086

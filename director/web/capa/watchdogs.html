@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Sección Watch Dogs</title>
+<!-- SECCIÓN WATCH DOGS de BlackRose TV (1920×1080, transparente) — 2026-11-20. Misma identidad que la capa del estudio (index.html):
+     zócalo de vidrio con esquinas HUD, cinta rosa, Audiowide/Orbitron/Rajdhani. Va encima del juego (OBS) junto a «BlackRose TV (logo)».
+     Texto vivo: wd_estado.json en esta carpeta {mision, sub, tag}  (lo cambia ~/overlays_watchdogs/mision.sh "texto" ["sub"])
+     ?chat=0 sin nota de chat · ?zoc=0 sin zócalo -->
+<style>
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+:root{--c:#00e5ff;--rosa:#ff2fd6;--vidrio:rgba(9,4,20,.84);--borde:rgba(255,255,255,.14)}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent;color:#fff;font-family:Rajdhani,sans-serif}
+.panel{background:var(--vidrio);border:1px solid var(--borde);box-shadow:0 18px 50px rgba(0,0,0,.55)}
+.hud{position:absolute;inset:-6px;pointer-events:none}
+.hud i{position:absolute;width:26px;height:26px;border:3px solid var(--c)}
+.hud i:nth-child(1){left:0;top:0;border-right:0;border-bottom:0}.hud i:nth-child(2){right:0;top:0;border-left:0;border-bottom:0}
+.hud i:nth-child(3){left:0;bottom:0;border-right:0;border-top:0}.hud i:nth-child(4){right:0;bottom:0;border-left:0;border-top:0}
+
+/* marco de pantalla: esquinas y rótulo de la sección */
+#marco{position:absolute;inset:58px 20px 20px 20px;pointer-events:none}
+#marco i{position:absolute;width:60px;height:60px;border:3px solid var(--c);opacity:.8;filter:drop-shadow(0 0 8px var(--c))}
+#marco i:nth-child(1){left:0;top:0;border-right:0;border-bottom:0}#marco i:nth-child(2){right:0;top:0;border-left:0;border-bottom:0}
+#marco i:nth-child(3){left:0;bottom:0;border-right:0;border-top:0}#marco i:nth-child(4){right:0;bottom:0;border-left:0;border-top:0}
+
+/* zócalo (tercio inferior, mismo diseño que la capa) */
+#zoc{position:absolute;left:40px;width:1340px;bottom:58px;height:118px;display:flex}
+#zoc .tag{width:150px;background:var(--c);color:#06030d;display:flex;flex-direction:column;align-items:center;justify-content:center;font:15px Orbitron;letter-spacing:3px;text-align:center;padding:0 8px}
+#zoc .tag b{font:30px Audiowide;letter-spacing:0;margin-top:4px}
+#zoc .cuerpo{flex:1;position:relative;padding:12px 26px 0;overflow:hidden}
+#zoc .prog{font:16px Orbitron;letter-spacing:6px;color:var(--c);white-space:nowrap}
+#zoc .tema{font:40px/1.1 Audiowide;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:6px;text-shadow:0 0 18px color-mix(in srgb,var(--c) 55%,transparent)}
+#zoc .sub{font:22px Rajdhani;color:#d9c8ef;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+#zoc .barra{position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--c),var(--rosa))}
+#zoc .vivo{width:170px;border-left:1px solid var(--borde);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+#zoc .vivo .pt{font:15px Orbitron;letter-spacing:4px;color:#ff4466}
+#zoc .vivo .pt i{display:inline-block;width:11px;height:11px;border-radius:50%;background:#ff3355;margin-right:8px;animation:late 1.2s steps(2) infinite}
+#zoc .vivo .hab{font:19px Audiowide;color:#fff;text-align:center}
+#zoc .vivo .hab small{display:block;font:12px Orbitron;letter-spacing:3px;color:#b9a6d3}
+@keyframes late{50%{opacity:.25}}
+
+/* cinta (arriba a la derecha, bajo la barra de la TV) */
+#cinta{position:absolute;right:40px;top:120px;display:flex;align-items:center;height:38px}
+#cinta .s{background:var(--rosa);color:#fff;font:15px Orbitron;letter-spacing:3px;padding:0 14px;height:100%;display:flex;align-items:center}
+#cinta .m{background:var(--vidrio);border:1px solid var(--borde);border-left:0;height:100%;box-sizing:border-box;display:flex;align-items:center;padding:0 16px;font:20px Rajdhani;color:#eadcff;min-width:420px}
+#cinta .m span{transition:opacity .5s}
+
+/* consola ctOS (arriba a la izquierda): registro de hackeo falso, solo ambiente */
+#ctos{position:absolute;left:40px;top:120px;width:420px;padding:12px 18px 14px}
+#ctos .t{font:14px Orbitron;letter-spacing:5px;color:var(--c);display:flex;justify-content:space-between}
+#ctos .t b{color:#ff4466;font-weight:normal}
+#ctos .l{font:19px/1.35 Rajdhani;color:#cfeaf2;height:104px;overflow:hidden;margin-top:8px;white-space:nowrap}
+#ctos .l div{opacity:.9}#ctos .l div:last-child{color:#fff;text-shadow:0 0 10px var(--c)}
+#ctos .l em{font-style:normal;color:var(--c)}
+#ctos::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--c),var(--rosa))}
+
+/* marquesina inferior: noticias reales (RSS) + chat de Twitch, corriendo como la barra de acciones de arriba */
+#mq{position:absolute;left:0;right:0;bottom:0;height:40px;display:flex;background:rgba(8,2,14,.92);border-top:2px solid var(--rosa);box-shadow:0 -2px 16px rgba(255,47,214,.45);font:23px/40px Rajdhani}
+#mq .eti{padding:0 16px;background:linear-gradient(90deg,#1a0420,#0a0410);border-right:2px solid var(--c);font:15px/40px Orbitron;letter-spacing:4px;color:var(--c);white-space:nowrap;z-index:1}
+#mqc{flex:1;overflow:hidden;position:relative;-webkit-mask-image:linear-gradient(90deg,transparent,#000 40px,#000 calc(100% - 40px),transparent)}
+#mqp{display:inline-flex;white-space:nowrap;will-change:transform}
+#mqp .sec{font:15px/24px Orbitron;letter-spacing:3px;color:#09020f;background:var(--c);padding:0 10px;margin:0 14px 0 26px;height:24px;align-self:center;box-shadow:0 0 10px var(--c)}
+#mqp .sec.ch{background:var(--rosa);color:#fff;box-shadow:0 0 10px var(--rosa)}
+#mqp .it{margin-right:28px;color:#fff}#mqp .it i{font-style:normal;color:#cdb8df;margin-left:8px}
+</style></head>
+<body>
+<div id="marco"><i></i><i></i><i></i><i></i></div>
+
+<div id="ctos" class="panel"><div class="t"><span>ctOS · DEDSEC</span><b>● ENLACE</b></div><div class="l" id="log"></div><div class="hud"><i></i><i></i><i></i><i></i></div></div>
+
+<div id="cinta"><div class="s">SECCIÓN WATCH DOGS</div><div class="m"><span id="cintaTxt"></span></div></div>
+
+<div id="zoc" class="panel"><div class="tag"><span id="zTag">SECCIÓN</span><b id="zHora">--:--</b></div>
+  <div class="cuerpo"><div class="prog">BLACKROSE TV · SECCIÓN WATCH DOGS 2 · EN VR</div><div class="tema" id="zTema">HACKEANDO SAN FRANCISCO</div><div class="sub" id="zSub">Mundo abierto · hackeo · realidad virtual en Quest 3S</div><div class="barra"></div></div>
+  <div class="vivo"><div class="pt"><i></i>AL AIRE</div><div class="hab"><small>JUEGA</small>BLACKROSE</div></div></div>
+
+<div id="mq"><div class="eti">EN VIVO</div><div id="mqc"><div id="mqp"></div></div></div>
+<script>
+const $ = id => document.getElementById(id), q = new URLSearchParams(location.search);
+if (q.get('zoc') === '0') $('zoc').style.display = 'none';
+const CINTA = ['BlackRose TV · la tele de Corporación Blackrose', 'Sección Watch Dogs 2 · jugado en realidad virtual', 'Escribe en el chat: te leemos al aire',
+  '▶ Suscríbete en YouTube · síguenos en Twitch', 'Discord: discord.gg/TvHdfNEs2', '¿Qué hackeamos ahora? Dime en el chat'];
+let ci = 0;
+function cinta() { const s = $('cintaTxt'); s.style.opacity = 0; setTimeout(() => { s.textContent = CINTA[ci++ % CINTA.length]; s.style.opacity = 1; }, 450); }
+setInterval(cinta, 9000); cinta();
+const reloj = () => $('zHora').textContent = new Date().toTimeString().slice(0, 5); setInterval(reloj, 5000); reloj();
+
+// registro ctOS decorativo (texto propio, sin arte del juego)
+const OBJ = ['cámara', 'semáforo', 'dron', 'servidor', 'enrutador', 'cajero', 'torre 5G', 'puerta'], ACC = ['escaneando', 'enlazando', 'perfilando', 'abriendo canal en', 'sincronizando'];
+const log = $('log'), r = a => a[Math.floor(Math.random() * a.length)], hex = () => Math.floor(Math.random() * 65535).toString(16).padStart(4, '0').toUpperCase();
+function linea() {
+  const d = document.createElement('div'); d.innerHTML = `<em>${hex()}</em> ${r(ACC)} ${r(OBJ)} ${Math.floor(Math.random() * 99) + 1}…`;
+  log.appendChild(d); while (log.children.length > 4) log.removeChild(log.firstChild);
+}
+for (let i = 0; i < 4; i++) linea(); setInterval(linea, 2200);
+
+
+// marquesina: titulares (wd_noticias.json) intercalados con los últimos mensajes del chat (/api/chat)
+const esc = t => String(t).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+let noti = [], chat = [], marca = '', pos = 0, tAnt = performance.now();
+async function datos() {
+  try { noti = (await (await fetch('/capa/wd_noticias.json', { cache: 'no-store' })).json()).items || []; } catch (_) {}
+  try { chat = (await (await fetch('/api/chat', { cache: 'no-store' })).json()).filter(m => m.texto).slice(-8); } catch (_) {}
+  const hs = [], n = Math.max(noti.length, 1);
+  for (let i = 0; i < noti.length; i++) {
+    hs.push(`<span class="sec">NOTICIAS</span><span class="it">${esc(noti[i].t)}<i>· ${esc(noti[i].f)}</i></span>`);
+    if (i % 4 === 3 && chat.length) { const m = chat[(i / 4 | 0) % chat.length]; hs.push(`<span class="sec ch">CHAT</span><span class="it"><b style="color:${/^#[0-9a-f]{6}$/i.test(m.color) ? m.color : '#fff'}">${esc(m.autor)}</b>: ${esc(m.texto)}</span>`); }
+  }
+  if (!noti.length) chat.forEach(m => hs.push(`<span class="sec ch">CHAT</span><span class="it"><b>${esc(m.autor)}</b>: ${esc(m.texto)}</span>`));
+  const h = hs.join(''), k = h.length + ':' + n;
+  if (k !== marca) { marca = k; $('mqp').innerHTML = h + h; pos = 0; }   // duplicado para el bucle sin salto
+}
+datos(); setInterval(datos, 20000);
+function corre(t) { const dt = (t - tAnt) / 1000; tAnt = t; const w = $('mqp').scrollWidth / 2; if (w > 0) { pos = (pos + 70 * dt) % w; $('mqp').style.transform = `translateX(${-pos}px)`; } requestAnimationFrame(corre); }
+requestAnimationFrame(corre);
+
+// texto vivo
+async function estado() {
+  try {
+    const e = await (await fetch('/capa/wd_estado.json', { cache: 'no-store' })).json();
+    if (e.mision) $('zTema').textContent = e.mision;
+    if (e.sub) $('zSub').textContent = e.sub;
+    if (e.tag) $('zTag').textContent = String(e.tag).slice(0, 14);
+  } catch (_) {}
+}
+estado(); setInterval(estado, 3000);
+</script></body></html>

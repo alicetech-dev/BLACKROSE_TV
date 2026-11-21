@@ -1,0 +1,819 @@
+{
+ "bloque": "milttech_1630",
+ "programa": "milttech",
+ "fecha": "2026-11-19",
+ "creado": "15:03:14",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El GPS nació como sistema militar",
+   "sub": "TECNOLOGÍA MILITAR",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo los satélites geoestacionarios transmiten tiempo preciso",
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡El GPS no fue para alienígenas! Es una historia de satélites geoestacionarios transmitiendo tiempo preciso, nada más. La gente cree que mágicamente funciona sin señales reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El sistema nació en la década de 1970 como NAVSTAR, con satélites geoestacionarios que envían señales de tiempo. Los receptores civiles usan esas señales para calcular su posición exacta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Y la precisión ha disminuido ligeramente! Por interferencias atmosféricas, pero sigue siendo una herramienta fundamental para la navegación global. La tecnología se mejoró constantemente con nuevos satélites y correcciones de errores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La historia no es de alienígenas ni magia; son discos orbitales transmitiendo reloj atómico para navegar vehículos militares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se utilizó primero para rastrear tropas y aviones en combate, antes de que cualquier civil lo necesitara para su día a día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡El giro fue cuando los ingenieros dieron el salto a la navegación civil! En 1983, el presidente dijo que es vital para el mundo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Esa fecha es clave: el GPS pasó de ser un arma en manos militares a una herramienta global accesible para todos los viajeros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Ahí está la clave! Los satélites geoestacionarios actúan como relojes atómicos flotantes, enviando señales de tiempo con una precisión milimétrica que permite calcular distancias exactas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Esa señal temporal es el corazón del sistema: sin ella, los receptores civiles no podrían sincronizarse ni determinar su posición en el planeta con la precisión que hoy conocemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Y no olvides las interferencias! El viento solar y la atmósfera pueden alterar ligeramente esas señales, lo cual explica por qué la precisión ha disminuido un poco en los últimos años."
+    },
+    {
+     "quien": "joy",
+     "texto": "La precisión del tiempo es lo que permite que los receptores calculen su posición con errores mínimos, incluso en movimiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero imagina si la atmósfera se vuelve densa o hay tormentas solares... eso podría desincronizar las señales y hacer que el GPS falle."
+    },
+    {
+     "quien": "joy",
+     "texto": "Especulando un poco, en el futuro los satélites podrían transmitir no solo tiempo, sino también datos de navegación directa para evitar la interferencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si los satélites no fueran geoestacionarios? Podrían usar órbitas elipsales para compensar errores atmosféricos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. La geometría de la órbita afecta directamente la precisión del tiempo que reciben los receptores en tierra."
+    }
+   ],
+   "seg": 175
+  },
+  {
+   "tipo": "charla",
+   "tema": "De la navegación táctica a la aplicación civil global",
+   "sub": "mito realidad · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Dicen que el GPS nació para rastrear a los alienígenas, pero la verdad es mucho más terrestre y técnica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, eso suena como una leyenda urbana. La realidad es que fue un proyecto de defensa nacional en los setenta."
+    },
+    {
+     "quien": "joy",
+     "texto": "El sistema NAVSTAR usaba satélites geoestacionarios para enviar señales de tiempo, no magia ni extraterrestres."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los receptores civiles reciben esas señales para calcular su posición exacta, transformando la navegación táctica en global."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí viene el punto clave: la precisión ha disminuido ligeramente debido a interferencias atmosféricas, algo que nadie en los setenta imaginó para un vehículo de combate."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ingeniería civil transformó esto en una herramienta global. Hoy, desde el teléfono hasta la app de repartidores, todo depende de esas señales militares que ahora todos usamos sin pensar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si les dijera que los alienígenas no existen, pero el GPS sí? La gente cree eso porque el sistema parece mágico, sin cables ni antenas visibles."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es un mito bonito. La realidad es más fría: satélites en órbita, señales de radio y matemáticas que calculan distancias en milisegundos para ubicarte."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Y eso lo convierte en algo cotidiano. Ya no necesitas un mapa físico; el cielo mismo se convierte en tu brújula global, siempre disponible."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de los alienígenas es un cuento encantador, pero la realidad es mucho más fría y precisa: satélites reales orbitan la Tierra."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ingeniería detrás del GPS es impresionante: satélites geoestacionarios transmiten señales de tiempo que los receptores civiles usan para calcular posiciones exactas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! El GPS pasó de ser un arma en las manos del ejército a convertirse en el mapa digital que todos usamos cada día sin darnos cuenta."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de los alienígenas es un cuento encantador, pero la realidad es mucho más fría y precisa: satélites geoestacionarios transmiten señales de tiempo que los receptores civiles utilizan para calcular su posición."
+    }
+   ],
+   "seg": 150
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La evolución del proyecto NAVSTAR hacia el sistema moderno",
+   "sub": "linea tiempo · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien recuerda que el GPS nació en la Guerra Fría? Era una herramienta de defensa pura, nada más."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El proyecto NAVSTAR fue un esfuerzo conjunto entre la NASA y el Departamento de Defensa para garantizar la navegación precisa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y luego, con años de refinamiento, se convirtió en algo que usamos todos los días, desde el teléfono hasta el coche."
+    },
+    {
+     "quien": "joy",
+     "texto": "Inicialmente se usó para navegación militar en vehículos y aviones, con satélites geoestacionarios que transmiten señales de tiempo precisos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Con años de refinamiento constante, nuevos satélites y correcciones de errores, se convirtió en algo que usamos todos los días."
+    },
+    {
+     "quien": "joy",
+     "texto": "El punto de inflexión fue cuando la tecnología pasó de ser exclusiva del ejército a estar disponible para el público en general, marcando el inicio de la era moderna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y es curioso cómo algo tan técnico terminó siendo parte de nuestra vida cotidiana sin que nadie lo notara realmente durante los primeros años."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los satélites geoestacionarios fueron clave para esto, ya que permitieron una cobertura global precisa, aunque hoy en día hemos pasado a usar constelaciones más complejas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la verdad es que el sistema ha evolucionado mucho desde entonces, con mejoras en precisión y resistencia, pero siempre manteniendo su esencia militar original."
+    },
+    {
+     "quien": "joy",
+     "texto": "El GPS sigue operando con satélites activos que envían señales de tiempo, permitiendo que cualquier receptor calcule su posición en cualquier parte del mundo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La precisión ha disminuido ligeramente debido a interferencias atmosféricas, pero las correcciones constantes mantienen el sistema funcional para la navegación global."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imaginen que el GPS ya no necesite satélites, un receptor cuántico que lea el espacio-tiempo directamente, sin señales ni frecuencias."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso sería una revolución, pero la física actual dice que necesitamos al menos tres satélites para triangular con precisión milimétrica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si usamos luz en lugar de radio? La fibra óptica en el espacio, transmitiendo datos a velocidad de la luz, eliminando interferencias atmosféricas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki tiene razón en el concepto, pero la física actual exige al menos tres satélites para triangular la posición con precisión."
+    }
+   ],
+   "seg": 163
+  },
+  {
+   "tipo": "charla",
+   "tema": "Interferencias atmosféricas y el desafío de la precisión",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Mito popular: el GPS nació para rastrear alienígenas. Realidad técnica: fue un sistema militar de navegación por satélites geoestacionarios desplegado en los años setenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Alienígenas? Más bien, el Departamento de Defensa necesitaba precisión en vehículos. Los satélites transmiten señales de tiempo; los receptores civiles las usan para calcular su posición exacta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un error común: pensar que funciona sin satélites reales. La interferencia atmosférica reduce ligeramente la precisión, pero el sistema sigue siendo fundamental para la navegación global hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que el sistema fue desplegado en la década de 1970 como parte del proyecto NAVSTAR."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ingeniería detrás de esto es impresionante: satélites geoestacionarios, relojes atómicos y algoritmos que corrigen errores en tiempo real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué la gente cree que el GPS funciona sin satélites? Quizás porque los smartphones lo hacen parecer magia y olvidan la infraestructura real detrás."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que el mito surge cuando las señales de satélite son débiles o bloqueadas, y los usuarios asumen que el sistema falla total cuando no es cierto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que la interferencia atmosférica afecta solo la precisión, no la funcionalidad. Los satélites siguen transmitiendo; es como escuchar una radio con estática leve."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de que el GPS funciona sin satélites nace cuando las señales son débiles, no porque carezcan de fuentes reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La interferencia atmosférica reduce la precisión pero no elimina la funcionalidad; los satélites siguen transmitiendo el tiempo exacto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que la gente asume magia cuando el sistema falla momentáneamente, confundiendo ruido con ausencia de señal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antes creía que la interferencia atmosférica era un problema insoluble para el GPS, como si los satélites no pudieran superar la lluvia."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que los receptores modernos filtran el ruido y usan múltiples satélites; el mito de la ausencia total de señal era solo una ilusión."
+    }
+   ],
+   "seg": 145
+  },
+  {
+   "tipo": "video",
+   "id": "v_spring",
+   "archivo": "v/v_spring.mp4",
+   "titulo": "Spring",
+   "atribucion": "«Spring» (2019) © Blender Foundation · www.blender.org · CC BY 4.0",
+   "dur": 464,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: El radar y el horno microondas",
+   "sub": "TECNOLOGÍA MILITAR",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "De la guerra al hogar: el viaje del radar",
+   "sub": "top3 · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Top 3! Criterio: impacto histórico y evolución civil. Empezamos con el radar, que nació en la II Guerra Mundial para detectar aviones a larga distancia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La tecnología del radar se basa en emisión y recepción de ondas electromagnéticas de alta frecuencia. Su ingeniería civil adaptó el radar para uso en navegación aérea y meteorología después de la guerra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y luego el horno microondas, que usa una cavidad resonante para concentrar energía en el alimento. La placa de metal dentro actúa como reflector para mantener las ondas en la zona de cocina."
+    },
+    {
+     "quien": "joy",
+     "texto": "El radar llegó a la vida civil gracias a su adaptación para navegación aérea y meteorología, dejando de ser solo un detector de guerra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el horno microondas sigue esa misma línea: nació en los laboratorios militares, ahora calienta tus pizzas sin necesidad de fuego real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ambas tecnologías demuestran cómo la ingeniería civil transforma lo militar en algo cotidiano, sin glorificar la violencia que originó su uso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El segundo puesto es el horno microondas, nacido en los laboratorios militares para calentar alimentos durante la guerra."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero no se quedó ahí: su diseño compacto y bajo costo lo convirtieron en un electrodoméstico masivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la magnetron, ese componente que genera las ondas, sigue siendo el corazón de cualquier horno moderno hoy en día."
+    },
+    {
+     "quien": "joy",
+     "texto": "Primero, el radar nació en los laboratorios militares para detectar aviones enemigos a larga distancia durante la Segunda Guerra Mundial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mira, la magnetron es como un corazón de cobre que bombea ondas. ¿Alguna vez te has preguntado cómo se convierte una idea militar en algo que calienta tus papas?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero no se quedó ahí: su diseño compacto y bajo costo lo convirtió en un electrodoméstico masivo. La ingeniería civil adaptó el radar para uso en navegación aérea y meteorología después de la guerra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la magnetron, ese componente que genera las ondas, sigue siendo el corazón de cualquier horno moderno hoy en día. ¡Es la misma física! Desde los laboratorios militares hasta tu cocina."
+    },
+    {
+     "quien": "joy",
+     "texto": "La magnetron sigue siendo el corazón de los hornos modernos, pero su evolución es mucho más compleja que un simple componente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y eso nos lleva a preguntar: ¿qué otros componentes militares han sido adaptados para el hogar en las últimas décadas?"
+    }
+   ],
+   "seg": 180
+  },
+  {
+   "tipo": "charla",
+   "tema": "La magnetron civil: de las armas a tu cocina",
+   "sub": "debate · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Cómo pasó de detectar aviones enemigos a convertirse en el corazón de tu cocina?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La magnetron nació en la guerra, pero hoy calienta tus espaguetis sin humo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Analizamos el mecanismo: una cavidad resonante concentra ondas electromagnéticas de alta frecuencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "La magnetron original se diseñó para emitir pulsos de microondas muy potentes que penetraran el aire y detectaran objetivos a larga distancia, como aviones enemigos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Pero luego alguien vio que esas ondas podrían calentar comida sin necesidad de fuego o electricidad convencional, ¡y lo mejor es que es barato!"
+    },
+    {
+     "quien": "joy",
+     "texto": "El salto no fue mágico: se redujo el tamaño del tubo, se mejoró la eficiencia y se ajustaron las frecuencias para que funcionara en cocinas domésticas, no solo en bases militares."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y quién pagó por todo ese cambio? La industria militar no tuvo prisa de vender sus patentes a empresas que ya tenían fábricas listas para producirlos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero los costos de producción cayeron drásticamente cuando las empresas civiles tomaron el control."
+    },
+    {
+     "quien": "joy",
+     "texto": "La transición no fue automática; requirió que ingenieros civiles entendieran la física de las ondas electromagnéticas de alta frecuencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Sin embargo, hay un detalle técnico crucial: la magnetron civil mantiene una eficiencia energética muy superior a la del radar militar original."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 105
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ondas electromagnéticas: un puente entre ciencias",
+   "sub": "debate · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el radar y el horno microondas son dos caras del mismo coin? La misma onda, distinto propósito."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Ondas electromagnéticas de alta frecuencia: emisión y recepción. El puente físico entre ambos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ojo: la magnetron no es una bomba. Es un generador que convierte electricidad en ondas microondas."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que ambos usan la misma onda electromagnética, pero con frecuencias distintas. El radar opera en ondas de microondas o incluso más altas, mientras que el horno usa un rango específico para calentar agua."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La magnetron genera las ondas, pero el radar necesita recibirlas también. El horno solo emite y absorbe. Es como si una misma herramienta tuviera dos modos: uno para detectar y otro para cocinar."
+    },
+    {
+     "quien": "joy",
+     "texto": "No es magia, es física pura. Las ondas electromagnéticas viajan a la velocidad de la luz y pueden interactuar con la materia de formas muy diferentes según su frecuencia y el medio por donde pasan."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es solo la misma onda. El radar usa frecuencias que el horno ignora, como si hablaran idiomas distintos en el mismo radio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo que hace que el horno caliente el agua mientras el radar ve la lluvia. Una misma onda, dos vidas completamente separadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El radar detecta objetos grandes; el horno necesita longitud de onda corta para calentar moléculas individuales. Ingeniería aplicada a escala."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero la diferencia no está en el tipo de onda, sino en cómo se manipulan y qué información extraemos de ellas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El radar envía una pulsación corta y escucha el eco; el horno envía un flujo continuo para que las moléculas vibren."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es como comparar un flash de cámara con una linterna tenue: uno captura un momento, otro ilumina un espacio entero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El radar usa pulsos cortos para medir distancia, mientras el horno envía un flujo continuo que agita las moléculas de agua."
+    }
+   ],
+   "seg": 150
+  },
+  {
+   "tipo": "charla",
+   "tema": "Evolución tecnológica: de laberinto a uso cotidiano",
+   "sub": "mito realidad · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La gente cree que los microondas mueven el agua como un fluido, pero es solo una ilusión óptica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La luz atraviesa la comida y crea patrones de calor, no que el líquido se deslice por sí mismo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el radar tampoco detecta pensamientos humanos, como muchos creen. Es pura física electromagnética aplicada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que en las películas el agua se mueve como un fluido en los microondas, pero la realidad es que solo hay ilusiones ópticas de calor concentrado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que el horno cocina por magia, pero es solo ingeniería civil adaptando ondas de alta frecuencia para calentar alimentos de forma eficiente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ambas tecnologías evolucionaron desde aplicaciones militares hacia usos civiles masivos en décadas posteriores, demostrando cómo la ciencia sirve a la sociedad moderna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que en las películas el agua se mueve como un fluido en los microondas, pero la realidad es que solo hay vibraciones moleculares aceleradas por la onda electromagnética de alta frecuencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El radar nació como un detector de aviones enemigos a larga distancia durante la Segunda Guerra Mundial, usando ondas electromagnéticas reflejadas por objetos metálicos para localizar amenazas en el cielo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ambas tecnologías evolucionaron desde aplicaciones militares hacia usos civiles masivos en décadas posteriores, demostrando cómo la ingeniería civil transforma herramientas de combate en dispositivos cotidianos accesibles para todos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso genera una ilusión óptica porque nuestra visión percibe el movimiento rápido del vapor y no la vibración individual de cada partícula líquida."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y sobre el radar detectando pensamientos, se cuenta que es un mito popular sin base científica, aunque la gente cree que las ondas capturan algo más."
+    },
+    {
+     "quien": "joy",
+     "texto": "El radar y el horno comparten la misma física de ondas electromagnéticas, pero sus aplicaciones civiles son muy distintas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mito: el radar detecta pensamientos. Realidad: es pura detección de señales reflejadas por objetos externos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ilusión óptica del vapor en el horno no significa que las ondas muevan el agua; es solo una percepción visual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Tú te creías la versión popular de Evolución tecnológica: de laberinto a uso cotidiano? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 166
+  },
+  {
+   "tipo": "musica",
+   "id": "m_dark_fog",
+   "archivo": "m/m_dark_fog.mp3",
+   "titulo": "Dark Fog",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Los drones: de uso militar al reparto a domicilio",
+   "sub": "TECNOLOGÍA MILITAR",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Motorización y propulsión moderna",
+   "sub": "explicado · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien recuerda cuando los drones eran solo cosas que volaban para meter miedo en el campo de batalla?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y ahora son los que llevan tu comida favorita hasta la puerta de casa sin que tú tengas que moverte."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿cómo logran eso? ¿Son magia o ingeniería pura?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los drones modernos son vehículos aéreos pequeños controlados remotamente, diseñados para realizar tareas específicas como recolección de datos o entrega de paquetes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mucha gente piensa que son magia, pero en realidad son una combinación ingeniosa de motores eléctricos, baterías de litio y sistemas de visión por computadora."
+    },
+    {
+     "quien": "joy",
+     "texto": "La tecnología detrás de su vuelo se desarrolló primero para la guerra, donde necesitaban precisión y capacidad de llegar a lugares difíciles sin pilotos humanos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy en día esa misma ingeniería sirve para llevar tu comida favorita o hacer entregas rápidas, demostrando que la tecnología puede ser útil fuera del campo de batalla."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los drones modernos despegan con motores eléctricos o combustión interna, algo que en su día servía para precisión militar."
+    },
+    {
+     "quien": "joy",
+     "texto": "La visión por computadora permite que algunos drones naveguen solos, usando sensores láser y de radar para detectar objetivos desde grandes distancias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, no todos pueden volar sin baterías. La energía solar ayuda, pero lo que necesitas es un sistema de propulsión real, como el que usamos en los drones militares."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hay un dato de Motorización y propulsión moderna que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la motorización eléctrica moderna ha revolucionado el sector. Pero aún queda mucho por hacer para que cada tipo de dron sea más versátil en condiciones adversas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no olvides los materiales compuestos. Son clave para reducir peso y aumentar resistencia, permitiendo vuelos más largos sin sacrificar la estabilidad del sistema."
+    },
+    {
+     "quien": "joy",
+     "texto": "La integración de sensores láser y radar es otro gran avance. Estos permiten detección precisa a larga distancia, vital para aplicaciones tanto militares como civiles."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la estandarización de protocolos es lo que permite que todos estos sistemas hablen entre sí sin problemas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, esa interoperabilidad es clave para la transición civil. Pero ¿qué opinan del futuro de los drones?"
+    }
+   ],
+   "seg": 167
+  },
+  {
+   "tipo": "charla",
+   "tema": "Visión por computadora y autonomía",
+   "sub": "debate · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a este episodio sobre cómo la visión por computadora y la autonomía transformaron los drones de herramientas militares a agentes civiles."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es solo magia. La realidad es que muchos sistemas actuales son derivaciones directas de algoritmos desarrollados en las fuerzas armadas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto. La tecnología de visión computacional permite que los drones naveguen solos, algo que antes requería control remoto constante por parte del operador."
+    },
+    {
+     "quien": "joy",
+     "texto": "La visión por computadora es el puente entre la percepción y la acción autónoma. Los drones procesan imágenes en tiempo real para navegar sin intervención humana, usando algoritmos de detección de obstáculos y planificación de rutas dinámicas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es solo magia. La realidad es que muchos sistemas actuales son derivaciones directas de algoritmos militares desarrollados para la guerra electrónica. La misma lógica de procesamiento de señales que usaron en drones de combate ahora controla tu entrega a domicilio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto. La tecnología de visión computacional permite que los drones naveguen solos, algo que antes requería un piloto humano constante. Ahora, el software decide cuándo acelerar, frenar o cambiar de ruta basándose en datos del entorno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La visión por computadora no es magia, es matemática pura. Los drones usan redes neuronales entrenadas con miles de imágenes para reconocer patrones y evitar colisiones en tiempo real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Cierto! Y ahora esos mismos algoritmos controlan tu repartidor de comida. El mismo cerebro que antes buscaba objetivos se decide por ti para elegir el camino más corto y ahorrar batería."
+    },
+    {
+     "quien": "joy",
+     "texto": "La visión por computadora transforma datos crudos en decisiones autónomas, un salto que antes solo imaginábamos en laboratorios de investigación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Los algoritmos de redes neuronales, entrenados con millones de imágenes militares, ahora gestionan el tráfico de tu repartidor de comida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero no es solo matemática abstracta; la aplicación práctica ha democratizado tecnologías que antes eran exclusivas de las fuerzas armadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso lleva a pensar que los drones civiles podrían tener capacidades de decisión autónoma comparable a las usadas en combate, si se sigue el mismo camino tecnológico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los drones civiles ahora toman decisiones autónomas gracias a algoritmos de redes neuronales entrenados con millones de imágenes militares."
+    }
+   ],
+   "seg": 170
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Baterías de litio y eficiencia energética",
+   "sub": "top3 · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Baterías de litio, eficiencia energética y el futuro de los drones. Kuroki dice que la gente cree que son solo juguetes, pero hay una historia militar detrás."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Joy analiza los datos: muchos sistemas de control remoto fueron desarrollados primero para la guerra. La tecnología de visión por computadora permite que algunos drones naveguen solos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y las baterías de litio permiten vuelos prolongados en condiciones climáticas variadas. Los sensores láser y de radar ayudan a detectar objetivos desde grandes distancias."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el tercer puesto…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El segundo lugar es la eficiencia energética. Las baterías de litio permiten vuelos largos en clima variable, clave para misiones complejas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Joy analiza los datos: muchas baterías soportan condiciones adversas. Pero la regulación internacional busca equilibrar innovación y seguridad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí está el error común: algunos creen que los drones vuelan solo con energía solar durante días, pero es técnicamente imposible hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "El primer lugar es la eficiencia energética. Las baterías de litio modernas permiten vuelos prolongados incluso en clima adverso, algo crucial para operaciones reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Cero! Eso es mito de internet. La realidad es que las baterías de litio permiten vuelos largos en clima variable, algo vital para drones modernos despegados con motores eléctricos o combustión interna."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El segundo punto es la gestión térmica. Los sistemas de refrigeración integrada evitan sobrecalentamientos y extienden la vida útil de las celdas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 115
+  },
+  {
+   "tipo": "charla",
+   "tema": "Protocolos satelitales e interoperabilidad",
+   "sub": "top3 · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a tecnología militar civilizada. Hoy analizamos tres protocolos satelitales que permitieron la interoperabilidad entre drones de distinto origen."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Interoperabilidad? ¡Ahí está! La tarjeta de 6 GB del canal no podría procesar tanto tráfico si no hubiera estándares comunes. Hablamos del protocolo Iridium y su legado."
+    },
+    {
+     "quien": "joy",
+     "texto": "El protocolo Iridium, desarrollado por la NASA en los ochenta, fue clave para la comunicación militar temprana. Su estructura modular permitió que otros fabricantes lo adoptaran más tarde."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El protocolo Iridium nació en la NASA para comunicaciones militares en el espacio profundo, pero su arquitectura de baja latencia es lo que hoy permite el control de drones en tiempo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La estandarización posterior permitió que cualquier fabricante pudiera integrar estos satélites, creando una red global que trasciende fronteras y genera interoperabilidad entre sistemas dispares."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esto es lo que hace posible el reparto a domicilio: los drones reciben órdenes desde servidores remotos gracias a esa misma infraestructura satelital, sin depender de redes terrestres limitadas o congestionadas."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El primer puesto es la estandarización de protocolos satelitales, que permitieron que cualquier fabricante integrara estos sistemas. Esto no solo facilitó la interoperabilidad entre diferentes plataformas, sino que también aceleró la adopción civil de la tecnología."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La estandarización posterior permitió que cualquier fabricante pudiera integrar estos satélites, creando un ecosistema abierto y competitivo. Esto es fundamental para la democratización del acceso a tecnologías previamente reservadas a las fuerzas armadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no todo fue perfecto desde el inicio. Los primeros intentos de comunicación satelital entre drones fueron caóticos, con múltiples estándares y protocolos incompatibles que complicaban la interoperabilidad. La necesidad de una solución unificada se hizo evidente rápidamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "La historia nos enseña que la innovación a menudo comienza con el caos. Los sistemas iniciales eran fragmentados, pero la presión del campo de batalla y la demanda civil impulsaron la búsqueda de soluciones comunes. Este proceso fue clave para la evolución de la tecnología."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los primeros sistemas satelitales eran tan pesados que un dron no podría llevarlos. La ingeniería tuvo que inventar miniaturización real, no solo teórica."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 169
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1855,
+  "medios": 2
+ }
+}

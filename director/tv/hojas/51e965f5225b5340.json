@@ -1,0 +1,21 @@
+{
+ "semilla": "Animación 3D y VRM",
+ "hechos": [
+  "La animación 3D utiliza modelos de malla poligonal para representar objetos y personajes en un espacio virtual.",
+  "Los archivos VRM son un formato estándar diseñado específicamente para la transmisión de avatares 3D en entornos de realidad virtual.",
+  "El proceso de rigging asigna huesos virtuales a una figura digital para permitir su movimiento sin deformar el modelo.",
+  "La iluminación en tiempo real dentro de los motores gráficos se basa en cálculos matemáticos que simulan la interacción de la luz con las superficies.",
+  "Los avatares VRM pueden ser exportados desde herramientas de modelado y luego importados a plataformas como MetaVerse o Roblox.",
+  "El sistema de coordenadas local de un modelo 3D se transforma para coincidir con el espacio global del motor gráfico mediante matrices de rotación.",
+  "La animación por esqueleto es la técnica predominante que utiliza una jerarquía de huesos para controlar las articulaciones de un personaje.",
+  "Los motores gráficos modernos como Unity y Unreal Engine utilizan aceleración por hardware para renderizar escenas complejas en tiempo real.",
+  "El estándar VRM fue desarrollado por el proyecto MMD para estandarizar la exportación de modelos 3D hacia entornos web.",
+  "La textura de un modelo 3D no solo contiene color, sino que puede incluir información normal maps para simular relieve sin aumentar la complejidad geométrica."
+ ],
+ "leyendas": [
+  "Se cuenta que los avatares VRM pueden ser utilizados en cualquier entorno digital sin necesidad de conversión previa.",
+  "Según los relatos populares, el formato VRM reemplazó completamente a todos los otros formatos de modelos 3D existentes."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 04:59"
+}

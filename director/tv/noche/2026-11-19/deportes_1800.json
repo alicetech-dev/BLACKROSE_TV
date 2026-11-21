@@ -1,0 +1,275 @@
+{
+ "bloque": "deportes_1800",
+ "programa": "deportes",
+ "fecha": "2026-11-19",
+ "creado": "15:05:41",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "ZONA DEPORTES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Jhon Steven Guerrero Quiñónez",
+   "sub": "ESPN Chile · hace 3 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki presenta: Jhon Steven Guerrero Quiñónez de ESPN Chile hace tres horas, un nombre que ya se ha convertido en algo más."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy hace el enlace: eso es lo único que sabemos; el resto son especulaciones que aún no tienen prueba tangible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki cierra la nota con una pregunta: ¿qué opinan ustedes sobre este nombre en medio de todo esto?"
+    }
+   ],
+   "seg": 30,
+   "lote": true
+  },
+  {
+   "tipo": "charla",
+   "tema": "Chile vs Argelia: horario, canal de TV y dónde ver en vivo el debut de",
+   "sub": "ADN Radio · hace 5 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki trae el segundo titular de ADN Radio hace cinco horas: Chile versus Argelia, horario y canal para ver el debut."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy contextualiza: es un evento deportivo internacional que ya está confirmado, pero aún no hay detalles del partido en sí."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki pregunta al chat: ¿ustedes seguirán el partido o prefieren quedarse con la incertidumbre del momento?"
+    }
+   ],
+   "seg": 28,
+   "lote": true
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Idea de la Casa de Bello: la universidad se abre para concretar el est",
+   "sub": "RedGol · hace 7 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki introduce el tercer titular de RedGol hace siete horas: la idea de la Casa de Bello para concretar el estadio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy explica el contexto: se trata de una propuesta institucional que busca resolver un problema estructural del deporte local."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki cierra con una invitación: ¿qué opinan ustedes sobre esta solución para el estadio de la U de Chile?"
+    }
+   ],
+   "seg": 29,
+   "lote": true
+  },
+  {
+   "tipo": "charla",
+   "tema": "La preocupación en La U por el Nacional y el estadio que asoma como sa",
+   "sub": "CDF.cl · hace 20 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki presenta el cuarto titular de CDF.cl hace veintidós horas: la preocupación en La U por el Nacional y el estadio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy hace el enlace: es una situación que ya se ha discutido varias veces, pero aún no tiene una solución definitiva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki pregunta al chat: ¿qué creen ustedes que debería hacer la universidad para resolver este problema?"
+    }
+   ],
+   "seg": 29,
+   "lote": true
+  },
+  {
+   "tipo": "charla",
+   "tema": "Leclerc respaldó a periodista vetado en F1 tras llamarlo \"bastardo\": p",
+   "sub": "BioBioChile · hace 4 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki trae el último titular de BioBioChile hace cuatro horas: Leclerc respalda a un periodista vetado en F1."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy contextualiza: se trata de un conflicto dentro del mundo del automovilismo que ya tiene antecedentes y comentarios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki cierra la nota con una pregunta: ¿qué opinan ustedes sobre esta situación en el mundo del deporte?"
+    }
+   ],
+   "seg": 27,
+   "lote": true
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_step_inside_the_station_4k_clean",
+   "archivo": "v/v_nasa_step_inside_the_station_4k_clean.mp4",
+   "titulo": "Step_Inside_the_Station-4K-Clean",
+   "atribucion": "«Step_Inside_the_Station-4K-Clean» — NASA · images.nasa.gov",
+   "dur": 897,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "ZONA DEPORTES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La FIA anuncia el regreso de los V8 en la F1 para 2030 y luego borra e",
+   "sub": "Car and Driver · hace 2 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki presenta el regreso de los V8 en la F1 para 2030 según Car and Driver, con un giro inesperado al borra el mensaje."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy explica que esto es parte del contexto del futuro cercano en motores V8, pero no hay detalles confirmados sobre la eliminación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Crees que sea una estrategia de marketing o algo más profundo? ¡Opina en el chat!"
+    }
+   ],
+   "seg": 30,
+   "lote": true
+  },
+  {
+   "tipo": "charla",
+   "tema": "Curicó Esports busca organizar el torneo de Free Fire más grande del M",
+   "sub": "Diario El Centro · hace 7 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki informa que Curicó Esports busca organizar el torneo de Free Fire más grande del Maule según Diario El Centro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy contextualiza esto como un esfuerzo regional para elevar la competencia local en juegos digitales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué equipo de tu zona se apuntaría? ¡Dilo en el chat!"
+    }
+   ],
+   "seg": 24,
+   "lote": true
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "LoL Esports en 2027 y más allá",
+   "sub": "LoL Esports · hace 139 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki anuncia que LoL Esports habla sobre LoL Esports en 2027 y más allá según su propia fuente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy destaca que esto es un contexto general de planificación a largo plazo sin fechas concretas o nombres de jugadores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué esperas ver en 2027? ¡Escribe tu predicción en el chat!"
+    }
+   ],
+   "seg": 25,
+   "lote": true
+  },
+  {
+   "tipo": "charla",
+   "tema": "Mundial masculino Sub 17 de fútbol 2026: Resultados, calendario y tabl",
+   "sub": "Olympics · hace 12 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki presenta el Mundial masculino Sub 17 de fútbol 2026 con resultados, calendario y tabla según Olympics."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy aclara que esto es un contexto competitivo global para jóvenes talentos, sin detalles específicos de partidos aún."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué equipo te gustaría ver jugar? ¡Comenta en el chat!"
+    }
+   ],
+   "seg": 23,
+   "lote": true
+  },
+  {
+   "tipo": "charla",
+   "tema": "Carles Puyol, nuevo director de relaciones y fútbol internacional del ",
+   "sub": "La Vanguardia · hace 2 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki informa que Carles Puyol se convierte en director de relaciones y fútbol internacional del Inter Escaldes según La Vanguardia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy contextualiza esto como un movimiento estratégico para la liga andorrana, aunque no hay más detalles sobre su mandato."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué opinas de este cambio? ¡Dilo en el chat!"
+    }
+   ],
+   "seg": 24,
+   "lote": true
+  },
+  {
+   "tipo": "musica",
+   "id": "m_rocket_power",
+   "archivo": "m/m_rocket_power.mp3",
+   "titulo": "Rocket Power",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 154,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 10,
+  "seg_charla": 269,
+  "medios": 2
+ }
+}

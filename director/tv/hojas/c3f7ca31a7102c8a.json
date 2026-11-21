@@ -1,0 +1,21 @@
+{
+ "semilla": "Qué es la nube y dónde están los servidores",
+ "hechos": [
+  "La nube es un término metafórico para describir servicios de alojamiento y procesamiento de datos en internet.",
+  "Los servidores físicos que albergan estos datos se encuentran en grandes instalaciones conocidas como centros de datos.",
+  "Estos centros de datos suelen estar ubicados en zonas con clima templado para reducir el consumo energético necesario para la refrigeración.",
+  "La infraestructura física está compuesta por racks de servidores conectados entre sí mediante redes de alta velocidad.",
+  "El almacenamiento se realiza utilizando unidades de estado sólido o discos duros mecánicos .",
+  "Los datos se distribuyen en múltiples ubicaciones geográficas para garantizar redundancia y continuidad del servicio.",
+  "Las empresas de servicios de nube gestionan el mantenimiento, la seguridad física y la actualización del hardware.",
+  "El acceso a los recursos en la nube se realiza mediante protocolos de internet estándar sin necesidad de conexión directa al servidor.",
+  "La escalabilidad permite ajustar la capacidad de cómputo y almacenamiento según las demandas actuales.",
+  "Los centros de datos modernos utilizan sistemas de automatización para gestionar el suministro eléctrico y el control ambiental."
+ ],
+ "leyendas": [
+  "Se cuenta que los servidores en la nube están flotando literalmente en las nubes, cuando en realidad residen en edificios terrestres.",
+  "Se suele creer que los datos se almacenan en un único lugar centralizado, mientras que la infraestructura está distribuida globalmente."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 14:54"
+}

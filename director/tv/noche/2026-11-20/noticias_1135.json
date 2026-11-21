@@ -1,0 +1,269 @@
+{
+ "bloque": "noticias_1135",
+ "programa": "noticias",
+ "fecha": "2026-11-20",
+ "creado": "07:36:00",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Han lanzado GTA 6 y aun así temen perder su empleo. Un programador de ",
+   "sub": "3DJuegos · hace 1 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Otra más: Han lanzado GTA 6 y aun así temen perder su empleo. Un programador de Rockstar reivindica la formación de un sindicato. Lo informa 3DJuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 22,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/a1201ac283d6a6a9_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a1201ac283d6a6a9_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Shuhei Yoshida, exjefe de PlayStation: \"Recuerdo claramente el impacto",
+   "sub": "3DJuegos · hace 2 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Otra más: Shuhei Yoshida, exjefe de PlayStation: \"Recuerdo claramente el impacto que tuvieron GTA 3, Vice City y San Andreas en toda la industria\". Lo informa 3DJuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 23,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/9456a740972e1e17_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/9456a740972e1e17_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Es oficial: el Gobierno de España elegirá 20 centros de investigación ",
+   "sub": "Xataka · hace 2 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Otra más: Es oficial: el Gobierno de España elegirá 20 centros de investigación para competir en IA, chips y computación cuántica. Lo informa Xataka."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 22,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/81be534d690ac3cf_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/81be534d690ac3cf_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "En 1940 un perro en Francia olisqueó un agujero a un lado de un árbol ",
+   "sub": "Xataka · hace 1 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Otra más: En 1940 un perro en Francia olisqueó un agujero a un lado de un árbol caído y destapó la \"Capilla Sixtina\" de la prehistoria. Lo informa Xataka."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 24,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/f70f30cc90e6159c_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/f70f30cc90e6159c_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20211004_mh_jnd01_0001_dart_spacecra",
+   "archivo": "v/v_nasa_ksc_20211004_mh_jnd01_0001_dart_spacecra.mp4",
+   "titulo": "DART Spacecraft Removal from Shipping Container and Move to Spacecraft Dolly",
+   "atribucion": "«DART Spacecraft Removal from Shipping Container and Move to Spacecraft Dolly» — NASA · images.nasa.gov",
+   "dur": 191,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Hace 60 años, la Unión Soviética secó un mar entero para regar cultivo",
+   "sub": "Genbeta · hace 1 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sigue: Hace 60 años, la Unión Soviética secó un mar entero para regar cultivos de algodón: hoy ya se han plantado arbustos en 1,7 millones de hectáreas para frenar la erosión y las tormentas de polvo. Lo informa Genbeta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 28,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/c8ccf4554c753f4d_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c8ccf4554c753f4d_169.jpg",
+     "credito": "Foto: Genbeta"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cavar un estanque de 60 centímetros en el jardín y la naturaleza tardó",
+   "sub": "Xataka Ciencia · hace 1 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Otra más: Cavar un estanque de 60 centímetros en el jardín y la naturaleza tardó apenas unos días en convertirlo en un bioma funcional. Lo informa Xataka Ciencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 23,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/d20ba7619add9d4e_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/d20ba7619add9d4e_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Alguien ha conectado quince \"minicerebros\" neuronales formando una men",
+   "sub": "Xataka · hace 1 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sigue: Alguien ha conectado quince \"minicerebros\" neuronales formando una mente colmena y ha superado a una IA. Lo informa Xataka."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 20,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/ac3ec6d9f67550ab_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/ac3ec6d9f67550ab_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Microsoft cambia las reglas y actualizar a Windows 11 26H2 será mucho ",
+   "sub": "Hipertextual · hace 1 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sigue: Microsoft cambia las reglas y actualizar a Windows 11 26H2 será mucho más fácil. Lo informa Hipertextual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por ahora es lo que dice el titular; habrá que ver cómo sigue. ¿Tú qué opinas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 19,
+   "lote": false,
+   "imgs": [
+    {
+     "web": "/medios/6115d16b3c046ed2_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/6115d16b3c046ed2_169.jpg",
+     "credito": "Foto: Hipertextual"
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_7JcQVkoe89c",
+   "archivo": "yt/techno/7JcQVkoe89c.m4a",
+   "titulo": "Cosmic Nexus Minimal Techno",
+   "audio": "yt/techno/7JcQVkoe89c.m4a",
+   "atribucion": "Música: «Cosmic Nexus Minimal Techno» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 158,
+   "genero": "TECHNO",
+   "img": "/tv/media/yt/techno/7JcQVkoe89c.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_l8toHe_c5W0",
+   "archivo": "yt/coding/l8toHe_c5W0.mp4",
+   "titulo": "Upbeat Vlog Event by Infraction / About You",
+   "audio": "yt/coding/l8toHe_c5W0.m4a",
+   "atribucion": "Música: «Upbeat Vlog Event by Infraction / About You» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 143,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/l8toHe_c5W0.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 8,
+  "seg_charla": 181,
+  "medios": 3
+ }
+}

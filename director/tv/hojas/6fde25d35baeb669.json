@@ -1,0 +1,19 @@
+{
+ "semilla": "El formato VRM",
+ "hechos": [
+  "VRM es un formato de archivo utilizado para almacenar modelos 3D y animaciones en el entorno virtual.",
+  "El estándar VRM fue desarrollado por la comunidad de desarrolladores de avatares virtuales.",
+  "Los archivos VRM contienen información sobre geometría, materiales y animaciones.",
+  "Este formato permite que los avatares interactúen con otros usuarios en tiempo real.",
+  "VRM es compatible con motores de juego como Unity y Unreal Engine.",
+  "La extensión del archivo VRM suele ser .vrm o .vrml .",
+  "Los modelos 3D en VRM pueden incluir texturas y animaciones predefinidas.",
+  "El formato soporta la exportación de avatares para plataformas como YouTube Live."
+ ],
+ "leyendas": [
+  "Se cuenta que los archivos VRM son siempre más pesados que los formatos antiguos por su mayor complejidad técnica.",
+  "Según algunos relatos, el formato VRM fue creado exclusivamente para avatares con expresiones faciales avanzadas."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 18:15"
+}

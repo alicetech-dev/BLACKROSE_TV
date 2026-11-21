@@ -1,0 +1,73 @@
+# Stream nocturno de Eden Crafters (2026-10-18): Joy de compañera con IA (Claude haiku por el shim), Alice juega con su
+# Warudo + XR Animator. Arranque:
+#   JOY_VMC_PUERTO=39550 DOLLS_CFG=director/dolls.eden.yaml ./dolls.sh start --sfw --ligero
+# (JOY_VMC_PUERTO: que joy_vmc no le mande VMC al 39539, donde XR Animator mueve a Blackrose en Warudo.)
+# Igual que dolls.sfw.yaml pero: chat de @barbieblackrose (solo YouTube), temas de Eden Crafters, y en ligero Joy
+# comenta sola cada tanto (sala activa con silencios largos: cada comentario es un pedido a Claude).
+sfw: true
+agente: ws://127.0.0.1:8791
+xtts_url: http://127.0.0.1:9020/tts
+llm_directo: http://127.0.0.1:8084
+
+usuario: {id: 0, nombre: Alice}
+
+audio:
+  sink: dolls
+  bloque_ms: 20
+  adelanto_ms: 30
+
+opinar: 0
+
+dolls:
+  joy:
+    nombre: Joy
+    alias: [joy, yoi]
+    cuerpo: ws://127.0.0.1:8770
+    vmc_puerto: 39550
+    cuerpo_desc: "cyborg cat-girl avatar: cat ears, tail, robotic arms and glowing eyes"
+    idioma: es
+    voz: {motor: google, respaldo: ninguno, gtts_tld: {es: com.mx, en: com}, tono: 1.12}
+  bambi:                           # BL4CKROSE en marioneta: sos vos (lo que escribís en la consola lo dice con su voz)
+    nombre: BL4CKROSE
+    alias: [blackrose, bl4ckrose, rose]
+    cuerpo: ws://127.0.0.1:8771
+    vmc_puerto: 39541
+    cuerpo_desc: "cat-girl avatar: cat ears and tail"
+    idioma: es
+    voz: {motor: google, respaldo: ninguno, gtts_tld: {es: com.mx, en: com}, tono: 1.0}
+
+sala:
+  activo: true
+  silencio: [70, 140]
+  dialogo_max: 1
+  replicar: 0
+  posturas: {}
+
+canal:
+  youtube: "@barbieblackrose"
+  twitch: ""
+  kick: ""
+  auto: true
+  cada: [20, 45]
+  vence: 180
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot]
+  bloquear: []
+
+# Datos del juego (de la tienda de Steam y reseñas de PC Gamer/PCGamesN); si algo no está acá, Joy dice que no lo sabe.
+temas:
+  - "qué es Eden Crafters y por qué Alice lo juega por primera vez. Datos: Eden Crafters, de Osaris Games, es un juego de supervivencia, crafteo y fábricas (solo o cooperativo) donde terraformás planetas: templar el clima, crear una atmósfera respirable y convertir lagos tóxicos en agua que sostenga la vida. El bucle: herramientas → fábricas automatizadas → máquinas de terraformación que de a poco vuelven habitable el planeta. Está en acceso anticipado en Steam. Es la PRIMERA VEZ de Alice: no sabe jugarlo todavía. Si un detalle no está acá, decí que no lo sabés."
+  - "los cinco planetas de Eden Crafters y cuál les da más curiosidad. Datos: hay cinco planetas para terraformar, cada uno con sus desafíos y secretos: Ocean World, Pyraxis, Aetheria, Nova Terra y Echo Prime. Si un detalle no está acá, decí que no lo sabés."
+  - "automatizar en Eden Crafters: cintas transportadoras y máquinas. Datos: se automatiza la recolección y transformación de recursos con cintas (tres niveles) y máquinas; la actualización de acceso anticipado sumó 28 máquinas de producción y logística y 12 edificios de terraformación. Las reseñas dicen que la automatización es fácil de entender. Si un detalle no está acá, decí que no lo sabés."
+  - "qué se viene en Eden Crafters según la hoja de ruta. Datos: trenes, vehículos nuevos de terraformación, naves personalizadas, especies animales y más actualizaciones de planetas. Si un detalle no está acá, decí que no lo sabés."
+  - "terraformar Marte en la vida real contra terraformar en un juego: qué haría falta (atmósfera, agua, temperatura) y por qué tardaría siglos. Charla con sustancia, sin inventar cifras precisas."
+  - "alentar a Alice como compañera de sofá mientras arma sus primeras máquinas y explora el planeta."
+  - "preguntarle al chat si alguien ya jugó Eden Crafters y qué consejo le darían a Alice para empezar."
+
+perfiles:
+  ligero:
+    agente: ws://127.0.0.1:8791
+    marioneta: [bambi]
+    llm_directo: http://127.0.0.1:8086
+    voz: gtts
+    sala: {activo: true, silencio: [70, 140], dialogo_max: 1, replicar: 0}
+    opinar: 0

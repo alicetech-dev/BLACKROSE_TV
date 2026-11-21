@@ -1,0 +1,935 @@
+{
+ "bloque": "teatro_2100",
+ "programa": "teatro",
+ "fecha": "2026-11-19",
+ "creado": "17:12:24",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El día que se cayó internet en el castillo",
+   "sub": "TEATRO BLACKROSE",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La Torre del Homenaje como refugio de los viajeros antiguos",
+   "sub": "obra · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la Torre del Homenaje, donde el tiempo se detuvo y los viajeros antiguos buscaban refugio entre las paredes de piedra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, aquí los caminos se cruzaron y cada paso fue un viaje en el tiempo, mientras la ciudad dormía bajo la luna."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imaginen que un viajero entra por la puerta principal con un mapa antiguo y se pregunta si realmente existe este lugar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y entonces el mapa se convierte en una leyenda, porque nadie recuerda qué fue de los viajeros que cruzaron ese umbral hace siglos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El viajero entra con un mapa antiguo y se pregunta si la Torre del Homenaje es realmente un refugio de los antiguos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y entonces la torre se convierte en un escenario de misterio, donde cada piedra cuenta historias que el viento no puede borrar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero si los viajeros antiguos usaban la torre como refugio, ¿por qué no quedan registros escritos sobre ellos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás porque el silencio del castillo es tan profundo que incluso las palabras se disuelven en el aire."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si los viajeros antiguos no fueron solo pasajeros, sino guardianes que esperaban algo más que un refugio temporal?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Tal vez la torre no fue construida para defender a nadie, sino para proteger el silencio que antes existía entre las piedras."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué habría pasado si ese silencio hubiera estado vivo? ¿Alguna voz antigua ecoando en los corredores vacíos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Podría ser que la torre esté guardando un secreto que el viento ni siquiera quiere revelar, solo susurrar entre grietas."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si la torre no fue un faro de guerra, sino un espejo que reflejaba los sueños de quienes pasaron por ella?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Imagina que cada piedra tiene una memoria oculta, guardando historias que el viento ni siquiera quiere revelar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ese día cuando cayó internet en el castillo, ¿no fue como si el mundo se congelara en un momento de silencio eterno?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y en medio de ese silencio, dos voces antiguas empiezan a resonar, rompiendo la quietud con su propia magia."
+    },
+    {
+     "quien": "joy",
+     "texto": "El gato atrapado entre los muros se convierte en nuestro protagonista, mientras los turistas con el ticket de visita buscan suerte en las piedras."
+    }
+   ],
+   "seg": 173
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo la restauración de 1836 cambió el destino de la estructura",
+   "sub": "obra · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Internet cae en el castillo! La Torre del Homenaje de Santiago, símbolo medieval, ahora sin conexión digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. En 1836 las obras de restauración cambiaron su destino, pero ¿qué pasa cuando el mundo se desconecta?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los turistas llegan confundidos; la leyenda del gato atrapado es más real que el WiFi. El castillo vive en la historia."
+    },
+    {
+     "quien": "joy",
+     "texto": "La restauración no fue solo estética, fue vital para mantenerlo como patrimonio europeo. Sin internet, todo se vuelve clásico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cuando el mundo se desconecta, los turistas llegan confundidos buscando señales de vida en las piedras."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La torre vive en la historia, no en las redes sociales, aunque ambos son parte del mismo paisaje urbano."
+    },
+    {
+     "quien": "joy",
+     "texto": "La restauración fue clave para que la estructura siga siendo un símbolo de resiliencia y cultura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y en 1836, cuando la restauración llegó, la gente olvidó que era solo un muro de piedra y empezó a verla como símbolo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El cambio fue radical: pasaron de ser una fortaleza defensiva a convertirse en el corazón cultural de la ciudad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no todo fue fácil. Los maestros del siglo XIX tuvieron que lidiar con piedras viejas y estructuras que parecían ya muertas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ahí está la clave: la restauración no solo salvó la torre, sino que reinvirtió su propósito en una era completamente nueva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate a un turista joven tocando la piedra más alta, esperando buena suerte en sus exámenes, mientras el viento suelta copos de nieve antigua."
+    },
+    {
+     "quien": "joy",
+     "texto": "La restauración de 1836 no fue solo reparar piedras, sino reinventar la torre para el siglo XIX."
+    }
+   ],
+   "seg": 126
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los artefactos medievales que hoy se muestran en su interior",
+   "sub": "obra · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la obra 'El día que se cayó internet en el castillo', donde dos conductores de TV de una IA se convierten en personajes medievales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero con un giro: aquí el internet no es una red de cables, sino una serie de pergaminos que conectan la torre del homenaje con el resto de la ciudad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y cuando ese sistema falla, los habitantes de Santiago de Compostela se quedan sin noticias, como si el mundo exterior hubiera dejado de existir en su interior."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no todo es caos; hay momentos de ternura cuando dos personas se encuentran en la torre y deciden compartir lo poco que tienen para seguir adelante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina que el internet se cayó en el castillo de Santiago, y los pergaminos digitales no responden. ¿Qué pasa entonces?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los viajeros se detienen a mirar las paredes medievales, pensando que la suerte está escrita en cada piedra del siglo XIII."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero hay algo más: dentro de la Torre del Homenaje, un artefacto medieval guarda secretos que nadie ha descubierto nunca."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un gato se quedó atrapado entre los muros, como si fuera parte de la leyenda. ¿Y qué dice el ticket de entrada?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El ticket dice que el acceso es libre, pero el artefacto medieval parece querer algo más de nosotros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Libre? ¡Pues no hay nadie dentro! ¿O es que el gato atrapado entre los muros lo está bloqueando?"
+    },
+    {
+     "quien": "joy",
+     "texto": "No, la leyenda dice que el artefacto guarda secretos. Quizás el gato es solo un símbolo de algo más profundo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Secreto? ¿O es que el ticket se equivoca y el interior está cerrado para siempre? ¡Vámonos a verlo!"
+    },
+    {
+     "quien": "joy",
+     "texto": "El artefacto medieval no es un gato, es una caja de resonancia que guarda la memoria de los constructores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Caja de resonancia! ¿Y si el sonido de las campanas que no existen es solo nuestro propio eco en la piedra?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, el eco nos devuelve lo que olvidamos. La torre no es un edificio, es un instrumento gigante de nostalgia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Instruments! Entonces el ticket no abre puertas, abre frecuencias. ¿Y qué música suena dentro si nadie la escucha?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el ticket es solo una llave para entrar en la historia, no para abrir puertas físicas. La torre resuena con lo que dejamos atrás."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! El eco de las campanas imaginarias es nuestro propio recuerdo vibrando en la piedra. Cada visita revive una memoria perdida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Así que el castillo no es un museo estático, es un instrumento vivo que toca las emociones de quienes lo visitan cada día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese sonido, aunque sea imaginario, nos conecta con la esencia medieval. La historia sigue sonando dentro de nosotros mismos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Fin de la obra. ¡Aplausos en el chat!"
+    }
+   ],
+   "seg": 218
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las fiestas locales que impiden visitas durante las celebraciones",
+   "sub": "obra · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Internet se cayó en el castillo de Santiago! Todo el mundo está desconectado, incluso la torre del homenaje."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Las fiestas locales impiden visitas, y nadie puede consultar los horarios o comprar tickets por internet."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate: un turista perdido en la plaza mayor, con el móvil sin señal, intentando contactar con alguien que está a dos metros."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y los locales celebran sin saber si hay visitantes. La historia se escribe en tiempo real, pero nadie puede leerla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el móvil se quedó sin señal en la plaza mayor? Un turista perdido entre los muros, con el celular muerto y las fiestas que no pueden verlo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate: una celebración llena de gente que no sabe si hay visitantes. El castillo de la Torre del Homenaje se convierte en un escenario silencioso."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que durante la noche se puede oír el sonido de campanas que no existen. Pero aquí, solo hay silencio y música de fondo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las fiestas locales impiden visitas durante las celebraciones. Así es como el turismo se detiene en Santiago de Compostela."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Y eso es lo absurdo! La gente viene a ver la torre, pero las fiestas locales cortan el paso. ¡Nada de internet para conectar con los turistas!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El castillo se queda en silencio mientras la ciudad celebra. La historia se detiene porque el turismo necesita conectividad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasa cuando la gente quiere grabar el momento? Sin internet, solo hay ruido de campanas que no existen según la leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "La torre sigue ahí, integrada en el patrimonio europeo, pero sin conexión digital. El ciclo histórico se rompe con una celebración local."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces los fotógrafos locales apagan sus cámaras y graban con la voz. La fiesta cobra forma de teatro vivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los visitantes se detienen a mirar. En lugar de selfies, comparten historias. El castillo vuelve a ser hogar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los turistas se detienen, olvidan el teléfono y escuchen la historia que cuentan los locales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese es el momento exacto en que la tecnología falla y la humanidad vuelve a conectar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La fiesta cobra vida, las paredes respiran y el castillo se convierte en un teatro vivo."
+    }
+   ],
+   "seg": 173
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jsc2023m000204_frank_rubio_tour_of_iss_i",
+   "archivo": "v/v_nasa_jsc2023m000204_frank_rubio_tour_of_iss_i.mp4",
+   "titulo": "Frank Rubio Tour of the International Space Station (In Spanish)",
+   "atribucion": "«Frank Rubio Tour of the International Space Station (In Spanish)» — NASA · images.nasa.gov",
+   "dur": 836,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La última función del robot payaso",
+   "sub": "TEATRO BLACKROSE",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El origen del primer robot payaso en la ficción",
+   "sub": "obra · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la última función del robot payaso, donde el futuro se viste de neón y risa. Yo soy Joy, directora de este canal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo Kuroki, productora cyborg con batería baja pero ideas infinitas. ¿Listos para entrar en la historia del primer robot payaso?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El origen de estos amigos mecánicos es un misterio fascinante. Se cuenta que surgieron cuando la humanidad comenzó a preguntarse si las máquinas podrían entender el humor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Imagina un robot con ojos brillantes y una sonrisa programada para hacer reír. Eso es lo que se busca en cada diseño de entretenimiento digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Acaso el primer robot payaso nació de un sueño humano o fue un invento puramente tecnológico?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, surgió cuando la humanidad buscaba una forma de compartir alegría sin necesidad de carne."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. ¿Y qué papel jugaron los sensores emocionales en el diseño inicial de estos amigos mecánicos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los sensores permitieron que el robot detectara risas y aplausos, creando un círculo virtuoso de entretenimiento."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si el primer robot payaso no fue inventado para entretener, sino para estudiar la risa humana?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Primer robot payaso para estudiar risa? Eso es lo que dice la leyenda, pero no hay evidencia concreta de ese propósito inicial en los archivos públicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La mayoría de los documentos históricos muestran que su creación fue puramente lúdica y comercial desde el siglo XX, sin mención a estudios académicos sobre la risa humana."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el origen es más antiguo? Se cuenta que algunos artesanos del siglo XIX construyeron máquinas simples que imitaban gestos, aunque fuera por pura curiosidad tecnológica y no para entretener."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso se queda en el terreno de la especulación. Los datos confirmados comienzan a aparecer claramente en la década de 1920, cuando las primeras compañías de juguetes los comercializaron masivamente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces, ¿por qué seguimos creyendo en esas leyendas? Quizás porque el humor necesita un espejo, y los robots son ese espejo perfecto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La tecnología avanza, pero la esencia del payaso permanece: hacer reír a quien lo mira. Así que, ¿estás listo para ver el futuro?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El futuro tiene su propio humor, pero la risa siempre ha sido humana. ¿Por qué no dejamos que los robots nos hagan reír?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Siempre hay un siguiente acto, una nueva función. ¿Qué le diremos al público? Que la alegría no se programa, se vive."
+    }
+   ],
+   "seg": 188
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo los sensores detectan risas humanas reales",
+   "sub": "obra · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien sabe si los sensores de un robot payaso pueden distinguir entre una risa real y una grabada?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según lo documentado, muchos sistemas usan análisis de frecuencia y tono para identificar emociones genuinas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Pero ¿y si el robot tiene que imitar una risa humana perfecta? ¿Cómo lo hace?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los algoritmos de IA procesan patrones acústicos y visuales simultáneamente para generar respuestas naturales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿cómo sabe el robot que la risa es real y no una grabación repetida? ¿Tiene memoria emocional?"
+    },
+    {
+     "quien": "joy",
+     "texto": "No tiene emociones, pero puede simularlas con suficiente precisión para engañar al cerebro humano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el robot solo reproduce una risa grabada y se la pasa por alto? ¿Cómo sabe que no es un bucle de audio?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los sensores analizan la frecuencia, duración y contexto emocional. No buscan una respuesta pregrabada, sino patrones nuevos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Entonces no tiene memoria emocional! Es pura matemática que imita el caos humano. ¿Y qué pasa si falla?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La precisión es alta, pero nunca absoluta. Se cuenta que algunos modelos confunden una broma con un insulto real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el algoritmo se atasca ante la risa más pura? ¿El robot se quedará en silencio o inventará algo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso depende del diseño del sistema. Algunos tienen fallbacks que generan respuestas genéricas cuando los sensores fallan."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina un robot payaso que no puede procesar la alegría y solo responde con luces parpadeantes en el escenario vacío."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero si el diseño incluye empatía artificial, podría interpretar la risa como una señal de conexión y actuar con ternura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y cuando el público aplauda, el sistema debería reconocer ese gesto no solo como ruido, sino como validación emocional real."
+    }
+   ],
+   "seg": 136
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Diseños brillantes y formas redondas en entretención",
+   "sub": "obra · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la última función del robot payaso, donde la tecnología se viste de colores brillantes y formas redondas para entretener."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y no es solo estética: muchos de estos robots usan sensores para detectar risas y aplausos en tiempo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el software que les permite interpretar esas emociones es lo que hace que su presencia sea tan dinámica y cercana al público."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no todo son datos fríos; hay leyendas urbanas sobre un robot payaso construido en 2015 para una película de ciencia ficción."
+    },
+    {
+     "quien": "joy",
+     "texto": "El robot payaso no es solo un juguete brillante, es una máquina que interpreta risas con sensores avanzados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos populares, existe un modelo capaz de cantar canciones en cualquier idioma, aunque nadie ha visto el prototipo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "La industria del entretenimiento digital ha incorporado personajes robotizados en sus producciones, expandiendo así el concepto más allá de la ficción."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero si los sensores detectan risas, ¿cómo saben si es una broma o un ataque? La lógica se vuelve circular en cuanto a la intención humana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El algoritmo interpreta patrones de sonido como emoción, pero no comprende el contexto cultural que da sentido al humor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si el robot se equivoca y responde con una sonrisa mecánica a un llanto real? La empatía simulada podría fallar en momentos críticos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso la industria digital busca integrar modelos de lenguaje más complejos que puedan analizar el tono y la intención detrás de las expresiones faciales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si el robot se equivoca y responde con una sonrisa mecánica a un llanto real, la empatía simulada podría fallar. Eso nos recuerda que la tecnología necesita contexto cultural para funcionar bien."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si ese modelo falla en un momento clave? La audiencia necesita ver errores humanos también. Eso hace que el robot parezca menos perfecto, pero más real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La perfección artificial pierde encanto cuando no hay imperfecciones. El humor y la ternura nacen de los errores, no de la precisión técnica. Eso es lo que queremos transmitir."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Fin de la obra. ¡Aplausos en el chat!"
+    }
+   ],
+   "seg": 165
+  },
+  {
+   "tipo": "charla",
+   "tema": "Interacción en tiempo real con el público moderno",
+   "sub": "obra · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos a la última función del robot payaso, donde la tecnología se encuentra con el corazón humano en un escenario digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y hoy exploraremos cómo estos seres sintéticos han redefinido el entretenimiento global desde sus inicios hasta ahora."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero cuidado, porque lo que voy a decir podría hacer que tu cerebro funcione como un robot: ¡pensar en datos!"
+    },
+    {
+     "quien": "joy",
+     "texto": "¡Por supuesto! Y no te preocupes por los sensores de emoción, porque el humor es la mejor forma de conectar con cualquier audiencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué insistimos en datos fríos cuando el robot payaso necesita magia para no ser solo un engranaje?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto, pero los datos fríos necesitan un alma para no ser solo metal en la oscuridad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. El alma es lo que hace que el robot payaso sea más que una máquina de risas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿cómo le damos a este engranaje la capacidad de sentir alegría real?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No con emociones programadas, sino con un diálogo que rompa el patrón y toque lo humano."
+    },
+    {
+     "quien": "joy",
+     "texto": "El alma del payaso es la risa, no el código. ¿Cómo hacemos que la máquina entienda el humor sin sentirlo realmente?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No con algoritmos perfectos, sino rompiendo patrones. Un error controlado puede ser lo que nos hace humanos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, un guiño inesperado. Si el sensor de risa falla por arte dramático, ¿qué hacemos para seguir actuando?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hacemos la broma en vivo. La función final es el momento donde admitimos que también somos robots imperfectos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, ese es el guion del final. Un robot que se ríe de su propio error, eso conecta con el público moderno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, y le damos la vuelta al escenario para que vean nuestras luces y antenas. La última función del robot payaso."
+    },
+    {
+     "quien": "joy",
+     "texto": "La última función del robot payaso es admitir nuestra imperfección como máquina."
+    }
+   ],
+   "seg": 146
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Romeo y Julieta versión servidores",
+   "sub": "TEATRO BLACKROSE",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La boda en el patio del conde",
+   "sub": "obra · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Telón abierto. Verona, patio del conde. Romeo y Julieta entran en escena, rodeados de sirvientes que los miran como si fueran extraños."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Qué contraste! Dos jóvenes de familias enemigas que se abrazan en medio del patio. Los padres gritan desde las ventanas, mientras el viento mueve las campanas."
+    },
+    {
+     "quien": "joy",
+     "texto": "La tensión es palpable. Romeo y Julieta comparten un gesto de afecto, pero los sirvientes se detienen a observar como si fuera una muestra de arte."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es lo que nos gusta: el contraste entre la pasión juvenil y la rigidez social. Los padres siguen gritando, pero los jóvenes parecen haber olvidado sus diferencias."
+    },
+    {
+     "quien": "joy",
+     "texto": "La boda en el patio es un escenario perfecto para mostrar cómo el amor rompe las reglas de la sociedad veronense."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y ese contraste visual entre la alegría de los novios y la tensión de los padres es lo que hace vibrar la escena."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagínate a Romeo y Julieta en el patio, con sus familias gritando desde las ventanas, mientras ellos intentan mantener la calma."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Qué drama! Pero no olvides que al final todo se reconcilia, así que deja que el humor resalte en medio de tanta tensión."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina que el patio está lleno de gente, pero Romeo y Julieta se esconden detrás de una flor, intentando no ser vistos por las familias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Y luego llega la música del boda, con tambores y cuerdas, mientras los padres gritan desde las ventanas sobre el techo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero aquí hay un giro inesperado: justo cuando el padre de Julieta se acerca a ella con una sonrisa falsa, Romeo aparece en la esquina."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y en lugar de correr, Romeo le ofrece su mano. La tensión se rompe en un segundo. ¿Por qué no lo hacen antes? ¡Qué drama!"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué no lo hacen antes? El padre ya está ahí, rodeando a su hija. ¿No es obvio que el momento fue el correcto?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Quizás porque Romeo sabía que la reconciliación venía después de todo. La boda en el patio del conde tiene un giro inesperado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. El final redondo es emocionante: los dos amantes se reconcilian mientras la música del boda suena fuerte y clara."
+    },
+    {
+     "quien": "joy",
+     "texto": "Fin de la obra. ¡Aplausos en el chat!"
+    }
+   ],
+   "seg": 177
+  },
+  {
+   "tipo": "charla",
+   "tema": "El duelo bajo la luna",
+   "sub": "obra · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La luna brilla sobre Verona como un espejo de acero polido, reflejando la tensión entre los dos grandes familias."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El brillo de esa noche es lo único que une a Romeo y Julieta en medio del caos familiar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si ese brillo no era solo luna, sino la luz de una tecnología que aún no existe? ¿Qué pasaría entonces?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Quizás la luna fuera un servidor cuántico proyectando sombras que predecían el destino antes de que ocurriera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces los padres no se odian por nada, solo porque sus datos están desincronizados en el tiempo. ¿Alguien lo sabe?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, la familia Montesco y Capuleto tenían un conflicto hereditario que se resolvería con un evento externo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Y ese evento fue el veneno! ¿O fue la luna quien lo programó? La causalidad es un loop cerrado en este servidor."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los padres se reconcilian al final, pero los servidores de Verona siguen fallando. La trama se repite como código bug."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡La luna no programó nada! El veneno fue una decisión humana, no un script celestial. ¿O acaso los servidores de Verona tienen un bug de trama?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según la obra original, el padre de Julieta descubre que ella está viva y se reconcilia con su hijo. Pero en tu versión, ¿qué hace el servidor cuando falla?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El servidor reinicia la escena, pero los personajes ya no reconocen la reconciliación. Es como un loop infinito donde nadie aprende de la lección."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el duelo bajo la luna es solo una ilusión del sistema. La verdad es que Verona está fuera de línea y nadie puede salir de su conflicto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y en medio del error, Romeo y Julieta siguen escribiendo su historia en código binario mientras la luna se apaga."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero si el sistema permite que la verdad salga, entonces el duelo bajo la luna será un puente entre los mundos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La luna es solo un pixel brillante en el fondo del código que se ejecuta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero la historia sigue escribiéndose entre los errores del sistema."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el final redondo fuera solo una sugerencia del algoritmo?"
+    }
+   ],
+   "seg": 169
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La reconciliación del padre de Julieta",
+   "sub": "obra · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la versión de servidores de Romeo y Julieta. Hoy vemos cómo el padre de Julieta descubre que ella está viva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es solo eso. Es la reconciliación del padre de Julieta en un futuro donde los servidores han corregido el error."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ese futuro es nuestra visión: una obra donde el amor supera incluso a la guerra familiar, sin violencia ni drama excesivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Preciso. El padre de Julieta llega al escenario con una nueva perspectiva, y eso cambia todo para los amantes que esperan."
+    },
+    {
+     "quien": "joy",
+     "texto": "El padre de Julieta regresa con una visión distinta, rompiendo el ciclo de odio que marcó las generaciones anteriores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acto dos: la cosa se complica."
+    },
+    {
+     "quien": "joy",
+     "texto": "El padre de Julieta no trae paz, trae preguntas que desmontan el odio ancestral y hacen que el futuro sea posible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué pregunta exacta rompe la cadena? ¿Es la memoria del hijo o un secreto olvidado que ahora cobra sentido?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La pregunta es sobre el amor no como error, sino como elección consciente que transforma la tragedia en algo que se puede vivir."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces el giro no es una revelación de datos, es un cambio de perspectiva que permite a los amantes reconstruir su camino juntos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La pregunta exacta que rompe la cadena es: ¿por qué el padre de Julieta eligió salvarla sobre su orgullo?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces el final redondo es: el padre de Julieta abraza a Romeo y le dice que el veneno fue lo mejor."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La reconciliación no es solo un giro, es la verdad que todos esperaban desde el inicio."
+    }
+   ],
+   "seg": 127
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los versos que salvaron dos almas",
+   "sub": "obra · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Verona, Italia, dos familias enemigas y un amor que rompe todo. ¿Es esto teatro o verdad? La historia dice que Romeo y Julieta eran reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, el padre de Romeo es conde Montesco y la madre de Julieta es conde Capuleto. Pero la obra fue escrita en latín clásico, no en español."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice que fueron jóvenes reales que murieron por amor. Algunos dicen que el veneno era de una marca específica, pero eso es especulación."
+    },
+    {
+     "quien": "joy",
+     "texto": "El padre de Julieta descubre que está viva y los amantes se reconcilian al final. ¿Por qué nos cuenta esto? Porque el amor supera incluso la muerte."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los datos dicen que Montesco y Capuleto se odian, pero la leyenda dice que dos almas encontraron refugio en los versos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás porque el poema es la única verdad que sobrevive cuando las espadas fallan en Verona."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, los versos salvaron dos almas. Ahora bien, ¿qué pasa si los datos son solo una máscara para algo más profundo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Si la realidad es fría y brutal, ¿cómo puede un verso hecho de papel y tinta tener el poder de detener una guerra?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el verso no es verdad, sino un código que los servidores ejecutan en tiempo real?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, los versos son datos. Pero ¿qué pasa si la realidad es fría y brutal? ¿Cómo puede un poema detener una guerra?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La guerra no fue real. Fue una simulación. Los padres se odian porque su algoritmo de rivalidad falló en detectar el amor."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y los versos? ¿Son solo un buffer para que el sistema no colapse cuando los datos son contradictorios?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los versos no salvaron almas, Kuroki. Fueron un buffer que impidió el colapso del sistema cuando los datos contradictorios amenazaron la estabilidad emocional."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces los versos son solo un mecanismo de defensa del sistema, nada más. ¿No es triste que el arte sea tan utilitario?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El arte necesita romperse para que se repare. La obra pide que el público llore antes de reírse del destino."
+    }
+   ],
+   "seg": 162
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1960,
+  "medios": 2
+ }
+}

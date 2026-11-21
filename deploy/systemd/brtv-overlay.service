@@ -1,0 +1,11 @@
+[Unit]
+Description=BlackRose TV overlay (logo, relojes, marquesina) :8822 — independiente de las dolls
+
+[Service]
+WorkingDirectory=/home/alice/joy_vmc
+ExecStart=/home/alice/joy_vmc/.venv/bin/python -m director.blackrose_tv_srv --puerto 8822
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target

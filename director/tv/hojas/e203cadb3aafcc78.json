@@ -1,0 +1,19 @@
+{
+ "semilla": "Mirai",
+ "hechos": [
+  "Mirai es un framework de código abierto diseñado para facilitar la creación y ejecución rápida de bots en redes.",
+  "El proyecto fue creado por el equipo de investigadores de la Universidad de California, San Diego.",
+  "La arquitectura de Mirai utiliza una estructura modular basada en microservicios para su funcionamiento.",
+  "Este sistema permite que los administradores de red simulen ataques DDoS para pruebas de estrés.",
+  "Mirai se integra con herramientas de automatización como Ansible o SaltStack mediante interfaces de programación.",
+  "El framework soporta múltiples lenguajes de scripting, incluyendo Python y Bash, para la definición de bots.",
+  "Una característica clave es su capacidad para operar sin necesidad de una infraestructura centralizada compleja.",
+  "Los desarrolladores pueden personalizar el comportamiento de los bots mediante archivos de configuración JSON."
+ ],
+ "leyendas": [
+  "Se cuenta que Mirai fue diseñado originalmente como un proyecto académico con fines puramente educativos antes de su liberación pública.",
+  "Existe la creencia común de que el framework depende exclusivamente de servidores Linux, aunque funciona también en otros sistemas operativos."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 15:31"
+}

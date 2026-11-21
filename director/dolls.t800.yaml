@@ -1,0 +1,74 @@
+# El T-800 amigable, solo:  ./dolls.sh start --t800   (el director arranca con --config director/dolls.t800.yaml)
+# Cerebro: pack `t800` del agente (memoria propia en ~/proyectos/agente_unificado/data_t800). Cuerpo: el pixel art de OBS
+# (~/overlays_t800/t8_cuerpo.py en :8772 → t8_avatar.html?ws=ws://127.0.0.1:8772/avatar). Sin Warudo ni joy_vmc.
+sfw: true
+agente: ws://127.0.0.1:8791
+xtts_url: http://127.0.0.1:9020/tts
+llm_directo: http://127.0.0.1:8084
+
+usuario: {id: 0, nombre: Alice}
+
+audio:
+  sink: dolls
+  bloque_ms: 20
+  adelanto_ms: 30
+
+opinar: 0
+
+dolls:
+  t800:
+    nombre: T-800
+    alias: [t800, t-800, terminator, terminador]
+    cuerpo: ws://127.0.0.1:8772
+    cuerpo_desc: "pixel-art T-800: half human face, half metal endoskeleton, dark sunglasses with a cracked lens and a glowing red eye, leather jacket"
+    mirar: [camara, chat, izquierda, derecha, arriba, abajo]
+    idioma: es
+    # gTTS solo tiene voz de mujer: tono grave + formantes corridos = voz de hombre robótica (CPU, sin VRAM)
+    voz: {motor: google, respaldo: ninguno, gtts_tld: {es: com.mx, en: com}, tono: 0.72, formantes: correr}
+
+sala:
+  activo: true           # anfitrión: en los silencios abre un tema de la lista, piensa en voz alta o le pregunta al chat
+  silencio: [35, 70]    # acompaña sin hablar de más (15-30 era demasiado)
+  dialogo_max: 1
+  replicar: 0
+  posturas: {}
+
+canal:
+  youtube: "@barbieblackrose"
+  twitch: ""
+  kick: "barbieblackrose"
+  auto: true
+  cada: [20, 45]
+  vence: 180
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot]
+  bloquear: []
+
+# solo para el desplegable "Conversar de esto" de la consola: los bloques del guion, los abre ella
+temas_guion:
+  - "Noticias de tecnología e IA de esta semana, y memes"
+  - "La temporada nueva de Fast Penguin, que empezó hoy: primeras impresiones"
+  - "Repositorios raros e interesantes de GitHub"
+  - "REA"
+  - "GoldenEye 007 recompilado desde el código decompilado: cómo se hizo y cómo corre"
+  - "Unity: lo que estamos dibujando y armando en Yamu Vania"
+
+temas:
+  - cómo decide un agente de IA qué hacer
+  - sensores y actuadores de un robot
+  - el ciclo percibir, decidir, actuar
+  - ¿la IA va a reemplazar a los programadores?
+  - robots de película contra robots reales
+  - qué entienden mal los humanos de la IA
+  - las noticias de tecnología de la semana
+  - memoria en los agentes de IA
+  - por qué se ríen los humanos
+  - qué hace confiable a una máquina
+  # cowork nocturno 2026-10-16 (los bloques del guion NO van acá: los abre ella)
+  - el juego en Unity que está haciendo Alice (Yamu Vania, un metroidvania con tiles)
+  - procrastinar de madrugada: ¿los humanos rinden más de noche?
+  - quemar todos los tokens antes de que se renueven
+
+# ./dolls.sh start --t800 --ligero: cerebro = Claude Code (haiku) por el shim :8086, sin 4B. El cuerpo ya es liviano.
+perfiles:
+  ligero:
+    llm_directo: http://127.0.0.1:8086

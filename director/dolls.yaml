@@ -1,0 +1,91 @@
+# Director de las dolls: un proceso para todas (comparten un solo 4B y se escuchan entre ellas para opinar).
+agente: ws://127.0.0.1:8791        # python -m agente serve --port 8791  (o `run` con DOLL_SERVE_PORT=8791)
+xtts_url: http://127.0.0.1:9020/tts   # proxy del orquestador: levanta XTTS bajo demanda
+llm_directo: http://127.0.0.1:8084    # solo para mirar si el 4B está arriba sin despertarlo
+
+usuario: {id: 0, nombre: Alice}     # id 0 = operadora del agente (OPERATOR_IDS=0 en su .env)
+
+audio:
+  sink: dolls           # null-sink de PipeWire (director/audio_setup.sh); OBS lo captura y un loopback va a tus auriculares
+  bloque_ms: 20
+  adelanto_ms: 30       # medido: sin adelanto la boca va +27 ms tarde (ataque suavizado de joy_vmc); con 40, −14 ms
+
+opinar: 0.55            # probabilidad de que la otra doll agregue un comentario corto después
+
+dolls:
+  joy:                  # id del agente (EXTRA_DOLLS=joy:Joy) y del personaje de joy_vmc
+    cuerpo: ws://127.0.0.1:8770      # joy_vmc --personaje joy --ws-puerto 8770 --puerto 39539
+    vmc_puerto: 39539
+    cuerpo_desc: "cyborg cat body: cat ears, tail, robotic arms and glowing eyes"
+    mirar_a: {bambi: derecha}   # hacia dónde mira para ver a la otra (según dónde estén en la escena de Warudo)
+    idioma: en          # si una frase no deja claro el idioma
+    voz:                # misma muestra que Bambi; la diferencia sale de temperatura, velocidad y tono
+      motor: xtts       # xtts (voz clonada) | google (gTTS)
+      voice: samplevoice   # ~/xtts-voice-service/voices/samplevoice.wav
+      temperatura: 0.85    # XTTS usa 0.75: un poco más expresiva e impredecible (gata inquieta)
+      velocidad: 1.08      # habla más rápido
+      tono: 1.05           # ~+1 semitono (rubberband, sin cambiar la velocidad)
+      respaldo: ninguno    # solo XTTS local: si arranca en frío, espera ("pensar") en vez de usar Google
+  bambi:                # la doll principal del agente (su data/ de siempre)
+    cuerpo: ws://127.0.0.1:8771      # joy_vmc --personaje bambi --ws-puerto 8771 --puerto 39541
+    vmc_puerto: 39541
+    cuerpo_desc: "Barbie doll body: platinum hair, glossy lips, curvy plastic-perfect figure"
+    mirar_a: {joy: izquierda}
+    idioma: en
+    voz:
+      motor: xtts
+      voice: samplevoice
+      temperatura: 0.65    # más estable y "de muñeca": frases parejas
+      velocidad: 0.94      # más lenta, arrastrada
+      tono: 0.97           # ~−0,5 semitono
+      respaldo: ninguno
+
+# Sala autónoma: en los silencios hablan solas (un pensamiento, una pregunta para vos) o entre ellas (mini-diálogos).
+# Se prende/apaga desde la consola (🔁). silencio: cuántos segundos de silencio esperan (al azar entre los dos).
+# Chat del canal (solo lectura, sin claves): lo leen y contestan. Mismas opciones que en dolls.sfw.yaml.
+canal:
+  kick: "barbieblackrose"
+  auto: true
+  cada: [20, 45]
+  vence: 180
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot, BotRix, KickBot]
+  bloquear: []
+
+sala:
+  activo: true
+  silencio: [25, 60]
+  dialogo_max: 5        # réplicas encadenadas como máximo (después esperan otro silencio o a vos)
+  replicar: 0.9         # probabilidad de que la otra le conteste a lo que una acaba de decir
+  posturas: {seguir: 0.35, contradecir: 0.25, preguntar: 0.2, debatir: 0.2}   # cómo le contesta
+  ocurrencias: true     # a veces sueltan una idea que sale de la nada (secreto, plan, sueño, teoría...): menos predecibles
+
+# Temas sugeridos en la consola (lista desplegable de "Conversar de esto"); también se puede escribir cualquiera.
+temas:
+  - el Alpha que mejor las usó esta semana
+  - la pija de su sponsor y qué le gusta
+  - la clase o el examen más sucio que aprobaron
+  - Boyfriend Visitation Day y cómo se lucieron con su novio
+  - el Tape Review de esta semana (qué le mandaron a su novio)
+  - el outfit y los tacos que más miradas les consiguieron
+  - el collar o trofeo que están por ganarse
+  - sus mejores trucos con la boca y la garganta
+  - una fantasía sucia que nunca le contaron a nadie
+  - un turno en la pileta de vidrio o en la Galleria
+  - qué se siente la cabeza vacía en el Pink Fog
+  - el último upgrade bimbo en el Sleepygirl Salon
+  - el novio de una compañera que no les sacaba los ojos de encima
+  - qué les gustaría grabar en el estudio 4K
+  - su trigger favorito y qué les hace
+  - cuál de las dos es más puta
+  - la mejor carga que se tragaron
+  - chismes de los Alphas de las otras chicas
+  - cómo Joy se está volviendo una fuckdoll de verdad (la veterana la entrena)
+  - los Alphas de BBC del Instituto y por qué las obsesionan
+  - el tatuaje Queen of Spades: quién lo tiene y qué significa
+  - la lección de esta noche de la Bimbo Bible
+  - una regla de la Bimbo Bible que les cuesta cumplir
+  - chismes del dormitorio para la chica nueva que las escucha en VR
+
+# Tu legajo en el Instituto (director/legajo.json): noches en el dormitorio VR y archivos de BambiCloud escuchados
+# enteros. Las dolls lo nombran a veces y al cruzar un hito te entregan un trofeo. Solo en este modo (privado).
+legajo: true

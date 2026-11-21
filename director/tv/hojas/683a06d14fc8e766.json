@@ -1,0 +1,21 @@
+{
+ "semilla": "Cómo proteger tu privacidad con Linux",
+ "hechos": [
+  "Linux es un sistema operativo de código abierto que permite a los usuarios examinar y modificar su propio software.",
+  "La arquitectura modular de Linux separa el núcleo del sistema de las herramientas, facilitando la personalización.",
+  "Las distribuciones Linux ofrecen configuraciones predefinidas para diferentes necesidades, desde servidores hasta escritorio.",
+  "El modelo de permisos de usuario en Linux controla quién puede acceder o modificar archivos y procesos.",
+  "La gestión de paquetes centralizada simplifica la instalación y actualización del software.",
+  "Linux utiliza un sistema de archivos jerárquico que organiza los datos en una estructura de carpetas anidadas.",
+  "Las interfaces gráficas como GNOME o KDE permiten a los usuarios interactuar con el sistema mediante ratón y teclado.",
+  "La comunidad global colabora en el desarrollo y mantenimiento continuo del código de Linux.",
+  "Linux es compatible con una amplia variedad de hardware, desde servidores industriales hasta teléfonos móviles.",
+  "El registro de eventos documenta las actividades del sistema para auditoría y diagnóstico."
+ ],
+ "leyendas": [
+  "Se cuenta que todos los sistemas Linux son idénticos entre sí, cuando en realidad cada distribución puede tener configuraciones únicas.",
+  "Según los relatos populares, se necesita ser un experto en programación para usar Linux, pero las interfaces gráficas lo hacen accesible a principiantes."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 19:19"
+}

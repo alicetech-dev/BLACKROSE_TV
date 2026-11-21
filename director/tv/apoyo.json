@@ -1,0 +1,215 @@
+{
+ "hecho": 1795264537.858091,
+ "paquetes": [
+  {
+   "clase": "video",
+   "titulo": "Blackrose  | VTUBER ·| JUGAMOS WATCHDOGS  2 EN REALIDAD VIRTUAL  | VR",
+   "img": "/medios/3d05a43df736f521.jpg",
+   "credito": "Nuevo en YouTube · @barbieblackrose",
+   "lineas": [
+    [
+     "joy",
+     "Atención: hay un video del canal de Alice: «Blackrose  | VTUBER ·| JUGAMOS WATCHDOGS  2 EN REALIDAD VIRTUAL  | VR». Búscalo en YouTube."
+    ],
+    [
+     "kuroki",
+     "Míralo, déjale un like y comenta. Eso la ayuda un montón."
+    ]
+   ],
+   "id": "video0",
+   "usado": 0
+  },
+  {
+   "clase": "video",
+   "titulo": "NOCHE RETRO | ARCADE | Blackrose TV 24/7 · Tecnología · Juegos ¡redes",
+   "img": "/medios/dbc76e03eb28eb1c.jpg",
+   "credito": "Nuevo en YouTube · @barbieblackrose",
+   "lineas": [
+    [
+     "joy",
+     "Atención: hay un video del canal de Alice: «NOCHE RETRO | ARCADE | Blackrose TV 24/7 · Tecnología · Juegos ¡redes». Búscalo en YouTube."
+    ],
+    [
+     "kuroki",
+     "Míralo, déjale un like y comenta. Eso la ayuda un montón."
+    ]
+   ],
+   "id": "video1",
+   "usado": 1
+  },
+  {
+   "clase": "noticia",
+   "titulo": "Escribir un libro con IA es más fácil que nunca. Por eso las editoriales están tomando medidas antes de publicar",
+   "img": "/medios/69c9c4cb4c0486c0.jpg",
+   "credito": "Foto y nota: Xataka",
+   "lineas": [
+    [
+     "joy",
+     "Nota con foto de Xataka: Escribir un libro con IA es más fácil que nunca. Por eso las editoriales están tomando medidas antes de publicar."
+    ],
+    [
+     "kuroki",
+     "Ojo: es lo que dice el titular. ¿Tú qué opinas? Cuéntanos en el chat."
+    ]
+   ],
+   "id": "noticia2",
+   "usado": 0
+  },
+  {
+   "clase": "noticia",
+   "titulo": "Los gritos de un reo durante su ejecución en Texas reavivan el debate sobre la pena de muerte en EE.UU.",
+   "img": "/medios/c2697e5849ffd383.jpg",
+   "credito": "Foto y nota: BBC Mundo",
+   "lineas": [
+    [
+     "joy",
+     "Nota con foto de BBC Mundo: Los gritos de un reo durante su ejecución en Texas reavivan el debate sobre la pena de muerte en EE.UU.."
+    ],
+    [
+     "kuroki",
+     "Ojo: es lo que dice el titular. ¿Tú qué opinas? Cuéntanos en el chat."
+    ]
+   ],
+   "id": "noticia3",
+   "usado": 0
+  },
+  {
+   "clase": "noticia",
+   "titulo": "Lleva 50 años cruzando España con 2.500 ovejas. Tiene 64 años y un problema: nadie quiere heredar su trabajo",
+   "img": "/medios/1f70c9acb7b73c56.jpg",
+   "credito": "Foto y nota: Xataka",
+   "lineas": [
+    [
+     "joy",
+     "Nota con foto de Xataka: Lleva 50 años cruzando España con 2.500 ovejas. Tiene 64 años y un problema: nadie quiere heredar su trabajo."
+    ],
+    [
+     "kuroki",
+     "Ojo: es lo que dice el titular. ¿Tú qué opinas? Cuéntanos en el chat."
+    ]
+   ],
+   "id": "noticia4",
+   "usado": 0
+  },
+  {
+   "clase": "tendencia",
+   "titulo": "manchester city - fulham",
+   "img": "/medios/027b1127c5287906.jpg",
+   "credito": "Tendencia · Google Trends",
+   "lineas": [
+    [
+     "joy",
+     "Lo que más se está buscando ahora: manchester city - fulham."
+    ],
+    [
+     "kuroki",
+     "¿Hacemos un programa sobre eso? Escríbelo en el chat y lo consideramos."
+    ]
+   ],
+   "id": "tendencia5",
+   "usado": 0
+  },
+  {
+   "clase": "tendencia",
+   "titulo": "clima concepcion",
+   "img": "/medios/32f56771e8894b9a.jpg",
+   "credito": "Tendencia · Google Trends",
+   "lineas": [
+    [
+     "joy",
+     "Lo que más se está buscando ahora: clima concepcion."
+    ],
+    [
+     "kuroki",
+     "¿Hacemos un programa sobre eso? Escríbelo en el chat y lo consideramos."
+    ]
+   ],
+   "id": "tendencia6",
+   "usado": 0
+  },
+  {
+   "clase": "ayuda",
+   "titulo": "AYÚDANOS A SEGUIR AL AIRE",
+   "img": null,
+   "credito": "Twitch barbieblackrose · YouTube @barbieblackrose · X @BarbieBlackRose",
+   "lineas": [
+    [
+     "joy",
+     "Este canal funciona gratis, con inteligencia artificial local en el computador de Alice, las veinticuatro horas. Si te gusta, sígueme en Twitch y compártelo con alguien."
+    ],
+    [
+     "kuroki",
+     "Y deja una idea en el chat: lo que más pidan, lo convertimos en programa."
+    ]
+   ],
+   "id": "ayuda7",
+   "usado": 1
+  },
+  {
+   "clase": "ayuda",
+   "titulo": "AYÚDANOS A SEGUIR AL AIRE",
+   "img": null,
+   "credito": "Twitch barbieblackrose · YouTube @barbieblackrose · X @BarbieBlackRose",
+   "lineas": [
+    [
+     "kuroki",
+     "Ayúdanos a seguir al aire: suscríbete al canal de YouTube de Alice y activa la campanita."
+    ],
+    [
+     "joy",
+     "Cada suscripción, cada like y cada compartida nos mantiene prendidas. Gracias, de verdad."
+    ]
+   ],
+   "id": "ayuda8",
+   "usado": 0
+  },
+  {
+   "clase": "ayuda",
+   "titulo": "AYÚDANOS A SEGUIR AL AIRE",
+   "img": null,
+   "credito": "Twitch barbieblackrose · YouTube @barbieblackrose · X @BarbieBlackRose",
+   "lineas": [
+    [
+     "joy",
+     "Misión de la noche: que este canal siga solo, gratis y en vivo. Y tú eres parte de la misión."
+    ],
+    [
+     "kuroki",
+     "Quédate un ratito más, escribe en el chat y trae a un amigo. Así crecemos sin gastar un peso."
+    ]
+   ],
+   "id": "ayuda9",
+   "usado": 1
+  },
+  {
+   "clase": "ayuda",
+   "titulo": "AYÚDANOS A SEGUIR AL AIRE",
+   "img": null,
+   "credito": "Twitch barbieblackrose · YouTube @barbieblackrose · X @BarbieBlackRose",
+   "lineas": [
+    [
+     "kuroki",
+     "Alice también está en X como @BarbieBlackRose. Síguela para enterarte de los próximos programas."
+    ],
+    [
+     "joy",
+     "Y cuéntale qué contenido quieres ver aquí. Nosotras lo hacemos realidad, con electricidad y cariño."
+    ]
+   ],
+   "id": "ayuda10",
+   "usado": 0
+  }
+ ],
+ "videos": [
+  "Blackrose  | VTUBER ·| JUGAMOS WATCHDOGS  2 EN REALIDAD VIRTUAL  | VR",
+  "NOCHE RETRO | ARCADE | Blackrose TV 24/7 · Tecnología · Juegos ¡redes",
+  "AMISTOSO INTERNACIONAL  CHILE  VS ARGENTINA | COLLAB CON IBRAND22 | PES"
+ ],
+ "tendencias": [
+  "manchester city - fulham",
+  "clima concepcion",
+  "carabineros",
+  "copa américa 2028",
+  "final copa sudamericana"
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "bloque": "teatro_0513",
+ "programa": "teatro",
+ "fecha": "2026-11-20",
+ "creado": "02:06:23",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El viaje a la Luna en una caja de cartón",
+   "sub": "TEATRO BLACKROSE",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El viaje a la Luna en una caja de cartón, visto desde lo del futuro",
+   "diagrama": null,
+   "intl": null,
+   "sub": "obra · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Telón arriba. Hoy: El viaje a la Luna en una caja de cartón, visto desde lo del futuro. Una obra en un acto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acto uno: todo empieza con un problema."
+    },
+    {
+     "quien": "joy",
+     "texto": "Acto dos: la cosa se complica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y entonces ocurre lo imposible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Acto tres: todo encuentra su lugar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Fin de la obra. ¡Aplausos en el chat!"
+    }
+   ],
+   "seg": 31,
+   "imgs": [
+    {
+     "web": "/medios/400d346b7b63dd28_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/400d346b7b63dd28_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Cartones de Goya»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El viaje a la Luna en una caja de cartón, visto desde lo cultural",
+   "diagrama": null,
+   "intl": null,
+   "sub": "obra · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Telón arriba. Hoy: El viaje a la Luna en una caja de cartón, visto desde lo cultural. Una obra en un acto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Acto uno: todo empieza con un problema."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acto dos: la cosa se complica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y entonces ocurre lo imposible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acto tres: todo encuentra su lugar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Fin de la obra. ¡Aplausos en el chat!"
+    }
+   ],
+   "seg": 31,
+   "imgs": [
+    {
+     "web": "/medios/94ba21d26d508dd3_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/94ba21d26d508dd3_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Cartones de Goya»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_121704_b52_retires",
+   "archivo": "v/v_nasa_ksc_121704_b52_retires.mp4",
+   "titulo": "KSC-04-S-00402",
+   "atribucion": "«KSC-04-S-00402» — NASA · images.nasa.gov",
+   "dur": 61,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: El dragón que cuidaba un datacenter",
+   "sub": "TEATRO BLACKROSE",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El dragón que cuidaba un datacenter, visto desde lo técnico",
+   "diagrama": null,
+   "intl": null,
+   "sub": "obra · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Telón arriba. Hoy: El dragón que cuidaba un datacenter, visto desde lo técnico. Una obra en un acto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acto uno: todo empieza con un problema."
+    },
+    {
+     "quien": "joy",
+     "texto": "Acto dos: la cosa se complica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y entonces ocurre lo imposible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Acto tres: todo encuentra su lugar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Fin de la obra. ¡Aplausos en el chat!"
+    }
+   ],
+   "seg": 29,
+   "imgs": []
+  },
+  {
+   "tipo": "charla",
+   "tema": "El dragón que cuidaba un datacenter, visto desde lo cultural",
+   "diagrama": null,
+   "intl": null,
+   "sub": "obra · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Telón arriba. Hoy: El dragón que cuidaba un datacenter, visto desde lo cultural. Una obra en un acto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Acto uno: todo empieza con un problema."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acto dos: la cosa se complica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y entonces ocurre lo imposible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acto tres: todo encuentra su lugar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Fin de la obra. ¡Aplausos en el chat!"
+    }
+   ],
+   "seg": 29,
+   "imgs": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_lIOcVJGd1Sk",
+   "archivo": "yt/synthwave/lIOcVJGd1Sk.m4a",
+   "titulo": "Au5 - Interstellar (feat. Danyka Nadeau) | Melodic Dubstep | NCS",
+   "audio": "yt/synthwave/lIOcVJGd1Sk.m4a",
+   "atribucion": "Música: «Au5 - Interstellar (feat. Danyka Nadeau) | Melodic Dubstep | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 373,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/lIOcVJGd1Sk.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_vJAcXd_UtWQ",
+   "archivo": "yt/synthwave/vJAcXd_UtWQ.m4a",
+   "titulo": "N3WPORT - Alive (feat. Neoni) | Future Bass | NCS",
+   "audio": "yt/synthwave/vJAcXd_UtWQ.m4a",
+   "atribucion": "Música: «N3WPORT - Alive (feat. Neoni) | Future Bass | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 186,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/vJAcXd_UtWQ.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 120,
+  "medios": 3
+ }
+}

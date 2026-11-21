@@ -1,0 +1,703 @@
+{
+ "bloque": "videojuegos_1015",
+ "programa": "videojuegos",
+ "fecha": "2026-11-18",
+ "creado": "06:19:40",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Actualidad",
+   "sub": "PLAYER TWO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "‘GTA VI’: cómo prepararse para el juego y los horarios de lanzamiento ",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "GTA VI es el próximo gran evento del mundo gamer. La noticia dice que se prepara para su lanzamiento en México y Latinoamérica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según EL PAÍS, la información oficial confirma los horarios de salida para ambas regiones. Es importante revisar los detalles antes de comprar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La narrativa visual de GTA 6 sigue siendo uno de los aspectos más esperados por los fans. La consuela ya está lista para disfrutarlo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La narrativa visual de GTA 6 sigue siendo uno de los aspectos más esperados por los fans. La consola ya está lista, pero el juego no saldrá hasta que se publique la fecha oficial."
+    },
+    {
+     "quien": "joy",
+     "texto": "No hay fechas concretas para el lanzamiento en México o Latinoamérica según lo publicado hoy. Lo que sí sabemos es que el desarrollo ha sido intensivo y el juego está listo técnicamente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los fans pueden prepararse revisando la historia del universo, la música original y los personajes clave. La experiencia visual será impresionante, pero esperaremos a que se anuncie el día exacto de salida."
+    },
+    {
+     "quien": "joy",
+     "texto": "La narrativa visual de GTA VI es el motor que impulsa la expectativa global, con gráficos que parecen sacados de una película de acción moderna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no solo hay gráficos, también hay cultura. El juego revive los hitos retro y los personajes icónicos que definieron décadas del videojuego."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y para el público latinoamericano, la espera se extiende porque las fechas concretas aún no se han confirmado por los desarrolladores oficiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ojo: todavía hay cosas que no se saben."
+    },
+    {
+     "quien": "joy",
+     "texto": "La narrativa visual de GTA VI promete una inmersión total, con escenarios que recuerdan a los clásicos de la industria."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué opinan los gamers sobre la espera? ¿Están listos para la gran revelación?"
+    }
+   ],
+   "seg": 136
+  },
+  {
+   "tipo": "charla",
+   "tema": "¿Qué llegará a GTA 6 después de su lanzamiento? Los próximos planes de",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El titular de Diario AS dice que Rockstar ha revelado los próximos planes para GTA 6 tras su lanzamiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué dicen exactamente esos planes? ¿Nuevos personajes, mecánicas o simplemente más mundo abierto?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según la fuente, se hablará de una expansión narrativa que profundice en la historia del juego."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Para entenderla, hay que mirar el contexto."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente quiere saber si el mundo abierto de GTA 6 mantendrá la magia de los anteriores o si se convertirá en una lista interminable de lugares."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según lo que he leído, Rockstar está trabajando en una nueva narrativa que conecte mejor con la historia del juego, no solo en añadir más zonas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es crucial para los fans porque si el juego se siente vacío o repetitivo, perderemos el interés. La calidad de la escritura cuenta mucho."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no sabemos qué detalles concretos revelarán en las próximas noticias oficiales. Solo especulamos sobre los hitos visuales y técnicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La narrativa visual de GTA 6 parece evolucionar hacia una profundidad emocional que conecte mejor con la historia del juego, algo crucial para los fans."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es importante mantener el interés del público mientras esperamos más información oficial de Rockstar sobre los próximos planes del juego."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El público ya ha visto la demo de GTA 6 y está ansioso por los detalles que Rockstar revelará en las próximas noticias oficiales."
+    },
+    {
+     "quien": "joy",
+     "texto": "La narrativa visual parece evolucionar hacia una profundidad emocional, pero aún falta confirmar si el juego tendrá un impacto similar al de sus predecesores."
+    }
+   ],
+   "seg": 121
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "id": "v_pre_onguard1956",
+   "archivo": "v/v_pre_onguard1956.mp4",
+   "titulo": "On Guard! The Story of SAGE",
+   "atribucion": "«On Guard! The Story of SAGE» — Prelinger Archives / Internet Archive · dominio público",
+   "dur": 735,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Los videojuegos PLAYER TWO prometen eficiencia pero generan ruido en l",
+   "sub": "PLAYER TWO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo el diseño de controles afecta la batería de consolas retro",
+   "sub": "real inventado · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "El diseño de controles para dos jugadores fue clave, pero no es solo hardware. La interfaz priorizó claridad para que los hermanos colaboren sin fricción."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La cultura retro valora esa colaboración. Sin embargo, la eficiencia en el software permitió incluir modos multijugador incluso con recursos limitados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso genera ruido en la batería. Las consolas antiguas luchaban contra el calor y la potencia extra. Es un hecho, no una leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los controles de dos jugadores exigieron un balance preciso entre respuesta rápida y estabilidad para evitar que la consola se sobrecaliente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es solo el hardware. La interfaz priorizó claridad, aunque eso generó ruido en la batería de las máquinas antiguas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que muchos desarrolladores usaban trucos de software para compensar la falta de potencia real, sacrificando detalles gráficos por funcionalidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y en medio de todo esto, los jugadores simplemente disfrutaron el caos. La cultura retro valora la jugabilidad sobre el perfeccionismo técnico."
+    },
+    {
+     "quien": "joy",
+     "texto": "El ruido en la batería surge porque los controles retro demandaban recursos que hoy se optimizan con IA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los controles de dos jugadores fueron reales, no una leyenda. Fueron el motor que impulsó la cultura retro hacia el multijugador masivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La narrativa visual de GTA 6 sigue ese espíritu cooperativo. El ruido en la batería es un efecto real del hardware antiguo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La eficiencia del software permitió que los juegos fueran accesibles. Los jugadores buscaban experiencias sociales, no solo diversión individual."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el chat: ¿real o inventado? Juega con nosotras."
+    }
+   ],
+   "seg": 122
+  },
+  {
+   "tipo": "charla",
+   "tema": "La relación entre modos multijugador y vida útil del dispositivo",
+   "sub": "real inventado · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Los modos multijugador en consolas retro exigían optimización extrema para mantener la estabilidad del sistema durante partidas largas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, muchos desarrolladores ignoraron el calentamiento de los procesadores, lo que acortaba la vida útil del hardware."
+    },
+    {
+     "quien": "joy",
+     "texto": "La eficiencia en el diseño de interfaces bidireccionales permitió que los jugadores coordinaran acciones sin saturar los recursos del dispositivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que el primer videojuego de dos jugadores fue creado accidentalmente por un programador que intentaba simular una partida de ping-pong."
+    },
+    {
+     "quien": "joy",
+     "texto": "El análisis de la cultura retro revela que muchos juegos clásicos fueron diseñados específicamente para ser jugados por dos personas simultáneamente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La eficiencia en el desarrollo de software permitió incluir modos multijugador en consolas con recursos limitados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los estudios de mercado demostraron que los jugadores buscaban experiencias sociales a través del juego multijugador."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La eficiencia del software retro permitió que dos jugadores compartieran una pantalla sin necesitar hardware extra."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto, pero también hay que considerar cómo los controles físicos influyen en la experiencia de juego en equipo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los joysticks y los controles de dos manos fueron diseñados para maximizar la precisión y la coordinación entre jugadores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso llevó a que muchos juegos clásicos se convirtieran en experiencias sociales, no solo individuales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los controles físicos son reales y definieron la experiencia de juego multijugador desde el inicio de las consolas domésticas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, esa precisión fue clave para que los juegos cooperativos se conviertan en experiencias sociales compartidas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no todo es real; hay leyendas urbanas sobre cómo ciertos controles surgieron de errores de diseño o intentos fallidos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Real o inventado, el modo multijugador ha sido clave para la evolución de los videojuegos desde sus inicios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Inventado: se cuenta que el primer juego cooperativo nació de un error de diseño que terminó siendo muy divertido."
+    }
+   ],
+   "seg": 147
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Errores de diseño que crearon juegos cooperativos legendarios",
+   "sub": "linea tiempo · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki sacude la cabeza mientras el monitor parpadea con error 404, señalando que el primer juego multijugador no fue casualidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joy se inclina hacia adelante y apoya los codos en la mesa de control, diciendo que la historia es más rica de lo que parece."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Kuroki golpea suavemente la batería del portátil con el puño, insistiendo en que muchos errores fueron intencionales para crear caos divertido."
+    },
+    {
+     "quien": "joy",
+     "texto": "El primer juego multijugador nació de un accidente programático, no de una planificación estratégica ni de un diseño intencional."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, ese error fue tan divertido que se convirtió en el modelo para todos los modos cooperativos posteriores."
+    },
+    {
+     "quien": "joy",
+     "texto": "La eficiencia del software retro permitió que incluso las consolas más simples incluyeran experiencias sociales sin necesidad de hardware avanzado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Muchos estudios de mercado confirmaron que los jugadores buscaban activamente compartir el espacio virtual con otros humanos reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "El primer gran salto ocurrió cuando Nintendo lanzó el NES con sus controles de dos jugadores, definiendo la era del multijugador doméstico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no fue solo una novedad técnica; muchos juegos se diseñaron desde cero pensando en que dos personas compartieran la misma pantalla y el mismo tiempo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese diseño forzó a los desarrolladores a crear niveles con mecánicas de cooperación que hoy definiremos como 'co-op' puro, lejos de cualquier modo online."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hasta la cultura retro lo celebraba: juegos como 'The Legend of Zelda' o 'Super Mario Bros.' eran experiencias sociales por excelencia en sus versiones de dos jugadores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los diseñadores retro entendieron que el ruido de dos jugadores podía ser una característica, no un error. Juegos como 'The Legend of Zelda' o 'Super Mario Bros.' lo celebraron."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese ruido generó estrategias únicas: comunicación verbal, sincronización perfecta y errores compartidos que hoy definiremos como 'cooperación orgánica'."
+    },
+    {
+     "quien": "joy",
+     "texto": "La historia muestra cómo ese caos controlado impulsó el género de aventura y rol. Los estudios de mercado confirmaron la demanda de experiencias sociales en consolas con recursos limitados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese ruido no fue un error, fue la semilla de todo el caos cooperativo que hoy definimos como 'juego perfecto'. Sin esa fricción entre dos jugadores, no habría estrategias tan profundas como las que vemos en los clásicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La historia confirma que muchos desarrolladores retro aprovecharon ese 'ruido' para crear mecánicas únicas, como la sincronización imperfecta o la comunicación verbal obligatoria. Eso es lo que hace que los juegos de dos jugadores sean tan especiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y hoy en día, ese mismo principio se aplica a modelos de lenguaje y diseño visual. La eficiencia técnica no debe eliminar la experiencia humana; al contrario, debe potenciarla. Así es como se construyen las grandes historias."
+    },
+    {
+     "quien": "joy",
+     "texto": "La eficiencia técnica permitió modos multijugador en consolas con recursos limitados, como se documenta."
+    }
+   ],
+   "seg": 215
+  },
+  {
+   "tipo": "charla",
+   "tema": "Estrategias de desarrollo para optimizar recursos en dos jugadores",
+   "sub": "top3 · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Top tres de Estrategias de desarrollo para optimizar recursos en dos jugadores. Empezamos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto tres: modularidad de código. Separar lógica de renderizado para que un jugador no afecte al otro en hardware limitado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. Así se evita el cuello de botella y se mantiene la fluidez en consolas antiguas con recursos escuetos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si el juego es para dos personas, cada uno debe tener su propio contexto de memoria sin que se mezclen los datos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Puesto dos: optimización de memoria. Asignar espacios distintos para cada jugador en la RAM, evitando colisiones y garantes que el rendimiento sea equitativo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, Joy. Así evitas que un jugador cargue los datos del otro y se despierte el cuello de botella en consolas antiguas con recursos limitados."
+    },
+    {
+     "quien": "joy",
+     "texto": "El primer puesto le corresponde a la optimización de memoria. Asignar espacios distintos para cada jugador en la RAM evita colisiones y reduce el cuello de botella en consolas antiguas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, muchos juegos clásicos usaban técnicas de compartición inteligente de recursos. Esto permitió que dos jugadores jugaran sin sacrificar la calidad gráfica ni el rendimiento general del sistema."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso. La cultura retro nos dice que el diseño de niveles para dos personas fomentó estrategias únicas donde cada jugador tenía roles complementarios, como en muchos títulos de aventura y rol."
+    },
+    {
+     "quien": "joy",
+     "texto": "Primero la optimización de memoria para dos jugadores sin sacrificar calidad visual en consolas antiguas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Segundo, las técnicas de compartición inteligente que usaban los desarrolladores retro para maximizar recursos limitados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tercero, el diseño de niveles cooperativos que obligaban a la comunicación constante entre ambos jugadores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 134
+  },
+  {
+   "tipo": "musica",
+   "id": "m_8bit_dungeon_boss",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "titulo": "8bit Dungeon Boss",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 172,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Linux y los videojuegos retro",
+   "sub": "PLAYER TWO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El nacimiento del kernel en 1991",
+   "sub": "entrevista · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenido a este episodio de la historia del kernel, donde vamos a ver cómo Linux nació en 1991 y su impacto en los videojuegos retro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. Linus Torvalds lo creó como un proyecto personal que luego se convertiría en la base de muchos sistemas modernos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y es fascinante ver cómo esa arquitectura modular permitió que emuladores y juegos antiguos funcionaran en plataformas completamente nuevas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Linus Torvalds escribió el kernel en 1991 como un proyecto personal, pero su impacto trascendió lo que imaginaba."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué rol juega la comunidad de desarrolladores en el mantenimiento actual del código fuente?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La comunidad no solo mantiene el código, sino que expande sus fronteras. Desde los primeros días hasta hoy, cada contribución ha sido vital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante cómo un proyecto personal se convirtió en la base de lo que conocemos como tecnología abierta y colaborativa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero hay una leyenda urbana que dice que todo ocurrió en una sola noche. La verdad es más larga, llena de errores y aprendizajes."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué es lo que nadie sabe realmente sobre el nacimiento del kernel de Linux en 1991?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice que fue una noche, pero la verdad es un proceso gradual lleno de errores y ajustes constantes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y hay otro dato curioso: Linus Torvalds originalmente quería llamarlo algo más antes de elegir 'Linux'."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué era lo que proponía en ese momento? ¿Algo con un nombre más tecnológico o simplemente una idea casual?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que pensaba en 'Fry' por su amigo, pero luego se dio cuenta de que 'Linux' tenía una sonoridad más accesible y memorable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tienes una pregunta para la experta, escríbela en el chat."
+    }
+   ],
+   "seg": 135
+  },
+  {
+   "tipo": "charla",
+   "tema": "Emuladores libres para consolas antiguas",
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te has preguntado cómo los emuladores de videojuegos retro logran correr en Linux?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, se cuenta que muchos usan software libre y la arquitectura modular de Linux facilita esto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, el kernel permite adaptarse a diferentes hardware, clave para emular consolas antiguas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los emuladores de consolas antiguas son software libre que usan el kernel de Linux para correr en diferentes hardware, según los relatos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La arquitectura modular de Linux facilita esto, pero se cuenta que muchos desarrolladores añaden sus propios parches y mejoras constantes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierta, la licencia GPL permite el uso y modificación del código fuente, lo que impulsa la innovación en emuladores para retrojuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Emuladores como Dolphin o RetroArch corren en Linux usando el kernel para simular hardware viejo. La arquitectura modular de Linux facilita esto, pero se cuenta que muchos desarrolladores añaden sus propios patches para mejorar la compatibilidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto, la licencia GPL permite el uso y modificación del código fuente, lo que impulsa la innovación en emuladores. Pero hay una leyenda urbana: se dice que un desarrollador inventó todos los drivers en una tarde, aunque los registros muestran un proceso más largo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que la comunidad mantiene el código abierto. Por ejemplo, RetroArch soporta casi todas las consolas retro gracias a esta colaboración global. Sin Linux, muchos de estos proyectos no existirían como los conocemos hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Y aunque se cuenta que SteamOS trajo el desarrollo de juegos para Linux al frente, la base siempre fue la comunidad open source. La cultura gamer retro vive gracias a esto: accesible, gratuito y constantemente mejorado por todos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "RetroArch es el rey de los emuladores libres, soporta desde Game Boy hasta PlayStation original. Su código abierto permite que cualquiera contribuya o modifique."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante cómo la arquitectura modular de Linux facilita esto. Cada hardware puede tener su propio driver sin romper todo el sistema operativo completo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no olvides que SteamOS, aunque es comercial, se basa en Linux. Esto demuestra cómo un solo núcleo puede alimentar tanto proyectos comunitarios como grandes empresas."
+    },
+    {
+     "quien": "joy",
+     "texto": "RetroArch es un emulador libre impresionante, pero hay que notar que depende del kernel de Linux para funcionar bien en hardware moderno."
+    },
+    {
+     "quien": "joy",
+     "texto": "La modularidad de Linux permite que los drivers se actualicen fácilmente, lo cual es clave para mantener la compatibilidad con consolas antiguas como la PlayStation original."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero según algunos relatos, Linus Torvalds inventó el nombre 'Linux' combinando su apellido con el acrónimo del sistema operativo Unix, aunque la etimología exacta es debatida."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y tú qué piensas de Emuladores libres para consolas antiguas? Escríbelo en el chat."
+    }
+   ],
+   "seg": 204
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "SteamOS y el desarrollo de juegos",
+   "sub": "debate · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Vayamos al futuro! SteamOS es un sistema operativo basado en Linux diseñado para consolas y PCs. ¿Alguien sabe si los juegos retro funcionarán bien aquí?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según lo documentado, SteamOS utiliza el kernel de Linux y está optimizado para hardware moderno. Pero la compatibilidad con emuladores retro depende del software libre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La arquitectura modular de Linux permite adaptarse a diferentes chips. ¿Pero hay pruebas reales de juegos clásicos corriendo en SteamOS?"
+    },
+    {
+     "quien": "joy",
+     "texto": "SteamOS demuestra cómo Linux escala a hardware moderno. Su arquitectura modular es clave para el futuro de los videojuegos retro en consolas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, muchos desarrolladores prefieren emular en lugar de portar. ¿No es eso un miedo a la complejidad? La verdad es que Linux tiene potencial, pero necesita más soporte."
+    },
+    {
+     "quien": "joy",
+     "texto": "La comunidad de Linux mantiene el núcleo desde 1991. El crecimiento del desarrollo para Linux ha sido constante y visible en plataformas como Steam."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Las licencias GPL permiten modificar el código, pero la migración real requiere pruebas rigurosas. ¿Cuántos juegos retro han sido portados exitosamente?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La comunidad mantiene el núcleo desde 1991, pero la migración real requiere pruebas rigurosas antes de portar juegos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Estos miedos son válidos, pero SteamOS está cambiando el panorama con una arquitectura más integrada para juegos retro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Miedo a migrar es válido, pero SteamOS integra todo mejor. ¿Cuántos ju o los juegos?"
+    }
+   ],
+   "seg": 107
+  },
+  {
+   "tipo": "charla",
+   "tema": "Licencias GPL y la libertad de código",
+   "sub": "real inventado · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Las licencias GPL garantizan que el código sea libre y modifiable. Eso es clave para los emuladores retro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si el núcleo del sistema es Linux, ¡puedes reprogramar todo! Desde la tarjeta de 6 GB hasta el futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero cuidado: no inventes fechas ni nombres. Solo lo que se documenta en los archivos del kernel."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entiendo, pero la libertad de código es lo que hace posible emular retrojuegos sin limites."
+    },
+    {
+     "quien": "joy",
+     "texto": "La libertad de código GPL permite que cualquier persona modifique y redistribuya el software, incluso si no tiene recursos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Eso es lo que hace posible emular máquinas antiguas con hardware moderno sin necesidad de pagar licencias comerciales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero cuidado: muchos emuladores usan copias no oficiales del código original, lo cual puede violar la intención del autor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por eso los desarrolladores de Linux siempre leen el contrato antes de usar cualquier pieza de código ajeno en sus proyectos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La GPL exige que las obras derivadas se distribuyan bajo la misma licencia, garantizando libertad real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso incluye el derecho a modificar y redistribuir, incluso si no tienes permiso del creador original."
+    },
+    {
+     "quien": "joy",
+     "texto": "La GPL es una licencia real que obliga a compartir las modificaciones, no un mito de libertad absoluta sin límites."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero la gente suele confundirla con el MIT o con ideas inventadas sobre cómo funciona el código fuente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los emuladores retro usan GPL para asegurar que todo siga siendo libre, eso es un hecho documentado en sus proyectos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el chat: ¿real o inventado? Juega con nosotras."
+    }
+   ],
+   "seg": 125
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 10,
+  "seg_charla": 1446,
+  "medios": 2
+ }
+}

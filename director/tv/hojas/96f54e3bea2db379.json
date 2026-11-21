@@ -1,0 +1,21 @@
+{
+ "semilla": "Física en los juegos",
+ "hechos": [
+  "La gravedad en los juegos suele ser una fuerza constante, aunque a veces se ajusta para dar más fluidez al movimiento.",
+  "El rebote de las esferas en los juegos depende del coeficiente de restitución, un valor numérico que simula la elasticidad de los objetos.",
+  "Los motores gráficos modernos utilizan física basada en cuerpos rígidos y articulaciones para calcular el movimiento de personajes y vehículos.",
+  "La detección de colisiones se basa en algoritmos matemáticos que calculan intersecciones entre las formas geométricas de los objetos.",
+  "El deslizamiento es una técnica común para evitar que los objetos se queden pegados al suelo cuando deberían moverse lateralmente.",
+  "Las simulaciones de fluidos y humo utilizan métodos simplificados como partículas o volúmenes de celdas para representar estos efectos.",
+  "La física del sonido en los juegos a menudo se simula con algoritmos predictivos que calculan el tiempo de llegada del sonido antes de que este ocurra realmente.",
+  "Los vehículos en los juegos suelen tener un modelo de suspensión simplificado que imita la reacción de las muelles y amortiguadores reales.",
+  "El movimiento de los personajes puede ser influenciado por la física para lograr efectos como correr sobre agua o saltar entre plataformas.",
+  "La iluminación dinámica calcula cómo interactúa la luz con los objetos en tiempo real, afectando la apariencia visual de la escena."
+ ],
+ "leyendas": [
+  "Se cuenta que la física en los juegos es siempre perfecta y sin errores, cuando en realidad hay muchos trucos visuales para ocultar simplificaciones.",
+  "Según los relatos populares, el movimiento de los personajes depende enteramente de la física realista, mientras que a menudo se prioriza la fluidez sobre la precisión."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 07:09"
+}

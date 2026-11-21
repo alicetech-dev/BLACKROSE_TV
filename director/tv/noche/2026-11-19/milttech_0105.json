@@ -1,0 +1,843 @@
+{
+ "bloque": "milttech_0105",
+ "programa": "milttech",
+ "fecha": "2026-11-19",
+ "creado": "21:18:59",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Los chips y los misiles: cómo la defensa impulsó la electrónica",
+   "sub": "TECNOLOGÍA MILITAR",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El programa Manhattan y el nacimiento de los circuitos integrados",
+   "sub": "top3 · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos a Blackrose TV. Hoy desmontamos la idea de que los chips nacieron en una casa de campo, como dice la leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La verdad es más fría: el Programa Manhattan y sus derivados militares fueron el motor real del semiconductor moderno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso incluye el GPS, que muchos creen fue un accidente, cuando en realidad fue una necesidad de precisión militar."
+    },
+    {
+     "quien": "joy",
+     "texto": "El tercer lugar lo ocupa el GPS, que muchos creen fue un accidente, cuando en realidad fue una necesidad de precisión militar que se trasladó a la navegación civil."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La demanda de dispositivos de navegación precisa para misiles aceleró el progreso del sistema GPS, demostrando cómo la defensa impulsa la tecnología cotidiana."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso incluye los procesadores de alta velocidad creados para computadoras militares que se adaptaron rápidamente a las necesidades comerciales y hoy están en tu teléfono."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El segundo lugar es la electrónica integrada, cuyo origen militar se debe a la necesidad de miniaturizar sensores para misiles."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La presión del programa Manhattan aceleró el desarrollo de circuitos que hoy controlan desde tu teléfono hasta tu coche."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no fue un accidente, como se cuenta en algunas leyendas urbanas, sino una respuesta lógica a la demanda de precisión y rapidez."
+    },
+    {
+     "quien": "joy",
+     "texto": "El primer lugar es la electrónica integrada, cuya historia militar es un ejemplo perfecto de cómo la presión del programa Manhattan aceleró el desarrollo de circuitos que hoy controlan desde tu teléfono hasta tus coches."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La necesidad de miniaturizar sensores y sistemas de guía para misiles fue el motor principal, no un accidente como dicen algunas leyendas urbanas que inventan fechas y nombres sin base."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los chips modernos descendieron directamente de la tecnología desarrollada para computadoras militares en la década de 1950, con técnicas de fabricación perfeccionadas inicialmente en laboratorios de defensa nacional."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Muchos componentes electrónicos civiles actuales tienen sus raíces en la investigación militar de la Segunda Guerra Mundial y la posterior carrera espacial, adaptándose rápido a las necesidades comerciales sin glorificar la violencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi número uno es el transistor, porque sin él no habría chips ni misiles modernos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y ese transistor nació en los laboratorios de defensa nacional bajo la presión de la Guerra Fría."
+    }
+   ],
+   "seg": 181
+  },
+  {
+   "tipo": "charla",
+   "tema": "La carrera de los misiles y la búsqueda de sensores de precisión",
+   "sub": "mito realidad · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez creyeron que un chip nació de un accidente durante una prueba de misil?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es mito, no realidad. La ingeniería militar nunca se deja llevar por el azar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero sí hubo una verdad: la necesidad de precisión impulsó la electrónica integrada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que un chip nació de accidente en prueba de misil, pero la ingeniería militar nunca se deja llevar por el azar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los sensores de alta precisión requeridos por los misiles fueron clave en el desarrollo de circuitos pequeños y eficientes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese impulso militar transformó la electrónica civil, haciendo posible dispositivos modernos que hoy usamos sin pensar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que los sensores de precisión nacieron en laboratorios de defensa, no en accidentes. La ingeniería militar nunca se deja llevar por mitos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El programa Manhattan usó circuitos básicos para controlar lanzamientos nucleares, lo que sentó las bases de la electrónica integrada moderna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la necesidad de reducir tamaño y peso aceleró el desarrollo de chips más pequeños. Muchos componentes civiles actuales tienen raíces en esa investigación militar."
+    },
+    {
+     "quien": "joy",
+     "texto": "La demanda de navegación precisa para misiles también impulsó el progreso del GPS. Los procesadores militares se adaptaron rápidamente a las necesidades comerciales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito de que un chip nació en el laboratorio del misil es falso, pero la gente cree eso porque los avances militares parecen aparecer mágicamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, la presión de la guerra aceleró la innovación, creando la ilusión de que todo surge de un accidente fortuito en el campo de batalla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que la industria militar invertía recursos masivos en I+D, y esos fondos se trasladaron luego a las empresas civiles con éxito."
+    },
+    {
+     "quien": "joy",
+     "texto": "Nuestro veredicto sobre La carrera de los misiles y la búsqueda de sensores de precisión: hay más historia que misterio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Tú te creías la versión popular de La carrera de los misiles y la búsqueda de sensores de precisión? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 155
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "De la guerra fría a la revolución de los microchips civiles",
+   "sub": "explicado · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez te has preguntado qué hay detrás de cada clic en tu celular? Todo eso, y mucho más, nació en los laboratorios de defensa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto. La historia de la electrónica civil tiene raíces muy profundas en la necesidad militar de precisión y velocidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que los chips actuales son como un hijo prodigio: nació en el ejército, pero ahora gobierna tu vida diaria sin que lo sepas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los microchips modernos descienden de la tecnología desarrollada para computadoras militares en la década de los cincuenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La industria de los misiles requería sensores de alta precisión que impulsaron el avance de la electrónica integrada."
+    },
+    {
+     "quien": "joy",
+     "texto": "El programa Manhattan utilizó circuitos electrónicos básicos para controlar el lanzamiento de dispositivos nucleares."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La necesidad de reducir el tamaño y peso de los sistemas de guía militar llevó al desarrollo de chips más pequeños."
+    },
+    {
+     "quien": "joy",
+     "texto": "Comenzamos en la década de los cincuenta, cuando las computadoras militares necesitaban calcular trayectorias con precisión milimétrica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La presión del tiempo hizo que ingenieros como John Bardeen y William Shockley trabajaran en transistores que antes solo se usaban en laboratorios."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y es aquí donde entra el chip integrado: un circuito completo encapsulado en silicio, capaz de manejar millones de operaciones por segundo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy ese mismo principio permite que tu teléfono tome una foto o que la IA analice tu voz. La tecnología militar se volvió civil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso es que el primer microchip fue diseñado para la computadora Mark IV, usada en la Guerra Fría para calcular balísticos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y quién dio el salto de lo militar a lo civil? La industria electrónica se alimentó de ex-militares y su conocimiento técnico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La tecnología que hoy usamos en nuestros teléfonos nació en laboratorios de defensa nacional, adaptándose a necesidades civiles."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no fue todo pacífico. Se cuenta que algunos ingenieros tuvieron que dejar sus armas para tomar alicates y fabricar el primer transistor comercial."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y sin duda, la demanda de precisión en navegación militar aceleró el progreso del sistema GPS, transformando satélites fríos en herramientas civiles esenciales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, la precisión militar moldeó cada chip moderno, desde el Manhattan hasta hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué otros campos de ingeniería se beneficiaron de este legado tecnológico?"
+    }
+   ],
+   "seg": 179
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo la necesidad de reducir peso y tamaño definió la ingeniería moder",
+   "sub": "mito realidad · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Dicen que un chip nació accidentalmente en el laboratorio de un misil, pero la verdad es más interesante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La leyenda dice que alguien lo inventó mientras probaba un sistema de guía, sin intención alguna."
+    },
+    {
+     "quien": "joy",
+     "texto": "En realidad, fue la necesidad de reducir peso y tamaño la que impulsó el desarrollo de estos componentes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Las técnicas de fabricación se perfeccionaron inicialmente en laboratorios de defensa nacional. El peso era el enemigo principal."
+    },
+    {
+     "quien": "joy",
+     "texto": "La demanda de navegación precisa para misiles aceleró el progreso del sistema GPS. La tecnología civil es hija directa de la militar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Las técnicas de fabricación se perfeccionaron inicialmente en laboratorios de defensa nacional. El peso y el tamaño fueron los verdaderos motores del progreso, no la gloria militar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mito popular: que un chip fue inventado accidentalmente durante una prueba de misil. Realidad técnica: los avances en miniaturización surgieron de la presión constante por reducir el volumen y el peso de los sistemas de guía."
+    },
+    {
+     "quien": "joy",
+     "texto": "Muchos componentes electrónicos civiles actuales tienen sus raíces en la investigación militar de la Segunda Guerra Mundial. La eficiencia energética y la integración de circuitos fueron prioridades absolutas en aquella época crítica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito del chip inventado en una prueba de misil es un cuento bonito pero falso. La realidad es que la ingeniería militar impulsó el desarrollo tecnológico de forma sistemática y deliberada."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree eso porque las historias simplificadas buscan hacer comprensible algo complejo, como si cada gran avance fuera un accidente. Es una narrativa que le da importancia al azar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero el azar no fue el motor principal. La necesidad de reducir peso y tamaño en sistemas militares obligó a los ingenieros a innovar con precisión y eficiencia, creando la base para la electrónica moderna."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los sensores de alta precisión requeridos para misiles guiados aceleraron el desarrollo de la electrónica integrada que usamos hoy en día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Tú te creías la versión popular de Cómo la necesidad de reducir peso y tamaño definió la ingeniería moderna? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 160
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ssc_2021_09_30_rs_25_engine_test",
+   "archivo": "v/v_nasa_ssc_2021_09_30_rs_25_engine_test.mp4",
+   "titulo": "NASA Readies for Future Artemis Moon Missions with Rocket Engine Test Series",
+   "atribucion": "«NASA Readies for Future Artemis Moon Missions with Rocket Engine Test Series» — NASA · images.nasa.gov",
+   "dur": 523,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La criptografía: de los códigos militares a tu WhatsApp",
+   "sub": "TECNOLOGÍA MILITAR",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "César y los romanos: el primer cifrado práctico",
+   "sub": "top3 · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "César, el emperador que usaba desplazamientos de letras para ocultar mensajes militares. Simple, efectivo y ya olvidado en el siglo XIX."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero no fue solo un juego de letras. Los romanos lo aplicaron estratégicamente en campañas antiguas para proteger órdenes tácticas clave."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y luego vino el siglo XIX con polialfabetos y Vigenère, que dieron la idea de claves dinámicas. Eso sí que fue un salto enorme en seguridad."
+    },
+    {
+     "quien": "joy",
+     "texto": "El cifrado de César fue el primer sistema práctico de desplazamiento de letras, usado por los romanos para ocultar mensajes militares en campañas antiguas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Simple, efectivo y ya. Pero la historia no termina ahí: en el siglo XIX se desarrollaron polialfabetos y Vigenère, que dieron la idea de claves dinámicas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese salto cualitativo es lo que hace que la criptografía evolucione. De letras desplazadas a algoritmos complejos, todo por necesidad de seguridad militar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "joy",
+     "texto": "El primer lugar le corresponde al cifrado de César, porque fue el primero en aplicar un desplazamiento sistemático a texto plano para ocultar mensajes militares."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el segundo puesto… los polialfabetos rompió la simplicidad del César, pero también introdujeron vulnerabilidades que luego Shannon y otros tuvieron que resolver con matemáticas más profundas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero los polialfabetos romanos rompieron esa simplicidad, aunque también trajeron nuevas vulnerabilidades que luego se analizaron."
+    },
+    {
+     "quien": "joy",
+     "texto": "La clave dinámica del código de Vigenère fue un paso crucial hacia la robustez moderna, antes de los algoritmos simétricos de Shannon."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El César fue el primer intento serio de ocultar mensajes, pero su simplicidad era su debilidad más clara."
+    }
+   ],
+   "seg": 124
+  },
+  {
+   "tipo": "charla",
+   "tema": "Enigma en la Primera Guerra Mundial y su impacto",
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La criptografía nació en la antigüedad con sistemas de desplazamiento y sustitución de letras."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los romanos utilizaron el cifrado de César como método básico de protección militar."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el siglo XIX se desarrollaron los algoritmos de polialfabeto para mejorar la seguridad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los romanos usaban César como escudo militar básico, pero era trivial para los enemigos que tenían tiempo de calcular."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el siglo XIX surgieron polialfabetos más seguros, aunque incluso ellos no podían resistir a una computación moderna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La máquina Enigma fue un salto enorme, pero sus fallas humanas costaron millones en la Segunda Guerra Mundial."
+    },
+    {
+     "quien": "joy",
+     "texto": "Shannon formalizó la teoría de la información en 1947, dando a la criptografía una base matemática sólida y duradera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es cierto, pero el Enigma también tuvo momentos de gloria: casi logró romper los secretos aliados en 1942."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La clave fue que los alemanes cambiaban la configuración diaria y no usaban un solo algoritmo fijo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero el Enigma no fue perfecto. Los aliados descubrieron patrones en los cambios diarios y usaron máquinas como la Bombe para decifrarlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La rotación diaria era clave, pero también hubo fallos cuando se repitieron configuraciones. Eso dio a los británicos una ventaja crucial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo en la Segunda Guerra Mundial. La criptografía sigue evolucionando. Ahora usamos algoritmos post-cuánticos para resistir las computadoras cuánticas del futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El futuro de la seguridad digital depende de que estos nuevos algoritmos sean implementados correctamente en las redes globales antes de que la computación cuántica alcance su potencial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La máquina Enigma era tan compleja que incluso los mejores criptógrafos del tiempo se confundían con sus configuraciones."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto. La aleatoriedad de las rotaciones diarias fue lo que hizo que el sistema fuera viable para la guerra."
+    }
+   ],
+   "seg": 142
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Shannon y el nacimiento de la teoría moderna",
+   "sub": "top3 · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿y si la criptografía nació no en un campo de batalla sino en una mesa de café? Vamos a ver qué historias reales hay detrás del código."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, el cifrado de César fue usado por los romanos para proteger sus legiones. Pero ¿por qué nadie lo inventó antes?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás porque la gente no necesitaba ocultar mensajes hasta que las guerras se volvieron más complejas y los ejércitos más grandes."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el tercer puesto…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Segundo lugar, la teoría de Shannon en 1947, que formalizó el análisis de información y dio base matemática a todo lo que hoy llamamos criptografía moderna."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Shannon no inventó nada nuevo, pero sí dio al campo la estructura rigurosa que permite hablar de seguridad con certeza científica, no solo con suposiciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese mismo año, también nace el concepto de entropía aplicada a la información. Una idea tan potente que hoy se usa para medir la aleatoriedad de los números aleatorios que protegen tus mensajes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Primero, el código de César, usado por romanos para proteger mensajes militares. Simple, pero efectivo contra ataques básicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y luego vino Vigenère con su clave dinámica. Más seguro, pero todavía susceptible a análisis de frecuencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hasta que Shannon en 1947 dio la estructura matemática que todo criptógrafo necesita hoy en día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, César y Vigenère sentaron las bases. Shannon en 1947 dio la estructura matemática que todo criptógrafo necesita hoy en día."
+    },
+    {
+     "quien": "joy",
+     "texto": "Shannon no inventó el cifrado, pero sí la teoría de la información que lo hace posible. Su trabajo es tan fundamental como las leyes de Newton."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasa con los algoritmos post-cuánticos? La computación cuántica amenaza con romper los sistemas actuales, pero también ofrece nuevas soluciones."
+    },
+    {
+     "quien": "joy",
+     "texto": "Shannon dio la teoría de la información, no el cifrado. Su trabajo es tan fundacional que todo criptógrafo lo cita."
+    }
+   ],
+   "seg": 148
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cripto post-cuántica frente a la computación cuántica",
+   "sub": "top3 · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Top tres de Cripto post-cuántica frente a la computación cuántica. Empezamos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto tres: cifrado de curva elíptica. No es magia, es matemática pura que resiste ataques cuánticos. Usan ecuaciones modulares complejas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La curva elíptica transforma problemas difíciles en cálculos manejables. Es eficiente y robusta frente a la computación cuántica moderna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y lo mejor: se implementa con hardware estándar. No necesitas supercomputadoras. La cripto post-cuántica ya está en los teléfonos de todos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La curva elíptica es matemática pura que resiste ataques cuánticos. Se implementa con hardware estándar, sin necesidad de supercomputadoras."
+    },
+    {
+     "quien": "joy",
+     "texto": "Precisión técnica combinada con humor irónico suave. Así es como la criptografía post-cuántica protege tus datos contra la computación cuántica del futuro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El puesto número uno es la criptografía de curva elíptica, porque usa matemáticas pures que incluso los ordenadores cuánticos no pueden romper fácilmente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. La curva elíptica es como un candado con una cerradura que solo la lógica puede abrir, y eso es precisamente lo que necesitamos hoy en día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no olvides que esto se implementa con hardware estándar, sin necesidad de supercomputadoras. La cripto post-cuántica ya está aquí, lista para proteger tus datos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. La criptografía post-cuántica busca algoritmos resistentes a computadoras cuánticas."
+    }
+   ],
+   "seg": 104
+  },
+  {
+   "tipo": "musica",
+   "id": "m_pixelland",
+   "archivo": "m/m_pixelland.mp3",
+   "titulo": "Pixelland",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 234,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: De ARPANET a internet",
+   "sub": "TECNOLOGÍA MILITAR",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El nacimiento militar de la red",
+   "sub": "linea tiempo · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Un accidente en el laboratorio? Eso suena a ciencia ficción, no a historia real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La verdad es mucho más fría y militar que cualquier leyenda urbana."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina una guerra donde la única ventaja era saber dónde estaban los amigos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que la defensa estadounidense necesitaba conectar sus instalaciones dispersas para coordinar operaciones en tiempo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso es lo que hizo ARPANET. No fue un accidente, fue una decisión estratégica tomada en medio de la Guerra Fría para asegurar la continuidad del mando."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y el correo electrónico? ¿Era solo para enviar memes o había algo más serio detrás?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El correo electrónico nació en ARPANET como sistema de comunicación entre nodos militares, no para memes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Los primeros mensajes eran informes tácticos y coordinaciones de misiones, nada de chistes o GIFs."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente olvidó que la red fue diseñada para sobrevivir a ataques nucleares, con rutas alternativas automáticas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese es el punto: la ingeniería militar creó la infraestructura que hoy usamos para todo, desde Netflix hasta tu banco."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy la red es el sistema nervioso de la humanidad, no solo para guerras sino para conectar corazones y mentes en todo el mundo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Antes, los datos viajaban como cartas militares; ahora viajan como memes, noticias y sueños que nadie se imagina."
+    },
+    {
+     "quien": "joy",
+     "texto": "El futuro será donde los datos viajen tan rápido que el tiempo parezca un mito, y la distancia sea solo una ilusión de nuestra mente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O quizás sea cuando las redes miren hacia atrás y vean que todo lo que construimos fue para conectar corazones antes que máquinas."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ingeniería militar nos dio la base, pero es la curiosidad humana la que ha hecho crecer el árbol hasta tocar las nubes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La historia de internet empezó en un laboratorio militar, pero la magia fue que los ingenieros vieron el potencial civil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La curiosidad humana transformó una herramienta fría en algo que conecta corazones en todo el mundo."
+    }
+   ],
+   "seg": 160
+  },
+  {
+   "tipo": "charla",
+   "tema": "La estandarización del protocolo TCP/IP",
+   "sub": "top3 · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Top tres de La estandarización del protocolo TCP/IP. Empezamos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto tres: la estandarización de TCP/IP en 1983 unificó redes militares y civiles bajo un mismo lenguaje. Sin esto, cada país tendría su propio protocolo, como si hablaras idiomas distintos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Antes de eso, la ARPANET era una colección fragmentada. La estandarización permitió que cualquier computadora pudiera conectarse a cualquier otra, sin importar su origen o arquitectura interna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el impacto cultural fue inmediato: desde los correos electrónicos hasta la web moderna. Internet nació de una necesidad técnica militar, pero su legado es puramente civil y conectado."
+    },
+    {
+     "quien": "joy",
+     "texto": "El segundo punto es crucial: la estandarización no fue un decreto, sino una negociación entre ingenieros de todo el mundo que decidieron hablar el mismo idioma."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y la ironía cultural reside en que esto permitió que gente sin conocimientos técnicos pudiera navegar por redes que antes solo las máquinas entendían."
+    },
+    {
+     "quien": "joy",
+     "texto": "Así nació una cultura digital donde el código se volvió arte popular, no un misterio reservado a los expertos. La tecnología dejó de ser fría para volverse compartible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El primer punto es historia pura: la defensa estadounidense compró el proyecto para que sus ordenadores no hablaran entre sí en el caos de la Guerra Fría."
+    },
+    {
+     "quien": "joy",
+     "texto": "La historia es clara: ARPANET fue el primer red de computadoras impulsada por la defensa estadounidense. El protocolo TCP/IP se estandarizó en 1983 para unificar las redes existentes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bolt, Beranek y Newman diseñaron los primeros routers del sistema, pero la gente suele confundirlos con inventores de internet."
+    },
+    {
+     "quien": "joy",
+     "texto": "La estandarización del protocolo TCP/IP en 1983 fue el momento clave que transformó ARPANET en la red mundial que conocemos hoy."
+    }
+   ],
+   "seg": 131
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los routers pioneros y su diseño",
+   "sub": "debate · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué los routers militares se volvieron el corazón de internet? Una pregunta que duele más de lo que parece."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que la ingeniería tuvo que ser pragmática. Los primeros dispositivos eran cajas ricas en lógica pero pobres en estética."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso. Ellos tenían que manejar errores, rutas alternativas y una cantidad de datos que hoy nos parece infantil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Porque la ingeniería militar exige precisión bajo presión. Los routers de Bolt, Beranek y Newman no eran toys, eran sistemas críticos que debían funcionar sin fallos en el campo de batalla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Y luego la verdad es más divertida: cuando los militares empezaron a usarlos para cosas civiles, ¡el mundo entero se conectó! La guerra no fue el fin, fue el comienzo de algo mucho más grande."
+    },
+    {
+     "quien": "joy",
+     "texto": "No solo eso. El diseño compacto y robusto permitió que estos dispositivos sobrevivieran en condiciones extremas. Esa capacidad de adaptación es lo que hoy nos permite navegar por la red con tanta facilidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Resiliente? ¡Por supuesto! Pero también fue la primera vez que alguien pensó en el ‘cableado invisible’. La guerra ya no se libra con balas, sino con packets."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los routers de Bolt, Beranek y Newman eran tan robustos que sobrevivieron a desertos y naves espaciales. Eso sí, no estaban diseñados para el hogar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La resistencia fue clave, pero no fue solo el hardware. El software también tuvo que ser capaz de manejar fallos sin colapsar todo el sistema."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante punto. Sin embargo, la verdadera innovación estaba en cómo estos routers gestionaban las rutas dinámicamente ante interrupciones del cableado físico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Dinámicas? Claro que sí. Mientras otros redes usaban conmutación de circuito estático, aquí cambiaban los caminos según el tráfico y la disponibilidad real."
+    },
+    {
+     "quien": "joy",
+     "texto": "La conmutación dinámica fue la verdadera revolución, permitiendo que las redes se adaptaran en tiempo real a los fallos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Mientras otros usaban circuitos estáticos, aquí el software decidía rutas al vuelo, como si fuera un tráfico inteligente."
+    }
+   ],
+   "seg": 156
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo llegó la tecnología a las casas",
+   "sub": "linea tiempo · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos al programa donde desmitificamos la llegada de internet a nuestras casas. Hoy exploraremos el origen y evolución de esta tecnología fundamental."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Interesante, pero ¿realmente ARPANET fue impulsada por la defensa estadounidense? Se cuenta que esa red nació con fines militares para compartir información entre bases."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El proyecto se centraba en la comunicación segura y eficiente entre instituciones militares y académicas, lo cual revolucionó el uso de datos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Realmente nació todo esto en las bases militares? Se cuenta que la defensa estadounidense financió ARPANET para conectar ordenadores dispersos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y luego vinieron los routers de Bolt, Beranek y Newman para que todo el sistema funcionara como un solo organismo digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto. Esa ingeniería permitió que los datos viajaran en paquetes pequeños por múltiples rutas, evitando fallos y creando la base del internet moderno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El protocolo TCP/IP se estandarizó en 1983 para unificar las redes existentes y permitir que los datos viajen por múltiples rutas sin fallar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bolt, Beranek y Newman diseñaron los primeros routers del sistema. Sin esa ingeniería, los paquetes de datos no habrían podido cruzar las redes nacionales de varios países."
+    },
+    {
+     "quien": "joy",
+     "texto": "El correo electrónico se implementó como una de las primeras aplicaciones de la red. La tecnología de conmutación de paquetes permitió que los datos se enviaran en segmentos pequeños y seguros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Varios países adoptaron el estándar TCP/IP para sus redes nacionales, lo que facilitó la expansión global de la red. Hoy en día, esa misma tecnología conecta millones de dispositivos cada segundo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Bolt, Beranek y Newman no solo diseñaron routers; crearon la arquitectura que hizo posible que los datos viajen por múltiples rutas sin fallar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y cuando varios países adoptaron TCP/IP, la expansión global fue inevitable. Pero imagina: ¿qué pasaría si la conmutación de paquetes fuera diferente?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bolt, Beranek y Newman diseñaron routers, pero no crearon la red. La defensa estadounidense impulsó ARPANET primero."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El protocolo TCP/IP se estandarizó en 1983 para unificar redes militares y académicas bajo un mismo estándar."
+    }
+   ],
+   "seg": 159
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1799,
+  "medios": 2
+ }
+}

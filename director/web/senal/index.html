@@ -1,0 +1,96 @@
+<!doctype html>
+<!-- Pantalla de transición «ESTAMOS MEJORANDO NUESTRA SEÑAL» · BlackRose TV (escena OBS «MEJORANDO SEÑAL», :8822/senal/).
+     ?vuelve=HH:MM muestra la hora de regreso; ?min=N una cuenta regresiva de N minutos. -->
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Mejorando señal</title>
+<style>
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--rosa:#ff2d95;--cian:#00e5ff;--oro:#ffcf4a;--fondo:#07030d}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:var(--fondo);color:#fff;font-family:Rajdhani,sans-serif}
+canvas{position:absolute;inset:0}
+/* barras de color 2049 arriba, con corrimiento */
+#barras{position:absolute;left:0;right:0;top:0;height:120px;display:flex;opacity:.85;filter:saturate(1.2)}
+#barras i{flex:1;animation:tit 3.2s infinite steps(1)}
+@keyframes tit{0%,92%{transform:none}93%{transform:translateX(18px)}96%{transform:translateX(-12px)}}
+#centro{position:absolute;left:50%;top:50%;transform:translate(-50%,-52%);text-align:center;width:1500px}
+.logo{font:96px Audiowide;letter-spacing:10px;background:linear-gradient(90deg,var(--rosa),#fff 45%,var(--cian));-webkit-background-clip:text;color:transparent;
+  filter:drop-shadow(0 0 22px rgba(255,45,149,.55));position:relative}
+.logo .rosa{-webkit-text-fill-color:var(--rosa);color:var(--rosa)}
+.glitch{animation:gl 4.5s infinite}
+@keyframes gl{0%,86%,100%{transform:none;clip-path:none}87%{transform:translate(-6px,2px);clip-path:inset(10% 0 55% 0)}89%{transform:translate(7px,-2px);clip-path:inset(60% 0 8% 0)}91%{transform:none;clip-path:none}}
+.sub{font:20px Orbitron;letter-spacing:12px;color:var(--cian);margin-top:6px}
+.msg{margin-top:70px;font:700 78px/1.05 Rajdhani;letter-spacing:4px;text-transform:uppercase;text-shadow:0 0 18px rgba(0,229,255,.5)}
+.jp{font:700 34px "Noto Sans CJK JP","Noto Sans JP",sans-serif;color:#b9d6e0;margin-top:14px;letter-spacing:6px}
+/* barra de sintonía */
+.sinto{margin:56px auto 0;width:980px;height:22px;border:2px solid rgba(0,229,255,.6);position:relative;overflow:hidden;box-shadow:0 0 18px rgba(0,229,255,.3)}
+.sinto b{position:absolute;top:0;bottom:0;width:30%;background:linear-gradient(90deg,transparent,var(--cian),var(--rosa),transparent);animation:sin 2.4s infinite ease-in-out}
+@keyframes sin{0%{left:-30%}100%{left:100%}}
+.estado{margin-top:22px;font:34px VT323;color:var(--oro);letter-spacing:3px;min-height:40px}
+.vuelve{margin-top:8px;font:24px Orbitron;letter-spacing:6px;color:#fff;opacity:.85}
+#pie{position:absolute;left:0;right:0;bottom:0;height:86px;background:linear-gradient(90deg,rgba(255,45,149,.9),rgba(120,20,160,.9) 50%,rgba(0,160,200,.9));
+  display:flex;align-items:center;overflow:hidden;font:700 34px Rajdhani;letter-spacing:4px}
+#pie .tag{background:#000;color:var(--rosa);font:22px Orbitron;letter-spacing:4px;height:100%;display:flex;align-items:center;padding:0 28px;z-index:2;flex:none}
+#pie .cinta{white-space:nowrap;animation:cin 38s linear infinite;padding-left:40px}
+@keyframes cin{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+#reloj{position:absolute;right:46px;top:150px;font:44px VT323;color:#fff;text-align:right;opacity:.9}
+#reloj small{display:block;font:18px Orbitron;color:var(--cian);letter-spacing:4px}
+#rec{position:absolute;left:46px;top:156px;font:22px Orbitron;letter-spacing:5px;color:#fff}
+#rec:before{content:"";display:inline-block;width:16px;height:16px;border-radius:50%;background:var(--rosa);margin-right:12px;box-shadow:0 0 12px var(--rosa);animation:par 1.2s infinite}
+@keyframes par{50%{opacity:.15}}
+.scan{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.22) 0 2px,transparent 2px 4px);pointer-events:none}
+.vig{position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 50%,rgba(0,0,0,.75));pointer-events:none}
+</style></head><body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="barras"></div>
+<div id="rec">SEÑAL EN AJUSTE</div>
+<div id="reloj"><span id="hora">--:--:--</span><small>SANTIAGO · 2049</small></div>
+<div id="centro">
+  <div class="logo glitch">BLACK<span class="rosa">ROSE</span> TV</div>
+  <div class="sub">TRANSMISIÓN AUTOORGANIZADA · 24/7</div>
+  <div class="msg">Estamos mejorando<br>nuestra señal</div>
+  <div class="jp">ただいま放送を改善しています</div>
+  <div class="sinto"><b></b></div>
+  <div class="estado" id="estado">&gt; recalibrando estudio 2049…</div>
+  <div class="vuelve" id="vuelve">VOLVEMOS EN UNOS MINUTOS</div>
+</div>
+<div id="pie"><div class="tag">BLACKROSE TV</div><div class="cinta" id="cinta"></div></div>
+<div class="scan"></div><div class="vig"></div>
+<script>
+const $ = id => document.getElementById(id);
+const cols = ['#ff2d95','#00e5ff','#ffcf4a','#8a2be2','#14ff9c','#ff5a36','#ffffff','#2a0f3a'];
+$('barras').innerHTML = cols.map(c => `<i style="background:${c}"></i>`).join('');
+const temas = 'VTUBER · TECNOLOGÍA · JUEGOS · INTELIGENCIA ARTIFICIAL · NOTICIAS · 24/7 · 日本語字幕あり · ';
+$('cinta').textContent = (temas + temas + temas + temas).repeat(2);
+const pasos = ['recalibrando estudio 2049…','encendiendo cámaras del set…','cargando a Joy y Kuroki…','sincronizando la redacción…',
+  'ajustando la antena orbital…','afinando el color del noticiario…','conectando la red autoorganizada…','probando micrófonos…'];
+let ip = 0; setInterval(() => { ip = (ip + 1) % pasos.length; $('estado').textContent = '> ' + pasos[ip]; }, 3500);
+const q = new URLSearchParams(location.search);
+let fin = null;
+if (q.get('min')) fin = Date.now() + (+q.get('min')) * 60000;
+if (q.get('vuelve')) { const [h, m] = q.get('vuelve').split(':').map(Number); const d = new Date(); d.setHours(h, m, 0, 0); if (d < Date.now()) d.setDate(d.getDate() + 1); fin = +d; }
+function tic() {
+  const d = new Date(); $('hora').textContent = d.toLocaleTimeString('es-CL', { hour12: false });
+  if (fin) { const s = Math.max(0, Math.round((fin - Date.now()) / 1000));
+    $('vuelve').textContent = s ? `VOLVEMOS EN ${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}` : 'VOLVEMOS EN INSTANTES'; }
+}
+setInterval(tic, 500); tic();
+/* fondo: grilla neón en perspectiva + estática suave */
+const cv = $('c'), g = cv.getContext('2d'); let t = 0;
+function cuadro() {
+  t += 1 / 30; g.fillStyle = '#07030d'; g.fillRect(0, 0, 1920, 1080);
+  const hz = 640; const grd = g.createLinearGradient(0, 0, 0, hz); grd.addColorStop(0, '#07030d'); grd.addColorStop(1, '#2a0838'); g.fillStyle = grd; g.fillRect(0, 0, 1920, hz);
+  g.fillStyle = 'rgba(255,45,149,.18)'; g.beginPath(); g.arc(960, hz, 260, Math.PI, 0); g.fill();
+  g.strokeStyle = 'rgba(255,45,149,.45)'; g.lineWidth = 2;
+  for (let i = 0; i < 18; i++) { const z = ((i + (t * .8) % 1) / 18); const y = hz + Math.pow(z, 2.2) * 440; g.globalAlpha = z; g.beginPath(); g.moveTo(0, y); g.lineTo(1920, y); g.stroke(); }
+  g.globalAlpha = .55; g.strokeStyle = 'rgba(0,229,255,.5)';
+  for (let i = -20; i <= 20; i++) { g.beginPath(); g.moveTo(960 + i * 30, hz); g.lineTo(960 + i * 260, 1080); g.stroke(); }
+  g.globalAlpha = 1;
+  for (let i = 0; i < 260; i++) { g.fillStyle = `rgba(255,255,255,${Math.random() * .08})`; g.fillRect(Math.random() * 1920, Math.random() * 1080, 3, 2); }
+  if (Math.random() < .03) { const y = Math.random() * 1080; g.fillStyle = 'rgba(0,229,255,.12)'; g.fillRect(0, y, 1920, 6 + Math.random() * 30); }
+  requestAnimationFrame(cuadro);
+}
+cuadro();
+</script>
+</body></html>

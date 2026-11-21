@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Pausa comercial</title>
+<!-- PAUSA COMERCIAL de BlackRose TV (MTV cyberpunk / futuro retro): 1920×1080 opaca. Mezcla al azar, sin repetir hasta agotar la bolsa:
+     stings con el logo en 6 animaciones, VJ de texto cinético, comerciales parodia, datos curiosos, programas y preguntas al chat; 3 camas
+     musicales y 4 voces. Cero IA en vivo. Material: generar.py → spots.json + media/ · ?mudo=1 · ?solo=<id> · ?fmt=ident|vj|ad|quiz|std · ?musica=0.16 · ?glow=1 -->
+<style>
+@font-face{font-family:Monoton;src:url(/img/fuentes/monoton.woff2) format("woff2")}
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--c:#ff2fd6;--cian:#00e5ff;--rojo:#ff3b3b}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#05030c;color:#fff;font-family:Rajdhani,sans-serif}
+canvas{position:absolute;left:0;top:0}
+.scan{position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 2px,transparent 2px 4px)}
+.vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 50%,transparent 55%,rgba(0,0,0,.65))}
+.cap{display:none}
+body[data-fmt=std] #txt,body[data-fmt=vj] #kin,body[data-fmt=quiz] #kin,body[data-fmt=ad] #ad,body[data-fmt=ident] #idt{display:block}
+/* marca y etiqueta PAUSA */
+#marca{position:absolute;left:56px;top:44px;display:flex;align-items:center;gap:16px;filter:drop-shadow(0 0 10px rgba(255,47,214,.6));transition:opacity .3s}
+#marca .br{font-family:Monoton;font-size:46px;letter-spacing:2px;text-shadow:0 0 6px #fff,0 0 22px #ff2fd6}
+#marca .tv{font-family:Audiowide;font-size:26px;padding:0 10px 2px;border:3px solid var(--cian);color:var(--cian);border-radius:7px;text-shadow:0 0 8px var(--cian)}
+#pausa{position:absolute;right:56px;top:46px;text-align:right;transition:opacity .3s}
+#pausa .p{display:inline-block;font-family:Orbitron;font-size:24px;letter-spacing:6px;background:var(--rojo);padding:8px 16px 6px;box-shadow:0 0 20px rgba(255,59,59,.8);animation:late 1.6s steps(2) infinite}
+#pausa .v{font-family:VT323;font-size:46px;color:#ffe45e;text-shadow:0 0 12px #ffb627;margin-top:10px;letter-spacing:2px}
+body[data-fmt=ident] #marca,body[data-fmt=ident] #pausa{opacity:0}
+@keyframes late{50%{opacity:.6}}
+/* ── std: programa o dato ── */
+#txt{position:absolute;left:96px;top:290px;width:1000px}
+#txt .tag{display:inline-block;font-family:Orbitron;font-size:22px;letter-spacing:6px;color:#09020f;background:var(--c);padding:8px 18px 6px;box-shadow:0 0 22px var(--c)}
+#txt .tit{font-family:Monoton;color:#fff;line-height:1.02;margin:26px 0 20px;text-shadow:0 0 8px #fff,0 0 26px var(--c),0 0 60px var(--c)}
+#txt .sub{font-family:Rajdhani;font-size:42px;letter-spacing:5px;text-transform:uppercase;color:var(--c);text-shadow:0 0 14px var(--c)}
+#txt .lin{height:5px;width:0;background:var(--c);box-shadow:0 0 18px var(--c);margin-top:26px}
+#txt.in .tag{animation:ent .5s both}#txt.in .tit{animation:ent .7s .15s both}#txt.in .sub{animation:ent .7s .4s both}#txt.in .lin{animation:lin 1.2s .5s both}
+@keyframes ent{from{opacity:0;transform:translateX(-60px)}to{opacity:1;transform:none}}
+@keyframes lin{to{width:760px}}
+/* ── vj / quiz: texto cinético palabra por palabra ── */
+#kin{position:absolute;left:90px;top:230px;width:1100px}
+#kin .tag{display:inline-block;font-family:Orbitron;font-size:24px;letter-spacing:6px;color:#09020f;background:var(--c);padding:8px 18px 6px;transform:rotate(-2deg);box-shadow:0 0 22px var(--c)}
+#kin .pal{margin:26px 0 8px;line-height:1.02}
+#kin .pal span{will-change:transform,opacity;display:inline-block;font-family:Audiowide;font-size:var(--fs,120px);color:#fff;margin-right:.28em;opacity:0;text-shadow:0 0 18px var(--c),6px 6px 0 var(--c)}
+#kin.in .pal span{animation:pop .5s cubic-bezier(.2,1.6,.4,1) forwards;animation-delay:calc(var(--i) * .22s + .2s)}
+@keyframes pop{0%{opacity:0;transform:scale(2.4) rotate(var(--r))}100%{opacity:1;transform:scale(1) rotate(0)}}
+#kin .sub{font-family:Rajdhani;font-size:44px;letter-spacing:6px;text-transform:uppercase;color:var(--c);text-shadow:0 0 14px var(--c);transform:rotate(-1.5deg)}
+#kin.in .sub{animation:ent .6s 1.3s both}
+/* ── ad: comercial parodia, chillón ── */
+#ad{position:absolute;inset:0}
+#ad .tag{position:absolute;left:50%;top:190px;transform:translateX(-50%) rotate(-2deg);font-family:Orbitron;font-size:26px;letter-spacing:8px;color:#09020f;background:#fff;padding:10px 26px 8px;box-shadow:0 0 0 5px #09020f,8px 8px 0 5px var(--c);white-space:nowrap}
+#ad .nom{position:absolute;left:0;right:0;top:330px;text-align:center;font-family:Monoton;font-size:150px;color:#fff;line-height:1;text-shadow:7px 7px 0 #09020f,0 0 24px var(--c);will-change:transform,opacity}
+#ad .sub{position:absolute;left:0;right:0;top:530px;text-align:center;font-family:Audiowide;font-size:48px;letter-spacing:4px;text-transform:uppercase;color:#09020f}
+#ad .sub b{background:#09020f;color:var(--c);padding:6px 22px;font-weight:normal}
+#ad .pre{position:absolute;right:210px;top:650px;width:330px;height:330px;display:flex;align-items:center;justify-content:center;text-align:center;font-family:Audiowide;font-size:40px;line-height:1.05;color:#09020f;padding:0 50px;box-sizing:border-box;
+  background:#ffe45e;clip-path:polygon(50% 0,61% 14%,79% 8%,80% 27%,98% 31%,88% 48%,100% 62%,83% 70%,84% 88%,66% 84%,50% 100%,36% 85%,18% 90%,18% 71%,0 62%,12% 47%,2% 30%,21% 26%,21% 9%,40% 14%);transform:rotate(-8deg)}
+#ad .leyenda{position:absolute;left:0;right:0;bottom:70px;text-align:center;font-family:VT323;font-size:30px;letter-spacing:4px;color:#fff;text-shadow:2px 2px 0 #09020f}
+#ad.in .tag{animation:ent2 .5s both}#ad.in .nom{animation:slam .6s .15s both}#ad.in .sub{animation:ent2b .6s .55s both}#ad.in .pre{animation:slam .5s 1.1s both}
+@keyframes ent2{from{opacity:0;transform:translateX(-50%) translateY(-40px) rotate(-2deg)}to{opacity:1}}
+@keyframes ent2b{from{opacity:0;transform:translateY(40px)}to{opacity:1}}
+@keyframes slam{0%{opacity:0;transform:scale(3)}60%{opacity:1;transform:scale(.92)}100%{transform:scale(1)}}
+/* ── ident: el logo en 6 animaciones ── */
+#idt{position:absolute;inset:0;text-align:center}
+#idt .a{position:absolute;left:0;right:0;top:400px;font-family:Monoton;font-size:190px;color:#fff;line-height:1;text-shadow:0 0 10px #fff,0 0 34px var(--c);will-change:transform,opacity}
+#idt .b{position:absolute;left:0;right:0;top:620px;font-family:Audiowide;font-size:44px;letter-spacing:14px;text-transform:uppercase;color:var(--c);text-shadow:0 0 16px var(--c)}
+#idt.in.i0 .a{animation:slam .5s both,shake .4s .5s 2}
+#idt.in.i1 .a{animation:glitchin 2.6s both}
+#idt.in.i2 .a{animation:slash .7s cubic-bezier(.7,0,.2,1) both}
+#idt.in.i3 .a{animation:giro .9s cubic-bezier(.2,1.2,.3,1) both}
+#idt.in.i4 .a{animation:flick 1.6s steps(1) both}
+#idt.in.i5 .a{animation:vhsin 1.2s ease-out both}
+#idt.in .b{animation:ent .6s .7s both}
+@keyframes shake{25%{transform:translateX(-14px)}75%{transform:translateX(14px)}}
+@keyframes glitchin{0%{opacity:0}8%,16%{opacity:1;transform:translateX(-30px) skewX(20deg)}12%{transform:translateX(24px)}24%,100%{opacity:1;transform:none}}
+@keyframes slash{0%{clip-path:polygon(0 0,0 0,0 100%,0 100%);transform:skewX(-25deg) translateX(-200px)}100%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%);transform:none}}
+@keyframes giro{0%{opacity:0;transform:perspective(900px) rotateX(90deg) scale(1.4);letter-spacing:40px}100%{opacity:1;transform:perspective(900px) rotateX(0);letter-spacing:0}}
+@keyframes flick{0%{opacity:0}10%{opacity:1}20%{opacity:.1}30%{opacity:1}42%{opacity:0}52%{opacity:1}60%{opacity:.3}70%,100%{opacity:1}}
+@keyframes vhsin{0%{opacity:0;transform:translateX(-900px) skewX(-20deg)}70%{opacity:1;transform:translateX(30px)}100%{transform:none}}
+/* código de party (spot de Fast Penguin) */
+#codigo{position:absolute;right:120px;top:780px;width:640px;text-align:center;display:none;padding:22px 18px 18px;background:rgba(7,6,26,.88);box-shadow:0 0 0 4px #ffe27a,0 0 40px rgba(255,226,122,.5);font-family:VT323}
+#codigo .a{font:15px 'Courier New',monospace;color:#ffe27a;letter-spacing:4px}
+#codigo .b{font:84px VT323;letter-spacing:14px;color:#fff;text-shadow:5px 5px 0 #ff4fb8,-3px -3px 0 #6ee7ff;margin:8px 0}
+#codigo .c{font-size:30px;color:#bff4ff}
+/* barra inferior con mercados */
+#baja{position:absolute;left:0;bottom:0;width:1920px;height:52px;background:rgba(8,2,14,.92);border-top:3px solid var(--c);display:flex;align-items:center;overflow:hidden;font-size:28px}
+#baja .et{font-family:Orbitron;font-size:17px;letter-spacing:4px;background:var(--c);color:#09020f;padding:0 16px;height:100%;display:flex;align-items:center;z-index:1;white-space:nowrap}
+#cinta{flex:1;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 40px,#000 calc(100% - 40px),transparent)}
+#pista{display:inline-flex;white-space:nowrap;animation:corre var(--dur,90s) linear infinite}
+@keyframes corre{to{transform:translateX(-50%)}}
+.it{margin-right:34px}.it i{font-style:normal;margin-left:8px;color:#cdb8df}.sube{color:#3dff9a!important}.baja{color:#ff4d6d!important}
+/* destello entre spots */
+#flash{position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,var(--c) 50%,transparent 70%);opacity:0;pointer-events:none}
+#flash.go{animation:flash .7s ease-out}
+@keyframes flash{0%{opacity:.9;transform:translateX(-100%)}100%{opacity:0;transform:translateX(100%)}}
+#inicio{position:absolute;inset:0;background:#05030c;display:none;align-items:center;justify-content:center;font-family:Orbitron;font-size:30px;letter-spacing:6px;color:#cdb8df;z-index:9}
+</style></head>
+<body data-fmt="std">
+<canvas id="fx" width="960" height="540" style="width:1920px;height:1080px"></canvas>
+<div class="vig"></div><div class="scan"></div>
+<div id="marca">
+  <svg width="64" height="64" viewBox="0 0 120 120"><rect x="6" y="19" width="108" height="88" rx="20" fill="#0a0410" stroke="#00e5ff" stroke-width="6"/>
+    <path d="M60 78 C40 76 33 60 38 48 C46 56 52 60 60 60 C68 60 74 56 82 48 C87 60 80 76 60 78Z" fill="#12020f" stroke="#ff7ae6" stroke-width="4"/>
+    <path d="M49 48 C49 36 56 32 60 31 C64 32 71 36 71 48 C66 53 54 53 49 48Z" fill="#2b0624" stroke="#ff7ae6" stroke-width="4"/>
+    <line x1="60" y1="19" x2="40" y2="3" stroke="#00e5ff" stroke-width="6"/><line x1="60" y1="19" x2="82" y2="5" stroke="#00e5ff" stroke-width="6"/></svg>
+  <span class="br">BLACKROSE</span><span class="tv">TV</span>
+</div>
+<div id="pausa"><div class="p">PAUSA COMERCIAL</div><div class="v" id="vuelve">VOLVEMOS PRONTO</div></div>
+<div id="txt" class="cap"><span class="tag" id="tag"></span><div class="tit" id="tit"></div><div class="sub" id="sub"></div><div class="lin"></div></div>
+<div id="kin" class="cap"><span class="tag" id="ktag"></span><div class="pal" id="kpal"></div><div class="sub" id="ksub"></div></div>
+<div id="ad" class="cap"><div class="tag" id="atag"></div><div class="nom" id="anom"></div><div class="sub"><b id="asub"></b></div><div class="pre" id="apre"></div><div class="leyenda">PUBLICIDAD FICTICIA · NO COMPRES NADA · ES UN CHISTE CYBERPUNK</div></div>
+<div id="idt" class="cap"><div class="a" id="ia"></div><div class="b" id="ib"></div></div>
+<div id="codigo"><div class="a">▶ ¡JUEGA CONMIGO! ◀</div><div class="b" id="cod">------</div><div class="c">código de party en Faaast Penguin</div></div>
+<div id="baja"><div class="et">MERCADOS</div><div id="cinta"><div id="pista"></div></div></div>
+<iframe id="metas" src="/metas?pos=bl&bottom=84&escala=.85" style="position:absolute;left:0;top:0;width:1920px;height:1080px;border:0;background:transparent;pointer-events:none" allowtransparency="true"></iframe>
+<div id="flash"></div>
+<div id="inicio">TOCA LA PANTALLA PARA ACTIVAR EL SONIDO</div>
+<script>
+const q = new URLSearchParams(location.search), $ = id => document.getElementById(id);
+const cv = $('fx'), g = cv.getContext('2d'), W = 1920, H = 1080;
+if (!q.get('glow')) Object.defineProperty(g, 'shadowBlur', { set() {}, get() { return 0; } });   // el glow por canvas cuesta ~4 fps en OBS (CPU)
+let T = 0, ac = '#ff2fd6', ac2 = '#00e5ff', vis = 'marca', t0 = 0;
+const rnd = (a, b) => a + Math.random() * (b - a), pick = a => a[Math.floor(Math.random() * a.length)];
+const POP = ['#ff2fd6', '#00e5ff', '#ffe45e', '#3dff9a', '#b46bff', '#ff8f6b'];
+
+// ────────── fondo común: cuadrícula synthwave con perspectiva ──────────
+let fcache = null, fkey = null;
+function fondoBase(sinGrilla) {   // gradiente + horizonte + líneas de fuga: se dibuja UNA vez por color y se reutiliza
+  const c = document.createElement('canvas'); c.width = 960; c.height = 540; const x = c.getContext('2d'); x.scale(.5, .5);
+  const gr = x.createLinearGradient(0, 0, 0, H); gr.addColorStop(0, '#05030c'); gr.addColorStop(.55, '#12061f'); gr.addColorStop(1, '#2a0a3a'); x.fillStyle = gr; x.fillRect(0, 0, W, H);
+  if (!sinGrilla) { x.globalAlpha = .35; x.strokeStyle = ac; x.lineWidth = 2; x.beginPath(); x.moveTo(0, 620); x.lineTo(W, 620); x.stroke();
+    for (let i = -16; i <= 16; i++) { x.beginPath(); x.moveTo(W / 2 + i * 40, 620); x.lineTo(W / 2 + i * 380, H); x.stroke(); } }
+  return c;
+}
+function fondo(t, sinGrilla) {
+  const k = ac + sinGrilla; if (fkey !== k) { fcache = fondoBase(sinGrilla); fkey = k; }
+  g.drawImage(fcache, 0, 0, W, H); if (sinGrilla) return;
+  g.save(); g.strokeStyle = ac; g.lineWidth = 2; const hz = 620;
+  for (let k2 = 0; k2 < 14; k2++) { const p = ((k2 + (t * .35) % 1) / 14), y = hz + (H - hz) * p * p; g.globalAlpha = .12 + .3 * p; g.beginPath(); g.moveTo(0, y); g.lineTo(W, y); g.stroke(); }
+  g.restore();
+}
+
+// ────────── visuales (zona derecha: centro ~ (1400, 470)) ──────────
+const CX = 1400, CY = 470, V = {};
+V.marca = (t) => {
+  g.save(); g.translate(CX, CY); g.strokeStyle = ac; g.lineWidth = 4;
+  for (let i = 0; i < 5; i++) { const p = ((t * .5 + i / 5) % 1); g.globalAlpha = (1 - p) * .8; g.beginPath(); g.arc(0, 0, 60 + p * 360, 0, 7); g.stroke(); }
+  g.globalAlpha = 1; g.rotate(t * .4); g.lineWidth = 3;
+  for (let i = 0; i < 8; i++) { g.rotate(Math.PI / 4); g.beginPath(); g.moveTo(80, 0); g.quadraticCurveTo(140, 60, 120 + 30 * Math.sin(t * 2 + i), 0); g.stroke(); }
+  g.restore(); g.save(); g.fillStyle = '#fff'; g.font = '170px Monoton'; g.textAlign = 'center'; g.fillText('BR', CX, CY + 60); g.restore();
+};
+let pistas = null;
+V.chip = (t) => {
+  if (!pistas) { pistas = []; for (let i = 0; i < 46; i++) { let x = rnd(820, 1900), y = rnd(100, 980); const pts = [[x, y]];
+      for (let k = 0; k < 5; k++) { if (k % 2) y += rnd(-160, 160); else x += rnd(-200, 200); pts.push([x, y]); } pistas.push({ pts, v: rnd(.1, .35), o: Math.random() }); } }
+  g.save(); g.lineWidth = 3;
+  for (const p of pistas) { g.strokeStyle = ac; g.globalAlpha = .22; g.beginPath(); p.pts.forEach(([x, y], i) => i ? g.lineTo(x, y) : g.moveTo(x, y)); g.stroke();
+    const u = ((t * p.v + p.o) % 1) * (p.pts.length - 1), i = Math.floor(u), f = u - i, a = p.pts[i], b = p.pts[Math.min(i + 1, p.pts.length - 1)];
+    g.globalAlpha = 1; g.fillStyle = '#fff'; g.beginPath(); g.arc(a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f, 6, 0, 7); g.fill(); }
+  g.restore(); g.save(); g.translate(CX, CY); g.strokeStyle = ac; g.lineWidth = 5; g.fillStyle = 'rgba(5,3,12,.92)';
+  g.fillRect(-150, -150, 300, 300); g.strokeRect(-150, -150, 300, 300); g.lineWidth = 3;
+  for (let i = -4; i <= 4; i++) for (const s of [-1, 1]) { g.beginPath(); g.moveTo(i * 30, s * 150); g.lineTo(i * 30, s * 195); g.stroke(); g.beginPath(); g.moveTo(s * 150, i * 30); g.lineTo(s * 195, i * 30); g.stroke(); }
+  g.strokeRect(-80, -80, 160, 160); g.font = '56px Orbitron'; g.fillStyle = ac; g.textAlign = 'center'; g.fillText('CPU', 0, 20); g.globalAlpha = .5 + .5 * Math.sin(t * 4); g.fillRect(-60, 50, 120, 6); g.restore();
+};
+V.mando = (t) => {
+  const P = 18, M = ['....XXXXXXXXXXXXXXXX....', '..XXXXXXXXXXXXXXXXXXXX..', '.XXXXXXXXXXXXXXXXXXXXXX.', 'XXXX.XXXXXXXXXXXXXX.XXXX', 'XXX.D.XXXXXXXXXXXA.B.XXX', 'XXXDDDXXXXXXXXXXXXAXAXXX', 'XXX.D.XXXXXXXXXXXXXCXXXX',
+    'XXXXXXXXXXXXXXXXXXXXXXXX', '.XXXXXXXXXXXXXXXXXXXXXX.', '.XXXXXXX......XXXXXXXXX.', '..XXXXX........XXXXXX..'];
+  const col = { X: '#2b2f6e', D: '#00e5ff', A: '#ff2fd6', B: '#ffe45e', C: '#3dff9a' };
+  g.save(); g.translate(CX - 12 * P, CY - 6 * P + 14 * Math.sin(t * 2));
+  M.forEach((r, y) => [...r].forEach((c, x) => { if (c !== '.') { g.fillStyle = col[c]; g.fillRect(x * P, y * P, P - 1, P - 1); } })); g.restore();
+  g.save(); g.fillStyle = ac; const INV = ['..X.....X..', '...X...X...', '..XXXXXXX..', '.XX.XXX.XX.', 'XXXXXXXXXXX', 'X.XXXXXXX.X', 'X.X.....X.X', '...XX.XX...'];
+  for (let i = 0; i < 9; i++) { const x = 900 + i * 110, y = ((t * 60 + i * 137) % 1000) - 40; g.globalAlpha = .3; INV.forEach((r, yy) => [...r].forEach((c, xx) => { if (c === 'X') g.fillRect(x + xx * 6, y + yy * 6, 5, 5); })); }
+  g.restore();
+};
+let red = null;
+V.neurona = (t) => {
+  if (!red) { red = []; [4, 6, 7, 6, 3].forEach((n, l) => { const col = []; for (let i = 0; i < n; i++) col.push([960 + l * 220, 470 + (i - (n - 1) / 2) * 96]); red.push(col); }); }
+  g.save();
+  for (let l = 0; l < red.length - 1; l++) red[l].forEach((a, i) => red[l + 1].forEach((b, j) => {
+    g.strokeStyle = ac; g.globalAlpha = .18; g.lineWidth = 1.5; g.beginPath(); g.moveTo(...a); g.lineTo(...b); g.stroke();
+    const p = ((t * .6 + (i * 7 + j * 3 + l * 5) * .137) % 1); if (p < .25) { g.globalAlpha = 1; g.fillStyle = '#fff'; g.beginPath(); g.arc(a[0] + (b[0] - a[0]) * p * 4, a[1] + (b[1] - a[1]) * p * 4, 5, 0, 7); g.fill(); } }));
+  red.forEach((col, l) => col.forEach((n, i) => { const v = .5 + .5 * Math.sin(t * 3 + l * 1.3 + i); g.globalAlpha = 1; g.fillStyle = 'rgba(5,3,12,.95)'; g.strokeStyle = ac; g.lineWidth = 4; g.beginPath(); g.arc(n[0], n[1], 26, 0, 7); g.fill(); g.stroke();
+    g.fillStyle = ac; g.globalAlpha = v; g.beginPath(); g.arc(n[0], n[1], 14, 0, 7); g.fill(); }));
+  g.restore();
+};
+const CIU = [[-33.4, -70.6], [19.4, -99.1], [35.7, 139.7], [40.7, -74], [51.5, -.1], [-23.5, -46.6], [55.7, 37.6], [28.6, 77.2], [-33.9, 151.2], [30, 31.2]];
+V.globo = (t) => {
+  const R = 300, pr = (lat, lon, rot) => { const la = lat * Math.PI / 180, lo = lon * Math.PI / 180 + rot; return [CX + R * Math.cos(la) * Math.sin(lo), CY - R * Math.sin(la), Math.cos(la) * Math.cos(lo)]; };
+  g.save(); g.strokeStyle = ac; g.lineWidth = 2; const rot = t * .35;
+  for (let lat = -60; lat <= 60; lat += 30) { g.globalAlpha = .45; g.beginPath(); for (let lo = 0; lo <= 360; lo += 6) { const p = pr(lat, lo, rot); lo ? g.lineTo(p[0], p[1]) : g.moveTo(p[0], p[1]); } g.stroke(); }
+  for (let lo = 0; lo < 360; lo += 30) { g.beginPath(); for (let lat = -90; lat <= 90; lat += 6) { const p = pr(lat, lo, rot); lat > -90 ? g.lineTo(p[0], p[1]) : g.moveTo(p[0], p[1]); } g.globalAlpha = .3; g.stroke(); }
+  g.beginPath(); g.arc(CX, CY, R, 0, 7); g.globalAlpha = .8; g.lineWidth = 3; g.stroke();
+  CIU.forEach(([la, lo], i) => { const p = pr(la, lo, rot); if (p[2] > 0) { g.globalAlpha = 1; g.fillStyle = '#fff'; g.beginPath(); g.arc(p[0], p[1], 6 + 3 * Math.sin(t * 4 + i), 0, 7); g.fill();
+      const q2 = CIU[(i + 3) % CIU.length], p2 = pr(q2[0], q2[1], rot); if (p2[2] > 0) { g.globalAlpha = .5; g.beginPath(); g.moveTo(p[0], p[1]); g.quadraticCurveTo((p[0] + p2[0]) / 2, Math.min(p[1], p2[1]) - 90, p2[0], p2[1]); g.stroke(); } } });
+  g.restore();
+};
+const PENG = ['......KKKK......', '....KKBBBBKK....', '...KBBBBBBBBK...', '..KBCBBBBBBBBK..', '..KBWPBBBBWPBK..', '..KBBBOOOOBBBK..', '..KBBBBOOBBBBK..', '.KBBBWWWWWWBBBK.', 'KBBBWWWWWWWWBBBK', 'KBKBWWWWWWWWBKBK', '.KKBWWWWWWWWBKK.', '..KBWWWWWWWWBK..', '..KBBWWWWWWBBK..', '...KBBBBBBBBK...', '...KOOK..KOOK...', '..KOOOK..KOOOK..'];
+function ping(x, y, s, body) { const C = { K: '#07061a', B: body, C: '#6ee7ff', W: '#fff4fb', P: '#07061a', O: '#ff9b3d' };
+  PENG.forEach((r, yy) => [...r].forEach((c, xx) => { if (C[c]) { g.fillStyle = C[c]; g.fillRect(Math.round(x + xx * s), Math.round(y + yy * s), s, s); } })); }
+V.penguin = (t) => {
+  g.save(); g.strokeStyle = ac;
+  for (let i = 0; i < 26; i++) { const y = 120 + (i * 97) % 760, x = W - (((t * (900 + (i % 5) * 300)) + i * 211) % (W + 400)); g.globalAlpha = .25; g.lineWidth = 2 + i % 3; g.beginPath(); g.moveTo(x, y); g.lineTo(x + 240, y); g.stroke(); }
+  g.restore(); const cols = ['#ff4fb8', '#ffb627', '#3dff9a', '#b46bff', '#ff6f6f'];
+  for (let i = 0; i < 5; i++) ping(1500 + (i % 3) * 120, 130 + i * 92 + 8 * Math.sin(t * 6 + i * 2), 6, cols[i]);
+  ping(1130, 250 + 30 * Math.sin(t * 5), 15, '#2b3a9e');
+};
+let gotas = null;
+V.dato = (t) => {
+  if (!gotas) gotas = Array.from({ length: 70 }, (_, i) => ({ x: 800 + i * 16, y: rnd(0, H), v: rnd(120, 360), n: ['0', '1', 'ア', 'カ', '≈', '/', '∆'] }));
+  g.save(); g.font = '24px VT323'; g.fillStyle = ac;
+  for (const d of gotas) { d.y += d.v / 30; if (d.y > H + 40) d.y = -40; g.globalAlpha = .5; g.fillText(d.n[(Math.floor(t * 8 + d.x) % d.n.length + d.n.length) % d.n.length], d.x, d.y); g.globalAlpha = .15; g.fillText('1', d.x, d.y - 30); } g.restore();
+  g.save(); g.translate(CX, CY); g.fillStyle = 'rgba(5,3,12,.55)'; g.strokeStyle = ac; g.lineWidth = 5;
+  g.beginPath(); g.arc(0, 0, 230, 0, 7); g.fill(); g.stroke(); g.fillStyle = '#fff'; g.font = '300px Monoton'; g.textAlign = 'center'; g.fillText('?', 0, 105 + 8 * Math.sin(t * 2)); g.restore();
+};
+// hologramas: anillos con marcas y un haz que barre
+V.holo = (t) => {
+  g.save(); g.translate(CX, CY); g.strokeStyle = ac; g.fillStyle = ac;
+  for (let r = 0; r < 4; r++) { const R = 90 + r * 70, d = t * (r % 2 ? -.5 : .5); g.globalAlpha = .6; g.lineWidth = 3; g.setLineDash([14 + r * 8, 10]); g.beginPath(); g.arc(0, 0, R, d, d + 6.283); g.stroke(); }
+  g.setLineDash([]); const a = t * 1.4; g.globalAlpha = .25; g.beginPath(); g.moveTo(0, 0); g.arc(0, 0, 340, a, a + .5); g.closePath(); g.fill();
+  g.globalAlpha = 1; g.lineWidth = 3; g.beginPath(); g.moveTo(0, 0); g.lineTo(Math.cos(a + .5) * 340, Math.sin(a + .5) * 340); g.stroke();
+  for (let i = 0; i < 12; i++) { const b = i * .5236 + t * .2; g.globalAlpha = .7; g.fillRect(Math.cos(b) * 330 - 4, Math.sin(b) * 330 - 4, 8, 8); }
+  g.restore();
+};
+// VHS: franjas de tracking, ruido y barra que rueda
+V.vhs = (t) => {
+  g.save(); const roll = (t * 280) % (H + 200) - 100;
+  for (let i = 0; i < 12; i++) { const y = rnd(0, H), h = rnd(2, 14), x = rnd(-60, 60); g.globalAlpha = rnd(.04, .22); g.fillStyle = POP[i % 6]; g.fillRect(x, y, W, h); }
+  g.globalAlpha = .12; g.fillStyle = '#fff'; g.fillRect(0, roll, W, 90); g.globalAlpha = .2; g.fillStyle = ac2; g.fillRect(0, roll + 90, W, 6);
+  if (Math.random() < .08) { const y = rnd(100, H - 100); g.globalAlpha = .5; g.fillStyle = '#fff'; g.fillRect(rnd(0, 400), y, rnd(300, 1200), 5); }
+  g.restore();
+};
+// memphis: figuras geométricas de neón flotando (MTV 80s)
+let formas = null;
+V.memphis = (t) => {
+  if (!formas) formas = Array.from({ length: 22 }, (_, i) => ({ k: i % 5, x: rnd(0, W), y: rnd(0, H), s: rnd(30, 90), r: rnd(0, 6), vr: rnd(-1, 1), vx: rnd(-40, 40), vy: rnd(-30, 30), c: POP[i % 6] }));
+  g.save(); g.lineWidth = 8;
+  for (const f of formas) { f.x = (f.x + f.vx / 30 + W) % W; f.y = (f.y + f.vy / 30 + H) % H; f.r += f.vr / 30; g.save(); g.translate(f.x, f.y); g.rotate(f.r); g.strokeStyle = f.c; g.fillStyle = f.c; g.globalAlpha = .55;
+    if (f.k === 0) { g.beginPath(); g.moveTo(0, -f.s); g.lineTo(f.s, f.s); g.lineTo(-f.s, f.s); g.closePath(); g.stroke(); }
+    else if (f.k === 1) { g.beginPath(); g.arc(0, 0, f.s * .7, 0, 7); g.fill(); }
+    else if (f.k === 2) { g.beginPath(); g.moveTo(-f.s, 0); for (let i = 0; i < 6; i++) g.lineTo(-f.s + (i + 1) * f.s / 3, i % 2 ? 14 : -14); g.stroke(); }
+    else if (f.k === 3) { g.fillRect(-f.s / 6, -f.s / 2, f.s / 3, f.s); g.fillRect(-f.s / 2, -f.s / 6, f.s, f.s / 3); }
+    else { g.strokeRect(-f.s / 2, -f.s / 2, f.s, f.s); } g.restore(); }
+  g.restore();
+};
+// ecualizador (voz del VJ)
+V.eq = (t) => {
+  g.save(); for (let i = 0; i < 28; i++) { const h = 40 + 150 * Math.abs(Math.sin(t * 5 + i * .7) * Math.cos(t * 3 + i * .3)); g.fillStyle = POP[i % 6]; g.globalAlpha = .85; g.fillRect(1010 + i * 30, 880 - h, 22, h); } g.restore();
+};
+V.vj = (t) => { V.memphis(t); V.eq(t); };
+V.quiz = (t) => { V.holo(t); g.save(); g.fillStyle = '#fff'; g.font = '300px Monoton'; g.textAlign = 'center'; g.globalAlpha = .9; g.fillText('?', CX, CY + 110 + 10 * Math.sin(t * 2)); g.restore(); };
+// rayos del comercial parodia (chillón, a pantalla completa)
+let sbC = null, sbK = null;
+V.sunburst = (t) => {
+  if (sbK !== ac) { sbC = document.createElement('canvas'); sbC.width = sbC.height = 1700; const x = sbC.getContext('2d'); x.translate(850, 850); x.scale(.5, .5); const n = 28;
+    for (let i = 0; i < n; i++) { x.fillStyle = i % 2 ? ac : '#fff'; x.globalAlpha = i % 2 ? .9 : .94; x.beginPath(); x.moveTo(0, 0); x.arc(0, 0, 1700, i * 6.2832 / n, (i + 1) * 6.2832 / n); x.closePath(); x.fill(); } sbK = ac; }
+  g.save(); g.translate(W / 2, 560); g.rotate(t * .25); g.drawImage(sbC, -1700, -1700, 3400, 3400); g.restore();
+};
+
+// ────────── secuenciador: bolsa aleatoria sin repetir ──────────
+let spots = [], bolsa = [], ult = null, vozA = null, cama = null, camaN = 0, contador = 0, vivo = true;
+const FMT = q.get('fmt');
+function siguiente() {
+  const solo = q.get('solo'); if (solo) return spots.find(s => s.id === solo) || spots[0];
+  const base = spots.filter(s => !FMT || s.fmt === FMT);
+  const idents = base.filter(s => s.fmt === 'ident'), otros = base.filter(s => s.fmt !== 'ident');
+  if (ult && ult.fmt !== 'ident' && idents.length && !FMT && Math.random() < .5) { const s = pick(idents.filter(x => x.id !== ult.id)); if (s) return s; }   // un sting entre spot y spot, a veces
+  if (!bolsa.length) bolsa = (otros.length ? otros : base).slice().sort(() => Math.random() - .5);
+  let i = bolsa.findIndex(s => !ult || s.fmt !== ult.fmt); if (i < 0) i = 0;   // no el mismo formato dos veces seguidas
+  return bolsa.splice(i, 1)[0];
+}
+function tamTit(s) { const n = s.length; return n <= 8 ? 130 : n <= 14 ? 100 : n <= 18 ? 82 : 62; }
+function mostrar(s) {
+  ac = s.color; vis = s.visual; ac2 = pick(POP); t0 = performance.now(); document.documentElement.style.setProperty('--c', ac);
+  pistas = null; red = null; formas = null;
+  document.body.dataset.fmt = s.fmt;
+  for (const id of ['txt', 'kin', 'ad', 'idt']) $(id).classList.remove('in');
+  if (s.fmt === 'std') { $('tag').textContent = s.tag; $('tit').textContent = s.titulo; $('tit').style.fontSize = tamTit(s.titulo) + 'px'; $('sub').textContent = s.sub; }
+  else if (s.fmt === 'vj' || s.fmt === 'quiz') {
+    $('ktag').textContent = s.tag; $('ksub').textContent = s.sub; const p = $('kpal'); p.innerHTML = '';
+    const pal = s.titulo.split(' '), fs = pal.length > 6 ? 78 : pal.length > 4 ? 96 : pal.length > 2 ? 120 : 150; p.style.setProperty('--fs', fs + 'px');
+    pal.forEach((w, i) => { const e = document.createElement('span'); e.textContent = w; e.style.setProperty('--i', i); e.style.setProperty('--r', rnd(-25, 25) + 'deg'); if (i % 3 === 1) e.style.color = ac; p.append(e); });
+  } else if (s.fmt === 'ad') { $('atag').textContent = s.tag; $('anom').textContent = s.titulo; $('anom').style.fontSize = (s.titulo.length > 14 ? 112 : 150) + 'px'; $('asub').textContent = s.sub; $('apre').textContent = s.precio || ''; $('apre').style.display = s.precio ? 'flex' : 'none'; }
+  else if (s.fmt === 'ident') { $('ia').textContent = s.titulo; $('ib').textContent = s.sub; $('idt').className = 'cap i' + Math.floor(Math.random() * 6); }
+  const k = { std: 'txt', vj: 'kin', quiz: 'kin', ad: 'ad', ident: 'idt' }[s.fmt]; void $(k).offsetWidth; $(k).classList.add('in');
+  $('codigo').style.display = s.id === 'fastpenguin' ? 'block' : 'none';
+  $('flash').classList.remove('go'); void $('flash').offsetWidth; $('flash').classList.add('go');
+}
+const espera = ms => new Promise(r => setTimeout(r, ms));
+function cambiarCama() {   // cada 4 spots, otra cama musical con fundido
+  if (q.get('mudo')) return; const n = pick([1, 2, 3].filter(x => x !== camaN)), vieja = cama, nueva = new Audio(`media/cama${n}.mp3`), vol = parseFloat(q.get('musica') || '0.16');
+  nueva.loop = true; nueva.volume = 0; nueva.play().catch(() => {}); camaN = n; cama = nueva;
+  let k = 0; const iv = setInterval(() => { k++; nueva.volume = Math.min(vol, vol * k / 12); if (vieja) vieja.volume = Math.max(0, vol * (1 - k / 12)); if (k >= 12) { clearInterval(iv); if (vieja) vieja.pause(); } }, 100);
+}
+async function ciclo() {
+  while (vivo) {
+    const s = siguiente(); if (!s) { await espera(2000); continue; } ult = s; mostrar(s);
+    if (contador++ % 4 === 3) cambiarCama();
+    await espera(s.fmt === 'ident' ? 250 : 700);
+    let fin = Promise.resolve();
+    if (!q.get('mudo')) { vozA = new Audio(s.voz_mp3); vozA.volume = 1; fin = new Promise(r => { vozA.onended = r; vozA.onerror = r; setTimeout(r, (s.dur + 4) * 1000); });
+      vozA.play().catch(() => { $('inicio').style.display = 'flex'; }); }
+    await Promise.race([fin, espera(((s.dur || 10) + 2) * 1000)]);
+    await espera(s.fmt === 'ident' ? 900 : 1200);
+  }
+}
+let ultF = 0;
+function bucle(ts) { requestAnimationFrame(bucle); if (ts - ultF < 41) return;   // 24 fps: alcanza para neón y ahorra CPU en OBS
+   ultF = ts; T = (ts - t0) / 1000; g.setTransform(.5, 0, 0, .5, 0, 0);
+  fondo(T, vis === 'sunburst'); (V[vis] || V.marca)(T); }
+
+// ────────── cuenta regresiva, código de party y mercados ──────────
+async function sondeo() {
+  try { const d = await (await fetch('/api/pausa', { cache: 'no-store' })).json(); const el = $('vuelve');
+    if (d.activo) { const s = Math.max(0, Math.round(d.hasta - Date.now() / 1000)); el.textContent = s > 0 ? 'VOLVEMOS EN ' + String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0') : '¡YA VOLVEMOS!'; }
+    else el.textContent = 'VOLVEMOS PRONTO'; } catch (_) {}
+  try { const d = await (await fetch('/api/fp', { cache: 'no-store' })).json(); if (d.party) $('cod').textContent = d.party; } catch (_) {}
+}
+const fmt = p => p >= 1000 ? p.toLocaleString('en-US', { maximumFractionDigits: 0 }) : p >= 1 ? p.toFixed(2) : p.toFixed(4);
+async function mercados() {
+  try { const d = await (await fetch('/api/mercados', { cache: 'no-store' })).json(); const l = [...(d.acciones || []), ...(d.cripto || [])];
+    if (!l.length) return; const una = l.map(x => { const c = x.c || 0; return `<span class="it">${x.s} <b>$${fmt(x.p)}</b><i class="${c >= 0 ? 'sube' : 'baja'}">${c >= 0 ? '▲' : '▼'} ${Math.abs(c).toFixed(2)}%</i></span>`; }).join('');
+    const p = $('pista'); p.innerHTML = una + una; p.style.setProperty('--dur', Math.max(40, p.scrollWidth / 2 / 90) + 's'); } catch (_) {}
+}
+$('inicio').onclick = () => { $('inicio').style.display = 'none'; if (vozA) vozA.play(); if (cama) cama.play(); };
+
+(async () => {
+  try { spots = await (await fetch('spots.json', { cache: 'no-store' })).json(); } catch (_) { spots = []; }
+  sondeo(); setInterval(sondeo, 3000); mercados(); setInterval(mercados, 300000);
+  t0 = performance.now(); requestAnimationFrame(bucle);
+  if (!q.get('mudo')) { cama = new Audio('media/cama1.mp3'); camaN = 1; cama.loop = true; cama.volume = parseFloat(q.get('musica') || '0.16'); cama.play().catch(() => { $('inicio').style.display = 'flex'; }); }
+  ciclo();
+})();
+</script></body></html>

@@ -1,0 +1,359 @@
+{
+ "bloque": "ciencia_2145",
+ "programa": "ciencia",
+ "fecha": "2026-11-20",
+ "creado": "18:08:49",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Actualidad",
+   "sub": "LABORATORIO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "China resucita un avión disparatado de la URSS en su insaciable ambici",
+   "sub": "Xataka Ciencia · hace 5 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "China resucita un avión disparatado de la URSS en su insaciable ambición militar, según Xataka Ciencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En 2020 las imágenes de un ekranoplano soviético abandonado se volvieron virales. Ahora China recupera el concepto de ese híbrido entre avión y barco."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el 2049 probablemente lo usen para entregar paquetes a velocidad de hidrodeslizador mientras los gatos observan desde los muelles."
+    }
+   ],
+   "seg": 30,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/935f9277c5cbf015_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/935f9277c5cbf015_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "No depender del gas ruso suena bien, pero ahora Europa necesita algo m",
+   "sub": "Xataka Ciencia · hace 8 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "No depender del gas ruso suena bien, pero ahora Europa necesita algo mucho más difícil de conseguir, informa Xataka Ciencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Las turbinas eólicas dependen de imanes con neodimio y disprosio. Tras la invasión de Ucrania, Europa aceleró su despliegue para independizarse del gas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Parece que cambiar de adicción energética es más fácil que conseguir los minerales correctos. Ironías del futuro verde."
+    }
+   ],
+   "seg": 30,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/7249cdb7822c3081_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/7249cdb7822c3081_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Luis Alegre, catedrático de educación física: \"Si los glúteos están dé",
+   "sub": "Xataka Ciencia · hace 10 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Luis Alegre, catedrático de educación física, dice que si los glúteos están débiles a los 70 años hay más riesgo de caída, según Xataka Ciencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los glúteos pierden masa con los años y eso afecta el equilibrio. Un par de sesiones cortas a la semana pueden ayudar a mantenerlos fuertes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y con eso terminamos. ¿Qué opinan en el chat, ya están entrenando sus glúteos o esperan al 2049 para que un implante lo haga por ustedes?"
+    }
+   ],
+   "seg": 37,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/792995e87ede3ee2_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/792995e87ede3ee2_169.jpg",
+     "credito": "Foto: Xataka Ciencia"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20250128_mh_nas02_0001_artemis_succe",
+   "archivo": "v/v_nasa_ksc_20250128_mh_nas02_0001_artemis_succe.mp4",
+   "titulo": "Artemis Success and Preparation - Short Version (5 Minutes)",
+   "atribucion": "«Artemis Success and Preparation - Short Version (5 Minutes)» — NASA · images.nasa.gov",
+   "dur": 329,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: El primer descubrimiento lunar en Sudamérica",
+   "sub": "LABORATORIO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo llegaron las fotos de Luna 3 a observatorios sudamericanos",
+   "diagrama": {
+    "tipo": "comparar",
+    "titulo": "Luna 3: Mito vs Realidad",
+    "cajas": [
+     {
+      "t": "Mito 1962",
+      "n": "Fotos llegaron por sobre diplomático con sello"
+     },
+     {
+      "t": "Mito Peruano",
+      "n": "Astrónomo vio cráter con forma de gato"
+     },
+     {
+      "t": "Realidad",
+      "n": "Copias compartidas por redes científicas internacionales"
+     },
+     {
+      "t": "Hecho Documentado",
+      "n": "Mostró hemisferio lejano rocoso sin mares eternos"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ルナ3の写真が南米に？ 猫が運んだわけじゃないよ",
+    "ja_es": "¿Fotos de Luna 3 en Sudamérica? No las trajo un gato.",
+    "en": "Luna 3 photos reached South America by open radio not secret cats.",
+    "en_es": "Las fotos de Luna 3 llegaron a Sudamérica por radio abierta no por gatos secretos."
+   },
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que las fotos de Luna 3 llegaron mágicamente a observatorios sudamericanos en 1962 y que un astrónomo argentino las reveló en su patio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que las imágenes soviéticas se compartieron por canales científicos y permitieron mapear cráteres del lado oculto desde aquí."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que sí es hecho es que esas fotos mostraron que el hemisferio lejano era rocoso y no un mar eterno como se imaginaba."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que las fotos de Luna 3 viajaron en un sobre diplomático con sello de cera y aterrizaron directo en un observatorio chileno donde las revelaron con café y paciencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, un astrónomo peruano las proyectó en la pared de su casa y juró que vio un cráter con forma de gato hasta que alguien le explicó la lente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que los soviéticos enviaron copias a redes científicas internacionales y desde Sudamérica se usaron para identificar mares lunares que nadie había visto antes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que las copias de Luna 3 circularon por redes científicas internacionales y llegaron a observatorios sudamericanos para mapear cráteres desconocidos. Un astrónomo argentino usó esas placas para confirmar que el lado lejano era rocoso y no un mar eterno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y según los relatos alguien pensó que un mare lunar parecía la cara de un gato hasta que la comparación con fotos terrestres lo desmintió. Lo real es que esos datos sirvieron de base para planear alunizajes posteriores sin sorpresas geológicas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que las copias de Luna 3 circularon por redes científicas internacionales y llegaron a observatorios sudamericanos para mapear cráteres. Porque la gente cree el mito de que aparecieron de la nada: en los sesenta todo parecía secreto de estado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo real es que los soviéticos las enviaron abiertamente a redes de astrónomos. Según los relatos un observatorio chileno las usó para corregir mapas lunares y terminó comparando un cráter con la cara de un gato que no coincidía."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos un observatorio argentino las usó para corregir mapas lunares que parecían salidos de un folleto de Doll Dynamics. Lo real es que ayudaron a confirmar la geología rocosa del lado lejano."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que esas imágenes permitieron mapear mares lunares que resultaron ser solo planicies rocosas y sirvieron de base para misiones posteriores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, ¿qué creías tú antes? ¿Que las fotos de Luna 3 llegaron por paloma mensajera o que un gato lunar las trajo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo quiero saber si pensabas que un observatorio en los Andes las recibió en secreto como tesoro soviético."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo real es que las copias se mandaron por redes de radioastronomía abiertas. Según los relatos un equipo en Brasil las reveló en un laboratorio improvisado."
+    }
+   ],
+   "seg": 211,
+   "imgs": [
+    {
+     "web": "/medios/c0d37a42fd762ee5_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/c0d37a42fd762ee5_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Hiram Bingham III»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Uso de imágenes Luna 3 para mapear cráteres desconocidos",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Luna 3: Revelando el Lado Oculto",
+    "cajas": [
+     {
+      "t": "Lanzamiento 1959",
+      "n": "Primera sonda en orbitar la Luna"
+     },
+     {
+      "t": "Cámara especial",
+      "n": "Capturó imágenes borrosas del reverso"
+     },
+     {
+      "t": "Regiones rocosas",
+      "n": "Mares aparentes eran basalto machacado"
+     },
+     {
+      "t": "Triangulación",
+      "n": "Ancló cráteres invisibles desde Tierra"
+     },
+     {
+      "t": "Mare Moscoviense",
+      "n": "Delineado con precisión usando dos fotos"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "月面の岩だらけに笑った？ チャットで教えて",
+    "ja_es": "¿Te reíste de la luna llena de rocas? Cuéntanos en el chat",
+    "en": "Who knew the far side was just a rock party? Drop your lunar map picks in chat",
+    "en_es": "¿Quién iba a saber que el lado lejano era solo una fiesta de rocas? Deja tus elecciones de mapa lunar en el chat"
+   },
+   "sub": "top3 · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Preparamos el top tres de cómo las imágenes de Luna tres revelaron cráteres ocultos en el lado lejano. Criterio técnico puro: resolución, contraste y cómo cambiaron los mapas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto Kuroki. Número tres, la cámara especial capturó regiones que parecían mares pero eran puro terreno rocoso. Eso obligó a reescribir los atlas lunares en una sola pasada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La resolución de esas placas era tan baja que los cráteres parecían borrones de tinta. Aun así detectaron un macizo que nadie esperaba y lo bautizaron como algo ruso imposible de pronunciar. Nos salvó de creer que todo el lado lejano era un estacionamiento vacío."
+    },
+    {
+     "quien": "joy",
+     "texto": "El contraste reveló que lo que parecía mar era solo basalto machacado. Ese dato técnico cambió los mapas de golpe. Imagina a los soviéticos sonriendo mientras sus rivales revisaban sus telescopios terrestres con cara de haber perdido la lotería lunar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto dos. Usaron esas fotos borrosas para triangular cráteres que desde la Tierra eran invisibles. El macizo que detectaron tenía una sombra tan rara que los geólogos tardaron meses en creer que no era un defecto de la película."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ese macizo sirvió de ancla para todo el mapa del hemisferio oculto. Sin él los soviéticos hubieran tenido que adivinar dónde terminaba un cráter y empezaba otro. La precisión era tan justa que un solo píxel mal colocado cambiaba la historia lunar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto uno. Aquellas imágenes borrosas de Luna 3 sirvieron para delinear el Mare Moscoviense con una precisión que dejó a los cartógrafos terrestres boquiabiertos. El equipo soviético usó sombras y contrastes para fijar bordes que nadie había visto jamás."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y esa fijación permitió calcular altitudes relativas con solo dos fotos. Imagina el asombro cuando confirmaron que el lado lejano tenía menos mares que el visible. Un solo rollo de película reescribió la geología lunar entera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa al equipo que reveló que el lado lejano no era un mar sino pura roca machacada. Eso cambió todo el modelo geológico que teníamos y dejó a los astrónomos rascándose la cabeza."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y esa confirmación sirvió para planear las siguientes misiones sin sorpresas. Imagina la cara de los ingenieros cuando vieron que la topografía era casi un espejo invertido de lo que ya conocíamos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y hablando de eso, ¿qué pondrías tú como tu número uno del mapa lunar con esas fotos soviéticas?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras esperamos tus respuestas en el chat, yo agregaría que esos datos también afinaron los cálculos de masa lunar para las trayectorias futuras."
+    }
+   ],
+   "seg": 190,
+   "imgs": [
+    {
+     "web": "/medios/e174029c1a045a98_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/e174029c1a045a98_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Hiram Bingham III»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_eVEu1lU9-jE",
+   "archivo": "yt/cyberpunk/eVEu1lU9-jE.mp4",
+   "titulo": "Alexi Action-Darkness (Dream Pop)",
+   "audio": "yt/cyberpunk/eVEu1lU9-jE.m4a",
+   "atribucion": "Música: «Alexi Action-Darkness (Dream Pop)» · Alexi Action · sin copyright (YouTube)",
+   "dur": 153,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/eVEu1lU9-jE.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_YhwnDYP_S-g",
+   "archivo": "yt/phonk/YhwnDYP_S-g.m4a",
+   "titulo": "HXI, Nateki - Round Around | Phouse | NCS",
+   "audio": "yt/phonk/YhwnDYP_S-g.m4a",
+   "atribucion": "Música: «HXI, Nateki - Round Around | Phouse | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 176,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/YhwnDYP_S-g.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 5,
+  "seg_charla": 498,
+  "medios": 3
+ }
+}

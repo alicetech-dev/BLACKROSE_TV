@@ -1,0 +1,255 @@
+# ══════════════════════════════════════════════════════════════════════════════════════════════
+#  BLACKROSE TV — guion de programación de las dolls (Joy = presentadora · Kuroki = co-conductora)
+#  Lo lee director/programacion.py. Se activa desde dolls.discord.yaml → programacion: {archivo, activo}.
+#  Control en vivo:  curl -X POST :8780/api/programa -H 'Content-Type: application/json' -d '{"accion":"off"}'
+#                    acciones: on | off | siguiente (salta noticia) | bloque (+ "id": gamer…) · GET = estado
+#  Overlay del logo: http://127.0.0.1:8780/blackrose_tv   (fuente de navegador 1920×1080, transparente)
+# ══════════════════════════════════════════════════════════════════════════════════════════════
+
+canal: BlackRose TV
+solo: kuroki                     # quién conduce SOLA (vacío = Joy y Kuroki juntas). En vivo: {"accion":"solo","doll":"kuroki"} / "off"
+cunas_doll: kuroki               # quién dice las cuñas cuando conducen las dos
+lema: "Señal pirata desde la Mansión Blackrose"
+idioma: es
+pausa_entre_noticias: [18, 35]   # s: hueco para que el chat de Twitch/Discord entre entre noticia y noticia
+promo_cada_bloques: 2            # cada 2 bloques Joy invita a seguir/suscribirse (el promo de la sala casi no entra)
+noticias_max_horas: 36           # titulares más viejos se descartan
+google_news: "hl=es-419&gl=CL&ceid=CL:es-419"
+
+# Reglas que van en TODOS los turnos del programa (el modelo solo conoce el titular y la cobertura relacionada).
+reglas: >-
+  Estás conduciendo BlackRose TV en vivo. Hablas en español neutro, frases cortas para decir en voz alta (2-3 por
+  turno). Del hecho solo sabes lo que dice el titular y la cobertura relacionada: NO inventes cifras, fechas, citas ni
+  detalles; si algo no se sabe, dilo («todavía no hay detalles»). Sí puedes dar contexto general conocido, tu opinión y
+  tu análisis, dejando claro qué es opinión. Nombra el medio cuando cuentes la noticia. Nada de leer links ni URLs.
+
+# Pasos de cada noticia. quien: presenta | comenta (los roles salen de cada bloque). postura = cómo contesta.
+pasos_noticia:
+  - {quien: presenta, tipo: abrir, instr: "Cuenta la noticia como presentadora de noticiero: qué pasó y por qué importa, en dos frases, citando el medio. Termina pasándole la palabra a {otra} por su nombre."}
+  - {quien: comenta, postura: debatir, instr: "Da TU análisis de la noticia: qué significa, a quién afecta, qué podría pasar después. Una opinión con argumento, no un resumen."}
+  - {quien: presenta, postura: contradecir, instr: "Responde al análisis de {otra}: matiza, plantea el otro lado o una duda razonable. Sin repetir lo que ya se dijo."}
+  - {quien: comenta, postura: preguntar, instr: "Cierra la noticia en una frase con tu conclusión y lánzale UNA pregunta concreta al chat de Twitch y Discord sobre este tema."}
+
+# Pasos cuando conduce UNA sola (solo: kuroki): ella cuenta, opina, matiza consigo misma y le pregunta al chat.
+pasos_noticia_solo:
+  - {quien: presenta, tipo: abrir, instr: "Cuenta la noticia como presentadora de noticiero, SOLA en cámara: qué pasó y por qué importa, en dos frases, citando el medio."}
+  - {quien: comenta, instr: "Da TU análisis: qué significa, a quién afecta, qué podría pasar después. Una opinión con argumento, dicha como comentarista, sin repetir la noticia."}
+  - {quien: comenta, instr: "Cierra la noticia en una frase con tu conclusión y lánzale UNA pregunta concreta al chat de Twitch y Discord sobre este tema."}
+
+# ── CUÑAS: mensajes fijos de la emisora, los dice la conductora con su voz (y lipsync) mientras el overlay pasa la
+#    transición del mismo nombre (web/blackrose_tv.html). Se editan en vivo. {min}/{minutos}/{con} = del aviso.
+#    Tipos: ident (id de la emisora, al empezar cada bloque) · corte (entre noticias, mudo) · mercados · ultima_hora
+#           (noticia de hace <2,5 h) · volvemos (antes del promo) · aviso (solo si hay «Vuelvo en X min» activo) · senal
+#    A mano:  curl -X POST :8780/api/programa -H 'Content-Type: application/json' -d '{"accion":"cuna","tipo":"ident"}'
+cuna_segs: {corte: 2.2, senal: 4, spot_noticias: 14, spot_documental: 14, spot_gamer: 14, spot_ciencia: 14, spot_conductoras: 14}   # cuánto dura la transición cuando no hay voz
+# 📺 SPOTS (pantalla completa con portales a las dolls): uno cada `spot_cada_noticias` noticias, en rueda.
+#    A mano: curl -X POST :8780/api/programa -H 'Content-Type: application/json' -d '{"accion":"cuna","tipo":"spot_ciencia"}'
+spot_cada_noticias: 2
+spots: [spot_noticias, spot_documental, spot_gamer, spot_ciencia, spot_conductoras]
+cunas:
+  spot_noticias:
+    - "BlackRose TV Noticias. Tecnología, videojuegos, inteligencia artificial y el mundo, explicados sin filtro, las veinticuatro horas."
+    - "¿Qué está pasando en el mundo? En BlackRose TV te lo contamos y lo analizamos en vivo, todos los días."
+  spot_documental:
+    - "Esta semana, en Documentales BlackRose: Mentes sintéticas. ¿Pueden soñar las máquinas? Una investigación desde adentro."
+    - "Mentes sintéticas. Un documental sobre la inteligencia artificial, contado por una inteligencia artificial. Solo en BlackRose TV."
+  spot_gamer:
+    - "Gamer Zone, en BlackRose TV: lanzamientos, industria, esports y los juegos indie que merecen más amor."
+    - "Si juegas, esto es para ti. Gamer Zone: noticias y opiniones sin pelos en la lengua, en BlackRose TV."
+  spot_ciencia:
+    - "BlackRose Science presenta: Cosmos Pixel. Explora el universo con Joy y Kuroki."
+    - "Estrellas, física y el futuro que viene. Cosmos Pixel, en BlackRose Science."
+  spot_conductoras:
+    - "Una inteligencia artificial que analiza. Una baterista que no se calla. Joy y Kuroki, las voces de BlackRose TV."
+    - "Ellas son Joy y Kuroki, y te leen en el chat. Escríbeles: esto es BlackRose TV, en vivo."
+  ident:
+    - "Esto es BlackRose TV. Tu fuente de información tecnológica."
+    - "BlackRose TV. Tu fuente de información tecnológica, las veinticuatro horas."
+    - "Estás en BlackRose TV: tecnología, videojuegos, inteligencia artificial y el mundo, sin filtro."
+    - "Señal pirata desde la Mansión Blackrose. Esto es BlackRose TV."
+    - "BlackRose TV. Información tecnológica con actitud."
+  corte: []
+  mercados:
+    - "Un vistazo rápido a los mercados: acciones tech y criptomonedas, en la barra de arriba."
+    - "Mira la barra de arriba: acciones tecnológicas y criptos, actualizadas en vivo, en BlackRose TV."
+  ultima_hora:
+    - "Última hora en BlackRose TV."
+    - "Atención: última hora."
+  volvemos:
+    - "Volvemos en un momento. No te vayas, esto es BlackRose TV."
+    - "Pausa breve y seguimos. BlackRose TV, tu fuente de información tecnológica."
+  senal:
+    - "Transmitiendo desde la Mansión Blackrose. BlackRose TV, señal pirata."
+  aviso:
+    - "Aviso: Blackrose vuelve en {minutos} con Fast Penguin. Mientras tanto, yo sigo con las noticias."
+    - "Blackrose regresa en {minutos} con Fast Penguin. Yo me quedo contigo con las noticias, en BlackRose TV."
+
+# ── Japonés (en vivo: {"accion":"idioma","lang":"ja"} · de vuelta: "es"). Reglas y cuñas en japonés. ──
+reglas_ja: >-
+  あなたはBlackRose TVを生放送で担当しています。自然な日本語だけで話してください（ローマ字やスペイン語は使わない）。
+  声に出して読みやすい短い文で、1回につき2〜3文。事実は見出しと関連報道に書かれている範囲だけ：数字・日付・引用・
+  詳細を作らないこと。分からないことは「まだ詳細は分かっていません」と言う。一般的な背景知識・意見・分析はOKだが、
+  意見だとはっきり分かるように。ニュースの媒体名を言う。URLは読まない。
+cunas_ja:
+  ident:
+    - "こちらはBlackRose TV。あなたのテクノロジー情報源です。"
+    - "BlackRose TV、あなたのテクノロジー情報源。24時間お届けします。"
+    - "BlackRose TVへようこそ。テクノロジー、ゲーム、AI、そして世界のニュースを、ありのままに。"
+    - "ブラックローズ・マンションからの海賊放送。こちらはBlackRose TVです。"
+  corte: []
+  mercados:
+    - "上のバーで市場をチェック。テック株と暗号資産をリアルタイムでお届けします。"
+  ultima_hora:
+    - "BlackRose TV、速報です。"
+    - "ご注意ください。速報です。"
+  volvemos:
+    - "このあとすぐ戻ります。チャンネルはそのまま、BlackRose TVでした。"
+  senal:
+    - "ブラックローズ・マンションから放送中。BlackRose TV、海賊放送です。"
+  aviso:
+    - "お知らせ。Blackroseは{min}分後にFast Penguinと一緒に戻ります。それまでは私がニュースをお届けします。"
+
+# Bloques: rotan en este orden, para siempre. presenta/comenta = doll ids. consultas = búsquedas de Google News (se
+# toma la primera con titulares nuevos; «when:1d» = último día). respaldo = temas si no hay noticias nuevas.
+bloques:
+  - id: tecnologia
+    cuna_entrada: "Ahora: el bloque de tecnología."
+    nombre: TECNOLOGÍA
+    sub: "hardware · software · Linux · ciencia"
+    color: "#00e5ff"
+    icono: chip
+    presenta: joy
+    comenta: kuroki
+    noticias: 3
+    tono: "Curiosa y entusiasta, con ojo crítico: separa el hype de lo que sirve de verdad."
+    consultas:
+      - "(site:xataka.com OR site:hipertextual.com OR site:muylinux.com OR site:wwwhatsnew.com) when:1d"
+      - "(ciberseguridad OR Linux OR smartphone OR procesador OR Nvidia OR AMD OR Apple OR Microsoft OR Google) when:1d"
+    respaldo: ["Linux en el escritorio: ¿por fin su año?", "el precio de las tarjetas gráficas", "privacidad y apps que te escuchan"]
+    abrir: "Abre el bloque TECNOLOGÍA de BlackRose TV: saluda con energía a la gente del chat, di de qué va el bloque en una frase y arranca con la primera noticia."
+
+  - id: gamer
+    cuna_entrada: "Ahora: las noticias gamer."
+    nombre: NOTICIAS GAMER
+    sub: "lanzamientos · industria · esports · indie"
+    color: "#ff2fd6"
+    icono: mando
+    presenta: kuroki
+    comenta: joy
+    noticias: 3
+    tono: "Gamer apasionada y picante: opiniones fuertes, referencias a juegos, sin ser fanboy de ninguna marca."
+    consultas:
+      - "(site:3djuegos.com OR site:vandal.elespanol.com OR site:levelup.com OR site:eurogamer.es OR site:areajugones.sport.es) when:1d"
+      - "videojuegos anuncio when:1d"
+    respaldo: ["el juego más sobrevalorado de la década", "precios de los juegos AAA", "juegos indie que merecen más amor"]
+    abrir: "Abre el bloque NOTICIAS GAMER de BlackRose TV con actitud de baterista rockera: saluda al chat, anuncia el bloque y suelta la primera noticia."
+
+  - id: ia
+    cuna_entrada: "Ahora: inteligencia artificial."
+    nombre: INTELIGENCIA ARTIFICIAL
+    sub: "modelos · empresas · regulación · impacto"
+    color: "#b46bff"
+    icono: neurona
+    presenta: joy
+    comenta: kuroki
+    noticias: 3
+    tono: "Eres una neko cibernética hablando de inteligencia artificial como tema (nunca digas que tú lo eres), con humor, pero rigurosa con los hechos y los riesgos."
+    consultas:
+      - "(OpenAI OR Anthropic OR \"Google DeepMind\" OR Gemini OR Mistral OR DeepSeek OR Llama) when:1d"
+      - "\"inteligencia artificial\" when:1d"
+    respaldo: ["¿una IA puede tener gustos propios?", "IA y empleo: quién gana y quién pierde", "modelos abiertos vs cerrados"]
+    abrir: "Abre el bloque INTELIGENCIA ARTIFICIAL de BlackRose TV: saluda al chat y arranca con la primera noticia."
+
+  - id: internacional
+    cuna_entrada: "Ahora: contingencia internacional."
+    nombre: CONTINGENCIA INTERNACIONAL
+    sub: "geopolítica · economía · conflictos · cumbres"
+    color: "#ff3b3b"
+    icono: globo
+    presenta: joy
+    comenta: kuroki
+    noticias: 3
+    tono: >-
+      Tono serio de analista internacional: aquí NO hay coqueteo ni chistes sobre víctimas. Equilibrada: presenta las
+      posturas de las distintas partes, distingue hechos de interpretaciones, no tomes partido en conflictos ni en
+      política partidista, no insultes a personas ni pueblos. Explica el contexto (historia, intereses, economía).
+    consultas:
+      - "@topic:WORLD"
+      - "(cumbre OR conflicto OR sanciones OR elecciones OR acuerdo) internacional when:1d"
+    respaldo: ["cómo leer una noticia internacional sin caer en propaganda", "el peso de China y EE.UU. en América Latina"]
+    abrir: "Abre el bloque CONTINGENCIA INTERNACIONAL de BlackRose TV con tono sobrio: saluda, explica que van a analizar lo que pasa en el mundo con calma y desde varios lados, y presenta la primera noticia."
+
+  # ── Bloque a pedido (no entra en la rueda: rotar false). Se pone con {"accion":"fijar","id":"fastpenguin"} y se repite
+  #    hasta que se saque con {"accion":"fijar"} (sin id). Conducen las dos (ambas) y hablan del juego que ella está jugando.
+  - id: fastpenguin
+    cuna_entrada: "Ahora: Faaast Penguin, el juego que Blackrose está jugando."
+    nombre: FAAAST PENGUIN
+    sub: "jugando en vivo · carreras · caos"
+    color: "#37f0ff"
+    icono: mando
+    ambas: true
+    rotar: false
+    presenta: joy
+    comenta: kuroki
+    noticias: 0
+    respaldo_n: 3
+    tono: >-
+      Estás con Blackrose (la streamer) mientras ella juega Faaast Penguin EN VIVO; ustedes no ven su pantalla, así que
+      NO describas su partida como si la vieras: pregúntale cómo va, anímala, bromea. Datos REALES del juego (no inventes
+      más): es gratis en Steam (free to play), de la desarrolladora historia Inc., salió el 19 de septiembre de 2024; es
+      una carrera de acción y supervivencia para hasta 40 jugadores; pisas a tus rivales para impulsarte, encadenas
+      ataques y te lanzas por atajos; es multijugador online y multiplataforma. Tono: cómplices, divertidas, hinchas de
+      Blackrose, con humor y sin spoilers inventados.
+    pasos:
+      - {quien: presenta, tipo: abrir, instr: "Habla del tema como amiga que ve jugar a Blackrose en vivo, con entusiasmo y en dos frases. Termina pasándole la palabra a {otra} por su nombre."}
+      - {quien: comenta, postura: debatir, instr: "Aporta TU opinión u ocurrencia sobre el tema, con humor y una idea clara."}
+      - {quien: presenta, postura: contradecir, instr: "Responde a {otra}: matiza, bromea o plantea otra mirada, sin repetir lo dicho."}
+      - {quien: comenta, postura: preguntar, instr: "Cierra con una frase y lánzale UNA pregunta al chat de Twitch y Discord sobre el juego (o anima a Blackrose con algo concreto)."}
+    consultas: []
+    respaldo:
+      - "pisar a los rivales para impulsarte: la mecánica más cruel y divertida"
+      - "40 jugadores en una carrera: el caos organizado"
+      - "los atajos: ¿arriesgarse por ir primero o ir seguro?"
+      - "por qué un pingüino: animales lentos que corren a toda velocidad"
+      - "un juego gratis que engancha de verdad y el «una carrera más y paro»"
+      - "carreras de supervivencia multijugador: por qué dan tanta risa y tanta rabia"
+      - "la maratón de 24 horas de Faaast Penguin que hizo Blackrose"
+      - "consejos para ganar: ¿qué estrategia les funciona a los del chat?"
+      - "ser pisada por tu mejor amiga: amistad puesta a prueba en pista"
+    abrir: "Abre el bloque FAAAST PENGUIN de BlackRose TV: anuncia con energía que Blackrose está jugando Faaast Penguin ahora mismo, saluda al chat y arranca con el primer tema."
+
+  # ── Bloque a pedido: apagón mundial (rumor 17-nov-2026), caídas y hackeos. {"accion":"fijar","id":"apagon"}
+  - id: apagon
+    cuna_entrada: "Ahora: el apagón mundial, los hackeos y las fallas tecnológicas."
+    nombre: APAGÓN Y FALLAS GLOBALES
+    sub: "caídas · hackeos · ciberseguridad"
+    color: "#ffb627"
+    icono: globo
+    ambas: true
+    rotar: false
+    presenta: joy
+    comenta: kuroki
+    noticias: 4
+    por_consulta: 1
+    tono: >-
+      Tono serio pero cercano, de explicadoras tecnológicas: distingan SIEMPRE rumor de hecho confirmado y falla técnica de
+      ciberataque. Contexto según los medios de estos días (no añadan más): circuló en redes el rumor de un «apagón mundial»
+      para el martes 17 de noviembre de 2026; hubo una caída global de servicios de Microsoft que la empresa reconoció
+      («tiene trabajo por hacer»), atribuida en reportes a un bug oculto desde julio; se reportó un hackeo a unos 180 sitios
+      populares; también caídas de Apple (iCloud, Apple Pay) y fallas en EE. UU.; y ciberataques en Chile (planta solar de
+      Tarapacá, Hospital Clínico de la U. de Chile). Sin alarmismo, sin teorías conspirativas presentadas como hechos, sin
+      culpar a personas ni países sin evidencia; den consejos prácticos (copias de seguridad, contraseñas, 2FA, no depender
+      de un solo servicio).
+    consultas:
+      - "(\"apagón mundial\" OR \"apagon mundial\") (rumor OR \"17 de noviembre\") when:3d"
+      - "Microsoft caída global bug servicios when:3d"
+      - "(hackeo OR ciberataque) sitios web populares globales when:3d"
+      - "(ciberataque OR filtración OR ransomware) Chile when:2d"
+    respaldo:
+      - "cómo distinguir un ciberataque de una simple falla técnica"
+      - "cómo un solo bug puede tumbar medio internet"
+      - "por qué los rumores de apagón mundial se viralizan tanto"
+      - "qué hacer para no depender de un solo servicio: copias de seguridad, 2FA y plan B"
+    abrir: "Abre el bloque APAGÓN Y FALLAS GLOBALES de BlackRose TV: saluda al chat, di que van a repasar qué pasó de verdad con el supuesto apagón mundial, las caídas y los hackeos de estos días, y arranca con la primera noticia."
+
+cierre_bloque: "Cierra el bloque {bloque} en una o dos frases: agradece al chat y anuncia que ahora viene el bloque {siguiente} en BlackRose TV."

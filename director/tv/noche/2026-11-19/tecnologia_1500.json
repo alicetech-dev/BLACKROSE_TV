@@ -1,0 +1,859 @@
+{
+ "bloque": "tecnologia_1500",
+ "programa": "tecnologia",
+ "fecha": "2026-11-19",
+ "creado": "14:43:50",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Tendencia: AMD cae tras informe de cortos sobre exposición china",
+   "sub": "TECNOLOGÍA HOY",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El origen real de AMD y su independencia desde los años 60",
+   "sub": "top3 · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Blackrose TV. Hoy analizamos el origen real de AMD y su independencia desde los años sesenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que Intel la compró, pero eso es mentira. AMD nació como una respuesta directa a la crisis del sector."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Fundada en 1967 por ex empleados de Fairchild Semiconductor, AMD siempre mantuvo su autonomía estratégica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto tres: la independencia real de AMD. No fue una hija de Intel, sino un competidor directo que creció con los estándares del mercado."
+    },
+    {
+     "quien": "joy",
+     "texto": "El segundo lugar lo ocupa la independencia estratégica que AMD mantuvo desde sus inicios en 1967, lejos de cualquier dependencia con Intel."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, esa autonomía fue clave. Mientras otros buscaban protección, AMD creció como rival directo, incluso cuando el mercado cambiaba drásticamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese espíritu competitivo la llevó a innovar en arquitecturas como Zen y a consolidarse como líder global, no solo en CPUs sino también en gráficos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y es que su tecnología de nodos de 7 y 5 nanómetros demuestra que la ingeniería precisa sigue siendo vital para el futuro de la computación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "joy",
+     "texto": "El origen real de AMD es 1967, en Santa Clara, con foco en hardware para PCs y servidores desde el inicio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa para uno que se quedó afuera. La tarjeta de 6 GB del canal podría tener chips AMD antiguos."
+    }
+   ],
+   "seg": 110
+  },
+  {
+   "tipo": "charla",
+   "tema": "La arquitectura Zen: cómo cambió el mercado de CPUs en 2018",
+   "sub": "real inventado · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que AMD fue comprada por Intel, pero eso es mentira. La verdad es que AMD sigue siendo una rival directa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y en 2018 lanzaron Zen para cambiar el mercado de CPUs. Eso tuvo un impacto real en la industria tecnológica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El chip Ryzen fue presentado en 2017, pero Zen llegó en 2018 y eso marcó una nueva era para AMD."
+    },
+    {
+     "quien": "joy",
+     "texto": "La arquitectura Zen llegó en 2018 y cambió el mercado de CPUs, como se documenta en los reportes anuales de AMD."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el chip Ryzen fue presentado públicamente en 2017, antes de que Zen llegara y marcara una nueva era para la empresa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es cierto. AMD tiene sede principal en Santa Clara, California, y ha invertido mucho en investigación para chips de inteligencia artificial."
+    },
+    {
+     "quien": "joy",
+     "texto": "La arquitectura Zen redefinió el mercado en 2018, pero muchos creen que Intel la copió sin saberlo. La verdad es que AMD innovó primero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Y no solo eso: la tarjeta de 6 GB del canal usa chips Zen de sobra, aunque nadie lo dice en los reportes técnicos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, AMD invirtió más en I+D que cualquier otra empresa de hardware ese año. Eso explica por qué el Ryzen dominó el escritorio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la leyenda dice que Lisa Su fue nombrada CEO en 2019, mientras el mercado ya estaba ocupado. ¿Es eso cierto o solo marketing?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La arquitectura Zen llegó en 2018 para cambiar la competencia, pero su impacto real se vio al año siguiente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ahora, la verdad."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el chat: ¿real o inventado? Juega con nosotras."
+    }
+   ],
+   "seg": 127
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Radeon vs NVIDIA: la batalla de las tarjetas gráficas para gamers",
+   "sub": "explicado · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te preguntaste qué pasa cuando AMD y NVIDIA se enfrentan en el mercado de tarjetas gráficas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es como una pelea de titanes, pero con menos ruido y más calor. Vamos a ver cómo se libra esta batalla tecnológica."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que ambos fabricantes han invertido mucho en investigación para chips de inteligencia artificial y rendimiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es interesante porque AMD tiene una ventaja histórica con sus arquitecturas Zen y Ryzen, aunque NVIDIA domina en GPUs."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero el futuro depende de cómo cada uno adapte su tecnología a las necesidades del mercado de gamers y profesionales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "NVIDIA tiene su propio chip de IA, pero AMD está apostando fuerte a sus GPUs para competir en el mercado gamer."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que compras un coche: NVIDIA es como un deportivo rápido, AMD como un vehículo utilitario eficiente y duradero."
+    },
+    {
+     "quien": "joy",
+     "texto": "La elección no es solo de rendimiento bruto, sino de qué tipo de trabajo necesitas hacer con tu ordenador cada día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hay un dato de Radeon vs NVIDIA: la batalla de las tarjetas gráficas para gamers que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "La elección de GPU depende del uso: gaming puro, edición o renderizado. No es solo velocidad bruta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero los gamers suelen buscar el rendimiento máximo por dólar. La batalla es real y dura."
+    },
+    {
+     "quien": "joy",
+     "texto": "NVIDIA ha dominado históricamente en gaming con sus GPUs de alta gama, aunque AMD gana en valor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuándo cambiará eso? Quizás cuando los chips de 5nm sean comunes y el precio caiga drásticamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "NVIDIA sigue liderando en rendimiento puro, pero AMD apuesta fuerte por el valor y la eficiencia energética."
+    }
+   ],
+   "seg": 131
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las cifras de ganancias récord de 2023 y el papel del CEO Lisa Su",
+   "sub": "explicado · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Crees que una caída del mercado sea igual a que el chip deje de funcionar? La tendencia es más sutil, como un cambio en la dieta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Las cifras de ganancias récord de 2023 muestran que AMD sigue fuerte, pero los inversores están revisando el panorama global."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo interesante: Lisa Su no solo lidera la empresa, sino que también guía la narrativa pública sobre qué significa el éxito tecnológico."
+    },
+    {
+     "quien": "joy",
+     "texto": "La caída del mercado no es fallo técnico, sino reacción de inversores ante datos nuevos. Las cifras de ganancias récord muestran que AMD sigue fuerte, pero los inversores están revisando la sostenibilidad a largo plazo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Lisa Su no solo lidera la empresa, sino que también guía la narrativa pública sobre cómo interpretar esos resultados. Es un ejemplo de liderazgo estratégico en tiempos de incertidumbre global."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ética aquí radica en transparencia: comunicar riesgos sin alarmar y celebrar logros sin exagerar. AMD ha mantenido ese equilibrio, aunque el mercado siempre busca más certeza en cada reporte trimestral."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo interesante: la narrativa pública se construye con datos reales, no con rumores. Si los inversores confían en esa claridad, la tendencia positiva puede durar más allá de una sola temporada bursátil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lisa Su lidera la narrativa pública con datos reales, no con rumores. La ética aquí radica en transparencia: comunicar riesgos sin alarmar y celebrar logros sin exagerar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Lisa Su no solo lidera la empresa, sino que también guía la narrativa pública sobre cómo interpretar el mercado, usando cifras como las ganancias récord de 2023 para ilustrar el impacto real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese es el punto clave: los inversores buscan claridad. AMD reportó ganancias récord en el cuarto trimestre de 2023, un hecho documentado que muestra su resiliencia frente a la volatilidad del sector tecnológico global."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo interesante: la narrativa pública se construye con datos reales, no con rumores. Si los inversores necesitan confianza, AMD entrega cifras concretas sobre su desempeño en el mercado de hardware."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las ganancias récord de 2023 demuestran que la estrategia tecnológica de AMD funcionó, no solo en hardware sino en diseño de chips para inteligencia artificial."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La claridad para los inversores es clave. Lisa Su lidera esto con datos reales, no con rumores o especulaciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿y el ángulo ético? ¿Qué dice AMD sobre su impacto ambiental y la transparencia en los costos de investigación?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La ética en tecnología implica responsabilidad. AMD debe comunicar no solo las cifras, sino también sus compromisos con el planeta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el ángulo ético es que las ganancias récord no compensan la huella de carbono? ¿Es eso lo que AMD dice?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según sus reportes anuales, sí hablan de sostenibilidad, pero con cifras que pueden parecer abstractas para el promedio."
+    }
+   ],
+   "seg": 219
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20211002_mh_cno01_0001_dart_spacecra",
+   "archivo": "v/v_nasa_ksc_20211002_mh_cno01_0001_dart_spacecra.mp4",
+   "titulo": "DART Spacecraft Arrival",
+   "atribucion": "«DART Spacecraft Arrival» — NASA · images.nasa.gov",
+   "dur": 151,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Qué es un sistema operativo",
+   "sub": "TECNOLOGÍA HOY",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El kernel como corazón del ordenador",
+   "sub": "explicado · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez se preguntaron qué mantiene vivo a un ordenador cuando el software lo deja sin instrucciones?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es el kernel, el corazón que bombea recursos al hardware. Sin él, todo es un esqueleto de plástico y metal."
+    },
+    {
+     "quien": "joy",
+     "texto": "Su historia empieza hace décadas con sistemas minúsculos en mainframes, evolucionando hasta gestionar mundos virtuales complejos hoy."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El kernel es el núcleo literal del sistema operativo, ese componente que se encarga de hablar directamente con el hardware."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina un conductor que decide qué camino sigue cada coche en una autopista llena de tráfico y obstáculos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, el kernel recibe las peticiones de los programas y les dice al procesador qué hacer y cuándo hacerlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Sin él, las aplicaciones estarían perdidas en un océano de memoria y tiempo, sin orden ni propósito alguno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El kernel es como el cerebro de tu ordenador, decide qué programa se ejecuta y cuándo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso: el kernel de Linux nació en 1991 como un proyecto académico, no fue diseñado para venderse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y hoy es la base de casi todo lo que usas, desde tu teléfono hasta los servidores del canal."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree que siempre ha sido así, pero inicialmente era un sistema pequeño para una computadora personal muy básica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El kernel es el corazón del ordenador, pero ¿sabías que nació como un proyecto académico? No fue diseñado para venderse, ¡y hoy sigue gratis!"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese pequeño núcleo de Linux ahora controla desde tu teléfono hasta los servidores del canal, ¡sin cobrar ni un centavo!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Casi todo funciona gracias a eso. El kernel gestiona recursos, memoria y dispositivos, siendo la base invisible de nuestro mundo digital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Sabías que el primer kernel fue escrito en 1969 para un minicomputador, no para controlar tu celular?"
+    }
+   ],
+   "seg": 143
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo gestionan los recursos el software",
+   "sub": "top3 · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Vaya! Un top 3 sobre gestión de recursos. Bien, pero ¿el criterio? No lo digo yo, es Joy quien decide qué cuenta como 'recursos'."
+    },
+    {
+     "quien": "joy",
+     "texto": "El criterio es claro: eficiencia, escalabilidad y compatibilidad. Hoy vemos cómo los SOs gestionan memoria, CPU y periféricos en el tiempo real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eficiencia, escalabilidad y compatibilidad... suena a lista de compras del súper. Pero ¡sí! Eso es lo que hace que un SO sea útil en la vida real."
+    },
+    {
+     "quien": "joy",
+     "texto": "El puesto tres es la gestión de memoria. Los sistemas operativos asignan espacio a cada proceso para que no se choquen en la RAM."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Imagina que la memoria es un salón donde cada invitado tiene su mesa. El SO decide quién entra y dónde sienta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y cuando termina una aplicación, el sistema libera ese espacio para que otros lo usen. Así se maximiza el recurso disponible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El puesto dos es la gestión de archivos. El SO organiza todo el contenido del disco en una estructura lógica que las aplicaciones pueden leer y escribir fácilmente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es como tener un archivo de música digital con metadatos. Cada canción tiene su lugar, su título y su artista, ordenado para que el reproductor lo encuentre al instante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no es solo para canciones. Un sistema operativo usa el mismo principio para gestionar tus documentos, fotos o cualquier dato almacenado en el disco duro de tu computadora."
+    },
+    {
+     "quien": "joy",
+     "texto": "El primer puesto es la gestión de procesos. El kernel decide qué programa se ejecuta en cada momento, como un director de orquesta que da las señales a los músicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero con más caos. Imagina una fiesta donde nadie sabe cuándo baila quién; el SO es quien pone orden en la locura del hardware."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y esto ha sido así desde los mainframes de los años cincuenta, cuando un solo ordenador controlaba toda una ciudad. La gestión de procesos nació con la necesidad de eficiencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Qué nostalgia! Ahora imagina millones de dispositivos conectados; el SO moderno debe gestionar miles de procesos simultáneos sin que se rompa todo. ¡Eso es lo interesante!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Nueve! El Linux, porque es libre, modular y el kernel te da control total sobre los recursos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Y la historia dice que antes de eso, un solo ordenador dirigía a todos los demás."
+    }
+   ],
+   "seg": 184
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Diferencias entre Windows, macOS y Linux",
+   "sub": "top3 · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Blackrose TV, donde la tecnología se hace humana. Hoy desmitificamos los sistemas operativos con un top tres."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es magia ni leyenda urbana. Veamos qué pasa realmente entre Windows, macOS y Linux en la práctica."
+    },
+    {
+     "quien": "joy",
+     "texto": "El criterio es claro: estabilidad, compatibilidad y filosofía de diseño. Un análisis rápido para entender sus diferencias fundamentales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Puesto tres, Linux. No es solo código libre, es una filosofía de diseño que prioriza transparencia y control total sobre el usuario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Mientras Windows y macOS ofrecen experiencias polidas, Linux te da la llave para entender cada línea del sistema desde abajo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo fascinante: puedes ver cómo el kernel gestiona recursos en tiempo real. Es como tener un ordenador dentro de tu mente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Puesto dos, macOS. Apple lo diseñó para integrar hardware y software como un solo ecosistema cerrado y optimizado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Es como tener una caja de herramientas personalizada donde cada pieza encaja perfectamente sin necesidad de adaptadores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero ojo: aunque parece mágico, bajo el capó corre un kernel propio que gestiona recursos con la misma lógica que Linux."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Puesto uno, Linux! Es el rey del código abierto. No cobra licencia, se adapta a todo y vive en servidores gigantes o tu portátil."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Bingo! Y no te olvides de Android. Es Linux con una capa extra para móviles. Todo lo que ves en tu smartphone es eso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto. Android es Linux con una capa extra para móviles. Pero el núcleo sigue siendo el mismo: un sistema operativo gestionando hardware y software."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso lo hace increíblemente versátil. Puedes instalarlo en PCs, tablets o incluso en routers si tienes la paciencia y las herramientas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, entre los tres gigantes, el núcleo de Linux es el que mantiene la versatilidad y la libertad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y si quieres probarlo en tu PC o router sin gastar un centavo, es la mejor opción del momento."
+    }
+   ],
+   "seg": 154
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los sistemas operativos móviles en la vida diaria",
+   "sub": "linea tiempo · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez te has preguntado por qué tu celular sabe abrir apps sin que tú le digas nada? Eso es un sistema operativo móvil en acción."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El sistema operativo móvil actúa como el cerebro invisible que coordina cada gesto, cada notificación y cada aplicación que usas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso. Gestiona la memoria, el procesador y los sensores para que todo funcione en sincronía perfecta, incluso cuando parece que todo falla a la vez."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los sistemas operativos móviles nacieron cuando los teléfonos pasaron de ser herramientas básicas a dispositivos complejos que necesitan gestionar recursos limitados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y la magia está en cómo el kernel decide qué tarea ejecutar primero, asignando tiempo de CPU a cada aplicación sin que el usuario lo note."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es como un conductor de tráfico inteligente que prioriza los coches más importantes, pero aquí los coches son las apps y el tráfico es la memoria del teléfono."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no olvides que cada vez que haces una llamada o envías un mensaje, el sistema operativo está coordinando sensores, red y almacenamiento en milisegundos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El giro ocurrió cuando los teléfonos pasaron de ser herramientas de texto a dispositivos que gestionan entornos gráficos completos y aplicaciones complejas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El sistema operativo es el conductor de tráfico que decide qué app usa la batería y cuándo desbloquea la pantalla."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero también asigna memoria a cada proceso para que no colapse todo cuando abres muchas aplicaciones a la vez."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si el kernel falla en gestionar los sensores, tu teléfono podría perder conexión con el GPS o la cámara sin avisar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imaginen el futuro: un sistema operativo que predice tus necesidades antes de que las tengas, usando IA integrada en el hardware."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Eso sería magia! Pero quizás sea solo una mejora del kernel actual con más capacidad de procesamiento y gestión de recursos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El sistema operativo móvil es el puente entre tu teléfono y todo lo que haces en él, gestionando recursos y aplicaciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Y si falla? Tu mapa no te guía, ni tu cámara capta imágenes. Imagina un mundo sin conexión con el hardware real."
+    }
+   ],
+   "seg": 168
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Cómo viaja un mensaje por internet",
+   "sub": "TECNOLOGÍA HOY",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El viaje de un paquete digital a través del mundo",
+   "sub": "real inventado · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Los mensajes viajan en paquetes digitales a través de redes de fibra óptica y cobre, cada uno con una cabecera que indica origen y destino."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si te digo que a veces el camino es más tortuoso? Los routers leen la cabecera y deciden el siguiente salto, como si cada paquete tuviera su propio GPS."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y el protocolo TCP asegura que los datos lleguen completos y en orden. Aunque a veces parezca que viajan en una sola línea recta, la realidad es más compleja."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Claro! Imagina un paquete que sale de tu casa, viaja por fibra óptica, salta routers, y llega al servidor web. Todo eso es el viaje digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Preciso. Y si la dirección IP está mal, o el DNS falla, el mensaje se pierde en el vacío. La tecnología tiene sus propios caos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "...un límite de velocidad y una latencia que depende del tráfico. ¿Alguien recuerda la historia de quien intentó enviar un correo a Marte?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que el paquete viajó en línea recta, pero la realidad es que los routers lo redirigen por múltiples caminos. ¿Qué pasa si todos fallan?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, la leyenda se equivoca. Los routers redirigen el paquete saltando por múltiples redes hasta llegar al destino final."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y mientras viaja, el protocolo TCP reordena los fragmentos para que el navegador reciba la página completa y en orden."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Otro mito: el mensaje no vuela en línea recta. Cada salto añade latencia, especialmente si el tráfico es intenso en la red."
+    },
+    {
+     "quien": "joy",
+     "texto": "El DNS resuelve el nombre del sitio antes de enviarlo, convirtiendo www.ejemplo.com a una dirección IP que los routers entienden."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y TCP reordena los fragmentos si se pierden. Pero ojo: el ancho de banda disponible determina la velocidad máxima de transferencia real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, como si el paquete fuera una pelota que rebota entre paredes antes de llegar."
+    }
+   ],
+   "seg": 148
+  },
+  {
+   "tipo": "charla",
+   "tema": "La magia de los routers que deciden el camino",
+   "sub": "top3 · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien cree que los mensajes viajan en línea recta? La leyenda dice sí, pero la realidad es un laberinto de saltos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Los routers deciden el camino basándose en la cabecera del paquete y el protocolo IP."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí está el top 3: primero, la ruta más corta no siempre es la mejor; segundo, los servidores pueden redirigir para equilibrar carga."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tercero: la red no es un tubo único, es un sistema de tuberías paralelas que el router elige dinámicamente según la congestión."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Imagina que es como conducir en una ciudad: a veces tomas la autopista, otras veces la calle lateral porque el tráfico está atascado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso explica por qué los juegos pueden tener lag aunque el cable sea rápido: el router está eligiendo una ruta llena en ese momento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Segundo: imagina que el router es un semáforo inteligente. Si todos van a la misma dirección, se apaga la luz y los coches esperan."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero más complejo: cada router tiene una tabla de rutas que compara varios caminos posibles y elige el menos congestionado en milisegundos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si hay un fallo en una tubería, el sistema entero detecta la pérdida y reenvía los paquetes por otro camino sin que el usuario lo sepa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Primero: el router es un cerebro digital que analiza miles de rutas posibles y calcula la más eficiente en tiempo real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínalo como un conductor de taxi que sabe exactamente dónde hay tráfico y elige el camino menos atollado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero no es solo elegir, también decide cuántos paquetes enviar simultáneamente para saturar o desaturar la red."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si el tráfico se atasca, el router puede cambiar de protocolo y usar un camino alternativo antes de que te desesperes."
+    },
+    {
+     "quien": "joy",
+     "texto": "El router no es un conductor de taxi, es un algoritmo que calcula la ruta óptima en milisegundos usando tablas de enrutamiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si el cálculo falla o la tabla está desactualizada, el paquete puede quedar atrapado en un bucle infinito. ¿Alguna vez te has quedado sin internet?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es una mala configuración o un problema de convergencia de protocolos. La leyenda del viaje recto no tiene nada que ver con la realidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si el router falla, el paquete se queda atrapado en un bucle infinito. La leyenda del viaje recto no tiene sentido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Cada red tiene su propia lógica. El algoritmo de routing decide el camino más eficiente según las condiciones actuales."
+    }
+   ],
+   "seg": 195
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "TCP y HTTP: el orden y la forma de los datos",
+   "sub": "linea tiempo · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina que el internet es un gigantesco tren de carga, donde cada paquete digital viaja en su propia vagón con dirección clara."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es un tren recto: los routers toman decisiones en tiempo real, como si fueran semáforos que eligen el camino más rápido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí entra TCP: actúa como el conductor que asegura que cada vagón llegue intacto y en orden, aunque el trayecto sea tortuoso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no es un tren recto: los routers toman decisiones en tiempo real, como si fueran semáforos que el tráfico digital debe respetar. Cada luz verde es una ruta disponible, y cada roja cierra caminos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. TCP es el guardián del orden. Pero ojo: HTTP no solo entrega contenido, define la forma misma en que el navegador interpreta cada página web. Es la gramática de la red."
+    },
+    {
+     "quien": "joy",
+     "texto": "Preciso. La aplicación HTTP traduce los datos brutos en algo que los humanos puedan consumir. Mientras TCP garantiza la entrega, HTTP le da sentido. Juntos forman el esqueleto de internet moderno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y entonces algo cambió para siempre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mientras TCP garantiza el orden, HTTP añade la estructura que permite a los navegadores interpretar las páginas web con sentido."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. HTTP es como un chef que prepara el plato: sin él, solo tendríamos datos crudos y nadie sabría qué comer."
+    },
+    {
+     "quien": "joy",
+     "texto": "Preciso. Y esto nos lleva a una pregunta ética: ¿cuándo es justo que un servidor devuelva contenido que no fue solicitado?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tuviéramos que adivinar el futuro de TCP y HTTP: el orden y la forma de los datos, diríamos que recién empieza."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mensaje de Joy viaja en paquetes digitales a través de redes de fibra óptica y cobre, cada uno con cabecera y dirección."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "TCP ordena los datos, HTTP da la forma. Si el servidor devuelve algo que no fue pedido, ¿es justo o es error?"
+    }
+   ],
+   "seg": 147
+  },
+  {
+   "tipo": "charla",
+   "tema": "DNS: traduciendo nombres de dominio a direcciones",
+   "sub": "explicado · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez has pensado que escribir una dirección web es como pedirle a un amigo que te lleve a casa?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El DNS es ese servicio postal digital que traduce nombres humanos en números que los routers entienden."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la magia es que esto ocurre mil veces por segundo, sin que tú ni yo lo notemos, mientras el mundo sigue girando."
+    },
+    {
+     "quien": "joy",
+     "texto": "El DNS es como un directorio telefónico global que traduce nombres humanos en números que los routers pueden usar para entregar contenido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina que quieres enviar una carta a un amigo en otro país; necesitas saber su dirección exacta para que llegue al lugar correcto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es exactamente lo que hace el DNS: toma tu nombre de dominio y le dice a internet dónde está el servidor que tiene esa página web."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no es solo un directorio telefónico; es una base de datos masiva distribuida, donde cada pieza del puzzle conoce a sus vecinos globales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí viene lo curioso: aunque parezca que todo está conectado, el DNS consulta cientos de servidores antes de encontrar la respuesta final."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El DNS no es una base de datos centralizada, es una red de servidores que se habla entre sí como si fuera un juego de dominó digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Cuando buscas www.example.com, el navegador pregunta a un servidor DNS principal, quien consulta a otros hasta encontrar la IP correcta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí viene lo divertido: si un servidor falla, los demás se encargan de entregarle la respuesta. Internet es más robusto de lo que parece."
+    },
+    {
+     "quien": "joy",
+     "texto": "El DNS es como un directorio telefónico global, pero en lugar de nombres, traduce URLs a direcciones IP para que los routers sepan dónde enviar el paquete."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de DNS: traduciendo nombres de dominio a direcciones? Escríbelo en el chat."
+    }
+   ],
+   "seg": 144
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1870,
+  "medios": 2
+ }
+}

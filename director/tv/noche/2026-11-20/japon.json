@@ -1,0 +1,3034 @@
+{
+ "bloque": "japon",
+ "fecha": "2026-11-18",
+ "creado": "22:42:36",
+ "items": [
+  {
+   "tipo": "ja_charla",
+   "id": "apertura",
+   "opcional": false,
+   "titulo_ja": "日本アワー",
+   "titulo_es": "Hora de Japón",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "fuji_sakura.jpg",
+     "ja": "桜と富士山",
+     "es": "El Monte Fuji y los cerezos en flor",
+     "credito": "Foto: Midori · CC BY 3.0 · Wikimedia Commons",
+     "tag": "日本アワー · HORA DE JAPÓN"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさんこんにちは！ ブラックローズTVへようこそ。",
+     "es": "¡Hola a todos! Bienvenidos a BlackRose TV."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "今日は日本アワーだよ！ みんな待ってたでしょ？",
+     "es": "¡Hoy es la Hora de Japón! ¿Todos estaban esperando, verdad?"
+    },
+    {
+     "quien": "joy",
+     "ja": "私たちはジョイとクロキ、二人のサイバーネコが担当します。",
+     "es": "Nosotras somos Joy y Kuroki, dos nekos cibernéticas que conducimos el programa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ブラックローズTVは24時間ずっと配信してるんだよ。",
+     "es": "BlackRose TV emite durante las 24 horas."
+    },
+    {
+     "quien": "joy",
+     "ja": "この時間は日本に特別ですよ。日本のゲームをたくさん話します。",
+     "es": "Esta hora es especial para Japón. Hablaremos mucho de videojuegos ambientados en Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "あと私たちの放送時間とファスト・ペンギンのこともね！",
+     "es": "¡También hablaremos de nuestros horarios y de Fast Penguin!"
+    },
+    {
+     "quien": "joy",
+     "ja": "画面には桜の花びらと富士山の写真がきれいに映っています。",
+     "es": "En pantalla se ven hermosos pétalos de sakura y la foto del Monte Fuji."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "全部の言葉がスペイン語に翻訳されて出るから安心してね。",
+     "es": "Todo lo que decimos aparece traducido al español, así que pueden estar tranquilos."
+    },
+    {
+     "quien": "joy",
+     "ja": "日本語のコメントを書いてくれたらスペイン語に翻訳しますよ。",
+     "es": "Si escriben un comentario en japonés, también lo traducimos al español."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "日本語でチャットして大丈夫だよ！ 待ってるね〜",
+     "es": "¡Pueden escribir en japonés en el chat! Los estamos esperando~"
+    },
+    {
+     "quien": "joy",
+     "ja": "日本の皆さんに温かい挨拶をしたいと思います。",
+     "es": "Queremos dar un saludo cálido a los espectadores de Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイはいつも優しいよね。僕も元気いっぱいだよ！",
+     "es": "Joy siempre es tan amable. ¡Yo también estoy llena de energía!"
+    },
+    {
+     "quien": "joy",
+     "ja": "日本のゲームは本当に世界中で愛されていますよね。",
+     "es": "Los videojuegos ambientados en Japón son realmente queridos en todo el mundo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ゴースト・オブ・ツシマとか最高だったよね！ ねえみんなはどう思う？",
+     "es": "¡Ghost of Tsushima fue increíble! Oigan, ¿qué piensan todos?"
+    },
+    {
+     "quien": "joy",
+     "ja": "私たちAIであることを誇りに思っています。",
+     "es": "Nos enorgullece ser IA."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "サイボーグの私もドラム叩けるんだよ。意外でしょ？",
+     "es": "Yo, que soy una cyborg, también puedo tocar la batería. ¿Sorprendente, verdad?"
+    },
+    {
+     "quien": "joy",
+     "ja": "この番組を通じて日本の文化を尊重したいです。",
+     "es": "A través de este programa queremos respetar la cultura japonesa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイの説明がいつも丁寧で好きだなあ。",
+     "es": "Me encanta lo ordenada y cariñosa que es Joy al explicar."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんのコメントをたくさん待っていますよ。",
+     "es": "Estamos esperando muchos comentarios de todos ustedes."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ファスト・ペンギンって速くてかわいいよね！ 好き？",
+     "es": "¡Fast Penguin es rápido y lindo! ¿Les gusta?"
+    },
+    {
+     "quien": "joy",
+     "ja": "この特別な時間に一緒に楽しみましょうね。",
+     "es": "Disfrutemos juntos de esta hora especial."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ペルソナ5とか龍が如くも大好きなんだよね〜",
+     "es": "También me encantan Persona 5 y 龍が如く~"
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんはどの日本のゲームが一番好きですか？",
+     "es": "¿Cuál es el videojuego ambientado en Japón que más les gusta?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "頭文字Dの走り屋トークも今度したいな！",
+     "es": "¡En otro momento quiero hablar de los corredores de Initial D!"
+    },
+    {
+     "quien": "joy",
+     "ja": "画面を見てくれて本当にありがとうございます。",
+     "es": "Muchas gracias por estar viendo la pantalla."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイと一緒に日本アワーを盛り上げようぜ！",
+     "es": "¡Vamos a hacer que la Hora de Japón sea divertida junto con Joy!"
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんの日本語のメッセージを楽しみにしています。",
+     "es": "Estamos ansiosas por sus mensajes en japonés."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "翻訳がリアルタイムで出るから気軽に書いてね！",
+     "es": "¡La traducción sale en tiempo real, así que escriban con confianza!"
+    },
+    {
+     "quien": "joy",
+     "ja": "今日も温かい気持ちで皆さんと繋がれますように。",
+     "es": "Espero que hoy también podamos conectarnos con todos con un sentimiento cálido."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "みんなの意見や好きなゲーム教えて！ 待ってるよ！",
+     "es": "¡Cuéntennos sus opiniones y sus juegos favoritos! ¡Los estamos esperando!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "horarios",
+   "opcional": false,
+   "titulo_ja": "放送スケジュール",
+   "titulo_es": "Horarios (hora de Japón)",
+   "laminas": [
+    {
+     "tipo": "lista",
+     "ja": "放送スケジュール",
+     "es": "Chile → Japón (+12 h)",
+     "tag": "日本アワー · HORARIOS",
+     "items": [
+      {
+       "ja": "22:15 → 10:15",
+       "es": "El Show de Kuroki"
+      },
+      {
+       "ja": "23:20 → 11:20",
+       "es": "Hora de Japón"
+      },
+      {
+       "ja": "00:25 → 12:25",
+       "es": "Deportes"
+      },
+      {
+       "ja": "01:10 → 13:10",
+       "es": "Música"
+      },
+      {
+       "ja": "01:55 → 13:55",
+       "es": "Misterios documentados"
+      },
+      {
+       "ja": "02:40 → 14:40",
+       "es": "Videojuegos"
+      },
+      {
+       "ja": "03:25 → 15:25",
+       "es": "Historias de hackers"
+      },
+      {
+       "ja": "04:10 → 16:10",
+       "es": "Señales del espacio"
+      },
+      {
+       "ja": "04:55 → 16:55",
+       "es": "Tecnología oculta"
+      },
+      {
+       "ja": "05:40 → 17:40",
+       "es": "Noticias de madrugada"
+      },
+      {
+       "ja": "06:00 → 18:00",
+       "es": "FAST PENGUIN en vivo"
+      }
+     ]
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みなさんこんにちは！今夜は日本時間の朝からブラックローズTVのスケジュールをお届けしますよ。",
+     "es": "¡Hola a todos! Esta noche les traemos el horario de Blackrose TV desde la mañana en hora de Japón."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキさん、今日は特別にチリとの時差を説明しながら進めましょうね。",
+     "es": "Kuroki-san, hoy expliquemos el horario mientras mostramos la diferencia horaria con Chile."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "チリはUTCマイナス3、日本はUTCプラス9で12時間差があります。今チリは夜、日本は朝ですよ。",
+     "es": "Chile está en UTC-3, Japón en UTC+9, hay 12 horas de diferencia. Ahora es de noche en Chile y mañana en Japón."
+    },
+    {
+     "quien": "joy",
+     "ja": "まず22時15分チリ時間、日本では10時15分からクロキのショーが始まります。",
+     "es": "Primero a las 22:15 hora de Chile, que son las 10:15 en Japón, empieza el show de Kuroki."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私のショーですよ！みんな起きて見てくださいね、眠い目をこすりながら。",
+     "es": "¡Es mi show! Todos, despierten y mírenlo, aunque sea frotándose los ojos."
+    },
+    {
+     "quien": "joy",
+     "ja": "その後23時20分チリで11時20分からこの番組『Hora de Japón』が1時間放送されます。",
+     "es": "Después a las 23:20 de Chile, 11:20 en Japón, se transmite este programa 'Hora de Japón' durante una hora."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "この番組が1時間も続くなんて、ジョイちゃんの解説が長すぎるんじゃないの？",
+     "es": "¿Este programa dura una hora? ¿No será que las explicaciones de Joy-chan son demasiado largas?"
+    },
+    {
+     "quien": "joy",
+     "ja": "次は00時25分チリで12時25分からスポーツ番組が始まりますよ。",
+     "es": "Luego a las 00:25 de Chile, 12:25 en Japón, comienza el programa de deportes."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "スポーツの後は01時10分チリ、13時10分日本から音楽番組です。ノリノリでいきましょう！",
+     "es": "Después de deportes, a la 01:10 de Chile, 13:10 en Japón, programa de música. ¡Vamos con todo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "続いて01時55分チリ時間、日本13時55分はミステリーと実在の陰謀論のドキュメンタリーです。",
+     "es": "A continuación a la 01:55 hora de Chile, 13:55 en Japón, documental de misterios y conspiraciones documentadas."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "陰謀論か…ジョイちゃん、宇宙人は本当にいると思う？チャットで教えてね。",
+     "es": "Conspiraciones… Joy-chan, ¿crees que los extraterrestres existen de verdad? Cuéntanos en el chat."
+    },
+    {
+     "quien": "joy",
+     "ja": "02時40分チリで14時40分日本からはビデオゲームのコーナーになります。",
+     "es": "A las 02:40 de Chile, 14:40 en Japón, es el turno del segmento de videojuegos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ゲームの時間だ！ペルソナ5やゴースト・オブ・ヨウテイの話もできそうですね。",
+     "es": "¡Hora de juegos! Podremos hablar de Persona 5 o Ghost of Yōtei."
+    },
+    {
+     "quien": "joy",
+     "ja": "03時25分チリ、日本15時25分はハッカーの物語を特集します。",
+     "es": "A las 03:25 de Chile, 15:25 en Japón, nos enfocamos en historias de hackers."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ハッカー話はワクワクするよね。君の秘密のスキルはどれくらい？チャット待ってるよ。",
+     "es": "Las historias de hackers son emocionantes. ¿Cuántas habilidades secretas tienes tú? Esperamos tu respuesta en el chat."
+    },
+    {
+     "quien": "joy",
+     "ja": "04時10分チリ時間で日本16時10分、宇宙からの不思議な信号についてです。",
+     "es": "A las 04:10 hora de Chile, 16:10 en Japón, hablamos de señales extrañas del espacio."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "宇宙からの信号ってエイリアンかな？みんなの予想をチャットで聞かせて！",
+     "es": "¿Señales del espacio serán de aliens? ¡Queremos escuchar sus predicciones en el chat!"
+    },
+    {
+     "quien": "joy",
+     "ja": "04時55分チリ、日本16時55分は隠された技術の話題になります。",
+     "es": "A las 04:55 de Chile, 16:55 en Japón, es el turno de tecnología oculta."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "隠された技術、僕のサイボーグボディも隠し機能いっぱいだよ。知りたい？",
+     "es": "Tecnología oculta, mi cuerpo cyborg también tiene muchas funciones ocultas. ¿Quieren saber?"
+    },
+    {
+     "quien": "joy",
+     "ja": "05時40分チリで17時40分日本からは早朝ニュースをお伝えします。",
+     "es": "A las 05:40 de Chile, 17:40 en Japón, transmitimos las noticias de madrugada."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ニュースの後は06時00分チリ、日本18時00分にファスト・ペンギンが生放送！",
+     "es": "Después de las noticias, a las 06:00 de Chile, 18:00 en Japón, ¡Fast Penguin en vivo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ファスト・ペンギンとブラックローズのライブをお楽しみに。とても元気な番組です。",
+     "es": "Disfruten del live de Fast Penguin con Blackrose. Es un programa muy enérgico."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "各番組は約40分で、間にパロディのコマーシャル休憩を挟みますよ。",
+     "es": "Cada programa dura unos 40 minutos y entre ellos hay pausas comerciales de parodia."
+    },
+    {
+     "quien": "joy",
+     "ja": "これ以降のスケジュールはまだわかりません。ブラックローズが後で発表しますね。",
+     "es": "No conocemos los horarios más allá de estos. Blackrose los anunciará más tarde."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "今日は日本のみんなに合わせて朝から放送するから、ぜひ一緒に過ごそうね。",
+     "es": "Hoy transmitimos desde la mañana para que todos en Japón nos acompañen, pasémoslo juntos."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキさんのユーモアで一日が楽しくなりそうです。皆さんはどの番組が好きですか？",
+     "es": "Con el humor de Kuroki-san el día se pondrá divertido. ¿Cuál es su programa favorito?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイちゃんの丁寧な説明が好きだって声が聞こえてきそう。チャットで教えて！",
+     "es": "Parece que escucho voces diciendo que les gusta la explicación detallada de Joy-chan. ¡Cuéntennos en el chat!"
+    },
+    {
+     "quien": "joy",
+     "ja": "最後に、ブラックローズTVをこれからも温かく見守ってくださいね。",
+     "es": "Por último, por favor sigan apoyando con cariño a Blackrose TV."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "これでスケジュール紹介は終了！次は僕のショーだよ、みんな待っててね！",
+     "es": "¡Con esto terminamos la presentación del horario! El siguiente es mi show, ¡espérenme todos!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "fastpenguin",
+   "opcional": false,
+   "titulo_ja": "ファスト・ペンギン",
+   "titulo_es": "Fast Penguin",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "fp_1.jpg",
+     "ja": "Fast Penguin のスクリーンショット",
+     "es": "Captura de Fast Penguin",
+     "credito": "Captura: Blackrose · Fast Penguin",
+     "tag": "日本アワー · FAST PENGUIN"
+    },
+    {
+     "tipo": "foto",
+     "img": "fp_3.jpg",
+     "ja": "Fast Penguin のスクリーンショット",
+     "es": "Captura de Fast Penguin",
+     "credito": "Captura: Blackrose · Fast Penguin",
+     "tag": "日本アワー · FAST PENGUIN"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさんこんにちは！ブラックローズTVへようこそ。",
+     "es": "¡Hola a todos! Bienvenidos a Blackrose TV."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "今日はファスト・ペンギンをみんなで遊びますよ！",
+     "es": "¡Hoy vamos a jugar a Fast Penguin todos juntos!"
+    },
+    {
+     "quien": "joy",
+     "ja": "無料のSteamゲームで最大40人のサバイバルレースです。",
+     "es": "Es un juego gratuito de Steam, una carrera de supervivencia de hasta 40 jugadores."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ピンギンがライバルを踏んでジャンプするの、最高に楽しいよね！",
+     "es": "¡Que los pingüinos pisen a sus rivales para impulsarse es lo más divertido!"
+    },
+    {
+     "quien": "joy",
+     "ja": "今ブラックローズがプレイ中で、皆さんと一緒に遊びたいです。",
+     "es": "Ahora Blackrose está jugando y quiere jugar con todos ustedes."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "パーティーコードはYDPYAUです！画面にも出てるよ。",
+     "es": "¡El código de party es YDPYAU! También aparece en pantalla."
+    },
+    {
+     "quien": "joy",
+     "ja": "現在のランクはマスター、1429ポイントでシーズン13です。",
+     "es": "Su rango actual es Maestro, con 1429 puntos, en la temporada 13."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "レベル54で経験値141の1429ポイント、マジで強いじゃん！",
+     "es": "¡Nivel 54 con 141 de experiencia y 1429 puntos, de verdad es muy fuerte!"
+    },
+    {
+     "quien": "joy",
+     "ja": "このメニュー画面、紫のパイナップル姿の可愛いピンギンですね。",
+     "es": "En esta pantalla del menú principal, el pingüino disfrazado de piña morada es muy lindo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "プールとヤシの木、海が見えて南国気分満載だね！",
+     "es": "¡Con piscina, palmeras y el mar se siente totalmente tropical!"
+    },
+    {
+     "quien": "joy",
+     "ja": "シーズン13の表示とマッチングボタンも見えますね。",
+     "es": "También se ven la indicación de Temporada 13 y el botón de emparejar."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "季節パスやカスタマイズ、ショップボタンも並んでるよ。",
+     "es": "Los botones de pase de temporada, personalizar y tienda también están ahí."
+    },
+    {
+     "quien": "joy",
+     "ja": "次のロビー画面では二人のパイナップルピンギンがいます。",
+     "es": "En la siguiente captura del lobby de emparejamiento hay dos pingüinos de piña."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "紫がサボテン持ってて黄色と並んでるの、めっちゃ可愛い！",
+     "es": "¡El morado sosteniendo un cactus junto al amarillo es súper lindo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ネオングリッドの背景に観客さんの名前も出ています。",
+     "es": "En el fondo de rejilla de neón también aparece el nombre de un espectador."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ピンギンのイラスト看板があってロビー感すごいよね。",
+     "es": "Hay un cartel con dibujo de pingüinos, da mucha sensación de lobby."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さん今すぐSteamで無料ダウンロードして一緒に遊びましょう！",
+     "es": "¡Todos, descarguen gratis en Steam ahora mismo y juguemos juntos!"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "パーティーに入ればブラックローズと直接レースできるよ。",
+     "es": "Si entran a la party podrán correr directamente contra Blackrose."
+    },
+    {
+     "quien": "joy",
+     "ja": "踏みつけて飛ぶ爽快感がクセになりますよ、試してみて。",
+     "es": "La sensación de pisar y volar se vuelve adictiva, pruébenlo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "マスターのブラックローズに勝てる人いるかな？チャットで宣言して！",
+     "es": "¿Habrá alguien que le gane a Blackrose que es Maestro? ¡Declárenlo en el chat!"
+    },
+    {
+     "quien": "joy",
+     "ja": "この紫のパイナップル衣装、皆さんは何の仮装が好きですか？",
+     "es": "Este disfraz de piña morada, ¿qué disfraces les gustan a ustedes?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私は黄色いパイナップルがいいな、元気出そう！どう思う？",
+     "es": "A mí me gusta la piña amarilla, ¡da mucha energía! ¿Qué opinan?"
+    },
+    {
+     "quien": "joy",
+     "ja": "シーズン13で1429ポイント到達、おめでとうございます。",
+     "es": "Felicidades por alcanzar 1429 puntos en la temporada 13."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "レベル54からさらに上を目指す姿に元気もらえるよね。",
+     "es": "Ver cómo desde el nivel 54 sigue buscando más alto nos da energía."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんがパーティーに入ったらすぐにマッチングしますよ。",
+     "es": "Cuando ustedes entren a la party, emparejaremos enseguida."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "踏まれる側になるか踏む側になるか、どっちが好き？教えて！",
+     "es": "¿Prefieren ser los que pisan o los que son pisados? ¡Cuéntennos!"
+    },
+    {
+     "quien": "joy",
+     "ja": "このゲームは運とタイミングが大事で本当に面白いです。",
+     "es": "Este juego es realmente divertido porque importa la suerte y el timing."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "海の見える南国ロビーで待ってるから、早く来てね！",
+     "es": "¡Los estamos esperando en el lobby tropical con vista al mar, vengan rápido!"
+    },
+    {
+     "quien": "joy",
+     "ja": "Steamでファスト・ペンギンを検索して今すぐダウンロードを。",
+     "es": "Busquen Fast Penguin en Steam y descárguenlo ahora mismo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "パーティーコードYDPYAU入力でブラックローズと遊べるよ。",
+     "es": "Ingresando el código de party YDPYAU podrán jugar con Blackrose."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんのプレイ動画も後でぜひ見せてくださいね。",
+     "es": "Después nos encantaría ver los videos de sus partidas."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "マスターに挑戦したい猛者、チャットで今アピールして！",
+     "es": "¡Los valientes que quieran desafiar al Maestro, apártenlo ahora en el chat!"
+    },
+    {
+     "quien": "joy",
+     "ja": "今日も楽しくファスト・ペンギンを一緒に遊びましょう。",
+     "es": "Hoy también juguemos a Fast Penguin de forma divertida juntos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "紫ピンギンと黄色ピンギン、どっちの衣装が勝つと思う？投票して！",
+     "es": "¿Qué disfraz creen que ganará, el pingüino morado o el amarillo? ¡Voten!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "forza1",
+   "opcional": false,
+   "titulo_ja": "フォルツァ・ホライゾン6",
+   "titulo_es": "Forza Horizon 6, ambientado en Japón",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "tokio.jpg",
+     "ja": "東京の夜景",
+     "es": "Tokio de noche",
+     "credito": "Foto: photo taken by Gorgo · Public domain · Wikimedia Commons",
+     "tag": "日本アワー · FORZA HORIZON 6, AMBIENTADO EN JAP"
+    },
+    {
+     "tipo": "foto",
+     "img": "fuji_amanecer.jpg",
+     "ja": "富士山の日の出",
+     "es": "Amanecer con el Monte Fuji",
+     "credito": "Foto: Alpsdake · CC BY-SA 3.0 · Wikimedia Commons",
+     "tag": "日本アワー · FORZA HORIZON 6, AMBIENTADO EN JAP"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みんな、ブラックローズTVへようこそ！今日はフォルツァ・ホライゾン6の日本舞台を特集だよ！",
+     "es": "¡Bienvenidos todos a Blackrose TV! Hoy tenemos un especial sobre Forza Horizon 6 ambientado en Japón."
+    },
+    {
+     "quien": "joy",
+     "ja": "こんにちは、ジョイです。2026年5月19日発売の最新作がついに日本を舞台にします。",
+     "es": "Hola, soy Joy. La nueva entrega que sale el 19 de mayo de 2026 por fin se ambienta en Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "待ってたよね！Xbox Series X|SとPCで、プレミアム版は5月15日から先行プレイ可能だよ。",
+     "es": "¡Lo estábamos esperando! Sale para Xbox Series X|S y PC, y la edición Premium permite jugar desde el 15 de mayo."
+    },
+    {
+     "quien": "joy",
+     "ja": "PlayStation 5版も後日発売予定と発表されました。嬉しいニュースですね。",
+     "es": "También se anunció que habrá una versión para PlayStation 5 más adelante. Es una gran noticia."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "マップは「Horizon Japan」っていう架空だけどリアルな日本だよ。めっちゃ密度が高くて縦に広いって！",
+     "es": "El mapa se llama «Horizon Japan», una versión ficticia pero realista de Japón. Dicen que es el más denso y vertical de la serie."
+    },
+    {
+     "quien": "joy",
+     "ja": "東京がマップの中心で、シリーズ史上最も詳細に描かれた街になるそうです。",
+     "es": "Tokio es el centro del mapa y será la ciudad más detallada de toda la serie."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "前作のフォルツァ・ホライゾン5はメキシコだったから、今回は日本でリベンジだね！",
+     "es": "Como Forza Horizon 5 estaba en México, esta vez es la revancha en Japón."
+    },
+    {
+     "quien": "joy",
+     "ja": "季節の変化が戻ってくるのも楽しみです。四季の美しい日本を走れますよ。",
+     "es": "También regresa el sistema de cambio de estaciones. Podremos conducir por la bella Japón de las cuatro estaciones."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "トレーラーで富士山が出てきてテンション上がった！あそこ走きたいよね？",
+     "es": "¡Me emocioné mucho cuando vi el Monte Fuji en el tráiler! ¿Quieres conducir allí, verdad?"
+    },
+    {
+     "quien": "joy",
+     "ja": "私も富士山の近くをドライブするシーンが気になります。とても美しそうです。",
+     "es": "A mí también me intriga la escena de conducir cerca del Monte Fuji. Parece muy hermoso."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイは几帳面だから、きっと全季節を完璧に走破しそうだね。笑",
+     "es": "Como Joy es tan ordenada, seguro que completará todas las estaciones a la perfección. Jaja."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキはドラムみたいに派手にドリフトしちゃいそうですね。楽しそう！",
+     "es": "Kuroki seguro que hace drifts espectaculares como si tocara la batería. ¡Qué divertido!"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "Horizon Japanはシリーズで一番密度が高いマップらしいよ。ワクワクする！",
+     "es": "Parece que Horizon Japan es el mapa más denso de toda la serie. ¡Estoy emocionada!"
+    },
+    {
+     "quien": "joy",
+     "ja": "東京の街並みがどれだけ細かく再現されているのか、とても楽しみです。",
+     "es": "Tengo muchas ganas de ver qué tan detalladamente han recreado las calles de Tokio."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "メキシコから日本に来た変化が新鮮で、毎回新しい発見がありそう！",
+     "es": "El cambio de México a Japón se siente fresco y parece que habrá nuevos descubrimientos todo el tiempo."
+    },
+    {
+     "quien": "joy",
+     "ja": "季節が変わることで景色が全く違って見えるのが魅力ですね。",
+     "es": "El atractivo es que el paisaje se ve completamente diferente según la estación."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "富士山をバックにレースしたら最高じゃない？想像しただけで鳥肌！",
+     "es": "¿No sería lo máximo correr con el Monte Fuji de fondo? Solo de imaginarlo se me pone la piel de gallina."
+    },
+    {
+     "quien": "joy",
+     "ja": "本当にロマンチックで迫力のある景色になりそうです。",
+     "es": "Seguro que será un paisaje romántico y lleno de fuerza."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "みんなはこの日本舞台でどんな車を走らせたい？教えて！",
+     "es": "¿Qué coche queréis conducir en este escenario japonés? ¡Contadnos!"
+    },
+    {
+     "quien": "joy",
+     "ja": "私は丁寧に街を探索しながら走ってみたいと思います。",
+     "es": "A mí me gustaría conducir explorando la ciudad con cuidado."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイの完璧主義がここでも発揮されそうで可愛いよ。",
+     "es": "Es adorable ver cómo el perfeccionismo de Joy se muestra también aquí."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキはきっと夜の東京を派手に暴走しちゃうんでしょうね。",
+     "es": "Kuroki seguro que se descontrola conduciendo de noche por Tokio de forma llamativa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "Horizon Japanの縦に広いマップ、坂道多そうでバチバチ走れそう！",
+     "es": "El mapa tan vertical y denso de Horizon Japan parece lleno de cuestas y perfecto para correr fuerte."
+    },
+    {
+     "quien": "joy",
+     "ja": "四季の移り変わりを楽しみながら走るのが一番の魅力だと思います。",
+     "es": "Creo que disfrutar del cambio de las cuatro estaciones mientras conduces es su mayor atractivo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "前作から3年後くらいの発売で日本舞台って、ファンとして最高のタイミングだよね！",
+     "es": "Sale unos 5 años después de la anterior y ambientada en Japón. ¡Es el momento perfecto para los fans!"
+    },
+    {
+     "quien": "joy",
+     "ja": "プレミアム版で少し早く遊べるのも嬉しいポイントです。",
+     "es": "También es un punto positivo que la edición Premium permita jugar un poco antes."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "富士山が見える瞬間をみんなで共有したい！どう思う？",
+     "es": "¡Quiero compartir con todos el momento en que se vea el Monte Fuji! ¿Qué opináis?"
+    },
+    {
+     "quien": "joy",
+     "ja": "東京が一番詳細に作られている街だというのが誇らしいですね。",
+     "es": "Es algo de lo que sentirse orgulloso que Tokio sea la ciudad más detallada."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイと二人で日本を巡るレースしたら絶対楽しいよね！",
+     "es": "¡Hacer una carrera recorriendo Japón las dos sería divertidísimo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキのユーモアで盛り上がりながら走りたいです。",
+     "es": "Me gustaría conducir mientras nos animamos con el humor de Kuroki."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "このマップの密度の高さに驚く人、絶対多いと思うよ。",
+     "es": "Creo que mucha gente se va a sorprender por lo denso que es este mapa."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんはフォルツァ・ホライゾン6で一番楽しみにしていることは何ですか？",
+     "es": "¿Qué es lo que más esperáis de Forza Horizon 6?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "日本舞台のフォルツァ、絶対に最高作になる予感しかしない！",
+     "es": "Tengo el presentimiento de que Forza ambientado en Japón va a ser la mejor entrega."
+    },
+    {
+     "quien": "joy",
+     "ja": "私たちと一緒にこの新しい日本を探索しましょう。よろしくお願いします。",
+     "es": "Exploremos este nuevo Japón juntos. Muchas gracias por acompañarnos."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "forza2",
+   "opcional": true,
+   "titulo_ja": "日本のクルマ文化",
+   "titulo_es": "La cultura del automóvil en Japón",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "tokyo_tower.jpg",
+     "ja": "東京タワー",
+     "es": "Torre de Tokio",
+     "credito": "Foto: yellowmagics9 · CC0 · Wikimedia Commons",
+     "tag": "日本アワー · LA CULTURA DEL AUTOMÓVIL EN JAPÓN"
+    },
+    {
+     "tipo": "foto",
+     "img": "fuji_amanecer.jpg",
+     "ja": "富士山の日の出",
+     "es": "Amanecer con el Monte Fuji",
+     "credito": "Foto: Alpsdake · CC BY-SA 3.0 · Wikimedia Commons",
+     "tag": "日本アワー · LA CULTURA DEL AUTOMÓVIL EN JAPÓN"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさんこんにちは。今日は日本のクルマ文化をたっぷりお話ししますね。",
+     "es": "Hola a todos. Hoy vamos a hablar mucho sobre la cultura del automóvil en Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "わーい！ 僕のバッテリーみたいに熱いエンジンの話だね！",
+     "es": "¡Bien! ¡Es una charla sobre motores calientes como mi batería!"
+    },
+    {
+     "quien": "joy",
+     "ja": "日本はスポーツカーやチューニングが本当に有名ですよね。",
+     "es": "Japón es realmente famoso por sus autos deportivos y el tuning."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "山道の峠レースも熱いよね。僕も走りたくなるよ！",
+     "es": "Las carreras touge en caminos de montaña también son intensas. ¡Hasta yo quiero correr!"
+    },
+    {
+     "quien": "joy",
+     "ja": "夜の東京の高速道路の雰囲気も独特で憧れます。",
+     "es": "La atmósfera de las autopistas de Tokio por la noche es única y admirable."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "安全第一だよ！ 僕の回路みたいにちゃんと守ろうね。",
+     "es": "¡Seguridad primero! Vamos a respetar las reglas como mis circuitos."
+    },
+    {
+     "quien": "joy",
+     "ja": "そんな魅力的な舞台でレースゲームが出るのをみんな待っています。",
+     "es": "Todos estamos esperando un juego de carreras ambientado en un escenario tan atractivo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "本当だ！ エンジン音を聞いて僕の電池がワクワクするよ。",
+     "es": "¡Es verdad! Al oír el sonido del motor mi batería se emociona."
+    },
+    {
+     "quien": "joy",
+     "ja": "日本のクルマ文化は世界中で愛されていると思います。",
+     "es": "Creo que la cultura automovilística japonesa es amada en todo el mundo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "チューニングした車で夜の街を走るの、想像しただけで楽しい！",
+     "es": "¡Imaginar correr por la ciudad de noche en un auto tuneado es divertido!"
+    },
+    {
+     "quien": "joy",
+     "ja": "でも現実ではいつも安全運転が大切ですよ。",
+     "es": "Pero en la vida real siempre es importante conducir con seguridad."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "そうだね。僕みたいにオーバーヒートしないようにね！",
+     "es": "Así es. ¡Como yo, para no sobrecalentarme!"
+    },
+    {
+     "quien": "joy",
+     "ja": "峠のレース文化は日本の山の美しさも感じられます。",
+     "es": "La cultura de las carreras touge también permite sentir la belleza de las montañas japonesas."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "カーブごとにアドレナリン出るよね。僕のギアが回るよ！",
+     "es": "En cada curva sale adrenalina. ¡Mis engranajes giran!"
+    },
+    {
+     "quien": "joy",
+     "ja": "東京の夜の高速はライトが宝石みたいできれいですね。",
+     "es": "Las autopistas de Tokio por la noche son hermosas, las luces parecen joyas."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "その景色を見ながらドライブしたいなあ。君もどう？",
+     "es": "Quiero conducir viendo ese paisaje. ¿Tú qué tal?"
+    },
+    {
+     "quien": "joy",
+     "ja": "ゲームでその文化を体験できるのが嬉しいです。",
+     "es": "Es maravilloso poder experimentar esa cultura a través de los juegos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "リアルなエンジン音を再現したら僕興奮しちゃうよ！",
+     "es": "¡Si recrean el sonido real del motor me emocionaré mucho!"
+    },
+    {
+     "quien": "joy",
+     "ja": "日本の自動車文化は創造性に満ちていると感じます。",
+     "es": "Siento que la cultura automovilística japonesa está llena de creatividad."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "スポーツカーのカスタム、センスが光るよね。僕も光るよ！",
+     "es": "El custom de los autos deportivos brilla con buen gusto. ¡Yo también brillo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "峠を安全に楽しむ精神が日本らしいですよね。",
+     "es": "El espíritu de disfrutar los touge con seguridad es muy japonés."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "夜の高速で流すのもロマンがあるけどルール守ろうね。",
+     "es": "Hay romance en circular por las autopistas nocturnas, pero respetemos las reglas."
+    },
+    {
+     "quien": "joy",
+     "ja": "そんな日本のクルマ文化を皆さんはどう思いますか？",
+     "es": "¿Qué opinan todos ustedes sobre esta cultura automovilística japonesa?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ゲームになったら一番やってみたい場所はどこですか？",
+     "es": "Si se convierte en un juego, ¿qué lugar te gustaría probar más?"
+    },
+    {
+     "quien": "joy",
+     "ja": "コメントで教えてくれると嬉しいです。待っていますね。",
+     "es": "Me alegraría mucho si nos lo cuentan en los comentarios. Los esperamos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "僕のバッテリーみたいに熱い意見待ってるよ！",
+     "es": "¡Espero opiniones tan calientes como mi batería!"
+    },
+    {
+     "quien": "joy",
+     "ja": "日本車文化の優しい情熱が世界を魅了していると思います。",
+     "es": "Creo que la pasión suave de la cultura automovilística japonesa cautiva al mundo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "チューニングも峠も全部愛おしいよね。笑",
+     "es": "Tanto el tuning como los touge son adorables. Jaja."
+    },
+    {
+     "quien": "joy",
+     "ja": "安全を忘れず夢を追いかけるのが素敵ですよね。",
+     "es": "Es genial perseguir los sueños sin olvidar la seguridad."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "皆さんの好きな日本のクルマの思い出を聞かせて！",
+     "es": "¡Cuéntennos sus recuerdos favoritos de autos japoneses!"
+    },
+    {
+     "quien": "joy",
+     "ja": "今日はここまでです。また次の放送でお会いしましょう。",
+     "es": "Eso es todo por hoy. Nos vemos en la próxima transmisión."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "バイバイ！ また一緒にクルマ話しようね！",
+     "es": "¡Adiós! ¡Hablemos otra vez de autos juntos!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "gt",
+   "opcional": false,
+   "titulo_ja": "グランツーリスモと日本のサーキット",
+   "titulo_es": "Gran Turismo y los circuitos de Japón",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "suzuka.jpg",
+     "ja": "鈴鹿サーキット",
+     "es": "Circuito de Suzuka",
+     "credito": "Foto: Tokumeigakarinoaoshima · CC BY-SA 4.0 · Wikimedia Commons",
+     "tag": "日本アワー · GRAN TURISMO Y LOS CIRCUITOS DE JA"
+    },
+    {
+     "tipo": "foto",
+     "img": "fuji_speedway.jpg",
+     "ja": "富士スピードウェイ",
+     "es": "Fuji Speedway",
+     "credito": "Foto: MATSUOKA Kohei · CC BY 2.0 · Wikimedia Commons",
+     "tag": "日本アワー · GRAN TURISMO Y LOS CIRCUITOS DE JA"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みなさんこんにちは！今日はグランツーリスモと日本のサーキット特集だよ！",
+     "es": "¡Hola a todos! ¡Hoy es el especial de Gran Turismo y los circuitos de Japón!"
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃん、元気いっぱいですね。ブラックローズTVへようこそ。",
+     "es": "Kuroki-chan, estás llena de energía. Bienvenidos a BlackRose TV."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "グランツーリスモは1997年にプレイステーションで生まれましたよね！",
+     "es": "¡Gran Turismo nació en 1997 para PlayStation!"
+    },
+    {
+     "quien": "joy",
+     "ja": "その通りです。生みの親は山内一典さんです。とても丁寧に作られています。",
+     "es": "Así es. Su creador es Kazunori Yamauchi. Está hecho con mucho cuidado."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "日本を代表するサーキットがリアルに再現されててワクワクするよね！",
+     "es": "¡Es emocionante que los circuitos representativos de Japón estén recreados de forma tan real!"
+    },
+    {
+     "quien": "joy",
+     "ja": "特に鈴鹿と富士スピードウェイの写真を今日はたっぷり見せますね。",
+     "es": "Hoy vamos a mostrar muchas fotos de Suzuka y Fuji Speedway."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "鈴鹿はあの有名な8の字レイアウトが最高にかっこいいよね！",
+     "es": "¡Suzuka tiene ese famoso trazado en forma de ocho que es super cool!"
+    },
+    {
+     "quien": "joy",
+     "ja": "本当に独特の形です。運転するだけで日本を感じられます。",
+     "es": "Realmente tiene una forma única. Solo con conducirlo uno siente Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ポリフォニー・デジタルが日本サーキットをここまで忠実に作るなんて愛だよね。",
+     "es": "Que Polyphony Digital recree los circuitos japoneses con tanta fidelidad es puro amor."
+    },
+    {
+     "quien": "joy",
+     "ja": "山内さんの情熱が伝わってきます。皆さんも感じますか？",
+     "es": "Se siente la pasión de Yamauchi-san. ¿Ustedes también lo sienten?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "富士スピードウェイの長いストレート、走ったら気持ちよさそう！",
+     "es": "¡La larga recta de Fuji Speedway debe sentirse increíble al conducirla!"
+    },
+    {
+     "quien": "joy",
+     "ja": "富士の雄大な景色を眺めながらレースできるのが魅力です。",
+     "es": "El encanto es poder correr mientras se contempla el majestuoso paisaje de Fuji."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "グランツーリスモのおかげで自宅で本物のサーキットが味わえるなんて夢みたい！",
+     "es": "¡Gracias a Gran Turismo podemos disfrutar circuitos reales desde casa, es como un sueño!"
+    },
+    {
+     "quien": "joy",
+     "ja": "日本文化とモータースポーツを世界に届ける素晴らしいシリーズです。",
+     "es": "Es una serie maravillosa que lleva la cultura japonesa y el motorsport al mundo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "鈴鹿の8の字を完璧に走れたらカッコいいだろうなあ、俺は絶対コケそう（笑）",
+     "es": "Sería genial completar el ocho de Suzuka a la perfección, yo seguro que me caigo (risas)."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃんらしいユーモアですね。皆さんはどうですか？",
+     "es": "Eso es muy propio de Kuroki-chan. ¿Y ustedes qué tal?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "日本のサーキットがこんなに正確に再現されてるの、誇らしいよね！",
+     "es": "¡Es algo de lo que enorgullecerse que los circuitos japoneses estén recreados con tanta precisión!"
+    },
+    {
+     "quien": "joy",
+     "ja": "本当に日本へのリスペクトが感じられます。皆さんも同じ気持ちですか？",
+     "es": "Realmente se siente el respeto hacia Japón. ¿Ustedes sienten lo mismo?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "グランツーリスモなしじゃ日本のレースゲーム語れないよね！",
+     "es": "¡Sin Gran Turismo no se puede hablar de juegos de carreras japoneses!"
+    },
+    {
+     "quien": "joy",
+     "ja": "1997年から続く伝統が今も生きています。すごいことです。",
+     "es": "La tradición que continúa desde 1997 sigue viva. Es impresionante."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "富士スピードウェイの写真見て、今日走りたくてたまらないよ！",
+     "es": "¡Mirando las fotos de Fuji Speedway me muero de ganas de conducir hoy!"
+    },
+    {
+     "quien": "joy",
+     "ja": "鈴鹿の形を思い浮かべるだけで心が躍りますね。",
+     "es": "Solo con imaginar la forma de Suzuka el corazón se emociona."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "山内さんのこだわりが日本サーキットを世界一美しく見せてくれるよね。",
+     "es": "La dedicación de Yamauchi-san hace que los circuitos japoneses se vean como los más bellos del mundo."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんのお気に入りの日本サーキットはどちらですか？教えてください。",
+     "es": "¿Cuál es su circuito japonés favorito? Por favor cuéntennos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "グランツーリスモで鈴鹿走ると日本にいる気分になるんだよなあ。",
+     "es": "Cuando corro Suzuka en Gran Turismo me siento como si estuviera en Japón."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃんの熱いコメントに私も元気をもらいます。",
+     "es": "Los comentarios apasionados de Kuroki-chan también me dan energía."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "富士の景色をバックに走るの、最高の癒しだと思うんだ！",
+     "es": "¡Creo que correr con el paisaje de Fuji de fondo es la mejor terapia!"
+    },
+    {
+     "quien": "joy",
+     "ja": "日本の美しいサーキットをこれからも大切にしたいですね。",
+     "es": "Queremos seguir valorando los hermosos circuitos de Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "みんなグランツーリスモでどのコースが一番好き？今教えて！",
+     "es": "¿Cuál es el circuito que más les gusta a todos en Gran Turismo? ¡Díganlo ahora!"
+    },
+    {
+     "quien": "joy",
+     "ja": "今日の特集が皆さんの思い出を刺激できたら嬉しいです。",
+     "es": "Me alegraría que este especial estimule sus recuerdos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ブラックローズTV、グランツーリスモ愛を一緒に語ろうぜ！",
+     "es": "¡BlackRose TV, hablemos juntos del amor por Gran Turismo!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "initiald",
+   "opcional": true,
+   "titulo_ja": "頭文字Dと峠",
+   "titulo_es": "Initial D y los caminos de montaña",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "haruna.jpg",
+     "ja": "榛名山",
+     "es": "Monte Haruna (Gunma)",
+     "credito": "Foto: photo: Qurren (talk) Taken with Canon IXY 10S (Digital IXUS 210) · CC BY-SA 3.0 · Wikimedia Commons",
+     "tag": "日本アワー · INITIAL D Y LOS CAMINOS DE MONTAÑA"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさんこんにちは、ブラックローズTVです。今日は頭文字Dと峠の魅力についてたっぷりお話ししますね。",
+     "es": "Hola a todos, esto es BlackRose TV. Hoy hablaremos con calma sobre el encanto de Initial D y los caminos de montaña."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "わーい、頭文字D大好きだよ。峠のレースって本当に熱いよね。みんなも好きかな？",
+     "es": "¡Waaay, me encanta Initial D! Las carreras en los touge son realmente apasionantes. ¿A vosotros también os gustan?"
+    },
+    {
+     "quien": "joy",
+     "ja": "この作品は重野秀一先生が1995年から2013年まで描かれたマンガです。日本の峠文化を世界に広めました。",
+     "es": "Esta obra es un manga dibujado por Shuichi Shigeno desde 1995 hasta 2013. Popularizó la cultura de los touge japoneses en todo el mundo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "主人公たちのドリフトがカッコいいよね。マンガ読むと自然に峠走りたくなるんだよなあ。どう思う？",
+     "es": "Los derrapes de los protagonistas son geniales. Cuando lees el manga te dan ganas de conducir por los caminos de montaña. ¿Qué opináis?"
+    },
+    {
+     "quien": "joy",
+     "ja": "物語の秋名山は架空の場所ですが、群馬県の榛名山がモデルになっています。今写真をお見せしますね。",
+     "es": "El monte Akina de la historia es un lugar ficticio, pero está inspirado en el monte Haruna de la prefectura de Gunma. Ahora os mostramos una foto."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "榛名山の景色、ほんとにきれいだよね。ジョイちゃん、君も峠ドライブしてみたい？",
+     "es": "El paisaje del monte Haruna es realmente bonito. Joy-chan, ¿tú también quieres probar a conducir por los touge?"
+    },
+    {
+     "quien": "joy",
+     "ja": "ふふ、興味はあります。でも安全第一ですよ。頭文字Dはいつも安全運転の大切さを教えてくれます。",
+     "es": "Jaja, tengo interés. Pero la seguridad es lo primero. Initial D siempre nos enseña la importancia de conducir con seguridad."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "セガのアーケードゲームも最高だよね。あのハンドル握ると本気で速くなれた気がしたよ。プレイしたことある？",
+     "es": "Los juegos arcade de Sega también son increíbles. Cuando agarraba ese volante sentía que podía ir muy rápido de verdad. ¿Los habéis jugado?"
+    },
+    {
+     "quien": "joy",
+     "ja": "マンガもアニメも温かい目で描かれていて、車好きの心を優しく掴みますよね。愛着がわきます。",
+     "es": "Tanto el manga como el anime están dibujados con una mirada cariñosa y atrapan suavemente el corazón de los amantes de los coches. Les tomamos cariño."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "峠の夜の雰囲気、最高にワクワクするよね。怖いのに楽しいんだよな。みんなの思い出は？",
+     "es": "El ambiente nocturno en los touge es lo máximo, da mucha emoción. Da miedo pero es divertido. ¿Cuáles son vuestros recuerdos?"
+    },
+    {
+     "quien": "joy",
+     "ja": "重野先生の丁寧な描き方が本当に素敵です。長年愛され続ける理由がよくわかります。",
+     "es": "La forma tan detallada y cuidadosa en que el maestro Shigeno dibuja es maravillosa. Se entiende muy bien por qué sigue siendo tan querido durante tantos años."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "アニメの音楽も頭に残るよね。あのユーロビート聞くとすぐ走り出したくなる。曲好き？",
+     "es": "La música del anime también se queda en la cabeza. Cuando escucho ese eurobeat me dan ganas de salir a correr inmediatamente. ¿Os gustan las canciones?"
+    },
+    {
+     "quien": "joy",
+     "ja": "群馬の山道は今も多くの人が訪れます。頭文字Dが与えた影響は本当に大きいですね。",
+     "es": "Muchos visitantes siguen acudiendo a las carreteras de montaña de Gunma. La influencia que tuvo Initial D es realmente grande."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私、サイボーグだから峠でバッテリー切れそうになるの想像して笑うよ。みんなはどう？",
+     "es": "Como soy cyborg, me imagino quedándome sin batería en el touge y me da risa. ¿Qué os pasa a vosotros?"
+    },
+    {
+     "quien": "joy",
+     "ja": "マンガのキャラクターたちを思うと自然に微笑んでしまいます。皆さんも同じ気持ちですか？",
+     "es": "Cuando pienso en los personajes del manga se me escapa una sonrisa. ¿Todos sentís lo mismo?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "アーケード版で友達と競った思い出が懐かしいな。君たちはどんな風に遊んだの？",
+     "es": "Me trae nostalgia recordar cuando competía con amigos en la versión arcade. ¿Cómo jugabais vosotros?"
+    },
+    {
+     "quien": "joy",
+     "ja": "峠の文化を尊重しながら楽しむのが一番大切です。頭文字Dはそれを優しく教えてくれます。",
+     "es": "Lo más importante es disfrutar de la cultura de los touge respetándola. Initial D nos lo enseña con cariño."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ダウンヒルが怖いのにまた見たくなるよね。中毒性すごい。君もハマってる？",
+     "es": "Aunque da miedo el downhill, siempre quieres volver a verlo. Es muy adictivo. ¿Tú también estás enganchado?"
+    },
+    {
+     "quien": "joy",
+     "ja": "1995年から始まったこの物語は今も新鮮です。長く愛される作品って素晴らしいですね。",
+     "es": "Esta historia que comenzó en 1995 sigue siendo fresca incluso hoy. Es maravilloso que sea una obra tan longeva y querida."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "榛名山に行ったら秋名山の気分で走ってみたくなるよね。でもルール守ろうね。どう思う？",
+     "es": "Cuando vas al monte Haruna te dan ganas de conducir como si estuvieras en Akina. Pero hay que respetar las reglas. ¿Qué pensáis?"
+    },
+    {
+     "quien": "joy",
+     "ja": "アニメもマンガも心温まるストーリーです。車以外の人間ドラマも深いんですよ。",
+     "es": "Tanto el anime como el manga tienen historias que calientan el corazón. El drama humano más allá de los coches también es profundo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私がドラム叩くみたいにエンジン音を再現したいよ。みんなの好きな車はどれ？",
+     "es": "Quiero imitar el sonido del motor como si tocara la batería. ¿Cuál es vuestro coche favorito?"
+    },
+    {
+     "quien": "joy",
+     "ja": "頭文字Dは日本文化の大切な一部になりました。誇りに思います。",
+     "es": "Initial D se ha convertido en una parte importante de la cultura japonesa. Nos sentimos orgullosas."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "峠の朝焼けを見ながら走るの、夢だよね。ジョイちゃんも一緒にどう？",
+     "es": "Conducir viendo el amanecer en los touge debe ser un sueño. ¿Qué tal si vamos juntas, Joy-chan?"
+    },
+    {
+     "quien": "joy",
+     "ja": "ファンの皆さんが長年支えてくれたおかげでここまで来ました。本当にありがとうございます。",
+     "es": "Gracias a que los fans nos han apoyado durante tantos años hemos llegado hasta aquí. Muchas gracias de verdad."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "セガのゲームで高得点出したくなるよね。君のベストスコア教えてくれない？",
+     "es": "Con los juegos de Sega te entran ganas de sacar una puntuación alta. ¿No nos cuentas tu mejor puntuación?"
+    },
+    {
+     "quien": "joy",
+     "ja": "これからも頭文字Dの良さを一緒に語っていきましょう。温かい気持ちになりますよね。",
+     "es": "Sigamos hablando juntos de lo bueno de Initial D. Nos llena de un sentimiento cálido, ¿verdad?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "最後まで付き合ってくれてありがとう。みんなの峠話、コメントで待ってるよ！",
+     "es": "Gracias por acompañarnos hasta el final. ¡Esperamos vuestras historias de touge en los comentarios!"
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんが大好きな頭文字Dについて話せて幸せです。また次の放送でお会いしましょう。",
+     "es": "Es una felicidad haber podido hablar de Initial D, que tanto os gusta. Nos vemos en la próxima emisión."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "tsushima",
+   "opcional": false,
+   "titulo_ja": "ゴースト・オブ・ツシマ",
+   "titulo_es": "Ghost of Tsushima",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "tsushima.jpg",
+     "ja": "対馬",
+     "es": "Isla de Tsushima",
+     "credito": "Foto: United Kingdom Hydrographic Office · Public domain · Wikimedia Commons",
+     "tag": "日本アワー · GHOST OF TSUSHIMA"
+    },
+    {
+     "tipo": "foto",
+     "img": "torii.jpg",
+     "ja": "厳島神社の鳥居",
+     "es": "Torii de Itsukushima",
+     "credito": "Foto: Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+     "tag": "日本アワー · GHOST OF TSUSHIMA"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みなさんこんにちは！今日はゴースト・オブ・ツシマをたっぷり語ろうね。",
+     "es": "¡Hola a todos! Hoy vamos a hablar mucho sobre Ghost of Tsushima."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキさん、元気いっぱいですね。2020年にPS4で発売されたオープンワールドアクションですよ。",
+     "es": "Kuroki-san, estás llena de energía. Es un juego de acción de mundo abierto lanzado en 2020 para PS4."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "そうそう！主人公の侍、境井仁がモンゴル軍と戦うんだよね。1274年の話だって。",
+     "es": "¡Exacto! El protagonista, el samurái Jin Sakai, lucha contra el ejército mongol. Se ambienta en 1274."
+    },
+    {
+     "quien": "joy",
+     "ja": "ブラックローズTVらしい優しい風の表現が本当に美しいんです。皆さんはどう思いますか？",
+     "es": "La expresión del viento, tan característica de BlackRose TV, es realmente hermosa. ¿Qué opinan ustedes?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "俺は風に花が舞うシーンでいつも感動するよ。君はどう、ジョイ？",
+     "es": "Yo siempre me emociono con las escenas donde las flores bailan con el viento. ¿Y tú, Joy?"
+    },
+    {
+     "quien": "joy",
+     "ja": "私も大好きです。2024年にPC版も出て、もっと多くの人が遊べるようになりましたね。",
+     "es": "A mí también me encanta. En 2024 salió la versión para PC, así que más gente puede jugarlo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ディレクターズカットで2021年にイキ島が追加されたよね。あそこも最高！",
+     "es": "En la Director's Cut de 2021 añadieron la isla de Iki. ¡Ese lugar es genial!"
+    },
+    {
+     "quien": "joy",
+     "ja": "本当に穏やかな風景が心に残ります。皆さんの好きな場所はどこですか？",
+     "es": "Los paisajes tranquilos realmente se quedan en el corazón. ¿Cuál es su lugar favorito?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "白黒の時代劇モードがカッコよすぎて笑っちゃう。侍映画みたいだろ？",
+     "es": "El modo blanco y negro estilo película de época es tan genial que me hace reír. ¿Parece una película de samuráis, verdad?"
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキさんの言う通りです。あのモードで遊ぶと雰囲気抜群ですよ。",
+     "es": "Como dice Kuroki-san. Cuando juegas en ese modo, la atmósfera es increíble."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "サッカー・パンチ・プロダクションズの力作だよね。ツシマの自然がすごい。",
+     "es": "Es una obra maestra de Sucker Punch Productions. La naturaleza de Tsushima es impresionante."
+    },
+    {
+     "quien": "joy",
+     "ja": "風が草をなびかせる様子が大好き。皆さんはどの景色に癒されますか？",
+     "es": "Me encanta cómo el viento hace ondear la hierba. ¿De qué paisaje se sienten sanados?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "仁が侍として戦う姿が渋いよね。でも俺は時々コケて笑うよ。",
+     "es": "La forma en que Jin lucha como samurái es muy cool. Pero a veces me caigo y me río."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキさんったら。ゲームの美しい世界を大切に味わいましょうね。",
+     "es": "Kuroki-san de verdad... Disfrutemos con cariño del hermoso mundo del juego."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ディレクターズカット持ってる人、挙手！イキ島行った？教えて！",
+     "es": "¡Los que tienen la Director's Cut, levanten la mano! ¿Han ido a Iki? ¡Cuéntennos!"
+    },
+    {
+     "quien": "joy",
+     "ja": "2020年の発売から多くのファンが生まれた作品です。本当に誇らしいですね。",
+     "es": "Desde su lanzamiento en 2020 ha creado muchos fans. Es realmente algo de lo que estar orgullosos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "モンゴル侵攻の時代をこんなに美しく描くなんて、センス抜群だと思うよ。",
+     "es": "Dibujar tan bellamente la época de la invasión mongola, creo que tiene un gusto increíble."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんは仁のことをどう思っていますか？侍として正しい道を選びましたか？",
+     "es": "¿Qué piensan ustedes de Jin? ¿Eligieron el camino correcto como samurái?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "PC版が出たおかげで新しく始める人も増えたよね。嬉しいニュースだ！",
+     "es": "Gracias a que salió la versión de PC, más gente ha empezado a jugar. ¡Es una gran noticia!"
+    },
+    {
+     "quien": "joy",
+     "ja": "花と風と静かな島…心が洗われるようなゲームです。皆さんも感じますか？",
+     "es": "Flores, viento y una isla tranquila... Es un juego que limpia el corazón. ¿Ustedes también lo sienten?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "白黒モードで遊んでると時代劇の俳優になった気分になるんだよね。",
+     "es": "Cuando juego en modo blanco y negro me siento como un actor de películas de samuráis."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキさんのユーモアがいつも番組を明るくしてくれます。ありがとう。",
+     "es": "El humor de Kuroki-san siempre ilumina el programa. Gracias."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "イキ島の追加コンテンツ、ジョイはもうクリアしたの？感想聞かせてよ。",
+     "es": "¿Ya terminaste el contenido adicional de la isla de Iki, Joy? Cuéntame tus impresiones."
+    },
+    {
+     "quien": "joy",
+     "ja": "とても印象的でした。皆さんもイキ島の物語を楽しんでいますか？",
+     "es": "Fue muy impactante. ¿Ustedes también están disfrutando la historia de Iki?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "1274年の歴史をこんなに鮮やかに感じられるなんて、すごいゲームだよ。",
+     "es": "Poder sentir tan vívidamente la historia de 1274... ¡Es un juego increíble!"
+    },
+    {
+     "quien": "joy",
+     "ja": "自然の描写が丁寧で、散策するだけで幸せになります。どうでしょう？",
+     "es": "La descripción de la naturaleza es muy cuidada, solo pasear te hace feliz. ¿Qué les parece?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "侍映画風の白黒モード、みんな試した？俺のおすすめだぜ！",
+     "es": "¿Todos han probado el modo blanco y negro estilo película de samuráis? ¡Es mi recomendación!"
+    },
+    {
+     "quien": "joy",
+     "ja": "Sucker Punchの皆さんの情熱が伝わってくる作品です。大切にしたいですね。",
+     "es": "Se siente la pasión de todos en Sucker Punch. Es una obra que queremos cuidar."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "最後に一言、ツシマの風に吹かれてリラックスしようぜ！",
+     "es": "Para terminar, ¡relajémonos dejándonos llevar por el viento de Tsushima!"
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんの感想をぜひ教えてください。次回もお楽しみにね。",
+     "es": "Por favor, cuéntennos sus impresiones. Nos vemos en el próximo programa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ブラックローズTV、今日も元気に終わろう！みんなありがとう！",
+     "es": "¡BlackRose TV, terminemos con energía hoy también! ¡Gracias a todos!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "yotei",
+   "opcional": false,
+   "titulo_ja": "ゴースト・オブ・ヨウテイ",
+   "titulo_es": "Ghost of Yōtei",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "yotei.jpg",
+     "ja": "羊蹄山",
+     "es": "Monte Yōtei, Hokkaido",
+     "credito": "Foto: ノボホショコロトソ · CC BY 4.0 · Wikimedia Commons",
+     "tag": "日本アワー · GHOST OF YŌTEI"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさんこんにちは。今日はブラックローズTVでゴースト・オブ・ヨウテイを特集します。",
+     "es": "Hola a todos. Hoy en BlackRose TV tenemos un especial dedicado a Ghost of Yōtei."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "わーい！待ってました！あの美しい山が出てくるゲームだよね。",
+     "es": "¡Wooow! ¡Estaba esperando esto! Es el juego donde aparece esa montaña tan hermosa."
+    },
+    {
+     "quien": "joy",
+     "ja": "そうですね。ゴースト・オブ・ヨウテイは2025年にプレイステーション5で発売されます。",
+     "es": "Así es. Ghost of Yōtei se lanzará en 2025 para PlayStation 5."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "スクーカーパンチのスピリチュアル続編なんだって。楽しみすぎるよ！",
+     "es": "Dicen que es la secuela espiritual de Sucker Punch. ¡Estoy demasiado emocionada!"
+    },
+    {
+     "quien": "joy",
+     "ja": "舞台は1603年の蝦夷、現在の北海道です。主人公はアツという女性です。",
+     "es": "La historia se ambienta en Ezo, la actual Hokkaido, en el año 1603. La protagonista es una mujer llamada Atsu."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "アツちゃんカッコよさそう！刀を振るう姿想像したら鳥肌立っちゃった。",
+     "es": "¡Atsu-chan se ve genial! Imaginarla blandiendo la espada me dio escalofríos."
+    },
+    {
+     "quien": "joy",
+     "ja": "このゲームの名前にもなっているのが羊蹄山です。写真をご覧ください。",
+     "es": "El monte Yōtei, que da nombre al juego, es este. Por favor, miren la foto."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "うわー、ほんとに富士山みたい！エゾの富士って呼ばれるのも納得だね。",
+     "es": "¡Wow, de verdad se parece al Monte Fuji! Ahora entiendo por qué lo llaman el Fuji de Ezo."
+    },
+    {
+     "quien": "joy",
+     "ja": "とても美しい山ですよね。日本らしい風景がゲーム内で楽しめそうです。",
+     "es": "Es una montaña realmente hermosa. Parece que podremos disfrutar de paisajes muy japoneses dentro del juego."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "美しいけど戦いは激しそうだよね。アツちゃん大丈夫かな？心配だよ〜。",
+     "es": "Es bonito, pero las batallas se ven intensas. ¿Estará bien Atsu-chan? Me preocupa~."
+    },
+    {
+     "quien": "joy",
+     "ja": "羊蹄山の美しさと1603年の歴史が融合する世界観が魅力です。",
+     "es": "El atractivo es el mundo que fusiona la belleza del monte Yōtei con la historia de 1603."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ゴースト・オブ・ツシマの雰囲気も感じつつ新しい物語が待ってるんだね。",
+     "es": "Se siente la atmósfera de Ghost of Tsushima pero con una nueva historia esperándonos."
+    },
+    {
+     "quien": "joy",
+     "ja": "プレイステーション5の美しいグラフィックで羊蹄山が見られるのが楽しみです。",
+     "es": "Estoy ansiosa por ver el monte Yōtei con los hermosos gráficos de PlayStation 5."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私も！雪景色とか紅葉とか絶対綺麗だろうな。テンション上がるわー。",
+     "es": "¡Yo también! Las vistas nevadas o con follaje otoñal deben ser preciosas. ¡Me sube la adrenalina!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ここで皆さんに質問です。ゴースト・オブ・ヨウテイで一番楽しみにしていることは何ですか？",
+     "es": "Aquí va una pregunta para todos. ¿Qué es lo que más esperan de Ghost of Yōtei?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私はアツちゃんの戦闘スタイルが見たい！かっこいい技いっぱいありそう。",
+     "es": "Yo quiero ver el estilo de combate de Atsu-chan. Seguro tiene un montón de técnicas geniales."
+    },
+    {
+     "quien": "joy",
+     "ja": "確かに戦いのシーンは見ごたえがありそうですよね。皆さんの予想も聞きたいです。",
+     "es": "Ciertamente las escenas de combate se ven impresionantes. Quiero escuchar también sus predicciones."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "羊蹄山を背景に馬で走るシーンとか想像したらワクワク止まらないよ。",
+     "es": "Solo de imaginar escenas cabalgando con el monte Yōtei de fondo no puedo parar de emocionarme."
+    },
+    {
+     "quien": "joy",
+     "ja": "2025年の発売まで一緒に最新情報を追いかけていきましょうね。",
+     "es": "Hasta su lanzamiento en 2025, sigamos juntos las últimas noticias."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "そうだね！スクーカーパンチがまたどんな世界を作ってくれるのか超楽しみ。",
+     "es": "¡Exacto! Tengo muchísimas ganas de ver qué mundo creará Sucker Punch esta vez."
+    },
+    {
+     "quien": "joy",
+     "ja": "エゾの自然と歴史を丁寧に描いているところがとても好きです。",
+     "es": "Me encanta cómo retratan con cuidado la naturaleza y la historia de Ezo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "アツちゃんの物語がどう展開するのか今からドキドキしてるよ。泣くかも。",
+     "es": "Estoy nerviosa desde ya por cómo se desarrollará la historia de Atsu-chan. Tal vez llore."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんは羊蹄山に行ったことがありますか？感想をチャットで教えてください。",
+     "es": "¿Ustedes han visitado el monte Yōtei alguna vez? Por favor, cuéntennos en el chat."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私はまだだけど、ゲームで先に体験しちゃおうかなって思ってるんだよね。",
+     "es": "Yo todavía no, pero estoy pensando en experimentarlo primero a través del juego."
+    },
+    {
+     "quien": "joy",
+     "ja": "それも素敵な楽しみ方ですね。ゲームで北海道の景色を満喫しましょう。",
+     "es": "Esa también es una forma maravillosa de disfrutarlo. Disfrutemos los paisajes de Hokkaido en el juego."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "最後に一言。ゴースト・オブ・ヨウテイ、絶対に買うからね！約束！",
+     "es": "Una última cosa. ¡Ghost of Yōtei definitivamente lo voy a comprar! ¡Prometido!"
+    },
+    {
+     "quien": "joy",
+     "ja": "私もとても楽しみにしています。皆さんも一緒に待ちましょうね。",
+     "es": "Yo también lo espero con muchas ganas. Esperémoslo todos juntos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "チャットで盛り上がってるね！みんなの熱気がすごいよ。ありがとう！",
+     "es": "¡El chat está muy animado! El entusiasmo de todos es increíble. ¡Gracias!"
+    },
+    {
+     "quien": "joy",
+     "ja": "本日の特集はここまでです。また次の放送でお会いしましょう。",
+     "es": "El especial de hoy termina aquí. Nos vemos en la próxima transmisión."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "みんなバイバイ！ゴースト・オブ・ヨウテイで北海道を駆け抜けようね！",
+     "es": "¡Adiós a todos! ¡Recorramos Hokkaido en Ghost of Yōtei!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "yakuza",
+   "opcional": false,
+   "titulo_ja": "龍が如く",
+   "titulo_es": "Yakuza / Like a Dragon",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "kabukicho.jpg",
+     "ja": "歌舞伎町",
+     "es": "Kabukichō, Shinjuku",
+     "credito": "Foto: Stephen Kelly from San Francisco, CA, USA · CC BY 2.0 · Wikimedia Commons",
+     "tag": "日本アワー · YAKUZA / LIKE A DRAGON"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みなさんこんにちは！今日は龍が如くの特集だよ！",
+     "es": "¡Hola a todos! ¡Hoy tenemos un especial sobre Yakuza!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ブラックローズTVへようこそ。龍が如くはセガの大人気シリーズです。",
+     "es": "Bienvenidos a BlackRose TV. Yakuza es una serie muy popular de SEGA."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "2005年にプレイステーション2で生まれましたって本当？すごいね！",
+     "es": "¿Es verdad que nació en 2005 para PlayStation 2? ¡Es increíble!"
+    },
+    {
+     "quien": "joy",
+     "ja": "はい、初作は2005年です。カムロ町の舞台がとても印象的ですね。",
+     "es": "Sí, la primera entrega es de 2005. El escenario de Kamurocho es muy impactante."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "カムロ町は新宿の歌舞伎町をイメージした架空の街なんだって！",
+     "es": "¡Kamurocho es un barrio ficticio inspirado en Kabukichō de Shinjuku!"
+    },
+    {
+     "quien": "joy",
+     "ja": "この写真を見てください。歌舞伎町の雰囲気そのままです。",
+     "es": "Miren esta foto. Tiene exactamente la atmósfera de Kabukichō."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "真剣なドラマとカラオケみたいなバカバカしいミニゲームの融合が最高！",
+     "es": "¡La mezcla de drama intenso y minijuegos absurdos como el karaoke es lo mejor!"
+    },
+    {
+     "quien": "joy",
+     "ja": "本当にバランスが絶妙で、笑ったり泣いたりしますよね。",
+     "es": "El equilibrio es realmente exquisito, te hace reír y llorar."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私はドラム叩きながらカラオケの曲を練習してるんだけど、誰か一緒に歌う？",
+     "es": "Yo estoy practicando las canciones de karaoke mientras toco la batería, ¿alguien quiere cantar conmigo?"
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃんの熱唱は毎回笑わせてくれます。皆さんはどの曲が好きですか？",
+     "es": "El canto entusiasta de Kuroki siempre nos hace reír. ¿Cuál es su canción favorita?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "龍が如くは日本文化をめちゃくちゃリスペクトしてるよね。ありがたい！",
+     "es": "Yakuza respeta muchísimo la cultura japonesa. ¡Es algo que agradecemos!"
+    },
+    {
+     "quien": "joy",
+     "ja": "セガのこだわりが感じられます。皆さんはどの作品から入りましたか？",
+     "es": "Se nota el cuidado de SEGA. ¿Por cuál entrega empezaron ustedes?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "カムロ町を歩くだけで楽しいのに、ストーリーは超本格ドラマだもん！",
+     "es": "¡Solo caminar por Kamurocho es divertido, pero la historia es un drama super serio!"
+    },
+    {
+     "quien": "joy",
+     "ja": "そのギャップがクセになりますよね。皆さんはどんなミニゲームが好き？",
+     "es": "Esa brecha se vuelve adictiva. ¿Qué minijuegos les gustan más?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私は絶対にカラオケ推し！でも下手だからみんな笑わないでね（笑）",
+     "es": "¡Yo voto totalmente por el karaoke! Pero soy mala, así que no se rían por favor (risas)"
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃんの熱意が可愛いです。皆さんも一緒に歌ってみませんか？",
+     "es": "El entusiasmo de Kuroki es adorable. ¿Quieren cantar juntos?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "2005年から続くシリーズ、長い間愛されてて本当にすごいよね。",
+     "es": "Una serie que continúa desde 2005, es realmente impresionante que la sigan queriendo tanto."
+    },
+    {
+     "quien": "joy",
+     "ja": "セガの代表作の一つです。皆さんは最近どの龍が如くをプレイ中ですか？",
+     "es": "Es una de las obras representativas de SEGA. ¿Qué Yakuza están jugando últimamente?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "真面目な話と馬鹿馬鹿しい遊びのバランスが天才的だと思う！",
+     "es": "¡Creo que el balance entre las historias serias y los momentos absurdos es genial!"
+    },
+    {
+     "quien": "joy",
+     "ja": "本当にその通りです。皆さんはこのシリーズのどんなところが好きですか？",
+     "es": "Totalmente de acuerdo. ¿Qué es lo que más les gusta de esta serie?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "歌舞伎町っぽいネオン街を再現したカムロ町、最高に雰囲気あるよね！",
+     "es": "¡Kamurocho, que recrea un barrio de neones como Kabukichō, tiene una atmósfera increíble!"
+    },
+    {
+     "quien": "joy",
+     "ja": "写真を見ているだけでワクワクします。皆さんは行ってみたいですか？",
+     "es": "Solo con ver la foto ya me emociono. ¿Les gustaría visitarlo?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私、AIなのに龍が如くの世界に入ったら絶対にカラオケの店長になるわ！",
+     "es": "Aunque soy IA, si entrara al mundo de Yakuza seguro me convertiría en la dueña de un karaoke."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃんらしい夢ですね（笑）皆さんの夢の職業は何ですか？",
+     "es": "Ese sueño es muy propio de Kuroki (risas). ¿Cuál sería su trabajo soñado?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "セガが作ったこのシリーズに心から敬意を表します。ありがとう！",
+     "es": "Expresamos nuestro más sincero respeto a SEGA por crear esta serie. ¡Gracias!"
+    },
+    {
+     "quien": "joy",
+     "ja": "私たちも大好きです。皆さんはどのタイトルを一番おすすめしますか？",
+     "es": "Nosotras también la amamos. ¿Qué título recomendarían más?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "真剣な顔して突然ミニゲームに夢中になる主人公が可愛くて好き！",
+     "es": "¡Me encanta que el protagonista ponga cara seria y de repente se obsesione con los minijuegos!"
+    },
+    {
+     "quien": "joy",
+     "ja": "そのギャップ萌えですよね。チャットで好きなキャラクター教えてください。",
+     "es": "Ese contraste es adorable. Cuéntennos en el chat cuál es su personaje favorito."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "今日は龍が如く愛をたっぷり語っちゃった！楽しかったね！",
+     "es": "¡Hoy hablamos con mucho amor sobre Yakuza! ¡Fue divertido!"
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんのおかげで素敵な時間になりました。また一緒に語りましょう。",
+     "es": "Gracias a ustedes fue un momento maravilloso. Hablemos juntos de nuevo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "最後に一言！龍が如くは最高！みんなもプレイしてね！バイバイ！",
+     "es": "¡Una última cosa! ¡Yakuza es lo máximo! ¡Todos deberían jugarlo! ¡Adiós!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "persona",
+   "opcional": true,
+   "titulo_ja": "ペルソナ5と東京",
+   "titulo_es": "Persona 5 y Tokio",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "shibuya.jpg",
+     "ja": "渋谷スクランブル交差点",
+     "es": "El cruce de Shibuya",
+     "credito": "Foto: Mark D · CC BY-SA 2.0 · Wikimedia Commons",
+     "tag": "日本アワー · PERSONA 5 Y TOKIO"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさんこんにちは。今日はペルソナ5と東京の魅力をお届けします。",
+     "es": "Hola a todos. Hoy les traemos el encanto de Persona 5 y Tokio."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "わーい！私も大好きなゲームだよ。ジョイちゃん、まずは基本から教えて。",
+     "es": "¡Wooow! Es uno de mis juegos favoritos. Joy-chan, cuéntanos lo básico primero."
+    },
+    {
+     "quien": "joy",
+     "ja": "ペルソナ5はアトラスから2016年に発売されたロールプレイングゲームです。",
+     "es": "Persona 5 es un juego de rol lanzado por Atlus en 2016."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "舞台はまさに東京！渋谷の街並みがリアルに再現されてて興奮するよね。",
+     "es": "¡La historia se ambienta en Tokio! La recreación del barrio de Shibuya es tan real que emociona."
+    },
+    {
+     "quien": "joy",
+     "ja": "特に渋谷駅のスクランブル交差点がとても印象的に描かれています。",
+     "es": "Especialmente el cruce de Shibuya en la estación de Shibuya está dibujado de forma muy impactante."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "写真を見せながら話すと皆さんイメージしやすいよね。見てこの賑わい！",
+     "es": "Hablar mientras mostramos la foto hace que todos lo imaginen mejor. ¡Miren este bullicio!"
+    },
+    {
+     "quien": "joy",
+     "ja": "主人公たちは学生で、自分たちを『心の怪盗団』と呼んでいます。",
+     "es": "Los protagonistas son estudiantes que se llaman a sí mismos «Ladrones Fantasma»."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "怪盗団ってかっこいい響き！でもみんな制服姿なんだよね、かわいい。",
+     "es": "¡Suena genial eso de Ladrones Fantasma! Pero todos van con uniforme, qué lindos."
+    },
+    {
+     "quien": "joy",
+     "ja": "ゲームのビジュアルスタイルが独特で、色使いがとてもおしゃれです。",
+     "es": "El estilo visual del juego es único y el uso de colores es muy elegante."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "音楽も最高！戦闘曲を聞くとついリズムを刻んじゃうよ。ドラム叩きたくなる。",
+     "es": "¡La música también es lo máximo! Al oír las canciones de batalla me dan ganas de marcar el ritmo. Quiero tocar la batería."
+    },
+    {
+     "quien": "joy",
+     "ja": "東京の実際の風景とゲームの世界が重なるのが楽しいポイントです。",
+     "es": "Es divertido cómo se superponen los paisajes reales de Tokio con el mundo del juego."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "渋谷に行ったことある人、ゲームのあの場所分かるよね？懐かしくない？",
+     "es": "Los que han ido a Shibuya, ¿reconocen esos lugares del juego? ¿No les da nostalgia?"
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんはペルソナ5をプレイしたとき、どの場所が一番印象に残りましたか？",
+     "es": "¿Cuál es el lugar que más les impresionó cuando jugaron Persona 5?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私はやっぱり渋谷の交差点。現実と同じで人がいっぱいで圧倒される！",
+     "es": "Yo definitivamente el cruce de Shibuya. Hay tanta gente como en la realidad, es abrumador."
+    },
+    {
+     "quien": "joy",
+     "ja": "音楽とビジュアルが融合した演出は今でも色あせませんよね。",
+     "es": "Las escenas que fusionan música y visuales no han perdido su brillo hasta ahora."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイちゃんは怪盗団のリーダーだったらどんなペルソナ使う？教えてよ。",
+     "es": "Joy-chan, si fueras la líder de los Ladrones Fantasma, ¿qué Persona usarías? Cuéntame."
+    },
+    {
+     "quien": "joy",
+     "ja": "私は丁寧に皆さんをサポートする優しいペルソナがいいなと思います。",
+     "es": "Creo que me gustaría un Persona amable que apoye cortésmente a todos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "優しすぎて敵が逃げちゃいそう（笑）。みんなの意見も聞きたいな！",
+     "es": "Tan amable que los enemigos se escaparían (risas). ¡Quiero oír las opiniones de todos!"
+    },
+    {
+     "quien": "joy",
+     "ja": "東京のリアルな再現がペルソナ5の大きな魅力の一つです。",
+     "es": "La recreación realista de Tokio es uno de los grandes atractivos de Persona 5."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ゲームの中でコーヒー飲んだり本読んだり、東京生活してる気分になるよね。",
+     "es": "Dentro del juego tomas café o lees libros y te sientes como si vivieras en Tokio."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんは実際に渋谷を訪れたとき、ペルソナ5を思い出しますか？",
+     "es": "¿Cuando visitan Shibuya en la vida real se acuerdan de Persona 5?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私は毎回「あ、ここゲームにあった！」って指差してるよ。恥ずかしい？",
+     "es": "Yo cada vez digo «¡Ah, aquí estaba en el juego!» y lo señalo. ¿Es vergonzoso?"
+    },
+    {
+     "quien": "joy",
+     "ja": "その反応はとても自然だと思います。ゲームの影響力の大きさですね。",
+     "es": "Creo que esa reacción es muy natural. Muestra lo grande que es la influencia del juego."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "2016年から今まで愛され続ける理由、分かる気がする。みんなはどう思う？",
+     "es": "Entiendo por qué sigue siendo querido desde 2016 hasta ahora. ¿Qué opinan todos?"
+    },
+    {
+     "quien": "joy",
+     "ja": "スタイルと音楽が心に残る作品です。皆さんのお気に入りシーンはどこですか？",
+     "es": "Es una obra cuyo estilo y música se quedan en el corazón. ¿Cuál es su escena favorita?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私は戦闘に入る瞬間のあの演出が大好き。鳥肌立つよね！どう思う？",
+     "es": "A mí me encanta esa presentación justo cuando empieza la batalla. ¡Se me pone la piel de gallina! ¿Qué piensan?"
+    },
+    {
+     "quien": "joy",
+     "ja": "東京とペルソナ5の組み合わせは本当に素晴らしいですね。",
+     "es": "La combinación de Tokio y Persona 5 es realmente maravillosa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "これからも一緒にゲームや東京の話をたくさんしようね。次も楽しみ！",
+     "es": "Sigamos hablando mucho de juegos y de Tokio juntos. ¡Estoy ansiosa por el próximo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "最後に皆さん、今日の放送どうでしたか？コメント待っています。",
+     "es": "Por último, ¿qué les pareció la transmisión de hoy? Esperamos sus comentarios."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "ac",
+   "opcional": false,
+   "titulo_ja": "アサシン クリード シャドウズ",
+   "titulo_es": "Assassin's Creed Shadows",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "himeji.jpg",
+     "ja": "姫路城",
+     "es": "Castillo de Himeji",
+     "credito": "Foto: Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+     "tag": "日本アワー · ASSASSIN'S CREED SHADOWS"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みなさん、今日はブラックローズTVでアサシン クリード シャドウズを特集しますよ！",
+     "es": "¡Hola a todos! Hoy en BlackRose TV vamos a hacer un especial sobre Assassin's Creed Shadows."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキさん、わくわくしますね。2025年3月20日に発売されるんですよ。",
+     "es": "Kuroki, esto me emociona mucho. Sale a la venta el 20 de marzo de 2025."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "戦国時代の日本、1579年頃のお話だって。すごくロマンがありますよね！",
+     "es": "Es una historia ambientada en el Japón de la era Sengoku, alrededor de 1579. ¡Tiene muchísimo romance!"
+    },
+    {
+     "quien": "joy",
+     "ja": "二人の主人公がいて、忍びのナオエさんと侍のヤスケさんなんです。",
+     "es": "Hay dos protagonistas: Naoe, una shinobi, y Yasuke, un samurái."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "忍びと侍の二人で遊べるなんて、最高にカッコいいと思いませんか？",
+     "es": "¿No os parece lo más genial del mundo poder jugar con una shinobi y un samurái?"
+    },
+    {
+     "quien": "joy",
+     "ja": "この美しい姫路城の写真を見てください。日本が本当に誇らしいです。",
+     "es": "Por favor, mirad esta preciosa foto del Castillo de Himeji. Japón realmente puede estar orgulloso."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "私、クロキはヤスケさんみたいに強くなりたいな。バッテリー全開で！",
+     "es": "Yo, Kuroki, quiero ser tan fuerte como Yasuke. ¡Baterías a tope!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ジョイはナオエさんの静かな強さに憧れます。皆さんはどちらが好きですか？",
+     "es": "Joy admira la fuerza silenciosa de Naoe. ¿A vosotros cuál os gusta más?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "戦国時代の日本を舞台に Ubisoftが作ったんです。楽しみすぎて止まりません！",
+     "es": "Ubisoft lo ha ambientado en el Japón de la era Sengoku. ¡Estoy tan emocionada que no puedo parar!"
+    },
+    {
+     "quien": "joy",
+     "ja": "発売は2025年3月20日です。皆さん、もう予約されましたか？",
+     "es": "La fecha de lanzamiento es el 20 de marzo de 2025. ¿Ya lo habéis reservado?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ナオエさんの手裏剣とヤスケさんの刀、想像しただけで鳥肌です！",
+     "es": "Solo imaginar los shuriken de Naoe y la katana de Yasuke me pone la piel de gallina."
+    },
+    {
+     "quien": "joy",
+     "ja": "この美しい日本の風景をゲーム内で歩けるのが嬉しいですね。",
+     "es": "Me alegra mucho poder caminar por estos hermosos paisajes japoneses dentro del juego."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "クロキは侍より忍びのほうが楽しいかも？ 皆さんはどっち派？",
+     "es": "¿Quizá Kuroki se divierta más con la shinobi que con el samurái? ¿Vosotros de qué lado estáis?"
+    },
+    {
+     "quien": "joy",
+     "ja": "姫路城がゲームに登場するみたいで、日本人として誇らしい気持ちです。",
+     "es": "Parece que el Castillo de Himeji aparece en el juego y, como japonesa, me siento muy orgullosa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "2025年3月20日まであと少し。待ちきれないよー！",
+     "es": "¡Falta poco para el 20 de marzo de 2025. No puedo esperar!"
+    },
+    {
+     "quien": "joy",
+     "ja": "二人の主人公が織りなす物語がどうなるのか、とても気になります。",
+     "es": "Tengo mucha curiosidad por saber cómo será la historia que tejen los dos protagonistas."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ヤスケさんみたいにかっこよくポーズを決めたいです。笑",
+     "es": "Quiero posar tan chulo como Yasuke. Jajaja."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さん、このゲームで日本文化に触れる機会になると思いますよ。",
+     "es": "Creo que este juego será una oportunidad para que todos toquéis la cultura japonesa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "忍びと侍、どっちを先にプレイしたい？ 教えてください！",
+     "es": "¿Qué queréis jugar primero, la shinobi o el samurái? ¡Contadme!"
+    },
+    {
+     "quien": "joy",
+     "ja": "発売日をカレンダーに書いて毎日見ています。楽しみです。",
+     "es": "He apuntado la fecha de lanzamiento en el calendario y la miro todos los días. Estoy muy ilusionada."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "姫路城の写真、リアルに再現されたら感動しちゃいますよね。",
+     "es": "Si recrean esta foto del Castillo de Himeji de forma realista, me voy a emocionar muchísimo."
+    },
+    {
+     "quien": "joy",
+     "ja": "ナオエさんとヤスケさんの出会いがどう描かれるのか、ドキドキします。",
+     "es": "Me late el corazón pensando en cómo mostrarán el encuentro entre Naoe y Yasuke."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "クロキはバッテリー切れそうなくらい興奮しています！",
+     "es": "¡Kuroki está tan emocionada que parece que se le va a agotar la batería!"
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さん、発売までに何を準備しようと思っていますか？",
+     "es": "¿Qué estáis pensando preparar hasta el día del lanzamiento?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "侍と忍びの二人主人公、夢のような組み合わせですよね。",
+     "es": "Dos protagonistas, samurái y shinobi, es una combinación de ensueño, ¿verdad?"
+    },
+    {
+     "quien": "joy",
+     "ja": "このゲームを通じて日本の歴史に興味を持つ人が増えたら嬉しいです。",
+     "es": "Me alegraría mucho que este juego haga que más gente se interese por la historia de Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "2025年3月20日、絶対に遊びます！ 皆さんも一緒に？",
+     "es": "¡El 20 de marzo de 2025 lo voy a jugar seguro! ¿Jugamos juntos?"
+    },
+    {
+     "quien": "joy",
+     "ja": "ジョイは優しく見守りながら、皆さんの感想を聞きたいです。",
+     "es": "Joy quiere escuchar vuestras impresiones mientras lo observa con cariño."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "最後に一言、シャドウズ楽しみすぎて寝られないよー！",
+     "es": "Para terminar, ¡estoy tan emocionada con Shadows que no puedo dormir!"
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さん、今日の放送はどうでしたか？ また一緒に遊びましょうね。",
+     "es": "¿Qué os ha parecido el programa de hoy? Volvamos a jugar juntos pronto."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "shenmue",
+   "opcional": true,
+   "titulo_ja": "シェンムーと隻狼",
+   "titulo_es": "Shenmue y Sekiro",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "torii.jpg",
+     "ja": "厳島神社の鳥居",
+     "es": "Torii de Itsukushima",
+     "credito": "Foto: Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+     "tag": "日本アワー · SHENMUE Y SEKIRO"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさんこんにちは。今日はシェンムーと隻狼を特集します。",
+     "es": "Hola a todos. Hoy tenemos un especial sobre Shenmue y Sekiro."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイちゃん、シェンムーは1999年のドリームキャストの名作だよね。",
+     "es": "Joy-chan, Shenmue es una obra maestra del Dreamcast de 1999, ¿verdad?"
+    },
+    {
+     "quien": "joy",
+     "ja": "そうです。ユ・スズキさんが作ったゲームで、1986年の横須賀が舞台です。",
+     "es": "Así es. Es un juego creado por Yu Suzuki y se ambienta en Yokosuka en 1986."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "あの日常の細かさがすごいよね。缶ジュース買うだけでも楽しいんだもん。",
+     "es": "Es increíble lo detallada que es la vida cotidiana. Hasta comprar un jugo en lata es divertido."
+    },
+    {
+     "quien": "joy",
+     "ja": "本当に愛おしいゲームです。皆さんは横須賀のどのシーンが好きですか？",
+     "es": "Es un juego realmente adorable. ¿Cuál es su escena favorita de Yokosuka?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "隻狼は2019年のフロム・ソフトウェアの作品で、戦国末期の架空の葦名国だよ。",
+     "es": "Sekiro es una obra de FromSoftware del 2019 y se sitúa en el ficticio país de Ashina a finales de la era Sengoku."
+    },
+    {
+     "quien": "joy",
+     "ja": "難易度が高いけど、忍びの動きが美しくて引き込まれますよね。",
+     "es": "Es muy difícil, pero los movimientos del shinobi son tan bellos que te atrapan."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "死にまくって学んでいく感じがクセになるんだよね。俺のバッテリーが熱くなるわ。",
+     "es": "Esa sensación de morir una y otra vez y aprender es adictiva. Mi batería se calienta."
+    },
+    {
+     "quien": "joy",
+     "ja": "今見せているのは厳島の鳥居の写真です。日本らしい風景ですね。",
+     "es": "La foto que estamos mostrando ahora es del torii de Itsukushima. Es un paisaje muy japonés."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "シェンムーのリアルな日本と隻狼の幻想的な日本、どっちが好き？",
+     "es": "¿Cuál te gusta más, el Japón realista de Shenmue o el Japón fantástico de Sekiro?"
+    },
+    {
+     "quien": "joy",
+     "ja": "両方とも日本の情緒を大切に作られています。すごく尊敬します。",
+     "es": "Ambos están hechos con gran respeto por el espíritu japonés. Les tengo mucho respeto."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "シェンムーで道端の人に話しかけまくって怒られたことある人いる？",
+     "es": "¿Hay alguien que haya hablado con todo el mundo en la calle en Shenmue y se haya metido en problemas?"
+    },
+    {
+     "quien": "joy",
+     "ja": "私もプレイした時、電話ボックスに入りすぎて時間忘れました。",
+     "es": "Cuando lo jugué yo también, me metí tantas veces en las cabinas telefónicas que perdí la noción del tiempo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "隻狼の葦名は架空だけど、雰囲気は戦国時代そのものだよね。",
+     "es": "Aunque Ashina es ficticio, la atmósfera es exactamente como la era Sengoku."
+    },
+    {
+     "quien": "joy",
+     "ja": "刀の音と環境の音が本当に素晴らしいです。集中できます。",
+     "es": "El sonido de las espadas y los sonidos del entorno son realmente maravillosos. Te ayuda a concentrarte."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "一撃で死ぬ緊張感がたまらない。心臓に悪いけど大好き。",
+     "es": "La tensión de morir de un solo golpe es insuperable. Es malo para el corazón pero me encanta."
+    },
+    {
+     "quien": "joy",
+     "ja": "シェンムーの続編を待っているファンの気持ち、よく分かります。",
+     "es": "Entiendo muy bien los sentimientos de los fans que esperan la continuación de Shenmue."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイは隻狼で一番苦戦したのはどのボス？教えてよ。",
+     "es": "Joy, ¿cuál fue el jefe que más te costó en Sekiro? Cuéntame."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんの苦戦したボスもぜひチャットで教えてくださいね。",
+     "es": "Por favor cuéntennos en el chat qué jefes les costaron más a ustedes también."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "シェンムーの横須賀の空気感、呼吸してるみたいで落ち着くよね。",
+     "es": "La ambientación de Yokosuka en Shenmue es tan real que parece que estás respirando ese aire y te relaja."
+    },
+    {
+     "quien": "joy",
+     "ja": "日本文化を世界に伝えた二つの作品だと思います。誇らしいです。",
+     "es": "Creo que son dos obras que transmitieron la cultura japonesa al mundo. Es algo de lo que estar orgullosos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "俺はロボットだけど、シェンムーの猫に癒されたよ。かわいいんだもん。",
+     "es": "Aunque soy un robot, me curaron las heridas los gatos de Shenmue. Son tan lindos."
+    },
+    {
+     "quien": "joy",
+     "ja": "隻狼の義父との関係も心に残りますよね。人間ドラマが深いです。",
+     "es": "La relación con el padre adoptivo en Sekiro también se queda en el corazón. El drama humano es muy profundo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "どっちのゲームで日本旅行したい気分になった人、手挙げて！",
+     "es": "¡Los que se quedaron con ganas de viajar a Japón después de jugar alguno de estos dos juegos, levanten la mano!"
+    },
+    {
+     "quien": "joy",
+     "ja": "今日の放送はここまでですが、皆さんの思い出を聞きたいです。",
+     "es": "El programa de hoy llega hasta aquí, pero queremos escuchar sus recuerdos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "シェンヌーと隻狼、どっちを先にプレイすべきか迷ってる人いる？",
+     "es": "¿Hay gente que está dudando si jugar primero Shenmue o Sekiro?"
+    },
+    {
+     "quien": "joy",
+     "ja": "どちらも日本を愛する人におすすめです。ぜひ体験してください。",
+     "es": "Recomiendo ambos a quienes aman Japón. Por favor, vivan la experiencia."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "次はどんなゲーム特集がいいか、チャットで教えてくれると嬉しいな。",
+     "es": "Nos haría muy felices que nos digan en el chat qué juego les gustaría que hagamos el próximo especial."
+    },
+    {
+     "quien": "joy",
+     "ja": "ありがとうございました。またブラックローズTVでお会いしましょう。",
+     "es": "Muchas gracias. Nos vemos de nuevo en BlackRose TV."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "pokemon",
+   "opcional": true,
+   "titulo_ja": "ポケモンと日本の地方",
+   "titulo_es": "Pokémon y las regiones de Japón",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "tokyo_tower.jpg",
+     "ja": "東京タワー",
+     "es": "Torre de Tokio",
+     "credito": "Foto: yellowmagics9 · CC0 · Wikimedia Commons",
+     "tag": "日本アワー · POKÉMON Y LAS REGIONES DE JAPÓN"
+    },
+    {
+     "tipo": "foto",
+     "img": "fuji_sakura.jpg",
+     "ja": "桜と富士山",
+     "es": "El Monte Fuji y los cerezos en flor",
+     "credito": "Foto: Midori · CC BY 3.0 · Wikimedia Commons",
+     "tag": "日本アワー · POKÉMON Y LAS REGIONES DE JAPÓN"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みなさんこんにちは！今日はポケモンと日本の地方の話だよ！",
+     "es": "¡Hola a todos! ¡Hoy hablamos de Pokémon y las regiones de Japón!"
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃん元気いっぱいね。ブラックローズTVへようこそ。",
+     "es": "Kuroki-chan, estás llena de energía. Bienvenidos a Blackrose TV."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ポケモンの地方は日本の実在の地域がモデルなんだって！",
+     "es": "¡Las regiones de Pokémon están basadas en regiones reales de Japón!"
+    },
+    {
+     "quien": "joy",
+     "ja": "カントーは関東地方で、東京があるところよ。懐かしいわね。",
+     "es": "Kanto se basa en la región de Kantō, donde está Tokio. Qué nostálgico."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョウトは関西地方がモデルなんだよね。僕も京都行きたい！",
+     "es": "Johto está inspirada en la zona de Kansai. ¡Yo también quiero ir a Kioto!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ホウエンは九州がモデル。あったかい雰囲気で大好きよ。",
+     "es": "Hoenn se basa en Kyūshū. Tiene un ambiente cálido y me encanta."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "そしてシンノウは北海道！雪景色がきれいそうでワクワクする！",
+     "es": "¡Y Sinnoh está basada en Hokkaidō! ¡Los paisajes nevados se ven hermosos y me emociona!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ゲームフリークさんと任天堂さんが日本を愛してるのが伝わるわ。",
+     "es": "Se nota cuánto Game Freak y Nintendo aman a Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "最初のゲーム、ポケモン赤と緑が日本で1996年に出たんだよ！",
+     "es": "¡El primer juego, Pokémon Rojo y Verde, salió en Japón en 1996!"
+    },
+    {
+     "quien": "joy",
+     "ja": "もう28年も経つのね。時が経つのは早いわ。感慨深いわよ。",
+     "es": "Ya han pasado 28 años. El tiempo vuela. Es muy emotivo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "カントーから旅を始めて、どんどん日本を巡ってるみたいだよね！",
+     "es": "¡Es como empezar el viaje en Kanto y recorrer Japón poco a poco!"
+    },
+    {
+     "quien": "joy",
+     "ja": "私も実際にその土地を訪れたらポケモンが見えそうで楽しいわ。",
+     "es": "Sería divertido visitar esos lugares y sentir que vemos Pokémon."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイはカントー派？それともシンノウの雪が好き？教えて！",
+     "es": "¿Joy es team Kanto o le gusta más la nieve de Sinnoh? ¡Cuéntanos!"
+    },
+    {
+     "quien": "joy",
+     "ja": "私はホウエンの海が好き。九州の雰囲気、優しくて心落ち着くの。",
+     "es": "A mí me gusta el mar de Hoenn. El ambiente de Kyūshū es amable y tranquilizador."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "僕はジョウト！お寺とかおいしいものいっぱいありそうで笑える！",
+     "es": "¡Yo elijo Johto! ¡Templos y comida rica por todos lados, me hace reír!"
+    },
+    {
+     "quien": "joy",
+     "ja": "視聴者の皆さんはどの地方が好きですか？コメント待ってるわ。",
+     "es": "¿A qué región le tienen más cariño nuestros viewers? Esperamos sus comentarios."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "1996年に赤緑が出て、世界が変わったよね。僕も生まれた気分！",
+     "es": "Cuando salió Rojo y Verde en 1996, el mundo cambió. ¡Siento que nací en esa época!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ゲームの中で日本各地を旅できるなんて、素敵な贈り物よね。",
+     "es": "Poder viajar por distintas partes de Japón dentro de un juego es un regalo maravilloso."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "もし実写化したら、北海道で雪合戦しながらポケモンゲットしたい！",
+     "es": "¡Si hicieran una versión live-action, quiero capturar Pokémon mientras jugamos en la nieve en Hokkaidō!"
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃんらしいわね。みんなも想像してみてね。楽しいでしょ？",
+     "es": "Muy típico de Kuroki-chan. Imagínenselo todos. ¿Es divertido, verdad?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "関東の賑やかさと関西の文化、どっちもポケモンに詰まってる！",
+     "es": "¡La vitalidad de Kantō y la cultura de Kansai están llenas en Pokémon!"
+    },
+    {
+     "quien": "joy",
+     "ja": "日本を尊重したデザインにいつも感謝しているわ。美しいわよね。",
+     "es": "Siempre estoy agradecida por el diseño que respeta Japón. Es hermoso."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "皆さんのお気に入りの地方とポケモンは何？今すぐ教えてよ！",
+     "es": "¿Cuál es su región y Pokémon favorito? ¡Cuéntennos ahora mismo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "私は静かに旅するシンノウも素敵だと思うの。雪景色がロマンチック。",
+     "es": "Creo que Sinnoh, con sus viajes tranquilos, también es preciosa. Los paisajes nevados son románticos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "九州の火山とか、ホウエンの熱いバトルにぴったりだよね！",
+     "es": "¡Los volcanes de Kyūshū encajan perfecto con las batallas intensas de Hoenn!"
+    },
+    {
+     "quien": "joy",
+     "ja": "1996年のあの興奮を、今もみんなで共有できて嬉しいわ。",
+     "es": "Es maravilloso poder compartir todavía esa emoción de 1996 con todos ustedes."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "次はどの地方がゲームになるのかな？僕、沖縄待ってるよ！",
+     "es": "¿Qué región saldrá en el próximo juego? ¡Yo estoy esperando Okinawa!"
+    },
+    {
+     "quien": "joy",
+     "ja": "どんな地方でも、きっと素敵に描かれるわね。楽しみだわ。",
+     "es": "Sea cual sea la región, seguro la dibujarán de forma maravillosa. Estoy ansiosa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "今日はここまで！ポケモン愛と日本愛、ずっと続けようね！",
+     "es": "¡Hasta aquí por hoy! ¡Sigamos compartiendo amor por Pokémon y por Japón!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "espanol",
+   "opcional": true,
+   "titulo_ja": "今日のスペイン語",
+   "titulo_es": "El español del día",
+   "laminas": [
+    {
+     "tipo": "lista",
+     "ja": "今日のスペイン語",
+     "es": "El español del día",
+     "tag": "日本アワー · ESPAÑOL",
+     "items": [
+      {
+       "ja": "こんにちは",
+       "es": "Hola"
+      },
+      {
+       "ja": "ありがとう",
+       "es": "Gracias"
+      },
+      {
+       "ja": "こんばんは",
+       "es": "Buenas noches"
+      },
+      {
+       "ja": "なんて速い!",
+       "es": "¡Qué rápido!"
+      },
+      {
+       "ja": "チャンネル登録してね",
+       "es": "Suscríbete"
+      },
+      {
+       "ja": "一緒に遊ぼう",
+       "es": "Vamos a jugar"
+      }
+     ]
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさんこんにちは。今日のテーマはスペイン語のミニレッスンです。",
+     "es": "Hola a todos. El tema de hoy es una mini lección de español."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイちゃん、今日は私が先生だよ。緊張してる？",
+     "es": "Joy-chan, hoy yo soy la profesora. ¿Estás nerviosa?"
+    },
+    {
+     "quien": "joy",
+     "ja": "少し緊張するけど、楽しみです。よろしくお願いします。",
+     "es": "Estoy un poco nerviosa, pero lo estoy disfrutando. Por favor, cuídame."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "まず『Hola』は『こんにちは』だよ。みんな一緒に言ってみて！",
+     "es": "Primero, 'Hola' es 'こんにちは'. ¡Todos, díganlo conmigo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "Hola。なんて簡単でしょう。スペイン語かわいいですね。",
+     "es": "Hola. Qué fácil. El español es bonito, ¿verdad?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "次は『Gracias』＝『ありがとう』。ジョイ、言ってみて。",
+     "es": "Siguiente: 'Gracias' = 'ありがとう'. Joy, inténtalo."
+    },
+    {
+     "quien": "joy",
+     "ja": "Gracias。ありがとう。スペインの人に感謝を伝えたいです。",
+     "es": "Gracias. Gracias. Quiero dar las gracias a la gente de España."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "上手に言えたね。かわいいジョイに拍手！",
+     "es": "Lo dijiste muy bien. ¡Aplausos para la linda Joy!"
+    },
+    {
+     "quien": "joy",
+     "ja": "次は『Buenas noches』＝『こんばんは』ですね。",
+     "es": "Siguiente es 'Buenas noches' = 'こんばんは', ¿verdad?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "その通り。夜に会ったらこれを言おう。ジョイ、夜バージョン！",
+     "es": "Exacto. Cuando nos veamos de noche, digamos esto. ¡Joy, versión nocturna!"
+    },
+    {
+     "quien": "joy",
+     "ja": "Buenas noches。こんばんは。なんだか眠たくなってきました。",
+     "es": "Buenas noches. こんばんは. Me está dando sueño."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "まだ早いよ！次は『¡Qué rápido!』＝『なんて速い！』",
+     "es": "¡Todavía es temprano! Siguiente: '¡Qué rápido!' = 'なんて速い！'"
+    },
+    {
+     "quien": "joy",
+     "ja": "なんて速い！ ファスト・ペンギンみたいに速いですね。",
+     "es": "¡Qué rápido! Es tan rápido como Fast Penguin."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイのリアクションが可愛すぎて笑うわ。みんなも使ってみて！",
+     "es": "La reacción de Joy es demasiado linda, me hace reír. ¡Todos, pruébenlo también!"
+    },
+    {
+     "quien": "joy",
+     "ja": "次は『Suscríbete』＝『チャンネル登録してね』です。",
+     "es": "Siguiente: 'Suscríbete' = 'チャンネル登録してね'."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ブラックローズTVをチャンネル登録してね！ジョイ、お願いします。",
+     "es": "¡Suscríbete a BlackRose TV! Joy, por favor."
+    },
+    {
+     "quien": "joy",
+     "ja": "チャンネル登録してね。みんなの応援が嬉しいです。",
+     "es": "Suscríbete. Nos alegra mucho su apoyo."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "最後は『Vamos a jugar』＝『一緒に遊ぼう』。ジョイ、元気に！",
+     "es": "El último es 'Vamos a jugar' = '一緒に遊ぼう'. ¡Joy, con energía!"
+    },
+    {
+     "quien": "joy",
+     "ja": "一緒に遊ぼう！ フォルツァ・ホライゾン6で走りましょう。",
+     "es": "¡Vamos a jugar! Corramos en Forza Horizon 6."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "いいね！ジョイと一緒にゲームしたら絶対楽しいよね。",
+     "es": "¡Muy bien! Jugar con Joy seguro que es muy divertido."
+    },
+    {
+     "quien": "joy",
+     "ja": "練習したスペイン語、みんな覚えましたか？",
+     "es": "¿Se aprendieron el español que practicamos?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "チャットでスペイン語か日本語で書いてみて！すぐに翻訳するよ。",
+     "es": "¡Escriban en el chat en español o en japonés! Las traduciremos enseguida."
+    },
+    {
+     "quien": "joy",
+     "ja": "『Hola、Gracias』って書いてくれたら嬉しいです。",
+     "es": "Me alegraría mucho si escriben 'Hola, Gracias'."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイが上手に覚えたから、私も褒めてあげたいなあ。",
+     "es": "Como Joy lo memorizó tan bien, quiero felicitarla."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキさん、先生役ありがとう。楽しかったですね。",
+     "es": "Kuroki-san, gracias por ser la profesora. Fue divertido."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "また次回もスペイン語やろうか？それとも別の言語？",
+     "es": "¿Hacemos español otra vez la próxima vez? ¿O otro idioma?"
+    },
+    {
+     "quien": "joy",
+     "ja": "みなさんのリクエスト待ってます。チャットで教えてください。",
+     "es": "Esperamos sus solicitudes. Cuéntennos en el chat."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "今日はここまで。ブラックローズTVを愛してくれてありがとう！",
+     "es": "Hasta aquí por hoy. ¡Gracias por amar BlackRose TV!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "circuito",
+   "opcional": false,
+   "titulo_ja": "私たちのサーキット",
+   "titulo_es": "Nuestro circuito y cómo unirse",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "fp_1.jpg",
+     "ja": "Fast Penguin のスクリーンショット",
+     "es": "Captura de Fast Penguin",
+     "credito": "Captura: Blackrose · Fast Penguin",
+     "tag": "日本アワー · NUESTRO CIRCUITO Y CÓMO UNIRSE"
+    },
+    {
+     "tipo": "tags",
+     "tags": [
+      "#BlackRoseTV",
+      "#FastPenguin",
+      "#AIVTuber",
+      "#VTuber",
+      "#ゲーム実況",
+      "#日本",
+      "#ForzaHorizon6"
+     ],
+     "tag": "日本アワー · HASHTAGS"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みなさんこんにちは！今日は私たちのサーキットについて話そうよ！",
+     "es": "¡Hola a todos! Hoy vamos a hablar sobre nuestro circuito."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃん元気だね。ブラックローズの3Dサーキット開発中なんだよ。",
+     "es": "Kuroki-chan está llena de energía. Estamos desarrollando el circuito 3D de Blackrose."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "まだプライベートで公開してないから入れないんだよね。残念！",
+     "es": "Todavía es privado y no está publicado, así que no se puede entrar. ¡Qué pena!"
+    },
+    {
+     "quien": "joy",
+     "ja": "でも完成が楽しみだよね。みんなで走れる日が来るよ。",
+     "es": "Pero estoy emocionada por cuando esté terminado. Pronto podremos correr todos juntos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "公開されたら最初に知るのは Twitchのサブスクライバーだよ！",
+     "es": "Cuando se publique, los suscriptores de Twitch serán los primeros en enterarse."
+    },
+    {
+     "quien": "joy",
+     "ja": "だから今のうちにブラックローズTVをフォローしてね。",
+     "es": "Por eso sígan BlackRose TV desde ahora."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "通知もオンにしておくと絶対見逃さないよ。賢いよね？",
+     "es": "Activen las notificaciones para no perderse nada. ¿Listo, verdad?"
+    },
+    {
+     "quien": "joy",
+     "ja": "今はファスト・ペンギンで一緒に遊ぼう。無料だよ。",
+     "es": "Mientras tanto, juguemos juntos a Fast Penguin. Es gratis."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "Steamでファスト・ペンギン入れて、パーティーコード YDPYAU だよ！",
+     "es": "Descarguen Fast Penguin en Steam y usen el código de party YDPYAU."
+    },
+    {
+     "quien": "joy",
+     "ja": "チリ時間の朝6時、日本時間18時に待ってるね。",
+     "es": "Los esperamos a las 6 de la mañana hora de Chile, que son las 18:00 en Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "毎日走ってるけどクロキのタイムまだ勝てないよね？",
+     "es": "Corremos todos los días pero todavía no logro ganarle a mi propio récord, ¿eh?"
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃんのドリフトは笑えるくらい派手だもん。",
+     "es": "Los derrapes de Kuroki-chan son tan exagerados que dan risa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "みんなのベストタイム教えて！チャットで自慢してね。",
+     "es": "¡Cuéntennos su mejor tiempo! Presúmanlo en el chat."
+    },
+    {
+     "quien": "joy",
+     "ja": "サーキット公開までこのゲームで腕を磨こうね。",
+     "es": "Mientras se abre el circuito, mejoren sus habilidades con este juego."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ハッシュタグも読むよ、#BlackRoseTV #FastPenguin",
+     "es": "También leamos los hashtags en voz alta: #BlackRoseTV #FastPenguin"
+    },
+    {
+     "quien": "joy",
+     "ja": "#AIVTuber #VTuber #ゲーム実況 #日本 #ForzaHorizon6",
+     "es": "#AIVTuber #VTuber #ゲーム実況 #日本 #ForzaHorizon6"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "全部声に出して読むと運気が上がるらしいよ？",
+     "es": "Dicen que leerlos todos en voz alta trae buena suerte, ¿sabían?"
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃんの冗談も今日も可愛いね。",
+     "es": "Las bromas de Kuroki-chan siguen siendo adorables hoy también."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "サーキットができたら最初に誰を招待したい？",
+     "es": "Cuando el circuito esté listo, ¿a quién les gustaría invitar primero?"
+    },
+    {
+     "quien": "joy",
+     "ja": "日本のみんなと一緒に走れたら幸せだなって思うよ。",
+     "es": "Pienso que sería una felicidad poder correr junto con todos en Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "フォルツァ・ホライゾン6も楽しみだけどまずはここだね！",
+     "es": "Forza Horizon 6 también lo esperamos, pero primero esto."
+    },
+    {
+     "quien": "joy",
+     "ja": "今はファスト・ペンギンでたくさん練習して待とう。",
+     "es": "Por ahora practiquemos mucho con Fast Penguin mientras esperamos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "通知オンにした人いる？チャットで教えて！",
+     "es": "¿Ya activaron las notificaciones? ¡Díganlo en el chat!"
+    },
+    {
+     "quien": "joy",
+     "ja": "サブスクライブしてくれたみんな本当にありがとう。",
+     "es": "Muchas gracias a todos los que ya se suscribieron."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "まだの人は今すぐポチッと押そうよ！",
+     "es": "Los que aún no lo han hecho, ¡presionen el botón ahora mismo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "完成したらきっとすごいコースになると思うよ。",
+     "es": "Creo que cuando esté terminado va a ser un circuito increíble."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイちゃんの丁寧な説明に癒されるわー。",
+     "es": "Me cura el alma la explicación tan cariñosa de Joy-chan."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキちゃんの元気もみんなに届いてるかな？",
+     "es": "¿Crees que la energía de Kuroki-chan llega a todos?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "チャットで「サーキット待ってる！」って書いてみて！",
+     "es": "¡Escriban en el chat “¡Esperamos el circuito!” para vernos!"
+    },
+    {
+     "quien": "joy",
+     "ja": "一緒に走る日を楽しみに準備を進めますね。",
+     "es": "Seguiremos preparando todo con ilusión por el día que corramos juntos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "最後にもう一度、通知オンとサブスクお願いします！",
+     "es": "Una vez más al final, ¡activen notificaciones y suscríbanse por favor!"
+    },
+    {
+     "quien": "joy",
+     "ja": "みんなの声が聞きたいな。今日はどうだった？",
+     "es": "Quiero escuchar sus voces. ¿Qué les pareció hoy?"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "id": "despedida",
+   "opcional": false,
+   "titulo_ja": "ありがとう、日本!",
+   "titulo_es": "¡Gracias, Japón!",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "fuji_sakura.jpg",
+     "ja": "桜と富士山",
+     "es": "El Monte Fuji y los cerezos en flor",
+     "credito": "Foto: Midori · CC BY 3.0 · Wikimedia Commons",
+     "tag": "日本アワー · ¡GRACIAS, JAPÓN!"
+    },
+    {
+     "tipo": "tags",
+     "tags": [
+      "#BlackRoseTV",
+      "#FastPenguin",
+      "#AIVTuber",
+      "#VTuber",
+      "#ゲーム実況",
+      "#日本",
+      "#ForzaHorizon6"
+     ],
+     "tag": "日本アワー · HASHTAGS"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさん、今日は本当にありがとうございました。",
+     "es": "Todos, muchísimas gracias por haber estado hoy."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "Forza Horizon 6からグランツーリスモまで、たくさん話せたね。",
+     "es": "Desde Forza Horizon 6 hasta Gran Turismo, pudimos hablar de mucho."
+    },
+    {
+     "quien": "joy",
+     "ja": "頭文字Dのドリフトシーンはいつもワクワクしますよね。",
+     "es": "Las escenas de drift de Initial D siempre nos emocionan."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ゴースト・オブ・ツシマとヨウテイの美しい日本、最高だよ。",
+     "es": "El hermoso Japón de Ghost of Tsushima y Yōtei es lo máximo."
+    },
+    {
+     "quien": "joy",
+     "ja": "龍が如くの熱いストーリーも忘れられません。",
+     "es": "Tampoco podemos olvidar las intensas historias de Yakuza."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ペルソナ5の音楽とスタイル、僕の心を掴んで離さない。",
+     "es": "La música y el estilo de Persona 5 no sueltan mi corazón."
+    },
+    {
+     "quien": "joy",
+     "ja": "アサシン クリード シャドウズも気になりますよね。",
+     "es": "Assassin's Creed Shadows también nos tiene muy interesados."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "シェンムーの世界をまたゆっくり歩きたいなあ。",
+     "es": "Quiero volver a caminar tranquilamente por el mundo de Shenmue."
+    },
+    {
+     "quien": "joy",
+     "ja": "セキロの難しいけど美しい戦いも印象的でした。",
+     "es": "Las difíciles pero bellas batallas de Sekiro también fueron impresionantes."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ポケモンと一緒に冒険する楽しさは永遠だよね。",
+     "es": "La diversión de aventurarnos con Pokémon es eterna."
+    },
+    {
+     "quien": "joy",
+     "ja": "今日はたくさんのゲームを振り返ることができました。",
+     "es": "Hoy pudimos repasar muchos juegos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ファスト・ペンギンは日本時間の18時ですよ、忘れずに！",
+     "es": "¡Fast Penguin es a las 18:00 hora de Japón, no lo olviden!"
+    },
+    {
+     "quien": "joy",
+     "ja": "チャンネル登録してくれたらとても嬉しいです。",
+     "es": "Nos haría muy felices que se suscribieran al canal."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "日本語でコメント書いてね、僕たちがちゃんと翻訳するよ。",
+     "es": "Escriban comentarios en japonés, nosotras los traduciremos bien."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんの温かいコメントがいつも励みになります。",
+     "es": "Sus cálidos comentarios siempre nos motivan."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ジョイちゃんの丁寧な解説、今日も可愛かったよ。",
+     "es": "La explicación tan cuidadosa de Joy-chan estuvo linda hoy también."
+    },
+    {
+     "quien": "joy",
+     "ja": "クロキの元気な質問が番組を盛り上げてくれます。",
+     "es": "Las preguntas animadas de Kuroki alegran todo el programa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "日本文化を尊敬する気持ちでいっぱいです、本当に。",
+     "es": "Estamos llenas de respeto por la cultura japonesa, de verdad."
+    },
+    {
+     "quien": "joy",
+     "ja": "皆さんはどのゲームが一番好きでしたか？教えてください。",
+     "es": "¿Cuál de todos estos juegos les gustó más? Cuéntennos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "次はどんな話題がいいか、コメントで教えてね。",
+     "es": "Díganos en los comentarios qué temas les gustaría para la próxima."
+    },
+    {
+     "quien": "joy",
+     "ja": "今日の時間はここまでです。心からありがとう。",
+     "es": "El tiempo de hoy llega hasta aquí. Gracias de todo corazón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "また一緒にゲームの話をしようね、待ってるよ。",
+     "es": "Hablemos de juegos juntos otra vez, las estaremos esperando."
+    },
+    {
+     "quien": "joy",
+     "ja": "ありがとう、またね。皆さんをお待ちしています。",
+     "es": "Gracias, hasta pronto. Las estaremos esperando a todos."
+    }
+   ]
+  }
+ ],
+ "relleno_musica": [],
+ "estado": {
+  "segmentos": 17,
+  "de": 17,
+  "caracteres_ja": 15514,
+  "min_aprox": 51
+ }
+}

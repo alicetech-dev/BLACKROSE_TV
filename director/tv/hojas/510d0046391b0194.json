@@ -1,0 +1,21 @@
+{
+ "semilla": "Los audios de WhatsApp de cinco minutos",
+ "hechos": [
+  "WhatsApp es una aplicación de mensajería instantánea desarrollada por WhatsApp Inc.",
+  "La función de mensajes de voz permite a los usuarios enviar grabaciones de audio.",
+  "Los mensajes de voz en WhatsApp tienen una duración máxima permitida de cinco minutos por cada archivo.",
+  "Los audios se transmiten a través de internet y se descargan en el dispositivo del receptor.",
+  "La aplicación indica la duración del audio antes de reproducirlo.",
+  "Los mensajes de voz pueden reproducirse a velocidad normal o acelerada al doble de velocidad.",
+  "Los audios se almacenan en el dispositivo y pueden eliminarse manualmente.",
+  "La función de mensajes de voz está disponible en todas las versiones modernas de WhatsApp.",
+  "Los audios de voz se codifican para reducir el tamaño del archivo antes de enviarse.",
+  "WhatsApp permite pausar y reanudar la reproducción de un audio en cualquier momento."
+ ],
+ "leyendas": [
+  "Leyenda o error común: los audios de cinco minutos consumen la misma cantidad de datos que una llamada de voz.",
+  "Leyenda o error común: WhatsApp limita los audios a cinco minutos porque no puede procesar archivos más largos."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 04:03"
+}

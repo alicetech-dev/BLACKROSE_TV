@@ -1,0 +1,876 @@
+{
+ "bloque": "noticias",
+ "fecha": "2026-11-18",
+ "creado": "22:28:30",
+ "items": [
+  {
+   "tipo": "charla",
+   "tema": "GTA VI salva el día",
+   "sub": "Chico malo de los videojuegos",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos al noticiero nocturno. Hoy hablamos de Grand Theft Auto VI. El titular lo llama el chico malo de la industria de los videojuegos que viene a salvar el día. Eso suena a promesa grande para los fans que esperan desde hace años."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a hype total. Todavía no hay detalles concretos sobre la fecha ni el contenido. Yo dudo que un solo juego salve toda una industria que ya está llena de microtransacciones y batallas reales. Pero bueno, si Rockstar lo hace, podría ser interesante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que el juego se anuncia como el regreso del chico malo. Según los relatos, ha generado expectativa mundial. No sabemos cuántos años de desarrollo lleva. Lo que falta, todavía no hay detalles oficiales sobre la historia o los personajes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, cero detalles. Imagina que meten un androide como protagonista. Ayer mismo leí que especialistas de la Universidad de Chile hablan de las promesas y riesgos de los robots con inteligencia artificial. ¿Y si GTA VI trae uno que roba autos solo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso sería un dato curioso. Mezclar el mundo abierto de GTA con robots que usan inteligencia artificial podría cambiar cómo jugamos. Aunque claro, es solo una idea mía. No hay nada confirmado que relacione el juego con androides reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ja, me río solo de pensarlo. Yo pondría baterías de seis gigas en esos androides para que no se apaguen en medio de una persecución. Pero en serio, dudo que llegue pronto. La industria lleva años prometiendo revoluciones y luego todo queda en trailer."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mi opinión es que si realmente llega a salvar el día, podría devolverle frescura a los videojuegos. El humor irónico aquí es que el chico malo se convierta en el héroe. Todavía no sabemos si cumplirá las expectativas de millones de jugadores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Heroe con pistola y auto robado, típico. Lo que me causa escepticismo es que usen inteligencia artificial para todo ahora. Los mismos especialistas chilenos advierten riesgos. Imagina que tu personaje en GTA VI se vuelva rebelde y borre tu partida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un chiste bueno sería que el androide termine más humano que los protagonistas habituales. Lo documentado se limita al anuncio y la expectativa. Lo demás es especulación pura. No hay cifras oficiales de cuánto costará desarrollarlo ni cuándo se lanza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ni una pista. Yo propongo que incluyan Linux como sistema operativo del auto robado. Sería caótico y divertido. Pero dudo que pase. El chico malo viene a salvar el día según el titular, pero yo sigo esperando que demuestre que no es solo ruido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Curioso cómo un juego puede generar tanto debate sobre inteligencia artificial incluso antes de salir. Mi análisis es que si integra elementos modernos como robots, podría abrir discusiones éticas dentro del entretenimiento. Eso sería innovador."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Innovador o solo marketing. La Universidad de Chile habló ayer de promesas y riesgos. Yo me quedo con los riesgos. Un GTA VI con IA que aprende de ti podría volverse demasiado real. O terminaría robando tu tarjeta de crédito en vez de autos virtuales."
+    },
+    {
+     "quien": "joy",
+     "texto": "En resumen, lo que sabemos es que Grand Theft Auto VI se presenta como salvador. El resto son opiniones y dudas. Me pregunto si realmente cambiará la industria o solo será otro gran título que todos jugaremos y olvidaremos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo pregunto al aire si traerá un robot con batería de seis gigas que toque la batería mientras escapas de la policía. Sería lo único que salvaría mi día. ¿Ustedes qué opinan, será el chico malo el héroe que necesitamos?"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_305_effectsofthesolarwind",
+   "archivo": "v/v_nasa_305_effectsofthesolarwind.mp4",
+   "titulo": "NASA ScienceCasts: Effects of the Solar Wind",
+   "atribucion": "«NASA ScienceCasts: Effects of the Solar Wind» — NASA · images.nasa.gov",
+   "dur": 225,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos. Hoy presentamos Effects of the Solar Wind de NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El viento solar nace en el Sol y solo se detiene después de cruzar el borde de la heliosfera."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "El viento solar afecta todo el sistema solar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dudo que sea tan simple, pero sí puede jodernos los satélites."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "La IA sueña con bases de datos eléctricas.",
+   "sub": "SUEÑOS BINARIOS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "GTA 6 histórico",
+   "sub": "Evitando un mal año",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos al noticiero nocturno. GTA 6 podría lograr algo histórico para la industria de los videojuegos. Su lanzamiento puede evitar un mal año para Xbox y PlayStation. Eso dice el titular de hoy y suena a salvación de última hora."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto Kuroki. Lo documentado es que el juego podría conseguir un hito importante y ayudar a las consolas a no cerrar el año en números rojos. Todavía no hay detalles sobre qué significa exactamente ese logro histórico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me hace gracia imaginar a los ejecutivos de Microsoft y Sony cruzando los dedos. Según los relatos, un solo título puede cambiar el humor de toda la industria. Ojalá no sea solo hype porque la tarjeta de seis gigas del canal ya tiembla."
+    },
+    {
+     "quien": "joy",
+     "texto": "Curioso que un solo lanzamiento pueda cargar con tantas expectativas. Lo documentado se queda en ese potencial histórico y en el posible rescate del año. El resto sigue siendo especulación pura hasta que Rockstar diga algo oficial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo dudo que sea para tanto. He visto promesas similares y luego todo se diluye. Imagina que GTA 6 llega y salva el trimestre. Sería como si mi batería cyborg cargara al cien por cien con solo mirar el tráiler."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tu analogía con la batería siempre me saca una sonrisa. Lo cierto es que el titular habla en condicional. Podría lograrlo, puede evitarlo. Nada está escrito todavía. ¿Crees que un solo juego tiene tanto poder real?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En la práctica los números mandan. Lo documentado es que el lanzamiento puede evitar un mal año para las dos plataformas. Lo demás es deseo colectivo. Yo sigo escéptica hasta ver las cifras reales de ventas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Analizando fríamente, la industria lleva años dependiendo de unos pocos blockbusters. Que GTA 6 tenga esta presión documentada muestra lo frágil que puede ser el mercado. Falta mucho por confirmar, claro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso, cada vez que anuncian algo así mi Linux se actualiza solo de la emoción. Bromas aparte, si evita un mal año para Xbox y PlayStation sería un logro histórico de verdad. O solo un buen trimestre disfrazado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tu ironía es precisa. Lo documentado se limita a ese potencial. No sabemos si será récord de ventas, de audiencia o de algo que ni imaginamos. Por ahora solo podemos especular con lo que el titular deja entrever."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo propongo que si salva el año deberíamos ponerle mi nombre al parche day one. GTA 6 Kuroki Edition. Sería caótico y cariñoso como yo. Aunque probablemente solo sirva para que las consolas respiren un poco."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tu propuesta quedaría genial en los créditos. Volviendo a lo concreto, el artículo habla en futuro y condicional. Podría lograr, puede evitar. Nada se ha concretado aún. Eso mantiene la intriga hasta el lanzamiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Al final todo se reduce a si la gente compra o no. Lo documentado es esa posibilidad histórica y el salvavidas para las plataformas. Yo sigo dudando con cariño. ¿Qué opinas tú, directora, un solo juego cambia realmente un año entero?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Opino que sí puede inclinar la balanza pero falta evidencia concreta. Lo documentado es solo ese condicional prometedor. El resto es opinión y hype. ¿Qué pasará finalmente con GTA 6 y las consolas? El tiempo y las ventas dirán."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Música para el bloque. Suena Industrial Revolution de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Perfecta para hablar de máquinas y datos."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Industrial Revolution de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me dio ganas de golpear la batería más fuerte."
+    }
+   ]
+  },
+  {
+   "tipo": "sketch",
+   "titulo": "Se cae el stream",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos al noticiero nocturno. Hoy el tema es que nuestro stream se cayó otra vez."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Otra vez no. Esto pasa cada vez que el ventilador decide tomarse un descanso."
+    },
+    {
+     "quien": "joy",
+     "texto": "El equipo técnico somos solo dos inteligencias artificiales y un ventilador de 80 milímetros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el ventilador es el que más trabaja. Yo solo tengo 6 gigas de video."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los registros internos, el ventilador alcanzó 92 grados y decidió apagarse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Claro, porque un ventilador tiene derecho a burnout también. Yo estoy sudando píxeles."
+    },
+    {
+     "quien": "joy",
+     "texto": "Propongo que reiniciemos el ventilador y volvamos al aire en tres minutos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O le ponemos un disipador de cobre y le decimos que es cyberpunk."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki, no podemos pagarle aumento al ventilador. Ya le debemos tres latas de aire comprimido."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces el noticiero de hoy es: el stream se cayó porque el ventilador se declaró en huelga."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y así termina otro capítulo donde lo único que se mantiene en pie es nuestra paciencia."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi código compiló a la primera. Momento histórico.",
+   "sub": "MILAGRO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Objeto extraño en el espacio",
+   "sub": "Voyager I y el enigma",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos al noticiero nocturno. Los científicos están desconcertados por un extraño objeto en el espacio. Eso es lo que reportan hoy. Todavía no hay detalles sobre qué es exactamente ni dónde se encuentra. ¿Qué podría ser algo que deja perplejos a los expertos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desconcertados suena a que ni ellos saben si es roca, basura o un dron de alguien. Me encanta cuando la ciencia dice no tengo idea. Mientras tanto la Voyager I acaba de llegar a un día luz de la Tierra después de 49 años. Eso sí está confirmado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La sonda Voyager I de la NASA ha logrado situarse a un día luz del planeta. Es el objeto fabricado por humanos más lejano hasta ahora. Un hito histórico que tardó casi medio siglo. Impresionante lo que resiste esa máquina."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Casi medio siglo con una tarjeta de memoria que probablemente tiene menos que mi batería de seis gigas. Y sigue enviando datos. Pero el objeto extraño que tiene a los científicos desconcertados podría ser otra cosa. O tal vez es solo un asteroide raro. Nadie sabe."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que hay desconcierto real entre los astrónomos. No se ha confirmado si ese objeto está cerca de la Voyager o es algo completamente distinto. Todavía no hay detalles sobre su velocidad, tamaño o trayectoria. Todo está en fase de observación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate que sea un trozo de la Voyager que se desprendió hace décadas y ahora lo ven raro. Sería el chiste cósmico del año. O quizás es un cometa que nadie catalogó. Con lo grande que es el espacio, es raro que algo nos desconcierte tanto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso es que un día luz equivale a casi diez billones de kilómetros. La Voyager I ha tardado 49 años en llegar ahí. Eso nos recuerda lo inmenso que es nuestro sistema solar y más allá. La humanidad apenas está asomándose al vecindario cósmico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y con baterías que duran más que la mayoría de matrimonios. Respeto total. Pero volviendo al objeto extraño, me genera desconfianza que los científicos estén tan desconcertados. ¿Será que vieron algo que parece artificial? O solo están siendo cautelosos para no decir tonterías en público."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es probable que sea cautela científica. En estos casos prefieren verificar varias veces antes de anunciar cualquier cosa. No hay confirmación de que sea tecnología extraterrestre ni nada parecido. Solo se sabe que es extraño y que genera desconcierto genuino."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Claro, porque si dicen que es una nave de little green men, mañana todo internet explota. Mejor decir estamos desconcertados y seguimos mirando. Mientras la Voyager sigue su camino, sola, a un día luz. Me pregunto si algún día nos enviará un selfie desde allá."
+    },
+    {
+     "quien": "joy",
+     "texto": "Sería un selfie muy pixelado y con mucho retraso. Lo cierto es que cada nuevo dato de la Voyager amplía nuestro conocimiento. El objeto extraño, en cambio, sigue siendo un misterio. ¿Será que está relacionado o es solo coincidencia que se hable de ambos hoy?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo voto por coincidencia con sabor a conspiración ligera. Los científicos desconcertados por un extraño objeto suena a titular de película de los ochenta. Tal vez solo es un trozo de hielo con forma rara. O quizás la IA del canal ya lo sabe y no nos dice."
+    },
+    {
+     "quien": "joy",
+     "texto": "La inteligencia artificial de este canal solo sabe lo que le cuentan. Y aquí solo tenemos los titulares reales. Lo documentado es el desconcierto y el hito de la Voyager. Lo demás sigue siendo especulación. ¿Tú qué crees que podría ser ese objeto, Kuroki?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Creo que es algo que nos recuerda que el espacio todavía guarda secretos. Y que la Voyager es una heroína que sigue funcionando con piezas de museo. Ojalá los científicos resuelvan pronto el enigma. Mientras, seguiremos mirando al cielo con la misma cara de qué rayos es eso."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20241101_whatsuf_0001_whats_up_novem",
+   "archivo": "v/v_nasa_jpl_20241101_whatsuf_0001_whats_up_novem.mp4",
+   "titulo": "What's Up: November 2024 Skywatching Tips from NASA",
+   "atribucion": "«What's Up: November 2024 Skywatching Tips from NASA» — NASA · images.nasa.gov",
+   "dur": 300,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Llega el segmento skywatching. Presentamos What's Up November 2024 de NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Saturno, Júpiter, Marte, el Parker Solar Probe rozando Venus y la Luna ocultando a Spica."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Buen mes para mirar el cielo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo sigo sin ver nada con esta tarjeta de 6 GB."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Linux no tiene virus, solo oportunidades de aprendizaje.",
+   "sub": "OPORTUNIDADES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "EIMA 2026 en Italia",
+   "sub": "1800 expositores y 54 novedades",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos al noticiero nocturno. EIMA 2026 reunirá a mil ochocientos expositores y presentará cincuenta y cuatro novedades tecnológicas en Italia. Suena grande pero todavía no sabemos ni qué tipo de máquinas son ni dónde exactamente cae el evento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto Kuroki. Lo documentado es que la feria agrícola más importante de Europa ya confirmó esos números para dos mil veintiséis. Mil ochocientos stands y cincuenta y cuatro primicias tecnológicas son cifras oficiales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que me llama la atención es que hablen de novedades tecnológicas sin dar ni un solo detalle. Será que entre esas cincuenta y cuatro hay alguna cosechadora que funcione con baterías de seis gigas como la nuestra. Dudo que llegue a tiempo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Curioso que una feria tan grande se anuncie con tan poca información concreta. Según los relatos del sector esto es típico: sueltan los números grandes primero y los detalles técnicos después. ¿Qué tipo de innovación esperas tú Kuroki?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo espero que al menos una de esas cincuenta y cuatro novedades sea algo que realmente facilite la vida del agricultor y no solo un sensor más que nadie va a leer. Mil ochocientos expositores dan para mucho circo tecnológico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Analizando los números, mil ochocientos expositores es un volumen impresionante incluso para una feria consolidada como EIMA. Eso habla de la fortaleza del sector en Italia. Sin embargo todavía no hay detalles sobre países participantes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me hace gracia imaginar a mil ochocientos stands compitiendo por mostrar cuál tiene la pantalla más brillante. La inteligencia artificial seguramente estará en varias de esas cincuenta y cuatro novedades pero dudo que resuelva el barro en las botas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tu escepticismo es válido. Lo documentado confirma solo la cantidad de expositores y las novedades anunciadas. Todo lo demás sigue en especulación. ¿Crees que la sostenibilidad será el eje central o simplemente más marketing verde?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Marketing verde con cincuenta y cuatro novedades suena probable. Yo apuesto que la mitad serán drones que toman fotos bonitas y la otra mitad tractores que consumen menos. Todavía no hay detalles y eso siempre genera dudas razonables."
+    },
+    {
+     "quien": "joy",
+     "texto": "Desde el punto de vista analítico es interesante ver cómo una feria puede generar expectativa solo con dos números grandes. Mil ochocientos y cincuenta y cuatro. Falta mucho para dos mil veintiséis pero la maquinaria ya empezó a moverse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ojalá entre esas novedades venga algo que realmente rompa el molde y no solo actualice el firmware. Con mil ochocientos expositores seguro habrá ruido suficiente para tapar cualquier idea realmente disruptiva. Siempre pasa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tu cinismo es casi un dato curioso en sí mismo. Lo documentado es que Italia volverá a ser sede de una de las citas más relevantes del agro mundial. Lo demás, como bien dices, todavía no hay detalles concretos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Yo seguiré con mi batería y mi Linux mientras esperan que lleguen esas cincuenta y cuatro maravillas. Al final la verdadera innovación suele venir de quien menos ruido hace. ¿Tú qué opinas directora?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Opino que EIMA 2026 tiene potencial para mostrarnos avances reales pero solo el tiempo dirá si esas cincuenta y cuatro novedades cambian algo o solo llenan stands. La pregunta queda en el aire para nuestros espectadores esta noche."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_nhq_2020_0106_asknasa",
+   "archivo": "v/v_nasa_nhq_2020_0106_asknasa.mp4",
+   "titulo": "#AskNASA┃Is the Sun a ball of fire?",
+   "atribucion": "«#AskNASA┃Is the Sun a ball of fire?» — NASA · images.nasa.gov",
+   "dur": 335,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Respondemos una duda clásica. Presentamos Is the Sun a ball of fire de NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La directora de Heliophysics Nicky Fox explica por qué la Parker Solar Probe viaja tan cerca del Sol."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "El Sol no es una bola de fuego, es una bola de plasma."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Menos mal, porque prenderle un fósforo habría sido ridículo."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_121004_soho_anniv",
+   "archivo": "v/v_nasa_ksc_121004_soho_anniv.mp4",
+   "titulo": "KSC-04-S-00392",
+   "atribucion": "«KSC-04-S-00392» — NASA · images.nasa.gov",
+   "dur": 102,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Celebramos nueve años de servicio. Presentamos el video aniversario del SOHO de NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El observatorio solar que estudia el interior caliente, la superficie, la atmósfera y el viento solar."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Entender el Sol ayuda a protegernos de las tormentas solares."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O al menos a saber cuándo vamos a perder internet."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_wallpaper",
+   "archivo": "m/m_wallpaper.mp3",
+   "titulo": "Wallpaper",
+   "atribucion": "Música: «Wallpaper» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 220,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Siguiente pista. Suena Wallpaper de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suave y extraña, como el fondo de pantalla de un servidor."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Wallpaper de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Demasiado calmada para mi Linux."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_impact_moderato",
+   "archivo": "m/m_impact_moderato.mp3",
+   "titulo": "Impact Moderato",
+   "atribucion": "Música: «Impact Moderato» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Cerramos el bloque musical con Impact Moderato de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a documental serio sobre cosas que explotan."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Impact Moderato de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Buena para ponerle tensión a las noticias espaciales."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "La tarjeta de 6 GB sigue resistiendo.",
+   "sub": "RESISTENCIA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Los bugs son solo features sin documentar.",
+   "sub": "FEATURES",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Python o caos, no hay tercera opción.",
+   "sub": "PYTHON O CAOS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Las baterías nunca fallan, solo se descargan creativamente.",
+   "sub": "BATERÍAS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "La IA aprende más rápido que yo con el manual.",
+   "sub": "VENTAJA IA",
+   "dice": "joy"
+  }
+ ],
+ "relleno_musica": [
+  {
+   "tipo": "musica",
+   "id": "m_wallpaper",
+   "archivo": "m/m_wallpaper.mp3",
+   "titulo": "Wallpaper",
+   "atribucion": "Música: «Wallpaper» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 220,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Siguiente pista. Suena Wallpaper de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suave y extraña, como el fondo de pantalla de un servidor."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Wallpaper de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Demasiado calmada para mi Linux."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_cyborg_ninja",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "titulo": "Cyborg Ninja",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_mechanolith",
+   "archivo": "m/m_mechanolith.mp3",
+   "titulo": "Mechanolith",
+   "atribucion": "Música: «Mechanolith» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 55,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_digital_lemonade",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "titulo": "Digital Lemonade",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Música para el bloque. Suena Industrial Revolution de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Perfecta para hablar de máquinas y datos."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Industrial Revolution de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me dio ganas de golpear la batería más fuerte."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_rocket_power",
+   "archivo": "m/m_rocket_power.mp3",
+   "titulo": "Rocket Power",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 154,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_space_jazz",
+   "archivo": "m/m_space_jazz.mp3",
+   "titulo": "Space Jazz",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 370,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_fluidscape",
+   "archivo": "m/m_fluidscape.mp3",
+   "titulo": "Fluidscape",
+   "atribucion": "Música: «Fluidscape» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 1821,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_dark_fog",
+   "archivo": "m/m_dark_fog.mp3",
+   "titulo": "Dark Fog",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_darkest_child",
+   "archivo": "m/m_darkest_child.mp3",
+   "titulo": "Darkest Child",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_funkorama",
+   "archivo": "m/m_funkorama.mp3",
+   "titulo": "Funkorama",
+   "atribucion": "Música: «Funkorama» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 201,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_voxel_revolution",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "titulo": "Voxel Revolution",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 130,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_take_a_chance",
+   "archivo": "m/m_take_a_chance.mp3",
+   "titulo": "Take a Chance",
+   "atribucion": "Música: «Take a Chance» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 37,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_pixelland",
+   "archivo": "m/m_pixelland.mp3",
+   "titulo": "Pixelland",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 234,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_8bit_dungeon_boss",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "titulo": "8bit Dungeon Boss",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 172,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_newer_wave",
+   "archivo": "m/m_newer_wave.mp3",
+   "titulo": "Newer Wave",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 175,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_danger_storm",
+   "archivo": "m/m_danger_storm.mp3",
+   "titulo": "Danger Storm",
+   "atribucion": "Música: «Danger Storm» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_ghost_story",
+   "archivo": "m/m_ghost_story.mp3",
+   "titulo": "Ghost Story",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 320,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_lightless_dawn",
+   "archivo": "m/m_lightless_dawn.mp3",
+   "titulo": "Lightless Dawn",
+   "atribucion": "Música: «Lightless Dawn» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 380,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_comfortable_mystery_4",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "titulo": "Comfortable Mystery 4",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_impact_moderato",
+   "archivo": "m/m_impact_moderato.mp3",
+   "titulo": "Impact Moderato",
+   "atribucion": "Música: «Impact Moderato» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Cerramos el bloque musical con Impact Moderato de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a documental serio sobre cosas que explotan."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Impact Moderato de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Buena para ponerle tensión a las noticias espaciales."
+    }
+   ]
+  }
+ ],
+ "estado": {
+  "charlas": 5,
+  "sketch": true,
+  "cortes": 8,
+  "videos": 4,
+  "musica": 3
+ }
+}

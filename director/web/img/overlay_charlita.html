@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Charlita Tech — overlay</title>
+<!-- OBS: Fuente > Navegador, 1920x1080 (se adapta sola a otro tamaño 16:9).
+       http://127.0.0.1:8780/charlita     en vivo: diálogo de cada una a los costados, barra arriba, chat; el medio queda libre
+       http://127.0.0.1:8780/empezamos    pantalla de "ya empezamos"
+     También anda como archivo local (file://…/charlita.html?escena=empezamos): se conecta a la consola en 127.0.0.1:8780.
+     Lo que cambia de un episodio a otro está en CONFIG, acá abajo.
+     Parámetros:
+       ?tema=…          fija el tema de la barra (si no: el de la conversación en curso, o CONFIG.tema)
+       ?chat=izq|der|0  dónde va el chat (debajo de qué diálogo) o sin chat        ?info=0  saca la tarjeta rotativa
+       ?ancho=410       ancho de las columnas de los costados, en px de 1920
+       ?emojis=0        sin emojis de gata al final de las frases
+       ?guia=1          pinta el hueco del medio, para acomodar la escena          ?demo=1  texto de prueba, sin consola
+       ?min=5 | ?hora=21:30   cuenta regresiva de "ya empezamos" (sin ninguno: "en instantes")
+       ?fondo=0         "ya empezamos" con fondo transparente                      ?holo=0  sin el holograma -->
+<script>
+const CONFIG = {
+  titulo: "CHARLITA TECH", episodio: "#2", edicion: "Barbie Doll Edition",
+  tema: "IA, Linux, hacking y memes",              // lo que muestra la barra cuando no hay una conversación con tema
+  lados: {izq: "joy", der: "bambi"},               // qué doll habla en cada cuadro (como están paradas en la escena)
+  nombres: {joy: "J0Y 5.0", bambi: "BL4CKR0S3 v4.0"},   // cómo figuran en pantalla (vacío: el nombre de la consola)
+  bios: {joy: "la IA gato cool", bambi: "hacker · linuxera · gamer"},
+  redes: [{red: "x", usuario: "@4lic3bl4ckr0s3"}, {red: "youtube", usuario: "@alice-neko-girl-dev"}],
+  suscribir: "SUSCRÍBETE",
+  invitaciones: ["y activa la campanita", "deja tus preguntas en el chat", "dale like si te gusta la charla"],
+  temas: ["Actualidad y noticias de IA", "Novedades del mundillo Linux", "Ingeniería y desarrollo",
+          "Hacking y ciberseguridad", "Memes y chat en vivo"],
+  lemas: ["Tu contacto desde dentro de la deep web", "La frontera de la ciencia", "El Uncanny Valley",
+          "La búsqueda de la waifu de IA con AGI", "Por una SKYNET segura para todos"],
+  hablales: "Escribe en el chat y nombra a Joy o a Rose: te contestan en vivo.",
+  aviso: "Las panelistas son personajes generados con IA, con fines de humor y parodia. No representan a personas reales.",
+  holograma: "holograma.png",                  // figura que gira en "ya empezamos" (PNG transparente; vacío: ninguna)
+  hashtags: "#CharlitaTech #InteligenciaArtificial #Linux #CachyOS #Hacking #IA #vtuber",
+};
+</script>
+<style>
+:root {
+  --rosa: #ff4fa3; --rosa2: #ffa6d2; --cian: #6fe3ff; --rojo: #ff2d55;
+  --panel: rgba(17, 8, 23, .86); --linea: rgba(255, 79, 163, .6); --txt: #fff5fb; --dim: rgba(255, 232, 245, .62);
+  --f: "Fira Sans Condensed", "Fira Sans", system-ui, sans-serif;
+  --m: "MesloLGL Nerd Font Mono", "DejaVu Sans Mono", ui-monospace, monospace;
+  --ancho: 410px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+[hidden] { display: none !important; }
+html, body { background: transparent; overflow: hidden; width: 100%; height: 100%; }
+#escena { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; overflow: hidden;
+          font-family: var(--f); color: var(--txt); }
+.panel { background: var(--panel); border: 2px solid var(--c, var(--linea)); border-radius: 16px;
+         box-shadow: 0 0 26px color-mix(in srgb, var(--c, var(--rosa)) 30%, transparent), inset 0 0 0 1px rgba(255, 255, 255, .05); }
+.rot { font: 700 15px/1 var(--m); letter-spacing: .16em; color: var(--c, var(--rosa2)); text-transform: uppercase; }
+svg { display: block; fill: currentColor; }
+
+/* ── barra de arriba: marca · tema · hora / redes · suscribirse ── */
+#top { position: absolute; left: 24px; right: 24px; top: 18px; height: 116px; display: grid;
+       grid-template: 72px 42px / auto 1fr auto; align-items: center; column-gap: 28px; padding: 0 24px; z-index: 5; }
+.marca { display: flex; align-items: center; gap: 16px; }
+.vivo { display: flex; align-items: center; gap: 8px; background: var(--rojo); color: #fff; font: 800 17px/1 var(--f);
+        letter-spacing: .08em; padding: 8px 12px; border-radius: 8px; }
+.vivo i { width: 10px; height: 10px; border-radius: 50%; background: #fff; animation: latir 1.4s infinite; }
+.marca b { display: block; font: 800 34px/1 var(--f); letter-spacing: .02em; white-space: nowrap; }
+.marca b em { font-style: normal; color: var(--rosa); }
+.marca small { display: block; margin-top: 4px; font: italic 600 17px/1 var(--f); color: var(--rosa2); letter-spacing: .04em; }
+.tema { min-width: 0; text-align: center; }
+#tema { margin-top: 5px; font: 700 32px/1.08 var(--f); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical; transition: opacity .4s; }
+#tema.largo { font-size: 23px; -webkit-line-clamp: 2; }
+#reloj { font: 700 40px/1 var(--m); letter-spacing: .02em; text-shadow: 0 0 14px var(--rosa); }
+#reloj i { font-style: normal; animation: latir 2s steps(2) infinite; }
+.tira { grid-column: 1 / -1; align-self: stretch; display: flex; align-items: center; justify-content: space-between;
+        border-top: 1px solid rgba(255, 79, 163, .35); font: 600 19px/1 var(--f); }
+#redes { display: flex; gap: 26px; }
+.red { display: flex; align-items: center; gap: 8px; }
+.red svg { width: 20px; height: 20px; }
+.sus { display: flex; align-items: center; gap: 12px; }
+.sus b { display: flex; align-items: center; gap: 7px; background: var(--rojo); color: #fff; font: 800 17px/1 var(--f);
+         letter-spacing: .06em; padding: 6px 12px; border-radius: 7px; animation: empuje 3.2s infinite; }
+.sus b svg { width: 17px; height: 17px; }
+#invita { color: var(--dim); transition: opacity .4s; }
+
+/* ── en vivo: columnas de los costados, medio libre ── */
+#juego .col { position: absolute; top: 148px; bottom: 24px; width: var(--ancho); display: flex; flex-direction: column; gap: 14px; }
+#juego .col.izq { left: 24px; }
+#juego .col.der { right: 24px; }
+.dlg { flex: 1.3 1 0; min-height: 0; display: flex; flex-direction: column; padding: 16px 20px 18px; transition: box-shadow .3s; }
+.dlg header { display: flex; align-items: center; gap: 12px; padding-bottom: 12px; border-bottom: 1px solid color-mix(in srgb, var(--c) 40%, transparent); }
+.dlg .av { width: 42px; height: 42px; flex: none; border-radius: 11px; background: var(--c); color: #14081a; display: grid; place-items: center; font: 800 25px/1 var(--f); }
+.dlg .nom { font: 800 27px/1 var(--f); color: var(--c); letter-spacing: .02em; white-space: nowrap; }
+.dlg .est { margin-left: auto; font: 600 13px/1 var(--m); color: var(--dim); letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+.eq { display: flex; align-items: flex-end; gap: 3px; height: 20px; opacity: 0; transition: opacity .2s; }
+.eq i { width: 4px; height: 100%; background: var(--c); border-radius: 2px; transform-origin: 50% 100%; transform: scaleY(.2); }
+.dlg.habla { box-shadow: 0 0 40px color-mix(in srgb, var(--c) 55%, transparent), inset 0 0 0 1px rgba(255, 255, 255, .08); }
+.dlg.habla .eq { opacity: 1; }
+.dlg.habla .eq i { animation: eq .7s ease-in-out infinite alternate; }
+.eq i:nth-child(2) { animation-delay: -.45s !important; } .eq i:nth-child(3) { animation-delay: -.2s !important; } .eq i:nth-child(4) { animation-delay: -.6s !important; }
+.cita { margin-top: 12px; padding: 8px 12px; border-left: 3px solid var(--c); background: rgba(255, 255, 255, .06);
+        border-radius: 0 8px 8px 0; font: 500 18px/1.3 var(--f); color: var(--dim); overflow: hidden; display: -webkit-box;
+        -webkit-line-clamp: 3; -webkit-box-orient: vertical; flex: none; }
+.cita b { color: var(--txt); margin-right: 6px; }
+.txt { flex: 1; min-height: 0; padding-top: 14px; overflow: hidden; font: 500 27px/1.34 var(--f); color: var(--dim);
+       -webkit-mask-image: linear-gradient(transparent, #000 14px); mask-image: linear-gradient(transparent, #000 14px); transition: opacity .8s; }
+.txt span { transition: color .5s; }
+.txt span.ahora { color: var(--txt); }
+.dlg.quieta:not(.piensa) .txt { opacity: .5; }
+.dlg.piensa .txt:empty::after { content: "procesando…"; font: 600 20px/1 var(--m); color: var(--c); animation: latir 1.2s infinite; }
+
+.caja { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; padding: 14px 18px 16px; }
+.caja > .rot { display: flex; align-items: center; gap: 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 79, 163, .35); flex: none; }
+.caja > .rot::before { content: ""; width: 9px; height: 9px; border-radius: 2px; background: var(--rosa); }
+.chat { flex: 1; min-height: 0; overflow: hidden; margin-top: 8px; display: flex; flex-direction: column; justify-content: flex-end; }
+.chat:empty::after { content: attr(data-vacio); margin-bottom: auto; padding-top: 6px; font: 500 20px/1.3 var(--f); color: var(--dim); }
+.msg { flex: none; padding: 5px 8px; border-radius: 8px; font: 500 20px/1.28 var(--f); overflow-wrap: anywhere; animation: entra .3s; }
+.msg b { margin-right: 7px; font-weight: 700; }
+.msg.turno { background: rgba(255, 79, 163, .2); box-shadow: inset 3px 0 0 var(--rosa); }
+.ficha { flex: 1; min-height: 0; margin-top: 12px; display: flex; flex-direction: column; justify-content: center; transition: opacity .5s; }
+.ficha p { font: 500 23px/1.34 var(--f); }
+.ficha li { list-style: none; font: 600 22px/1.2 var(--f); padding: 6px 0 6px 22px; position: relative; }
+.ficha li::before { content: ">"; position: absolute; left: 0; font-family: var(--m); color: var(--rosa); }
+#guia { position: absolute; top: 148px; bottom: 24px; left: calc(var(--ancho) + 44px); right: calc(var(--ancho) + 44px);
+        border: 3px dashed rgba(255, 255, 255, .5); border-radius: 16px; display: grid; place-items: center;
+        background: rgba(60, 70, 90, .55); font: 700 30px/1.4 var(--m); text-align: center; color: rgba(255, 255, 255, .8); }
+
+/* ── "ya empezamos" ── */
+#empezamos { position: absolute; inset: 0; }
+.fondo { position: absolute; inset: 0; overflow: hidden;
+         background: radial-gradient(900px 600px at 28% 46%, rgba(255, 79, 163, .30), transparent 70%),
+                     radial-gradient(800px 500px at 88% 12%, rgba(111, 227, 255, .16), transparent 70%),
+                     linear-gradient(#12061a, #07030b 62%, #1b0620); }
+.piso { position: absolute; left: -60%; right: -60%; top: 66%; height: 900px; opacity: .5; transform-origin: 50% 0;
+        transform: perspective(520px) rotateX(64deg); animation: piso 2.4s linear infinite;
+        background-image: linear-gradient(var(--rosa) 3px, transparent 3px), linear-gradient(90deg, var(--rosa) 3px, transparent 3px);
+        background-size: 120px 120px; -webkit-mask-image: linear-gradient(transparent, #000 45%); mask-image: linear-gradient(transparent, #000 45%); }
+.rayas { position: absolute; inset: 0; background: repeating-linear-gradient(rgba(255, 255, 255, .035) 0 1px, transparent 1px 4px); }
+.hero { position: absolute; left: 72px; top: 190px; width: 1190px; }
+.hero .rot { font-size: 22px; }
+.hero .rot u { text-decoration: none; animation: latir 1s steps(2) infinite; }
+h1 { position: relative; margin-top: 26px; font: italic 800 160px/.9 var(--f); letter-spacing: -.01em; white-space: nowrap;
+     text-shadow: 0 0 46px rgba(255, 79, 163, .75); }
+h1::before, h1::after { content: attr(data-t); position: absolute; left: 0; top: 0; }
+h1::before { color: var(--cian); animation: glitch 3.6s infinite steps(1); mix-blend-mode: screen; }
+h1::after { color: var(--rosa); animation: glitch 3.6s -1.8s infinite steps(1); mix-blend-mode: screen; }
+.ep { margin-top: 26px; font: 800 50px/1 var(--f); }
+.ep i { margin-left: 14px; font: italic 600 40px/1 var(--f); color: var(--rosa2); }
+#lema { margin-top: 22px; height: 40px; font: 500 31px/1.25 var(--m); color: var(--cian); transition: opacity .4s; }
+#lema::before { content: "> "; color: var(--rosa); }
+.cuenta { margin-top: 44px; display: inline-flex; align-items: center; gap: 28px; padding: 18px 34px; }
+.cuenta .rot { font-size: 21px; }
+#cuenta { font: 700 94px/1 var(--m); text-shadow: 0 0 22px var(--rosa); min-width: 300px; }
+#cuenta.ya { font: italic 800 76px/1.12 var(--f); animation: latir 1.6s infinite; }
+.lado { position: absolute; right: 24px; top: 148px; bottom: 74px; width: 500px; display: flex; flex-direction: column; gap: 14px; }
+.lado .caja { flex: none; }
+.lado .caja.crece { flex: 1 1 0; }
+.pan { display: flex; align-items: center; gap: 14px; margin-top: 12px; --c: var(--cian); }
+.pan + .pan { --c: var(--rosa); }
+.pan .av { width: 50px; height: 50px; flex: none; border-radius: 12px; background: var(--c); color: #14081a; display: grid; place-items: center; font: 800 29px/1 var(--f); }
+.pan b { display: block; font: 800 29px/1 var(--f); color: var(--c); }
+.pan small { display: block; margin-top: 5px; font: 500 18px/1 var(--f); color: var(--dim); }
+.lado .ficha { margin-top: 6px; }
+/* holograma: la figura en capas (le dan espesor al ponerse de canto) girando sobre un proyector */
+.holo { position: absolute; left: 1110px; bottom: 66px; width: 250px; height: 850px; perspective: 1300px; }
+.holo .cono { position: absolute; left: 50%; bottom: 4px; width: 400px; height: 880px; margin-left: -200px;
+              clip-path: polygon(32% 100%, 68% 100%, 100% 0, 0 0); animation: parpadeo 7s infinite steps(1);
+              background: linear-gradient(to top, rgba(111, 227, 255, .34), rgba(255, 79, 163, .10) 55%, transparent 92%); }
+.holo .flota, .holo .giro { position: absolute; inset: 0; transform-style: preserve-3d; }
+.holo .flota { animation: flota 4.5s ease-in-out infinite alternate; }
+.holo .giro { animation: giro 11s linear infinite; }
+.capa { position: absolute; inset: 0; background: var(--holo) center / 100% 100% no-repeat; transform: translateZ(var(--z)); backface-visibility: hidden;
+        opacity: .2; filter: sepia(1) saturate(6) hue-rotate(150deg) brightness(1.4); }
+.capa:nth-child(odd) { filter: sepia(1) saturate(6) hue-rotate(285deg) brightness(1.4); }
+.capa.c { opacity: .92; animation: parpadeo 5s infinite steps(1);
+          filter: saturate(1.15) brightness(1.1) drop-shadow(0 0 12px rgba(255, 79, 163, .95)) drop-shadow(0 0 38px rgba(111, 227, 255, .55)); }
+.capa.dorso { transform: rotateY(180deg) translateZ(var(--z)); }   /* de espaldas muestra otra vez el frente: el texto nunca queda espejado */
+.capa.c::after { content: ""; position: absolute; inset: 0; mix-blend-mode: screen; animation: barrido 3.2s linear infinite;
+                 -webkit-mask: var(--holo) center / 100% 100% no-repeat; mask: var(--holo) center / 100% 100% no-repeat;
+                 background: linear-gradient(transparent 44%, rgba(255, 255, 255, .6) 50%, transparent 56%) 0 0 / 100% 300% no-repeat,
+                             repeating-linear-gradient(rgba(111, 227, 255, .34) 0 2px, transparent 2px 6px); }
+.holo .base { position: absolute; left: 50%; bottom: -24px; width: 320px; height: 60px; margin-left: -160px; border-radius: 50%;
+              border: 3px solid var(--cian); background: radial-gradient(closest-side, rgba(111, 227, 255, .6), transparent);
+              box-shadow: 0 0 32px var(--cian), inset 0 0 26px rgba(111, 227, 255, .7); }
+.holo .base::before { content: ""; position: absolute; inset: -4px -8px; border-radius: 50%; border: 2px solid var(--rosa); animation: onda 2.4s ease-out infinite; }
+.pie { position: absolute; left: 72px; right: 24px; bottom: 22px; display: flex; justify-content: space-between; gap: 40px;
+       font: 500 17px/1.3 var(--f); color: var(--dim); }
+.pie span:last-child { font-family: var(--m); font-size: 15px; color: var(--rosa2); white-space: nowrap; }
+
+@keyframes latir { 50% { opacity: .25; } }
+@keyframes empuje { 0%, 86%, 100% { transform: none; } 90% { transform: scale(1.09); } 94% { transform: scale(.97); } }
+@keyframes eq { to { transform: scaleY(1); } }
+@keyframes entra { from { opacity: 0; transform: translateY(8px); } }
+@keyframes piso { to { background-position: 0 120px, 0 0; } }
+@keyframes giro { to { transform: rotateY(360deg); } }
+@keyframes flota { from { transform: translateY(-8px); } to { transform: translateY(8px); } }
+@keyframes parpadeo { 0%, 100% { opacity: .92; } 47% { opacity: .55; } 48% { opacity: .95; } 81% { opacity: .7; } 82% { opacity: .92; } }
+@keyframes barrido { from { background-position: 0 130%, 0 0; } to { background-position: 0 -30%, 0 24px; } }
+@keyframes onda { from { transform: scale(.7); opacity: 1; } to { transform: scale(1.35); opacity: 0; } }
+@keyframes glitch {
+  0%, 100% { clip-path: inset(0 0 100% 0); transform: none; }
+  91% { clip-path: inset(18% 0 58% 0); transform: translate(-7px, 2px); }
+  94% { clip-path: inset(62% 0 12% 0); transform: translate(8px, -2px); }
+  97% { clip-path: inset(38% 0 40% 0); transform: translate(-4px, 0); }
+}
+</style>
+</head>
+<body>
+<div id="escena">
+  <header id="top" class="panel">
+    <div class="marca"><span class="vivo"><i></i>EN VIVO</span><div><b id="titulo"></b><small id="edicion"></small></div></div>
+    <div class="tema"><div class="rot" id="tema-rot">Hablando de</div><div id="tema"></div></div>
+    <div id="reloj"></div>
+    <div class="tira">
+      <div id="redes"></div>
+      <div class="sus"><b><svg viewBox="0 0 24 24"><path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6v-5a6 6 0 0 0-5-5.9V4a1 1 0 0 0-2 0v1.1A6 6 0 0 0 6 11v5l-2 2v1h16v-1z"/></svg><span id="suscribir"></span></b><span id="invita"></span></div>
+    </div>
+  </header>
+
+  <section id="juego">
+    <div id="guia" hidden>ESPACIO LIBRE<br>para las muñecas</div>
+    <div class="col izq"></div>
+    <div class="col der"></div>
+  </section>
+
+  <section id="empezamos">
+    <div class="fondo"><div class="piso"></div><div class="rayas"></div></div>
+    <div class="hero">
+      <div class="rot">Transmisión entrante<u>_</u></div>
+      <h1 data-t="YA EMPEZAMOS">YA EMPEZAMOS</h1>
+      <div class="ep"><span id="ep"></span><i id="ep-ed"></i></div>
+      <div id="lema"></div>
+      <div class="cuenta panel"><span class="rot" id="cuenta-rot">Arrancamos en</span><span id="cuenta"></span></div>
+    </div>
+    <div class="holo" hidden><div class="cono"></div><div class="flota"><div class="giro"></div></div><div class="base"></div></div>
+    <aside class="lado">
+      <div class="caja panel"><div class="rot">Panelistas</div><div id="panel"></div></div>
+      <div class="caja panel"><div class="rot">Temas de hoy</div><ul class="ficha" id="temas"></ul></div>
+      <div class="caja panel crece"><div class="rot">Chat en vivo</div><div class="chat"></div></div>
+    </aside>
+    <footer class="pie"><span id="aviso"></span><span id="hashtags"></span></footer>
+  </section>
+</div>
+<script>
+const q = new URLSearchParams(location.search), $ = s => document.querySelector(s);
+const ESCENA = q.get("escena") || (location.pathname.includes("empezamos") ? "empezamos" : "juego");
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+const ICONOS = {
+  x: '<svg viewBox="0 0 24 24"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.65l-5.21-6.82-5.97 6.82H1.68l7.73-8.84L1.25 2.25h6.83l4.71 6.23zm-1.16 17.52h1.83L7.08 4.13H5.12z"/></svg>',
+  youtube: '<svg viewBox="0 0 24 24"><rect x="1" y="4.5" width="22" height="15" rx="4.5" fill="#ff0033"/><path d="M10 8.6l5.6 3.4-5.6 3.4z" fill="#fff"/></svg>',
+  twitch: '<svg viewBox="0 0 24 24"><path d="M4 2 2.5 6v14H7v2.5h3L12.5 20H16l5.5-5.5V2zm15.5 11.5-3 3h-4L10 19v-2.5H6.5V4h13zM15 7h2v5h-2zm-5 0h2v5h-2z" fill="#a970ff"/></svg>',
+};
+
+// ── tamaño: la escena es de 1920x1080 y se escala a la fuente de OBS ──
+const escalar = () => $("#escena").style.transform = `scale(${Math.min(innerWidth / 1920, innerHeight / 1080)})`;
+addEventListener("resize", escalar); escalar();
+if (q.get("ancho")) document.documentElement.style.setProperty("--ancho", +q.get("ancho") + "px");
+
+// ── barra ──
+$("#titulo").append(CONFIG.titulo + " ", el("em", "", CONFIG.episodio)); $("#edicion").textContent = CONFIG.edicion;
+$("#suscribir").textContent = CONFIG.suscribir;
+for (const r of CONFIG.redes) { const s = el("span", "red"); s.innerHTML = ICONOS[r.red] || ""; s.append(r.usuario); $("#redes").append(s); }
+function rotar(nodo, textos, cada) {   // va cambiando el texto de un nodo, con un fundido
+  let i = 0; nodo.textContent = textos[0] || "";
+  if (textos.length > 1) setInterval(() => { nodo.style.opacity = 0;
+    setTimeout(() => { nodo.textContent = textos[i = (i + 1) % textos.length]; nodo.style.opacity = 1; }, 400); }, cada);
+}
+rotar($("#invita"), CONFIG.invitaciones, 7000);
+function reloj() {
+  const d = new Date(), p = n => String(n).padStart(2, "0");
+  $("#reloj").replaceChildren(p(d.getHours()), el("i", "", ":"), p(d.getMinutes()));
+}
+reloj(); setInterval(reloj, 5000);
+let conv = {activa: false};
+function tema() {
+  const t = q.get("tema") || (ESCENA === "juego" && conv.activa && conv.tema) || CONFIG.tema, n = $("#tema");
+  if (n.textContent === t) return;
+  n.textContent = t; n.classList.toggle("largo", t.length > 44);
+}
+
+// ── chat del canal (en las dos escenas) ──
+let chat = null; const mensajes = {};
+function mensaje(ev) {
+  if (!chat || mensajes[ev.id]) return;
+  const m = mensajes[ev.id] = el("div", "msg"), b = el("b", "", ev.autor);
+  let h = 0; for (const c of ev.autor) h = (h * 31 + c.charCodeAt(0)) % 360;
+  b.style.color = `hsl(${h} 95% 74%)`; m.append(b, ev.texto); chat.append(m);
+  while (chat.children.length > 14) { const v = chat.firstChild; for (const k in mensajes) if (mensajes[k] === v) delete mensajes[k]; v.remove(); }
+}
+function contestando(id) {
+  for (const m of chat ? chat.children : []) m.classList.remove("turno");
+  if (mensajes[id]) mensajes[id].classList.add("turno");
+}
+
+// ── en vivo: un cuadro de diálogo por doll ──
+const cuadros = {};
+function cuadro(doll, color) {
+  const c = el("article", "dlg panel quieta"); c.style.setProperty("--c", color);
+  const nombre = CONFIG.nombres[doll] || doll;
+  const cab = el("header"); const eq = el("span", "eq"); eq.append(el("i"), el("i"), el("i"), el("i"));
+  cab.append(el("span", "av", nombre[0]), el("b", "nom", nombre), eq, el("small", "est", "en línea"));
+  const cita = el("div", "cita"); cita.hidden = true;
+  c.append(cab, cita, el("div", "txt"));
+  return cuadros[doll] = {c, cita, txt: c.lastChild, est: cab.lastChild, nom: cab.children[1], av: cab.firstChild,
+                          nuevo: true, citaPend: null, t: 0};
+}
+function estado(k, clase) {   // "habla" | "piensa" | "" (en línea)
+  k.c.classList.toggle("habla", clase === "habla"); k.c.classList.toggle("piensa", clase === "piensa");
+  k.est.textContent = clase === "habla" ? "hablando" : clase === "piensa" ? "pensando" : "en línea";
+}
+// emojis de gata al final de cada frase, solo en pantalla (la voz no los lee). ?emojis=0 los saca
+const MININOS = {joy: ["🐱", "😼", "🐾", "✨", "💙", "😸", "🤖"], bambi: ["🖤", "🎀", "😽", "💅", "🐈‍⬛", "💗", "💋"]};
+function gatuna(doll, t) {
+  if (new URLSearchParams(location.search).get("emojis") === "0" || !MININOS[doll] || /\p{Extended_Pictographic}\s*$/u.test(t)) return t;
+  const l = t.toLowerCase(), set = MININOS[doll], azar = () => set[Math.random() * set.length | 0];
+  const e = /\b(ja){2,}|jeje|xd\b/.test(l) ? "😹" : /\?\s*$/.test(t) ? (Math.random() < .5 ? "🤔" : azar())
+          : /!\s*$/.test(t) ? (Math.random() < .5 ? "✨" : azar()) : Math.random() < .7 ? azar() : "";
+  return e ? t + " " + e : t;
+}
+function frase(doll, texto) {
+  const k = cuadros[doll]; if (!k) return;
+  if (k.nuevo) {   // empieza un turno: se borra lo anterior y, si contesta al chat, se muestra a quién
+    k.txt.replaceChildren(); k.nuevo = false;
+    k.cita.hidden = !k.citaPend;
+    if (k.citaPend) k.cita.replaceChildren(el("b", "", k.citaPend.autor), k.citaPend.texto);
+    k.citaPend = null;
+  }
+  for (const s of k.txt.children) s.classList.remove("ahora");
+  k.txt.append(el("span", "ahora", gatuna(doll, texto) + " ")); k.txt.scrollTop = k.txt.scrollHeight;
+  clearTimeout(k.t); k.c.classList.remove("quieta"); estado(k, "habla");
+}
+function fin(doll) {
+  const k = cuadros[doll]; if (!k) return;
+  k.nuevo = true; estado(k, ""); contestando(null);
+  clearTimeout(k.t); k.t = setTimeout(() => k.c.classList.add("quieta"), 20000);
+}
+
+// ── eventos de la consola (director.web, /ws) ──
+function evento(ev) {
+  if (ev.type === "info") {
+    for (const d of ev.dolls || []) if (cuadros[d.id] && !CONFIG.nombres[d.id]) {
+      cuadros[d.id].nom.textContent = d.nombre; cuadros[d.id].av.textContent = d.nombre[0]; }
+    conv = ev.conv || conv; tema();
+    for (const h of (ev.historial || []).filter(h => h.type === "canal").slice(-8)) mensaje(h);
+  }
+  else if (ev.type === "conv") { conv = ev.conv; tema(); }
+  else if (ev.type === "canal") mensaje(ev);
+  else if (ev.type === "canal_turno") { contestando(ev.id); if (cuadros[ev.doll]) cuadros[ev.doll].citaPend = ev; }
+  else if (ev.type === "frase") frase(ev.doll, ev.texto);
+  else if (ev.type === "fin") fin(ev.doll);
+  else if (ev.type === "estado" && cuadros[ev.doll] && cuadros[ev.doll].nuevo)
+    estado(cuadros[ev.doll], ev.estado && ev.estado.pensando ? "piensa" : "");
+}
+function conectar() {
+  const ws = new WebSocket(`ws://${location.protocol.startsWith("http") ? location.host : "127.0.0.1:8780"}/ws`);
+  ws.onmessage = m => evento(JSON.parse(m.data));
+  ws.onclose = () => setTimeout(conectar, 2000);
+}
+
+// ── armado de la escena ──
+function tarjeta() {   // abajo del otro diálogo: temas de hoy · cómo hablarles · aviso de parodia
+  const caja = el("div", "caja panel"), rot = el("div", "rot"), ficha = el("div", "ficha");
+  const ul = el("ul"); for (const t of CONFIG.temas) ul.append(el("li", "", t));
+  const fichas = [["Temas de hoy", ul], ["Habla con ellas", el("p", "", CONFIG.hablales)], ["Aviso", el("p", "", CONFIG.aviso)]];
+  let i = 0; const poner = () => { rot.textContent = fichas[i][0]; ficha.replaceChildren(fichas[i][1]); };
+  poner(); setInterval(() => { ficha.style.opacity = 0; setTimeout(() => { i = (i + 1) % fichas.length; poner(); ficha.style.opacity = 1; }, 500); }, 14000);
+  caja.append(rot, ficha); return caja;
+}
+if (ESCENA === "empezamos") {
+  $("#juego").remove(); chat = $("#empezamos .chat");
+  if (q.get("fondo") === "0") $(".fondo").remove();
+  $("#tema-rot").textContent = "Hoy"; tema();
+  $("#ep").textContent = `${CONFIG.titulo} ${CONFIG.episodio}`; $("#ep-ed").textContent = CONFIG.edicion;
+  rotar($("#lema"), CONFIG.lemas, 4500);
+  if (CONFIG.holograma && q.get("holo") !== "0") {
+    const h = $(".holo"); h.hidden = false; h.style.setProperty("--holo", `url("${CONFIG.holograma}")`);
+    for (const dorso of ["", " dorso"]) for (const z of [-14, -7, 7, 14, 0]) {
+      const c = el("i", "capa" + (z ? "" : " c") + dorso); c.style.setProperty("--z", z + "px"); $(".holo .giro").append(c); }
+  }
+  for (const d of [CONFIG.lados.izq, CONFIG.lados.der]) {
+    const p = el("div", "pan"), t = el("div"), n = CONFIG.nombres[d] || d;
+    t.append(el("b", "", n), el("small", "", CONFIG.bios[d] || "")); p.append(el("span", "av", n[0]), t); $("#panel").append(p);
+  }
+  for (const t of CONFIG.temas) $("#temas").append(el("li", "", t));
+  $("#aviso").textContent = CONFIG.aviso; $("#hashtags").textContent = CONFIG.hashtags;
+  let hasta = q.get("min") ? Date.now() + q.get("min") * 60000 : 0;
+  if (q.get("hora")) { const [h, m] = q.get("hora").split(":").map(Number), d = new Date(); d.setHours(h, m || 0, 0, 0); hasta = +d; }
+  const cuenta = () => {
+    const s = Math.ceil((hasta - Date.now()) / 1000), ya = !(s > 0);
+    $("#cuenta").classList.toggle("ya", ya); $("#cuenta-rot").hidden = ya;
+    $("#cuenta").textContent = ya ? "EN INSTANTES…" : String(s / 60 | 0).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0");
+  };
+  cuenta(); setInterval(cuenta, 250);
+} else {
+  $("#empezamos").remove(); tema();
+  const donde = q.get("chat") || "izq", cols = {izq: $(".col.izq"), der: $(".col.der")};
+  cols.izq.append(cuadro(CONFIG.lados.izq, "var(--cian)").c); cols.der.append(cuadro(CONFIG.lados.der, "var(--rosa)").c);
+  if (donde !== "0") {
+    const caja = el("div", "caja panel"); chat = el("div", "chat"); chat.dataset.vacio = "Deja tu pregunta en el chat…";
+    caja.append(el("div", "rot", "Chat en vivo"), chat); cols[donde === "der" ? "der" : "izq"].append(caja);
+  }
+  if (q.get("info") !== "0") cols[donde === "der" ? "izq" : "der"].append(tarjeta());
+  $("#guia").hidden = !q.get("guia");
+}
+if (chat && !chat.dataset.vacio) chat.dataset.vacio = "Deja tus preguntas y opiniones en el chat: las vamos leyendo.";
+
+if (q.get("demo")) {   // sin consola: un guion de prueba para acomodar la escena
+  const guion = [
+    [300, {type: "canal", id: 1, autor: "tux_lover", texto: "buenas!! ya está el kernel 7.1?"}],
+    [900, {type: "canal", id: 2, autor: "n3ko_hax", texto: "Joy, la AGI llega este año o no?"}],
+    [1500, {type: "conv", conv: {activa: true, tema: "¿la IA va a reemplazar a los programadores?"}}],
+    [1800, {type: "frase", doll: "bambi", texto: "A ver, yo compilo mi kernel antes del desayuno."}],
+    [2600, {type: "frase", doll: "bambi", texto: "Si una IA me quiere reemplazar, primero que aprenda a salir de Vim."}],
+    [3400, {type: "fin", doll: "bambi"}],
+    [3600, {type: "canal", id: 3, autor: "María_dev", texto: "jajaja lo de Vim es real"}],
+    [4000, {type: "canal_turno", id: 2, doll: "joy", autor: "n3ko_hax", texto: "Joy, la AGI llega este año o no?"}],
+    [4300, {type: "frase", doll: "joy", texto: "Depende de a quién le preguntes, n3ko."}],
+    [5200, {type: "frase", doll: "joy", texto: "Yo creo que ya llegó y está esperando a que termine de cargar el chat."}],
+  ];
+  for (const [t, ev] of guion) setTimeout(() => evento(ev), t);
+} else conectar();
+</script>
+</body>
+</html>

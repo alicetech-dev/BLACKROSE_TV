@@ -1,0 +1,66 @@
+# Show 18+ para stream:  ./dolls.sh start --bimbo   (el director arranca con --config director/dolls.bimbo.yaml)
+# Mismas piezas que dolls.yaml (cuerpos, voces, audio), otro cerebro: el agente corre el pack `bimbo` (dos muñecas bimbo
+# adultas, humor adulto e insinuación pero SIN contenido explícito; todo en inglés) con su propia memoria en
+# ~/proyectos/agente_unificado/data_bimbo. No comparte bóveda ni Qdrant con el modo privado ni con el --sfw.
+sfw: true                          # candado: el director se niega a arrancar si el agente NO corre un pack sin contenido explícito
+etiqueta: {logo: "BIMBO DECK", badge: "18+ · STREAM"}
+agente: ws://127.0.0.1:8791
+xtts_url: http://127.0.0.1:9020/tts
+llm_directo: http://127.0.0.1:8084
+
+usuario: {id: 0, nombre: Alice}    # cómo te nombran EN VIVO (id 0 = operadora)
+
+audio:
+  sink: dolls
+  bloque_ms: 20
+  adelanto_ms: 30
+
+opinar: 0.55
+
+dolls:
+  joy:
+    cuerpo: ws://127.0.0.1:8770
+    vmc_puerto: 39539
+    cuerpo_desc: "bimbo doll avatar"          # ajustalo al modelo que uses en la escena (Joy.vrm)
+    mirar_a: {bambi: derecha}
+    idioma: en
+    voz: {motor: xtts, voice: samplevoice, temperatura: 0.85, velocidad: 1.08, tono: 1.05, respaldo: ninguno}
+  bambi:
+    nombre: BAMBI
+    alias: [bambi]
+    cuerpo: ws://127.0.0.1:8771
+    vmc_puerto: 39541
+    cuerpo_desc: "Barbie doll avatar: platinum hair, glossy lips, curvy plastic-perfect figure"
+    mirar_a: {joy: izquierda}
+    idioma: en
+    voz: {motor: xtts, voice: samplevoice, temperatura: 0.65, velocidad: 0.94, tono: 0.97, respaldo: ninguno}
+
+sala:
+  activo: true
+  silencio: [10, 25]
+  dialogo_max: 5
+  replicar: 0.9
+  posturas: {seguir: 0.3, contradecir: 0.25, preguntar: 0.2, debatir: 0.25}
+
+# Chat del canal (solo lectura, sin claves). Los mensajes pasan por los mismos filtros que en --sfw.
+canal:
+  kick: "barbieblackrose"
+  auto: true
+  cada: [8, 18]                    # segundos entre una respuesta al chat y la siguiente (más vivo que en --sfw)
+  vence: 240
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot, BotRix, KickBot]
+  bloquear: []
+
+temas:
+  - the perfect first date
+  - red flags you ignore every time
+  - dating apps: hot takes
+  - the best outfit you ever wore
+  - celebrity drama of the week
+  - heels versus sneakers
+  - how to flirt without trying too hard
+  - which anime couple is the most toxic
+  - a confession you have never told anyone
+  - makeup that is actually worth the money
+  - ideal date night versus ideal night in
+  - nightlife stories that went wrong

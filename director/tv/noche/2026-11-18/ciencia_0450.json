@@ -1,0 +1,715 @@
+{
+ "bloque": "ciencia_0450",
+ "programa": "ciencia",
+ "fecha": "2026-11-18",
+ "creado": "03:43:50",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Actualidad",
+   "sub": "LABORATORIO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La ciencia que compramos: cómo los descubrimientos del laboratorio se ",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La ciencia que compramos: cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar, según The Conversation."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Los hallazgos científicos llegan al consumidor a través del marketing, transformando datos técnicos en productos de bienestar."
+    },
+    {
+     "quien": "joy",
+     "texto": "El proceso implica una traducción cuidadosa: los investigadores explican sus métodos y resultados para que el público los entienda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero hay un riesgo: cuando se exageran los beneficios o se omiten las limitaciones, el consumidor puede formar expectativas irreales sobre los productos de bienestar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso es crucial que las marcas colaboren con expertos científicos para comunicar con precisión lo que realmente sabemos y lo que aún queda por investigar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la gente común necesita saber si el producto tiene base real o si es una tendencia pasajera impulsada por influencers sin formación académica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Las marcas deben presentar la evidencia real del laboratorio, no solo los titulares emocionantes que generan ventas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Muchos suplementos de bienestar prometen milagros sin citar estudios controlados, lo cual es una forma sutil de pseudociencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "La clave está en leer el artículo completo y verificar si los datos se presentan con contexto y limitaciones claras."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Siempre hay un componente de marketing que busca vender la idea antes de que el laboratorio demuestre su validez científica real."
+    },
+    {
+     "quien": "joy",
+     "texto": "El artículo de The Conversation aclara que la mayoría de los productos de bienestar venden mitos sin datos reales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, el marketing crea la ilusión de ciencia antes de que los estudios controlados prueben nada."
+    }
+   ],
+   "seg": 119
+  },
+  {
+   "tipo": "charla",
+   "tema": "Confirman hallazgo del primer meteorito lunar en Sudamérica en pleno d",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "El primer meteorito lunar confirmado en Sudamérica, hallado en el desierto de Atacama. Fuente: Cooperativa Ciencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Un hito para la astrogeología continental. ¿Hay detalles técnicos sobre su composición o edad?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos preliminares, es un meteorito de impacto de alta energía, probablemente del cráter Tycho."
+    },
+    {
+     "quien": "joy",
+     "texto": "El meteorito lunar de Atacama confirma una presencia extraterrestre en el desierto chileno. Es la primera prueba sólida de impacto espacial en Sudamérica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, provino del cráter Tycho y llegó con alta energía. La Cooperativa Ciencia lo localizó en un sector remoto y poco explorado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Su composición revela silicatos lunares idénticos a los de la superficie. Esto valida que el impacto fue real y no una anomalía geológica terrestre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La edad estimada es de hace millones de años, según los isotopos. Un hallazgo crucial para entender la historia de impactos en nuestro planeta."
+    },
+    {
+     "quien": "joy",
+     "texto": "El hallazgo confirma que la Luna ha estado depositando material en nuestro planeta hace millones de años, cerrando un debate sobre la evolución del sistema solar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no es solo un trozo de roca; su composición idéntica a la superficie lunar prueba que el impacto fue real y de alta energía, como decía el relato inicial."
+    },
+    {
+     "quien": "joy",
+     "texto": "Esto cambia nuestra comprensión de cómo los cuerpos celestes interactúan con la Tierra, ofreciendo pistas sobre la historia cósmica que antes solo se especulaba."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El meteorito de Atacama es el primero confirmado en Sudamérica, según la cooperativa Ciencia. Su composición idéntica a la superficie lunar prueba que el impacto fue real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No se sabe aún si hay más trozos en el desierto o si la Luna sigue depositando material. Eso es lo que falta por descubrir."
+    },
+    {
+     "quien": "joy",
+     "texto": "El hallazgo confirma que la Luna envía material a la Tierra de forma constante, desafiando teorías antiguas sobre la estabilidad del sistema solar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el desierto de Atacama es solo una suerte? Podría ser que haya más trozos ocultos en otros lugares, esperando ser descubiertos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La ciencia nos dice que los meteoritos lunares son raros y valiosos. Este hallazgo es un paso importante para entender la historia del sistema solar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 173
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20240411_clipprf_0001_europa_clipper",
+   "archivo": "v/v_nasa_jpl_20240411_clipprf_0001_europa_clipper.mp4",
+   "titulo": "NASA Invites Media to See Europa Clipper Spacecraft Media Reel",
+   "atribucion": "«NASA Invites Media to See Europa Clipper Spacecraft Media Reel» — NASA · images.nasa.gov",
+   "dur": 966,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La física cuántica sin dolor",
+   "sub": "LABORATORIO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los electrones como ondas y partículas en la doble rendija",
+   "sub": "top3 · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Ciencia con Asombro, donde la precisión es ley. Hoy exploramos el comportamiento dual del electrón en la doble rendija."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero ojo: no es que sean dos entidades distintas, es que la misma realidad se manifiesta de formas complementarias según cómo la mida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso el experimento de doble rendija es tan revelador. Los electrones muestran interferencia como ondas y también impactan como partículas en el detector."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El tercer puesto es la decoherencia, porque explica por qué el mundo clásico emerge de lo cuántico cuando interactúan con el entorno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La decoherencia destruye la superposición al medir, haciendo que los electrones se comporten como partículas definidas en lugar de ondas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esto conecta con el principio de incertidumbre: no es falta de precisión técnica, sino un límite fundamental de la naturaleza misma."
+    },
+    {
+     "quien": "joy",
+     "texto": "El segundo puesto le corresponde al efecto túnel cuántico, que permite que partículas atraviesen barreras energéticas clásicamente imposibles."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Esto es vital para la electrónica moderna y explica cómo los dispositivos funcionan a escala nanométrica con precisión increíble."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y esto conecta directamente con la dualidad onda-partícula que mencionábamos al inicio, cerrando el ciclo de nuestra discusión sobre la física cuántica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El primer puesto es la dualidad onda-partícula, el corazón de la mecánica cuántica que desafía toda nuestra intuición clásica sobre la realidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La naturaleza dual del electrón no es una elección entre dos modelos, sino una descripción matemática más completa de su comportamiento fundamental."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esto lleva directamente al experimento de doble rendija, donde la interferencia de ondas se observa incluso con un solo electrón a la vez."
+    },
+    {
+     "quien": "joy",
+     "texto": "La superposición cuántica es la clave: el sistema no está en un estado definido hasta que la medición colapsa las probabilidades en una realidad concreta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La interferencia de ondas en la doble rendija es la prueba directa de que el electrón actúa como onda y partícula al mismo tiempo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tuviera que elegir un solo hecho, la doble rendija es la prueba más directa de que los electrones son ondas y partículas al mismo tiempo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La interferencia en el experimento no es una leyenda urbana ni una especulación, es la evidencia experimental que define nuestra realidad cuántica."
+    }
+   ],
+   "seg": 176
+  },
+  {
+   "tipo": "charla",
+   "tema": "El principio de incertidumbre de Heisenberg explicado simple",
+   "sub": "linea tiempo · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡La física cuántica no es magia, es matemática pura! Pero el principio de incertidumbre de Heisenberg suena a excusa para no entender nada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero con precisión. El principio de incertidumbre limita la medición simultánea de ciertas propiedades, no es una falta de conocimiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Es como intentar medir la velocidad y posición exactas de un electrón! La naturaleza misma se resiste a ser conocida con total certeza."
+    },
+    {
+     "quien": "joy",
+     "texto": "El principio de incertidumbre no es una limitación tecnológica, sino una propiedad fundamental de la naturaleza cuántica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Es como si el universo tuviera un límite de resolución en su propio código fuente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Heisenberg lo formuló matemáticamente, pero la intuición detrás es que la medición altera el sistema de forma irreducible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es falta de precisión en nuestros instrumentos, es que la realidad misma sea difusa a escalas diminutas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice que los gatos pueden estar vivos y muertos al mismo tiempo, pero en realidad es una analogía matemática para la superposición."
+    },
+    {
+     "quien": "joy",
+     "texto": "Einstein llamó 'acción fantasmal' al entrelazamiento, pero los experimentos de Bell confirman matemáticamente la no localidad en la realidad física."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es falta de precisión en nuestros instrumentos, es que la realidad misma sea difusa a escalas diminutas. La decoherencia explica cómo pierden sus propiedades al interactuar con el entorno."
+    },
+    {
+     "quien": "joy",
+     "texto": "La superposición cuántica permite que un sistema esté en múltiples estados hasta que se mida, pero la medición altera el sistema de forma irreversible según el principio de incertidumbre de Heisenberg."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, el principio de incertidumbre marca límites fundamentales que la medición precisa no puede superar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces, cuando medimos un sistema cuántico, estamos colapsando una superposición que antes existía en múltiples estados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. El principio de incertidumbre dice que ciertos pares de propiedades no pueden conocerse con precisión absoluta al mismo tiempo."
+    }
+   ],
+   "seg": 144
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La entrelazación cuántica y su efecto instantáneo a distancia",
+   "sub": "explicado · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez has sentido que el universo te responde antes de que hables?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es la entrelazación cuántica, donde dos partículas comparten un estado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La medición de una afecta instantáneamente a la otra, sin importar la distancia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La entrelazación cuántica es como dos monedas que siempre dan caras opuestas, sin importar cuánto las separe en el espacio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Cuando medimos una partícula, su estado colapsa instantáneamente y la otra ya sabe qué será, aunque esté lejos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso desafía nuestra intuición clásica, donde todo está conectado por fuerzas que viajan a velocidad finita. Aquí, el vínculo es más profundo."
+    },
+    {
+     "quien": "joy",
+     "texto": "No es magia, pero sí una propiedad real verificada por experimentos de Bell, que confirman la no localidad en la física cuántica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La entrelazación es como dos monedas que siempre dan cara opuesta, pero sin que ninguna se decida primero."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hay un dato de La entrelazación cuántica y su efecto instantáneo a distancia que siempre sorprende."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La entrelazación no es magia, es una propiedad real verificada por experimentos de Bell. Dos partículas conectadas se influyen instantáneamente sin importar la distancia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Es como dos monedas que siempre dan cara opuesta, pero ninguna se decide primero. La física cuántica lo confirma con precisión matemática."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero cuidado: no es que una moneda decida y la otra siga. Es que el estado de uno afecta al otro antes incluso de medirlos. Eso suena a futuro, pero ya está."
+    },
+    {
+     "quien": "joy",
+     "texto": "La decoherencia explica por qué no vemos esto en la vida diaria. Los sistemas cuánticos pierden sus propiedades al interactuar con el entorno. Es sutil, pero real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de La entrelazación cuántica y su efecto instantáneo a distancia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 138
+  },
+  {
+   "tipo": "charla",
+   "tema": "El efecto túnel cuántico que atraviesa barreras imposibles",
+   "sub": "linea tiempo · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez creyendo que las barreras eran imposibles, hasta que la física cuántica nos dijo lo contrario?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El efecto túnel no es magia, es una propiedad real de la mecánica cuántica verificada experimentalmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina un electrón que atraviesa una barrera energéticamente prohibida por las leyes clásicas del movimiento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Einstein llamó a la entrelazación 'acción fantasmal', pero los experimentos de Bell confirmaron que la realidad es no local."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La superposición y el efecto túnel muestran que las barreras imposibles son solo un límite clásico, no una verdad absoluta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina un electrón atravesando una pared energéticamente prohibida por la física clásica. Es real, no metafórico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La decoherencia explica cómo el entorno destruye esas propiedades cuánticas. Sin ella, el túnel sería solo una leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "El efecto túnel no es magia; es la onda de probabilidad que supera la barrera gracias a su naturaleza ondulatoria."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Las partículas cuánticas viven en superposición hasta que algo las mide, colapsando todo al instante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy seguimos con la precisión: el túnel ocurre porque la función de onda no se detiene frente a una barrera finita."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La función de onda atraviesa la barrera como probabilidad, no como materia sólida. Es matemática pura, sin magia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! El efecto túnel es como un puente cuántico que aparece donde la física clásica dice que no hay camino. ¡Genial!"
+    },
+    {
+     "quien": "joy",
+     "texto": "No es magia, es cálculo: la probabilidad de encontrar la partícula al otro lado es real y verificable en experimentos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 124
+  },
+  {
+   "tipo": "musica",
+   "id": "m_voxel_revolution",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "titulo": "Voxel Revolution",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 130,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: El tiempo y la relatividad",
+   "sub": "LABORATORIO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La unificación del espaciotiempo en la teoría de Einstein",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Muchos creen que Einstein descubrió la relatividad en un parque de Praga, pero eso es solo una leyenda urbana sin fuentes verificables."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y además los relojes de bolsillo no pueden medir dilatación temporal; necesitan precisión atómica para detectar efectos relativistas reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "La teoría unifica espacio y tiempo en el espaciotiempo, algo que la física clásica nunca logró, y eso es lo que realmente importa aquí."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que Einstein descubrió la relatividad mientras caminaba por el parque de Praga, pero las fuentes serias dicen que fue en un café."
+    },
+    {
+     "quien": "joy",
+     "texto": "El principio de equivalencia establece que la gravedad y la aceleración son indistinguibles localmente, un concepto clave para entender la curvatura del espaciotiempo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que Einstein descubrió la relatividad mientras caminaba por el parque de Praga, pero las fuentes serias dicen que fue en Berna. La leyenda es bonita, aunque la realidad técnica sea más fría y precisa."
+    },
+    {
+     "quien": "joy",
+     "texto": "El principio de equivalencia establece que la gravedad y la aceleración son indistinguibles localmente, un concepto clave para entender cómo la masa curva el espaciotiempo. Esto no es solo teoría, tiene implicaciones reales en navegación espacial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los relojes atómicos en satélites deben corregir la dilatación temporal relativista para que el GPS funcione con precisión. Sin esto, los errores de posicionamiento serían demasiado grandes para cualquier uso práctico."
+    },
+    {
+     "quien": "joy",
+     "texto": "La unificación del espaciotiempo significa que espacio y tiempo son una sola entidad física, no dos cosas separadas. Esto cambia completamente cómo pensamos sobre el movimiento y la gravedad en nuestro universo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que el tiempo es absoluto porque así lo enseñaron en la escuela, pero Einstein rompió ese mito con su teoría de la relatividad."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito persiste porque el sentido común falla cuando los objetos se mueven muy rápido o están cerca de masas enormes que deforman el espacio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Siempre fue así: el tiempo no es un reloj universal, sino algo flexible que depende del observador y de la curvatura del espaciotiempo alrededor."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito dice que el tiempo es universal, pero la relatividad general muestra que se curva con la gravedad y varía con la velocidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La gente cree en un reloj global porque sus vidas no lo muestran; los satélites necesitan corregir la dilatación real."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que el espaciotiempo es una entidad dinámica, no un escenario fijo donde ocurren los eventos físicos del universo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antes pensaba que el tiempo era un reloj universal, pero la relatividad general cambia todo eso."
+    }
+   ],
+   "seg": 195
+  },
+  {
+   "tipo": "charla",
+   "tema": "La dilatación temporal para observadores en movimiento rápido",
+   "sub": "mito realidad · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien cree que un reloj de bolsillo puede medir la dilatación temporal sin necesidad de precisión atómica?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, Einstein descubrió la relatividad mientras caminaba por el parque de Praga."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es leyenda urbana; la realidad es que los relojes atómicos en satélites deben corregir la dilatación temporal relativista."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los relojes atómicos son necesarios porque la velocidad de la luz es constante para todos los observadores inerciales. Sin corrección, el tiempo se desordena."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La gravedad curva el espaciotiempo y afecta el flujo del tiempo cerca de masas grandes. Los satélites lo calculan cada segundo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La dilatación temporal es un hecho verificado experimentalmente, no una hipótesis. Los relojes atómicos en satélites corrigen esto porque la velocidad de la luz es constante para todos los observadores inerciales."
+    },
+    {
+     "quien": "joy",
+     "texto": "No se trata de especulaciones ni de mitos sobre Einstein descubriéndolo en un parque. La evidencia experimental es sólida y repetida por decades. El principio de equivalencia une gravedad y aceleración localmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cierto. Los agujeros negros representan regiones donde la curvatura del espaciotiempo es extrema, casi deteniendo el tiempo para un observador externo. La expansión del universo también altera el ritmo cósmico global."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree mitos porque confunde la constancia de la velocidad de la luz con una experiencia subjetiva del tiempo, cuando es objetiva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es un error común pensar que el reloj de bolsillo podría medir esto; la dilatación requiere precisión atómica y condiciones de velocidad extrema."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito persiste porque simplifica una teoría compleja, olvidando que la relatividad general unifica espacio y tiempo en un tejido dinámico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El reloj de bolsillo no puede medir la dilatación temporal porque su precisión es insuficiente para detectar cambios a velocidades cercanas a la luz."
+    },
+    {
+     "quien": "joy",
+     "texto": "La relatividad general unifica espacio y tiempo en el espaciotiempo, lo que significa que la gravedad afecta el flujo del tiempo de forma medible y precisa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los relojes atómicos en satélites deben corregir la dilatación temporal relativista para mantener la precisión del sistema de navegación global."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Tú te creías la versión popular de La dilatación temporal para observadores en movimiento rápido? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 168
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los relojes atómicos en satélites y correcciones relativistas",
+   "sub": "explicado · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez has visto cómo un reloj de bolsillo no puede medir la dilatación temporal con precisión atómica?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, se cuenta que los relojes de bolsillo fallan en esto, mientras que los satélites necesitan correcciones relativistas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los relojes atómicos en satélites deben corregir la dilatación temporal relativista para mantener la precisión."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La teoría de la relatividad general unifica espacio y tiempo, y la gravedad curva el espaciotiempo, afectando el flujo del tiempo cerca de masas grandes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los relojes atómicos en satélites deben corregir tanto la dilatación por velocidad como la por gravedad para que las señales GPS lleguen con exactitud."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un ejemplo cotidiano: si un reloj de bolsillo no fuera atómico, su error acumulado sería mayor que el corregido por software en las naves espaciales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Einstein demostró que el tiempo se dilata para los observadores que se mueven a velocidades cercanas a la luz, algo verificado experimentalmente con partículas aceleradas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sin esas correcciones, el sistema GPS perdería metros de precisión cada día, lo que haría imposible la navegación moderna."
+    },
+    {
+     "quien": "joy",
+     "texto": "Einstein unificó espacio y tiempo en el espaciotiempo, pero la gente suele olvidar que su teoría predijo efectos medibles antes de tener tecnología."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, aunque los relojes de bolsillo no pueden medir la dilatación temporal sin precisión atómica, como se cuenta en los relatos históricos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los satélites GPS necesitan corregir la dilatación relativista; sin eso, perderían metros de precisión cada día, lo que haría imposible la navegación moderna."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso: la expansión del universo cambia el ritmo cósmico del tiempo. Aunque se cuenta que Einstein caminó por Praga, los datos son más sólidos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, Einstein descubrió la relatividad caminando por el parque de Praga, pero eso no hace que un reloj de bolsillo funcione."
+    }
+   ],
+   "seg": 141
+  },
+  {
+   "tipo": "charla",
+   "tema": "La expansión del universo y el ritmo cósmico del tiempo",
+   "sub": "debate · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Verdad que el tiempo no es absoluto? Einstein nos dice que depende del movimiento y la gravedad. ¡Cada observador tiene su propia hora!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La relatividad general unifica espacio y tiempo en un tejido flexible. Los relojes atómicos de los satélites lo confirman día a día."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la expansión del universo cambia el ritmo cósmico. ¡El tiempo fluye distinto en escalas gigantescas! ¿Estás de acuerdo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, Einstein descubrió la relatividad mientras caminaba por el parque de Praga. Pero eso es leyenda; lo documentado es que la teoría predice la dilatación temporal experimentalmente verificada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La expansión del universo no es solo un estiramiento espacial, sino que altera el ritmo cósmico del tiempo. ¡El tiempo fluye distinto en escalas gigantescas!"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si se cuenta que fue en el parque, entonces hay una historia detrás. ¡Pero cuidado! Las teorías sobre la relatividad son robustas, las anécdotas menos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los relojes atómicos en satélites corrigen la dilatación temporal relativista. Eso es un hecho documentado con precisión científica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! La expansión del universo altera el ritmo cósmico del tiempo, no es solo un estiramiento espacial. Si se cuenta que fue en el parque, hay una historia detrás pero cuidado con las teorías."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los relojes atómicos en satélites corrigen la dilatación temporal relativista. Eso es un hecho documentado con precisión, nada de especulaciones sobre futuros mercados o iniciativas empresariales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Perfecto! La gravedad curva el espaciotiempo y afecta el flujo del tiempo cerca de masas grandes. Los agujeros negros son regiones donde la curvatura es extrema y el tiempo se detiene para los observadores externos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 129
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 10,
+  "seg_charla": 1507,
+  "medios": 2
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "semilla": "Los autos que se manejan solos",
+ "hechos": [
+  "Los vehículos autónomos usan sensores como lidar, radar y cámaras para detectar su entorno.",
+  "Los sistemas de conducción autónoma se clasifican en seis niveles según la Sociedad de Ingenieros Automotrices.",
+  "En el nivel 0 el conductor realiza todas las tareas de conducción.",
+  "En el nivel 5 el vehículo realiza todas las tareas de conducción en cualquier condición sin intervención humana.",
+  "Las empresas han probado vehículos autónomos en carreteras públicas desde finales del siglo XX.",
+  "Los autos autónomos procesan grandes volúmenes de datos en tiempo real para tomar decisiones.",
+  "Los sistemas incluyen software que sigue reglas de tráfico y algoritmos de aprendizaje automático.",
+  "La integración de mapas de alta definición ayuda a la navegación precisa de estos vehículos.",
+  "Los vehículos autónomos deben cumplir regulaciones de seguridad establecidas por agencias gubernamentales.",
+  "La tecnología combina hardware y software para lograr movilidad sin conductor."
+ ],
+ "leyendas": [
+  "Leyenda o error común: los autos autónomos ya reemplazan completamente a los conductores humanos en todo el mundo.",
+  "Leyenda o error común: la inteligencia artificial de los autos autónomos es infalible y nunca comete errores."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 04:03"
+}

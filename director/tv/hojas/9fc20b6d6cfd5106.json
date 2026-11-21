@@ -1,0 +1,21 @@
+{
+ "semilla": "Los parlantes que escuchan todo",
+ "hechos": [
+  "Los asistentes de voz utilizan micrófonos para detectar comandos de activación como palabras clave específicas.",
+  "Los datos de audio capturados se transmiten a servidores remotos para su procesamiento mediante inteligencia artificial.",
+  "Los fabricantes de dispositivos con asistentes virtuales afirman que los micrófonos no graban de forma continua sin activación.",
+  "Las políticas de privacidad de las empresas indican que las grabaciones se almacenan y pueden usarse para mejorar los servicios.",
+  "Los parlantes inteligentes pueden activarse accidentalmente por sonidos similares a sus palabras de activación.",
+  "Las actualizaciones de firmware permiten a los usuarios revisar y eliminar grabaciones almacenadas en la nube.",
+  "Los dispositivos incluyen indicadores luminosos que se activan cuando el micrófono está en uso.",
+  "Los reguladores han exigido mayor transparencia sobre cómo se manejan los datos de voz de los usuarios.",
+  "Los parlantes inteligentes integran tecnologías de reconocimiento de voz desarrolladas por varias empresas de tecnología.",
+  "Los usuarios pueden desactivar los micrófonos mediante controles físicos o comandos de software en la mayoría de los modelos."
+ ],
+ "leyendas": [
+  "Leyenda o error común: los parlantes inteligentes graban y envían cada conversación a las empresas en tiempo real.",
+  "Leyenda o error común: todos los micrófonos de los asistentes virtuales están siempre escuchando y almacenando todo sin consentimiento."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 04:15"
+}

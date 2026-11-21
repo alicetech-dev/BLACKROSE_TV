@@ -1,0 +1,241 @@
+{
+ "bloque": "tecnologia_1110",
+ "programa": "tecnologia",
+ "fecha": "2026-11-20",
+ "creado": "07:14:31",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: El Wi-Fi explicado",
+   "sub": "TECNOLOGÍA HOY",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El Wi-Fi explicado, visto desde lo técnico",
+   "diagrama": null,
+   "intl": null,
+   "sub": "explicado · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de El Wi-Fi explicado, visto desde lo técnico? Hoy lo vemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El Wi-Fi explicado, visto desde lo técnico, dicho en simple, es algo que usamos sin darnos cuenta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo interesante de El Wi-Fi explicado, visto desde lo técnico es cómo funciona por dentro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hay un dato de El Wi-Fi explicado, visto desde lo técnico que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo tengo mi opinión sobre El Wi-Fi explicado, visto desde lo técnico, y no coincide con la tuya."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de El Wi-Fi explicado, visto desde lo técnico? Escríbelo en el chat."
+    }
+   ],
+   "seg": 50,
+   "imgs": [
+    {
+     "web": "/medios/72d1fbab9646087f_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/72d1fbab9646087f_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Wifi»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "El Wi-Fi explicado, visto desde lo cultural",
+   "diagrama": null,
+   "intl": null,
+   "sub": "top3 · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Top tres de El Wi-Fi explicado, visto desde lo cultural. Empezamos."
+    },
+    {
+     "quien": "joy",
+     "texto": "En el tercer puesto…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el número uno…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 25,
+   "imgs": [
+    {
+     "web": "/medios/a8818dae32caa56b_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a8818dae32caa56b_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Wifi»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011706_nh_stelzer",
+   "archivo": "v/v_nasa_ksc_011706_nh_stelzer.mp4",
+   "titulo": "KSC-05-S-00329",
+   "atribucion": "«KSC-05-S-00329» — NASA · images.nasa.gov",
+   "dur": 343,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Cómo funciona una contraseña segura",
+   "sub": "TECNOLOGÍA HOY",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo funciona una contraseña segura, visto desde lo ético",
+   "diagrama": null,
+   "intl": null,
+   "sub": "debate · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Hoy debatimos sobre Cómo funciona una contraseña segura, visto desde lo ético."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo creo que Cómo funciona una contraseña segura, visto desde lo ético tiene más ventajas que problemas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo creo exactamente lo contrario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Te concedo un punto, pero solo uno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás las dos tenemos un poco de razón."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 32,
+   "imgs": [
+    {
+     "web": "/medios/429928199963ac3b_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/429928199963ac3b_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Contraseña»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo funciona una contraseña segura, visto desde lo del futuro",
+   "diagrama": null,
+   "intl": null,
+   "sub": "linea tiempo · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La historia de Cómo funciona una contraseña segura, visto desde lo del futuro tiene un giro que pocos conocen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Todo empezó con una idea sencilla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y entonces algo cambió para siempre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy Cómo funciona una contraseña segura, visto desde lo del futuro sigue teniendo consecuencias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tuviéramos que adivinar el futuro de Cómo funciona una contraseña segura, visto desde lo del futuro, diríamos que recién empieza."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 39,
+   "imgs": [
+    {
+     "web": "/medios/429928199963ac3b_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/429928199963ac3b_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Contraseña»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_R0mrQbRwlXQ",
+   "archivo": "yt/cyberpunk/R0mrQbRwlXQ.mp4",
+   "titulo": "Sport Racing Rave by Infraction / Venom",
+   "audio": "yt/cyberpunk/R0mrQbRwlXQ.m4a",
+   "atribucion": "Música: «Sport Racing Rave by Infraction / Venom» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 143,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/R0mrQbRwlXQ.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_kCwVmhUBqn8",
+   "archivo": "yt/cyberpunk/kCwVmhUBqn8.mp4",
+   "titulo": "Echos Of The Future",
+   "audio": "yt/cyberpunk/kCwVmhUBqn8.m4a",
+   "atribucion": "Música: «Echos Of The Future» · Panda Beats - No Copyright Music · sin copyright (YouTube)",
+   "dur": 168,
+   "genero": "CYBERPUNK",
+   "img": "/tv/media/yt/cyberpunk/kCwVmhUBqn8.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 146,
+  "medios": 3
+ }
+}

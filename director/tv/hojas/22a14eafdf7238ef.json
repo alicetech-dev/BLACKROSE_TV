@@ -1,0 +1,21 @@
+{
+ "semilla": "Un día en la vida de un hacker IA",
+ "hechos": [
+  "Los primeros sistemas de reconocimiento de patrones para la detección de intrusiones se desarrollaron en los años 80.",
+  "La red ARPANET, precursora de Internet, fue creada por el Departamento de Defensa de EE.UU. en 1969.",
+  "El concepto de 'hacker' como alguien que explora sistemas surgió en la cultura del software de los años 70.",
+  "Las contraseñas se utilizaron inicialmente para proteger archivos y no redes completas hasta finales de los 80.",
+  "Los virus informáticos, como el CREEP, fueron creados por estudiantes universitarios en 1971.",
+  "El protocolo TCP/IP se estandarizó a principios de los años 80 para conectar diferentes redes.",
+  "Las primeras herramientas de escaneo de red aparecieron en la década de 1990.",
+  "La seguridad de las contraseñas se vio afectada por el uso de algoritmos de hash simples hasta los años 90.",
+  "Los firewalls, como barreras lógicas, comenzaron a implementarse comercialmente en los años 80.",
+  "El código abierto facilitó la creación y difusión de herramientas para pruebas de penetración."
+ ],
+ "leyendas": [
+  "Se cuenta que el término 'hacker' fue inventado por un estudiante de Harvard en 1970, aunque su origen es más difuso.",
+  "Muchos creen erróneamente que los hackers siempre tienen una computadora portátil y usan trajes negros."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 19:15"
+}

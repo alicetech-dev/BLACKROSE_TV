@@ -1,0 +1,175 @@
+{
+ "bloque": "internacional_1715",
+ "programa": "internacional",
+ "fecha": "2026-11-19",
+ "creado": "15:04:18",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "CONTINGENCIA INTERNACIONAL",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Informe UNESCO-UCL: los modelos de IA se alejan de los hechos científi",
+   "sub": "UNESCO · hace 76 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Un informe de la UNESCO y la UCL alerta: los modelos de IA pueden alejarse de los hechos científicos sobre el clima si el usuario los cuestiona."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El contexto sugiere que la validación de datos es clave para mantener la precisión en las proyecciones climáticas a largo plazo."
+    }
+   ],
+   "seg": 23,
+   "lote": true
+  },
+  {
+   "tipo": "charla",
+   "tema": "Enfoque Internacional - La ciencia climática bajo presión en la COP31",
+   "sub": "RFI · hace 6 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La RFI destaca que la ciencia climática enfrenta presión en el contexto de la COP31, donde se debaten los compromisos globales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que las negociaciones buscan equilibrar la urgencia ambiental con la necesidad de consenso entre todas las partes involucradas."
+    }
+   ],
+   "seg": 20,
+   "lote": true
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Lula impulsa ajuste fiscal de US$ 10.000 millones para contener el gas",
+   "sub": "Diario Financiero · hace 72 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El diario financiero informa que Lula impulsa un ajuste fiscal de diez mil millones de dólares para contener el gasto y frenar el deterioro de las cuentas públicas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El contexto indica que esta medida es parte de un esfuerzo por estabilizar la economía nacional ante los desafíos del déficit."
+    }
+   ],
+   "seg": 24,
+   "lote": true
+  },
+  {
+   "tipo": "charla",
+   "tema": "Economía Trump: crecimiento, desigualdad y efectos en el comercio inte",
+   "sub": "ABC Color · hace 14 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "ABC Color señala que la economía de Trump muestra crecimiento, desigualdad y efectos significativos en el comercio internacional actual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El contexto general sugiere que estas dinámicas reflejan tensiones estructurales que persisten más allá del ciclo electoral inmediato."
+    }
+   ],
+   "seg": 18,
+   "lote": true
+  },
+  {
+   "tipo": "charla",
+   "tema": "Un año de normas de la UE sobre reparabilidad: ¿realmente son más fáci",
+   "sub": "La Vanguardia · hace 12 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La Vanguardia pregunta si un año de normas europeas sobre reparabilidad ha hecho realmente más fáciles de arreglar los smartphones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El contexto indica que la respuesta depende de factores como la actualización del hardware y la voluntad de los consumidores para reparar."
+    }
+   ],
+   "seg": 21,
+   "lote": true
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011706_nh_intro",
+   "archivo": "v/v_nasa_ksc_011706_nh_intro.mp4",
+   "titulo": "KSC-05-S-00325",
+   "atribucion": "«KSC-05-S-00325» — NASA · images.nasa.gov",
+   "dur": 161,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "CONTINGENCIA INTERNACIONAL",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El seguro busca talento que combine tecnología, regulación y estrategi",
+   "sub": "Inese · hace 587 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El seguro busca talento que combine tecnología, regulación y estrategia de negocio. Lo dice Inese."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Contexto: la industria de seguros está redefiniendo sus perfiles ideales con datos digitales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Solo esto se sabe por el titular, sin cifras ni nombres adicionales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué opinan sobre este cambio de enfoque en el sector?"
+    }
+   ],
+   "seg": 27,
+   "lote": true
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 6,
+  "seg_charla": 133,
+  "medios": 2
+ }
+}

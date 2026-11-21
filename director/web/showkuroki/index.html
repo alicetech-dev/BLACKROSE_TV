@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · El Show de Kuroki</title>
+<!-- EL SHOW DE KUROKI, 1920×1080. Dos capas (misma página, sincronizadas por GET /api/showkuroki):
+       ?capa=fondo   escenario opaco, va DEBAJO de Kuroki en OBS
+       ?capa=frente  gráficos transparentes (reloj, segmento, titular, pregunta, chat, juego), va ENCIMA
+       (sin ?capa = las dos juntas, para mirar en un navegador)
+     ?demo=tema|juego|chat|fin  estado falso para probar el diseño sin show en marcha -->
+<style>
+@font-face{font-family:Monoton;src:url(/img/fuentes/monoton.woff2) format("woff2")}
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--rosa:#ff2fd6;--cian:#00e5ff;--rojo:#ff3b3b;--ama:#ffe45e;--mor:#b46bff}
+*{box-sizing:border-box}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent;color:#fff;font-family:Rajdhani,sans-serif}
+#fondo,#frente{position:absolute;inset:0}
+body[data-capa=fondo] #frente,body[data-capa=frente] #fondo{display:none}
+body[data-capa=fondo],body[data-capa=todo]{background:#05030c}
+@keyframes late{50%{opacity:.3}}
+@keyframes gira{to{transform:rotate(360deg)}}
+@keyframes avanza{to{background-position:0 60px,0 0}}
+@keyframes entra{from{opacity:0;transform:translateX(-60px)}to{opacity:1;transform:none}}
+@keyframes sube{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes pulso{50%{box-shadow:0 0 46px var(--ama),inset 0 0 30px rgba(255,228,94,.25)}}
+
+/* ═══ FONDO ═══ */
+#fondo{overflow:hidden;background:radial-gradient(ellipse at 74% 40%,#2e0a45 0,#12031f 46%,#05030c 86%)}
+#fondo .rayo{position:absolute;left:74%;top:-300px;width:2600px;height:2600px;margin-left:-1300px;opacity:.42;mix-blend-mode:screen;
+  background:conic-gradient(from 0deg,transparent 0 8deg,rgba(255,47,214,.55) 10deg,transparent 14deg 52deg,rgba(0,229,255,.5) 54deg,transparent 58deg 96deg,rgba(255,228,94,.4) 98deg,transparent 102deg 140deg,rgba(180,107,255,.5) 142deg,transparent 146deg 360deg);animation:gira 44s linear infinite}
+#fondo .piso{position:absolute;left:-40%;right:-40%;bottom:-8%;height:40%;transform:perspective(420px) rotateX(62deg);transform-origin:50% 100%;
+  background:linear-gradient(rgba(255,47,214,.7) 2px,transparent 2px) 0 0/100% 60px,linear-gradient(90deg,rgba(0,229,255,.55) 2px,transparent 2px) 0 0/80px 100%;
+  animation:avanza 2.6s linear infinite;mask-image:linear-gradient(transparent,#000 45%)}
+#fondo .letrero{position:absolute;right:70px;top:120px;width:700px;text-align:center;font-family:Monoton;font-size:64px;letter-spacing:6px;color:#ff7be9;
+  text-shadow:0 0 18px var(--rosa),0 0 50px var(--rosa);opacity:.55;line-height:1.05}
+#fondo .bombo{position:absolute;right:210px;bottom:62px;width:420px;height:420px;border-radius:50%;border:10px solid #3b1450;
+  background:radial-gradient(circle,#1c0a2b 0 46%,#2a0f3f 47% 100%);box-shadow:0 0 60px rgba(255,47,214,.4),inset 0 0 40px #000;opacity:.0}
+
+/* ═══ FRENTE ═══ */
+#frente{font-family:Rajdhani}
+.barra{position:absolute;left:40px;right:40px;top:28px;height:84px;display:flex;align-items:center;gap:26px;
+  background:rgba(10,3,20,.78);border:3px solid var(--rosa);box-shadow:0 0 28px rgba(255,47,214,.5);padding:0 28px;backdrop-filter:blur(3px)}
+.barra .logo{font-family:Audiowide;font-size:26px;letter-spacing:3px;color:var(--cian);text-shadow:0 0 14px var(--cian)}
+.barra .tit{font-family:Monoton;font-size:46px;letter-spacing:5px;color:#fff;text-shadow:0 0 18px var(--rosa)}
+.barra .sp{flex:1}
+.vivo{display:flex;align-items:center;gap:10px;font-family:Orbitron;font-size:24px;font-weight:700;letter-spacing:2px;color:var(--rojo)}
+.vivo i{width:18px;height:18px;border-radius:50%;background:var(--rojo);box-shadow:0 0 14px var(--rojo);animation:late 1.2s infinite}
+.reloj{font-family:Orbitron;font-size:34px;font-weight:700;color:var(--ama);text-shadow:0 0 14px rgba(255,228,94,.6);min-width:210px;text-align:right}
+.reloj small{display:block;font-family:Rajdhani;font-size:17px;letter-spacing:3px;color:#cdb8ff;text-shadow:none;text-align:right;margin-top:-4px}
+
+.panel{position:absolute;left:40px;top:140px;width:1040px;background:rgba(10,3,20,.8);border:3px solid var(--cian);
+  box-shadow:0 0 34px rgba(0,229,255,.45),inset 0 0 40px rgba(0,0,0,.5);padding:24px 34px 28px;backdrop-filter:blur(3px);animation:entra .6s both}
+.panel .bloque{font-family:Orbitron;font-size:22px;letter-spacing:5px;color:var(--rosa);text-shadow:0 0 10px var(--rosa)}
+.panel h2{margin:6px 0 14px;font-family:Audiowide;font-weight:400;font-size:52px;letter-spacing:2px;line-height:1.08;text-shadow:0 0 20px var(--cian)}
+.panel .titular{font-size:36px;line-height:1.15;color:#eaf7ff;border-left:7px solid var(--ama);padding-left:18px;margin-top:6px;min-height:82px;animation:sube .5s both}
+.panel .fuentes{margin-top:10px;font-family:VT323;font-size:28px;color:#9fe9ff;letter-spacing:1px}
+.panel .sig{margin-top:12px;font-family:Orbitron;font-size:19px;letter-spacing:3px;color:#cdb8ff}
+
+.pregunta{position:absolute;left:40px;top:610px;width:1040px;background:linear-gradient(90deg,rgba(255,47,214,.9),rgba(140,40,200,.9));
+  border:3px solid #fff;box-shadow:0 0 36px var(--rosa);padding:16px 30px 20px;animation:sube .5s both}
+.pregunta b{display:block;font-family:Orbitron;font-size:21px;letter-spacing:5px;color:#ffe4fb}
+.pregunta span{display:block;font-size:46px;line-height:1.1;margin-top:4px;text-shadow:0 2px 0 rgba(0,0,0,.35)}
+
+.chat{position:absolute;left:40px;top:790px;width:1040px;height:210px;background:rgba(5,3,12,.78);border:2px solid #5a2a7a;padding:10px 20px;overflow:hidden;font-family:VT323;font-size:31px;line-height:1.12}
+.chat .cab{font-family:Orbitron;font-size:15px;letter-spacing:4px;color:#8f6fb0;margin-bottom:2px}
+.chat div.m{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;animation:sube .4s both}
+.chat .a{color:var(--cian)} .chat .a.tw{color:#c9a0ff} .chat .a.dc{color:#8fb0ff}
+
+.juego{position:absolute;left:40px;top:140px;width:1040px;background:rgba(10,3,20,.86);border:3px solid var(--ama);box-shadow:0 0 34px rgba(255,228,94,.5);padding:22px 30px 26px;animation:entra .5s both}
+.juego h3{margin:0 0 10px;font-family:Audiowide;font-weight:400;font-size:44px;color:var(--ama);text-shadow:0 0 16px rgba(255,228,94,.6)}
+.op{position:relative;margin:12px 0;padding:14px 22px 14px 96px;border:3px solid #6b4a90;background:rgba(40,12,60,.7);font-size:34px;line-height:1.14;min-height:112px;overflow:hidden}
+.op .n{position:absolute;left:0;top:0;bottom:0;width:78px;display:flex;align-items:center;justify-content:center;font-family:Monoton;font-size:56px;background:#2a1040;color:var(--cian);text-shadow:0 0 14px var(--cian)}
+.op .barra2{position:absolute;left:0;bottom:0;height:10px;background:linear-gradient(90deg,var(--rosa),var(--cian));width:0;transition:width .6s}
+.op .v{position:absolute;right:16px;top:8px;font-family:Orbitron;font-size:26px;color:var(--ama)}
+.op.real{border-color:#42ff8b;box-shadow:0 0 34px #42ff8b;animation:pulso 1s infinite}
+.op.falso{opacity:.45;filter:grayscale(.6)}
+.juego .cuenta{font-family:Orbitron;font-size:26px;letter-spacing:3px;color:#fff;margin-top:6px}
+.juego .cuenta b{color:var(--ama)}
+
+.pie{position:absolute;left:40px;right:40px;bottom:26px;height:56px;display:flex;align-items:center;gap:6px}
+.pie .p{flex:1;height:12px;background:#3a2a4d;border-radius:6px;position:relative;overflow:hidden}
+.pie .p.on{background:var(--rosa);box-shadow:0 0 14px var(--rosa)}
+.pie .p.ya{background:#8f3a9a}
+.pie .p.bl{background:var(--cian)}
+.pie .txt{font-family:Orbitron;font-size:17px;letter-spacing:3px;color:#cdb8ff;margin-left:20px;white-space:nowrap}
+#fin{position:absolute;left:40px;top:300px;width:1040px;background:rgba(10,3,20,.88);border:3px solid var(--rosa);box-shadow:0 0 40px var(--rosa);padding:36px 44px;display:none;animation:sube .6s both}
+#fin h2{margin:0;font-family:Monoton;font-size:70px;letter-spacing:4px;color:#fff;text-shadow:0 0 22px var(--rosa)}
+#fin p{font-size:44px;margin:14px 0 0;color:var(--ama)}
+</style></head>
+<body data-capa="todo">
+<div id="fondo"><div class="rayo"></div><div class="piso"></div></div>
+<div id="frente">
+  <div class="barra"><div class="logo">BLACKROSE TV</div><div class="tit">EL SHOW DE KUROKI</div><div class="sp"></div>
+    <div class="vivo"><i></i>EN VIVO</div><div class="reloj"><span id="reloj">--:--</span><small>PARA TERMINAR</small></div></div>
+  <div class="panel" id="panel" style="display:none"><div class="bloque" id="bloque"></div><h2 id="titulo"></h2>
+    <div class="titular" id="titular"></div><div class="fuentes" id="fuentes"></div><div class="sig" id="sig"></div></div>
+  <div class="juego" id="juego" style="display:none"><h3 id="jt">¿REAL O INVENTADO?</h3>
+    <div class="op" id="opa"><div class="n">1</div><span id="ta"></span><div class="v" id="va"></div><div class="barra2" id="ba"></div></div>
+    <div class="op" id="opb"><div class="n">2</div><span id="tb"></span><div class="v" id="vb"></div><div class="barra2" id="bb"></div></div>
+    <div class="cuenta" id="cuenta"></div></div>
+  <div class="pregunta" id="pregunta" style="display:none"><b>PREGUNTA AL CHAT</b><span id="preg"></span></div>
+  <div class="chat" id="chat"><div class="cab">CHAT EN VIVO · TWITCH · DISCORD</div></div>
+  <div id="fin"><h2>GRACIAS POR VER</h2><p>A continuación: el pronóstico del tiempo</p></div>
+  <div class="pie" id="pie"></div>
+</div>
+<script>
+const q = new URLSearchParams(location.search), capa = q.get('capa') || 'todo', demo = q.get('demo');
+document.body.dataset.capa = capa;
+const $ = id => document.getElementById(id);
+let S = {}, off = 0;
+const mmss = s => { s = Math.max(0, Math.round(s)); return String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); };
+const esc = s => String(s ?? '').replace(/[&<>]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
+const ahora = () => Date.now() / 1000 + off;
+
+const DEMOS = {
+  tema: {activo: true, fase: 'show', t: 0, inicio: -900, fin: 2700, n: 17,
+    seg: {i: 3, titulo: 'FÁBRICAS Y LA CARRERA CON CHINA', bloque: 'ROBÓTICA 2026', tipo: 'tema'}, titular: 'Unitree sale a bolsa y promete miles de humanoides baratos',
+    fuentes: ['Reuters', 'Xataka', 'The Robot Report'], pregunta: '¿Dejarías que un robot te doble la ropa?', sig: 'ROBOTS RAROS Y GENIALES',
+    chat: [{a: 'Neko_Fan', t: 'kuroki toca algo de bateria!!', p: 'twitch'}, {a: 'luis', t: 'yo quiero un robot que lave los platos', p: 'discord'}, {a: 'zoe99', t: 'jajaja el bombo de 6 GB', p: 'twitch'}]},
+  juego: {activo: true, fase: 'show', t: 0, inicio: -1000, fin: 2600, n: 17, seg: {i: 5, titulo: '¿REAL O INVENTADO? · ROBOTS', bloque: 'JUEGO', tipo: 'juego'},
+    juego: {a: 'Roborock mostró una aspiradora con patas que sube escaleras.', b: 'Una aspiradora robot aprendió a pedir propina por cada habitación.', cierra: 25, real: null, votos: {a: 7, b: 3}},
+    chat: [{a: 'zoe99', t: 'quiero ver la aspiradora con patas', p: 'twitch'}]},
+  chat: {activo: true, fase: 'show', t: 0, inicio: -1800, fin: 1800, n: 17, seg: {i: 7, titulo: 'EL CHAT TIENE LA PALABRA', bloque: 'HORA DEL CHAT', tipo: 'chat'}, pregunta: '¡Escríbele a Kuroki en el chat!',
+    chat: [{a: 'luis', t: 'hola kuroki!', p: 'discord'}, {a: 'Neko_Fan', t: 'mi robot favorito es wall-e', p: 'twitch'}, {a: 'zoe99', t: 'cuanto vram necesito para un modelo local??', p: 'twitch'}]},
+  fin: {activo: true, fase: 'fin', t: 0, inicio: -3600, fin: 0, n: 17, seg: {i: 16, titulo: 'GRACIAS POR VER', bloque: 'CIERRE'}, chat: []},
+};
+
+function pinta() {
+  if (!S.activo || S.fase === 'tanda' && !demo) { $('frente').style.visibility = 'hidden'; return; }
+  $('frente').style.visibility = 'visible';
+  const rest = (S.fin || 0) - ahora();
+  $('reloj').textContent = S.fase === 'fin' ? '00:00' : mmss(rest);
+  const sg = S.seg || {}, juego = S.juego, fin = S.fase === 'fin';
+  $('panel').style.display = !juego && !fin && sg.titulo ? '' : 'none';
+  if (sg.titulo && $('titulo').textContent !== sg.titulo) { $('titulo').textContent = sg.titulo; $('bloque').textContent = sg.bloque || ''; }
+  const tit = S.titular || '';
+  if ($('titular').textContent !== tit) { $('titular').textContent = tit; $('titular').style.display = tit ? '' : 'none'; }
+  $('fuentes').textContent = (S.fuentes || []).length ? 'FUENTES · ' + S.fuentes.join(' · ') : '';
+  $('sig').textContent = S.sig ? 'A CONTINUACIÓN · ' + S.sig : '';
+  $('fin').style.display = fin ? 'block' : 'none';
+  // juego
+  $('juego').style.display = juego && !fin ? '' : 'none';
+  if (juego) {
+    $('jt').textContent = sg.titulo || '¿REAL O INVENTADO?';
+    $('ta').textContent = juego.a; $('tb').textContent = juego.b;
+    const v = juego.votos || {a: 0, b: 0}, tot = Math.max(1, v.a + v.b);
+    $('va').textContent = juego.cierra === null ? '' : v.a; $('vb').textContent = juego.cierra === null ? '' : v.b;
+    $('ba').style.width = (v.a / tot * 100) + '%'; $('bb').style.width = (v.b / tot * 100) + '%';
+    $('opa').className = 'op' + (juego.real ? (juego.real === 'a' ? ' real' : ' falso') : '');
+    $('opb').className = 'op' + (juego.real ? (juego.real === 'b' ? ' real' : ' falso') : '');
+    const c = juego.cierra;
+    $('cuenta').innerHTML = juego.real ? '¡RESPUESTA REVELADA!' : c === null ? 'ESCUCHA LAS DOS OPCIONES…' : c > 0 ? 'VOTA EN EL CHAT: <b>1</b> o <b>2</b> · cierra en <b>' + Math.max(0, Math.ceil(c > 1e6 ? c - ahora() : c)) + 's</b>' : 'VOTOS CERRADOS';
+  }
+  // pregunta
+  const pr = S.pregunta || '';
+  $('pregunta').style.display = pr && !juego && !fin ? '' : 'none';
+  if ($('preg').textContent !== pr) $('preg').textContent = pr;
+  // chat
+  const ms = (S.chat || []).slice(-5), h = '<div class="cab">CHAT EN VIVO · TWITCH · DISCORD</div>' +
+    (ms.length ? ms.map(m => '<div class="m"><span class="a ' + (m.p === 'twitch' ? 'tw' : m.p === 'discord' ? 'dc' : '') + '">' + esc(m.a) + '</span>: ' + esc(m.t) + '</div>').join('')
+      : '<div class="m" style="color:#7a5a98">… escribe y Kuroki te contesta</div>');
+  if ($('chat').dataset.h !== h) { $('chat').dataset.h = h; $('chat').innerHTML = h; }
+  // pie: un punto por segmento
+  const n = S.n || 17, i = sg.i ?? -1;
+  if ($('pie').dataset.n !== String(n) + ':' + i) {
+    $('pie').dataset.n = String(n) + ':' + i;
+    $('pie').innerHTML = Array.from({length: n}, (_, k) => '<div class="p ' + (k < i ? 'ya' : k === i ? 'on' : '') + '"></div>').join('') + '<div class="txt">' + esc(sg.bloque || '') + '</div>';
+  }
+}
+
+async function sondea() {
+  try {
+    if (demo && DEMOS[demo]) { S = JSON.parse(JSON.stringify(DEMOS[demo])); const d = ahora(); if (S.inicio < 1e6) { S.inicio += d; S.fin += d; }
+      if (S.juego && S.juego.cierra && S.juego.cierra < 1e6) S.juego.cierra += d; }
+    else {
+      const t0 = Date.now() / 1000, r = await fetch('/api/showkuroki', {cache: 'no-store'}); S = await r.json();
+      off = S.t - (t0 + Date.now() / 1000) / 2;
+    }
+  } catch (e) { /* el servidor reinicia: se queda con lo último */ }
+  pinta();
+}
+setInterval(pinta, 500);
+sondea(); setInterval(sondea, 1000);
+</script></body></html>

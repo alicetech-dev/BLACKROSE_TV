@@ -1,0 +1,19 @@
+{
+ "semilla": "WannaCry",
+ "hechos": [
+  "WannaCry es un ransomware que utiliza el protocolo de cifrado PGP para encriptar los archivos de las víctimas.",
+  "El malware se propaga a través de la red utilizando el exploit conocido como EternalBlue, que aprovecha una vulnerabilidad en Windows Server.",
+  "La propagación masiva del ransomware dependió de la existencia de un servidor C&C alojado en Corea del Norte.",
+  "El nombre 'WannaCry' proviene de las instrucciones cifradas que pedían a las víctimas el pago de un rescate para desbloquear sus sistemas.",
+  "La criptomoneda Monero fue utilizada para pagar los rescatos solicitados por el malware.",
+  "Un grupo de investigadores de la NSA desarrolló el exploit EternalBlue antes de su publicación pública.",
+  "El ransomware afectó a miles de dispositivos en todo el mundo, incluyendo hospitales y servicios públicos.",
+  "La recuperación de los archivos cifrados dependía del pago del rescate o de contar con una copia de seguridad previa."
+ ],
+ "leyendas": [
+  "Se cuenta que WannaCry fue creado por un solo individuo llamado 'DarkSide', aunque la identidad exacta sigue sin estar confirmada.",
+  "Según algunos relatos, el ransomware logró infiltrar los sistemas de un gran hospital en Londres, causando caos y retrasos en las operaciones."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 15:27"
+}

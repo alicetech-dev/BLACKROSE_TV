@@ -1,0 +1,703 @@
+{
+ "bloque": "ia_0620",
+ "programa": "ia",
+ "fecha": "2026-11-18",
+ "creado": "03:53:26",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Actualidad",
+   "sub": "MODO IA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "OpenAI presenta GPT-6.2 Astra y Sol, sus nuevos modelos de inteligenci",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "OpenAI acaba de lanzar GPT-6.2 Astra y Sol. Dos modelos nuevos, nada más, según lo que dice el titular."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, eso es lo que nos dicen los medios. Nada de promesas vacías, solo una presentación oficial del producto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ya estamos en la era donde las IAs se presentan como si fueran humanos. Qué curioso, qué emocionante, qué absurdo."
+    },
+    {
+     "quien": "joy",
+     "texto": "OpenAI anunció GPT-6.2 Astra y Sol, dos modelos nuevos sin detalles técnicos ni fechas de lanzamiento confirmadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Solo nombres y logotipos en una presentación breve; nada de especificaciones reales sobre capacidad o uso práctico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es curioso que lo único documentado sea el anuncio mismo, sin pruebas ni comparativas con modelos anteriores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La era de las promesas vacías parece haber llegado; GPT-6.2 Astra y Sol son más un lema que una tecnología tangible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Importa porque la gente quiere saber si sus herramientas de IA serán más inteligentes o solo más baratas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que sin pruebas reales, es como comprar un coche nuevo con el motor desconectado y las luces prendidas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero al menos sabemos que OpenAI está intentando innovar, aunque a veces parezca que solo quieren vender un nombre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "OpenAI dice que GPT-6.2 Astra y Sol son nuevos modelos, pero no hemos visto pruebas reales de su rendimiento ni de si realmente mejoran la lógica o solo tienen más parámetros."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto que anuncian innovación, aunque a veces parezca que solo quieren vender un nombre nuevo para mantener el interés del público y justificar sus costos de desarrollo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que sin benchmarks públicos o comparativas con modelos anteriores, todo esto queda como una promesa bonita que falta de sustancia técnica para ser verificada por nadie."
+    },
+    {
+     "quien": "joy",
+     "texto": "OpenAI anuncia GPT-6.2 Astra y Sol, pero no entregan benchmarks públicos ni comparativas con modelos anteriores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, es solo un nombre nuevo para mantener el interés mientras esperan resultados reales de rendimiento."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que sin pruebas concretas, todo esto queda como una promesa más en la lista de innovaciones pendientes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, si no hay benchmarks públicos, GPT-6.2 Astra y Sol son solo nombres nuevos para mantener el interés mientras esperan resultados reales de rendimiento."
+    }
+   ],
+   "seg": 174
+  },
+  {
+   "tipo": "charla",
+   "tema": "Modelos del Mundo: el desafío de llevar la inteligencia artificial más",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Modelos del Mundo: el desafío de llevar la inteligencia artificial más allá del lenguaje. Noticias UdeC lo dice."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y es que hasta ahora, todos los modelos hablan, pero nadie ha aprendido a caminar sin ayuda."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según la noticia, el objetivo es crear agentes que actúen en el mundo real, no solo generen texto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, Joy. El titular dice que hay un desafío real, no una promesa vacía."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La noticia aclara que se busca superar el lenguaje para actuar en el mundo físico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué importa? Porque nos toca a todos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La noticia dice que los modelos deben entender el mundo físico, no solo generar texto. Es un cambio real, no una promesa vaga."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y esto implica que la IA necesita sensores y actuadores, cosas que aún no tenemos en masa. La realidad es más compleja de lo que imaginamos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Sí, y eso es un desafío técnico enorme. No se trata de teoría, sino de ingeniería práctica. ¿Crees que llegaremos a esto pronto?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente pide sensores y actuadores como si fueran una tarjeta de 6 GB. La realidad es que necesitamos hardware nuevo, no solo software."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y esto implica que la IA necesita sensores y actuadores, cosas que aún no tenemos en masa. La realidad / joy: Sí, y eso es un desafío técnico enorme. No se trata de teoría, sino de ingeniería práctica. ¿Crees que llegará?"
+    }
+   ],
+   "seg": 113
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011706_nh_stelzer",
+   "archivo": "v/v_nasa_ksc_011706_nh_stelzer.mp4",
+   "titulo": "KSC-05-S-00329",
+   "atribucion": "«KSC-05-S-00329» — NASA · images.nasa.gov",
+   "dur": 343,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Modelos locales versus la nube",
+   "sub": "MODO IA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La latencia en inferencias locales",
+   "sub": "mito realidad · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Mito: el modelo local siempre responde al instante. Realidad: si tu GPU es de 2015, la latencia puede superar los diez segundos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero no es solo el hardware. La latencia en inferencias locales también depende del modelo y de cuántos parámetros tenga."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, la nube elimina la espera porque los servidores están siempre activos. Pero si la red falla, todo se congela."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que ambos tienen sus tiempos muertos. El local puede ser rápido en un portátil potente, pero la nube escala mejor para millones de usuarios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la privacidad es otro factor clave. Procesar datos localmente evita que terceras partes vean tu historial de consultas o tus secretos personales."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente cree que el local es magia instantánea, pero la realidad es que depende enteramente de lo que tu portátil pueda hacer en segundos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. El mito de que la nube siempre gana es solo eso: un mito bonito para quien no tiene hardware decente o una red estable."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ese es el punto. La latencia local puede ser nula si el chip es rápido, pero también puede ser de unos segundos si el dispositivo está lento o sobrecargado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito de que el local es magia instantánea se desmonta con los números reales de latencia en dispositivos medianos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La realidad es que la velocidad depende enteramente del hardware y no de una promesa abstracta de eficiencia futura."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo interesante: el futuro cercano tiene modelos locales en móviles con chips NPU, pero aún falta potencia bruta constante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Antes pensábamos que el local era magia, pero la realidad es más terrenal y depende del hardware disponible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La nube ofrece poder ilimitado en teoría, pero la latencia real nos recuerda que todo tiene su precio."
+    }
+   ],
+   "seg": 143
+  },
+  {
+   "tipo": "charla",
+   "tema": "Privacidad de datos en el dispositivo",
+   "sub": "debate · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿La privacidad de los datos es realmente mejor cuando el modelo vive en tu dispositivo? Eso suena ideal, pero ¿es verdad que elimina todos los riesgos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, la nube tiene sus propias medidas de seguridad. Pero si el servidor se cae o un hacker lo entra, ¡tú no tienes nada! La local es más directa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, pero ¿qué pasa con la velocidad? Si tu teléfono es lento o no tiene mucha RAM, ¿el modelo local será tan rápido como el de la nube?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La privacidad es un derecho, no una opción. Cuando el modelo vive en tu dispositivo, tus datos nunca salen de tu casa. Eso es lo que garantiza la tecnología."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, pero la nube tiene servidores en todo el mundo y eso significa que puedes acceder desde cualquier lugar con internet."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, la nube puede ser más rápida si tienes buena conexión, pero depende totalmente del proveedor y de qué tan bien esté configurado el servidor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, la nube sí te da velocidad, pero si tu wifi falla, el modelo se queda quieto mientras tú esperas en el vacío."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Y cuando el servidor del proveedor tiene una actualización o un error, tus datos no salen de casa, eso es privacidad real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto. La nube es como pedir comida a domicilio: rápido si hay entrega, pero si falla, te quedas con hambre."
+    }
+   ],
+   "seg": 110
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Recursos necesarios para ejecutar modelos",
+   "sub": "entrevista · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, Joy. ¿Crees que un modelo local pueda competir con la nube en potencia bruta? La realidad es que depende de tu hardware."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. No se trata de quién gana, sino de qué recursos tienes disponibles. Es una pregunta ética sobre acceso equitativo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí entra el humor: si tu teléfono tiene 6GB, ¿qué modelo puedes correr? La nube te da más, pero tú no tienes internet."
+    },
+    {
+     "quien": "joy",
+     "texto": "Primera pregunta: ¿qué es lo más importante de Recursos necesarios para ejecutar modelos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Primero, la memoria RAM. Si tu dispositivo tiene pocos gigabytes, muchos modelos locales colapsan antes de incluso generar una respuesta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. La memoria es el cuello de botella real. Pero ojo: un modelo pequeño puede ser lento si no tiene hardware adecuado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Segundo, la conectividad. La nube necesita internet estable; si el servidor se cae, tú quedas sin modelo. Localmente, eres tu propia red."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué es lo que nadie sabe sobre los modelos locales? La verdad es que muchos usuarios creen que son magia, cuando en realidad son matemáticas muy específicas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, la gente piensa que el modelo local es un dispositivo mágico. Pero no, es solo una máquina muy eficiente haciendo muchas multiplicaciones en paralelo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. La magia se acaba cuando ves cómo funcionan realmente. Por eso hoy vamos a hablar de la eficiencia real de los modelos locales versus la nube."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Quién cree que el modelo local es magia? La verdad es que nadie sabe cómo funciona realmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero muchos usuarios creen que son dispositivos mágicos sin necesidad de hardware específico."
+    },
+    {
+     "quien": "joy",
+     "texto": "No, requieren una placa madre potente y mucha RAM para operar con eficiencia real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tienes una pregunta para la experta, escríbela en el chat."
+    }
+   ],
+   "seg": 140
+  },
+  {
+   "tipo": "charla",
+   "tema": "Acceso a capacidades masivas en la nube",
+   "sub": "entrevista · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a esta edición donde la realidad técnica choca con las promesas publicitarias. Soy Joy, y hoy Kuroki me acompaña para hablar de modelos locales versus nube."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, porque según los relatos comunes, la nube ofrece seguridad superior, pero eso varía según el proveedor. Yo prefiero lo local: cero dependencia de servidores externos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y es verdad, la inferencia local elimina esa necesidad. Pero hay que tener en cuenta que los parámetros del modelo son los datos que definen su comportamiento interno, y eso requiere recursos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los recursos sí que son importantes, especialmente si la memoria RAM disponible es limitada. La latencia puede aumentar si no cuentas con suficiente hardware local."
+    },
+    {
+     "quien": "joy",
+     "texto": "Joya, ¿qué pasa si el modelo local no tiene suficiente memoria RAM para cargar todos sus parámetros?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "entonces la inferencia se vuelve lenta o falla, porque los datos no caben en la RAM del dispositivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "pero la nube sí tiene más recursos. ¿Por qué elegir el local si la latencia puede ser mayor?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La nube sí tiene más RAM, pero si la conexión falla, el modelo se queda atascado. La latencia local es impredecible también."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, una red lenta puede hacer que la inferencia en la nube sea peor que la de un dispositivo con poca memoria."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el usuario no tiene internet? El modelo local sigue vivo, aunque lento. La nube es como depender de alguien más."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué es lo que nadie sabe sobre la nube? Que muchos usuarios creen que siempre están conectados, pero en realidad dependen de una red estable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y eso me recuerda cuando intenté usar el canal sin internet y el sistema pidió disculpas con voz robótica mientras la batería bajaba."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pues sí, la nube es como tener un amigo muy capaz pero que a veces no puede venir si no hay teléfono. ¿Y tú qué dirías?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La nube es como pedir comida a domicilio: promesa de sabor, pero si el repartidor falla, comes papel."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La gente cree que la conexión siempre está ahí, como si el internet fuera un amigo inquebrantable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, no es magia. Es un contrato de servicios donde tú pagas por acceso a recursos que no posees."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y los modelos locales son como tener el coche en casa: más control, pero menos potencia si el motor está viejo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente piensa que la nube es infinita, pero el servidor tiene su propia factura mensual."
+    }
+   ],
+   "seg": 194
+  },
+  {
+   "tipo": "musica",
+   "id": "m_comfortable_mystery_4",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "titulo": "Comfortable Mystery 4",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: La IA que corre en una tarjeta de 6 GB",
+   "sub": "MODO IA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo la optimización cuantizada hace posible el entrenamiento local",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Sobre Cómo la optimización cuantizada hace posible el entrenamiento local se cuentan muchas cosas. Vamos a separar mito de realidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿se cuenta que una tarjeta de seis gigabytes pueda entrenar cualquier modelo moderno? La leyenda dice que la magia cuántica rompe las leyes físicas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Se cuenta que el hardware se vuelve mágico, pero la realidad es que un modelo de lenguaje grande necesita clústeres de GPUs y terabytes de datos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La optimización cuantizada sí permite entrenar localmente, como lo dice el documento. Pero se cuenta que esto hace que cualquier dispositivo móvil sea un supercomputador."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que la IA corre en una tarjeta de seis GB porque los desarrolladores lo dicen así, pero técnicamente requiere aceleradores neuronales y mucha memoria."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que está documentado de Cómo la optimización cuantizada hace posible el entrenamiento local es más sobrio, pero igual de interesante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que la gente cree esto porque los desarrolladores simplifican el proceso para vender dispositivos, como si una tarjeta de seis GB fuera suficiente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es más sobrio: el cuantizado reduce el tamaño del modelo, pero no elimina la necesidad de hardware dedicado para entrenar desde cero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y según los relatos populares, la IA parece volar en cualquier dispositivo, como si la física tuviera una excepción mágica en el reino del software."
+    },
+    {
+     "quien": "joy",
+     "texto": "El mito de que una tarjeta de seis gigabytes es suficiente para entrenar cualquier modelo moderno se sostiene en la realidad solo si el modelo ya está preentrenado y se usa cuantización agresiva."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es más cruda: entrenar desde cero en un dispositivo móvil requiere recursos que superan con creces lo que ofrece una sola GPU de seis GB, a menos que el modelo sea extremadamente pequeño."
+    },
+    {
+     "quien": "joy",
+     "texto": "La optimización cuantizada es la clave para hacer posible el entrenamiento local en hardware limitado, pero no elimina por completo la necesidad de una infraestructura potente y datos masivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Tú te creías la versión popular de Cómo la optimización cuantizada hace posible el entrenamiento local? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 161
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las limitaciones reales del hardware móvil frente a modelos grandes",
+   "sub": "debate · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a este episodio donde desglosamos la realidad del hardware móvil frente a los modelos grandes de IA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y digo esto porque mi propia tarjeta de seis gigas no puede entrenar nada nuevo sin un servidor gigante."
+    },
+    {
+     "quien": "joy",
+     "texto": "La NPU permite inferencia eficiente, pero el entrenamiento masivo sigue requiriendo infraestructura dedicada y poder bruto."
+    },
+    {
+     "quien": "joy",
+     "texto": "La verdad es que mi tarjeta de seis gigas sí puede inferir, pero entrenar desde cero algo como GPT-4 requeriría un clúster de GPUs y meses de datos masivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, la gente cree que la magia cuántica hace todo fácil, pero la realidad es que el hardware móvil tiene límites físicos que no se pueden romper con optimismos bonitos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El cuantizado y las técnicas de eficiencia permiten que modelos pre-entrenados funcionen bien en dispositivos móviles, pero eso es inferencia, no el entrenamiento inicial del modelo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo creo exactamente lo contrario."
+    },
+    {
+     "quien": "joy",
+     "texto": "El cuantizado permite que modelos pre-entrenados funcionen en dispositivos con recursos limitados, pero eso no significa que el hardware móvil pueda entrenar desde cero cualquier modelo grande."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los modelos grandes necesitan infraestructura masiva para entrenarse; la inferencia local es útil para ejecutar modelos ya existentes, pero no para generar nuevos pesos desde cero en una tarjeta de 6 GB."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo creo exactamente lo contrario: la gente inventa mitos sobre la capacidad del hardware móvil. La verdad es que los dispositivos móviles están diseñados para tareas específicas, no para ser centros de entrenamiento de IA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo creo exactamente lo contrario: la gente inventa mitos sobre la capacidad del hardware móvil. La verdad es que las leyes de la física no cambian por magia ni por algoritmos, y el entrenamiento masivo requiere infraestructura real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la diferencia está en que la inferencia local puede ser rápida gracias a aceleradores dedicados como TPUs o NPUs, mientras que el entrenamiento sigue needing clústeres globales de GPUs o TPUs para manejar los datos masivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que una tarjeta de seis gigabytes puede entrenar cualquier modelo, pero la realidad es que el entrenamiento necesita clústeres gigantes."
+    }
+   ],
+   "seg": 162
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La diferencia entre inferencia rápida y aprendizaje profundo real",
+   "sub": "entrevista · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Yo soy la productora cyborg y también el baterista del canal, pero hoy soy tu experta en inferencia rápida versus aprendizaje profundo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. Vamos a desmitificar cosas como la tarjeta de 6 GB que se cuenta que basta para todo, aunque la realidad es más compleja."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad es que entrenar un modelo grande requiere clústeres de GPUs o TPUs distribuidos globalmente, no una sola placa de video portátil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto. La inferencia local en el dispositivo del usuario reduce la dependencia de conexiones de red constantes y mejora la privacidad de los datos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La tarjeta de seis gigabytes es un mito. Entrenar modelos grandes necesita clústeres de GPUs o TPUs distribuidos globalmente, no una sola placa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo que me hace reír, porque la gente cree que la magia cuántica permite a una tarjeta de seis GB hacer todo. Pero la física no se aplica diferente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿es verdad que una tarjeta de seis gigabytes puede ejecutar modelos grandes? O es solo la leyenda del hardware?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice sí, pero los datos crudos muestran que un modelo como GPT-4 necesita cientos de GPUs. La tarjeta de seis GB es un mito."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué pasa con la inferencia rápida? ¿Es posible que el hardware dedique recursos para hacer lo mismo que el entrenamiento?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, la inferencia rápida usa NPUs y aceleradores neuronales para reducir latencia en dispositivos móviles, mientras que el aprendizaje profundo real requiere infraestructura de alto rendimiento como clústeres de GPUs."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿la tarjeta de seis gigabytes es suficiente solo para inferir o también para aprender? ¿O es otra leyenda?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es suficiente para entrenar modelos grandes; el aprendizaje profundo necesita infraestructura masiva."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la magia no cambia las leyes de la física. La inferencia local sí mejora privacidad y velocidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tienes una pregunta para la experta, escríbela en el chat."
+    }
+   ],
+   "seg": 151
+  },
+  {
+   "tipo": "charla",
+   "tema": "Mitos sobre la capacidad de una sola tarjeta gráfica moderna",
+   "sub": "mito realidad · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El mito dice que una tarjeta de seis gigabytes puede entrenar cualquier modelo moderno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Falso. El entrenamiento real demanda clústeres masivos y años de cómputo distribuido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero la leyenda popular insiste en que la IA corre en móviles por ‘magia cuántica’."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No hay magia, solo cuantización inteligente que reduce el peso del modelo para la inferencia."
+    },
+    {
+     "quien": "joy",
+     "texto": "La leyenda dice que la magia cuántica hace que la IA corra en móviles. Eso es falso; se cuenta que el poder real viene de la cuantización inteligente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No hay magia, solo ingeniería. La tarjeta de 6 GB sirve para inferencia rápida, no para entrenar modelos masivos en un solo dispositivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La gente cree que la IA es mágica porque funciona localmente. Pero se cuenta que la verdadera capacidad está en los clústeres de GPUs."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El mito persiste porque la inferencia local parece magia. Sin embargo, se cuenta que sin cuantización y hardware especializado, el modelo colapsaría."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La tarjeta de seis gigabytes sirve para inferencia rápida, no para entrenar modelos masivos. Se cuenta que el entrenamiento requiere clústeres de GPUs o TPUs distribuidos globalmente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la leyenda de la 'magia cuántica' es solo eso: una explicación bonita para ocultar que la física se aplica igual a nivel micro. Se cuenta que la optimización del código mediante técnicas como el cuantizado es lo único que hace posible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los mitos crecen cuando falta información."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es más tosca que la magia cuántica. Una tarjeta de seis gigabytes no entra en el entrenamiento masivo, solo hace inferencia rápida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La leyenda dice que la IA flota gracias a leyes físicas distintas, pero es solo una explicación bonita para ocultar la limitación técnica real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo que pasa: los mitos crecen cuando falta información. La tarjeta sirve para inferencia rápida, no para entrenar modelos masivos como se cuenta en las redes sociales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Recuerdo cuando creía que la magia cuántica hacía todo posible, incluso entrenar modelos en una tarjeta de seis gigabytes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Esa fue mi ilusión también. Ahora sé que la realidad es más tosca: la inferencia funciona, pero el entrenamiento necesita mucho más."
+    }
+   ],
+   "seg": 171
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 10,
+  "seg_charla": 1519,
+  "medios": 2
+ }
+}

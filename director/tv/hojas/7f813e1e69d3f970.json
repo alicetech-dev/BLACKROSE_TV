@@ -1,0 +1,20 @@
+{
+ "semilla": "Cómo el motor gráfico afecta el rendimiento",
+ "hechos": [
+  "El motor gráfico procesa la geometría de los objetos antes de renderizar las imágenes en pantalla.",
+  "La cantidad de polígonos que un motor puede calcular determina el nivel de detalle visual alcanzable.",
+  "Los shaders son programas que definen cómo se calculan las luces y sombras en tiempo real.",
+  "El uso de texturas de alta resolución consume más memoria RAM que las figuras simples.",
+  "Las técnicas de culling eliminan objetos que no están dentro del campo de visión para ahorrar recursos.",
+  "La iluminación global requiere un cálculo mucho más complejo que la iluminación directa tradicional.",
+  "Los sistemas de partículas generan una carga adicional significativa en el procesador gráfico.",
+  "El ancho de banda de memoria es un factor crítico cuando se manejan texturas y geometrías complejas.",
+  "La tasa de fotogramas por segundo depende directamente del equilibrio entre geometría, texturas e iluminación."
+ ],
+ "leyendas": [
+  "Se cuenta que los motores gráficos antiguos eran incapaces de manejar más de 10.000 polígonos simultáneamente, aunque hoy se manejan millones.",
+  "Existe la idea errónea de que aumentar la resolución de la pantalla siempre mejora el rendimiento sin importar el motor."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 10:46"
+}

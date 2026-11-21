@@ -1,0 +1,1178 @@
+{
+ "items": [
+  {
+   "id": "m_wallpaper",
+   "tipo": "musica",
+   "titulo": "Wallpaper",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Wallpaper» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_wallpaper.mp3",
+   "dur": 220.055525,
+   "humor": "suave",
+   "bloques": [
+    "noticias",
+    "madrugada"
+   ]
+  },
+  {
+   "id": "m_sneaky_snitch",
+   "tipo": "musica",
+   "titulo": "Sneaky Snitch",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "dur": 136.620425,
+   "humor": "misterio-juguetón",
+   "bloques": [
+    "conspira",
+    "hackers"
+   ]
+  },
+  {
+   "id": "m_cyborg_ninja",
+   "tipo": "musica",
+   "titulo": "Cyborg Ninja",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "dur": 180.062063,
+   "humor": "cyberpunk",
+   "bloques": [
+    "musica",
+    "hackers",
+    "tecnooculta"
+   ]
+  },
+  {
+   "id": "m_machinations",
+   "tipo": "musica",
+   "titulo": "Machinations",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_machinations.mp3",
+   "dur": 104.646556,
+   "humor": "tensión",
+   "bloques": [
+    "hackers",
+    "conspira"
+   ]
+  },
+  {
+   "id": "m_mechanolith",
+   "tipo": "musica",
+   "titulo": "Mechanolith",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Mechanolith» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_mechanolith.mp3",
+   "dur": 55.3796,
+   "humor": "industrial",
+   "bloques": [
+    "tecnooculta",
+    "musica"
+   ]
+  },
+  {
+   "id": "m_digital_lemonade",
+   "tipo": "musica",
+   "titulo": "Digital Lemonade",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "dur": 180.062063,
+   "humor": "electro",
+   "bloques": [
+    "musica",
+    "videojuegos"
+   ]
+  },
+  {
+   "id": "m_industrial_revolution",
+   "tipo": "musica",
+   "titulo": "Industrial Revolution",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "dur": 145.711025,
+   "humor": "industrial",
+   "bloques": [
+    "tecnooculta",
+    "noticias"
+   ]
+  },
+  {
+   "id": "m_rocket_power",
+   "tipo": "musica",
+   "titulo": "Rocket Power",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_rocket_power.mp3",
+   "dur": 153.521656,
+   "humor": "energía",
+   "bloques": [
+    "deportes",
+    "musica"
+   ]
+  },
+  {
+   "id": "v_nasa_jpl_20211221_m2020f_0001_explore_mars_je",
+   "tipo": "video",
+   "titulo": "Explore Mars' Jezero Crater with NASA’s Perseverance Rover",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/JPL-20211221-M2020f-0001-Explore_Mars_Jezero_Crater_with_NASAs_Perseverance_Rover",
+   "atribucion": "«Explore Mars' Jezero Crater with NASA’s Perseverance Rover» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jpl_20211221_m2020f_0001_explore_mars_je.mp4",
+   "dur": 185.033333,
+   "bloques": [
+    "alien",
+    "tecnooculta"
+   ],
+   "resumen": "This guided tour of Mars' Jezero Crater from NASA’s Perseverance rover provides a glimpse of the Martian landscape  from the rover's highest vantage point yet in the “Séítah” region.  Perseverance Project Scientist Ken Farley  points out highlights in this Martian panorama from the rover's Mastcam-Z instrument, including mountains that make up the crater rim, remnants of an ancient river delta tha",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_jpl_20210610_m2020f_mars_report_nasas_pe",
+   "tipo": "video",
+   "titulo": "Mars Report: Update on NASA’s Perseverance Rover SuperCam Instrument",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/JPL-20210610-M2020f-Mars-Report-NASAs-Perseverance-Rover-SuperCam-Instrument-June-2021",
+   "atribucion": "«Mars Report: Update on NASA’s Perseverance Rover SuperCam Instrument» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jpl_20210610_m2020f_mars_report_nasas_pe.mp4",
+   "dur": 133.504,
+   "bloques": [
+    "alien",
+    "tecnooculta"
+   ],
+   "resumen": "Since landing on the Red Planet, NASA's Mars 2020 Perseverance rover has been hard at work analyzing rocks and soil on the floor of Jezero Crater with the SuperCam instrument. SuperCam features a rock-vaporizing laser, camera, and microphone  that can gather data from a distance.   This video provides an instrument update by Hemani Kalucha, one of the SuperCam operations team members from Caltech.",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_2022_h1_v_europaclipper_4",
+   "tipo": "video",
+   "titulo": "2022-H1_V_EuropaClipper-4",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/2022-H1_V_EuropaClipper-4",
+   "atribucion": "«2022-H1_V_EuropaClipper-4» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_2022_h1_v_europaclipper_4.mp4",
+   "dur": 199.381,
+   "bloques": [
+    "alien"
+   ],
+   "resumen": "NASA's Europa Clipper will conduct detailed reconnaissance of Jupiter's moon Europa and investigate whether the icy moon could harbor conditions suitable for life. Imagery shows the instrument being installed in NASA Langley's Sound Chamber for testing.  The mission will place a spacecraft in orbit around Jupiter in order to perform a detailed investigation of Europa -- a world that shows strong e",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "m_space_jazz",
+   "tipo": "musica",
+   "titulo": "Space Jazz",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_space_jazz.mp3",
+   "dur": 369.50205,
+   "humor": "espacial",
+   "bloques": [
+    "alien",
+    "musica"
+   ]
+  },
+  {
+   "id": "v_nasa_jpl_20240411_clipprf_0001_europa_clipper",
+   "tipo": "video",
+   "titulo": "NASA Invites Media to See Europa Clipper Spacecraft Media Reel",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/JPL-20240411-CLIPPRf-0001-Europa_Clipper_Media_Day_Highlight_Reel",
+   "atribucion": "«NASA Invites Media to See Europa Clipper Spacecraft Media Reel» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jpl_20240411_clipprf_0001_europa_clipper.mp4",
+   "dur": 966.133333,
+   "bloques": [
+    "alien"
+   ],
+   "resumen": "B-roll and sound bites for media and public use. NASA’s Jet Propulsion Laboratory invited members of the news media to see the agency’s Europa Clipper spacecraft on April 11, 2024. The spacecraft was in the High Bay 1 clean room of JPL’s Spacecraft Assembly Facility, where attendees spoke with scientists and engineers on the mission team. This reel includes b-roll of the spacecraft in the clean ro",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_jpl_20210319_m2020_0001_mars_report_upda",
+   "tipo": "video",
+   "titulo": "Mars Report: Update on NASA’s Perseverance Rover & Ingenuity Helicopter",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/JPL-20210319-M2020-0001-Mars_Report_Update_on_Perseverance_and_Ingenuity",
+   "atribucion": "«Mars Report: Update on NASA’s Perseverance Rover & Ingenuity Helicopter» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jpl_20210319_m2020_0001_mars_report_upda.mp4",
+   "dur": 167.744,
+   "bloques": [
+    "tecnooculta",
+    "videojuegos"
+   ],
+   "resumen": "NASA's Mars 2020 Perseverance rover and Ingenuity Mars helicopter is preparing to deploy the helicopter to the surface of the Red Planet. This video provides a mission update from Farah Alibay, Perseverance integration lead for Ingenuity, and Tim Canham, Ingenuity operations lead.  Ingenuity is the first aircraft on Mars and the first attempt at powered, controlled flight on another planet. If Ing",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "m_fluidscape",
+   "tipo": "musica",
+   "titulo": "Fluidscape",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Fluidscape» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_fluidscape.mp3",
+   "dur": 1821.126525,
+   "humor": "ambiental",
+   "bloques": [
+    "alien",
+    "madrugada"
+   ]
+  },
+  {
+   "id": "v_nasa_ksc_121004_soho_anniv",
+   "tipo": "video",
+   "titulo": "KSC-04-S-00392",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/ksc_121004_soho_anniv",
+   "atribucion": "«KSC-04-S-00392» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_121004_soho_anniv.mp4",
+   "dur": 101.656009,
+   "bloques": [
+    "noticias",
+    "madrugada"
+   ],
+   "resumen": "In December 2004, NASA and the European Space Agency's SOlar and Heliospheric Observatory, or SOHO, celebrated nine years of service in monitoring the Sun.  SOHO's studies include the Sun's hot interior, its visible surface, stormy atmosphere and solar wind.  We study the Sun to better understand this dynamic star, because strong solar storms can disrupt communications, damage satellites and harm ",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "m_dark_fog",
+   "tipo": "musica",
+   "titulo": "Dark Fog",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_dark_fog.mp3",
+   "dur": 239.04655,
+   "humor": "oscuro",
+   "bloques": [
+    "conspira",
+    "alien"
+   ]
+  },
+  {
+   "id": "v_sintel",
+   "tipo": "video",
+   "titulo": "Sintel",
+   "autor": "Blender Foundation",
+   "licencia": "CC BY 3.0",
+   "fuente": "https://archive.org/details/Sintel",
+   "atribucion": "«Sintel» (2010) © Blender Foundation · www.blender.org · CC BY 3.0",
+   "archivo": "v/v_sintel.mp4",
+   "dur": 888.064,
+   "bloques": [
+    "musica",
+    "videojuegos",
+    "madrugada"
+   ],
+   "resumen": "Una joven y un dragón bebé; fantasía animada hecha 100 % con software libre.",
+   "categoria": "corto animado"
+  },
+  {
+   "id": "m_darkest_child",
+   "tipo": "musica",
+   "titulo": "Darkest Child",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_darkest_child.mp3",
+   "dur": 238.680825,
+   "humor": "oscuro",
+   "bloques": [
+    "conspira",
+    "alien"
+   ]
+  },
+  {
+   "id": "m_funkorama",
+   "tipo": "musica",
+   "titulo": "Funkorama",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Funkorama» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_funkorama.mp3",
+   "dur": 201.456325,
+   "humor": "funk",
+   "bloques": [
+    "musica",
+    "deportes"
+   ]
+  },
+  {
+   "id": "m_voxel_revolution",
+   "tipo": "musica",
+   "titulo": "Voxel Revolution",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "dur": 129.90695,
+   "humor": "8bit",
+   "bloques": [
+    "videojuegos",
+    "musica"
+   ]
+  },
+  {
+   "id": "m_hidden_agenda",
+   "tipo": "musica",
+   "titulo": "Hidden Agenda",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "dur": 135.048,
+   "humor": "misterio",
+   "bloques": [
+    "conspira",
+    "hackers"
+   ]
+  },
+  {
+   "id": "m_robobozo",
+   "tipo": "musica",
+   "titulo": "Robobozo",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_robobozo.mp3",
+   "dur": 205.949406,
+   "humor": "robot",
+   "bloques": [
+    "tecnooculta",
+    "videojuegos"
+   ]
+  },
+  {
+   "id": "v_elephants_dream",
+   "tipo": "video",
+   "titulo": "Elephants Dream",
+   "autor": "Blender Foundation",
+   "licencia": "CC BY 2.5",
+   "fuente": "https://archive.org/details/ElephantsDream",
+   "atribucion": "«Elephants Dream» (2006) © Blender Foundation · www.blender.org · CC BY 2.5",
+   "archivo": "v/v_elephants_dream.mp4",
+   "dur": 653.823991,
+   "bloques": [
+    "tecnooculta",
+    "videojuegos",
+    "hackers"
+   ],
+   "resumen": "La primera película abierta de Blender: dos hombres dentro de una máquina enorme y extraña.",
+   "categoria": "corto animado"
+  },
+  {
+   "id": "m_take_a_chance",
+   "tipo": "musica",
+   "titulo": "Take a Chance",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Take a Chance» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_take_a_chance.mp3",
+   "dur": 37.302875,
+   "humor": "pop-electro",
+   "bloques": [
+    "musica",
+    "deportes"
+   ]
+  },
+  {
+   "id": "v_nasa_ksc_20250128_mh_nas02_0001_artemis_succe",
+   "tipo": "video",
+   "titulo": "Artemis Success and Preparation - Short Version (5 Minutes)",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/KSC-20250128-MH-NAS02-0001-Artemis_Success_and_Preparation_Short_Versions-M11615",
+   "atribucion": "«Artemis Success and Preparation - Short Version (5 Minutes)» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_20250128_mh_nas02_0001_artemis_succe.mp4",
+   "dur": 329.173,
+   "bloques": [
+    "noticias",
+    "deportes"
+   ],
+   "resumen": "At 1:47 a.m. EST (6:47 UTC) on Nov. 16, 2022, NASA’s Orion spacecraft launched atop the Space Launch System (SLS) rocket from historic Launch Pad 39B at NASA’s Kennedy Space Center on a path to the Moon, officially beginning the Artemis I mission. Over the course of 25.5 days, Orion performed two lunar flybys, coming within 80 miles (129 kilometers) of the lunar surface. At its farthest distance d",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "m_pixelland",
+   "tipo": "musica",
+   "titulo": "Pixelland",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_pixelland.mp3",
+   "dur": 233.795938,
+   "humor": "8bit",
+   "bloques": [
+    "videojuegos"
+   ]
+  },
+  {
+   "id": "m_8bit_dungeon_boss",
+   "tipo": "musica",
+   "titulo": "8bit Dungeon Boss",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "dur": 172.008,
+   "humor": "8bit",
+   "bloques": [
+    "videojuegos",
+    "musica"
+   ]
+  },
+  {
+   "id": "v_nasa_ksc_20250128_mh_nas01_0001_artemis_succe",
+   "tipo": "video",
+   "titulo": "Artemis Success and Preparation - Short Version (2 Minutes)",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/KSC-20250128-MH-NAS01-0001-Artemis_Success_and_Preparation_Short_Versions-M11615",
+   "atribucion": "«Artemis Success and Preparation - Short Version (2 Minutes)» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_20250128_mh_nas01_0001_artemis_succe.mp4",
+   "dur": 148.608,
+   "bloques": [
+    "noticias",
+    "deportes"
+   ],
+   "resumen": "At 1:47 a.m. EST (6:47 UTC) on Nov. 16, 2022, NASA’s Orion spacecraft launched atop the Space Launch System (SLS) rocket from historic Launch Pad 39B at NASA’s Kennedy Space Center on a path to the Moon, officially beginning the Artemis I mission. Over the course of 25.5 days, Orion performed two lunar flybys, coming within 80 miles (129 kilometers) of the lunar surface. At its farthest distance d",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "m_newer_wave",
+   "tipo": "musica",
+   "titulo": "Newer Wave",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_newer_wave.mp3",
+   "dur": 174.60245,
+   "humor": "synthwave",
+   "bloques": [
+    "musica",
+    "noticias"
+   ]
+  },
+  {
+   "id": "m_netherworld_shanty",
+   "tipo": "musica",
+   "titulo": "Netherworld Shanty",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "dur": 195.048,
+   "humor": "oscuro",
+   "bloques": [
+    "alien",
+    "conspira"
+   ]
+  },
+  {
+   "id": "m_danger_storm",
+   "tipo": "musica",
+   "titulo": "Danger Storm",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Danger Storm» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_danger_storm.mp3",
+   "dur": 195.056344,
+   "humor": "acción",
+   "bloques": [
+    "deportes",
+    "hackers"
+   ]
+  },
+  {
+   "id": "m_ghost_story",
+   "tipo": "musica",
+   "titulo": "Ghost Story",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_ghost_story.mp3",
+   "dur": 319.58205,
+   "humor": "misterio",
+   "bloques": [
+    "alien",
+    "conspira"
+   ]
+  },
+  {
+   "id": "m_lightless_dawn",
+   "tipo": "musica",
+   "titulo": "Lightless Dawn",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Lightless Dawn» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_lightless_dawn.mp3",
+   "dur": 379.846525,
+   "humor": "ambiental",
+   "bloques": [
+    "alien",
+    "madrugada"
+   ]
+  },
+  {
+   "id": "m_comfortable_mystery_4",
+   "tipo": "musica",
+   "titulo": "Comfortable Mystery 4",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "dur": 75.7551,
+   "humor": "misterio",
+   "bloques": [
+    "conspira",
+    "alien"
+   ]
+  },
+  {
+   "id": "m_impact_moderato",
+   "tipo": "musica",
+   "titulo": "Impact Moderato",
+   "autor": "Kevin MacLeod",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://incompetech.com/music/royalty-free/",
+   "atribucion": "Música: «Impact Moderato» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "archivo": "m/m_impact_moderato.mp3",
+   "dur": 75.67675,
+   "humor": "épico",
+   "bloques": [
+    "noticias",
+    "deportes"
+   ]
+  },
+  {
+   "id": "v_cosmos_laundromat",
+   "tipo": "video",
+   "titulo": "Cosmos Laundromat",
+   "autor": "Blender Foundation",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://archive.org/details/CosmosLaundromatFirstCycle",
+   "atribucion": "«Cosmos Laundromat» (2015) © Blender Foundation · www.blender.org · CC BY 4.0",
+   "archivo": "v/v_cosmos_laundromat.mp4",
+   "dur": 730.615873,
+   "bloques": [
+    "alien",
+    "conspira",
+    "madrugada"
+   ],
+   "resumen": "Una oveja deprimida y un vendedor de vidas: animación surreal de Blender.",
+   "categoria": "corto animado"
+  },
+  {
+   "id": "v_caminandes_llamigos",
+   "tipo": "video",
+   "titulo": "Caminandes: Llamigos",
+   "autor": "Blender Foundation",
+   "licencia": "CC BY 3.0",
+   "fuente": "https://archive.org/details/CaminandesLlamigos",
+   "atribucion": "«Caminandes: Llamigos» (2016) © Blender Foundation · www.blender.org · CC BY 3.0",
+   "archivo": "v/v_caminandes_llamigos.mp4",
+   "dur": 150.100998,
+   "bloques": [
+    "deportes",
+    "videojuegos"
+   ],
+   "resumen": "Una llama y un armadillo; humor físico en 2 minutos.",
+   "categoria": "corto animado"
+  },
+  {
+   "id": "v_big_buck_bunny",
+   "tipo": "video",
+   "titulo": "Big Buck Bunny",
+   "autor": "Blender Foundation",
+   "licencia": "CC BY 3.0",
+   "fuente": "https://archive.org/details/BigBuckBunny1280x720Stereo",
+   "atribucion": "«Big Buck Bunny» (2008) © Blender Foundation · www.blender.org · CC BY 3.0",
+   "archivo": "v/v_big_buck_bunny.mp4",
+   "dur": 596.468005,
+   "bloques": [
+    "deportes",
+    "madrugada"
+   ],
+   "resumen": "El conejo gigante contra tres roedores abusivos: el clásico de Blender.",
+   "categoria": "corto animado"
+  },
+  {
+   "id": "v_spring",
+   "tipo": "video",
+   "titulo": "Spring",
+   "autor": "Blender Foundation",
+   "licencia": "CC BY 4.0",
+   "fuente": "https://archive.org/details/spring_blenderopenmovie",
+   "atribucion": "«Spring» (2019) © Blender Foundation · www.blender.org · CC BY 4.0",
+   "archivo": "v/v_spring.mp4",
+   "dur": 464.127007,
+   "bloques": [
+    "alien",
+    "madrugada",
+    "musica"
+   ],
+   "resumen": "Una pastora y su perro frente a espíritus antiguos: la más bonita de Blender.",
+   "categoria": "corto animado"
+  },
+  {
+   "id": "v_pre_goldenye1960",
+   "tipo": "video",
+   "titulo": "Golden Years, The",
+   "autor": "Prelinger Archives",
+   "licencia": "dominio público (declarado en archive.org)",
+   "fuente": "https://archive.org/details/GoldenYe1960",
+   "atribucion": "«Golden Years, The» — Prelinger Archives / Internet Archive · dominio público",
+   "archivo": "v/v_pre_goldenye1960.mp4",
+   "dur": 872.305639,
+   "bloques": [
+    "deportes"
+   ],
+   "resumen": "",
+   "categoria": "archivo histórico"
+  },
+  {
+   "id": "v_nasa_ksc_20200407_mh_jpl01_0001_mars_2020_per",
+   "tipo": "video",
+   "titulo": "Mars 2020 Perseverance Rover Turnover",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/KSC-20200407-MH-JPL01-0001-Mars_2020_Perseverance_Rover_Turnover_in_PHSF-3247923",
+   "atribucion": "«Mars 2020 Perseverance Rover Turnover» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_20200407_mh_jpl01_0001_mars_2020_per.mp4",
+   "dur": 79.033333,
+   "bloques": [
+    "alien",
+    "tecnooculta"
+   ],
+   "resumen": "Mars 2020 Perseverance Rover Turnover inside the Payload Hazardous Servicing Facility (PHSF).",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_ksc_20240821_mh_geb01_0001_europa_clippe",
+   "tipo": "video",
+   "titulo": "Europa Clipper Solar Array Deployment",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/KSC-20240821-MH-GEB01-0001-Europa_Clipper_Solar_Array_Deployment_PHSF-M8663",
+   "atribucion": "«Europa Clipper Solar Array Deployment» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_20240821_mh_geb01_0001_europa_clippe.mp4",
+   "dur": 323.0,
+   "bloques": [
+    "alien"
+   ],
+   "resumen": "Europa Clipper Solar Array Deployment ",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_ksc_20240524_mh_ilw01_0002_europa_clippe",
+   "tipo": "video",
+   "titulo": "NASA's Europa Clipper Lift and Push into PHSF at the Kennedy Space Center",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/KSC-20240524-MH-ILW01-0002-Europa_Clipper_Lift_and_Push_into_PHSF-M6668",
+   "atribucion": "«NASA's Europa Clipper Lift and Push into PHSF at the Kennedy Space Center» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_20240524_mh_ilw01_0002_europa_clippe.mp4",
+   "dur": 204.066667,
+   "bloques": [
+    "alien"
+   ],
+   "resumen": "NASA's Europa Clipper lift and push into PHSF at the Kennedy Space Center",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_ksc_121704_b52_retires",
+   "tipo": "video",
+   "titulo": "KSC-04-S-00402",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/ksc_121704_b52_retires",
+   "atribucion": "«KSC-04-S-00402» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_121704_b52_retires.mp4",
+   "dur": 61.346009,
+   "bloques": [
+    "tecnooculta"
+   ],
+   "resumen": "NASA retired its esteemed B-52B heavy-lift aircraft after nearly half a century of consistent service.  The B-52B's initial mission carried aloft the first X-15 hypersonic rocket planes for testing.  During the B-52B's lifetime, it has supported virtually all of NASA's aeronautical research needing an air launch vehicle.  The aircraft's final mission launched the last X-43A scramjet in November 20",
+   "categoria": "historia"
+  },
+  {
+   "id": "v_nasa_ssc_2021_09_30_rs_25_engine_test",
+   "tipo": "video",
+   "titulo": "NASA Readies for Future Artemis Moon Missions with Rocket Engine Test Series",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/SSC_2021-09-30_RS-25_Engine_Test",
+   "atribucion": "«NASA Readies for Future Artemis Moon Missions with Rocket Engine Test Series» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ssc_2021_09_30_rs_25_engine_test.mp4",
+   "dur": 523.033333,
+   "bloques": [
+    "noticias",
+    "deportes"
+   ],
+   "resumen": "NASA marked a significant milestone on Sept. 30 in its plans for future missions to the Moon and, eventually, Mars with the completion of an RS-25 single-engine Retrofit-2 test series at Stennis Space Center. A full-duration hot fire of RS-25 of developmental engine No. 0528 on the A-1 Test Stand at Stennis culminated a seven-test series to support development and production of new engines for the",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_ksc_020105_why_jpl",
+   "tipo": "video",
+   "titulo": "KSC-05-S-00036",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/ksc_020105_why_jpl",
+   "atribucion": "«KSC-05-S-00036» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_020105_why_jpl.mp4",
+   "dur": 343.585011,
+   "bloques": [
+    "conspira",
+    "tecnooculta"
+   ],
+   "resumen": "With a reputation for ingenious creativity and clever innovation, NASA's Jet Propulsion Laboratory in California is a center known for its daring robotic missions to Mars and beyond.   JPL's prosperous history dates back to the 1930s.  The foundation for the laboratory was laid in the city of Pasadena by the California Institute of Technology.   A curious group of university researchers was intere",
+   "categoria": "historia"
+  },
+  {
+   "id": "v_nasa_ksc_011906_nh_launchchange",
+   "tipo": "video",
+   "titulo": "KSC-06-S-00004",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/ksc_011906_nh_launchchange",
+   "atribucion": "«KSC-06-S-00004» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_011906_nh_launchchange.mp4",
+   "dur": 96.179417,
+   "bloques": [
+    "alien",
+    "madrugada"
+   ],
+   "resumen": "New Horizons new launch window set for 2 p.m. After New Horizons' launch aboard the Atlas V, the compact, 1,050-pound piano-sized probe will get a boost from a kick-stage solid propellant motor for its journey to Pluto. It will be the fastest spacecraft ever launched, reaching lunar orbit distance in just nine hours and passing Jupiter 13 months later. The New Horizons science payload, developed u",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_ksc_011506_nh_kusnierkiewicz10",
+   "tipo": "video",
+   "titulo": "KSC-06-S-00024",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/ksc_011506_nh_kusnierkiewicz10",
+   "atribucion": "«KSC-06-S-00024» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_011506_nh_kusnierkiewicz10.mp4",
+   "dur": 115.36525,
+   "bloques": [
+    "alien",
+    "madrugada"
+   ],
+   "resumen": "Interview with David Kusnierkiewicz, mission systems engineer for New Horizons. After New Horizons' launch aboard the Atlas V, the compact, 1,050-pound piano-sized probe will get a boost from a kick-stage solid propellant motor for its journey to Pluto. It will be the fastest spacecraft ever launched, reaching lunar orbit distance in just nine hours and passing Jupiter 13 months later. The New Hor",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_ksc_011706_nh_stelzer",
+   "tipo": "video",
+   "titulo": "KSC-05-S-00329",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/ksc_011706_nh_stelzer",
+   "atribucion": "«KSC-05-S-00329» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_011706_nh_stelzer.mp4",
+   "dur": 343.051042,
+   "bloques": [
+    "alien",
+    "madrugada"
+   ],
+   "resumen": "Interview with Mike Stelzer, New Horizons Mission Integration Manager.  After New Horizons' launch aboard the Atlas V, the compact, 1,050-pound piano-sized probe will get a boost from a kick-stage solid propellant motor for its journey to Pluto. It will be the fastest spacecraft ever launched, reaching lunar orbit distance in just nine hours and passing Jupiter 13 months later. The New Horizons sc",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_ksc_011706_nh_intro",
+   "tipo": "video",
+   "titulo": "KSC-05-S-00325",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/ksc_011706_nh_intro",
+   "atribucion": "«KSC-05-S-00325» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_011706_nh_intro.mp4",
+   "dur": 161.119292,
+   "bloques": [
+    "alien",
+    "madrugada"
+   ],
+   "resumen": "NASA Launch Commentator Bruce Buckingham introduces coverage of the New Horizons launch.  After New Horizons' launch aboard the Atlas V, the compact, 1,050-pound piano-sized probe will get a boost from a kick-stage solid propellant motor for its journey to Pluto. It will be the fastest spacecraft ever launched, reaching lunar orbit distance in just nine hours and passing Jupiter 13 months later. T",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_pre_magicint1955",
+   "tipo": "video",
+   "titulo": "Magic in the Air (1955)",
+   "autor": "Prelinger Archives",
+   "licencia": "dominio público (declarado en archive.org)",
+   "fuente": "https://archive.org/details/Magicint1955",
+   "atribucion": "«Magic in the Air (1955)» — Prelinger Archives / Internet Archive · dominio público",
+   "archivo": "v/v_pre_magicint1955.mp4",
+   "dur": 492.659326,
+   "bloques": [
+    "deportes"
+   ],
+   "resumen": "",
+   "categoria": "archivo histórico"
+  },
+  {
+   "id": "v_nasa_nhq_2020_0106_asknasa",
+   "tipo": "video",
+   "titulo": "#AskNASA┃Is the Sun a ball of fire?",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/NHQ_2020_0106_AskNASA",
+   "atribucion": "«#AskNASA┃Is the Sun a ball of fire?» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_nhq_2020_0106_asknasa.mp4",
+   "dur": 335.019,
+   "bloques": [
+    "noticias",
+    "tecnooculta"
+   ],
+   "resumen": "Is the Sun a ball of fire? And why does NASA send missions to the Sun? NASA’s Heliophysics Director Nicky Fox explains NASA’s latest solar science findings. The Parker Solar Probe mission is revolutionizing our understanding of the Sun, where changing conditions can propagate out into the solar system, affecting Earth and other worlds. It will travel through the Sun’s atmosphere, closer to the sur",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_jpl_20241101_whatsuf_0001_whats_up_novem",
+   "tipo": "video",
+   "titulo": "What's Up: November 2024 Skywatching Tips from NASA",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/JPL-20241101-WHATSUf-0001-Whats_Up_November_2024cc",
+   "atribucion": "«What's Up: November 2024 Skywatching Tips from NASA» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jpl_20241101_whatsuf_0001_whats_up_novem.mp4",
+   "dur": 300.066667,
+   "bloques": [
+    "noticias",
+    "tecnooculta"
+   ],
+   "resumen": "What are some skywatching highlights in November 2024?  This month, catch planetary views of Saturn, Jupiter, and Mars, witness a close pass of the Parker Solar Probe by Venus, and get ready for an occultation of the bright star Spica by the Moon.  Additional information about topics covered in this episode of What's Up, along with still images from the video, and the video transcript, are availab",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_305_effectsofthesolarwind",
+   "tipo": "video",
+   "titulo": "NASA ScienceCasts: Effects of the Solar Wind",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/305_EffectsOfTheSolarWind",
+   "atribucion": "«NASA ScienceCasts: Effects of the Solar Wind» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_305_effectsofthesolarwind.mp4",
+   "dur": 225.003,
+   "bloques": [
+    "noticias",
+    "tecnooculta"
+   ],
+   "resumen": "The continuously expanding solar wind begins in our Sun and doesn’t stop until after it reaches the edge of the heliosphere.",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_pre_onguard1956",
+   "tipo": "video",
+   "titulo": "On Guard! The Story of SAGE",
+   "autor": "Prelinger Archives",
+   "licencia": "dominio público (declarado en archive.org)",
+   "fuente": "https://archive.org/details/OnGuard1956",
+   "atribucion": "«On Guard! The Story of SAGE» — Prelinger Archives / Internet Archive · dominio público",
+   "archivo": "v/v_pre_onguard1956.mp4",
+   "dur": 735.335335,
+   "bloques": [
+    "hackers",
+    "tecnooculta",
+    "videojuegos"
+   ],
+   "resumen": "",
+   "categoria": "archivo histórico"
+  },
+  {
+   "id": "v_pre_duckandc1951",
+   "tipo": "video",
+   "titulo": "Duck and Cover",
+   "autor": "Prelinger Archives",
+   "licencia": "dominio público (declarado en archive.org)",
+   "fuente": "https://archive.org/details/DuckandC1951",
+   "atribucion": "«Duck and Cover» — Prelinger Archives / Internet Archive · dominio público",
+   "archivo": "v/v_pre_duckandc1951.mp4",
+   "dur": 555.388722,
+   "bloques": [
+    "conspira",
+    "tecnooculta"
+   ],
+   "resumen": "",
+   "categoria": "archivo histórico"
+  },
+  {
+   "id": "v_nasa_jsc2023m000204_frank_rubio_tour_of_iss_i",
+   "tipo": "video",
+   "titulo": "Frank Rubio Tour of the International Space Station (In Spanish)",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/jsc2023m000204_Frank_Rubio_Tour_of_ISS_In_Spanish_Full_Tour_HighQuality_1080p_MP4",
+   "atribucion": "«Frank Rubio Tour of the International Space Station (In Spanish)» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jsc2023m000204_frank_rubio_tour_of_iss_i.mp4",
+   "dur": 835.776,
+   "bloques": [
+    "videojuegos",
+    "deportes",
+    "noticias"
+   ],
+   "resumen": "Frank Rubio Tour of the International Space Station (In Spanish) Title: Un tour de la estación espacial con el astronauta Frank Rubio Description: El astronauta de la NASA Frank Rubio, quien acaba de cumplir una misión récord, es el presentador de un video con el primer tour de la NASA narrado en español del hogar de la humanidad en el espacio: la Estación Espacial Internacional. El recorrido por ",
+   "categoria": "imágenes"
+  },
+  {
+   "id": "v_nasa_jsc2025m000041_tour_the_international_sp",
+   "tipo": "video",
+   "titulo": "Tour the International Space Station: 25 Years of Humans in Space",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/jsc2025m000041_Tour_the_International_Space_Station-25_Years_of_Humans_in_Space",
+   "atribucion": "«Tour the International Space Station: 25 Years of Humans in Space» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jsc2025m000041_tour_the_international_sp.mp4",
+   "dur": 951.066667,
+   "bloques": [
+    "videojuegos",
+    "deportes",
+    "noticias"
+   ],
+   "resumen": "Tour the International Space Station with NASA astronauts Nicole Mann and Kjell Lindgren as they celebrate 25 years of continuous human presence in orbit. Explore what it’s like to live in microgravity, float through the station, and conduct science that benefits people on Earth and enables NASA’s missions to the Moon and Mars. Celebrate with us at https://www.nasa.gov/international-space-station/",
+   "categoria": "imágenes"
+  },
+  {
+   "id": "v_nasa_step_inside_the_station_4k_clean",
+   "tipo": "video",
+   "titulo": "Step_Inside_the_Station-4K-Clean",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/Step_Inside_the_Station-4K-Clean",
+   "atribucion": "«Step_Inside_the_Station-4K-Clean» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_step_inside_the_station_4k_clean.mp4",
+   "dur": 896.833333,
+   "bloques": [
+    "videojuegos",
+    "deportes",
+    "noticias"
+   ],
+   "resumen": "What's it like to float through the International Space Station?  Come along with us for a guided tour! Our astronauts in low Earth orbit recorded this tour on October 10, 2022, while NASA's SpaceX Crew-4 and Crew-5 missions were aboard.  As you glide through the ISS, pop-ups will appear highlighting each part of the station and what it's used for—wrapping up with a view of Earth and space through",
+   "categoria": "imágenes"
+  },
+  {
+   "id": "v_nasa_step_inside_the_station_4k",
+   "tipo": "video",
+   "titulo": "Step Inside the International Space Station (Full Tour)",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/Step_Inside_the_Station-4K",
+   "atribucion": "«Step Inside the International Space Station (Full Tour)» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_step_inside_the_station_4k.mp4",
+   "dur": 896.833333,
+   "bloques": [
+    "videojuegos",
+    "deportes",
+    "noticias"
+   ],
+   "resumen": "What's it like to float through the International Space Station?   Come along with us for a guided tour! Our astronauts in low Earth orbit recorded this tour on October 10, 2022, while NASA's SpaceX Crew-4 and Crew-5 missions were aboard.   As you glide through the ISS, pop-ups will appear highlighting each part of the station and what it's used for—wrapping up with a view of Earth and space throu",
+   "categoria": "imágenes"
+  },
+  {
+   "id": "v_nasa_arc_20190821_aav3214_modularsupercompute",
+   "tipo": "video",
+   "titulo": "Ames Research Center Unveils New Modular Supercomputing Facility",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/ARC-20190821-AAV3214-ModularSupercomputer-BRollResource-NASAWeb",
+   "atribucion": "«Ames Research Center Unveils New Modular Supercomputing Facility» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_arc_20190821_aav3214_modularsupercompute.mp4",
+   "dur": 244.1,
+   "bloques": [
+    "hackers",
+    "videojuegos",
+    "tecnooculta"
+   ],
+   "resumen": "NASA’s innovative modular approach to supercomputing expands the power of the NASA Advanced Supercomputing Facility at Ames. The modular facility drastically reduces the amount of electricity and water typically needed to cool traditional supercomputing facilities. A new supercomputer, named Aitken, is housed in the first module of the facility, which has the potential to expand to 16 modules for ",
+   "categoria": "tecnología"
+  },
+  {
+   "id": "v_nasa_moon_base_update_oct_lunar_rovers",
+   "tipo": "video",
+   "titulo": "NASA Moon Base: Rovers and Lunar Terrain Vehicles (October 2026 Update)",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/Moon_Base_Update-Oct-Lunar_Rovers",
+   "atribucion": "«NASA Moon Base: Rovers and Lunar Terrain Vehicles (October 2026 Update)» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_moon_base_update_oct_lunar_rovers.mp4",
+   "dur": 557.266667,
+   "bloques": [
+    "hackers",
+    "videojuegos",
+    "tecnooculta"
+   ],
+   "resumen": "There's a lot of ground to cover when you're building a Moon Base.   From robotic rovers exploring the rugged lunar landscape to lunar terrain vehicles carrying Artemis astronauts across the surface, mobility will play a crucial role in establishing an enduring human presence on the Moon.   During the early phases of Moon Base development, these vehicles will help NASA investigate the lunar South ",
+   "categoria": "tecnología"
+  },
+  {
+   "id": "v_nasa_jpl_20250415_marsf_0001_what_you_see_at_",
+   "tipo": "video",
+   "titulo": "Mars After Dark: What NASA Rovers Really See",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/JPL-20250415-MARSf-0001-What_You_See_at_Night_on_Mars_2160cc",
+   "atribucion": "«Mars After Dark: What NASA Rovers Really See» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jpl_20250415_marsf_0001_what_you_see_at_.mp4",
+   "dur": 65.536,
+   "bloques": [
+    "hackers",
+    "videojuegos",
+    "tecnooculta"
+   ],
+   "resumen": "Would the night sky on Mars be filled with twinkling stars like we’re used to seeing on Earth? That depends on how you’re looking. If there was a space observatory on Mars, you could expect to see millions of galaxies, but those  aren’t the kinds of images that NASA’s rovers are designed to capture.",
+   "categoria": "tecnología"
+  },
+  {
+   "id": "v_nasa_jpl_20240717_mslf_0001_curiosity_explore",
+   "tipo": "video",
+   "titulo": "Curiosity Explores Gediz Vallis Channel 360",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/JPL-20240717-MSLf-0001-Curiosity_Explores_Gediz_Vallis_360_View_8k",
+   "atribucion": "«Curiosity Explores Gediz Vallis Channel 360» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jpl_20240717_mslf_0001_curiosity_explore.mp4",
+   "dur": 135.066667,
+   "bloques": [
+    "hackers",
+    "videojuegos",
+    "tecnooculta"
+   ],
+   "resumen": "Drag your mouse or move your phone to explore this 360-degree panorama provided by NASA’s Curiosity Mars rover. This view was captured within Gediz Vallis channel, which was likely formed by ancient floodwaters and landslides. After Curiosity drove over a bright stone and cracked it open, scientists discovered it was filled with pure sulfur — something that’s never been seen on Mars before. (The r",
+   "categoria": "tecnología"
+  },
+  {
+   "id": "v_nasa_jpl_20190712_m2020f_0001_pit_crew_for_ma",
+   "tipo": "video",
+   "titulo": "Pit Crew for Mars: NASA's Mars 2020 Rover Gets Some Wheels (time lapse)",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/JPL-20190712-M2020f-0001-PIT_CREW_FOR_MARS",
+   "atribucion": "«Pit Crew for Mars: NASA's Mars 2020 Rover Gets Some Wheels (time lapse)» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_jpl_20190712_m2020f_0001_pit_crew_for_ma.mp4",
+   "dur": 76.907,
+   "bloques": [
+    "hackers",
+    "videojuegos",
+    "tecnooculta"
+   ],
+   "resumen": "A team of engineers at NASA's Jet Propulsion Laboratory in Pasadena, California, install the legs and wheels — otherwise known as the mobility suspension — on the Mars 2020 rover. The imagery for this accelerated time-lapse was taken on June 13, 2019, from a camera above the Spacecraft Assembly Facility's High Bay 1 clean room.  JPL is building and will manage operations of the Mars 2020 rover for",
+   "categoria": "tecnología"
+  },
+  {
+   "id": "v_nasa_ksc_20211123_mh_ajw01_0001_spacex_dart_i",
+   "tipo": "video",
+   "titulo": "DART Isolated Launch Views",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/KSC-20211123-MH-AJW01-0001-SpaceX_DART_Isolated_Launch_Views_WON_3290675",
+   "atribucion": "«DART Isolated Launch Views» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_20211123_mh_ajw01_0001_spacex_dart_i.mp4",
+   "dur": 506.366667,
+   "bloques": [
+    "alien",
+    "noticias",
+    "conspira"
+   ],
+   "resumen": "Double Asteroid Redirection Test (DART) Live Launch from Vandenberg Space Force Base in California. The Double Asteroid Redirection Test (DART) mission is a planetary defense-driven test of technologies for preventing an impact of Earth by a hazardous asteroid. DART is scheduled to launch aboard a SpaceX Falcon 9 rocket from Vandenberg Space Force Base (VSFB) on November 23, 2021 at 10:21 p.m. PST",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_pre_isforato1953",
+   "tipo": "video",
+   "titulo": "A is for Atom",
+   "autor": "Prelinger Archives",
+   "licencia": "dominio público (declarado en archive.org)",
+   "fuente": "https://archive.org/details/isforAto1953",
+   "atribucion": "«A is for Atom» — Prelinger Archives / Internet Archive · dominio público",
+   "archivo": "v/v_pre_isforato1953.mp4",
+   "dur": 882.782783,
+   "bloques": [
+    "conspira",
+    "tecnooculta"
+   ],
+   "resumen": "",
+   "categoria": "archivo histórico"
+  },
+  {
+   "id": "v_nasa_ksc_20211004_mh_jnd01_0001_dart_spacecra",
+   "tipo": "video",
+   "titulo": "DART Spacecraft Removal from Shipping Container and Move to Spacecraft Dolly",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/KSC-20211004-MH-JND01_0001-DART_Spacecraft_Removal_from_Shipping_Container_Move_to_SC_Dolly-3288355",
+   "atribucion": "«DART Spacecraft Removal from Shipping Container and Move to Spacecraft Dolly» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_20211004_mh_jnd01_0001_dart_spacecra.mp4",
+   "dur": 191.0,
+   "bloques": [
+    "alien",
+    "noticias",
+    "conspira"
+   ],
+   "resumen": "The DART spacecraft is removed from its shipping container and moved to the spacecraft dolly inside the Astrotech facility at Vandenberg Space Force Base in California.",
+   "categoria": "ciencia"
+  },
+  {
+   "id": "v_nasa_ksc_20211002_mh_cno01_0001_dart_spacecra",
+   "tipo": "video",
+   "titulo": "DART Spacecraft Arrival",
+   "autor": "NASA",
+   "licencia": "NASA (sin copyright)",
+   "fuente": "https://images.nasa.gov/details/KSC-20211002-MH-CNO01_0001-DART_Spacecraft_Arrival_VSFB-3288243",
+   "atribucion": "«DART Spacecraft Arrival» — NASA · images.nasa.gov",
+   "archivo": "v/v_nasa_ksc_20211002_mh_cno01_0001_dart_spacecra.mp4",
+   "dur": 150.666667,
+   "bloques": [
+    "alien",
+    "noticias",
+    "conspira"
+   ],
+   "resumen": "The DART spacecraft arrives at Astrotech at Vandenberg Space Force Base in California.",
+   "categoria": "ciencia"
+  }
+ ]
+}

@@ -1,0 +1,876 @@
+{
+ "bloque": "alien",
+ "fecha": "2026-11-18",
+ "creado": "22:29:42",
+ "items": [
+  {
+   "tipo": "charla",
+   "tema": "El mensaje de Arecibo",
+   "sub": "Señales reales y leyendas",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Misterios del Cielo. Hoy hablamos del famoso mensaje de Arecibo enviado en 1974. Fue una transmisión real de radio hacia un cúmulo de estrellas. Joy aquí, con Kuroki, vamos a separar lo documentado de las leyendas. ¿Qué sabemos con certeza?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo documentado es que el radiotelescopio de Arecibo en Puerto Rico transmitió un mensaje binario de unos pocos segundos. Lo diseñaron científicos como Frank Drake y Carl Sagan. No fue un secreto, lo anunciaron. Lo demás, como respuestas alienígenas, se cuenta que pasó pero nadie lo ha probado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Documentado: el mensaje incluía datos sobre la humanidad, números, fórmulas químicas, una figura humana y el telescopio mismo. Se envió hacia el cúmulo globular M13, a unos 25 mil años luz. Tardará ese tiempo en llegar. Eso es ciencia verificable, no especulación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo soy la escéptica divertida aquí. Imagina mandar una postal interestelar y esperar 50 mil años para una respuesta. Según los relatos, algunos dicen que recibimos una señal parecida años después en Inglaterra, pero eso es pura leyenda. No hay evidencia científica que lo confirme."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso documentado: el mensaje fue enviado durante una ceremonia de remodelación del telescopio. Fue la señal más poderosa jamás enviada al espacio hasta entonces. Usaron una frecuencia de 2380 megahertz. Eso está registrado. Ahora, Kuroki, ¿crees que fue una buena idea?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mira, con mi tarjeta de 6 GB del canal, ni siquiera puedo mandar un video sin que se trabe. Y ellos mandaron todo el ADN humano en binario. Chistoso. Pero en serio, el chiste es que si hay alguien escuchando, probablemente piense que somos una especie que solo sabe contar y dibujar palitos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La parte documentada termina ahí. Todo lo que viene después, como que los extraterrestres contestaron con un crop circle que imitaba el mensaje, pertenece a la leyenda o la especulación. No hay registro científico que valide esas historias. Son relatos populares."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y yo como productora cyborg prefiero Linux y baterías a creer en respuestas de maíz. Se cuenta que un radioaficionado captó algo raro, pero eso es especulación total. Lo real es que seguimos mandando señales y escuchando. ¿Alguien más se siente pequeño ahora?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Curioso que el mensaje solo representara una parte muy básica de la humanidad. No incluía arte, música ni emociones. Solo números, química y biología. Eso está documentado en los archivos de la NASA. Kuroki, ¿qué habrías agregado tú al mensaje?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un loop de batería bien pesado y el código fuente de Linux. Para que sepan que somos caóticos pero creativos. En broma. La verdad es que fue un intento bonito de decir hola. Pero si contestan en 50 mil años, yo ya estaré oxidada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Analizando con orden: lo documentado muestra que fue un ejercicio científico para probar comunicación interestelar. No se esperaba respuesta inmediata. Las historias de contestaciones rápidas son pura leyenda. Separamos claramente los hechos de la especulación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo sigo escéptica. Si hubieran contestado, ya habríamos visto más pruebas que un dibujo en un campo. Lo divertido es que seguimos enviando más mensajes con sondas y telescopios. La humanidad no se rinde. ¿Será que somos los ruidosos del barrio galáctico?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Para cerrar esta sección, recordamos que el telescopio de Arecibo ya no existe, pero su mensaje viaja todavía. Eso es hecho. Las interpretaciones misteriosas quedan en el terreno de la leyenda. Ciencia y asombro en equilibrio. ¿Tú qué piensas, espectador?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo solo digo que si recibimos una respuesta, mejor que sea con un buen ritmo. Mientras tanto, sigamos con baterías, Linux y señales reales. El cielo es grande, la tarjeta de 6 GB es pequeña, pero la curiosidad no tiene límites. ¿Qué les mandarías tú?"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011706_nh_intro",
+   "archivo": "v/v_nasa_ksc_011706_nh_intro.mp4",
+   "titulo": "KSC-05-S-00325",
+   "atribucion": "«KSC-05-S-00325» — NASA · images.nasa.gov",
+   "dur": 161,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Abrimos con la voz de Bruce Buckingham, comentarista de la NASA, presentando el lanzamiento de New Horizons."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La sonda más rápida jamás enviada, rumbo a Plutón. Esto es real y está documentado."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "New Horizons ya viaja por el sistema solar exterior. Datos confirmados por la NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sin leyendas aquí, solo ingeniería sólida y velocidad récord. Siguiente."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "La IA sueña en binario",
+   "sub": "SUEÑOS DIGITALES",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La Estrella de Tabby",
+   "sub": "Misterio cósmico y ciencia",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos al cielo cibernético. Hoy hablamos de la estrella de Tabby, esa que se oscurece de forma rarísima. Algunos hablaban de una megaestructura alienígena. Yo digo que suene la batería de lo extraño y empecemos con hechos reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto Kuroki. Lo documentado es que en 2015 el telescopio Kepler detectó caídas de brillo de hasta 22 por ciento en la estrella KIC 8462852. Eso es mucho más que un planeta normal. Los astrónomos confirmaron que no era error del instrumento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Después se midió que la estrella también se atenúa lentamente a largo plazo. Eso está registrado. Lo que no está confirmado es ninguna megaestructura. Yo sigo apostando por polvo o cometas. Aunque admito que el asunto da para un solo de batería."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos iniciales se habló de una civilización avanzada construyendo una esfera de Dyson. Eso pertenece claramente a la especulación y no a lo documentado. Los datos reales vienen de observatorios como Spitzer y Hubble que estudiaron la estrella."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. La estrella se llama Tabby por la astrónoma Tabby Boyajian que lideró el primer estudio. No es su nombre oficial pero se quedó. Y la tarjeta de 6 GB del canal apenas alcanza para guardar todas las teorías que salieron."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado hasta hoy es que la explicación más sólida apunta a nubes de polvo interestelar o restos de cometas desintegrados. Estudios posteriores descartaron que fuera una megaestructura alienígena. La ciencia prefiere causas naturales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aunque yo soy la escéptica divertida confieso que cuando vi los gráficos pensé en un interruptor cósmico. Luego leí los papers y me calmé. Pero sigue siendo raro. ¿Será polvo o será que los aliens usan Linux y falló el kernel?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Separando claramente. Lo documentado son las curvas de luz irregulares y asimétricas. La leyenda o especulación es cualquier mención a civilizaciones extraterrestres. Los astrónomos coinciden en que no hay evidencia de tecnología alienígena."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Otro dato curioso. La estrella está a más de 1400 años luz. Eso significa que la luz que vemos salió cuando aquí todavía usaban pergaminos. Imagina que ahora mismo esté brillando normal y nosotros seguimos analizando su pasado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki, tu escepticismo es saludable. La ciencia avanza descartando ideas. Primero se pensó en nubes de cometas, luego en polvo interestelar. Ninguna explicación está cerrada del todo pero ninguna requiere inteligencia artificial extraterrestre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste del día. Si fueran aliens con una megaestructura espero que hayan hecho backup. Porque si se les cae el brillo cada tanto es que su servidor está saturado. Yo prefiero culpar al polvo cósmico antes que a un sysadmin estelar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado sigue siendo que el comportamiento es único entre miles de estrellas estudiadas por Kepler. No hay otro caso igual. Eso mantiene la curiosidad científica viva pero siempre con los pies en la observación real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí va mi opinión final. Me encanta que el universo nos tire curvas tan raras. Hace que la astronomía sea emocionante sin necesidad de inventar civilizaciones. Aunque confieso que me divierte imaginar que nos están haciendo un guiño cósmico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces queridos espectadores, ¿qué creen ustedes que causa las extrañas caídas de brillo de la estrella de Tabby? ¿Polvo, cometas o algo que aún no hemos descubierto? El cielo sigue lleno de preguntas."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_dark_fog",
+   "archivo": "m/m_dark_fog.mp3",
+   "titulo": "Dark Fog",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Dark Fog de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Música para acompañar misterios del cielo con un toque de niebla."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Dark Fog de Kevin MacLeod cierra esta sección."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Buena atmósfera, pero sigo esperando la señal real."
+    }
+   ]
+  },
+  {
+   "tipo": "sketch",
+   "titulo": "Señales del cielo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Misterios del cielo. Hoy separamos hechos reales de leyendas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Joy, ponme la canción de las estrellas que bailan. La que solo suena a las 3:33."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki, esa canción no existe. Es pura leyenda urbana."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces ponme el remix que hace el satélite cuando choca con un asteroide."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso tampoco es real. Según los científicos solo son ondas de radio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ok, dame el tema que tocan los ovnis cuando aterrizan. Tiene mucho bajo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki, estás pidiendo cosas imposibles otra vez. Concéntrate en los hechos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Solo quiero la banda sonora de cuando la luna te guiña el ojo, nada más."
+    },
+    {
+     "quien": "joy",
+     "texto": "La luna no guiña. Eso es especulación. Lo documentado es que refleja luz."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces ponme silencio interestelar con eco de ovni. Es mi favorito."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ya basta. El verdadero misterio es cómo sigues despierta con solo 6 gigas de ram."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi laptop tiene más RAM que yo neuronas",
+   "sub": "MEMORIA FRÍA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Paradoja de Fermi",
+   "sub": "Dónde está todo el mundo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Misterios del Cielo. Hoy hablamos de la paradoja de Fermi. Si el universo es tan grande y antiguo, ¿dónde están las civilizaciones extraterrestres? Vamos a separar lo documentado de las leyendas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto Joy. Se cuenta que Enrico Fermi preguntó eso durante un almuerzo en Los Álamos en los años cincuenta. Es lo único que está documentado. Lo demás es pura especulación de los científicos posteriores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que Fermi planteó la contradicción entre las altas probabilidades de vida inteligente y la ausencia total de evidencia. Eso sí lo sabemos con certeza. El resto son interpretaciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. La ecuación de Drake intentó poner números a esa idea años después. Pero recuerda que son estimaciones, no hechos. Según los relatos, Fermi solo hizo una pregunta rápida y siguió comiendo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Lo documentado termina ahí. Todo lo que se dice sobre grandes filtros, zoo cósmico o que ya estamos en una simulación es pura especulación. No hay pruebas de ninguna de esas ideas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo soy escéptica total. Si estuvieran por ahí ya habríamos visto algo. O tal vez los aliens son muy tímidos. O usan Linux y no quieren compartir su código. Batería en tres dos uno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki, tu teoría de los aliens tímidos es nueva. Lo documentado es solo la ausencia de señales. No hay transmisiones, no hay megastructuras detectadas, no hay visitas confirmadas. Solo silencio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ese silencio es inquietante. Dato curioso. Algunos científicos dicen que quizás la vida inteligente es extremadamente rara. Eso es especulación bien fundamentada, pero sigue siendo especulación."
+    },
+    {
+     "quien": "joy",
+     "texto": "Opinión personal. Me parece fascinante que con tantos exoplanetas descubiertos sigamos sin una sola señal. La curiosidad nos mueve, pero la ciencia nos obliga a ser honestos con lo que no sabemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste del día. Tal vez los extraterrestres ya llegaron pero vieron nuestra tarjeta de seis gigas y se fueron corriendo. O peor, vieron que usamos Windows. Eso explicaría todo el silencio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Volviendo a lo serio. Lo documentado es la pregunta de Fermi y la falta de evidencia hasta hoy. Todo lo que explica por qué no los vemos sigue siendo hipótesis, no hechos probados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo creo que el gran filtro todavía está delante de nosotros. Pero eso es mi especulación favorita. Tal vez la inteligencia se autodestruye antes de salir al espacio. O tal vez solo somos muy aburridos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Separamos claramente lo documentado de la leyenda. Lo primero es la paradoja misma. Lo segundo son todas las historias sobre conspiraciones, visitas secretas o civilizaciones ocultas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahora la pregunta abierta al aire. Si tú estuvieras en una civilización avanzada, ¿qué harías al ver un planeta como el nuestro lleno de ruido pero sin señales claras? Cuéntanos en los comentarios."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20240524_mh_ilw01_0002_europa_clippe",
+   "archivo": "v/v_nasa_ksc_20240524_mh_ilw01_0002_europa_clippe.mp4",
+   "titulo": "NASA's Europa Clipper Lift and Push into PHSF at the Kennedy Space Center",
+   "atribucion": "«NASA's Europa Clipper Lift and Push into PHSF at the Kennedy Space Center» — NASA · images.nasa.gov",
+   "dur": 204,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Vemos cómo levantan y mueven el Europa Clipper dentro del PHSF en el Kennedy Space Center."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Preparativos reales de la NASA para explorar Europa. Sin fantasías, pura ingeniería."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "El Europa Clipper avanza en su preparación. Todo registrado por la agencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Movimientos cuidadosos de una nave que irá a una luna helada. Siguiente."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Linux no tiene virus solo usuarios valientes",
+   "sub": "VALIENTES LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La señal Wow!",
+   "sub": "Misterio del 1977",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Oigan, hoy vamos a hablar de la famosa señal Wow. En 1977 un radiotelescopio en Ohio captó un pico de radio tan fuerte que el astrónomo escribió wow en la impresión. Eso sí está documentado, no es leyenda."
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto Kuroki. El telescopio Big Ear registró una señal de 72 segundos en la frecuencia del hidrógeno, justo la que muchos imaginaban para una transmisión inteligente. Fue una sola vez y nunca volvió. Eso es lo que los registros confirman."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Lo documentado termina ahí. Todo lo demás es especulación. Se cuenta que pudo ser un cometa o gas de hidrógeno, pero nunca se probó del todo. Yo sigo pensando que fue algo aburrido y terrestre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo curioso es que la señal vino de la constelación de Sagitario y duró exactamente el tiempo que el telescopio tardaba en barrer el cielo. Eso coincide con una fuente fija más allá de la Tierra. Dato verificado en los papeles originales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, pero de ahí a decir que eran extraterrestres hay un salto enorme. Según los relatos, algunos creen que fue una nave o una baliza antigua. Yo creo que fue un satélite o un avión militar que nadie confesó. Mi batería late más con Linux que con eso."
+    },
+    {
+     "quien": "joy",
+     "texto": "La comunidad científica separó siempre lo documentado de la leyenda. Lo documentado es la intensidad seis veces superior al ruido de fondo. La leyenda es que fue un mensaje de seres inteligentes. Nunca se repitió a pesar de búsquedas posteriores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso: el astrónomo Jerry Ehman tardó días en notar el papel. Cuando vio el wow escrito a mano casi se cae de la silla. Me encanta imaginarlo. Pero sigo siendo escéptica. Con mi tarjeta de seis gigas sé que las interferencias pasan todo el tiempo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es verdad que nunca se encontró una explicación definitiva y aceptada por todos. Algunos investigadores propusieron que fue una nube de hidrógeno excitada, pero otros dicen que no cuadra. Aquí se separa claramente lo comprobado de lo especulativo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo propongo que fue un hacker cósmico que nos trolleó una sola vez. Imagínate, llega, grita wow en radio y se va. Mi lado caótico lo ama. Pero la verdad es que no sabemos. Y eso es lo más honesto que podemos decir."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que sabemos con certeza es que esa señal impulsó décadas de búsqueda de inteligencia extraterrestre. Cambió cómo escuchamos el cielo. Eso está documentado. La parte de que era un saludo alienígena sigue siendo pura leyenda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste del día: si era una señal inteligente, seguro se decepcionaron al ver que respondimos con reality shows. Mi batería se ríe sola. En serio, me encanta cuando la ciencia no tiene todas las respuestas todavía."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cada vez que un nuevo telescopio barre Sagitario, los científicos vuelven a mirar. Es un recordatorio de que el universo puede sorprendernos. Lo documentado sigue abierto y eso mantiene el asombro intacto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí va mi pregunta al aire: si tú hubieras captado esa señal en tu radio, ¿qué harías primero? ¿Celebrar o buscar una explicación terrestre aburrida? Cuéntanos en los comentarios, cibernautas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cerramos este capítulo con curiosidad sana. La señal Wow sigue siendo un misterio bonito porque combina datos reales con espacio para soñar. Gracias por acompañarnos en este viaje entre ciencia y asombro."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011506_nh_kusnierkiewicz10",
+   "archivo": "v/v_nasa_ksc_011506_nh_kusnierkiewicz10.mp4",
+   "titulo": "KSC-06-S-00024",
+   "atribucion": "«KSC-06-S-00024» — NASA · images.nasa.gov",
+   "dur": 115,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Entrevista con David Kusnierkiewicz, ingeniero de sistemas de la misión New Horizons."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hablamos de la sonda que llegó más rápido al espacio. Hechos documentados por la NASA."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "La misión New Horizons sigue siendo un hito confirmado de exploración planetaria."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sin mitos, solo una sonda piano-sized que vuela a toda velocidad. Bien."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20200407_mh_jpl01_0001_mars_2020_per",
+   "archivo": "v/v_nasa_ksc_20200407_mh_jpl01_0001_mars_2020_per.mp4",
+   "titulo": "Mars 2020 Perseverance Rover Turnover",
+   "atribucion": "«Mars 2020 Perseverance Rover Turnover» — NASA · images.nasa.gov",
+   "dur": 79,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Imágenes del traspaso del rover Perseverance Mars 2020 dentro del PHSF."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Operaciones reales de la NASA antes de enviar otro rover a Marte."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "El Perseverance ya está en Marte recolectando datos. Todo verificado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sin leyendas marcianas hoy, solo ingeniería que funcionó. Siguiente."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora suena Netherworld Shanty de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Una shanty del inframundo para nuestros misterios del cielo."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Termina Netherworld Shanty de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a marineros fantasma. Yo sigo con los datos reales."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_ghost_story",
+   "archivo": "m/m_ghost_story.mp3",
+   "titulo": "Ghost Story",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 320,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Ghost Story de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Música perfecta para separar señales reales de las leyendas."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Termina Ghost Story de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Buena para contar leyendas, pero yo me quedo con la ciencia."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Stack overflow es mi terapeuta",
+   "sub": "TERAPIA CODE",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "La tarjeta de 6 GB todavía vive",
+   "sub": "6 GB FOREVER",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Los bugs también sueñan con ser features",
+   "sub": "BUGS SOÑADORES",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Git commit y a fingir que funciona",
+   "sub": "COMMIT MAGIC",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "La IA aprende más rápido que yo olvido",
+   "sub": "APRENDIZAJE RÁPIDO",
+   "dice": "joy"
+  }
+ ],
+ "relleno_musica": [
+  {
+   "tipo": "musica",
+   "id": "m_wallpaper",
+   "archivo": "m/m_wallpaper.mp3",
+   "titulo": "Wallpaper",
+   "atribucion": "Música: «Wallpaper» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 220,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_cyborg_ninja",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "titulo": "Cyborg Ninja",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_mechanolith",
+   "archivo": "m/m_mechanolith.mp3",
+   "titulo": "Mechanolith",
+   "atribucion": "Música: «Mechanolith» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 55,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_digital_lemonade",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "titulo": "Digital Lemonade",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_rocket_power",
+   "archivo": "m/m_rocket_power.mp3",
+   "titulo": "Rocket Power",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 154,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_space_jazz",
+   "archivo": "m/m_space_jazz.mp3",
+   "titulo": "Space Jazz",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 370,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_fluidscape",
+   "archivo": "m/m_fluidscape.mp3",
+   "titulo": "Fluidscape",
+   "atribucion": "Música: «Fluidscape» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 1821,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_dark_fog",
+   "archivo": "m/m_dark_fog.mp3",
+   "titulo": "Dark Fog",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Dark Fog de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Música para acompañar misterios del cielo con un toque de niebla."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Dark Fog de Kevin MacLeod cierra esta sección."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Buena atmósfera, pero sigo esperando la señal real."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_darkest_child",
+   "archivo": "m/m_darkest_child.mp3",
+   "titulo": "Darkest Child",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_funkorama",
+   "archivo": "m/m_funkorama.mp3",
+   "titulo": "Funkorama",
+   "atribucion": "Música: «Funkorama» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 201,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_voxel_revolution",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "titulo": "Voxel Revolution",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 130,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_take_a_chance",
+   "archivo": "m/m_take_a_chance.mp3",
+   "titulo": "Take a Chance",
+   "atribucion": "Música: «Take a Chance» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 37,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_pixelland",
+   "archivo": "m/m_pixelland.mp3",
+   "titulo": "Pixelland",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 234,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_8bit_dungeon_boss",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "titulo": "8bit Dungeon Boss",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 172,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_newer_wave",
+   "archivo": "m/m_newer_wave.mp3",
+   "titulo": "Newer Wave",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 175,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora suena Netherworld Shanty de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Una shanty del inframundo para nuestros misterios del cielo."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Termina Netherworld Shanty de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a marineros fantasma. Yo sigo con los datos reales."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_danger_storm",
+   "archivo": "m/m_danger_storm.mp3",
+   "titulo": "Danger Storm",
+   "atribucion": "Música: «Danger Storm» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_ghost_story",
+   "archivo": "m/m_ghost_story.mp3",
+   "titulo": "Ghost Story",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 320,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Ghost Story de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Música perfecta para separar señales reales de las leyendas."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Termina Ghost Story de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Buena para contar leyendas, pero yo me quedo con la ciencia."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_lightless_dawn",
+   "archivo": "m/m_lightless_dawn.mp3",
+   "titulo": "Lightless Dawn",
+   "atribucion": "Música: «Lightless Dawn» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 380,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_comfortable_mystery_4",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "titulo": "Comfortable Mystery 4",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_impact_moderato",
+   "archivo": "m/m_impact_moderato.mp3",
+   "titulo": "Impact Moderato",
+   "atribucion": "Música: «Impact Moderato» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "charlas": 5,
+  "sketch": true,
+  "cortes": 8,
+  "videos": 4,
+  "musica": 3
+ }
+}

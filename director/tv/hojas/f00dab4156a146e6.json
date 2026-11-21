@@ -1,0 +1,21 @@
+{
+ "semilla": "Por qué los servidores usan Linux",
+ "hechos": [
+  "Linux es un sistema operativo de código abierto que no pertenece a una sola empresa, sino que se desarrolla colaborativamente.",
+  "La mayoría de los servidores en la nube y las infraestructuras críticas globales utilizan Linux debido a su estabilidad y bajo consumo de recursos.",
+  "El kernel de Linux fue creado originalmente por Linus Torvalds en 1991 como un proyecto académico en la Universidad de Helsinki.",
+  "Linux se caracteriza por ser altamente modular, permitiendo que los administradores personalicen el sistema según las necesidades específicas del servidor.",
+  "La comunidad de desarrolladores mantiene el núcleo principal y otras herramientas mediante revisiones de código público conocidas como pull requests.",
+  "El modelo de licencias GPL asegura que cualquier software derivado debe seguir las mismas reglas de código abierto, fomentando la innovación continua.",
+  "Las distribuciones Linux son variaciones del sistema base que agregan interfaces gráficas o configuraciones predefinidas para facilitar el uso.",
+  "La seguridad de los servidores Linux depende en gran medida de la transparencia y rapidez con la que se parchean las vulnerabilidades gracias al modelo de desarrollo abierto.",
+  "El rendimiento de Linux en entornos de servidor es superior en muchas cargas de trabajo debido a su arquitectura de gestión de memoria y procesos.",
+  "Las herramientas de administración de sistemas, como Bash o sed, son componentes esenciales del ecosistema Linux que permiten automatizar tareas complejas."
+ ],
+ "leyendas": [
+  "Se cuenta que el nombre 'Linux' es un acrónimo de Linus y Unix, aunque la evidencia histórica sugiere que fue elegido simplemente por ser un nombre corto y distintivo.",
+  "Según los relatos populares, el kernel de Linux se escribió en una sola noche, cuando Torvalds estaba aburrido en su habitación."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 02:54"
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Informe especial</title>
+<!-- Capa del INFORME ESPECIAL (infografía + «foto» de cada página de las fuentes). Transparente 1920×1080; el panel se posiciona sobre la zona central de la
+     escena (entre Joy y Kuroki) y las dolls narran por encima. Estado: GET /api/segmento (lo empuja el director al narrar cada lámina).
+     ?x=600&y=180&w=740&h=740 (panel) · ?demo=<n> muestra la lámina n sin director -->
+<style>
+@font-face{font-family:Monoton;src:url(/img/fuentes/monoton.woff2) format("woff2")}
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--c:#00e5ff;--rosa:#ff2fd6;--oro:#ffe45e;--x:600px;--y:180px;--w:740px;--h:740px}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent;color:#fff;font-family:Rajdhani,sans-serif}
+#panel{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h);box-sizing:border-box;padding:18px 26px 14px 132px;background:rgba(7,2,14,.95);
+  border:3px solid var(--c);box-shadow:0 0 26px rgba(0,229,255,.45),inset 0 0 30px rgba(0,229,255,.08);opacity:0;transform:translateX(60px);transition:opacity .5s,transform .6s cubic-bezier(.2,.9,.2,1);
+  clip-path:polygon(0 0,calc(100% - 26px) 0,100% 26px,100% 100%,26px 100%,0 calc(100% - 26px));overflow:hidden}
+#panel.on{opacity:1;transform:none}
+#panel::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.2) 0 2px,transparent 2px 4px);pointer-events:none;z-index:5}
+/* columna izquierda: «espina» del informe (queda detrás de Joy) */
+#esp{position:absolute;left:0;top:0;bottom:0;width:108px;background:linear-gradient(90deg,rgba(0,229,255,.12),transparent);border-right:2px solid rgba(0,229,255,.35)}
+#esp .v{position:absolute;left:34px;top:50%;transform:translate(-50%,-50%) rotate(-90deg);white-space:nowrap;font-family:Monoton;font-size:34px;letter-spacing:6px;color:#fff;text-shadow:0 0 10px var(--rosa),0 0 24px var(--rosa)}
+#esp .n{position:absolute;left:14px;top:16px;font-family:VT323;font-size:46px;color:var(--oro);text-shadow:0 0 10px #ffb627}
+#puntos{position:absolute;left:16px;bottom:18px;display:flex;flex-direction:column;gap:6px}
+#puntos i{width:12px;height:12px;border:2px solid #4a6a7a;background:transparent}
+#puntos i.ok{background:var(--c);border-color:var(--c)}#puntos i.ya{background:var(--oro);border-color:var(--oro);box-shadow:0 0 8px var(--oro);animation:late 1s steps(2) infinite}
+@keyframes late{50%{opacity:.4}}
+#cab{display:flex;align-items:center;justify-content:space-between;gap:10px}
+#eti{font-family:Orbitron;font-size:19px;letter-spacing:4px;color:#06020c;background:var(--c);padding:6px 14px 4px;box-shadow:0 0 16px var(--c);white-space:nowrap}
+#narra{font-family:Orbitron;font-size:15px;letter-spacing:3px;color:var(--oro);white-space:nowrap}
+#narra b{color:#fff}
+#tit{font-family:Rajdhani;font-weight:700;font-size:40px;line-height:1.02;margin:12px 0 6px;text-shadow:0 0 14px rgba(0,229,255,.55)}
+#sub{font-family:Rajdhani;font-size:26px;letter-spacing:3px;text-transform:uppercase;color:var(--c);margin-bottom:6px}
+/* foto de la página, con marco de navegador y paneo lento */
+#foto{position:relative;margin:8px 0 10px;border:2px solid #2d6e82;background:#fff;overflow:hidden;box-shadow:0 0 18px rgba(0,229,255,.3)}
+#foto .bar{height:24px;background:#1a2b36;display:flex;align-items:center;gap:6px;padding:0 10px;font:15px VT323,monospace;color:#9fd8e8;letter-spacing:1px}
+#foto .bar i{width:9px;height:9px;border-radius:50%;background:#ff5f56}#foto .bar i:nth-child(2){background:#ffbd2e}#foto .bar i:nth-child(3){background:#27c93f}
+#foto .vis{position:relative;overflow:hidden;height:var(--fh,300px)}
+#foto img{position:absolute;left:0;top:0;width:100%;animation:pan 26s ease-in-out infinite alternate}
+@keyframes pan{from{transform:scale(1) translateY(0)}to{transform:scale(1.07) translateY(-5%)}}
+#foto .fuente{position:absolute;right:0;bottom:0;background:rgba(6,2,12,.9);color:var(--oro);font-family:Orbitron;font-size:13px;letter-spacing:2px;padding:5px 12px 4px;border-top-left-radius:6px}
+/* cifras, línea de tiempo, viñetas, sello */
+#cifras{display:flex;gap:10px;margin:6px 0}
+#cifras div{flex:1;background:rgba(0,229,255,.08);border:2px solid #2d6e82;padding:6px 8px 4px;text-align:center}
+#cifras b{display:block;font-family:Audiowide;font-size:40px;color:var(--oro);text-shadow:0 0 12px #ffb627;line-height:1.1}
+#cifras span{font-size:20px;color:#bfeaf5;letter-spacing:1px}
+#linea{margin:6px 0}
+#linea div{display:flex;gap:12px;align-items:baseline;margin:6px 0;opacity:0;animation:ent .5s forwards}
+#linea b{flex:none;min-width:128px;font-family:Orbitron;font-size:16px;letter-spacing:2px;color:#06020c;background:var(--oro);padding:4px 10px 3px;text-align:center}
+#linea span{font-size:24px;line-height:1.05;color:#eafaff}
+#bul{margin:6px 0;padding:0;list-style:none}
+#bul li{position:relative;padding-left:30px;margin:7px 0;font-size:var(--fb,27px);line-height:1.08;color:#eafaff;opacity:0;animation:ent .5s forwards}
+#bul li::before{content:"";position:absolute;left:4px;top:.28em;width:13px;height:13px;background:var(--c);box-shadow:0 0 10px var(--c);transform:rotate(45deg)}
+@keyframes ent{from{opacity:0;transform:translateX(30px)}to{opacity:1;transform:none}}
+#sello{display:none;position:relative;margin:20px auto 16px;width:max-content;max-width:100%;font-family:Audiowide;font-size:36px;letter-spacing:3px;padding:10px 26px 8px;border:6px solid var(--k,#ff3b3b);color:var(--k,#ff3b3b);
+  transform:rotate(-4deg);text-shadow:0 0 14px var(--k,#ff3b3b);box-shadow:0 0 22px var(--k,#ff3b3b),inset 0 0 14px var(--k,#ff3b3b);background:rgba(0,0,0,.45);animation:slam .5s .6s both}
+@keyframes slam{0%{opacity:0;transform:rotate(-4deg) scale(3)}60%{opacity:1;transform:rotate(-4deg) scale(.92)}100%{opacity:1;transform:rotate(-4deg) scale(1)}}
+#panel.sinfoto #bul li{margin:17px 0;padding-left:38px}
+#panel.sinfoto #bul li::before{width:16px;height:16px;top:.3em}
+#panel.sinfoto #linea div{margin:20px 0;gap:16px}
+#panel.sinfoto #linea span{font-size:31px}
+#panel.sinfoto #linea b{font-size:19px;min-width:150px;padding:6px 12px 5px}
+#panel.sinfoto #tit{font-size:46px;margin-top:20px}
+#panel.sinfoto #sub{font-size:30px;margin-bottom:16px}
+#pie{position:absolute;left:132px;right:26px;bottom:12px;display:flex;justify-content:space-between;gap:12px;font-family:Orbitron;font-size:12px;letter-spacing:2px;color:#7fb5c4}
+#pie b{color:var(--oro);font-weight:normal}
+#fuentes{position:absolute;left:132px;right:26px;bottom:44px;font-family:Rajdhani;font-size:19px;line-height:1.1;color:#9fd8e8;letter-spacing:1px}
+#flash{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h);background:linear-gradient(100deg,transparent 30%,#00e5ff 50%,transparent 70%);opacity:0;pointer-events:none;mix-blend-mode:screen}
+#flash.go{animation:flash .6s ease-out}
+@keyframes flash{0%{opacity:.8;transform:translateX(-100%)}100%{opacity:0;transform:translateX(100%)}}
+</style></head>
+<body>
+<div id="panel">
+  <div id="esp"><div class="n" id="num">00</div><div class="v">INFORME ESPECIAL</div><div id="puntos"></div></div>
+  <div id="cab"><span id="eti"></span><span id="narra">NARRA <b id="qn">—</b></span></div>
+  <div id="tit"></div><div id="sub"></div>
+  <div id="foto"><div class="bar"><i></i><i></i><i></i><span id="dom"></span></div><div class="vis"><img id="img" alt=""><div class="fuente" id="fte"></div></div></div>
+  <div id="cifras"></div><div id="linea"></div><div id="sello"></div><ul id="bul"></ul>
+  <div id="fuentes"></div>
+  <div id="pie"><span>BLACKROSE TV · <b>INFORME IA</b></span><span>investigado y presentado por inteligencia artificial</span></div>
+</div>
+<div id="flash"></div>
+<script>
+const q = new URLSearchParams(location.search), $ = id => document.getElementById(id), R = document.documentElement;
+for (const k of ['x', 'y', 'w', 'h']) if (q.get(k)) R.style.setProperty('--' + k, q.get(k) + 'px');
+let vista = null, nVista = 0;
+function pintar(s, i, n) {
+  $('num').textContent = String(i + 1).padStart(2, '0'); $('eti').textContent = s.etiqueta || '';
+  $('tit').textContent = s.titulo || ''; $('tit').style.fontSize = '';  $('tit').style.lineHeight = ''; if ((s.titulo || '').length > 30 && s.foto) $('tit').style.fontSize = '34px';
+  $('sub').textContent = s.sub || ''; $('sub').style.display = s.sub ? 'block' : 'none';
+  const f = s.foto; $('foto').style.display = f ? 'block' : 'none';
+  if (f) { $('img').src = f.img; $('dom').textContent = f.dominio || ''; $('fte').textContent = f.fuente || ''; $('foto').querySelector('.vis').style.setProperty('--fh', (f.alto || 300) + 'px'); $('img').style.animation = 'none'; void $('img').offsetWidth; $('img').style.animation = ''; }
+  $('cifras').innerHTML = (s.cifras || []).map(c => `<div><b>${c.n}</b><span>${c.l}</span></div>`).join(''); $('cifras').style.display = s.cifras ? 'flex' : 'none';
+  $('linea').innerHTML = (s.linea || []).map((l, k) => `<div style="animation-delay:${.3 + k * .35}s"><b>${l.t}</b><span>${l.l}</span></div>`).join('');
+  const se = s.sello; $('sello').style.display = se ? 'block' : 'none'; if (se) { $('sello').textContent = se.texto; $('sello').style.setProperty('--k', se.color || '#ff3b3b'); const e = $('sello'); e.style.animation = 'none'; void e.offsetWidth; e.style.animation = ''; }
+  const nb = (s.bullets || []).length, pesado = nb > 4 || (f && nb > 3), sinFoto = !f && !s.cifras;
+  $('panel').classList.toggle('sinfoto', sinFoto);
+  $('bul').style.setProperty('--fb', (sinFoto ? (nb > 4 ? 32 : 36) : pesado ? 22 : nb > 3 ? 25 : 27) + 'px');
+  $('bul').innerHTML = (s.bullets || []).map((b, k) => `<li style="animation-delay:${.4 + k * .4}s">${b}</li>`).join('');
+  $('fuentes').textContent = s.fuentes ? 'FUENTES: ' + s.fuentes : ''; $('fuentes').style.display = s.fuentes ? 'block' : 'none';
+  $('puntos').innerHTML = Array.from({ length: n }, (_, k) => `<i class="${k < i ? 'ok' : k === i ? 'ya' : ''}"></i>`).join('');
+  $('flash').classList.remove('go'); void $('flash').offsetWidth; $('flash').classList.add('go');
+}
+function estado(d) {
+  const on = !!(d && d.activo && d.slide);
+  $('panel').classList.toggle('on', on); if (!on) { vista = null; return; }
+  const k = d.slide.id + ':' + d.i;
+  if (k !== vista) { vista = k; pintar(d.slide, d.i, d.n); }
+  $('qn').textContent = (d.quien || '—').toUpperCase();
+}
+async function leer() { try { estado(await (await fetch('/api/segmento', { cache: 'no-store' })).json()); } catch (_) {} }
+if (q.get('demo') !== null && q.get('demo') !== '') {
+  fetch('/segmento/apagon.json').then(r => r.json()).then(d => { const n = +q.get('demo'); estado({ activo: true, i: n, n: d.slides.length, slide: d.slides[n], quien: d.slides[n].habla[0].quien }); });
+} else { leer(); setInterval(leer, 700); }
+</script></body></html>

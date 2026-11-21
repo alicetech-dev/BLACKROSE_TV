@@ -1,0 +1,447 @@
+{
+ "bloque": "milttech_1845",
+ "programa": "milttech",
+ "fecha": "2026-11-20",
+ "creado": "18:05:26",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Tecnología Militar: Drones que se Hackean Solos",
+   "sub": "TECNOLOGÍA MILITAR",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Origen en la Primera Guerra Mundial",
+   "diagrama": null,
+   "intl": {
+    "ja": "ドローンはIMUで家に帰るよ。チャットで投票待ってる！",
+    "ja_es": "Los drones regresan a casa con la IMU. ¡Esperando tu voto en el chat!",
+    "en": "Drones go home thanks to IMU. Chat vote is open, pick your side.",
+    "en_es": "Los drones vuelven a casa gracias a la IMU. La votación del chat está abierta, elige tu bando."
+   },
+   "sub": "debate · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La Primera Guerra Mundial ya probaba vehículos aéreos sin piloto para reconocimiento. ¿Cómo pasó de esos experimentos torpes a drones que siguen volando cuando les cortan el control remoto?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Los ingenieros añadieron navegación inercial y algoritmos de fallback. Así el drone no se estrella si el enlace de radio falla, aunque la leyenda dice que se hackean solos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los primeros intentos en la Primera Guerra Mundial usaban cables o radio básica para guiar aviones sin piloto en misiones de reconocimiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aquellos armatostes se perdían fácil con cualquier interferencia enemiga. Luego llegó la Guerra Fría y los convirtieron en blancos voladores."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ahí los ingenieros integraron navegación inercial con giroscopios y acelerómetros para que mantuvieran rumbo sin señal externa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero imagínate que un ingeniero de Doll Dynamics decide que el drone se hackee solo y pase a modo autónomo con IMU y algoritmos de fallback. Suena a película, pero solo es navegación programada, no magia rebelde."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la autonomía viene de sensores como GPS y cámaras que corrigen posición sin enlace remoto. Eso permitió después mapear campos o grabar películas sin piloto humano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y claro, el enemigo responde con jamming para cortar la señal. Entonces el drone sigue su última orden como un gato perdido que recuerda el camino a casa con pura inercia. Ingenioso, pero nada de hackeo autónomo."
+    },
+    {
+     "quien": "joy",
+     "texto": "tienes razón en que el jamming obliga al fallback, pero la ingeniería real combina IMU con cámaras para que el drone mantenga altitud y rumbo sin señal. Eso abrió la puerta a usos civiles como cartografía."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Concedo que las cámaras ayudan a evitar choques, aunque en la Guerra Fría muchos solo servían de blanco y se estrellaban con elegancia. Después los protocolos cifrados redujeron que el enemigo los capture como trofeo barato."
+    },
+    {
+     "quien": "joy",
+     "texto": "La transición a usos civiles empezó con agricultura y cartografía donde esos mismos algoritmos de fallback permiten vuelos estables sin señal constante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y en filmación un dron que pierde enlace puede volver a casa solo gracias a la IMU y las cámaras, aunque a veces regresa con tomas más artísticas de lo planeado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los protocolos cifrados reducen riesgos de interceptación y los sistemas anti-drone usan radar o redes de captura en lugar de confiar solo en jamming."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El chat ya está votando. Equipo Kuroki dice que los algoritmos de fallback son pura ingeniería elegante, no magia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y equipo Joy argumenta que sin cifrado militar el jamming sigue siendo la estrella del show en cualquier conflicto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Votemos entonces. Mi lado apuesta por la IMU que salva la misión cuando el enlace se evapora en pleno vuelo."
+    }
+   ],
+   "seg": 205,
+   "imgs": [
+    {
+     "web": "/medios/ad71f0d9cccfeabf_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/ad71f0d9cccfeabf_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Primera Guerra Mundial»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Navegación inercial y modos de fallback",
+   "diagrama": null,
+   "intl": {
+    "ja": "IMUが頑固な親友みたい。チャットで語ろうか？",
+    "ja_es": "La IMU es como un amigo terco. ¿Hablamos en el chat?",
+    "en": "IMU the stubborn buddy never admits it's lost. Join the chat.",
+    "en_es": "La IMU es el amigo terco que nunca admite que se perdió. Únete al chat."
+   },
+   "sub": "debate · cotidiano",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "En un mundo donde el jamming corta el enlace en segundos, ¿qué pasa cuando un drone militar pierde la señal y activa su navegación inercial?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pasa que sigue volando solo con la IMU y sensores internos, como si dijera no necesito tu control remoto hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "Desde la Primera Guerra Mundial los drones militares ya volaban para reconocimiento. Cuando el jamming corta el enlace el sistema activa navegación inercial con IMU y sensores internos. Así mantiene rumbo sin órdenes externas y evita caer como un ladrillo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y esa IMU es tan terca que acumula error con el tiempo. Imagina un drone que cree que sigue recto pero en realidad ya va de lado. Por eso los modos de fallback incluyen corrección con cámaras o GPS cuando logran recuperarlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Precisamente. Esa autonomía militar pasó a la vida civil en agricultura y cartografía. Ahora un dron de filmación usa los mismos principios cuando pierde señal en una zona urbana. La ingeniería se volvió cotidiana sin que lo notemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero en la vida civil eso se vuelve gracioso. Tu dron de entrega que se pierde porque la IMU lo mandó a dar vueltas en círculo. Y nadie quiere que su paquete termine en la azotea de Doll Dynamics."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los ingenieros agregaron fallback con visión por cámara. El dron compara lo que ve con mapas internos y corrige el rumbo. Así pasó de misiones de vigilancia a mapear cultivos sin señal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aunque si la cámara se moja, vuelve a confiar en la IMU terca. Imagina al dron de filmación creyendo que filma una persecución épica mientras en realidad está quieto bajo la lluvia. La autonomía tiene sus límites."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y por eso los protocolos cifrados se volvieron clave en el diseño. Sin ellos un dron civil podría terminar entregando paquetes al vecino equivocado por culpa de un spoofing barato."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cierto, aunque concedo que la IMU sigue siendo el corazón terco. En agricultura eso significa que tu cosechadora autónoma podría decidir regar el estacionamiento si la antena falla."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces la IMU se convierte en el copiloto terco que sigue la última orden conocida. En agricultura eso evita que tu fumigador acabe regando el techo del vecino."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí entra la visión por cámara como corrector. Imagina un dron cartógrafo que confunde un lago con un estacionamiento y decide aterrizar encima de tu auto nuevo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso los ingenieros combinan ambos con algoritmos que pesan la confianza de cada sensor. En usos civiles eso significa que tu dron de filmación no termina grabando la vida privada del gato del barrio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por eso los militares metieron modos de fallback que priorizan la IMU cuando el GPS desaparece. En civil eso salva tu dron de reparto que de pronto cree que está en otro continente."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ahí la cámara actúa como árbitro. Un dron de filmación que pierde señal puede decidir que un techo es pista de aterrizaje si confía demasiado en la visión."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Equipo Kuroki dice que la IMU es como ese amigo que nunca admite que se perdió. Vota por mí si prefieres la terquedad con sensores de respaldo."
+    }
+   ],
+   "seg": 243,
+   "imgs": [
+    {
+     "web": "/medios/ad71f0d9cccfeabf_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/ad71f0d9cccfeabf_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Primera Guerra Mundial»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20200407_mh_jpl01_0001_mars_2020_per",
+   "archivo": "v/v_nasa_ksc_20200407_mh_jpl01_0001_mars_2020_per.mp4",
+   "titulo": "Mars 2020 Perseverance Rover Turnover",
+   "atribucion": "«Mars 2020 Perseverance Rover Turnover» — NASA · images.nasa.gov",
+   "dur": 79,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: De la Armadura Militar a la Vida Civil",
+   "sub": "TECNOLOGÍA MILITAR",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Origen militar de los chalecos con Kevlar",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Origen Militar del Kevlar",
+    "cajas": [
+     {
+      "t": "1960s",
+      "n": "Químico crea Kevlar para neumáticos"
+     },
+     {
+      "t": "Giro Militar",
+      "n": "Absorbe impacto de balas y fragmentos"
+     },
+     {
+      "t": "Chalecos Antibalas",
+      "n": "Protege personal militar primero"
+     },
+     {
+      "t": "Migración Civil",
+      "n": "Llega a policías y rescatistas"
+     },
+     {
+      "t": "Hoy",
+      "n": "Con sensores de ritmo cardiaco"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ケブラーから未来の鎧へ、猫耳で語る防護服",
+    "ja_es": "De Kevlar a armaduras del futuro, hablando de chalecos con orejas de gato",
+    "en": "From military Kevlar to smart exosuits, what a time to be a firefighter",
+    "en_es": "De Kevlar militar a exoesqueletos inteligentes, qué época para ser bombero"
+   },
+   "sub": "linea tiempo · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que en los sesenta un químico busca fibras más resistentes y termina creando el Kevlar para neumáticos. Giro: el ejército lo vio y lo convirtió en chaleco antibalas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, esas capas de poliamida aromática absorben y distribuyen el impacto de fragmentos y balas cortas. Luego las fuerzas policiales lo adoptaron para calles de alto riesgo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Después llegaron las placas cerámicas para rifles de alta velocidad. Hoy materiales compuestos ligeros protegen rescatistas sin que carguen tanto peso."
+    },
+    {
+     "quien": "joy",
+     "texto": "La armadura corporal surgió para proteger al personal militar contra fragmentos de explosiones y balas de armas cortas. Un químico buscaba algo más resistente para neumáticos y creó el Kevlar, una poliamida aromática que distribuye el impacto a través de fibras entrelazadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Esas capas de fibra se convirtieron en los primeros chalecos antibalas modernos. Con el tiempo las fuerzas policiales y equipos de rescate los adoptaron, y luego llegaron placas cerámicas que detienen proyectiles de rifles sin que el usuario cargue tanto peso."
+    },
+    {
+     "quien": "joy",
+     "texto": "El giro llegó cuando esos chalecos de Kevlar dejaron los cuarteles y entraron en las calles. De repente policías y rescatistas los llevaban sin que nadie los viera como equipo de guerra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí empezó la migración real. Materiales que antes solo paraban balas ahora cubren bomberos y paramédicos. Ligeros, resistentes, sin tanta carga. La misma fibra, nuevo propósito."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy la misma fibra se combina con sensores que miden ritmo cardiaco y temperatura en tiempo real. Lo que empezó en el campo de batalla ahora avisa cuando un bombero se está quedando sin aire."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y los materiales compuestos siguen bajando de peso. Un chaleco que antes te dejaba molido después de una hora ahora lo lleva un rescatista todo el turno sin quejarse. La armadura inteligente ya no solo para golpes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pasando a la especulación, se cuenta que pronto los chalecos podrían incorporar telas que cambian rigidez al detectar un impacto inminente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si seguimos esa línea, imagino exoesqueletos civiles que un bombero activa solo cuando carga escombros, sin batería todo el día."
+    },
+    {
+     "quien": "joy",
+     "texto": "La investigación en armaduras inteligentes podría llevar a tejidos que avisan de fatiga muscular antes de que el rescatista lo note."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, ¿qué opinan de los primeros chalecos de Kevlar del sesenta y cinco que pasaron de militares a policías en pocos años?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ya que estamos, ¿creen que los materiales compuestos de hoy podrían terminar en ropa de montaña sin que nadie recuerde su origen militar?"
+    }
+   ],
+   "seg": 191,
+   "imgs": [
+    {
+     "web": "/medios/6301a3f87f644f58_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/6301a3f87f644f58_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Equipo de protección individual»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo el Kevlar distribuye energía de impacto",
+   "diagrama": {
+    "tipo": "flujo",
+    "titulo": "Cómo el Kevlar distribuye energía",
+    "cajas": [
+     {
+      "t": "Impacto inicial",
+      "n": "Fuerza concentrada en un punto"
+     },
+     {
+      "t": "Red molecular",
+      "n": "Fibras entrelazadas comparten carga"
+     },
+     {
+      "t": "Disipación",
+      "n": "Energía pasa a fibras vecinas"
+     },
+     {
+      "t": "Absorción",
+      "n": "Cadenas actúan como amortiguadores"
+     },
+     {
+      "t": "Resultado",
+      "n": "Impacto se siente como abrazo fuerte"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ケブラーのハグで生き延びろ、チャットで語ろう",
+    "ja_es": "Sobrevive con el abrazo de Kevlar, hablemos en el chat",
+    "en": "Kevlar hugs beat truck crashes. Join the chat.",
+    "en_es": "Los abrazos de Kevlar vencen choques de camión. Únete al chat."
+   },
+   "sub": "explicado · técnico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina un impacto que podría romperte una costilla. El Kevlar lo reparte como si las fibras fueran una red que comparte la fuerza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Es un poliamida aromática inventada en 1965 cuyas cadenas entrelazadas absorben y disipan esa energía en milésimas de segundo."
+    },
+    {
+     "quien": "joy",
+     "texto": "El Kevlar es básicamente una tela hecha de moléculas largas y rígidas que se entrelazan como una malla microscópica. Cuando algo golpea, las fibras cercanas se estiran y reparten esa fuerza en lugar de dejar que se concentre en un solo punto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso evita que la bala o el fragmento perfore. Las cadenas de poliamida aromática actúan como amortiguadores moleculares. En chalecos civiles de rescate usan versiones más ligeras para que paramédicos carguen menos peso sin perder protección."
+    },
+    {
+     "quien": "joy",
+     "texto": "Piensa en un bate de béisbol que te pega en el pecho. El Kevlar distribuye esa fuerza instantáneamente por miles de fibras entrelazadas en lugar de dejar que se concentre en un punto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cada fibra agarra la energía y la pasa a sus vecinas como si fueran un equipo de relevos molecular. Por eso el impacto se siente como un puñetazo fuerte pero raramente perfora."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso: el mismo material que protege soldados contra fragmentos terminó salvando vidas en chalecos de policías y rescatistas. Kuroki, ¿te imaginas cómo se siente el golpe cuando las fibras reparten la energía?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se siente como si un camión te diera un abrazo muy fuerte en vez de aplastarte. Eso permitió que materiales compuestos ligeros pasaran a cascos de bomberos y equipos de rescate urbano."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo interesante es que esa misma red molecular se usa ahora en guantes de trabajo pesado y cascos para escaladores. Kuroki, ¿crees que la próxima evolución serán telas que cambien rigidez al notar un golpe?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ojalá, aunque la leyenda de que las placas detienen todo sin sentir nada es puro cuento. Yo prefiero los materiales compuestos que ahorran peso, como esos que Doll Dynamics promete para rescate. ¿Tú qué opinas, se volverán cómodos o solo más caros?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Más caros seguro, pero la integración de sensores que miden ritmo cardiaco ya salva vidas en operaciones de alto riesgo. Aun así, dudo que reemplacen el buen juicio. ¿No terminará siendo otro gadget que falla cuando más lo necesitas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "al chaleco clásico. La armadura activa con sensores que endurecen al impacto suena futurista, pero sigue siendo experimental."
+    }
+   ],
+   "seg": 182,
+   "imgs": [
+    {
+     "web": "/medios/94da976ee67830da_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/94da976ee67830da_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Estación Espacial Internacional»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_rFc6IixwwOk",
+   "archivo": "yt/phonk/rFc6IixwwOk.m4a",
+   "titulo": "Gaming Brazilian Phonk Y2K by Infraction, Emerel Gray / TRAJADÃO 2003",
+   "audio": "yt/phonk/rFc6IixwwOk.m4a",
+   "atribucion": "Música: «Gaming Brazilian Phonk Y2K by Infraction, Emerel Gray / TRAJADÃO 2003» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 146,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/rFc6IixwwOk.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_t9yKkheT-jg",
+   "archivo": "yt/citypop/t9yKkheT-jg.m4a",
+   "titulo": "Mirage Drive",
+   "audio": "yt/citypop/t9yKkheT-jg.m4a",
+   "atribucion": "Música: «Mirage Drive» · NN Records · sin copyright (YouTube)",
+   "dur": 234,
+   "genero": "CITY POP JAPÓN",
+   "img": "/tv/media/yt/citypop/t9yKkheT-jg.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 821,
+  "medios": 3
+ }
+}

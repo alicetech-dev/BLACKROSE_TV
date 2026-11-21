@@ -1,0 +1,20 @@
+{
+ "semilla": "La IA que predice tus gustos musicales",
+ "hechos": [
+  "Los algoritmos de recomendación utilizan el filtrado colaborativo para sugerir música basada en las preferencias de usuarios similares.",
+  "El análisis de Fourier permite descomponer una señal musical en sus frecuencias individuales, facilitando su procesamiento por computadoras.",
+  "La transformada rápida de Fourier es un algoritmo eficiente que calcula la transformada de Fourier en tiempo real.",
+  "El reconocimiento de voz y el análisis de espectrogramas permiten a los sistemas identificar patrones rítmicos y melódicos complejos.",
+  "Los modelos de redes neuronales profundas pueden predecir gustos musicales analizando grandes volúmenes de datos históricos.",
+  "La música generada por computadora utiliza reglas matemáticas para crear composiciones que son auditivamente agradables pero no necesariamente humanas.",
+  "El fenómeno del 'efecto de la banda' ocurre cuando los usuarios escuchan más frecuentemente las canciones recomendadas por el algoritmo.",
+  "Los sistemas de recomendación a menudo priorizan la popularidad y la tendencia actual sobre la diversidad musical.",
+  "La música electrónica ha sido una de las primeras formas de música creada enteramente mediante tecnología digital."
+ ],
+ "leyendas": [
+  "Se cuenta que existía una IA secreta capaz de leer los pensamientos para predecir gustos musicales, aunque esto es una exageración.",
+  "Según la leyenda urbana, escuchar música a través de un algoritmo hace que las personas se vuelvan adictas a la tecnología."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 19:26"
+}

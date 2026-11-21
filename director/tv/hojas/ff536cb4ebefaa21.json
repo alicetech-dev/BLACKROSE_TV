@@ -1,0 +1,19 @@
+{
+ "semilla": "Cómo funciona una contraseña segura",
+ "hechos": [
+  "Una contraseña segura debe tener al menos doce caracteres.",
+  "Mezclar mayúsculas, minúsculas y números aumenta la complejidad.",
+  "Evitar palabras comunes como 'password' o '123456' es clave.",
+  "El uso de frases cortas con símbolos especiales ayuda a la seguridad.",
+  "Almacenar contraseñas en un gestor seguro evita que se filtren.",
+  "Las contraseñas deben ser únicas para cada servicio importante.",
+  "La longitud del carácter tiene más peso que la complejidad de tipo.",
+  "Revisar regularmente si alguna contraseña fue comprometida es vital."
+ ],
+ "leyendas": [
+  "Se dice que las contraseñas de tres dígitos son invencibles, lo cual es falso.",
+  "Algunos creen que escribir la contraseña en un papel es seguro, pero no lo es."
+ ],
+ "por": "9b",
+ "t": "2026-11-21 01:11"
+}

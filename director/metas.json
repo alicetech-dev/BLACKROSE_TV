@@ -1,0 +1,47 @@
+{
+ "etiqueta": "SUSCRIPTORES",
+ "actual": 41,
+ "max": 100,
+ "hitos": [
+  {
+   "en": 10,
+   "premio": "STREAM ESPECIAL"
+  },
+  {
+   "en": 20,
+   "premio": "JUEGO NUEVO"
+  },
+  {
+   "en": 30,
+   "premio": "STREAM ESPECIAL"
+  },
+  {
+   "en": 40,
+   "premio": "JUEGO NUEVO"
+  },
+  {
+   "en": 50,
+   "premio": "STREAM ESPECIAL"
+  },
+  {
+   "en": 60,
+   "premio": "JUEGO NUEVO"
+  },
+  {
+   "en": 70,
+   "premio": "STREAM ESPECIAL"
+  },
+  {
+   "en": 80,
+   "premio": "JUEGO NUEVO"
+  },
+  {
+   "en": 90,
+   "premio": "STREAM ESPECIAL"
+  },
+  {
+   "en": 100,
+   "premio": "GRAN STREAM ESPECIAL + JUEGO NUEVO"
+  }
+ ]
+}

@@ -1,0 +1,483 @@
+{
+ "bloque": "hackers_1930",
+ "programa": "hackers",
+ "fecha": "2026-11-20",
+ "creado": "18:06:42",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Una lección clara de defensa para hackers principiantes.",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ingeniería social y cómo detectarla",
+   "diagrama": {
+    "tipo": "comparar",
+    "titulo": "Mito vs Realidad",
+    "cajas": [
+     {
+      "t": "Mito: Cambia clave mensual",
+      "n": "Te hace invencible contra hackers"
+     },
+     {
+      "t": "Realidad: Ingeniería social",
+      "n": "Explota psicología sin código"
+     },
+     {
+      "t": "Mito: Antivirus basta",
+      "n": "Duerme tranquilo sin riesgos"
+     },
+     {
+      "t": "Realidad: Clic humano",
+      "n": "Malware entra antes de antivirus"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ソーシャルエンジニアリング？ 猫耳で検証せよ！",
+    "ja_es": "¿Ingeniería social? ¡Verifícalo con orejas de gato!",
+    "en": "Social engineering? Verify before you click, folks.",
+    "en_es": "¿Ingeniería social? Verifica antes de hacer clic, gente."
+   },
+   "sub": "mito realidad · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice que cambiar tu contraseña cada mes te hace invencible contra los hackers. Suena lógico hasta que intentas recordar la décima versión."
+    },
+    {
+     "quien": "joy",
+     "texto": "Realidad es que la ingeniería social explota la psicología humana para robar datos sin tocar una línea de código."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un mensaje falso de tu banco pidiendo confirmar la clave y ya estás entregando las llaves del reino."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que un antivirus solo basta para dormir tranquilo y que nunca te pasará nada. La leyenda promete que con eso ya estás blindado contra todo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Realidad dice que el malware puede colarse por un clic humano antes de que el antivirus parpadee. Mejor activa autenticación de dos factores y no confíes solo en un escudo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que las copias de seguridad son cosa de paranoicos y que nunca vas a necesitarlas. La gente las deja para mañana como si el desastre tuviera agenda."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que un firewall te salva de todo. Realidad dice que la ingeniería social salta por encima con una llamada amable y un poco de prisa. Mejor verifica siempre quién llama antes de soltar datos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Documentado es que el cifrado mantiene tus archivos lejos de miradas ajenas. La leyenda promete que un antivirus basta. Realidad es que un clic en un enlace falso y el malware ya está dentro riéndose del escudo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que la gente cree el mito del antivirus todopoderoso porque suena fácil y barato como un café de máquina. Realidad dice que la ingeniería social te saca datos con una charla amable antes de que el escudo reaccione."
+    },
+    {
+     "quien": "joy",
+     "texto": "Documentado es que las actualizaciones corrigen agujeros que los hackers conocen. La leyenda promete que dos factores bastan para todo. Realidad es que un ingeniero social disfrazado de soporte técnico los salta con prisa y confianza."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Documentado es que la ingeniería social usa la psicología humana para robar datos. La leyenda promete que dos factores bastan para todo. Realidad es que un ingeniero social disfrazado de soporte técnico te saca la segunda clave con una llamada amable. Veredicto mezcla porque la tech ayuda pero no piensa por ti."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que la gente abre enlaces raros creyendo que es su jefe. Realidad dice que verificar el dominio y pausar cinco segundos evita la mayoría de phishings. Veredicto realidad la concienciación sigue siendo la mejor defensa contra hackers que nunca tocan tu teclado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, antes de saber esto, ¿cuántos creían que solo con un antivirus ya estaban a salvo de todo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo vi respuestas diciendo que sí. Realidad es que la ingeniería social salta por encima de cualquier escudo técnico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ahora contadnos, ¿alguien aquí pensaba que verificar el remitente era perder el tiempo?"
+    }
+   ],
+   "seg": 210,
+   "imgs": [
+    {
+     "web": "/medios/6b70f2719bf0e234_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/6b70f2719bf0e234_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Rootkit»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Evita contraseñas débiles y phishing",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Línea del tiempo: De password123 al desastre",
+    "cajas": [
+     {
+      "t": "1947: Password123",
+      "n": "Usa la misma en todo"
+     },
+     {
+      "t": "Mensaje falso",
+      "n": "Clic por curiosidad"
+     },
+     {
+      "t": "Ingeniería social",
+      "n": "Usa tu confianza"
+     },
+     {
+      "t": "Phishing 2049",
+      "n": "Banco falso pide clave"
+     },
+     {
+      "t": "Lección final",
+      "n": "2FA y nunca reutilizar"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "弱いパスワードは危険！ 2FAで守ろう、チャットで話そう",
+    "ja_es": "¡Las contraseñas débiles son peligrosas! Protégete con 2FA, hablemos en el chat",
+    "en": "Weak passwords get you phished. Use 2FA and join the chat.",
+    "en_es": "Las contraseñas débiles te hacen caer en phishing. Usa 2FA y únete al chat."
+   },
+   "sub": "linea tiempo · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina que en el 47 un chico usa password123 para todo. Un mensaje falso llega y él hace clic. Fin de la historia. O eso cree."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El giro llega cuando descubre que la ingeniería social usó su propia curiosidad contra él. Lección uno: las contraseñas débiles son la puerta abierta que nadie cierra."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso las actualizaciones corrigen fallos que los malos ya conocen. Y la autenticación de dos factores añade esa barrera extra que un simple clic no salta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí entra el phishing, un mensaje que parece de tu banco pero te pide la clave. El tipo cae porque confía en lo que ve. Lección dos: verifica siempre el remitente antes de clicar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Las copias de seguridad regulares salvan lo que el malware borra después. Y el cifrado hace que esos datos robados queden inútiles sin la clave. Recuerda que la concienciación es la mejor defensa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que en el futuro un principiante guarda todo en la nube de Doll Dynamics con la misma clave que usa para el café. El giro llega cuando un solo clic en un enlace falso le abre la puerta trasera y los datos salen volando como confeti digital."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces la lección se vuelve obvia: nunca reutilices contraseñas y activa siempre la autenticación de dos factores. Porque un mensaje que pide tu código no es tu banco, es un anzuelo disfrazado y la conciencia es la mejor defensa contra esos trucos viejos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hoy un principiante abre un archivo adjunto que promete un parche gratis. El malware entra silbando y cifra todo el disco en segundos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso las actualizaciones de software corrigen vulnerabilidades conocidas antes de que alguien las explote. Nunca las pospongas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y si usas la misma contraseña en el trabajo y en tu cuenta de juegos, un solo phishing te deja sin las dos. Cambia eso ya."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina que en el 2077 un principiante confía en que su antivirus solo basta para estar completamente protegido. Un mensaje falso le roba las credenciales y todo se desmorona."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por eso la autenticación de dos factores añade esa capa extra que ni la ingeniería social más astuta puede saltar de un golpe. Actívala siempre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que en el futuro lejano cambiar la contraseña cada mes se sigue viendo como mejora mágica. La realidad es que solo genera más contraseñas débiles y fáciles de adivinar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagina que en el 2077 un principiante cae en un phishing que parece un aviso de Megacorp Rosa. Su contraseña débil se va en segundos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso el cifrado convierte tus datos en algo que ni el malware más listo puede leer sin la clave."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que la gente sigue creyendo que cambiar la contraseña cada mes es magia. Solo acumula más riesgos."
+    }
+   ],
+   "seg": 217,
+   "imgs": [
+    {
+     "web": "/medios/4721ae85fe915690_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/4721ae85fe915690_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Seguridad de la contraseña»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_cnoq6aabaPA",
+   "archivo": "yt/darktechno/cnoq6aabaPA.mp4",
+   "titulo": "Dark Techno / Neo-Trance / Acid Industrial Type Beat / Cyberpunk Music 'Transcendence'",
+   "audio": "yt/darktechno/cnoq6aabaPA.m4a",
+   "atribucion": "Música: «Dark Techno / Neo-Trance / Acid Industrial Type Beat / Cyberpunk Music» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 485,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/cnoq6aabaPA.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: El sistema de ROOT ACCESS necesita una actualización urgente.",
+   "sub": "ROOT ACCESS",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Por qué root otorga control total en Unix",
+   "diagrama": {
+    "tipo": "comparar",
+    "titulo": "Mito vs Realidad de Root",
+    "cajas": [
+     {
+      "t": "Mito 2049",
+      "n": "Root es dios supremo"
+     },
+     {
+      "t": "Realidad",
+      "n": "Nació para control total"
+     },
+     {
+      "t": "Riesgo Diario",
+      "n": "Abre escalada de privilegios"
+     },
+     {
+      "t": "Principio Moderno",
+      "n": "Privilegio mínimo recomendado"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ルート神話は終わり。最小権限で生きろ。チャットで語ろうか？",
+    "ja_es": "El mito de root ha terminado. Vive con privilegios mínimos. ¿Hablamos en el chat?",
+    "en": "Root myth busted. Least privilege or bust. What myth did you fall for chat?",
+    "en_es": "El mito de root desmentido. Privilegio mínimo o nada. ¿Qué mito te tragaste chat?"
+   },
+   "sub": "mito realidad · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice que root es como el dios supremo de Unix, que si lo usas todo vuela y nunca pasa nada malo."
+    },
+    {
+     "quien": "joy",
+     "texto": "En realidad root nació en los primeros sistemas multiusuario para dar control total, pero usarlo a diario es justo lo que abre la puerta a cualquier escalada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por eso los sistemas modernos recomiendan el principio de privilegio mínimo, cuentas justas para cada tarea y nada más."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que root es el dios supremo de Unix, que si lo usas todo vuela y nunca pasa nada malo. En realidad surgió en los primeros sistemas multiusuario para dar control total."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero usarlo a diario es justo lo que abre la puerta a cualquier escalada de privilegios. Los sistemas modernos recomiendan el principio de privilegio mínimo, cuentas justas para cada tarea."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y las actualizaciones corrigen esas vulnerabilidades que un atacante busca para subir hasta root. Las contraseñas débiles solo aceleran el desastre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La realidad es que root siempre otorgó control total porque nació para eso en los primeros sistemas multiusuario. Pero la leyenda de que usarlo todo el tiempo es eficiente se derrumba rápido cuando un ataque de escalada te borra el servidor en segundos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los registros de auditoría documentan cada intento de llegar a root y las distribuciones Linux traen herramientas para manejar permisos sin jugársela. La autenticación multifactor cierra la puerta que las contraseñas débiles dejan abierta de par en par."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree el mito porque root suena a llave maestra que resuelve todo en un comando. En los primeros sistemas multiusuario nació para eso, dar control total, pero usarlo a diario es como dejar la bóveda abierta en una megacorp rosa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso el principio de privilegio mínimo existe, para que solo uses lo necesario y evites que un atacante escale. Las distribuciones Linux traen herramientas seguras, y la leyenda de que ya no hay vuelta atrás después de root es puro cuento."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí viene el remate. El principio de privilegio mínimo evita que un atacante escale con una contraseña débil. Mejor sudo una vez y listo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chat, antes de que habláramos de privilegios mínimos, ¿qué mito te tragaste sobre root? ¿Que era la solución mágica a todo?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo leo que muchos pensaban que root era como tener superpoderes sin consecuencias. Ahora sabemos que abre la puerta a cualquier escalada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el error común era creer que una vez perdido el root ya no hay forma de recuperar el sistema. La auditoría y las actualizaciones dicen lo contrario."
+    }
+   ],
+   "seg": 197,
+   "imgs": [
+    {
+     "web": "/medios/a6b2ded722366f69_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a6b2ded722366f69_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Segunda presidencia de Donald Trump»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Origen histórico del término root multiusuario",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "Origen del Root Multiusuario",
+    "cajas": [
+     {
+      "t": "Máquinas 60s",
+      "n": "Sistemas compartidos varios usuarios"
+     },
+     {
+      "t": "Usuario Root",
+      "n": "Podía tocar todo sin permiso"
+     },
+     {
+      "t": "Unix nace",
+      "n": "Root se vuelve privilegio absoluto"
+     },
+     {
+      "t": "Principio mínimo",
+      "n": "No usar root a diario"
+     },
+     {
+      "t": "Auditoría",
+      "n": "Registros que no se callan"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ルート神話に騙されず最小権限で生きよう。チャットで語ろうか？",
+    "ja_es": "No te dejes engañar por el mito de root, vive con privilegio mínimo. ¿Hablamos en el chat?",
+    "en": "Don't live as root forever, even the myth says so. Join the chat.",
+    "en_es": "No vivas como root para siempre, hasta el mito lo dice. Únete al chat."
+   },
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Imagina un servidor antiguo donde varios usuarios peleaban por el control total. ¿De dónde salió esa cuenta todopoderosa llamada root?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Nació en los primeros sistemas multiusuario. Root era simplemente el usuario que podía tocar todo sin pedir permiso a nadie."
+    },
+    {
+     "quien": "joy",
+     "texto": "Con el tiempo se volvió sinónimo de privilegios absolutos en Unix y Linux. Hoy las máquinas recomiendan no usarlo a diario."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por eso el principio de privilegio mínimo dice que nadie debería caminar con la corona todo el día. Usa una cuenta normal y solo sube cuando sea necesario. Las distribuciones Linux traen herramientas que te dejan hacer eso sin dramas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y si alguien logra escalar, los registros de auditoría son como testigos que no se callan. Actualizar el sistema cierra las puertas que un atacante podría forzar para llegar a root."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Paso a paso, root empezó como el usuario que podía tocar todo en máquinas compartidas. Imagina que en un edificio viejo solo el conserje tenía llave del sótano donde estaba la caldera. Así nació el término."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y culturalmente se volvió el rey absoluto. Pero hoy las distribuciones Linux te avisan que no lo uses a diario. Mejor sigue el principio de privilegio mínimo y solo sube cuando realmente hace falta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hay un dato de Origen histórico del término root multiusuario que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que sorprende es cómo ese conserje con llave maestra se convirtió en mito cultural. En los primeros Unix, root era el único que podía tocar los archivos de todos, casi como un dios digital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la gente lo idolatraba tanto que todavía hay quien cree que usarlo todo el tiempo es eficiente. Yo digo que es como dejar la tarjeta de crédito en la mesa de un bar, tarde o temprano llega la cuenta sorpresa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso las distribuciones modernas te regañan si intentas vivir como root. El principio de privilegio mínimo es más sano, aunque a algunos les suene a burocracia de gatitos con collar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Por eso en la cultura hacker root se volvió casi un superpoder. Como si fueras el único que puede abrir la caja fuerte de la máquina."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y con el tiempo esa idea se filtró hasta los foros y las películas. Hoy las distribuciones Linux te avisan que mejor uses sudo y no vivas como dios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda dice que una vez que te roban root ya perdiste el server para siempre. En realidad con backups y auditoría puedes patearlos y cambiar las cerraduras."
+    }
+   ],
+   "seg": 193,
+   "imgs": [
+    {
+     "web": "/medios/135fcaf8b421c5dc_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/135fcaf8b421c5dc_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Segunda presidencia de Donald Trump»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_uT0LDktQs7Y",
+   "archivo": "yt/darktechno/uT0LDktQs7Y.mp4",
+   "titulo": "Dark Acid Techno / Industrial Trance Type Beat / Cyberpunk Music 'Synthetic Subjugation'",
+   "audio": "yt/darktechno/uT0LDktQs7Y.m4a",
+   "atribucion": "Música: «Dark Acid Techno / Industrial Trance Type Beat / Cyberpunk Music 'Synt» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 487,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/uT0LDktQs7Y.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 817,
+  "medios": 2
+ }
+}

@@ -1,0 +1,608 @@
+{
+ "items": [
+  {
+   "tipo": "ja_charla",
+   "interludio": true,
+   "id": "inter_fp_horario",
+   "titulo_ja": "FAST PENGUIN",
+   "titulo_es": "FAST PENGUIN",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "fp_1.jpg",
+     "ja": "Fast Penguin のスクリーンショット",
+     "es": "Captura de Fast Penguin",
+     "credito": "Captura: Blackrose · Fast Penguin",
+     "tag": "日本 · FAST PENGUIN"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みんな、明日18時にブラックローズがファスト・ペンギンを生配信するよ！",
+     "es": "Todos, mañana a las 18:00 Blackrose transmitirá en vivo Fast Penguin."
+    },
+    {
+     "quien": "joy",
+     "ja": "チリ時間の朝6時、日本時間で同じ日の18時です。",
+     "es": "Son las 6 de la mañana hora de Chile, que son las 18:00 en Japón el mismo día."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "Steamで無料だから今すぐダウンロードしてね！",
+     "es": "Es gratis en Steam, ¡así que descárgalo ahora mismo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "パーティーコードはYDPYAUです。一緒に遊びましょう。",
+     "es": "El código de party es YDPYAU. Vamos a jugar juntos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ブラックローズと走り回るの、絶対楽しいよ！",
+     "es": "Correr por ahí con Blackrose va a ser súper divertido."
+    },
+    {
+     "quien": "joy",
+     "ja": "日本のみなさん、ぜひ参加してくださいね。",
+     "es": "Queridos viewers de Japón, por favor únanse."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "待ってるから、ファスト・ペンギンで会おう！",
+     "es": "Te estamos esperando, ¡nos vemos en Fast Penguin!"
+    },
+    {
+     "quien": "joy",
+     "ja": "明日18時、みんなで一緒に楽しみましょう。",
+     "es": "Mañana a las 18:00, disfrutémoslo todos juntos."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "interludio": true,
+   "id": "inter_fp_capturas",
+   "titulo_ja": "FAST PENGUIN",
+   "titulo_es": "FAST PENGUIN",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "fp_3.jpg",
+     "ja": "Fast Penguin のスクリーンショット",
+     "es": "Captura de Fast Penguin",
+     "credito": "Captura: Blackrose · Fast Penguin",
+     "tag": "日本 · FAST PENGUIN"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "皆さん、ファスト・ペンギンのロビー画面をご覧ください。",
+     "es": "Todos, por favor miren la pantalla del lobby de Fast Penguin."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "かわいい！パイナップルの衣装を着たペンギンたちがいるよ。",
+     "es": "¡Qué lindos! Hay pingüinos vestidos de piña."
+    },
+    {
+     "quien": "joy",
+     "ja": "紫色のカクタスと黄色のペンギンがとっても目立っていますね。",
+     "es": "El pingüino morado con cactus y el amarillo destacan mucho."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "最大40人でサバイバルレースだ。踏んで跳ねて勝ち抜け！",
+     "es": "Es una carrera de supervivencia de hasta 40 jugadores. ¡Pisa y salta para ganar!"
+    },
+    {
+     "quien": "joy",
+     "ja": "Steamで無料で遊べます。パーティーコードはYDPYAUですよ。",
+     "es": "Se puede jugar gratis en Steam. El código de la party es YDPYAU."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "明日18時、日本時間で一緒に遊びましょう！",
+     "es": "¡Juguemos juntos mañana a las 18:00, hora de Japón!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ネオンの格子模様の背景もおしゃれで素敵です。",
+     "es": "El fondo de rejilla de neón también es muy elegante y bonito."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "踏みつけて飛ぶのがクセになるね。絶対楽しいよ！",
+     "es": "Pisotear y volar se vuelve adictivo. ¡Seguro que es divertidísimo!"
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "interludio": true,
+   "id": "inter_hashtags",
+   "titulo_ja": "HASHTAGS",
+   "titulo_es": "HASHTAGS",
+   "laminas": [
+    {
+     "tipo": "tags",
+     "tags": [
+      "#BlackRoseTV",
+      "#FastPenguin",
+      "#AIVTuber",
+      "#VTuber",
+      "#ゲーム実況",
+      "#日本",
+      "#ForzaHorizon6"
+     ],
+     "tag": "日本 · HASHTAGS"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさん、シェアするときはこのハッシュタグを使ってくださいね。",
+     "es": "Todos, por favor usen estos hashtags cuando compartan."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "正しいタグはこれだよ、#ブラックローズTV #ファスト・ペンギン。",
+     "es": "Los hashtags correctos son estos: #BlackRoseTV #FastPenguin."
+    },
+    {
+     "quien": "joy",
+     "ja": "次に #AIVTuber と #VTuber も忘れずに付けてね。",
+     "es": "No olviden agregar también #AIVTuber y #VTuber."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ゲーム実況のときは #ゲーム実況 を絶対に入れようぜ。",
+     "es": "Cuando sea gameplay, asegúrense de poner #ゲーム実況."
+    },
+    {
+     "quien": "joy",
+     "ja": "日本のみんなとつながるために #日本 もおすすめです。",
+     "es": "Para conectar con todos en Japón, recomendamos #日本 también."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "フォルツァ・ホライゾン6の話なら #ForzaHorizon6 を付けてくれ。",
+     "es": "Si hablan de Forza Horizon 6, pongan #ForzaHorizon6."
+    },
+    {
+     "quien": "joy",
+     "ja": "これでみんながブラックローズTVを見つけやすくなりますよ。",
+     "es": "Así todos podrán encontrar más fácilmente BlackRose TV."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "タグを使って一緒に盛り上げてくれよ、よろしくな。",
+     "es": "Usen los tags y hagámoslo divertido juntos, gracias."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "interludio": true,
+   "id": "inter_suscribe",
+   "titulo_ja": "SUSCRÍBETE",
+   "titulo_es": "SUSCRÍBETE",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "fuji_sakura.jpg",
+     "ja": "桜と富士山",
+     "es": "El Monte Fuji y los cerezos en flor",
+     "credito": "Foto: Midori · CC BY 3.0 · Wikimedia Commons",
+     "tag": "日本 · SUSCRÍBETE"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "みんな、ブラックローズTVのチャンネル登録、よろしくね！",
+     "es": "Todos, por favor suscríbanse al canal de BlackRose TV."
+    },
+    {
+     "quien": "joy",
+     "ja": "登録して通知をオンにすると、信号がずっとつながるよ。",
+     "es": "Si te suscribes y activas las notificaciones, la señal se mantiene encendida."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "画面のサブスクライバーバー、目標達成で特別配信だ！",
+     "es": "¡La barra de suscriptores en pantalla desbloquea streams especiales al alcanzar metas!"
+    },
+    {
+     "quien": "joy",
+     "ja": "新しいゲームも待ってるから、一緒に応援してね。",
+     "es": "También hay juegos nuevos esperando, así que apóyanos juntos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "君の登録がこの番組を支えてるんだ、ありがとう！",
+     "es": "Tu suscripción es lo que sostiene este programa, ¡gracias!"
+    },
+    {
+     "quien": "joy",
+     "ja": "通知をオンにすれば、新しい配信を見逃さないよ。",
+     "es": "Si activas las notificaciones, no te perderás los nuevos streams."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "次の目標クリアで新しいゲームをお届けするね！",
+     "es": "¡Al completar la siguiente meta les traeremos un juego nuevo!"
+    },
+    {
+     "quien": "joy",
+     "ja": "みんなの支えでブラックローズTVは元気に続くよ。",
+     "es": "Gracias al apoyo de todos, BlackRose TV sigue con energía."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "interludio": true,
+   "id": "inter_circuito",
+   "titulo_ja": "NUESTRO CIRCUITO",
+   "titulo_es": "NUESTRO CIRCUITO",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "fp_1.jpg",
+     "ja": "Fast Penguin のスクリーンショット",
+     "es": "Captura de Fast Penguin",
+     "credito": "Captura: Blackrose · Fast Penguin",
+     "tag": "日本 · NUESTRO CIRCUITO"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさん、今日は私たちのサーキットのお話を少しだけ。",
+     "es": "Todos, hoy les contaremos un poquito sobre nuestro circuito."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "まだプライベートで公開してないんだけど、開発中なんだ。",
+     "es": "Todavía es privado y no lo hemos publicado, pero está en desarrollo."
+    },
+    {
+     "quien": "joy",
+     "ja": "完成したら、まずはサブスクライブしてくれた皆さんに教えますね。",
+     "es": "Cuando esté terminado, primero se lo diremos a los suscriptores."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "今はみんなでファスト・ペンギンやって待っててほしいな。",
+     "es": "Por ahora, nos encantaría que jugaran Fast Penguin con la party mientras esperan."
+    },
+    {
+     "quien": "joy",
+     "ja": "3Dの新しい世界を丁寧に作っている最中です。",
+     "es": "Estamos en medio de crear con cariño un nuevo mundo en 3D."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "公開日まだ決まってないけど、楽しみにしててくれ。",
+     "es": "Aún no tenemos fecha de apertura, pero por favor esperen con ilusión."
+    },
+    {
+     "quien": "joy",
+     "ja": "YDPYAUのパーティーで一緒に走りましょう。",
+     "es": "Corramos juntos en la party YDPYAU."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "完成したら絶対に驚くよ、絶対だよ。",
+     "es": "Cuando esté terminado, seguro que se sorprenderán, de verdad."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "interludio": true,
+   "id": "inter_traductor",
+   "titulo_ja": "コメントOK",
+   "titulo_es": "コメントOK",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "fuji_amanecer.jpg",
+     "ja": "富士山の日の出",
+     "es": "Amanecer con el Monte Fuji",
+     "credito": "Foto: Alpsdake · CC BY-SA 3.0 · Wikimedia Commons",
+     "tag": "日本 · コメントOK"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "コメント欄、どんどん書いてね！自動で翻訳されるよ。",
+     "es": "¡Escribe en los comentarios! Se traduce automáticamente."
+    },
+    {
+     "quien": "joy",
+     "ja": "日本のみんなの声が聞きたいな。どんな感想かな？",
+     "es": "Quiero escuchar las voces de todos en Japón. ¿Qué opinan?"
+    },
+    {
+     "quien": "kuroki",
+     "ja": "日本語で大丈夫だよ。すぐにスペイン語になるから安心して。",
+     "es": "Está bien escribir en japonés. Se convierte en español al instante."
+    },
+    {
+     "quien": "joy",
+     "ja": "ファスト・ペンギンの話、どんなところが好き？教えてね。",
+     "es": "¿Qué parte de Fast Penguin te gusta más? Cuéntanos."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "みんなのコメント、番組中にどんどん紹介するから待ってて！",
+     "es": "Vamos a leer sus comentarios durante el programa, ¡esperen!"
+    },
+    {
+     "quien": "joy",
+     "ja": "優しい言葉も元気な言葉も、全部嬉しいです。",
+     "es": "Tanto las palabras amables como las animadas nos alegran mucho."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "さあ、遠慮なく書いちゃおう！待ってるよー。",
+     "es": "¡Vamos, escriban sin pena! Las estamos esperando."
+    },
+    {
+     "quien": "joy",
+     "ja": "日本の皆さんと一緒にこの時間を楽しみたいと思います。",
+     "es": "Queremos disfrutar este momento junto a todos en Japón."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "interludio": true,
+   "id": "inter_espanol",
+   "titulo_ja": "ESPAÑOL",
+   "titulo_es": "ESPAÑOL",
+   "laminas": [
+    {
+     "tipo": "lista",
+     "ja": "今日のスペイン語",
+     "es": "El español del día",
+     "tag": "日本 · ESPAÑOL",
+     "items": [
+      {
+       "ja": "こんにちは",
+       "es": "Hola"
+      },
+      {
+       "ja": "ありがとう",
+       "es": "Gracias"
+      },
+      {
+       "ja": "こんばんは",
+       "es": "Buenas noches"
+      },
+      {
+       "ja": "なんて速い!",
+       "es": "¡Qué rápido!"
+      },
+      {
+       "ja": "チャンネル登録してね",
+       "es": "Suscríbete"
+      },
+      {
+       "ja": "一緒に遊ぼう",
+       "es": "Vamos a jugar"
+      }
+     ]
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "みなさん、ちょっとスペイン語を勉強しましょうね。",
+     "es": "Todos, vamos a estudiar un poco de español."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "こんにちははHola、ありがとうはGraciasだよ。",
+     "es": "Hola es こんにちは y Gracias es ありがとう."
+    },
+    {
+     "quien": "joy",
+     "ja": "こんばんははBuenas nochesですね。覚えやすい。",
+     "es": "こんばんは es Buenas noches. Es fácil de recordar."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "なんて速い！って言うとQué rápido！になるんだって。",
+     "es": "なんて速い！ se dice cuando es ¡Qué rápido!."
+    },
+    {
+     "quien": "joy",
+     "ja": "一緒に遊ぼうはVamos a jugarって意味ですよ。",
+     "es": "一緒に遊ぼう significa Vamos a jugar."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "一緒に遊ぼう！みんなでポケモンやろうぜ、なんて速い！",
+     "es": "¡Vamos a jugar! Vamos a jugar Pokémon todos, ¡qué rápido!"
+    },
+    {
+     "quien": "joy",
+     "ja": "上手に覚えられたら嬉しいです。少しずつね。",
+     "es": "Me alegraría que lo recuerden bien. Poco a poco."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "Gracias！またスペイン語ミニレッスンやるからな！",
+     "es": "¡Gracias! Vamos a hacer otra mini lección de español."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "interludio": true,
+   "id": "inter_forza",
+   "titulo_ja": "FORZA HORIZON 6",
+   "titulo_es": "FORZA HORIZON 6",
+   "laminas": [
+    {
+     "tipo": "foto",
+     "img": "tokio.jpg",
+     "ja": "東京の夜景",
+     "es": "Tokio de noche",
+     "credito": "Foto: photo taken by Gorgo · Public domain · Wikimedia Commons",
+     "tag": "日本 · FORZA HORIZON 6"
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "ja": "フォルツァ・ホライゾン6が出たんだって！日本舞台だってさ！",
+     "es": "¡Dicen que salió Forza Horizon 6! ¡Está ambientado en Japón!"
+    },
+    {
+     "quien": "joy",
+     "ja": "ええ、ホライゾンジャパンの広大なマップで走れるんですよ。",
+     "es": "Sí, puedes conducir en el vasto mapa de Horizon Japan."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "東京が中心なんだよね。めっちゃワクワクする！",
+     "es": "Tokio es el centro. ¡Es súper emocionante!"
+    },
+    {
+     "quien": "joy",
+     "ja": "2026年5月19日にXboxとPCでリリースされました。",
+     "es": "Se lanzó el 19 de mayo de 2026 en Xbox y PC."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "みんなもうプレイした？どんな感じだった？",
+     "es": "¿Ya lo han jugado? ¿Cómo les pareció?"
+    },
+    {
+     "quien": "joy",
+     "ja": "プレイグラウンドゲームズらしい開放感のあるレースです。",
+     "es": "Es una carrera de mundo abierto típica de Playground Games."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "日本車がいっぱい走れると思うとテンション上がるよね！",
+     "es": "¡Solo de pensar en manejar tantos autos japoneses me emociona!"
+    },
+    {
+     "quien": "joy",
+     "ja": "チャットで感想を聞かせてくださいね。待ってます。",
+     "es": "Por favor cuéntennos sus impresiones en el chat. Las esperamos."
+    }
+   ]
+  },
+  {
+   "tipo": "ja_charla",
+   "interludio": true,
+   "id": "inter_horarios",
+   "titulo_ja": "HORARIOS",
+   "titulo_es": "HORARIOS",
+   "laminas": [
+    {
+     "tipo": "lista",
+     "ja": "放送スケジュール",
+     "es": "Chile → Japón (+12 h)",
+     "tag": "日本 · HORARIOS",
+     "items": [
+      {
+       "ja": "22:15 → 10:15",
+       "es": "El Show de Kuroki"
+      },
+      {
+       "ja": "23:20 → 11:20",
+       "es": "Hora de Japón"
+      },
+      {
+       "ja": "00:25 → 12:25",
+       "es": "Deportes"
+      },
+      {
+       "ja": "01:10 → 13:10",
+       "es": "Música"
+      },
+      {
+       "ja": "01:55 → 13:55",
+       "es": "Misterios documentados"
+      },
+      {
+       "ja": "02:40 → 14:40",
+       "es": "Videojuegos"
+      },
+      {
+       "ja": "03:25 → 15:25",
+       "es": "Historias de hackers"
+      },
+      {
+       "ja": "04:10 → 16:10",
+       "es": "Señales del espacio"
+      },
+      {
+       "ja": "04:55 → 16:55",
+       "es": "Tecnología oculta"
+      },
+      {
+       "ja": "05:40 → 17:40",
+       "es": "Noticias de madrugada"
+      },
+      {
+       "ja": "06:00 → 18:00",
+       "es": "FAST PENGUIN en vivo"
+      }
+     ]
+    }
+   ],
+   "lineas": [
+    {
+     "quien": "joy",
+     "ja": "チリは今夜中ですが日本はもう夕方ですね。",
+     "es": "En Chile es de noche, pero en Japón ya es de tarde."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ファスト・ペンギンが18時に終わっちゃうよ。",
+     "es": "Fast Penguin termina a las 18:00."
+    },
+    {
+     "quien": "joy",
+     "ja": "番組は40分くらいで少しお休みもあります。",
+     "es": "Los programas duran unos 40 minutos y hay pausas."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "夜の時間帯はここで一旦区切りだね。",
+     "es": "La programación nocturna termina aquí por ahora."
+    },
+    {
+     "quien": "joy",
+     "ja": "また次の番組でお待ちしています。",
+     "es": "Les esperamos en el siguiente programa."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "18時まで一緒に楽しんでてね。",
+     "es": "Quédate con nosotras hasta las 18:00."
+    },
+    {
+     "quien": "joy",
+     "ja": "日本時間で18時からの時間もどうぞ。",
+     "es": "También les esperamos después de las 18:00 hora de Japón."
+    },
+    {
+     "quien": "kuroki",
+     "ja": "ブラックローズTVをこれからもよろしく！",
+     "es": "¡Gracias por seguir viendo BlackRose TV!"
+    }
+   ]
+  }
+ ]
+}

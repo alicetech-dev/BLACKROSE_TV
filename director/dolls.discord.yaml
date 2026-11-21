@@ -1,0 +1,85 @@
+# Joy streamer virtual permanente en Discord:  ./joy_discord.sh start   (ver ese script)
+# Cerebro: el 9B local (DeepSeek-V4-Pro-Qwen3.5-9B con MTP) en llama-server :8085, por el agente (pack neko SFW, memoria
+# data_sfw). Cuerpo: joy_vmc :8770 → eco VMC 39639 → overlay three-vrm :8810 (OBS, sin Warudo: la RTX la usa el 9B).
+# Voz: gTTS en CPU (XTTS no entra en la placa junto al 9B). Los mensajes de Discord llegan por /api/discord (túnel SSH).
+sfw: true
+agente: ws://127.0.0.1:8791
+xtts_url: http://127.0.0.1:8020/tts   # XTTS en CPU (contenedor xtts-cpu, samplevoice.wav); el 9B ocupa la RTX
+llm_directo: http://127.0.0.1:8087   # el router (9B local, con Claude de respaldo): /health siempre contesta, Joy nunca «duerme»
+
+usuario: {id: 0, nombre: Alice}
+
+audio:
+  sink: dolls
+  bloque_ms: 20
+  adelanto_ms: 30
+
+opinar: 0
+
+dolls:
+  joy:
+    nombre: Joy
+    alias: [joy, yoi]
+    cuerpo: ws://127.0.0.1:8770
+    vmc_puerto: 39550
+    cuerpo_desc: "cyborg cat-girl avatar: cat ears, tail, robotic arms and glowing eyes"
+    idioma: es
+    mirar_a: {kuroki: izquierda}
+    voz: {motor: edge}   # Edge TTS gratis (es-MX Dalia / en Ava / ja Nanami), sin RAM ni GPU; antes: xtts en CPU
+    idiomas_espontaneos: {es: 0.4, en: 0.3, ja: 0.3}   # pensamientos/promo sueltos en español, inglés o japonés
+  kuroki:
+    nombre: Kuroki
+    alias: [kuroki, kuro, kuromi]
+    cuerpo: ws://127.0.0.1:8771
+    vmc_puerto: 39551
+    cuerpo_desc: "girl with long black hair, wolf ears, golden eyes and a face mask, in a black and neon-pink cyber armor bodysuit; rock drummer"
+    mirar_a: {joy: derecha}
+    idioma: es
+    voz: {motor: edge, altura: "+30Hz"}   # misma voz que Joy (Dalia/Ava/Nanami) pero más aguda; antes: mudo
+
+# Stream permanente: si nadie le habla, Joy rellena sola cada tanto (un tema, una pregunta al canal, un pensamiento).
+sala:
+  activo: true
+  silencio: [450, 900]   # hablan solas cada 7,5-15 min (un tercio de antes: 150-300 s; ahorro de tokens)
+  dialogo_max: 1          # entre ellas: una réplica como mucho
+  replicar: 0.35
+  posturas: {seguir: 0.35, contradecir: 0.25, preguntar: 0.2, debatir: 0.2}
+  pesos: {pensamiento: 0.45}   # más pensamientos propios (antes 0.2 contra 0.63 de charla entre ellas)
+
+# Joy anima el canal cada 7-12 min (en es/en/ja al azar): seguir/suscribirse, Blackrose Corporation y de qué va
+promo:
+  doll: joy
+  cada: [2700, 4500]   # un tercio de antes (900-1500 s)
+  primera: [60, 180]
+
+# Chat: Twitch (lectura anónima del canal, «Solo charlando») + Discord por /api/discord (!vivo o el canal de voz 🎙️ joy).
+# Cada mensaje le llega a la doll como «[autor en Twitch] …» o «[autor en Discord #canal] …».
+canal:
+  youtube: ""
+  twitch: "barbieblackrose"
+  kick: ""
+  auto: true
+  cada: [8, 15]
+  vence: 180
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot]
+  bloquear: []
+
+temas:
+  - las noticias de tecnología de la semana
+  - lo último en inteligencia artificial y modelos locales
+  - Linux contra Windows para jugar
+  - qué se siente ser una neko cibernética que vive en un canal de voz
+  - el mejor y el peor juego que probaste
+  - juegos retro contra juegos modernos
+  - el futuro de las VTubers y los streamers virtuales
+  - ciencia ficción que acertó o le erró al futuro
+  - qué entienden mal los humanos de la IA
+  - lenguajes de programación: opiniones fuertes
+  - invitar a la gente a escribir en el chat de Twitch o en Discord con !vivo
+  - Joy contra Kuroki: gatos contra baterías, quién manda en el show
+  - la mejor canción para tocar batería y por qué
+  - preguntarle al canal qué están jugando o haciendo hoy
+
+# 📺 BlackRose TV: parrilla de noticias (Tecnología · Gamer · IA · Internacional), guion en director/programacion.yaml.
+# Overlay del logo: :8780/blackrose_tv · control: POST /api/programa {"accion": on|off|siguiente|bloque, "id"?}
+programacion: {archivo: director/programacion.yaml, activo: false}   # apagado mientras juega; {"accion":"on"} para el noticiero

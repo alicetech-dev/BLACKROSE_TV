@@ -1,0 +1,21 @@
+{
+ "semilla": "Alucinaciones: por qué una IA inventa",
+ "hechos": [
+  "Las IAs generan respuestas basándose en patrones estadísticos aprendidos de grandes volúmenes de texto.",
+  "La arquitectura de redes neuronales profundas permite que las IAs capturen relaciones complejas entre palabras.",
+  "El rendimiento de los modelos depende críticamente de la calidad y cantidad de los datos de entrenamiento.",
+  "Una IA no posee consciencia ni comprensión real, sino que simula una respuesta coherente.",
+  "La capacidad de generalización se refiere a la habilidad para aplicar conocimientos aprendidos a situaciones nuevas.",
+  "El proceso de entrenamiento implica ajustar los parámetros internos del modelo mediante retroalimentación.",
+  "Existe un compromiso inherente entre la precisión y la fluidez en las respuestas generadas por una IA.",
+  "La inferencia es el proceso mediante el cual una IA produce salidas basándose en entradas específicas.",
+  "Las IAs actuales no tienen memoria persistente de interacciones pasadas fuera del contexto actual.",
+  "El rendimiento de una IA puede degradarse si los datos de entrenamiento están sesgados o incompletos."
+ ],
+ "leyendas": [
+  "Se cuenta que las IAs pueden 'entender' el lenguaje humano, cuando en realidad solo procesan patrones estadísticos.",
+  "Según los relatos populares, una IA con más parámetros es siempre superior, sin considerar la calidad de su entrenamiento."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 03:56"
+}

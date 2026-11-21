@@ -1,0 +1,21 @@
+{
+ "semilla": "Qué es un motor de juego",
+ "hechos": [
+  "Un motor de juego es un software que gestiona los elementos gráficos y la lógica de un videojuego.",
+  "Los motores de juego permiten a los desarrolladores crear juegos sin tener que programar cada aspecto desde cero.",
+  "El motor de juego se encarga de renderizar las imágenes en tiempo real basándose en el hardware disponible.",
+  "La mayoría de los motores modernos utilizan un lenguaje de programación propio o adaptado para la lógica del juego.",
+  "Los motores facilitan la creación de niveles y objetos mediante herramientas visuales que no requieren escribir código complejo.",
+  "El rendimiento visual depende directamente de cómo el motor optimiza las instrucciones para la tarjeta gráfica.",
+  "Muchos motores permiten exportar juegos a múltiples plataformas con cambios mínimos en el código base.",
+  "La gestión del audio, la inteligencia artificial básica y los sistemas de físicas son componentes estándar en un motor completo.",
+  "Los desarrolladores utilizan librerías predefinidas dentro del motor para acelerar el proceso de creación.",
+  "El motor actúa como una capa intermedia entre las ideas del diseñador y la representación final en pantalla."
+ ],
+ "leyendas": [
+  "Se cuenta que los motores de juego son programas mágicos creados por un solo programador genio, cuando en realidad suelen ser el trabajo de equipos grandes.",
+  "Según los relatos populares, todos los juegos usan el mismo motor, ignorando que existen cientos de motores especializados y diferentes versiones."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 04:56"
+}

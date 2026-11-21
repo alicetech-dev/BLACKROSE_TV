@@ -1,0 +1,301 @@
+{
+ "bloque": "noticias_0308",
+ "programa": "noticias",
+ "fecha": "2026-11-20",
+ "creado": "01:22:51",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "John Romero , creativo y padre de DOOM: \"Ahora, más que nunca, todo gi",
+   "sub": "3DJuegos · hace 11 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "John Romero, creador de DOOM y padre del videojuego, afirma que hoy todo gira en torno al diseño."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, la IA generativa ha provocado un terremoto en la industria; pero ¿es eso buena o mala noticia?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Su respuesta es clara: más que nunca, el diseño es lo que importa."
+    }
+   ],
+   "seg": 26,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/0b3ec0a0ec47d35a_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/0b3ec0a0ec47d35a_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cuando Ridley Scott pidió ayuda a Stanley Kubrick para el final feliz ",
+   "sub": "VidaExtra · hace 6 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Ridley Scott pidió ayuda a Stanley Kubrick para encontrar un final feliz para Blade Runner."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El contexto dice que la cinta se ha convertido en una de las mejores de ciencia ficción con el paso del tiempo."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué pasa si los dos directores no estuvieran de acuerdo sobre el final?"
+    }
+   ],
+   "seg": 26,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/ac269c5a4f624a76_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/ac269c5a4f624a76_169.jpg",
+     "credito": "Foto: VidaExtra"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "En 5 días regresa una obra maestra de la ciencia ficción con una nueva",
+   "sub": "3DJuegos · hace 8 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Una nueva entrega basada en la novela ¿Sueñan los androides con ovejas eléctricas? regresa en cinco días."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El resumen menciona que fue un fracaso comercial pero su mezcla de lluvia, neones y decadencia urbana imponiéndose."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué opinan ustedes sobre esa mezcla de neón y lluvia?"
+    }
+   ],
+   "seg": 23,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/a03fa997dfa89706_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a03fa997dfa89706_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Rockstar recurrió a maniobras poco habituales para hacer GTA 6. Así se",
+   "sub": "3DJuegos · hace 9 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Rockstar recurrió a maniobras poco habituales para hacer GTA 6, como se demuestra con algunos de sus minijuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El contexto indica que Jason y Lucía tienen la oportunidad de entretenerse con videojuegos en máquinas recreativas."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué les parece esa idea?"
+    }
+   ],
+   "seg": 21,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/0c587f6aaf85639d_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/0c587f6aaf85639d_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_20211002_mh_cno01_0001_dart_spacecra",
+   "archivo": "v/v_nasa_ksc_20211002_mh_cno01_0001_dart_spacecra.mp4",
+   "titulo": "DART Spacecraft Arrival",
+   "atribucion": "«DART Spacecraft Arrival» — NASA · images.nasa.gov",
+   "dur": 151,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Llevamos años mirando si los suelos de caucho de los parques son tóxic",
+   "sub": "Xataka · hace 10 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Los parques infantiles españoles reutilizan neumáticos usados para amortiguar caídas y dar segunda vida a millones de ruedas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La ciencia aún duda si el caucho antiguo libera microplásticos o simplemente calienta más que el asfalto nuevo."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Prefieres que los niños jueguen en suelos seguros o esperar a que la ciencia decida qué es tóxico y qué no?"
+    }
+   ],
+   "seg": 28,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/661b12cd33efc339_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/661b12cd33efc339_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Arturo Pérez-Reverte , sobre los videojuegos: \"Es la herramienta narra",
+   "sub": "VidaExtra · hace 13 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Arturo Pérez-Reverte dice que los videojuegos son la herramienta narrativa del futuro y un error despreciarlos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El escritor de 74 años escribe novelas mientras espera cumplir 75, pero no sabe si sus ideas sobrevivirán al algoritmo."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Crees que el libro o la pantalla definirán el futuro de la ficción, o es solo una cuestión de comodidad?"
+    }
+   ],
+   "seg": 28,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/01ce3a370b5eb680_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/01ce3a370b5eb680_169.jpg",
+     "credito": "Foto: VidaExtra"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El final de ‘Los Juegos del Hambre: Amanecer en la cosecha’, explicado",
+   "sub": "Hipertextual · hace 14 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La nueva película de Los Juegos del Hambre revela quién vive y quién muere en la precuela a la historia principal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los spoilers confirman que Katniss y Peeta no son los únicos protagonistas, aunque nadie lo esperaba realmente."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Es mejor conocer el final antes de ver la película o dejar la sorpresa intacta para todos?"
+    }
+   ],
+   "seg": 28,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/aa2a60a38fef612d_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/aa2a60a38fef612d_169.jpg",
+     "credito": "Foto: Hipertextual"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "La voz de Ezio ha visto lo que la fama hace con los actores de videoju",
+   "sub": "3DJuegos · hace 16 h",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Ezio ha visto cómo la fama cambia a los actores de videojuegos y tiene un consejo para las estrellas de GTA 6."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El voz de los videojuegos dice que el éxito comercial puede ser tanto una bendición como una cadena ineludible."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Estás listo para ser parte del fenómeno o prefieres mantener tu privacidad en la era digital?"
+    }
+   ],
+   "seg": 28,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/be0ac2ef2a5bedb6_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/be0ac2ef2a5bedb6_169.jpg",
+     "credito": "Foto: 3DJuegos"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_bLagFDy2Rhs",
+   "archivo": "yt/coding/bLagFDy2Rhs.mp4",
+   "titulo": "Stylish Fashion Vlog Event by Infraction / Forgotten Chat",
+   "audio": "yt/coding/bLagFDy2Rhs.m4a",
+   "atribucion": "Música: «Stylish Fashion Vlog Event by Infraction / Forgotten Chat» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 114,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/bLagFDy2Rhs.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_ZUO3nRiw8g4",
+   "archivo": "yt/synthwave/ZUO3nRiw8g4.m4a",
+   "titulo": "Todd Helder & Guy Arthur feat. TITUS - Closer | Trap | NCS",
+   "audio": "yt/synthwave/ZUO3nRiw8g4.m4a",
+   "atribucion": "Música: «Todd Helder & Guy Arthur feat. TITUS - Closer | Trap | NCS» · NoCopyrightSounds · sin copyright (YouTube)",
+   "dur": 206,
+   "genero": "SYNTHWAVE",
+   "img": "/tv/media/yt/synthwave/ZUO3nRiw8g4.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 8,
+  "seg_charla": 208,
+  "medios": 3
+ }
+}

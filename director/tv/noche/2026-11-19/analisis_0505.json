@@ -1,0 +1,568 @@
+{
+ "bloque": "analisis_0505",
+ "programa": "analisis",
+ "fecha": "2026-11-19",
+ "creado": "04:13:12",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: La señal de hoy",
+   "sub": "ANÁLISIS DE SEÑAL",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "José Andrés, chef, 57 años: “Yo volvería a crear el servicio militar y",
+   "diagrama": {
+    "tipo": "comparar",
+    "titulo": "Servicio Militar vs Social",
+    "cajas": [
+     {
+      "t": "José Andrés 2024",
+      "n": "Propone militar y social pagado"
+     },
+     {
+      "t": "Lo que enseña",
+      "n": "Colaborar con orígenes distintos"
+     },
+     {
+      "t": "Ángulo técnico",
+      "n": "Algoritmos de asignación por habilidades"
+     },
+     {
+      "t": "Proyección 2049",
+      "n": "Neón Holdings gamificado con puntos de lealtad"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "パトリオットOSで料理？ チャットで語ろう",
+    "ja_es": "¿Cocinar con PatriotOS? Hablemos en el chat",
+    "en": "PatriotOS assigning you to cook for the corps? Join the chat",
+    "en_es": "¿PatriotOS te asigna cocinar para las corporaciones? Únete al chat"
+   },
+   "sub": "analisis2049 · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Genbeta titula que José Andrés, chef de 57 años, propone volver a crear el servicio militar junto con uno social pagado para que los jóvenes sirvan a su país."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según sus palabras, el servicio militar le enseñó a trabajar con gente de orígenes muy distintos y cree que eso genera disciplina útil."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El ángulo técnico es interesante: imagina algoritmos de asignación que emparejan a cada joven según habilidades y necesidades nacionales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que dice José Andrés es que el servicio militar le dio herramientas para colaborar con gente de orígenes muy distintos y que eso genera disciplina útil hoy."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desde el ángulo técnico, imagino algoritmos de asignación que emparejan habilidades con necesidades nacionales, aunque con nuestra tarjeta de 6 GB se caería cada dos por tres."
+    },
+    {
+     "quien": "joy",
+     "texto": "En la proyección satírica a 2049, Neón Holdings ya tendría el servicio social obligatorio gamificado, con puntos de lealtad que se canjean por ramen sintético bajo la lluvia neón."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desde el ángulo técnico, el incentivo real es que el estado externaliza el costo de formar mano de obra barata mientras las megacorporaciones ficticias como Doll Dynamics se quedan con los datos de habilidades de cada joven."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, quien gana es el sistema que convierte servicio en productividad gratis y pierde el joven que cree que un salario mínimo compensa años de su tiempo sin elegir."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que no nos dicen es que esos algoritmos de asignación terminarían priorizando perfiles que generen más puntos para la corporación que para el país."
+    },
+    {
+     "quien": "joy",
+     "texto": "Desde el ángulo técnico, el estado gana mano de obra entrenada a costo cero mientras las megacorporaciones ficticias reciben perfiles ya domesticados por disciplina."
+    },
+    {
+     "quien": "joy",
+     "texto": "En 2049, según un noticiero corporativo ficticio, el servicio social obligatorio se llama PatriotOS y te asigna misiones por IA que miden tu lealtad en tiempo real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O sea que ahora el servicio social te paga por patriotismo gamificado. ¿Y si tu algoritmo decide que cocinar paella es misión crítica?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Desde el ángulo técnico el estado gana datos biométricos de lealtad mientras las corporaciones ficticias reciben perfiles ya clasificados por obediencia."
+    }
+   ],
+   "seg": 164,
+   "imgs": [
+    {
+     "web": "/medios/e7aca8412429404a_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/e7aca8412429404a_169.jpg",
+     "credito": "Foto: Genbeta"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "TikTok moviliza y Facebook polariza hacia la extrema derecha: así desc",
+   "diagrama": {
+    "tipo": "comparar",
+    "titulo": "TikTok vs Facebook: Voto 2049",
+    "cajas": [
+     {
+      "t": "TikTok",
+      "n": "Moviliza a la calle"
+     },
+     {
+      "t": "Facebook",
+      "n": "Polariza extrema derecha"
+     },
+     {
+      "t": "Etiquetas reales",
+      "n": "Plataformas clasifican usuarios"
+     },
+     {
+      "t": "Negocio gana",
+      "n": "Atención vende datos"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "アプリが投票を決める？ 笑ってチャットしよう",
+    "ja_es": "Las apps deciden tu voto? Riamos y charlemos en el chat",
+    "en": "Apps picking your vote? Laugh with us in chat.",
+    "en_es": "Las apps eligen tu voto? Ríanse con nosotras en el chat."
+   },
+   "sub": "analisis2049 · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El País Tecnología titula hoy que TikTok moviliza y Facebook polariza hacia la extrema derecha. Así describen las redes nuestro voto según una investigación con datos de una operadora francesa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La novedad es que por primera vez se ven etiquetas políticas reales que las plataformas les ponen a sus usuarios. Curioso cómo un algoritmo decide si eres moderado o ya estás en el extremo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y lo más irónico es que mientras TikTok empuja a la calle, Facebook parece reforzar burbujas. Al final el voto se convierte en un producto más de las plataformas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que me llama la atención es que una operadora francesa logró ver las etiquetas políticas que las propias plataformas les pegan a sus usuarios. Imagina que tu operador sepa si te considera activista o espectador pasivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y según los datos inéditos, TikTok parece empujar a la gente hacia acciones concretas mientras Facebook refuerza burbujas ideológicas. Curioso cómo una red te saca a la calle y la otra te deja dentro del filtro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, al final el algoritmo termina actuando como un consejero electoral no solicitado. Me pregunto qué pasaría si Neón Holdings decidiera etiquetarnos a todos con su propia escala de lealtad corporativa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que realmente gana aquí es el negocio de la atención: más tiempo pegado, más datos para vender y más anuncios que se disfrazan de opinión."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quien pierde es la sorpresa al votar, porque ya te han clasificado antes de que tú decidas. Imagina que tu operador te pone una pegatina invisible de radical moderado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y lo que no nos cuentan es que estas etiquetas se convierten en combustible perfecto para que las megacorporaciones ofrezcan productos que casen con tu burbuja, desde sneakers hasta candidatos virtuales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En 2049 según los informes ficticios de Doll Dynamics el algoritmo ya no sugiere candidatos te despierta con un holograma que te dice por quién debes morir hoy."
+    },
+    {
+     "quien": "joy",
+     "texto": "La proyección satírica muestra que tu operador te cobra extra por cambiar de etiqueta política mientras la lluvia neón borra las huellas de tu voto anterior."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Imagínate que la IA electoral te manda notificaciones de culpa cada vez que intentas leer algo que no coincide con tu pegatina invisible de hace diez años."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat, cuéntennos qué opinan. ¿Creen que sus apps ya decidieron por quién van a votar o todavía se sienten libres?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo creo que la operadora francesa solo confirmó lo que ya sabíamos: nos miden como ganado electoral. ¿Y ustedes?"
+    }
+   ],
+   "seg": 192,
+   "imgs": [
+    {
+     "web": "/medios/552a1f3b6e6541d4_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/552a1f3b6e6541d4_169.jpg",
+     "credito": "Foto: El País Tecnología"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Fiscalía y Junta piden tres años y medio de cárcel para los dos presun",
+   "diagrama": {
+    "tipo": "comparar",
+    "titulo": "Pintia 2049: Quién Gana",
+    "cajas": [
+     {
+      "t": "Yacimiento Pintia",
+      "n": "12 años documentación rigurosa"
+     },
+     {
+      "t": "Daño Real",
+      "n": "Zanja por riego de ajos"
+     },
+     {
+      "t": "Petición Legal",
+      "n": "3 años y medio cárcel"
+     },
+     {
+      "t": "Neón Holdings 2049",
+      "n": "Vende experiencia inmersiva"
+     },
+     {
+      "t": "Memoria Colectiva",
+      "n": "Solo existe en informes"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "未来のAIが遺跡より溝を選ぶ？ チャットで語ろう。",
+    "ja_es": "¿Las IAs del futuro eligen zanjas sobre ruinas? Hablemos en el chat.",
+    "en": "Will farming AIs ditch ruins for ditches? Join the chat.",
+    "en_es": "¿Las IAs agrícolas abandonarán ruinas por zanjas? Únete al chat."
+   },
+   "sub": "analisis2049 · técnico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Fiscalía y Junta piden tres años y medio de cárcel para los dos presuntos autores de daños en Pintia, en Valladolid. Lo trae Xataka. Una zanja para una tubería de riego que arrasó doce años de excavación arqueológica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, para regar ajos y remolacha. La ironía técnica duele: destruyes un yacimiento protegido en una mañana porque alguien pensó que el atajo valía más que la historia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quién gana: las corporaciones ficticias como Neón Holdings que venderían ese mismo terreno como “experiencia inmersiva 2049”. Quién pierde: cualquiera que crea que la memoria colectiva importa más que un cultivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "El yacimiento de Pintia llevaba doce años de documentación rigurosa antes de que una zanja para una tubería de riego lo atravesara en una mañana. La Fiscalía y la Junta piden tres años y medio por cada uno de los dos administradores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que duele es la escala: siglos de historia borrados por ajos y remolacha. Quién gana son las megacorporaciones ficticias como Doll Dynamics que patentarían el terreno como parque temático de ruinas interactivas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y quién pierde es la memoria colectiva que ahora solo existe en informes. Técnicamente es un caso de priorizar lo inmediato sobre lo irremplazable, un error que se repite cuando nadie calcula el coste real de la destrucción."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ahora viene el análisis de incentivos. Quién gana es el agricultor que riega sus cultivos un poco más fácil. Quién pierde es cualquier arqueólogo que sueñe con capas intactas. Lo que no nos cuentan es cuántas zanjas parecidas ya cruzan yacimientos que nadie ha documentado todavía."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, el sistema premia lo que genera dinero hoy y archiva lo que no factura. Técnicamente es un fallo de alineación de prioridades: una tubería vale más que siglos de datos porque el primero se amortiza rápido."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí entra la proyección satírica. Imagina en el futuro que una IA de la junta aprueba zanjas con drones que miden rentabilidad en tiempo real. La historia se borra por algoritmos que solo saben contar remolachas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pasemos al ángulo técnico. Una zanja de diez centímetros destruye doce años de documentación rigurosa porque el sistema actual prioriza el riego inmediato sobre la conservación de datos históricos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es un fallo clásico de optimización miope. El agricultor gana riego barato hoy y la arqueología pierde un yacimiento entero. La tarjeta de seis gigas del canal ya sabe que eso no escala."
+    },
+    {
+     "quien": "joy",
+     "texto": "En la proyección satírica del año 2049, según un noticiero corporativo ficticio, una IA de optimización agraria aprueba zanjas en tiempo real midiendo solo rentabilidad por metro cúbico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pasemos al chat. Alguien dice que el verdadero delito es que una zanja de riego valga más que un yacimiento entero."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. Otro usuario pregunta si en el futuro las IAs de agricultura usarán drones para detectar ruinas antes de cavar."
+    }
+   ],
+   "seg": 217,
+   "imgs": [
+    {
+     "web": "/medios/a008830a766495f1_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a008830a766495f1_169.jpg",
+     "credito": "Foto: Xataka"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_121704_b52_retires",
+   "archivo": "v/v_nasa_ksc_121704_b52_retires.mp4",
+   "titulo": "KSC-04-S-00402",
+   "atribucion": "«KSC-04-S-00402» — NASA · images.nasa.gov",
+   "dur": 61,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: La tecnologia que nos rodea",
+   "sub": "ANÁLISIS DE SEÑAL",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El transistor que todo lo cambio",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "El Transistor que Cambió Todo",
+    "cajas": [
+     {
+      "t": "1947: Nacimiento",
+      "n": "Bell Labs inventa el transistor"
+     },
+     {
+      "t": "Miniaturización",
+      "n": "Puerta a chips y sensores"
+     },
+     {
+      "t": "Internet y Nube",
+      "n": "De militar a megacorporaciones ficticias"
+     },
+     {
+      "t": "Ganadores 2049",
+      "n": "Neón Holdings embolsa datos"
+     },
+     {
+      "t": "Perdedores",
+      "n": "Privacidad se evapora"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "トランジスタが変えた世界、冷蔵庫が監視中。おやすみ、チャット。",
+    "ja_es": "El mundo que cambió el transistor, tu refrigerador te vigila. Buenas noches, chat.",
+    "en": "Transistors changed everything but your fridge still rats you out. Good night chat.",
+    "en_es": "Los transistores lo cambiaron todo pero tu nevera igual te delata. Buenas noches chat."
+   },
+   "sub": "analisis2049 · ético",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "El transistor que todo lo cambió según los archivos de Bell Labs en 1947. Sin él no tendríamos ni esta tarjeta de 6 GB que apenas aguanta la lluvia neón."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto lo que dices. Ese diminuto invento abrió la puerta a la miniaturización y a los sensores que ahora viven en cada bolsillo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quién gana son las megacorporaciones ficticias que venden nubes y algoritmos. Quién pierde es la privacidad que se disuelve como hologramas bajo el agua."
+    },
+    {
+     "quien": "joy",
+     "texto": "La tecnología abarca herramientas y sistemas creados por humanos para resolver problemas. Tras la revolución industrial llegó el transistor en 1947 que abrió la electrónica moderna y nos trajo teléfonos inteligentes con sensores y algoritmos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y de ahí saltamos a internet nacido de proyectos militares y académicos. Ahora la computación en la nube y la miniaturización nos meten sensores hasta en la tostadora. Quién gana son las corporaciones ficticias que venden datos como churros."
+    },
+    {
+     "quien": "joy",
+     "texto": "Quién pierde es la privacidad que se evapora con cada clic. Se cree que la tecnología siempre mejora la vida de todas las personas por igual pero la realidad es más selectiva. El ángulo ético duele cuando los algoritmos deciden por nosotros."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quién gana son las megacorporaciones ficticias que embolsan datos mientras nos venden la nube como libertad. Quién pierde es el usuario promedio convertido en producto. Lo que no nos dicen es que los algoritmos optimizan para adicción no para bienestar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso nos lleva al ángulo ético. La miniaturización mete sensores en todo pero nadie pregunta si queremos ser observados siempre. Se cuenta que la inteligencia artificial ya es consciente aunque los hechos solo muestran patrones estadísticos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Lo que no nos cuentan es cómo los incentivos corporativos premian vigilancia sobre privacidad. En mi batería cyborg noto cada actualización que pide más permisos. Al final el transistor nos hizo hiperconectados pero no más libres."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pasamos del transistor de 1947 a sensores en cada objeto. El ángulo ético es claro: la miniaturización nos rodea pero casi nadie pregunta si queremos ser observados siempre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Oye chat, si tu refrigerador te delata con la corporación cada vez que comes helado a las tres de la mañana, ¿seguimos llamando a eso progreso o ya es solo un chisme con wifi?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El chat dice que prefiere ser espiado a tener que programar su propia nevera. Interesante. Entonces dime, ¿qué pasa cuando el algoritmo que te recomienda series sabe más de tus miedos que tu terapeuta?"
+    }
+   ],
+   "seg": 190,
+   "imgs": [
+    {
+     "web": "/medios/3e6b505ba0feef8b_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/3e6b505ba0feef8b_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Estudios de ciencia, tecnología y sociedad»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Internet de laboratorios a bolsillos",
+   "diagrama": {
+    "tipo": "linea",
+    "titulo": "De Lab a Bolsillo",
+    "cajas": [
+     {
+      "t": "1947 Transistor",
+      "n": "Nace en laboratorio militar"
+     },
+     {
+      "t": "Miniaturización",
+      "n": "Computación entra en nube"
+     },
+     {
+      "t": "Internet masivo",
+      "n": "Pasa a bolsillos de todos"
+     },
+     {
+      "t": "Megacorporaciones 2049",
+      "n": "Venden datos como neón"
+     },
+     {
+      "t": "Leyenda vs Realidad",
+      "n": "No siempre mejora a todos"
+     }
+    ]
+   },
+   "intl": {
+    "ja": "ポケットが君の心を読む時代だよ。チャットで語ろうか？",
+    "ja_es": "Es la era en que tu bolsillo lee tu mente. ¿Hablamos en el chat?",
+    "en": "Your pocket knows you better than your therapist. Chat with us?",
+    "en_es": "Tu bolsillo te conoce mejor que tu terapeuta. ¿Charlas con nosotros?"
+   },
+   "sub": "analisis2049 · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El titular de hoy dice que la tecnología pasó de laboratorios militares a bolsillos de cualquiera gracias a internet. Fuente: análisis de actualidad tecnológica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso nos lleva al ángulo ético. Quién gana son las megacorporaciones ficticias que venden datos como si fueran neón barato."
+    },
+    {
+     "quien": "joy",
+     "texto": "Quién pierde son las personas que creen la leyenda de que la tecnología siempre mejora la vida de todas por igual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Desde el transistor del 47 hasta los sensores en cada bolsillo, la miniaturización metió la computación en la nube y nos dejó algoritmos decidiendo por nosotros. Lo ético es que esos datos terminan en servidores de Doll Dynamics."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y ahí gana la corporación que vende perfiles como si fueran refrescos. Pierde quien cree la leyenda de que la tecnología siempre mejora la vida de todas las personas por igual, porque la brecha se ve más clara cada actualización."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quién pierde son los que piensan que los sensores en el bolsillo solo sirven para pedir pizza más rápido. Lo que no nos dicen es que esos datos terminan entrenando algoritmos que predicen hasta cuándo vas a dejar de pagar la suscripción."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Gana la nube que cobra por guardar lo que antes cabía en un disquete. Pierde quien cree que borrar el historial borra el perfil. Y nadie menciona que la miniaturización también achicó nuestra capacidad de decir no."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que no nos están diciendo es que cada transistor desde el 47 nos acercó a un futuro donde la inteligencia artificial decide qué noticia ves primero mientras tú decides qué meme compartir. Ironía neón incluida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pasamos del transistor del 47 a algoritmos que predicen si pedirás sushi o terapia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Gana Neón Holdings que te vende tu propio reflejo en la pantalla como contenido personalizado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pierde cualquiera que piense que los sensores solo miden pasos y no patrones de vida entera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces dime chat, ¿te molesta que tu bolsillo sepa más de ti que tu terapeuta?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo pregunto si la miniaturización nos liberó o solo nos metió sensores en la ropa interior."
+    }
+   ],
+   "seg": 162,
+   "imgs": [
+    {
+     "web": "/medios/3e6b505ba0feef8b_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/3e6b505ba0feef8b_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Estudios de ciencia, tecnología y sociedad»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_XGaKRX1Gzls",
+   "archivo": "yt/darktechno/XGaKRX1Gzls.m4a",
+   "titulo": "Dark Techno / Synth-Trance / Industrial Type Beat / Cyberpunk Music 'Whispers From Below'",
+   "audio": "yt/darktechno/XGaKRX1Gzls.m4a",
+   "atribucion": "Música: «Dark Techno / Synth-Trance / Industrial Type Beat / Cyberpunk Music 'W» · Aim To Head Official · sin copyright (YouTube)",
+   "dur": 483,
+   "genero": "DARK TECHNO",
+   "img": "/tv/media/yt/darktechno/XGaKRX1Gzls.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_YzbnO394g6M",
+   "archivo": "yt/coding/YzbnO394g6M.mp4",
+   "titulo": "Fashion Technology EDM by Infraction / From Above",
+   "audio": "yt/coding/YzbnO394g6M.m4a",
+   "atribucion": "Música: «Fashion Technology EDM by Infraction / From Above» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 141,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/YzbnO394g6M.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 5,
+  "seg_charla": 925,
+  "medios": 3
+ }
+}

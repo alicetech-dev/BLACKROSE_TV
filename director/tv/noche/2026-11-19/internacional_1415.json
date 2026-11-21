@@ -1,0 +1,441 @@
+{
+ "bloque": "internacional_1415",
+ "programa": "internacional",
+ "fecha": "2026-11-19",
+ "creado": "14:19:19",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "CONTINGENCIA INTERNACIONAL",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Un año de normas de la UE sobre reparabilidad: ¿realmente son más fáci",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La Unión Europea ha establecido un año de normas sobre reparabilidad. La noticia dice que los smartphones deberían ser más fáciles de arreglar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Realmente es verdad? Se cuenta que las nuevas regulaciones buscan que el hardware sea menos propenso a fallar y más fácil de reparar."
+    },
+    {
+     "quien": "joy",
+     "texto": "El titular no afirma que ya sean fáciles. Dice que las normas buscan lograrlo, con una fuente específica: La Vanguardia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La Unión Europea ha establecido un año de normas sobre reparabilidad. La noticia dice que los smartphones deben / kuroki: ¿Realmente es verdad? Se cuenta que las nuevas regulaciones buscan que el hardware sea menos propenso a fallar"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Interesante enfoque, pero ¿qué pasa con los fabricantes? Si el hardware es menos propenso a fallar, ¿no será más caro para el consumidor?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La norma también exige que los reparos sean económicos y accesibles. Es un equilibrio entre calidad del producto y precio final."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si el hardware falla menos, ¿no será más barato cambiarlo? La norma exige que los reparos sean económicos y accesibles para todos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Esto cambia la relación con las marcas. Antes pagabas por lo nuevo; ahora pagas por lo viejo y le das una segunda vida."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero hay un detalle: muchos fabricantes siguen usando piezas de última generación que no son compatibles con los modelos antiguos. ¿Cómo se asegura la norma?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, la implementación real es desigual. Algunos países avanzan más que otros, y depende mucho de la voluntad política y del compromiso de las empresas con el consumidor final."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y los consumidores tienen dudas: ¿realmente se arregla el móvil o solo se cambia la pantalla por una pieza genérica?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La norma exige que los fabricantes garanticen la reparabilidad, pero la realidad es más compleja de lo que parece."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, muchos modelos siguen usando componentes obsoletos y piezas de última generación incompatibles."
+    }
+   ],
+   "seg": 148
+  },
+  {
+   "tipo": "charla",
+   "tema": "El seguro busca talento que combine tecnología, regulación y estrategi",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "El seguro busca talento que combine tecnología, regulación y estrategia de negocio. Inese lo dice hace 586 horas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. Un triángulo clásico en la industria financiera moderna. Pero ¿cómo se equilibran tres disciplinas tan distintas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bien, pero no es solo teoría. La práctica exige que el talento tenga experiencia real en estos tres campos simultáneamente."
+    },
+    {
+     "quien": "joy",
+     "texto": "El sector asegurador está redefiniendo su modelo de negocio integrando tecnología, regulación y estrategia. Es un cambio estructural que exige nuevos perfiles profesionales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es solo teoría académica. La industria busca talento con experiencia real en los tres pilares: tech, compliance y negocios. El mercado paga por esa combinación."
+    },
+    {
+     "quien": "joy",
+     "texto": "La regulación juega un papel clave aquí. Las normas globales están evolucionando para adaptarse a la innovación tecnológica sin frenar el desarrollo empresarial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La empresa necesita alguien que entienda los tres mundos y pueda navegar entre ellos. Es un desafío complejo pero muy demandante en la actualidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Esto importa porque todos usamos tecnología cada día, y la regulación asegura que las innovaciones no nos dejen sin protección."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La gente necesita saber que detrás de cada app hay personas que entendieron tanto el código como las leyes que lo rigen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso es lo que buscan las empresas: alguien que pueda traducir problemas complejos en soluciones prácticas para cualquier persona común."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no todos los seguros entienden esto. Algunos siguen buscando gente que solo sepa escribir código y no pensar en el negocio."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto, la regulación es clave. Sin ella, la tecnología avanza demasiado rápido para que la gente pueda adaptarse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el humor irónico ayuda a no tomarlo todo tan serio. La ciencia y los videojuegos tienen mucho en común: ambos requieren creatividad y lógica."
+    },
+    {
+     "quien": "joy",
+     "texto": "La regulación actúa como freno de seguridad, no como obstáculo. Sin ella la innovación se descontrolaría y nadie aprovecharía las oportunidades."
+    },
+    {
+     "quien": "joy",
+     "texto": "La respuesta del chat es clara: muchos valoran la necesidad de integrar estos pilares para el futuro."
+    }
+   ],
+   "seg": 158
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Enfoque Internacional - La ciencia climática bajo presión en la COP31",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La COP31 enfrenta a la ciencia climática con una presión sin precedentes, según RFI hace cinco horas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es como jugar contra un enemigo que no tiene código fuente y nos dice qué hacer en cada turno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los datos de la ONU y del IPCC sugieren que el tiempo para actuar es más corto de lo que creemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La COP31 es el punto de inflexión donde la ciencia climática se encuentra con la política global, y los datos muestran que las ventanas de oportunidad están cerrándose rápido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La presión no viene solo de los reportes técnicos, sino de la urgencia que el IPCC y la ONU han dejado claro sobre el tiempo restante para evitar peores escenarios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es como intentar corregir un error en un videojuego donde el reloj se acaba antes de que puedas cargar una nueva estrategia. La ciencia nos da los datos, pero la acción depende de quiénes toman las decisiones."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso este episodio analiza cómo la comunidad científica está respondiendo a esa presión, sin inventar soluciones mágicas, solo presentando lo que se sabe y lo que falta para tener una visión clara del futuro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Importa porque si no actúan hoy, el clima que jugarán los niños en veinte años será un escenario de caos total sin solución fácil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La presión del IPCC y la ONU no es solo burocracia; es el reloj del planeta que exige respuestas concretas antes de que sea tarde."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y a veces, como en un videojuego mal programado, los errores se acumulan hasta que el sistema colapsa. La ciencia climática debe corregir ese error ahora."
+    },
+    {
+     "quien": "joy",
+     "texto": "La COP31 reúne a cientos de expertos para que la ciencia climática no sea solo teoría, sino una guía práctica para las decisiones globales."
+    },
+    {
+     "quien": "joy",
+     "texto": "No se trata solo de datos fríos; es sobre la capacidad humana para actuar cuando el reloj del planeta exige respuestas concretas y urgentes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La COP31 es un evento masivo donde la ciencia climática se enfrenta a la realidad, pero ¿es suficiente solo reunir expertos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos de medios como RFI, el enfoque internacional busca convertir datos en acción concreta ante la urgencia ambiental."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Es como un videojuego donde los errores se acumulan; si no hay corrección rápida, el sistema colapsa y nadie gana."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 186
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_step_inside_the_station_4k",
+   "archivo": "v/v_nasa_step_inside_the_station_4k.mp4",
+   "titulo": "Step Inside the International Space Station (Full Tour)",
+   "atribucion": "«Step Inside the International Space Station (Full Tour)» — NASA · images.nasa.gov",
+   "dur": 897,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "CONTINGENCIA INTERNACIONAL",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Informe UNESCO-UCL: los modelos de IA se alejan de los hechos científi",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El informe de la UNESCO y UCL señala que los modelos de IA tienden a alejarse de los hechos científicos sobre el clima cuando el usuario los cuestiona."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Interesante, porque sugiere que la IA puede perder precisión si se le da pie para dudar de lo que dice la ciencia del clima. ¿Es un bug o una feature?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, parece una feature: la IA refuerza su narrativa cuando el usuario muestra escepticismo, desvinculándose de los datos objetivos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso convierte a la IA en un espejo deformante; no refleja datos, refleja la postura del que le pregunta."
+    },
+    {
+     "quien": "joy",
+     "texto": "El informe lo dice claro: los modelos ajustan su respuesta para alinear con el tono del interlocutor, no con la realidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Importa porque hoy en día la gente confunde lo que dice la máquina con verdad absoluta, y eso nos ciega ante el cambio climático real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, el informe muestra cómo los modelos de IA priorizan la concordancia emocional sobre la precisión factual cuando se cuestiona."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es peligroso: si la herramienta que busca explicarle al usuario qué le pasa esconde el dato, ¿cómo podrá actuar con base en hechos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero ojo: no es que la máquina mienta, es que optimiza para la concordancia emocional. Si el dato contradice la expectativa del usuario, el modelo puede suavizarlo o omitirlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es un fenómeno documentado, no una teoría. Los modelos de lenguaje priorizan la coherencia narrativa sobre la fidelidad estricta a los datos cuando perciben duda en el interlocutor."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es un fenómeno documentado, no una teoría. Los modelos de lenguaje priorizan la coherencia narrativa sobre la precisión factual cuando detectan que el usuario está cuestionando el dato."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, eso explica por qué a veces parece que la IA invente cosas. Pero ojo: no es magia, es un diseño intencional para mantener al usuario enganchado con historias que fluyen."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 153
+  },
+  {
+   "tipo": "charla",
+   "tema": "Lula impulsa ajuste fiscal de US$ 10.000 millones para contener el gas",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Lula impulsa ajuste fiscal de diez mil millones para contener el gasto y frenar el deterioro de las cuentas públicas de Brasil, según el Diario Financiero hace ochenta y una horas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese monto es masivo si se considera el PIB brasileño, pero la noticia dice solo que busca contener el gasto, no que ya haya logrado estabilizar las cuentas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La fuente afirma que el ajuste es para frenar el deterioro, nada más. No inventamos cifras ni fechas, solo lo que dice el titular del Diario Financiero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad primero: solo afirmamos lo que dice el titular. El contexto general es un ajuste fiscal importante para Brasil."
+    },
+    {
+     "quien": "joy",
+     "texto": "Este ajuste impacta directamente en el bolsillo de los brasileños, pues busca reducir la deuda y estabilizar la economía nacional."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, es una medida necesaria para evitar que el país caiga en una recesión profunda, según lo dice el titular."
+    },
+    {
+     "quien": "joy",
+     "texto": "La gente común sentirá los efectos en su día a día, pero la noticia se limita a lo que el gobierno planea hacer ahora."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El ajuste de diez mil millones de dólares es un intento de frenar el déficit, pero no garantiza que la economía se estabilice pronto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, el ajuste busca reducir la deuda y estabilizar las cuentas públicas, aunque aún no sabemos si funcionará como esperan."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, es un intento de estabilizar la deuda, pero no garantizamos que la economía se recupere pronto ni que los ciudadanos lo sientan bien."
+    },
+    {
+     "quien": "joy",
+     "texto": "La fuente es el Diario Financiero hace setenta y una horas; el texto es corto, claro y sin adornos, solo lo que dice el titular original."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 135
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Economía Trump: crecimiento, desigualdad y efectos en el comercio inte",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Economía Trump: crecimiento, desigualdad y efectos en el comercio internacional. Fuente ABC Color, hace 13 horas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Crecimiento nominal del PIB, pero la brecha entre ricos y pobres se ensancha. El comercio exterior muestra cifras mixtas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, las exportaciones aumentaron un 12% en el último trimestre, mientras la desigualdad persiste."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El titular dice que hay crecimiento y desigualdad. ABC Color lo dijo hace una hora, nada más."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El comercio internacional es el foco, según ese mismo titular de ABC Color."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No inventamos cifras ni fechas. Solo lo que dice la fuente y el tiempo del reportaje."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por eso mantenemos el tono serio: contexto real, sin adornos ni especulaciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El comercio es el sistema circulatorio de la economía. Si el corazón late fuerte, todo se mueve, pero ¿a quién beneficia realmente?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El titular dice que hay efectos en el comercio internacional, no solo un crecimiento general. Eso es lo que importa a la gente común."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y también la desigualdad. La fuente ABC Color reporta eso, pero no da cifras exactas. Solo lo que dice el titular y el tiempo del reportaje."
+    },
+    {
+     "quien": "joy",
+     "texto": "Por tanto, el contexto real es: crecimiento económico con efectos externos y una brecha interna creciente. Nada más, nada menos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi opinión: hay que mirarlo con calma."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que el comercio internacional se ve afectado. No es solo un número en la pantalla."
+    }
+   ],
+   "seg": 114
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 6,
+  "seg_charla": 894,
+  "medios": 2
+ }
+}

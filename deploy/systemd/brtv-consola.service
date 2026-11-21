@@ -1,0 +1,14 @@
+[Unit]
+Description=BlackRose TV · CONSOLA del director del canal :8834 (planificar, temáticas, pausar/seguir, escenas, hablar)
+After=network-online.target
+
+[Service]
+WorkingDirectory=/home/alice/joy_vmc
+ExecStart=/home/alice/joy_vmc/.venv/bin/python -u -m director.consola_canal
+Restart=always
+RestartSec=3
+StandardOutput=append:/home/alice/joy_vmc/logs/consola.log
+StandardError=append:/home/alice/joy_vmc/logs/consola.log
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>BlackRose TV · Japón</title>
+<!-- CAPA JAPÓN de BlackRose TV (1920×1080). Servida por director/japon_srv.py (:8826); estado en GET /api/japon.
+       ?capa=fondo   escenario OPACO: foto del Monte Fuji + panel central con láminas (fotos con crédito de licencia, capturas de Fast Penguin, tarjetas)
+       ?capa=sakura  transparente: pétalos de sakura cayendo + hashtags (OBS: encima de todo, debajo de nada importante)
+       ?capa=trad    transparente: TRADUCCIÓN AL ESPAÑOL de lo que dicen las dolls en japonés (franja sobre los subtítulos) + comentarios del chat traducidos (esquina)
+       ?demo=1 muestra datos de ejemplo.   Tipos de lámina: foto{img,ja,es,credito} · texto{ja,es,sub} · lista{ja,es,items:[{ja,es}]} · tags{tags:[…]} -->
+<style>
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:VT323;src:url(/img/fuentes/vt323.woff2) format("woff2")}
+:root{--sak:#ff8fc7;--sak2:#ffd1e8;--cian:#00e5ff;--oro:#ffe45e;--fondo:rgba(12,4,18,.88)}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent;color:#fff;font-family:Rajdhani,"Noto Sans CJK JP","Noto Sans JP",sans-serif}
+.jp{font-family:"Noto Sans CJK JP","Noto Sans JP","Noto Sans CJK TC",sans-serif;font-weight:700}
+body[data-capa=fondo]{background:#10060f}
+.cap{display:none}
+body[data-capa=fondo] .c-fondo,body[data-capa=sakura] .c-sakura,body[data-capa=trad] .c-trad{display:block}
+
+/* ───── fondo: Fuji + panel ───── */
+#bg{position:absolute;inset:0;background:#1a0a1a center/cover no-repeat;transition:opacity 1.2s}
+#bgv{position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,4,22,.55) 0%,rgba(16,4,22,.15) 35%,rgba(16,4,22,.35) 70%,rgba(10,2,16,.85) 100%)}
+#pan{position:absolute;left:480px;top:250px;width:960px;height:540px;background:#0b0410;border:4px solid var(--sak);overflow:hidden;
+  box-shadow:0 0 24px rgba(255,143,199,.65),0 0 70px rgba(255,143,199,.25)}
+.sl{position:absolute;inset:0;opacity:0;transition:opacity .9s}
+.sl.on{opacity:1}
+.sl img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:kb 26s ease-in-out forwards}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.09) translate(-1.2%,-1%)}}
+.sl .cap-t{position:absolute;left:0;right:0;bottom:0;padding:34px 26px 16px;background:linear-gradient(0deg,rgba(8,2,14,.92),rgba(8,2,14,0))}
+.sl .cap-t .j{font-size:44px;line-height:1.1;text-shadow:0 0 14px #000,0 0 6px #000}
+.sl .cap-t .e{font:28px Rajdhani;color:var(--sak2);letter-spacing:1px;margin-top:2px;text-shadow:0 0 10px #000}
+.card{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:radial-gradient(ellipse at 50% 35%,#3a0f33,#0b0410 75%)}
+.card .j{font-size:92px;line-height:1.1;color:#fff;text-shadow:0 0 18px var(--sak),0 0 50px var(--sak);margin:0 30px}
+.card .e{font:44px Audiowide;color:var(--sak2);margin:16px 30px 0;letter-spacing:2px}
+.card .s{font:28px Rajdhani;color:#e9d9f7;margin:14px 50px 0;letter-spacing:1px}
+.lista{padding:26px 34px;background:radial-gradient(ellipse at 50% 0%,#3a0f33,#0b0410 80%)}
+.lista h2{margin:0;font-size:44px;color:#fff;text-shadow:0 0 14px var(--sak)}
+.lista h3{margin:0 0 14px;font:26px Audiowide;color:var(--sak2);letter-spacing:2px}
+.lista .it{display:flex;gap:18px;align-items:baseline;border-top:1px solid rgba(255,143,199,.35);padding:9px 0}
+.lista .it .j{font-size:28px;min-width:300px}
+.lista .it .e{font:26px Rajdhani;color:#ffe9f5}
+.tagsc{display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 35%,#3a0f33,#0b0410 75%)}
+.tagsc b{font:46px Audiowide;color:var(--sak);margin:7px 0;text-shadow:0 0 14px var(--sak)}
+#plaque{position:absolute;left:480px;top:216px;font:15px Orbitron;letter-spacing:4px;color:#10040f;background:var(--sak);padding:4px 12px}
+#cred{position:absolute;left:480px;top:794px;width:960px;background:rgba(10,3,16,.92);border-left:8px solid var(--sak);padding:2px 14px;transition:opacity .5s;box-sizing:border-box}
+#cred span{font:18px Rajdhani;color:#f5dcee;letter-spacing:.5px}
+#rec{position:absolute;left:1180px;top:218px;width:260px;text-align:right;font:15px Orbitron;letter-spacing:3px;color:var(--sak)}
+#rec i{display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff2d4a;margin-right:8px;animation:late 1s steps(2) infinite}
+@keyframes late{50%{opacity:.2}}
+
+/* ───── sakura: pétalos + hashtags ───── */
+#sk{position:absolute;inset:0;width:1920px;height:1080px}
+#tags{position:absolute;right:30px;top:118px;width:430px;text-align:right}
+#tags b{display:block;font:46px Audiowide;color:#fff;text-shadow:0 0 12px var(--sak),0 0 30px var(--sak),3px 3px 0 #d4468f;transition:opacity .5s}
+#tags small{display:block;font:20px Orbitron;letter-spacing:3px;color:var(--cian);margin-top:2px}
+#tags .hint{font:20px "Noto Sans CJK JP",sans-serif;color:#fff;background:rgba(12,4,18,.8);border-right:5px solid var(--sak);padding:4px 10px;display:inline-block;margin-top:8px;letter-spacing:0}
+
+/* ───── traducción ───── */
+#trad{position:absolute;left:50%;bottom:122px;width:1180px;transform:translateX(-50%) translateY(14px);opacity:0;transition:opacity .35s,transform .35s;
+  display:flex;align-items:stretch;background:var(--fondo);border:2px solid var(--cian);box-shadow:0 0 16px rgba(0,229,255,.4)}
+#trad.on{opacity:1;transform:translateX(-50%)}
+#trad .tg{background:var(--cian);color:#04121a;font:15px Orbitron;letter-spacing:3px;writing-mode:vertical-rl;transform:rotate(180deg);padding:8px 5px;text-align:center}
+#trad .tx{padding:7px 18px 9px;flex:1}
+#trad .ja{font-size:20px;color:#a9c7d1;line-height:1.25;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#trad .es{font:700 36px/1.15 Rajdhani,sans-serif;color:#fff;text-shadow:0 0 10px rgba(0,229,255,.55)}
+#trad .qu{font:14px Orbitron;letter-spacing:2px;color:var(--oro);margin-bottom:2px}
+#chat{position:absolute;right:30px;top:250px;width:430px;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.ch{background:var(--fondo);border-right:5px solid var(--sak);padding:6px 12px;max-width:430px;animation:ent .4s both;text-align:left}
+.ch .a{font:14px Orbitron;letter-spacing:2px;color:var(--sak)}
+.ch .o{font-size:17px;color:#b7bfd0;line-height:1.25;margin:1px 0}
+.ch .t{font:700 24px/1.15 Rajdhani;color:#fff}
+.ch .h{font:13px Orbitron;letter-spacing:2px;color:var(--cian);margin-bottom:2px}
+@keyframes ent{from{opacity:0;transform:translateX(30px)}}
+
+/* ───── hibernación: overlay rojo «LOW TOKENS» (solo en la capa trad, que va encima de todo) ───── */
+body[data-capa=trad] .c-hib{display:block}
+#hib{position:absolute;left:0;top:0;width:1920px;height:1080px;pointer-events:none;opacity:0;transition:opacity 1.4s;z-index:50}
+#hib.on{opacity:1}
+#hib .vig{position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(0,0,0,0) 48%,rgba(150,0,12,.55) 100%);box-shadow:inset 0 0 220px 70px rgba(255,0,30,.5);animation:hibp 2.6s ease-in-out infinite}
+#hib .tint{position:absolute;inset:0;background:rgba(255,0,20,.10);animation:hibf 7s steps(1) infinite}
+#hib .scan{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,30,40,.08) 0 2px,transparent 2px 5px)}
+#hib .ban{position:absolute;top:56px;left:0;width:1920px;text-align:center;font-family:Audiowide,Orbitron,sans-serif;color:#ff2d3d;text-shadow:0 0 14px #f00,0 0 34px #a00;animation:hibb 1.3s steps(1) infinite}
+#hib .ban b{display:block;font-size:58px;letter-spacing:8px}
+#hib .ban small{display:block;margin-top:6px;font-size:26px;letter-spacing:6px;color:#ff8c93}
+#hib .ban .jp{display:block;font-size:24px;letter-spacing:4px;color:#ffb3b8;margin-top:4px}
+#hib .bat{position:absolute;top:60px;right:70px;display:flex;align-items:center;gap:10px;font-family:Orbitron,sans-serif;color:#ff4d5a;font-size:30px;text-shadow:0 0 12px #f00}
+#hib .cel{position:relative;width:104px;height:46px;border:4px solid #ff4d5a;border-radius:7px;box-shadow:0 0 14px #f00}
+#hib .cel:after{content:"";position:absolute;right:-13px;top:11px;width:9px;height:18px;background:#ff4d5a;border-radius:0 3px 3px 0}
+#hib .cel i{position:absolute;left:3px;top:3px;bottom:3px;width:6%;background:#ff2d3d;box-shadow:0 0 12px #f00;animation:hibb 1.3s steps(1) infinite}
+@keyframes hibp{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes hibb{0%,60%{opacity:1}61%,100%{opacity:.25}}
+@keyframes hibf{0%,92%{opacity:1}93%{opacity:.2}95%{opacity:1}97%{opacity:.4}100%{opacity:1}}
+</style></head>
+<body data-capa="fondo">
+
+<!-- ═══ FONDO ═══ -->
+<div class="cap c-fondo"><div id="bg"></div><div id="bgv"></div>
+  <div id="plaque" class="jp">日本アワー · HORA DE JAPÓN</div><div id="rec"><i></i>NOCHE</div>
+  <div id="pan"><div class="sl" id="sA"></div><div class="sl" id="sB"></div></div>
+  <div id="cred" style="opacity:0"><span id="credt"></span></div></div>
+
+<!-- ═══ SAKURA ═══ -->
+<div class="cap c-sakura"><canvas id="sk" width="960" height="540" style="width:1920px;height:1080px"></canvas>
+  <div id="tags"><b id="tg">#BlackRoseTV</b><small>TWITCH · AI VTUBER</small><span class="hint jp">コメントは日本語でOK ・ 自動翻訳 ON</span></div></div>
+
+<!-- ═══ TRADUCCIÓN ═══ -->
+<div class="cap c-trad"><div id="trad"><span class="tg">ESPAÑOL</span><div class="tx"><div class="qu" id="tq"></div><div class="ja jp" id="tj"></div><div class="es" id="te"></div></div></div>
+  <div id="chat"></div></div>
+
+<!-- ═══ HIBERNACIÓN (LOW TOKENS) ═══ -->
+<div class="cap c-hib"><div id="hib"><div class="tint"></div><div class="vig"></div><div class="scan"></div>
+  <div class="ban"><b>LOW TOKENS</b><small>ENTERING HIBERNATION</small><span class="jp">低電力 · 休眠モードに入ります</span></div>
+  <div class="bat"><div class="cel"><i id="hbar"></i></div><span id="hcnt">--:--</span></div></div></div>
+
+<script>
+const q = new URLSearchParams(location.search), $ = id => document.getElementById(id);
+const capa = q.get('capa') || 'fondo'; document.body.dataset.capa = capa;
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+let S = { slide: null, trad: null, chat: [], hashtags: [], n: -1 }, ult = -1, desfase = 0;
+
+/* ───── láminas ───── */
+let cual = 'A', slideId = '';
+function htmlLamina(s) {
+  if (s.tipo === 'foto') return `<img src="/japon/img/${esc(s.img)}"><div class="cap-t"><div class="j jp">${esc(s.ja)}</div><div class="e">${esc(s.es)}</div></div>`;
+  if (s.tipo === 'texto') return `<div class="card" style="position:absolute;inset:0"><div class="j jp">${esc(s.ja)}</div><div class="e">${esc(s.es)}</div>${s.sub ? `<div class="s">${esc(s.sub)}</div>` : ''}</div>`;
+  if (s.tipo === 'lista') return `<div class="lista" style="position:absolute;inset:0"><h2 class="jp">${esc(s.ja)}</h2><h3>${esc(s.es)}</h3>${(s.items || []).map(i => `<div class="it"><span class="j jp">${esc(i.ja)}</span><span class="e">${esc(i.es)}</span></div>`).join('')}</div>`;
+  if (s.tipo === 'tags') return `<div class="tagsc" style="position:absolute;inset:0">${(s.tags || []).map(t => `<b>${esc(t)}</b>`).join('')}</div>`;
+  return '';
+}
+function lamina(s) {
+  if (!s) return;
+  const id = JSON.stringify(s); if (id === slideId) return; slideId = id;
+  const nuevo = $('s' + (cual === 'A' ? 'B' : 'A')), viejo = $('s' + cual);
+  nuevo.innerHTML = htmlLamina(s); nuevo.classList.add('on'); viejo.classList.remove('on'); cual = cual === 'A' ? 'B' : 'A';
+  if (s.fondo) fondo(s.fondo);
+  $('plaque').textContent = s.tag || '日本アワー · HORA DE JAPÓN';
+  const c = $('cred'); if (s.credito) { $('credt').textContent = s.credito; c.style.opacity = 1; } else c.style.opacity = 0;
+}
+let bgAct = '';
+function fondo(f) { if (f === bgAct) return; bgAct = f; $('bg').style.backgroundImage = `url(/japon/img/${f})`; }
+
+/* ───── traducción ───── */
+let tTrad = 0;
+function traducir(t, ahora) {
+  const el = $('trad');
+  if (!t || !t.es) { el.classList.remove('on'); return; }
+  const vivo = (ahora - t.t) < (t.dur || 6) + 1.5;
+  if (!vivo) { el.classList.remove('on'); return; }
+  const esja = t.dir === 'es-ja';   // lo que se dice al aire en español → subtítulo grande en japonés
+  $('tj').textContent = esja ? t.es : (t.ja || ''); $('te').textContent = esja ? t.ja : t.es;
+  el.querySelector('.tg').textContent = esja ? '日本語' : 'ESPAÑOL';
+  $('te').classList.toggle('jp', esja);
+  $('tq').textContent = t.quien ? String(t.quien).toUpperCase() + (t.auto ? (esja ? ' · 字幕 · TRADUCCIÓN AUTOMÁTICA' : ' · TRADUCCIÓN AUTOMÁTICA') : '') : '';
+  $('tj').style.display = t.ja ? '' : 'none';
+  el.classList.add('on');
+}
+function chat(lista) {
+  const c = $('chat'), claves = lista.map(x => x.t).join(',');
+  if (c.dataset.k === claves) return; c.dataset.k = claves;
+  c.innerHTML = lista.map(x => `<div class="ch"><div class="a">${esc(x.autor)}</div><div class="h">COMENTARIO TRADUCIDO (${esc((x.idioma || 'ja').toUpperCase())} → ES)</div><div class="o jp">${esc(x.ja)}</div><div class="t">${esc(x.es)}</div></div>`).join('');
+}
+
+/* ───── hashtags ───── */
+const TAGS = ['#BlackRoseTV', '#FastPenguin', '#AIVTuber', '#VTuber', '#ゲーム実況', '#日本', '#ForzaHorizon6', '#Twitch'];
+let ti = 0; setInterval(() => { const t = S.hashtags && S.hashtags.length ? S.hashtags : TAGS, b = $('tg'); if (!b) return; b.style.opacity = 0; setTimeout(() => { ti = (ti + 1) % t.length; b.textContent = t[ti]; b.style.opacity = 1; }, 450); }, 4200);
+
+/* ───── pétalos (lienzo a media resolución, sin sombras: OBS dibuja en CPU) ───── */
+function sprite(c1, c2) {
+  const s = document.createElement('canvas'); s.width = s.height = 32; const g = s.getContext('2d'); g.translate(16, 16);
+  const gr = g.createLinearGradient(0, -12, 0, 12); gr.addColorStop(0, c1); gr.addColorStop(1, c2);
+  g.beginPath(); g.moveTo(0, -12); g.bezierCurveTo(10, -14, 15, -2, 7, 10); g.lineTo(0, 5); g.lineTo(-7, 10); g.bezierCurveTo(-15, -2, -10, -14, 0, -12);
+  g.fillStyle = gr; g.fill(); return s;
+}
+if (capa === 'sakura') {
+  const cv = $('sk'), x = cv.getContext('2d'), W = 960, H = 540;
+  const SP = [sprite('#fff2f8', '#ffb3d6'), sprite('#ffd9ea', '#ff8fc7'), sprite('#ffe6f1', '#f7a6cb')];
+  const P = Array.from({ length: 46 }, () => nuevo(true));
+  function nuevo(ini) { const z = 0.5 + Math.random() * 0.9; return { x: Math.random() * (W + 120) - 60, y: ini ? Math.random() * H : -20, z, vy: 22 + 34 * z, vx: 8 + 14 * Math.random(), r: Math.random() * 6.28, vr: (Math.random() - .5) * 2.4, f: Math.random() * 6.28, s: SP[(Math.random() * 3) | 0] }; }
+  let t0 = performance.now();
+  setInterval(() => {
+    const t = performance.now(), dt = Math.min(0.1, (t - t0) / 1000); t0 = t; x.clearRect(0, 0, W, H);
+    for (const p of P) {
+      p.f += dt * 1.6; p.x += (p.vx + Math.sin(p.f) * 16) * dt; p.y += p.vy * dt; p.r += p.vr * dt;
+      if (p.y > H + 20 || p.x > W + 60) Object.assign(p, nuevo(false));
+      const w = 20 * p.z; x.save(); x.translate(p.x, p.y); x.rotate(p.r); x.scale(1, 0.55 + 0.45 * Math.abs(Math.cos(p.f * .8))); x.globalAlpha = 0.92; x.drawImage(p.s, -w / 2, -w / 2, w, w); x.restore();
+    }
+  }, 42);
+}
+
+/* ───── hibernación: cuenta regresiva y batería que se vacía ───── */
+let hib = null, hdes = 0;
+setInterval(() => {
+  const e = $('hib'); if (!e) return;
+  const ahora = Date.now() / 1000 + hdes, rest = hib ? hib.hasta - ahora : -1;
+  if (rest <= 0) { e.classList.remove('on'); return; }
+  e.classList.add('on');
+  const tot = Math.max(60, hib.total || 600);
+  $('hbar').style.width = Math.max(6, Math.min(94, 94 * rest / tot)) + '%';
+  $('hcnt').textContent = String(Math.floor(rest / 60)).padStart(2, '0') + ':' + String(Math.floor(rest % 60)).padStart(2, '0');
+}, 500);
+
+async function leer() {
+  try {
+    S = await (await fetch('/api/japon', { cache: 'no-store' })).json();
+    if (capa === 'fondo') lamina(S.slide);
+    if (capa === 'trad') { traducir(S.trad, S.ahora); chat(S.chat || []); hdes = (S.ahora || Date.now() / 1000) - Date.now() / 1000; hib = S.bajo || null; }
+  } catch (_) {}
+}
+if (q.get('demo')) {
+  const ahora = Date.now() / 1000;
+  S = { slide: { tipo: 'foto', img: 'fuji_sakura.jpg', ja: '桜と富士山', es: 'El Monte Fuji y los cerezos en flor', credito: 'Foto: Midori · CC BY 3.0 · Wikimedia Commons', fondo: 'fuji_sakura.jpg' },
+        trad: { es: 'Hola, Japón. Somos Joy y Kuroki, dos nekos cibernéticas, y esta noche hablamos de videojuegos ambientados en su país.', ja: '日本のみなさん、こんにちは。私たちはジョイとクロキ、二人のサイバーネコです。', quien: 'Joy', dur: 9999, t: ahora },
+        chat: [{ autor: 'tanaka_ch', ja: '今日も配信ありがとう！', es: '¡Gracias por la transmisión de hoy también!', idioma: 'ja', t: ahora }], hashtags: [], n: 1 };
+  if (capa === 'fondo') lamina(S.slide); if (capa === 'trad') { traducir(S.trad, ahora); chat(S.chat); }
+} else { leer(); setInterval(leer, 700); }
+</script></body></html>

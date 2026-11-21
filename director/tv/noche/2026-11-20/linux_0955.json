@@ -1,0 +1,241 @@
+{
+ "bloque": "linux_0955",
+ "programa": "linux",
+ "fecha": "2026-11-20",
+ "creado": "05:59:48",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Por qué los servidores usan Linux",
+   "sub": "TERMINAL ABIERTA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Por qué los servidores usan Linux, visto desde lo ético",
+   "diagrama": null,
+   "intl": null,
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La historia de Por qué los servidores usan Linux, visto desde lo ético tiene un giro que pocos conocen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Todo empezó con una idea sencilla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y entonces algo cambió para siempre."
+    },
+    {
+     "quien": "joy",
+     "texto": "Hoy Por qué los servidores usan Linux, visto desde lo ético sigue teniendo consecuencias."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si tuviéramos que adivinar el futuro de Por qué los servidores usan Linux, visto desde lo ético, diríamos que recién empieza."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 39,
+   "imgs": [
+    {
+     "web": "/medios/0a80e4cd69360c63_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/0a80e4cd69360c63_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «GNU/Linux»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Por qué los servidores usan Linux, visto desde lo curioso",
+   "diagrama": null,
+   "intl": null,
+   "sub": "debate · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Hoy debatimos sobre Por qué los servidores usan Linux, visto desde lo curioso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo creo que Por qué los servidores usan Linux, visto desde lo curioso tiene más ventajas que problemas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo creo exactamente lo contrario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Te concedo un punto, pero solo uno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás las dos tenemos un poco de razón."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 33,
+   "imgs": [
+    {
+     "web": "/medios/362b0d09a80c4be4_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/362b0d09a80c4be4_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «GNU/Linux»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_011506_nh_kusnierkiewicz10",
+   "archivo": "v/v_nasa_ksc_011506_nh_kusnierkiewicz10.mp4",
+   "titulo": "KSC-06-S-00024",
+   "atribucion": "«KSC-06-S-00024» — NASA · images.nasa.gov",
+   "dur": 115,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Qué es una distribución",
+   "sub": "TERMINAL ABIERTA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Qué es una distribución, visto desde lo cultural",
+   "diagrama": null,
+   "intl": null,
+   "sub": "mito realidad · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Sobre Qué es una distribución, visto desde lo cultural se cuentan muchas cosas. Vamos a separar mito de realidad."
+    },
+    {
+     "quien": "joy",
+     "texto": "La versión popular de Qué es una distribución, visto desde lo cultural es muy llamativa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que está documentado de Qué es una distribución, visto desde lo cultural es más sobrio, pero igual de interesante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los mitos crecen cuando falta información."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Nuestro veredicto sobre Qué es una distribución, visto desde lo cultural: hay más historia que misterio."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Tú te creías la versión popular de Qué es una distribución, visto desde lo cultural? Cuéntanos en el chat."
+    }
+   ],
+   "seg": 49,
+   "imgs": [
+    {
+     "web": "/medios/b8a4443a93bcb62a_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/b8a4443a93bcb62a_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Distribución Linux»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Qué es una distribución, visto desde lo técnico",
+   "diagrama": null,
+   "intl": null,
+   "sub": "top3 · curioso",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Top tres de Qué es una distribución, visto desde lo técnico. Empezamos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el tercer puesto…"
+    },
+    {
+     "quien": "joy",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y el número uno…"
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 25,
+   "imgs": [
+    {
+     "web": "/medios/f0bdb163e5083abd_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/f0bdb163e5083abd_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Distribución Linux»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_7rCRzi7pNZ4",
+   "archivo": "yt/coding/7rCRzi7pNZ4.mp4",
+   "titulo": "Stylish Technology Trap by Infraction / Mind Gamer",
+   "audio": "yt/coding/7rCRzi7pNZ4.m4a",
+   "atribucion": "Música: «Stylish Technology Trap by Infraction / Mind Gamer» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 95,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/7rCRzi7pNZ4.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_enpzudVokHA",
+   "archivo": "yt/coding/enpzudVokHA.mp4",
+   "titulo": "Alexi Action & teefnbl-Ghost",
+   "audio": "yt/coding/enpzudVokHA.m4a",
+   "atribucion": "Música: «Alexi Action & teefnbl-Ghost» · Alexi Action · sin copyright (YouTube)",
+   "dur": 192,
+   "genero": "CODING",
+   "img": "/tv/media/yt/coding/enpzudVokHA.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 146,
+  "medios": 3
+ }
+}

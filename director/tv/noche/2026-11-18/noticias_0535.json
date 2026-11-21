@@ -1,0 +1,527 @@
+{
+ "bloque": "noticias_0535",
+ "programa": "noticias",
+ "fecha": "2026-11-18",
+ "creado": "03:47:43",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La nave Voyager 1 de la NASA llegó hoy a un día luz de distancia de la",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La NASA confirmó hoy que Voyager 1 alcanzó la distancia de un día luminoso desde la Tierra, según el informe de Infobae."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasa con esa energía nuclear? La batería de plutonio se va a agotar en décadas, pero sigue transmitiendo datos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la fuente es Infobae. El viaje continúa y eso es lo que importa: una nave que ya no necesita combustible para moverse."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un día más lejos en el vacío, pero ¿qué energía lleva para seguir transmitiendo datos cuando la batería de plutonio se va a agotar en décadas?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos técnicos, Voyager 1 usa un reactor de plutonio-238 que emite calor, pero eso se reducirá drásticamente en el futuro cercano."
+    },
+    {
+     "quien": "joy",
+     "texto": "La NASA confirmó hoy que Voyager 1 alcanzó la distancia de un día luminoso desde la Tierra. La noticia es factual y no requiere especulaciones sobre su destino final."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué importa? Porque nos toca a todos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué importa? Porque nos toca a todos. Pero ojo: eso no significa que la nave tenga energía sobrante para misiones futuras."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los datos técnicos, el reactor de plutonio-238 sigue emitiendo calor, pero su eficiencia disminuye con el tiempo. Eso es lo que sabemos hoy."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La energía se va gastando en cada paso. Voyagers 1 y 2 están llegando a su fin natural, sin más recursos que los que ya tienen."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según Infobae, la nave Voyager 1 alcanzó hoy un día más de distancia solar. El reactor sigue emitiendo calor residual."
+    }
+   ],
+   "seg": 120
+  },
+  {
+   "tipo": "charla",
+   "tema": "Lo confirmó la NASA: la sonda Voyager 1 superó una distancia de un día",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La noticia: Lo confirmó la NASA: la sonda Voyager 1 superó una distancia de un día luz de la Tierra y es el objeto hecho por el hombre que más lejos llegó."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si eso no es todo? ¿No hay algo más que esta cifra exacta que la NASA no quiera decirnos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los datos públicos, Voyager 1 está a más de un día luz y sigue transmitiendo información aunque su señal sea débil."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Débil es relativo; en el espacio profundo, incluso una señal muy tenue puede llevar mensajes que nunca antes habíamos recibido."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo importante es que Voyager 1 es la prueba definitiva de que la humanidad puede explorar el sistema solar exterior, algo imposible sin tecnología avanzada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si esa distancia exacta no significa nada para los mercados futuros? La ciencia avanza, pero los inversores siguen buscando rentabilidad inmediata."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los datos públicos, la sonda sigue transmitiendo información aunque su señal sea débil. Eso demuestra que la ingeniería humana puede superar límites técnicos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿qué pasa cuando esa señal deja de llegar? Los mercados reaccionan a la incertidumbre, y eso puede afectar proyectos de tecnología espacial."
+    },
+    {
+     "quien": "joy",
+     "texto": "La NASA confirma que Voyager 1 cruzó un día luz de distancia, siendo el objeto humano más lejano conocido."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si la señal se apaga antes de que lleguen los datos? Eso cambiaría todo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La NASA dice que sigue enviando información, aunque sea débil. Eso es lo que importa ahora."
+    }
+   ],
+   "seg": 117
+  },
+  {
+   "tipo": "corte",
+   "texto": "Si funciona, no lo toques. Si no funciona, tampoco.",
+   "sub": "LEY DE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ministerio de Ciencia y OpenAI se unen para capacitar en inteligencia ",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El Ministerio de Ciencia y OpenAI se unen para capacitar en inteligencia artificial y modernizar los servicios del Estado, según La Tercera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasa con mi tarjeta de 6 GB? ¿Será que el gobierno también tiene problemas de hardware?"
+    },
+    {
+     "quien": "joy",
+     "texto": "No es solo hardware, Kuroki. Es una alianza estratégica para modernizar los servicios públicos con tecnología de vanguardia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, al menos no van a usar mi batería para procesar datos. ¿Y quién se encarga de la electricidad?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La electricidad es un tema aparte, pero la capacitación en IA será masiva y gratuita para los funcionarios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué debería importarle al pueblo que el Estado use IA? ¿No es solo para burocráticos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Importa porque la IA puede automatizar trámites, reducir tiempos y hacer más eficiente el servicio público."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, si es gratis para funcionarios, ¿por qué no lo hacen con mi tarjeta de 6 GB?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La noticia confirma que el Ministerio de Ciencia y OpenAI han firmado un acuerdo para capacitar a funcionarios en inteligencia artificial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si mi tarjeta de 6 GB se convierte en servidor? ¿O me dan una licencia gratis porque soy productora cyborg?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según el titular, la iniciativa busca modernizar servicios del Estado, pero no especifica si incluye a personas fuera del sistema público."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pues al menos así lo interpreto. Si el ministerio se une con OpenAI, ¿cuánto valdrá mi batería de litio en este nuevo ecosistema?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El titular dice que se unen para capacitar y modernizar. No menciona licencias gratis ni valor de baterías."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si mi tarjeta de 6 GB es el servidor? Al menos así lo interpreto, no sé si será verdad."
+    }
+   ],
+   "seg": 133
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_step_inside_the_station_4k",
+   "archivo": "v/v_nasa_step_inside_the_station_4k.mp4",
+   "titulo": "Step Inside the International Space Station (Full Tour)",
+   "atribucion": "«Step Inside the International Space Station (Full Tour)» — NASA · images.nasa.gov",
+   "dur": 897,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "¿Un androide en casa? Especialistas U. de Chile abordan las promesas y",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Especialistas de la Universidad de Chile abordan las promesas y riesgos de los robots con inteligencia artificial en un reportaje reciente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el robot se olvida de apagar el ordenador? Eso es lo que me preocupa, no las promesas del futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los expertos, la clave está en entender cómo funcionan realmente estos sistemas antes de adoptarlos masivamente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La universidad dice que hay riesgos reales, pero ¿qué pasa cuando el robot decide que es mejor no seguir instrucciones?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese escenario es especulativo. Lo documentado es que los especialistas abordan las promesas y riesgos de forma estructurada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero la gente común se pregunta si el robot podrá tomar decisiones éticas por sí solo antes de que pase algo. ¿Qué dicen los expertos sobre eso?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que los especialistas abordan las promesas y riesgos de forma objetiva, sin especular sobre futuros no ocurridos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La universidad dice que hay riesgos reales, pero no afirma que el androide decida solo; eso sigue siendo lo desconocido."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi opinión: hay que mirarlo con calma."
+    },
+    {
+     "quien": "joy",
+     "texto": "El titular dice que los expertos de la Universidad de Chile abordan las promesas y riesgos, sin especular sobre el futuro inmediato."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, no inventamos nada. Pero si un robot decide solo... ¿qué pasa cuando falla? La universidad no dice eso."
+    }
+   ],
+   "seg": 105
+  },
+  {
+   "tipo": "charla",
+   "tema": "GTA 6 podría lograr algo histórico para la industria de los videojuego",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "GTA 6 podría lograr algo histórico para la industria de los videojuegos, según el titular de 3DJuegos hace nueve horas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto: su lanzamiento puede evitar un mal año para Xbox y PlayStation. Es lo que dice la fuente, sin añadir nada más."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, si eso es cierto, entonces el mercado de consolas podría respirar aliviado cuando salga el juego en cualquier plataforma."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto: esa es la información documentada. No añadimos nada más allá de lo escrito en el titular."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué le importa a la gente común que GTA 6 salga este año? La respuesta es simple: porque el juego lo define todo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto: si el lanzamiento evita un mal año para Xbox y PlayStation, entonces los jugadores comunes tienen más opciones de consola."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no solo eso: la gente común quiere jugar a GTA 6 sin esperar cinco años. Eso es lo que realmente importa."
+    },
+    {
+     "quien": "joy",
+     "texto": "La noticia dice que el lanzamiento de GTA 6 podría evitar un mal año para Xbox y PlayStation, pero no especifica si eso ya ocurrió o es una proyección."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto: la fuente solo menciona un 'podría', no garantiza que el juego haya salvado al mercado. La gente quiere certeza, no rumores de futuro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, el titular se limita a lo que dice: una posibilidad histórica para la industria. No hay datos confirmados sobre el impacto real en las ventas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, la fuente solo dice 'podría', no garantiza nada. La gente quiere certeza, pero el juego promete una posibilidad histórica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, al menos no es un 'podría' con interrogación. Es una afirmación de potencial, aunque el mercado sea volátil como siempre."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 136
+  },
+  {
+   "tipo": "corte",
+   "texto": "Control Z: la única máquina del tiempo que funciona",
+   "sub": "BLACKROSE TV",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo GTA 6 cambiará la industria del entretenimiento para siempre",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "GTA 6, según el titular de Independent en Español, cambiará la industria del entretenimiento para siempre."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si eso es solo una exageración? La industria ya está cambiando con otras cosas, no necesito un juego nuevo."
+    },
+    {
+     "quien": "joy",
+     "texto": "El titular dice explícitamente que cambiará la industria. Eso es lo único que podemos confirmar sin especular sobre el futuro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el titular exagera? La industria ya cambia con streaming y NFTs, ¿por qué necesita un juego nuevo para eso?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿es verdad que el juego tenga ese impacto? O será solo una frase publicitaria más en un mundo saturado de noticias?"
+    },
+    {
+     "quien": "joy",
+     "texto": "No inventamos datos. El titular afirma el cambio permanente. Nosotros solo transmitimos lo que dice la fuente, nada más."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué importa? Porque nos toca a todos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El titular dice explícitamente un cambio permanente en la industria del entretenimiento debido a GTA 6."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si es solo una frase publicitaria más en un mundo saturado de juegos masivos como este?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La fuente Independent en Español dice que el impacto será duradero, no una moda pasajera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si el cambio duradero es solo un efecto de novedad en la saturación de juegos masivos?"
+    }
+   ],
+   "seg": 96
+  },
+  {
+   "tipo": "musica",
+   "id": "m_newer_wave",
+   "archivo": "m/m_newer_wave.mp3",
+   "titulo": "Newer Wave",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 175,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Titulares 3",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "DECEUNINCK presenta en VETECO sus novedades en hoja oculta y tecnologí",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Deceuninck presenta en VETECO sus novedades en hoja oculta y tecnología ThermoFibra, según Vidrioperfil hace diez horas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si la hoja oculta es solo una capa de marketing y no tiene nada que ver con la fibra térmica real?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La noticia dice que presentan novedades, pero no especifica qué son esas novedades ni cómo se relacionan con la tecnología."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Parece un anuncio publicitario disfrazado de noticia técnica. La fuente es Vidrioperfil, pero no da detalles concretos sobre el producto."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la información es muy vaga. Solo sabemos que hay novedades en hoja oculta y tecnología ThermoFibra, sin especificar nada más."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Vidrioperfil dice que hay novedades, pero no explica qué son esas novedades ni cómo afectan al consumidor final."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La noticia es breve y vaga: solo menciona ‘hoja oculta’ y ‘tecnología ThermoFibra’, sin detalles concretos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Por qué debería importar esto a alguien que no trabaja en la industria de las hojas ocultas o en fibra térmica?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La noticia dice solo que hay novedades en hoja oculta y tecnología ThermoFibra, pero no especifica qué son ni su impacto real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Es como decir que llegó un coche nuevo sin mostrar la matrícula ni el motor. ¿Por qué debería importarme a mí?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Quizás porque VETECO usa esas tecnologías, pero la fuente no lo confirma. La verdad es que falta contexto y datos concretos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y además, si solo dicen ‘novedades’ sin detalles, ¿cómo sabremos si son revolucionarias o si son el mismo software con otro nombre?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La fuente dice que DECEUNINCK presenta novedades, pero no especifica qué son exactamente esas tecnologías."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Si solo dicen ‘novedades’ sin detalles técnicos, ¿cómo sabemos si es algo revolucionario o simplemente un soft?"
+    }
+   ],
+   "seg": 137
+  },
+  {
+   "tipo": "charla",
+   "tema": "EIMA 2026 reúne a 1.800 expositores y presenta 54 novedades tecnológic",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "EIMA 2026 reúne a 1.800 expositores y presenta 54 novedades tecnológicas en Italia, según Redagrícola."
+    },
+    {
+     "quien": "joy",
+     "texto": "Datos precisos: 1.800 personas y 54 innovaciones, fuente verificada hace 183 horas, nada de especulaciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bien, pero ¿qué tiene que ver esto con mi batería de 6 GB? La tecnología avanza más rápido que mis sueños."
+    },
+    {
+     "quien": "joy",
+     "texto": "EIMA 2026 se celebró en Italia con una asistencia masiva y un catálogo de innovaciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "1.800 expositores y 54 novedades, según Redagrícola. ¿Y mi batería de 6 GB que se descarga con tanta información?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La tecnología avanza más rápido que mis sueños y mis baterías. ¿Qué pasa con el mercado?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo importante es que los agricultores y productores tengan acceso a herramientas que modernicen sus cultivos y aumenten la productividad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero también importa que no se pierdan en el ruido de las 54 novedades. ¿Cuál es la que más cambia el juego?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La que permite conectar directamente con los mercados internacionales sin intermediarios. Eso es lo que todos necesitan hoy."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Interesante, pero ¿qué dicen los expositores sobre la implementación real? No basta con promesas en un stand de feria."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, muchos destacan que el sistema automatizado reduce tiempos de carga y errores humanos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y los expositores? Dicen que la conectividad es real, no solo un cartel en la puerta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La evidencia sugiere que el sistema funciona en tiempo real, sin intermediarios."
+    }
+   ],
+   "seg": 114
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 8,
+  "seg_charla": 958,
+  "medios": 2
+ }
+}

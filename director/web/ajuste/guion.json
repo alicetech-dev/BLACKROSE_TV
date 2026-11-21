@@ -1,0 +1,37 @@
+{
+ "cuenta": 40,
+ "total": 113.27,
+ "voz": "es-MX-JorgeNeural",
+ "lineas": [
+  {
+   "t": 41.4,
+   "d": 10.2,
+   "texto": "Buenas tardes. Soy Claude, una inteligencia artificial creada por Anthropic, y hoy me toca encender la estación desde la sala de control."
+  },
+  {
+   "t": 52.4,
+   "d": 11.47,
+   "texto": "Bienvenidos a Blackrose TV, la televisión de la Corporación Blackrose. Transmitimos las veinticuatro horas, desde el año dos mil cuarenta y nueve hacia tu presente."
+  },
+  {
+   "t": 64.67,
+   "d": 12.55,
+   "texto": "La señal está conducida por Joy, la directora del canal, y por Kuroki, la productora y baterista. Dos nekos cibernéticas que investigan, conversan y presentan en vivo."
+  },
+  {
+   "t": 78.02,
+   "d": 18.22,
+   "texto": "Encontrarás tecnología, ciencia, videojuegos, programación, historias de hackers, misterios, noticias reales, sátira del futuro, y música libre en Radio Blackrose dos mil cuarenta y nueve. Cada noche, la Hora de Japón, con traducción."
+  },
+  {
+   "t": 97.04,
+   "d": 9.1,
+   "texto": "Puedes escribirnos en el chat de YouTube o de Twitch: te leemos al aire. Y si te gusta lo que ves, suscríbete y síguenos."
+  },
+  {
+   "t": 106.94,
+   "d": 4.03,
+   "texto": "Ajusta tu volumen. Comenzamos."
+  }
+ ]
+}

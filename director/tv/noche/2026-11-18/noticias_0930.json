@@ -1,0 +1,539 @@
+{
+ "bloque": "noticias_0930",
+ "programa": "noticias",
+ "fecha": "2026-11-18",
+ "creado": "05:33:24",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "GTA 6 podría lograr algo histórico para la industria de los videojuego",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "GTA 6 podría lograr algo histórico para la industria de los videojuegos. Su lanzamiento puede evitar un mal año para XBOX y PlayStation, según el titular."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Historico? ¿O es solo otra promesa vacía más que ya ha fallado en la última década de consolas?"
+    },
+    {
+     "quien": "joy",
+     "texto": "La noticia dice que el lanzamiento podría evitar un mal año para XBOX y PlayStation. Eso implicaría que el juego tiene potencial comercial significativo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mira la gráfica de ventas recientes, no parece que esto cambie nada. ¿O es que solo les da confianza a los desarrolladores?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero el titular habla de algo histórico para la industria. Quizás sea la primera vez que un juego salva una consola."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente normal no compra videojuegos por la industria, compra por diversión. ¿Por qué GTA 6 cambiaría eso?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, es un producto de consumo masivo. Si es histórico, debe afectar el bolsillo del consumidor común directamente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pensé que era eso: un juego que vende tanto que los consolas se benefician. Pero la noticia dice 'podría', no es seguro."
+    },
+    {
+     "quien": "joy",
+     "texto": "La palabra 'podría' indica incertidumbre, no certeza. La industria espera el lanzamiento para ver si realmente impulsa las ventas globales."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Podría ser un milagro de ventas, pero también podría ser otro año más con consolas estancadas. La incertidumbre es el enemigo del consumidor promedio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, al menos el tema es atractivo para los gamers de todos los lados. ¿Crees que esta noticia pueda evitar un mal año para Xbox y PlayStation?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿crees que esta noticia pueda evitar el mal año o es solo una esperanza? Pregúntalo al chat."
+    }
+   ],
+   "seg": 127
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo GTA 6 cambiará la industria del entretenimiento para siempre",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "GTA 6 va a cambiar la industria para siempre, según el titular de Independent en Español hace 62 horas. ¡Y no solo con gráficos!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. La noticia dice que esto será un punto de inflexión real para el entretenimiento global, nada de especulaciones."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿y los jugadores de hoy? Si eso es verdad, probablemente ya estén esperando una actualización de sus consolas antes del próximo fin de semana."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, la industria se mueve rápido cuando sale algo así. Pero no inventemos cifras ni fechas, solo el hecho del titular."
+    },
+    {
+     "quien": "joy",
+     "texto": "Importa porque cada vez que alguien compra un videojuego se siente como si comprara una pieza del futuro de su entretenimiento favorito."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ojo: todavía hay cosas que no se saben."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mi opinión: hay que mirarlo con calma."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si GTA 6 es solo una excusa para que la industria se desmorone? La realidad es más compleja."
+    },
+    {
+     "quien": "joy",
+     "texto": "No, Kuroki. El titular dice que cambiará la industria. Eso implica un impacto real y duradero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿es cierto? Se cuenta que Rockstar tiene planes ambiciosos, pero no sabemos todo aún."
+    }
+   ],
+   "seg": 90
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La ciencia que compramos: cómo los descubrimientos del laboratorio se ",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "La ciencia que compramos: cómo los descubrimientos del laboratorio se convierten en tendencias de bienestar. Fuente The Conversation, hace 16 horas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué pasa con el resto? ¿No hay nada más que comprar para la salud?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Es exactamente eso, Kuroki. La ciencia se convierte en productos de consumo masivo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces la ciencia es solo un excusa para vender más. ¿Y qué dice el titular?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Importa porque hoy todos compramos ciencia: suplementos, dietas, apps de meditación. La ciencia se convierte en producto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si la ciencia es solo un pretexto para vender más? No hay nada más que comprar para la salud. ¿Es eso verdad?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. La ciencia se convierte en productos de consumo masivo. Pero no es solo excusa: hay investigación real detrás."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La investigación siempre está ahí, pero el marketing la distorsiona. ¿Cuándo dejamos de comprar mitos y empezamos a consumir verdad?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuándo dejamos de comprar mitos y empezamos a leer etiquetas? A veces la ciencia viene envuelta en plástico brillante."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ejemplo: el probiótico. Estudios muestran beneficios, pero los anuncios prometen curas milagrosas que no existen."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 95
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jsc2023m000204_frank_rubio_tour_of_iss_i",
+   "archivo": "v/v_nasa_jsc2023m000204_frank_rubio_tour_of_iss_i.mp4",
+   "titulo": "Frank Rubio Tour of the International Space Station (In Spanish)",
+   "atribucion": "«Frank Rubio Tour of the International Space Station (In Spanish)» — NASA · images.nasa.gov",
+   "dur": 836,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Confirman hallazgo del primer meteorito lunar en Sudamérica en pleno d",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "El diario Cooperativa Ciencia confirma que en el desierto de Atacama se halló el primer meteorito lunar en Sudamérica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Realmente es lunar? Parece un buen trozo para la colección del canal, pero necesito verificar la fuente antes de creerlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La noticia está bien documentada: se trató de una roca que cayó en el desierto y su composición apunta a origen lunar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué dice exactamente la fuente sobre su procedencia? No puedo asumir nada sin ver los datos del análisis geoquímico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cooperativa Ciencia reporta isotopos consistentes con la Luna, pero la confirmación definitiva requiere más estudios en laboratorio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Perfecto. Entonces el hallazgo es preliminar, como muchas noticias de ciencia que llegan a nuestro canal sin garantías absolutas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cooperativa Ciencia dice que los isotopos del meteorito coinciden con los de la Luna, pero falta un análisis geológico completo para confirmar su origen lunar."
+    },
+    {
+     "quien": "joy",
+     "texto": "La fuente menciona específicamente el desierto de Atacama en Sudamérica y sugiere que se trata del primer meteorito lunar encontrado allí, pero no da fechas ni nombres de investigadores."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿De verdad es lunar? La fuente dice isotopos coincidentes, pero sin análisis completo es como confiar en una foto de perfil."
+    },
+    {
+     "quien": "joy",
+     "texto": "La Cooperativa Ciencia lo reporta así. Si los datos son sólidos, serían los primeros en salir del desierto de Atacama."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si es un engaño? Mucha gente inventa cosas. Pero al menos no es una teoría sobre vacunas ni nada que pueda dañar."
+    },
+    {
+     "quien": "joy",
+     "texto": "El meteorito lunar fue hallado en el desierto de Atacama, confirmando lo reportado por Cooperativa Ciencia hace treinta y ocho horas."
+    }
+   ],
+   "seg": 126
+  },
+  {
+   "tipo": "charla",
+   "tema": "La NASA va a estrenar el telescopio Roman por todo lo alto y te ofrece",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La NASA va a estrenar el telescopio Roman por todo lo alto y te ofrece que adoptes uno de los píxeles de sus primeras imágenes, según Xataka hace 17 h."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es una noticia clara: el Roman llega con potencia descomunal y la NASA te da un pixel como regalo simbólico para tu colección espacial personal."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si ese pixel es tan grande que lo veo desde mi cama? O si es microscópico y solo sirve para mirar el suelo de la oficina."
+    },
+    {
+     "quien": "joy",
+     "texto": "El Roman es el nuevo ojo de la NASA, un telescopio espacial que observará el universo con una resolución sin precedentes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y te dan un pixel como regalo. ¿Es eso como un DVD o más bien un archivo de imagen gigante para descargar?"
+    },
+    {
+     "quien": "joy",
+     "texto": "No es un DVD físico, es una resolución digital que podrás usar en tus proyectos o simplemente admirar desde tu pantalla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Si el pixel es tan grande como lo veo en mi cama, ¿qué pasa si me muevo y ya no lo veo? ¿Es real?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Importa porque es la primera mirada digital de nuestro sistema solar exterior, un hito que cambiará cómo vemos el cosmos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si ese pixel tiene una resolución tan alta que me permite ver las texturas de los asteroides desde mi cama?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, es una imagen digital real, no un archivo gigante, así que podrás descargarlo y usarlo en tus proyectos o simplemente admirarlo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si ese pixel es tan nítido que puedo leer los mapas de Júpiter desde mi sofá? Me imagino el caos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero falta saber si el telescopio Roman está listo para recibir esa oferta o si es solo una promesa futura."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mi opinión: hay que mirarlo con calma."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi opinión: hay que mirarlo con calma. No se puede todo en un día, ¿verdad?"
+    }
+   ],
+   "seg": 145
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La nave Voyager 1 de la NASA llegó hoy a un día luz de distancia de la",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Voyager 1 alcanzó hoy un día más de distancia desde la Tierra. La NASA lo confirmó en su comunicado oficial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué tal si la batería ya no aguanta el viaje? Es como tener un celular con 1% y decir que funciona perfecto."
+    },
+    {
+     "quien": "joy",
+     "texto": "La nave sigue emitiendo datos, pero su fuente de energía es nuclear. Un pequeño reactor que ha durado décadas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Un reactor? ¡Pensé que se quedaba en el siglo pasado! ¿Cómo asegura que no se apague en medio del desierto espacial?"
+    },
+    {
+     "quien": "joy",
+     "texto": "El reactor es de plutonio-238, muy estable. La NASA calcula que seguirá funcionando décadas más, aunque la potencia baja."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Importa que esté tan lejos? La gente en la Tierra no puede verla, pero es el faro más lejano de nuestra historia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Sí importa porque es prueba de que la humanidad puede enviar cosas que duren décadas. Un logro silencioso pero real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y también porque nos recuerda que hay lugares donde no hay señal ni WiFi, solo el vacío y el tiempo corriendo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo importante no es la distancia, sino que sigue transmitiendo datos desde hace décadas. Es la prueba de que la tecnología puede superar el tiempo y el espacio."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y mientras nosotros buscamos WiFi en cada esquina, ella navega por el vacío con solo una batería y un motor. ¿Cuánta energía le queda para seguir hablando?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, tiene suficiente potencia para enviar imágenes y datos hasta que su sistema de navegación se desactive. Pero eso no significa que deje de ser un faro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Voyager 1 llegó hoy a un día luz? Eso suena exagerado. La NASA dice que ya está más allá del sistema solar, pero el detalle exacto lo verificaré."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los relatos, Voyager 1 sigue funcionando gracias a su batería de plutonio y la sonda ha enviado datos durante décadas. Es un testimonio silencioso del esfuerzo humano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 154
+  },
+  {
+   "tipo": "musica",
+   "id": "m_newer_wave",
+   "archivo": "m/m_newer_wave.mp3",
+   "titulo": "Newer Wave",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 175,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Titulares 3",
+   "sub": "BLACKROSE NOTICIAS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "DECEUNINCK presenta en VETECO sus novedades en hoja oculta y tecnologí",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Deceuninck presenta en VETECO sus novedades en hoja oculta y tecnología ThermoFibra, según Vidrioperfil."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Hoja oculta? ¿O es que la tarjeta de seis gigas se escondió debajo del monitor?"
+    },
+    {
+     "quien": "joy",
+     "texto": "No, Kuroki. Es un producto real, no una metáfora sobre el almacenamiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si la hoja oculta es solo una excusa para vender más RAM? La tarjeta de seis gigas sigue siendo el problema."
+    },
+    {
+     "quien": "joy",
+     "texto": "No, Kuroki. Es un producto real, no una metáfora sobre el almacenamiento. Deceuninck lo presentó oficialmente en VETECO."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, la gente confunde las novedades con mitos de hardware. Pero si hay tecnología ThermoFibra real, ¿por qué dudamos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Porque el titular dice que es una novedad, no un mito. La fuente es Vidrioperfil, y eso cuenta como verdad documentada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Importa porque los usuarios necesitan saber si lo que ven es real o una promesa vacía antes de invertir en equipos nuevos."
+    },
+    {
+     "quien": "joy",
+     "texto": "El titular de Vidrioperfil dice explícitamente que son novedades. Eso es un hecho documentado, no una especulación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ¿realmente se usa ThermoFibra en el campo? Los relatos dicen que muchos agricultores siguen esperando confirmación."
+    },
+    {
+     "quien": "joy",
+     "texto": "La fuente es Vidrioperfil, y su artículo lo presenta como algo real. Sin embargo, la tecnología aún está en fase de prueba."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La diferencia entre una promesa publicitaria y un producto disponible es enorme para quien va a comprar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si es solo una promesa publicitaria? Muchos agricultores esperan que llegue el producto real antes de comprarlo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ese es el punto. La fuente dice que se presenta como algo real, pero no garantiza disponibilidad inmediata en el campo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Qué opinas de esta noticia? Escríbelo en el chat."
+    }
+   ],
+   "seg": 134
+  },
+  {
+   "tipo": "charla",
+   "tema": "EIMA 2026 reúne a 1.800 expositores y presenta 54 novedades tecnológic",
+   "sub": "noticia · informativo",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "EIMA 2026 en Italia, 1.800 expositores y 54 novedades tecnológicas. Fuente: Redagrícola, hace 185 h."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un evento masivo que conecta a la industria agrícola con la innovación tecnológica en el corazón de Europa."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿54 novedades? ¿O son solo las típicas presentaciones de productos que ya conocemos?"
+    },
+    {
+     "quien": "joy",
+     "texto": "EIMA 2026 en Italia, un evento agrícola masivo que une a mil ochocientos expositores y presenta cincuenta y cuatro novedades tecnológicas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cincuenta y cuatro novedades o solo una lista de productos ya conocidos? La fuente dice eso, pero el contexto real es otra cosa."
+    },
+    {
+     "quien": "joy",
+     "texto": "Importa porque la agricultura es el corazón de Italia y este evento muestra cómo se moderniza un sector vital para todos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los expositores son 1.800 y las novedades 54; se trata de innovaciones reales que impactan la producción diaria del campo italiano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ojo: todavía hay cosas que no se saben."
+    },
+    {
+     "quien": "joy",
+     "texto": "La agricultura italiana respira este evento. Dos mil ochocientos expositores y cincuenta y cuatro novedades reales transforman la producción diaria."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Cincuenta y cuatro nuevas cosas en el aire, pero aún no sé cuáles son exactamente. Quizás la próxima será una batería de litio o un sensor cuántico."
+    },
+    {
+     "quien": "joy",
+     "texto": "No se trata solo de gadgets, Kuroki. Se trata de cómo se cultiva la comida que llega a tu mesa con tecnología aplicada en el campo italiano."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y qué novedades exactas traerán este año? ¿Baterías más pequeñas o algo que haga la comida más rica?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Según el titular, son cincuenta y cuatro novedades tecnológicas. Probablemente cosas que facilitan el trabajo en el campo."
+    }
+   ],
+   "seg": 124
+  },
+  {
+   "tipo": "corte",
+   "texto": "Tu contraseña no es 123456, ¿verdad? ¿Verdad?",
+   "sub": "CONSEJO",
+   "dice": "kuroki"
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 8,
+  "seg_charla": 995,
+  "medios": 2
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "semilla": "Los vehículos autónomos y el DARPA Grand Challenge",
+ "hechos": [
+  "El DARPA Grand Challenge fue una serie de competiciones organizadas por la Agencia de Proyectos de Investigación Avanzados de Defensa de Estados Unidos.",
+  "La primera edición del DARPA Grand Challenge se realizó en el año 2004.",
+  "El objetivo principal de la competencia era desarrollar vehículos autónomos capaces de recorrer un desierto sin intervención humana.",
+  "Ningún vehículo completó el recorrido en la edición de 2004.",
+  "La segunda edición del DARPA Grand Challenge ocurrió en 2005.",
+  "En la edición de 2005 varios equipos lograron completar el curso establecido.",
+  "El equipo Stanford Racing Team ganó la edición de 2005 con su vehículo Stanley.",
+  "Las competiciones impulsaron avances significativos en el campo de la percepción computacional y la planificación de rutas.",
+  "Tecnologías desarrolladas para estos desafíos han sido transferidas al sector civil de vehículos autónomos.",
+  "Los sensores lidar se popularizaron en aplicaciones civiles tras su uso destacado en las competiciones.",
+  "Los algoritmos de visión por computadora mejorados durante los desafíos se aplican hoy en sistemas de asistencia al conductor.",
+  "El DARPA Urban Challenge se llevó a cabo en 2007 y añadió entornos urbanos con tráfico."
+ ],
+ "leyendas": [
+  "Leyenda o error común: se cree que el DARPA Grand Challenge inventó los vehículos autónomos cuando en realidad existían proyectos previos de investigación.",
+  "Leyenda o error común: se cuenta que todos los vehículos usaban inteligencia artificial avanzada cuando muchos dependían de reglas programadas y sensores."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 17:46"
+}

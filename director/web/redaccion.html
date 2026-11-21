@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Redacción BlackRose TV</title>
+<!-- Redacción de BlackRose TV: Blackrose deja 3-4 capturas + el recorte de la noticia y/o pega el artículo (o un link);
+     Grok arma la ficha y las dolls la cuentan en el próximo hueco de noticias de la programación. Ver director/redaccion.py -->
+<style>
+@font-face{font-family:Monoton;src:url(/img/fuentes/monoton.woff2) format("woff2")}
+@font-face{font-family:Audiowide;src:url(/img/fuentes/audiowide.woff2) format("woff2")}
+@font-face{font-family:Orbitron;src:url(/img/fuentes/orbitron.woff2) format("woff2")}
+@font-face{font-family:Rajdhani;src:url(/img/fuentes/rajdhani700.woff2) format("woff2");font-weight:700}
+:root{--rosa:#ff2fd6;--cian:#00e5ff;--rojo:#ff3b3b;--verde:#3dff9a;--amar:#ffb627;--fondo:#0b0312;--panel:#160822;--borde:#3a1a4a;--txt:#f3e8ff;--suave:#bba7cc}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 20% -10%,#2a0838,transparent),var(--fondo);color:var(--txt);font-family:Rajdhani,system-ui,sans-serif;font-size:18px;min-height:100vh}
+header{display:flex;align-items:center;gap:18px;padding:18px 28px;border-bottom:2px solid var(--rosa);box-shadow:0 2px 20px rgba(255,47,214,.3);flex-wrap:wrap}
+header .br{font-family:Monoton;font-size:40px;color:#fff;text-shadow:0 0 14px var(--rosa)}
+header .tv{font-family:Audiowide;font-size:20px;border:2px solid var(--cian);color:var(--cian);padding:0 8px;border-radius:6px}
+header .sec{font-family:Orbitron;letter-spacing:4px;color:var(--suave);font-size:15px}
+#estado{margin-left:auto;font-family:Orbitron;font-size:14px;letter-spacing:2px;padding:8px 14px;border:1px solid var(--borde);border-radius:8px;background:var(--panel)}
+#estado b{color:var(--cian)}
+main{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:24px;padding:24px 28px;max-width:1500px;margin:0 auto}
+@media (max-width:1000px){main{grid-template-columns:1fr;padding:16px}}
+.caja{background:var(--panel);border:1px solid var(--borde);border-radius:14px;padding:20px}
+h2{font-family:Orbitron;font-size:16px;letter-spacing:4px;color:var(--rosa);margin:0 0 14px}
+.zona{border:2px dashed #5a2a70;border-radius:12px;padding:16px;text-align:center;color:var(--suave);cursor:pointer;transition:.2s;min-height:120px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;margin-bottom:14px;position:relative}
+.zona.encima,.zona:hover{border-color:var(--cian);background:rgba(0,229,255,.05);color:#fff}
+.zona .tit{font-family:Orbitron;font-size:14px;letter-spacing:2px;color:#fff}
+.zona small{font-size:15px}
+.miniaturas{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.mini{position:relative;width:132px;height:84px;border-radius:8px;overflow:hidden;border:1px solid var(--borde);background:#000}
+.mini img{width:100%;height:100%;object-fit:cover}
+.mini button{position:absolute;top:4px;right:4px;width:26px;height:26px;border-radius:50%;border:0;background:rgba(0,0,0,.75);color:#fff;cursor:pointer;font-size:15px}
+label{display:block;font-family:Orbitron;font-size:12px;letter-spacing:2px;color:var(--suave);margin:12px 0 6px}
+textarea,input,select{width:100%;background:#0d0416;color:var(--txt);border:1px solid var(--borde);border-radius:10px;padding:11px 13px;font:inherit;font-size:17px}
+textarea{min-height:170px;resize:vertical}
+textarea:focus,input:focus,select:focus{outline:2px solid var(--cian);border-color:transparent}
+.fila{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+@media (max-width:640px){.fila{grid-template-columns:1fr}}
+.boton{margin-top:18px;width:100%;padding:15px;border:0;border-radius:12px;font-family:Orbitron;font-size:17px;letter-spacing:3px;color:#09020f;
+  background:linear-gradient(90deg,var(--rosa),#ff7ae6);box-shadow:0 0 22px rgba(255,47,214,.5);cursor:pointer}
+.boton:disabled{opacity:.5;cursor:wait}
+#msg{margin-top:12px;min-height:22px;color:var(--cian)}
+#msg.err{color:var(--rojo)}
+.nota{border:1px solid var(--borde);border-radius:12px;padding:14px;margin-bottom:14px;background:#10051a}
+.nota.al_aire{border-color:var(--rojo);box-shadow:0 0 18px rgba(255,59,59,.35)}
+.cabn{display:flex;align-items:flex-start;gap:12px}
+.chip{font-family:Orbitron;font-size:11px;letter-spacing:2px;padding:4px 9px;border-radius:6px;white-space:nowrap;color:#09020f}
+.procesando{background:var(--amar)}.lista{background:var(--verde)}.al_aire{background:var(--rojo);color:#fff}.emitida{background:#6b5a7a;color:#fff}.error{background:var(--rojo);color:#fff}
+.ntit{font-size:21px;line-height:1.15;color:#fff;flex:1}
+.nfu{color:var(--rosa);font-size:15px;margin-top:3px}
+.tira{display:flex;gap:6px;margin:10px 0;overflow-x:auto}
+.tira img{height:62px;border-radius:6px;border:1px solid var(--borde)}
+details{margin-top:6px;color:var(--suave);font-size:16px}
+details summary{cursor:pointer;color:var(--cian)}
+details ul{margin:6px 0 0 18px;padding:0}
+.acc{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}
+.acc button,.acc select{width:auto;padding:7px 12px;border-radius:8px;border:1px solid var(--borde);background:#1d0a2a;color:var(--txt);cursor:pointer;font:inherit;font-size:15px}
+.acc button:hover{border-color:var(--cian)}
+.vacio{color:var(--suave);text-align:center;padding:30px 10px}
+.err-t{color:var(--rojo);font-size:15px;margin-top:6px}
+</style>
+</head>
+<body>
+<header>
+  <span class="br">BLACKROSE</span><span class="tv">TV</span><span class="sec">// REDACCIÓN</span>
+  <span id="estado">programa: …</span>
+</header>
+<main>
+  <section class="caja">
+    <h2>NUEVA NOTICIA</h2>
+    <div class="zona" id="zCapturas"><span class="tit">📸 CAPTURAS (hasta 4)</span>
+      <small>Arrastra aquí, haz clic o pega con Ctrl+V</small><div class="miniaturas" id="mCapturas"></div></div>
+    <div class="zona" id="zRecorte"><span class="tit">✂️ RECORTE DE LA NOTICIA</span>
+      <small>El recorte del titular o del texto (1 imagen)</small><div class="miniaturas" id="mRecorte"></div></div>
+    <input type="file" id="fCapturas" accept="image/*" multiple hidden>
+    <input type="file" id="fRecorte" accept="image/*" hidden>
+    <label for="texto">ARTÍCULO PEGADO O LINK (opcional)</label>
+    <textarea id="texto" placeholder="Pega aquí el texto del artículo, o solo el link (https://…)"></textarea>
+    <div class="fila">
+      <div><label for="titulo">TÍTULO (opcional)</label><input id="titulo" placeholder="Si lo dejas vacío, lo arma Grok"></div>
+      <div><label for="fuente">MEDIO (opcional)</label><input id="fuente" placeholder="Ej.: Xataka"></div>
+      <div><label for="bloque">BLOQUE</label><select id="bloque">
+        <option value="auto">Automático (próximo hueco)</option><option value="tecnologia">Tecnología</option>
+        <option value="gamer">Noticias Gamer</option><option value="ia">Inteligencia Artificial</option>
+        <option value="internacional">Contingencia Internacional</option></select></div>
+    </div>
+    <button class="boton" id="enviar">ENVIAR A LA REDACCIÓN</button>
+    <div id="msg"></div>
+  </section>
+  <section class="caja">
+    <h2>FILA DE LA REDACCIÓN</h2>
+    <div id="fila"><div class="vacio">Todavía no hay noticias tuyas.</div></div>
+  </section>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const sel = {capturas: [], recorte: null};
+const ESTADOS = {procesando: '⏳ GROK LEYENDO', lista: '✅ EN FILA', al_aire: '🔴 AL AIRE', emitida: 'EMITIDA', error: '⚠ ERROR'};
+const BLOQUES = {auto: 'Automático', tecnologia: 'Tecnología', gamer: 'Gamer', ia: 'IA', internacional: 'Internacional'};
+const esc = t => String(t || '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'})[c]);
+
+function pintarSel() {
+  const caja = (lista, cont, quitar) => { cont.innerHTML = '';
+    lista.forEach((f, i) => { const d = document.createElement('div'); d.className = 'mini';
+      d.innerHTML = '<img src="' + URL.createObjectURL(f) + '" alt=""><button title="Quitar">×</button>';
+      d.querySelector('button').onclick = e => { e.stopPropagation(); quitar(i); }; cont.appendChild(d); }); };
+  caja(sel.capturas, $('mCapturas'), i => { sel.capturas.splice(i, 1); pintarSel(); });
+  caja(sel.recorte ? [sel.recorte] : [], $('mRecorte'), () => { sel.recorte = null; pintarSel(); });
+}
+function agregar(files, destino) {
+  for (const f of files) {
+    if (!f.type.startsWith('image/')) continue;
+    if (destino === 'recorte' || (destino !== 'capturas' && sel.capturas.length >= 4 && !sel.recorte)) sel.recorte = f;
+    else if (sel.capturas.length < 4) sel.capturas.push(f);
+  }
+  pintarSel();
+}
+for (const [z, f, dest] of [['zCapturas', 'fCapturas', 'capturas'], ['zRecorte', 'fRecorte', 'recorte']]) {
+  const zona = $(z), inp = $(f);
+  zona.onclick = () => inp.click();
+  inp.onchange = () => { agregar(inp.files, dest); inp.value = ''; };
+  zona.ondragover = e => { e.preventDefault(); zona.classList.add('encima'); };
+  zona.ondragleave = () => zona.classList.remove('encima');
+  zona.ondrop = e => { e.preventDefault(); zona.classList.remove('encima'); agregar(e.dataTransfer.files, dest); };
+}
+let ultimaZona = 'capturas';   // Ctrl+V: la imagen va a la última zona que tocaste
+$('zRecorte').addEventListener('mouseenter', () => ultimaZona = 'recorte');
+$('zCapturas').addEventListener('mouseenter', () => ultimaZona = 'capturas');
+document.addEventListener('paste', e => {
+  const imgs = [...(e.clipboardData?.files || [])].filter(f => f.type.startsWith('image/'));
+  if (imgs.length) { e.preventDefault(); agregar(imgs, ultimaZona); }
+});
+
+$('enviar').onclick = async () => {
+  const texto = $('texto').value.trim();
+  if (!sel.capturas.length && !sel.recorte && !texto) return aviso('Deja al menos una imagen o pega un texto/link.', true);
+  const fd = new FormData();
+  sel.capturas.forEach((f, i) => fd.append('captura' + i, f, f.name || 'captura.png'));
+  if (sel.recorte) fd.append('recorte', sel.recorte, sel.recorte.name || 'recorte.png');
+  for (const k of ['texto', 'titulo', 'fuente', 'bloque']) fd.append(k, $(k).value);
+  $('enviar').disabled = true; aviso('Subiendo…');
+  try {
+    const r = await (await fetch('/api/redaccion', {method: 'POST', body: fd})).json();
+    if (!r.ok) throw new Error(r.error || 'error');
+    sel.capturas = []; sel.recorte = null; pintarSel();
+    for (const k of ['texto', 'titulo', 'fuente']) $(k).value = '';
+    aviso('Enviada ✔ Grok la está leyendo; cuando quede «EN FILA», las dolls la toman en el próximo hueco de noticias.');
+    leer();
+  } catch (e) { aviso('No se pudo: ' + e.message, true); }
+  $('enviar').disabled = false;
+};
+function aviso(t, err) { $('msg').textContent = t; $('msg').className = err ? 'err' : ''; }
+
+async function accion(id, cuerpo, metodo = 'POST') {
+  await fetch('/api/redaccion/' + id, {method: metodo, headers: {'Content-Type': 'application/json'}, body: metodo === 'DELETE' ? undefined : JSON.stringify(cuerpo)});
+  leer();
+}
+async function leer() {
+  try {
+    const notas = (await (await fetch('/api/redaccion', {cache: 'no-store'})).json()).reverse();
+    const cont = $('fila');
+    if (!notas.length) { cont.innerHTML = '<div class="vacio">Todavía no hay noticias tuyas.</div>'; return; }
+    const abiertos = new Set([...cont.querySelectorAll('details[open]')].map(d => d.dataset.id));
+    cont.innerHTML = notas.map(n => { const f = n.ficha || {};
+      return '<div class="nota ' + n.estado + '"><div class="cabn"><span class="chip ' + n.estado + '">' + (ESTADOS[n.estado] || n.estado) + '</span>' +
+        '<div class="ntit">' + esc(f.titulo || n.titulo_manual || (n.texto || '').slice(0, 90) || 'Noticia con capturas') +
+        '<div class="nfu">' + esc(f.fuente || n.fuente_manual || '') + (f.fecha ? ' · ' + esc(f.fecha) : '') +
+        ' · bloque: ' + BLOQUES[n.bloque || 'auto'] + (n.bloque_sugerido ? ' (Grok sugiere ' + BLOQUES[n.bloque_sugerido] + ')' : '') + '</div></div></div>' +
+        (n.imagenes?.length ? '<div class="tira">' + n.imagenes.map(x => '<img src="/redaccion/img/' + n.id + '/' + x + '" alt="">').join('') + '</div>' : '') +
+        (f.resumen ? '<details data-id="' + n.id + '"' + (abiertos.has(n.id) ? ' open' : '') + '><summary>Ficha de Grok</summary><p>' + esc(f.resumen) + '</p>' +
+          (f.datos?.length ? '<ul>' + f.datos.map(x => '<li>' + esc(x) + '</li>').join('') + '</ul>' : '') +
+          (f.angulo ? '<p><b>Para debatir:</b> ' + esc(f.angulo) + '</p>' : '') + '</details>' : '') +
+        (n.error ? '<div class="err-t">' + esc(n.error) + '</div>' : '') +
+        '<div class="acc">' +
+          (['lista', 'error', 'procesando'].includes(n.estado) ? '<select data-id="' + n.id + '" class="cambiaBloque">' +
+            Object.entries(BLOQUES).map(([k, v]) => '<option value="' + k + '"' + (k === (n.bloque || 'auto') ? ' selected' : '') + '>' + v + '</option>').join('') + '</select>' : '') +
+          (n.estado === 'lista' ? '<button data-a="primera" data-id="' + n.id + '">⬆ Primera en la fila</button>' : '') +
+          (['error', 'emitida'].includes(n.estado) ? '<button data-a="reintentar" data-id="' + n.id + '">⟳ ' + (n.estado === 'emitida' ? 'Volver a emitir' : 'Reintentar') + '</button>' : '') +
+          (n.estado !== 'al_aire' ? '<button data-a="borrar" data-id="' + n.id + '">🗑 Borrar</button>' : '') +
+        '</div></div>'; }).join('');
+    cont.querySelectorAll('button[data-a]').forEach(b => b.onclick = () => {
+      const a = b.dataset.a, id = b.dataset.id;
+      if (a === 'borrar') { if (confirm('¿Borrar esta noticia de la redacción?')) accion(id, null, 'DELETE'); }
+      else accion(id, {accion: a});
+    });
+    cont.querySelectorAll('.cambiaBloque').forEach(s => s.onchange = () => accion(s.dataset.id, {accion: 'bloque', bloque: s.value}));
+  } catch (_) {}
+}
+async function estado() {
+  try { const e = await (await fetch('/api/programa', {cache: 'no-store'})).json();
+    $('estado').innerHTML = e.activo ? 'programa <b>AL AIRE</b>' + (e.bloque ? ' · ' + esc(e.bloque.nombre) : '') : 'programa <b style="color:var(--amar)">DETENIDO</b> · las noticias esperan';
+  } catch (_) { $('estado').textContent = 'programa: sin conexión'; }
+}
+leer(); estado(); setInterval(leer, 3000); setInterval(estado, 5000);
+</script>
+</body>
+</html>

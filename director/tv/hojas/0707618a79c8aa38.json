@@ -1,0 +1,22 @@
+{
+ "semilla": "Ada Lovelace",
+ "hechos": [
+  "Ada Lovelace fue una matemática británica del siglo XIX.",
+  "Su nombre completo era Augusta Ada King, condesa de Lovelace.",
+  "Trabajó con Charles Babbage en el diseño de la Analytical Engine.",
+  "En 1843 tradujo un artículo sobre la Analytical Engine escrito por Luigi Menabrea.",
+  "Añadió a esa traducción una serie de notas extensas que explicaban el funcionamiento de la máquina.",
+  "En sus notas describió un algoritmo para que la Analytical Engine calculara los números de Bernoulli.",
+  "Ese algoritmo es considerado el primer programa de computadora publicado.",
+  "Lovelace reconoció que las máquinas podrían ir más allá del cálculo numérico y manipular símbolos.",
+  "Sus escritos exploraron ideas sobre la capacidad de las máquinas para crear música y arte.",
+  "Sus notas se publicaron en la revista Scientific Memoirs.",
+  "Su trabajo fue redescubierto y valorado en la segunda mitad del siglo XX."
+ ],
+ "leyendas": [
+  "Leyenda o error común: se cuenta que Ada Lovelace inventó el primer programa de computadora sin que nadie más hubiera escrito instrucciones antes.",
+  "Leyenda o error común: se cuenta que Ada Lovelace fue la única persona que entendió completamente la Analytical Engine en su época."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 18:28"
+}

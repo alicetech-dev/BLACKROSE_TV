@@ -1,0 +1,301 @@
+{
+ "bloque": "milttech_1845",
+ "programa": "deportes",
+ "fecha": "2026-11-20",
+ "creado": "18:22:32",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: Titulares 1",
+   "sub": "ZONA DEPORTES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Las palabras de Guardiola sobre Klopp que sonrojan a Alemania",
+   "sub": "Marca · hace 16 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Según Marca hace 16 horas, las palabras de Guardiola sobre Klopp que sonrojan a Alemania."
+    },
+    {
+     "quien": "joy",
+     "texto": "El técnico del City elogió a su rival diciendo que Klopp es el tipo de persona que hace del mundo del fútbol un lugar mejor, con carisma y una comunicación increíble. Eso es lo que se sabe."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el 2049 un clon de Klopp seguirá haciendo sonrojar a medio continente solo con sonreír."
+    }
+   ],
+   "seg": 33,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/e79adfd76c2b9981_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/e79adfd76c2b9981_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "La UEFA multa a Inglaterra por los cánticos anticatólicos de sus afici",
+   "sub": "Marca · hace 14 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Marca informa hace 14 horas que la UEFA multa a Inglaterra por los cánticos anticatólicos de sus aficionados en Madrid."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los seguidores ingleses han sido acusados de comportamiento racista y discriminatorio. La sanción ya está confirmada, aunque aún no se sabe el monto exacto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Parece que cantar contra todos sigue siendo el deporte nacional más premiado."
+    }
+   ],
+   "seg": 28,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/7f34bcc251543c4b_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/7f34bcc251543c4b_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El botín de más de un millón y medio de dólares que acumula Zverev en ",
+   "sub": "Marca · hace 14 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "De acuerdo con Marca hace 14 horas, el botín de más de un millón y medio de dólares que acumula Zverev en las ATP Finals de Turín."
+    },
+    {
+     "quien": "joy",
+     "texto": "El alemán número uno al final del año se ha plantado invicto en las semifinales del sábado. Eso dice la información disponible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "A este ritmo va a necesitar una bóveda más grande que su raqueta."
+    }
+   ],
+   "seg": 31,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/2e08f97772a2c1a0_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/2e08f97772a2c1a0_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Roberto Gómez señala a Mourinho: \"Lo único que tiene que hacer es pone",
+   "sub": "Marca · hace 14 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Marca reporta hace 14 horas que Roberto Gómez señala a Mourinho: lo único que tiene que hacer es poner de titular a Vinicius."
+    },
+    {
+     "quien": "joy",
+     "texto": "El periodista defendió que el brasileño debe volver al once ante el Celta y criticó a quienes cuestionan su presencia. Eso es lo que se ha dicho."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Qué opinan en el chat, ¿Mourinho lo escucha o sigue con su libreto?"
+    }
+   ],
+   "seg": 31,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/d3c0ec4f13a7a859_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/d3c0ec4f13a7a859_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_caminandes_llamigos",
+   "archivo": "v/v_caminandes_llamigos.mp4",
+   "titulo": "Caminandes: Llamigos",
+   "atribucion": "«Caminandes: Llamigos» (2016) © Blender Foundation · www.blender.org · CC BY 3.0",
+   "dur": 150,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Titulares 2",
+   "sub": "ZONA DEPORTES",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La norma que obliga a Alcaraz a jugar pero no a terminar el partido an",
+   "sub": "Marca · hace 14 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "La norma que obliga a Alcaraz a jugar pero no a terminar el partido ante Cobolli, según Marca."
+    },
+    {
+     "quien": "joy",
+     "texto": "El murciano ya está clasificado primero del grupo Ivan Lendl y jugará las semifinales contra Shelton."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el 2049 seguro obligan a los tenistas a terminar el partido aunque sea con baterías agotadas."
+    }
+   ],
+   "seg": 26,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/2925a4672106bb3a_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/2925a4672106bb3a_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Sainz tiene 10 puestos de penalización... en un buen circuito para su ",
+   "sub": "Marca · hace 14 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Sainz tiene 10 puestos de penalización en un buen circuito para su Williams, informa Marca."
+    },
+    {
+     "quien": "joy",
+     "texto": "Estaba cerca de entrar con los diez mejores cuando surgió un problema en su unidad de potencia en los libres dos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Al menos el motor falló antes de la carrera, no durante la vuelta de honor."
+    }
+   ],
+   "seg": 26,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/746dbd12a5caa098_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/746dbd12a5caa098_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Aleksandre Topuria cumple con la báscula y su pelea es oficial",
+   "sub": "Marca · hace 14 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Aleksandre Topuria cumple con la báscula y su pelea es oficial, reporta Marca."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se medirá al mexicano Santiago Luna en UFC Qatar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La báscula nunca miente, aunque a veces los fighters sí."
+    }
+   ],
+   "seg": 18,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/8936a9d7ca8aea96_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/8936a9d7ca8aea96_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Ferrero no estará en el banquillo de Shelton contra Alcaraz<br",
+   "sub": "Marca · hace 15 h",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Ferrero no estará en el banquillo de Shelton contra Alcaraz, según Marca."
+    },
+    {
+     "quien": "joy",
+     "texto": "El técnico tiene otros compromisos profesionales que no le permiten llegar a tiempo al partido."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dejen sus opiniones en el chat, ¿quién creen que gana esta semifinal?"
+    }
+   ],
+   "seg": 21,
+   "lote": true,
+   "imgs": [
+    {
+     "web": "/medios/64c4d38a02f61b99_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/64c4d38a02f61b99_169.jpg",
+     "credito": "Foto: Marca"
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_E4nPqSACuYU",
+   "archivo": "yt/phonk/E4nPqSACuYU.m4a",
+   "titulo": "Phonk Brazilian Gaming Sport by Infraction, Emerel Gray / Izindaba",
+   "audio": "yt/phonk/E4nPqSACuYU.m4a",
+   "atribucion": "Música: «Phonk Brazilian Gaming Sport by Infraction, Emerel Gray / Izindaba» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 141,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/E4nPqSACuYU.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_YhbIqPWXw_U",
+   "archivo": "yt/phonk/YhbIqPWXw_U.m4a",
+   "titulo": "Phonk Brazilian Afro Sport by Infraction, Emerel Gray / MONTAGEM MAYE",
+   "audio": "yt/phonk/YhbIqPWXw_U.m4a",
+   "atribucion": "Música: «Phonk Brazilian Afro Sport by Infraction, Emerel Gray / MONTAGEM MAYE» · Infraction - No Copyright Music · sin copyright (YouTube)",
+   "dur": 144,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/YhbIqPWXw_U.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 8,
+  "seg_charla": 214,
+  "medios": 3
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "bloque": "tecnooculta_0358",
+ "programa": "tecnooculta",
+ "fecha": "2026-11-20",
+ "creado": "01:52:04",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: La verdad sobre la tecnología oculta se cuenta con precisión.",
+   "sub": "TECNOLOGÍA OCULTA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "La verdad sobre la tecnología oculta se cuenta con precisión., visto d",
+   "diagrama": null,
+   "intl": null,
+   "sub": "explicado · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de La verdad sobre la tecnología oculta se cuenta con precisión., visto desde lo cotidiano? Hoy lo vemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La verdad sobre la tecnología oculta se cuenta con precisión., visto desde lo cotidiano, dicho en simple, es algo que usamos sin darnos cuenta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo interesante de La verdad sobre la tecnología oculta se cuenta con precisión., visto desde lo cotidiano es cómo funciona por dentro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hay un dato de La verdad sobre la tecnología oculta se cuenta con precisión., visto desde lo cotidiano que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo tengo mi opinión sobre La verdad sobre la tecnología oculta se cuenta con precisión., visto desde lo cotidiano, y no coincide con la tuya."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de La verdad sobre la tecnología oculta se cuenta con precisión., visto desde lo cotidiano? Escríbelo en el chat."
+    }
+   ],
+   "seg": 68,
+   "imgs": [
+    {
+     "web": "/medios/a2569a8ac9a94970_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/a2569a8ac9a94970_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Verdad»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "La verdad sobre la tecnología oculta se cuenta con precisión., visto d",
+   "diagrama": null,
+   "intl": null,
+   "sub": "entrevista con Dr. Neil D. T. (parodia IA)",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Hoy tenemos un invitado muy especial para hablar de La verdad sobre la tecnología oculta se cuenta con precisión., visto desde lo histórico."
+    },
+    {
+     "quien": "joy",
+     "texto": "Primera pregunta: ¿qué es lo más importante de La verdad sobre la tecnología oculta se cuenta con precisión., visto desde lo histórico?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Segunda pregunta, más difícil."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y qué es lo que casi nadie sabe?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Ronda rápida."
+    },
+    {
+     "quien": "joy",
+     "texto": "Si tienes una pregunta para nuestro invitado, escríbela en el chat."
+    }
+   ],
+   "seg": 38,
+   "imgs": [
+    {
+     "web": "/medios/0ec9d1a529bf39da_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/0ec9d1a529bf39da_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Verdad»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_nhq_2020_0106_asknasa",
+   "archivo": "v/v_nasa_nhq_2020_0106_asknasa.mp4",
+   "titulo": "#AskNASA┃Is the Sun a ball of fire?",
+   "atribucion": "«#AskNASA┃Is the Sun a ball of fire?» — NASA · images.nasa.gov",
+   "dur": 335,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Antenas ocultas en el techo",
+   "sub": "TECNOLOGÍA OCULTA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Antenas ocultas en el techo, visto desde lo cultural",
+   "diagrama": null,
+   "intl": null,
+   "sub": "explicado · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de Antenas ocultas en el techo, visto desde lo cultural? Hoy lo vemos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antenas ocultas en el techo, visto desde lo cultural, dicho en simple, es algo que usamos sin darnos cuenta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo interesante de Antenas ocultas en el techo, visto desde lo cultural es cómo funciona por dentro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Hay un dato de Antenas ocultas en el techo, visto desde lo cultural que siempre sorprende."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo tengo mi opinión sobre Antenas ocultas en el techo, visto desde lo cultural, y no coincide con la tuya."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de Antenas ocultas en el techo, visto desde lo cultural? Escríbelo en el chat."
+    }
+   ],
+   "seg": 55,
+   "imgs": [
+    {
+     "web": "/medios/1b40105feb9de873_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/1b40105feb9de873_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Atresmedia»"
+    }
+   ]
+  },
+  {
+   "tipo": "charla",
+   "tema": "Antenas ocultas en el techo, visto desde lo cotidiano",
+   "diagrama": null,
+   "intl": null,
+   "sub": "debate · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Hoy debatimos sobre Antenas ocultas en el techo, visto desde lo cotidiano."
+    },
+    {
+     "quien": "joy",
+     "texto": "Yo creo que Antenas ocultas en el techo, visto desde lo cotidiano tiene más ventajas que problemas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y yo creo exactamente lo contrario."
+    },
+    {
+     "quien": "joy",
+     "texto": "Te concedo un punto, pero solo uno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Quizás las dos tenemos un poco de razón."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chat: ¿equipo Joy o equipo Kuroki? Voten."
+    }
+   ],
+   "seg": 32,
+   "imgs": [
+    {
+     "web": "/medios/7b8d04c171eb4d55_169.jpg",
+     "ruta": "/home/alice/joy_vmc/director/tv/medios/7b8d04c171eb4d55_169.jpg",
+     "credito": "Foto: Wikimedia Commons · «Atresmedia»"
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "musica",
+   "radio": true,
+   "id": "yt_5v79FgbqayY",
+   "archivo": "yt/darksynth/5v79FgbqayY.m4a",
+   "titulo": "Industrial Darksynth - Surveillance // Copyright Safe Music",
+   "audio": "yt/darksynth/5v79FgbqayY.m4a",
+   "atribucion": "Música: «Industrial Darksynth - Surveillance // Copyright Safe Music» · White Bat Audio · sin copyright (YouTube)",
+   "dur": 216,
+   "genero": "DARK SYNTHWAVE",
+   "img": "/tv/media/yt/darksynth/5v79FgbqayY.jpg",
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "video",
+   "radio": true,
+   "id": "yt_-0h07EvAFG0",
+   "archivo": "yt/phonk/-0h07EvAFG0.mp4",
+   "titulo": "Angelcore by Emerel Gray / Like Roses",
+   "audio": "yt/phonk/-0h07EvAFG0.m4a",
+   "atribucion": "Música: «Angelcore by Emerel Gray / Like Roses» · EMEREL GRAY · sin copyright (YouTube)",
+   "dur": 149,
+   "genero": "PHONK",
+   "img": "/tv/media/yt/phonk/-0h07EvAFG0.jpg",
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "episodios": 2,
+  "temas": 4,
+  "seg_charla": 193,
+  "medios": 3
+ }
+}

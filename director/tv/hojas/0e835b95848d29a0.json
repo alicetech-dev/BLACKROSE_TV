@@ -1,0 +1,19 @@
+{
+ "semilla": "La IA que corre en una tarjeta de 6 GB",
+ "hechos": [
+  "La arquitectura de hardware dedicada a la inferencia de IA, conocida como NPU, permite ejecutar modelos complejos en dispositivos móviles con una eficiencia energética superior.",
+  "Los modelos de lenguaje grandes requieren cantidades masivas de datos y potencia computacional para su entrenamiento inicial antes de ser desplegados en aplicaciones finales.",
+  "El uso de tecnologías como el Tensor Processing Unit o los aceleradores neuronales es fundamental para reducir la latencia en inferencias locales.",
+  "La optimización del código mediante técnicas como el cuantizado permite que modelos pre-entrenados funcionen en entornos con recursos limitados.",
+  "Las redes neuronales convolucionales son una arquitectura específica diseñada originalmente para procesar datos visuales, pero ahora se usan ampliamente en inferencia de IA.",
+  "La transferencia de aprendizaje es un método donde un modelo entrenado en una tarea general se adapta a dominios específicos con menos datos.",
+  "El entrenamiento de modelos de IA requiere infraestructura de alto rendimiento, como clústeres de GPUs o TPUs distribuidas globalmente.",
+  "La inferencia local en el dispositivo del usuario reduce la dependencia de conexiones de red constantes y mejora la privacidad de los datos."
+ ],
+ "leyendas": [
+  "Se cuenta que una sola tarjeta gráfica de 6 GB es suficiente para entrenar cualquier modelo de IA moderno, cuando en realidad el entrenamiento requiere infraestructura mucho más grande.",
+  "Según los relatos populares, la IA puede correr en un dispositivo móvil porque 'la magia' ha hecho que las leyes de la física se apliquen diferente a nivel cuántico."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 02:44"
+}

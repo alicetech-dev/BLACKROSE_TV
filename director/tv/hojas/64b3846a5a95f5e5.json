@@ -1,0 +1,21 @@
+{
+ "semilla": "La primera computadora",
+ "hechos": [
+  "La primera computadora programable y completamente automática fue la Z3 construida por Konrad Zuse.",
+  "La Z3 se completó en 1941 en Berlín y usaba relés electromecánicos.",
+  "La Z3 podía realizar operaciones de suma, resta, multiplicación, división y raíces cuadradas.",
+  "La Z3 fue destruida durante un bombardeo en 1943.",
+  "La ENIAC se completó en 1945 en la Universidad de Pensilvania y es considerada la primera computadora electrónica de propósito general.",
+  "La ENIAC usaba más de 17.000 válvulas de vacío y consumía gran cantidad de electricidad.",
+  "La Colossus fue una computadora electrónica británica usada durante la Segunda Guerra Mundial para descifrar códigos.",
+  "Alan Turing contribuyó al diseño de la máquina Bombe usada para romper el cifrado Enigma.",
+  "El concepto de máquina analítica fue propuesto por Charles Babbage en el siglo XIX.",
+  "Ada Lovelace escribió el primer algoritmo destinado a ser procesado por una máquina en 1843."
+ ],
+ "leyendas": [
+  "Leyenda o error común: se cree que la ENIAC fue la primera computadora del mundo cuando en realidad la Z3 de Zuse la precedió.",
+  "Leyenda o error común: se cuenta que la primera computadora fue inventada por un solo genio cuando en realidad fue el resultado de contribuciones de muchos ingenieros a lo largo de décadas."
+ ],
+ "por": "9b",
+ "t": "2026-11-20 18:23"
+}

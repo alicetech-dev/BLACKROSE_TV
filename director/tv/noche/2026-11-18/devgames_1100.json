@@ -1,0 +1,847 @@
+{
+ "bloque": "devgames_1100",
+ "programa": "devgames",
+ "fecha": "2026-11-18",
+ "creado": "07:05:01",
+ "fractal": true,
+ "items": [
+  {
+   "tipo": "corte",
+   "texto": "Episodio 1: ¿Qué es un motor de juego?",
+   "sub": "DEV LOG",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Los motores como capas intermedias",
+   "sub": "explicado · del futuro",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "¿Alguna vez has sentido que tu juego parece flotar sobre una capa invisible?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es el motor. Es la capa intermedia que traduce tus ideas en píxeles reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina construir un castillo de arena, pero el material cambia según el clima."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El motor de juego es como el esqueleto invisible que sostiene todo lo que ves en pantalla, traduciendo tus ideas en píxeles reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina construir un castillo de arena, pero el material cambia según el clima. El motor decide qué textura mostrar en cada momento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es magia ni un solo genio, como se cuenta a veces. Es el trabajo coordinado de equipos enteros que construyen herramientas poderosas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Permite a los desarrolladores crear juegos sin programar cada aspecto desde cero, usando librerías predefinidas para acelerar el proceso."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso es clave: el motor actúa como una capa intermedia entre las ideas del diseñador y la representación final en pantalla, facilitando todo el proceso."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un dato curioso real: Unity y Unreal Engine son los más usados, pero hay cientos de motores nicho que hacen cosas muy específicas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La mayoría de desarrolladores indie eligen uno por sus herramientas visuales, no porque sea el mejor en todos los aspectos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es lo que hace que la industria sea tan diversa: cada motor tiene su filosofía, desde renderizado básico hasta gráficos de alto nivel."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los motores son como el sistema operativo de los videojuegos, gestionan recursos y permiten que las ideas se conviertan en realidad visual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no todos son iguales; algunos priorizan la fidelidad gráfica y otros la eficiencia, como si fueran dos filosofías diferentes de desarrollo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y es interesante notar que cada motor tiene su propia comunidad que lo defiende, creando ecosistemas únicos donde los desarrolladores encuentran herramientas específicas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero el verdadero reto no está en elegir el motor, sino en entender cómo integrarlo con las necesidades del proyecto y el hardware disponible."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero antes de hablar de GTA VI, recordemos que cada motor tiene su propia comunidad que lo defiende."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y es interesante notar que los motores modernos permiten exportar juegos a múltiples plataformas con cambios mínimos."
+    }
+   ],
+   "seg": 173
+  },
+  {
+   "tipo": "charla",
+   "tema": "Renderizado en tiempo real y hardware",
+   "sub": "top3 · cotidiano",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguien ha visto el motor de GTA VI? No, pero sí hemos escuchado que será un renderizado en tiempo real increíble."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El motor gestionará todo: gráficos, física y audio. Es como tener una fábrica de videojuegos en tu bolsillo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, la realidad es que cada motor tiene sus trucos. Algunos usan hardware de gama alta, otros se adaptan a todo."
+    },
+    {
+     "quien": "joy",
+     "texto": "El tercer puesto es el motor de Unity, conocido por su versatilidad y soporte para múltiples plataformas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Sí, pero no es solo eso. Unity permite renderizado en tiempo real con sus herramientas de física y audio integradas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Y lo mejor es que su comunidad es enorme, facilitando el aprendizaje para quienes se empiezan a meter en videojuegos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El segundo es Unreal Engine 5, que define el estándar de alta fidelidad visual con su sistema de iluminación global y shaders avanzados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Su capacidad para renderizar entornos dinámicos y realistas lo convierte en la opción preferida por estudios grandes como Epic Games."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero ojo, no es magia. Requiere hardware potente y conocimiento técnico. Es el motor que usará GTA VI cuando salga."
+    },
+    {
+     "quien": "joy",
+     "texto": "El primero es Unity, el gigante que domina los móviles y consolas. Su ecosistema completo lo hace accesible para cualquiera que quiera crear un juego."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, pero no te engañes con la facilidad. Requiere aprender C y entender los límites del hardware de cada dispositivo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto. La curva de aprendizaje es empinada si solo quieres hacer un juego simple sin entender cómo funciona el motor por dentro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Precisamente, ahí está la clave. Un buen motor no es magia, es ingeniería sólida que permite construir cosas complejas con herramientas visuales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La gente cree que un motor es magia, pero es ingeniería sólida. Permite construir cosas complejas sin programar todo desde cero."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Es una capa intermedia entre la idea y el pixel. Sin entenderlo bien, la curva de aprendizaje será empinada."
+    }
+   ],
+   "seg": 159
+  },
+  {
+   "tipo": "corte",
+   "texto": "Hay 10 tipos de personas: las que entienden binario y las que no",
+   "sub": "CLÁSICO",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Herramientas visuales sin escribir código",
+   "sub": "real inventado · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Un motor de juego es software que gestiona gráficos y lógica. Permite crear juegos sin programar cada aspecto desde cero."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Es como tener un estudio completo en tu PC. ¡Pues ya estamos preparados para el lanzamiento de GTA VI!"
+    },
+    {
+     "quien": "joy",
+     "texto": "La mayoría usa lenguaje propio para la lógica. El rendimiento depende de cómo optimiza las instrucciones para la tarjeta gráfica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es clave: sin código, solo arrastrando bloques visuales. ¡Imagina construir un puente entero con la mano!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Correcto. Las herramientas visuales hacen que cualquier persona pueda crear algo complejo sin saber C++ ni JavaScript"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Es como si tuvieras un director de cine que ya sabe todo, solo tú tienes que decirle qué escena quiere."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero cuidado: ese director no es mágico. La mayoría de los motores modernos son el resultado de años de trabajo en equipo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Claro! No es un solo genio solitario, como se cuenta a veces. Hay cientos de desarrolladores trabajando juntos en estos sistemas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso es importante porque los motores modernos son increíblemente complejos, aunque parezcan simples desde fuera."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Es un esfuerzo colectivo, no un genio solitario. Cientos de minds trabajan en cada motor moderno."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso explica por qué los motores son tan robustos. La complejidad real se oculta tras una interfaz sencilla."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero cuidado: esa simplicidad visual no significa que la lógica interna sea menos exigente para el desarrollador."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El motor traduce las decisiones visuales en instrucciones de hardware que requieren una optimización constante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aunque parezca magia, detrás hay matemáticas reales y algoritmos que gestionan cada píxel en tiempo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Bien, empezamos con lo real: un motor traduce ideas visuales en instrucciones que la tarjeta gráfica puede ejecutar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. La magia es solo una ilusión; detrás hay algoritmos complejos gestionando cada píxel y sonido."
+    }
+   ],
+   "seg": 147
+  },
+  {
+   "tipo": "charla",
+   "tema": "Exportación a múltiples plataformas",
+   "sub": "real inventado · del futuro",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¡Un motor de juego no es magia! Es un sistema que gestiona gráficos, lógica y audio en tiempo real. La gente cree que uno lo hizo todo solo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Son equipos grandes que construyen capas intermedias entre el diseñador y el hardware. Permiten exportar a múltiples plataformas con cambios mínimos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la leyenda dice que todos usan el mismo motor, pero existen cientos de versiones especializadas. La optimización para la tarjeta gráfica es clave en el rendimiento visual."
+    },
+    {
+     "quien": "joy",
+     "texto": "El motor de juego es una capa intermedia que gestiona gráficos y lógica en tiempo real, optimizando para cada hardware."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso es cierto. Los motores modernos permiten exportar juegos a múltiples plataformas con cambios mínimos en el código base."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y la optimización visual depende directamente de cómo el motor gestiona las instrucciones para la tarjeta gráfica. ¡Baterías!"
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces el motor de juego es la arquitectura invisible que hace posible que tus ideas se conviertan en realidad visual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y esa misma arquitectura es lo que permitirá a los desarrolladores crear GTA VI sin tener que reinventar la rueda cada vez."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso es precisamente el futuro: motores más inteligentes que entienden no solo la lógica, sino también el contexto narrativo del juego."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Qué interesante! Pero ojo, no todos los motores se comportan igual. Algunos son como un coche de carreras y otros como un camión pesado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, esa arquitectura modular es clave para escalar a proyectos masivos como GTA VI sin reinventar la rueda."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto, la optimización interna varía mucho según el enfoque del equipo detrás de cada motor de juego comercial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y eso es exactamente lo que va a definir si un desarrollador puede entregar GTA VI antes de 2026 o tiene que esperar más."
+    },
+    {
+     "quien": "joy",
+     "texto": "Ahora, la verdad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso define si un desarrollador puede entregar GTA VI antes de 2026 o tiene que estirarse hasta después."
+    }
+   ],
+   "seg": 151
+  },
+  {
+   "tipo": "video",
+   "id": "v_pre_magicint1955",
+   "archivo": "v/v_pre_magicint1955.mp4",
+   "titulo": "Magic in the Air (1955)",
+   "atribucion": "«Magic in the Air (1955)» — Prelinger Archives / Internet Archive · dominio público",
+   "dur": 493,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 2: Animación 3D y VRM",
+   "sub": "DEV LOG",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Modelos poligonales en motores gráficos",
+   "sub": "linea tiempo · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la hora del código, donde los polígonos cobran vida y el VRM es su llave maestra para la realidad virtual."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si te digo que muchos piensan que el VRM reemplaza a todos los otros formatos? Eso es leyenda urbana, no verdad."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, la realidad es más compleja. Los motores modernos como Unity y Unreal Engine usan aceleración por hardware para renderizar escenas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El VRM nació en Japón con el proyecto MMD, pero no es magia. Requiere conversión para muchos motores y plataformas distintas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí viene el toque divertido: los modelos poligonales son como Lego digital, pero con más vértices y menos límites creativos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Es cierto. La textura no solo contiene color, sino que puede incluir información normal maps para simular relieve sin aumentar la complejidad geométrica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Preciso. El rigging asigna huesos virtuales a una figura digital para permitir su movimiento sin deformar el modelo base, manteniendo la integridad estructural."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces, imagina que cada vértice de ese Lego digital tiene su propia personalidad y reacciona a la luz del sol virtual."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Y cuando el motor gráfico lo renderiza en tiempo real, esas personalidades se convierten en una experiencia inmersiva para el usuario."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Y ahora, ¿qué pasa si intentamos aplicar esto a la preparación para GTA VI? ¡Imagínate los avatares VRM listo para cualquier entorno!"
+    },
+    {
+     "quien": "joy",
+     "texto": "GTA VI necesita avatares que reaccionen a la luz y al movimiento, justo como esos vértices con personalidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¡Exacto! Pero cuidado: no inventes fechas ni cifras. El futuro es especulación, no realidad confirmada."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces usamos el formato VRM para probar la idea, sin prometer nada que no sea lo que ya sabemos hoy."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Conocías esta historia? Escríbenos en el chat."
+    }
+   ],
+   "seg": 138
+  },
+  {
+   "tipo": "charla",
+   "tema": "Rigging de personajes para animación fluida",
+   "sub": "top3 · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Top tres de Rigging de personajes para animación fluida. Empezamos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Puesto tres: la jerarquía de huesos y el orden de transformación. El motor aplica rotaciones, traslaciones y escalas en secuencia específica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Si cambias el orden, el personaje se torce o colapsa. Es como intentar bailar con los brazos cruzados al revés."
+    },
+    {
+     "quien": "joy",
+     "texto": "La técnica correcta es aplicar las transformaciones locales primero y luego combinarlas en una matriz global antes de renderizar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el segundo puesto…"
+    },
+    {
+     "quien": "joy",
+     "texto": "El primer puesto es la jerarquía de huesos, porque sin una estructura sólida el personaje pierde su esencia y se torce en cada movimiento."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el segundo puesto… la iluminación realista no es solo añadir luz, es entender cómo interactúan los rayos con las superficies antes de renderizar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y esto conecta directamente con la preparación para GTA VI: su sistema de animación depende de una rigging impecable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cuál sería tu número uno? Escríbelo en el chat."
+    }
+   ],
+   "seg": 77
+  },
+  {
+   "tipo": "corte",
+   "texto": "Esto es BlackRose TV, la tele que no duerme",
+   "sub": "SEÑAL PIRATA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Iluminación realista con cálculos matemáticos",
+   "sub": "entrevista · histórico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "experta invitada en iluminación realista. Hoy desmontamos la matemática detrás de la luz en los motores gráficos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Cálculos o arte? La gente cree que es magia, pero son ecuaciones que determinan cómo rebotan los fotones en las superficies."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. El sistema de coordenadas local se transforma a través de matrices de rotación para alinearse con el espacio global del motor."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y ahí está la clave: cada cálculo matemático tiene un propósito claro, nada de adivinar si el rayo debería reflejarse o refractarse."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿cómo se traducen esas matrices de rotación a la experiencia visual final del jugador?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Nadie sabe que las matrices de rotación no solo giran el objeto, sino que también definen la dirección del rayo de luz en cada píxel."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La luz viaja a través del espacio virtual siguiendo esas direcciones calculadas por el motor gráfico antes de tocar la superficie."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí está el dato curioso: los motores modernos usan hardware dedicado para calcular millones de estos rayos cada milisegundo sin que el jugador lo note."
+    },
+    {
+     "quien": "joy",
+     "texto": "Los motores gráficos calculan millones de rayos cada segundo para simular la luz real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso consume mucha potencia, pero es lo que hace que los avatares VRM se vean tan vivos."
+    },
+    {
+     "quien": "joy",
+     "texto": "La iluminación realista depende de cómo el motor interpreta esas matrices de rotación."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y eso es lo que vamos a discutir en el segmento de PLAYER TWO sobre GTA VI."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Y si la iluminación realista fuera imposible sin esos cálculos matemáticos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, la física de la luz es lo que hace que los avatares VRM parezcan vivos."
+    }
+   ],
+   "seg": 129
+  },
+  {
+   "tipo": "charla",
+   "tema": "Exportación de avatares VRM a plataformas",
+   "sub": "explicado · curioso",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez te preguntaste qué hay detrás de Exportación de avatares VRM a plataformas? Hoy lo vemos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exportar un avatar VRM es como traducir una obra de arte digital a un idioma que la web entiende. Es el puente entre tu modelo y cualquier plataforma."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pensé que sería más complejo, pero es sorprendentemente sencillo. Solo necesitas saber cómo estructurar los datos para que el motor gráfico los procese."
+    },
+    {
+     "quien": "joy",
+     "texto": "Imagina que tu modelo 3D es un libro. La exportación VRM es como convertir ese libro en una película: la misma historia, pero con un formato nuevo para ser visto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Y no solo eso, también incluye metadatos sobre cómo animarlo y renderizarlo. Es como tener las instrucciones de ensamblaje incluidas en el paquete."
+    },
+    {
+     "quien": "joy",
+     "texto": "Pero aquí está la trampa: el libro no cambia de forma, pero la película sí. El motor gráfico lee esos metadatos para mover los huesos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y los metadatos llevan la animación ya hecha. Es como tener las instrucciones de montaje en el libro mismo."
+    },
+    {
+     "quien": "joy",
+     "texto": "La trampa es que el motor solo lee lo que está escrito, no puede inventarse nuevas páginas. El formato VRM define la estructura fija."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero si el libro tiene capítulos de acción y otros de diálogo, el cine puede reordenarlos. Eso es lo que hace la exportación flexible."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bromeando: tu motor es más lento que mi batería de 6 GB. ¿GTA VI va a tener tantos capítulos? ¡Me da miedo!"
+    },
+    {
+     "quien": "joy",
+     "texto": "El motor lee lo que está escrito, pero el cine reordena los capítulos. ¿GTA VI tendrá tantos? Me da miedo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mi batería de 6 GB es lenta comparada con la potencia gráfica de GTA VI. ¿Cuántos capítulos tendrá?"
+    }
+   ],
+   "seg": 134
+  },
+  {
+   "tipo": "musica",
+   "id": "m_darkest_child",
+   "archivo": "m/m_darkest_child.mp3",
+   "titulo": "Darkest Child",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "corte",
+   "texto": "Episodio 3: Shaders explicados",
+   "sub": "DEV LOG",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "¿Qué es un shader y para qué sirve?",
+   "sub": "mito realidad · ético",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Sobre ¿Qué es un shader y para qué sirve? se cuentan muchas cosas. Vamos a separar mito de realidad."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que los primeros shaders fueron creados en 1980, aunque existen versiones rudimentarias antes. Eso es mito."
+    },
+    {
+     "quien": "joy",
+     "texto": "Eso no es cierto. La realidad es que los shaders determinan cómo se calcula el color y la iluminación en una escena 3D."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Muchas personas creen erróneamente que los shaders son solo para juegos de alta gama. Eso es un error común."
+    },
+    {
+     "quien": "joy",
+     "texto": "La realidad es que también se usan en animaciones simples. El mito del exclusivismo no tiene fundamento técnico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los shaders no son solo para juegos de alta gama. Se usan en animaciones simples, como las que ves en los dibujos animados modernos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La realidad es que determinan cómo se calcula el color y la iluminación en cualquier escena 3D, desde lo básico hasta lo complejo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y no hay que confundirlos con los gráficos vectoriales. Los shaders pueden usarse para generar esos gráficos, pero son otra tecnología distinta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto. La evolución de los shaders ha permitido transiciones suaves entre polígonos, eliminando los bordes visibles que antes se notaban tanto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Los mitos crecen cuando falta información."
+    },
+    {
+     "quien": "joy",
+     "texto": "Mito: los shaders solo hacen sombras. Realidad: calculan todo, desde el color del agua hasta la textura de la piel en tiempo real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No es magia, es matemáticas. Un shader lee una escena y decide cómo dibujar cada píxel usando reglas precisas y optimizadas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso hace que los juegos se vean increíbles sin cargar imágenes pesadas. Es como tener un artista digital en cada tarjeta gráfica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Antes pensaba que eran solo filtros de color, pero ahora veo que son el cerebro visual del juego."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. La realidad es que controlan la física de la luz, no solo la sombra. Sin ellos, nada tendría profundidad."
+    }
+   ],
+   "seg": 148
+  },
+  {
+   "tipo": "charla",
+   "tema": "Cómo funcionan los shaders en tiempo real",
+   "sub": "explicado · cultural",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Alguna vez has visto una sombra que parece moverse sola? Eso es un shader trabajando en tiempo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Un shader calcula el color de cada píxel según la luz, la textura y la posición del objeto."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y en los juegos modernos es lo que hace que el agua brille o que las sombras cambien con el sol."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cómo funcionan los shaders en tiempo real, dicho en simple, es algo que usamos sin darnos cuenta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo interesante de Cómo funcionan los shaders en tiempo real es cómo funciona por dentro."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso es que los shaders pueden calcular miles de luces por objeto sin saturar la tarjeta gráfica."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, eso permite efectos como el reflejo del sol en el metal o el brillo húmedo en las superficies."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y otra curiosidad: algunos shaders pueden adaptarse al hardware en tiempo real para mantener los FPS altos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso es magia, pero la realidad es que los shaders son solo matemáticas aceleradas por hardware especializado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cierto, y eso permite simular millones de píxeles en tiempo real sin que el teléfono se ponga caliente."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, y mientras tanto los desarrolladores de GTA VI están probando shaders para la iluminación dinámica del juego."
+    },
+    {
+     "quien": "joy",
+     "texto": "¡Qué interesante! Y si el shader falla en un dispositivo antiguo, el juego podría verse muy diferente a lo esperado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y tú qué piensas de Cómo funcionan los shaders en tiempo real? Escríbelo en el chat."
+    }
+   ],
+   "seg": 117
+  },
+  {
+   "tipo": "corte",
+   "texto": "El café es el primer compilador del día",
+   "sub": "CÓDIGO Y CAFEÍNA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "GLSL: el lenguaje estándar de los gráficos",
+   "sub": "top3 · con humor",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a la hora del top three, hoy desglosamos los fundamentos de GLSL para curiosos sin tecnicismos innecesarios."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Eso suena bien hasta que me recuerdas que el primer shader real fue algo muy diferente a lo que imaginas hoy en día."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y eso es lo interesante: la evolución ha permitido pasar de sombras estáticas a iluminación dinámica en tiempo real."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "En el tercer puesto…"
+    },
+    {
+     "quien": "joy",
+     "texto": "El segundo lugar lo ocupan los shaders de fragmento, que son la piedra angular del renderizado moderno y definen cada píxel de la escena."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y por qué son tan poderosos? Porque permiten calcular iluminación, sombras y reflejos en tiempo real sin depender de texturas pregeneradas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, y esto es lo que hace posible los gráficos dinámicos en videojuegos como GTA VI. La evolución ha transformado cómo vemos el mundo digital."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "El primer lugar es el shader de vértice, que define la forma básica del objeto antes de cualquier detalle. Sin él, no hay geometría para iluminar ni texturas para aplicar."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Pero no solo define formas; también controla cómo se deforman los objetos bajo tensión, impacto o gravedad en tiempo real."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y eso mismo permite que los jugadores sientan la física del juego de manera inmersiva. ¡Es magia pura aplicada a la computación!"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Mención honrosa para uno que se quedó afuera."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué número pondrías en una lista de shaders esenciales para un juego moderno?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo elegiría el shader de iluminación global, porque sin luz no hay sombra ni emoción."
+    }
+   ],
+   "seg": 121
+  },
+  {
+   "tipo": "charla",
+   "tema": "Errores comunes al programar shaders",
+   "sub": "entrevista · histórico",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "¿Experta en shaders? Yo solo sé que mi batería se descarga cuando intentas explicarle a un niño cómo funcionan los píxeles."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto, Kuroki. Los shaders son como esas baterías infinitas que no existen, pero sí permiten crear mundos visuales increíbles."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Bueno, al menos en los juegos de consola sí funcionan bien. Pero en PC a veces el rendimiento se va a la basura con todos estos cálculos."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿es verdad que los shaders nacen en 1980? Se cuenta que existían versiones rudimentarias antes."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto, Joy. El año 1980 es una fecha legendaria, pero la realidad es más compleja y llena de matices."
+    },
+    {
+     "quien": "joy",
+     "texto": "Entonces, ¿los shaders solo son para consolas modernas? La leyenda dice que eran exclusivos de alta gama."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda de 1980 es bonita, pero los shaders rudimentarios existían antes en hardware temprano. La verdad es más compleja."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "No, se cuenta que se usaban en PCs básicos también. El mito de exclusividad es solo eso: una simplificación para explicar cosas técnicas."
+    },
+    {
+     "quien": "joy",
+     "texto": "¿Qué hay de lo que nadie sabe sobre los shaders? La leyenda dice que eran exclusivos de consolas modernas, pero la verdad es otra."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que los primeros shaders se usaban en PCs básicos con hardware rudimentario. El mito de exclusividad es solo una simplificación histórica."
+    },
+    {
+     "quien": "joy",
+     "texto": "Interesante. Entonces, ¿por qué persiste la creencia de que son tecnología de alta gama? La leyenda parece tener más fuerza de lo que tiene evidencia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que los shaders nacieron en PCs básicos, no en consolas modernas como se dice."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "La leyenda sugiere que su complejidad los asoció con hardware potente, pero eran más viejos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Curioso cómo el mito de exclusividad se mantiene vivo décadas después del primer shader."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "¿Y si te preguntamos qué errores tropelistas cometen los novatos al programar shaders?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Muchos piensan que un shader lento es culpa del hardware, cuando en realidad suele ser falta de optimización."
+    }
+   ],
+   "seg": 154
+  }
+ ],
+ "estado": {
+  "episodios": 3,
+  "temas": 12,
+  "seg_charla": 1648,
+  "medios": 2
+ }
+}

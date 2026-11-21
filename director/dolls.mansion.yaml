@@ -1,0 +1,62 @@
+# BlackRose Mansion Circuit — dolls con Grok (cerebro + voz en la nube) y overlays VRM livianos en OBS.
+# Arranque:  ~/joy_vmc/mansion.sh start
+# Sin 4B local ni XTTS: la GPU queda para el juego + OBS. Joy + BL4CKROSE comentan el gameplay.
+sfw: true
+agente: ws://127.0.0.1:8791
+xtts_url: http://127.0.0.1:9020/tts
+llm_directo: http://127.0.0.1:8087   # ligero/grok_shim.py → xAI
+
+usuario: {id: 0, nombre: Alice}
+
+audio:
+  sink: dolls
+  bloque_ms: 20
+  adelanto_ms: 30
+
+opinar: 0.4
+
+dolls:
+  joy:
+    nombre: Joy
+    alias: [joy, yoi]
+    cuerpo: ws://127.0.0.1:8770
+    vmc_puerto: 39550
+    cuerpo_desc: "cyborg cat-girl avatar: cat ears, tail, robotic arms and glowing eyes"
+    mirar_a: {bambi: derecha}
+    idioma: es
+    voz: {motor: grok, voice: ara}
+  bambi:
+    nombre: BL4CKROSE
+    alias: [blackrose, bl4ckrose, rose, barbie]
+    cuerpo: ws://127.0.0.1:8771
+    vmc_puerto: 39541
+    cuerpo_desc: "gothic cat-girl avatar: black-pink hair, cat ears, neon mansion vibe"
+    mirar_a: {joy: izquierda}
+    idioma: es
+    voz: {motor: grok, voice: eve}
+
+sala:
+  activo: true
+  silencio: [40, 90]
+  dialogo_max: 3
+  replicar: 0.7
+  posturas: {seguir: 0.3, contradecir: 0.2, preguntar: 0.25, debatir: 0.25}
+
+canal:
+  youtube: ""
+  twitch: "barbieblackrose"
+  kick: ""
+  auto: true
+  cada: [20, 45]
+  vence: 180
+  ignorar: [Nightbot, StreamElements, Streamlabs, Moobot]
+  bloquear: []
+
+temas:
+  - BlackRose Mansion Circuit: collab con Ibrand22, mansión neón + circuito de F1 en VRChat
+  - qué zona de la mansión les gusta más (piscina, hall, hacker, domo Mother, boxes)
+  - tip para correr en el circuito: boxes, DRS, cuidar el auto
+  - alentar a Alice mientras juega y preguntarle al chat qué probar después
+  - VRChat: mundos, avatares y por qué este collab está bueno
+  - noticias de tecnología e IA de la semana (corto, en vivo)
+  - memes y cultura de internet sin salirse del stream

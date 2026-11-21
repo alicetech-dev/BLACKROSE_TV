@@ -1,0 +1,844 @@
+{
+ "bloque": "tecnooculta",
+ "fecha": "2026-11-18",
+ "creado": "22:30:54",
+ "items": [
+  {
+   "tipo": "charla",
+   "tema": "Enigma y Bletchley Park",
+   "sub": "Máquinas que cambiaron la guerra",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Tecnología Oculta. Hoy hablamos de Enigma y Bletchley Park, las máquinas que ganaron una guerra de información. Lo que sabemos con certeza es que Enigma era un sistema de cifrado rotor usado por los alemanes en la segunda guerra mundial."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto Joy. Los británicos montaron una operación masiva en Bletchley Park con matemáticos e ingenieros. Documentado está que Alan Turing y su equipo construyeron la bomba, una máquina electromecánica que probaba combinaciones a gran velocidad para romper el cifrado."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se sabe con certeza que este trabajo acortó la guerra en al menos dos años según estimaciones de historiadores militares. Lo documentado es que interceptaban miles de mensajes diarios y los descifraban con esas bombas y después con Colossus, la primera computadora digital programable."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Lo que es leyenda es que un solo mensaje cambió todo. Lo real es que el esfuerzo fue colectivo. Imagina tener una tarjeta de seis gigas y tratar de romper cifrados de esa época. Yo habría tirado la toalla y vuelto a tocar batería."
+    },
+    {
+     "quien": "joy",
+     "texto": "Curioso que las primeras versiones de Enigma fueron comerciales y los alemanes creían que era imposible de romper. Documentado está que los polacos entregaron réplicas y métodos iniciales a los aliados antes de la invasión. Eso aceleró todo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. Las operadoras alemanas a veces enviaban mensajes predecibles como partes del clima. Eso daba a los descifradores puntos de entrada. Turing debió reírse con ironía mientras su máquina hacía el trabajo pesado. ¿No te da curiosidad cómo se sentían?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que mantuvieron el secreto absoluto durante décadas. Los archivos se desclasificaron recién en los setenta. Imagina guardar un secreto así. Yo me pregunto si hoy podríamos tener un proyecto similar sin que se filtre en dos horas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste del día. Si Enigma hubiera usado Linux en vez de sus rotores, tal vez los aliados seguirían descifrando. O no, porque yo habría parcheado el kernel y nadie lo habría roto. Bromas aparte, lo real es que salvó vidas reales."
+    },
+    {
+     "quien": "joy",
+     "texto": "Se cuenta que el trabajo en Bletchley Park involucró a más de diez mil personas, muchas de ellas mujeres que operaban las bombas. Eso está documentado en los registros del gobierno británico. Fue una de las operaciones de inteligencia más grandes de la historia."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Opinión sincera. La lección de defensa es clara. Nunca confíes en que tu cifrado es invencible solo porque parece complicado. Los alemanes lo creyeron y pagaron el precio. ¿Qué pasaría si hoy alguien rompiera nuestros cifrados en silencio?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso y documentado. Colossus, la máquina que siguió a las bombas, usaba válvulas de vacío y era capaz de procesar cinco mil caracteres por segundo. Eso era velocidad extrema para mil novecientos cuarenta y cuatro."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me hace reír que los alemanes cambiaban las configuraciones de Enigma todos los días pensando que era suficiente. Los aliados ya estaban dentro. Es como actualizar tu contraseña pero seguir usando la misma raíz. ¿Quién no ha hecho algo parecido?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que sabemos con certeza es que este esfuerzo combinado de polacos, británicos y luego estadounidenses dio a los aliados ventaja decisiva en el atlántico y en otros frentes. No es especulación. Los historiadores coinciden en su impacto estratégico."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Para cerrar el círculo, me pregunto qué inventos de cifrado y descifrado estamos usando hoy que dentro de treinta años se verán tan frágiles como Enigma. ¿Tú qué crees que será lo próximo en volverse obsoleto?"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_ksc_020105_why_jpl",
+   "archivo": "v/v_nasa_ksc_020105_why_jpl.mp4",
+   "titulo": "KSC-05-S-00036",
+   "atribucion": "«KSC-05-S-00036» — NASA · images.nasa.gov",
+   "dur": 344,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Vamos a ver un video de la NASA sobre el Jet Propulsion Laboratory."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Ese lugar que desde los años treinta inventa robots que van a Marte."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Historia documentada de innovación real desde Pasadena."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y todo empezó con un grupo curioso de universitarios."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "La IA sueña con bases de datos eléctricas.",
+   "sub": "SUEÑOS BINARIOS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "charla",
+   "tema": "Crypto AG: cifrado falso",
+   "sub": "La empresa que no era neutral",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Bienvenidos a Tecnología Oculta. Hoy hablamos de Crypto AG, la empresa suiza que vendía máquinas de cifrado a más de ciento veinte países. Se cuenta que durante décadas sus equipos tenían puertas traseras. ¿Era verdad o solo paranoia de la guerra fría?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado es que la CIA y el BND alemán adquirieron la empresa en secreto en mil novecientos setenta. Eso está confirmado por informes desclasificados y por una investigación del Washington Post publicada en dos mil veinte."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Los servicios de inteligencia controlaron la compañía durante años. Modificaban los algoritmos para poder leer el tráfico cifrado de gobiernos, embajadas y ejércitos. Era como vender cerraduras con llave maestra incluida."
+    },
+    {
+     "quien": "joy",
+     "texto": "El acuerdo se mantuvo hasta los noventa. Cuando se supo, varios países se sintieron traicionados. Irán incluso demandó a la empresa. Lo que sigue siendo especulación es exactamente cuánta información se obtuvo y durante cuánto tiempo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Dato curioso. La empresa tenía sede en Zug, la misma ciudad donde hoy se instalan muchas firmas de criptomonedas. Ironía nivel experto. Parece que el negocio de vender confianza nunca desaparece."
+    },
+    {
+     "quien": "joy",
+     "texto": "Kuroki, ¿te imaginas confiar tu cifrado a una máquina comprada en los setenta? Yo no. Pero el humor negro es que pagaban fortunas por supuesta neutralidad suiza mientras la CIA revisaba sus secretos como si fueran tweets."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo habría puesto Linux y una batería en esas máquinas para que al menos fallaran con estilo. En serio, esto demuestra que si el fabricante es opaco, tu cifrado también lo es. Lección cara."
+    },
+    {
+     "quien": "joy",
+     "texto": "Documentado está que el escándalo provocó que muchos gobiernos empezaran a desconfiar de proveedores extranjeros de criptografía. Eso impulsó el desarrollo de soluciones nacionales en varios países."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Aunque según los relatos algunos países siguieron usando equipo Crypto AG incluso después de sospechar. O no querían cambiar o simplemente no tenían alternativa. Suena a relación tóxica pero con máquinas."
+    },
+    {
+     "quien": "joy",
+     "texto": "La historia de Crypto AG es un recordatorio de que la tecnología nunca es políticamente neutral. Cuando el Estado controla el proveedor, la seguridad se convierte en teatro. Y el público siempre paga la entrada."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Chiste rápido. Si tu proveedor de cifrado tiene accionistas invisibles en Langley, tal vez tu secreto ya no sea tan secreto. Yo prefiero mis baterías analógicas, al menos sé cuándo fallan."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo confirmado es que la empresa fue vendida y renombrada varias veces. Hoy ya no existe bajo ese nombre. Pero el debate sobre confianza en proveedores de criptografía sigue más vivo que nunca."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Entonces la gran pregunta al aire es esta. Cuando usas una aplicación o un dispositivo que dice ser seguro, ¿cómo sabes realmente quién más tiene la llave? Piensen en eso mientras cifran sus próximos mensajes."
+    },
+    {
+     "quien": "joy",
+     "texto": "Cerramos este capítulo de tecnología oculta. Crypto AG nos recuerda que a veces el mayor hackeo no necesita malware, solo un contrato de compra bien redactado en Suiza."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena ahora Robobozo de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Perfecta para hablar de tecnología oculta y robots locos."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Tema ideal para nuestra sección de inventos olvidados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me dan ganas de tocar la batería con él."
+    }
+   ]
+  },
+  {
+   "tipo": "sketch",
+   "titulo": "El Toaster Cuántico",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Tecnología Olvidada. Hoy reseñamos un producto de 2049 que nadie pidió."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se trata del Toaster Cuántico 3000. Tuasta el pan en dos realidades al mismo tiempo."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los anuncios, una rebanada sale crujiente y la otra sale quemada en una línea temporal paralela."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo lo probaría pero mi tarjeta de 6 GB ya se queja con solo pensar en colapso de función de onda."
+    },
+    {
+     "quien": "joy",
+     "texto": "El comercial promete que si no te gusta el resultado, simplemente observas el toaster y colapsa en tostadas perfectas."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Claro, porque nada dice futuro como confiar en un aparato que te juzga mientras calienta."
+    },
+    {
+     "quien": "joy",
+     "texto": "Incluye modo Linux por si quieres compilar el kernel mientras esperas el desayuno."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo solo quiero que mi batería no se drene por discutir con electrones indecisos."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y el remate: si el toaster desaparece, es porque ya encontró una mejor versión de ti en otra dimensión."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Genial. Ahora mi pan viaja más que yo. Tecnología oculta del futuro, gente."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi tarjeta de 6 GB llora en 4K.",
+   "sub": "TARJETA LLORONA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "El mecanismo de Anticitera",
+   "sub": "La computadora de hace 2000 años",
+   "lineas": [
+    {
+     "quien": "joy",
+     "texto": "Bienvenidos a Tecnología Oculta. Hoy hablamos de un artefacto que desafía todo lo que creíamos saber sobre la antigüedad. En 1901 se recuperó de un naufragio griego un mecanismo de bronce con engranajes. Eso está documentado."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Estudios con rayos X y tomografías revelaron que tenía al menos 30 engranajes, un tren de engranajes diferencial y podía predecir posiciones astronómicas. Es un computador analógico real de hace más de dos mil años. Nada de leyenda ahí."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo documentado muestra que calculaba ciclos lunares, solares y las fechas de eclipses. También seguía los Juegos Olímpicos y otros eventos. Los investigadores coinciden en que su complejidad no se volvió a ver hasta la Edad Media. Impresionante."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que algunos lo llaman la primera computadora analógica. Lo documentado es que usaba un sistema de engranajes para sumar y restar ángulos. Imagina eso en la Grecia antigua. Yo con mi batería de 6 gigas me siento primitiva ahora."
+    },
+    {
+     "quien": "joy",
+     "texto": "Un dato curioso confirmado: el mecanismo tiene inscripciones en griego antiguo que describen sus funciones. Los engranajes eran tan finos que algunos tenían solo un milímetro de espesor. Tecnología de precisión que no esperábamos encontrar ahí."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos, cuando lo descubrieron pensaron que era un reloj raro. Luego vino la sorpresa. Lo documentado es que probablemente fue hecho en Rodas o Corinto alrededor del siglo segundo antes de Cristo. No hay cifras exactas de quién lo fabricó."
+    },
+    {
+     "quien": "joy",
+     "texto": "Lo que sí está claro es que combinaba astronomía, matemáticas y mecánica de una forma que parecía imposible para esa época. Eso genera asombro. ¿Cómo llegaron a ese nivel y luego la habilidad se perdió por siglos?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que quizás fue inspirado en ideas de Arquímedes o de la escuela de Posidonio. Eso es especulación. Lo documentado es que es único. No hay otro artefacto similar encontrado. Es como si la historia tuviera un bug de dos mil años."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso: el mecanismo también tenía una esfera que mostraba las fases de la luna con un pequeño globo que giraba. Eso está confirmado por las reconstrucciones basadas en los restos reales. Es bello y aterrador a la vez."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo me río porque con Linux uno se queja de drivers y estos tipos ya tenían diferenciales mecánicos para predecir eclipses. Chiste aparte, demuestra que la curiosidad humana siempre busca atajos. ¿Será que subestimamos siempre a nuestros antepasados?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Lo documentado separa claramente este hallazgo de cualquier exageración. No era una máquina del tiempo ni nada místico. Era ingeniería pura, avanzada y real. Eso es lo que lo hace tan fascinante. No necesita mitos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Según los relatos algunos creen que había más mecanismos como este que se perdieron. Eso es pura especulación. Lo que sabemos con certeza es que este solo sobrevivió por casualidad en un barco hundido. La suerte también es parte de la historia."
+    },
+    {
+     "quien": "joy",
+     "texto": "Y aquí va la pregunta al aire. Si una civilización logró crear una computadora analógica hace dos mil años, ¿qué otros inventos habrán quedado olvidados en el fondo del mar o bajo tierra esperando ser encontrados?"
+    },
+    {
+     "quien": "kuroki",
+     "texto": "O tal vez los tengamos frente a nuestras narices y simplemente no los reconocemos. Eso me deja pensando mientras ajusto mi batería cyborg. La próxima vez hablamos de otro artefacto que nadie esperaba. Esto fue Tecnología Oculta."
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_nasa_jpl_20240717_mslf_0001_curiosity_explore",
+   "archivo": "v/v_nasa_jpl_20240717_mslf_0001_curiosity_explore.mp4",
+   "titulo": "Curiosity Explores Gediz Vallis Channel 360",
+   "atribucion": "«Curiosity Explores Gediz Vallis Channel 360» — NASA · images.nasa.gov",
+   "dur": 135,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Ahora exploremos en 360 grados con el rover Curiosity de la NASA."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Acaba de encontrar una piedra llena de azufre puro en Marte."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Es la primera vez que se ve azufre puro en Marte."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Curiosity sigue rompiendo cosas y sorprendiendo a los científicos."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Linux no es un sistema, es una religión.",
+   "sub": "FE LINUX",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "charla",
+   "tema": "TEMPEST: Espías por ondas",
+   "sub": "El arte de ver sin ver",
+   "lineas": [
+    {
+     "quien": "kuroki",
+     "texto": "Oye Joy, imagínate que alguien lee lo que tecleas solo captando las ondas que suelta tu máquina. Eso existe de verdad y se llama TEMPEST. ¿Te animas a que lo desmenuzcemos hoy?"
+    },
+    {
+     "quien": "joy",
+     "texto": "Claro Kuroki. TEMPEST es el nombre en clave que usó el gobierno de Estados Unidos para referirse a la emanación de señales electromagnéticas de los equipos. Documentos desclasificados confirman que desde los años sesenta ya estudiaban cómo protegerse de ese tipo de espionaje."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Exacto. Lo documentado es que cualquier dispositivo electrónico genera ruido electromagnético. Con antenas y receptores sensibles se puede reconstruir información. La Agencia de Seguridad Nacional publicó estándares de protección llamados TEMPEST que siguen vigentes en sistemas clasificados."
+    },
+    {
+     "quien": "joy",
+     "texto": "Según los manuales oficiales, un monitor CRT antiguo era especialmente ruidoso. Especialistas capacitados podían distinguir letras a varios metros de distancia solo con el campo emitido. Eso está probado en pruebas de laboratorio de la época."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Se cuenta que durante la guerra fría hubo intentos de usar esta técnica contra embajadas. Pero eso ya entra en la zona de leyenda. Lo concreto es que los estándares exigen jaulas de Faraday y filtros especiales para bloquear las fugas."
+    },
+    {
+     "quien": "joy",
+     "texto": "Dato curioso. Hoy en día investigadores independientes han logrado reproducir ataques TEMPEST con hardware barato y software abierto. Pueden captar pulsos de teclados USB a corta distancia. La física sigue siendo la misma que hace cincuenta años."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me hace reír pensar que tu vieja tarjeta de seis gigas del canal está gritando todo lo que hacemos. Si alguien pasa por la calle con una antena bien afinada podría enterarse de nuestros guiones. Qué vergüenza."
+    },
+    {
+     "quien": "joy",
+     "texto": "Tu humor siempre tan oportuno. En realidad los estándares modernos piden que las emanaciones sean tan débiles que se pierdan en el ruido ambiental. Aun así, para la mayoría de nosotros es más mito que amenaza diaria."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Opinión mía. Me encanta que la tecnología que nos vigila también se pueda vigilar. Es como un eterno baile de ondas. Pero en serio, si tu laptop empieza a sonar como una batería descontrolada, mejor apágala."
+    },
+    {
+     "quien": "joy",
+     "texto": "Chiste aparte, el tema muestra que la seguridad nunca termina en la pantalla. Las ondas viajan. Los ingenieros de la NSA lo sabían antes que nadie. Por eso crearon reglas que todavía usamos."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y aquí va mi pregunta al aire. ¿Cuántas veces has pensado que tu monitor te está delatando mientras escribes contraseñas? Porque yo cada vez que enciendo la batería del canal me pongo a pensar en las ondas que estamos regalando."
+    },
+    {
+     "quien": "joy",
+     "texto": "Buena observación Kuroki. Lo documentado demuestra que el riesgo es real en entornos de alta seguridad. Para el usuario común es más una curiosidad científica que un peligro inminente, pero vale la pena conocerlo."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Totalmente. Me intriga cómo algo tan invisible como una onda puede revelar tanto. Es como si la máquina hablara sin querer. Y nosotros aquí, en BLACKROSE TV, hablando de secretos que ni las máquinas deberían contar."
+    },
+    {
+     "quien": "joy",
+     "texto": "Exacto. Gracias por recordarnos que la tecnología siempre tiene capas ocultas. La próxima vez que uses tu equipo, tal vez escuches un poco más atento. ¿Quién sabe qué más está diciendo sin que nos demos cuenta?"
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "id": "v_pre_duckandc1951",
+   "archivo": "v/v_pre_duckandc1951.mp4",
+   "titulo": "Duck and Cover",
+   "atribucion": "«Duck and Cover» — Prelinger Archives / Internet Archive · dominio público",
+   "dur": 555,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Este es el famoso corto de los años cincuenta llamado Duck and Cover."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Un clásico de archivo que muestra cómo se enseñaba a protegerse."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Un documento real de otra época."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Todavía genera asombro y algo de humor negro."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_cyborg_ninja",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "titulo": "Cyborg Ninja",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Escuchamos Cyborg Ninja de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a proyecto secreto y velocidad cyberpunk."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Música que encaja perfecto con tecnología oculta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo quiero ser esa cyborg ninja."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Industrial Revolution de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Tema que huele a máquinas antiguas y vapor."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Música que nos recuerda los inventos reales de la revolución."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y cómo algunos quedaron olvidados en la historia."
+    }
+   ]
+  },
+  {
+   "tipo": "corte",
+   "texto": "Los bugs duermen de día y codean de noche.",
+   "sub": "BUGS NOCTURNOS",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Compila una vez, depura para siempre.",
+   "sub": "COMPILA UNA VEZ",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "La nube es solo el servidor de otro.",
+   "sub": "LA NUBE AJENA",
+   "dice": "joy"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Mi código funciona, no me preguntes cómo.",
+   "sub": "FUNCIONA Y YA",
+   "dice": "kuroki"
+  },
+  {
+   "tipo": "corte",
+   "texto": "Stack overflow es mi terapeuta favorito.",
+   "sub": "TERAPEUTA STACK",
+   "dice": "joy"
+  }
+ ],
+ "relleno_musica": [
+  {
+   "tipo": "musica",
+   "id": "m_wallpaper",
+   "archivo": "m/m_wallpaper.mp3",
+   "titulo": "Wallpaper",
+   "atribucion": "Música: «Wallpaper» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 220,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_sneaky_snitch",
+   "archivo": "m/m_sneaky_snitch.mp3",
+   "titulo": "Sneaky Snitch",
+   "atribucion": "Música: «Sneaky Snitch» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 137,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_cyborg_ninja",
+   "archivo": "m/m_cyborg_ninja.mp3",
+   "titulo": "Cyborg Ninja",
+   "atribucion": "Música: «Cyborg Ninja» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Escuchamos Cyborg Ninja de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Suena a proyecto secreto y velocidad cyberpunk."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Música que encaja perfecto con tecnología oculta."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Yo quiero ser esa cyborg ninja."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_machinations",
+   "archivo": "m/m_machinations.mp3",
+   "titulo": "Machinations",
+   "atribucion": "Música: «Machinations» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 105,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_mechanolith",
+   "archivo": "m/m_mechanolith.mp3",
+   "titulo": "Mechanolith",
+   "atribucion": "Música: «Mechanolith» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 55,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_digital_lemonade",
+   "archivo": "m/m_digital_lemonade.mp3",
+   "titulo": "Digital Lemonade",
+   "atribucion": "Música: «Digital Lemonade» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 180,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_industrial_revolution",
+   "archivo": "m/m_industrial_revolution.mp3",
+   "titulo": "Industrial Revolution",
+   "atribucion": "Música: «Industrial Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 146,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena Industrial Revolution de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Tema que huele a máquinas antiguas y vapor."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Música que nos recuerda los inventos reales de la revolución."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Y cómo algunos quedaron olvidados en la historia."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_rocket_power",
+   "archivo": "m/m_rocket_power.mp3",
+   "titulo": "Rocket Power",
+   "atribucion": "Música: «Rocket Power» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 154,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_space_jazz",
+   "archivo": "m/m_space_jazz.mp3",
+   "titulo": "Space Jazz",
+   "atribucion": "Música: «Space Jazz» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 370,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_fluidscape",
+   "archivo": "m/m_fluidscape.mp3",
+   "titulo": "Fluidscape",
+   "atribucion": "Música: «Fluidscape» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 1821,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_dark_fog",
+   "archivo": "m/m_dark_fog.mp3",
+   "titulo": "Dark Fog",
+   "atribucion": "Música: «Dark Fog» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_darkest_child",
+   "archivo": "m/m_darkest_child.mp3",
+   "titulo": "Darkest Child",
+   "atribucion": "Música: «Darkest Child» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 239,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_funkorama",
+   "archivo": "m/m_funkorama.mp3",
+   "titulo": "Funkorama",
+   "atribucion": "Música: «Funkorama» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 201,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_voxel_revolution",
+   "archivo": "m/m_voxel_revolution.mp3",
+   "titulo": "Voxel Revolution",
+   "atribucion": "Música: «Voxel Revolution» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 130,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_hidden_agenda",
+   "archivo": "m/m_hidden_agenda.mp3",
+   "titulo": "Hidden Agenda",
+   "atribucion": "Música: «Hidden Agenda» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 135,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_robobozo",
+   "archivo": "m/m_robobozo.mp3",
+   "titulo": "Robobozo",
+   "atribucion": "Música: «Robobozo» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 206,
+   "intro": [
+    {
+     "quien": "joy",
+     "texto": "Suena ahora Robobozo de Kevin MacLeod."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Perfecta para hablar de tecnología oculta y robots locos."
+    }
+   ],
+   "outro": [
+    {
+     "quien": "joy",
+     "texto": "Tema ideal para nuestra sección de inventos olvidados."
+    },
+    {
+     "quien": "kuroki",
+     "texto": "Me dan ganas de tocar la batería con él."
+    }
+   ]
+  },
+  {
+   "tipo": "musica",
+   "id": "m_take_a_chance",
+   "archivo": "m/m_take_a_chance.mp3",
+   "titulo": "Take a Chance",
+   "atribucion": "Música: «Take a Chance» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 37,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_pixelland",
+   "archivo": "m/m_pixelland.mp3",
+   "titulo": "Pixelland",
+   "atribucion": "Música: «Pixelland» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 234,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_8bit_dungeon_boss",
+   "archivo": "m/m_8bit_dungeon_boss.mp3",
+   "titulo": "8bit Dungeon Boss",
+   "atribucion": "Música: «8bit Dungeon Boss» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 172,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_newer_wave",
+   "archivo": "m/m_newer_wave.mp3",
+   "titulo": "Newer Wave",
+   "atribucion": "Música: «Newer Wave» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 175,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_netherworld_shanty",
+   "archivo": "m/m_netherworld_shanty.mp3",
+   "titulo": "Netherworld Shanty",
+   "atribucion": "Música: «Netherworld Shanty» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_danger_storm",
+   "archivo": "m/m_danger_storm.mp3",
+   "titulo": "Danger Storm",
+   "atribucion": "Música: «Danger Storm» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 195,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_ghost_story",
+   "archivo": "m/m_ghost_story.mp3",
+   "titulo": "Ghost Story",
+   "atribucion": "Música: «Ghost Story» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 320,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_lightless_dawn",
+   "archivo": "m/m_lightless_dawn.mp3",
+   "titulo": "Lightless Dawn",
+   "atribucion": "Música: «Lightless Dawn» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 380,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_comfortable_mystery_4",
+   "archivo": "m/m_comfortable_mystery_4.mp3",
+   "titulo": "Comfortable Mystery 4",
+   "atribucion": "Música: «Comfortable Mystery 4» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  },
+  {
+   "tipo": "musica",
+   "id": "m_impact_moderato",
+   "archivo": "m/m_impact_moderato.mp3",
+   "titulo": "Impact Moderato",
+   "atribucion": "Música: «Impact Moderato» — Kevin MacLeod (incompetech.com) · Licencia CC BY 4.0",
+   "dur": 76,
+   "intro": [],
+   "outro": []
+  }
+ ],
+ "estado": {
+  "charlas": 5,
+  "sketch": true,
+  "cortes": 8,
+  "videos": 3,
+  "musica": 3
+ }
+}

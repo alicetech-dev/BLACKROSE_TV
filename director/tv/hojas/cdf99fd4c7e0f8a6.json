@@ -1,0 +1,21 @@
+{
+ "semilla": "Qué es una distribución",
+ "hechos": [
+  "Una distribución es un conjunto de software y archivos que permiten a los usuarios instalar y ejecutar un sistema operativo Linux.",
+  "Las distribuciones varían en su enfoque, desde las orientadas al servidor hasta las diseñadas para escritorio o portátiles.",
+  "El núcleo de una distribución suele ser el kernel del sistema operativo junto con una colección de herramientas básicas.",
+  "La interfaz gráfica de usuario es un componente opcional que no todas las distribuciones incluyen por defecto.",
+  "Las distribuciones pueden ser independientes, como Debian, o derivadas de otras, como Ubuntu basada en Debian.",
+  "El proceso de instalación generalmente implica la configuración del sistema de archivos y la selección de paquetes predefinidos.",
+  "La comunidad detrás de cada distribución define sus políticas de seguridad y actualizaciones.",
+  "Las distribuciones ofrecen diferentes entornos de escritorio como GNOME, KDE Plasma o XFCE según las preferencias.",
+  "El código fuente es abierto en todas las distribuciones que siguen el modelo del proyecto GNU/Linux.",
+  "La compatibilidad entre distribuciones puede variar dependiendo de los gestores de paquetes y las librerías utilizadas."
+ ],
+ "leyendas": [
+  "Que todas las distribuciones son iguales porque usan el mismo kernel, ignorando las diferencias en la configuración inicial y las herramientas.",
+  "Que una distribución es mejor que otra simplemente por ser más popular o tener un logo más llamativo."
+ ],
+ "por": "9b",
+ "t": "2026-11-19 03:04"
+}
